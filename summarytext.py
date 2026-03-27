@@ -2,6 +2,7 @@ import os
 import sys
 import json
 import requests
+import time  # Fix L4: Import time untuk retry logic
 from pathlib import Path
 from datetime import datetime
 from tqdm import tqdm
@@ -31,7 +32,7 @@ def get_txt_files():
     if single_dir.exists():
         for f in single_dir.glob("*.txt"):
             txt_files.append({"path": f, "name": f"single/{f.name}"})
-            
+
     # Cari di 'multiple' (batch subdirs)
     multiple_dir = CONVERT_TXT_DIR / "multiple"
     if multiple_dir.exists():
@@ -39,7 +40,7 @@ def get_txt_files():
             if batch_dir.is_dir():
                 for f in batch_dir.glob("*.txt"):
                     txt_files.append({"path": f, "name": f"multiple/{batch_dir.name}/{f.name}"})
-    
+
     return sorted(txt_files, key=lambda x: x['path'].stat().st_mtime, reverse=True)
 
 def select_files(files, mode="single"):
@@ -51,13 +52,13 @@ def select_files(files, mode="single"):
     print(f"\n📂 Files found ({len(files)} files):")
     for i, f in enumerate(files[:20], 1): # Tampilkan 20 terbaru
         print(f"  [{i}] {f['name']}")
-    
+
     if len(files) > 20:
         print(f"  ... and {len(files)-20} more.")
 
     prompt = "Pilih nomor file (contoh: 1): " if mode == "single" else "Pilih nomor file (pisah koma, contoh: 1,2,3): "
     choice = input(f"\n{prompt}").strip()
-    
+
     selected = []
     try:
         if mode == "single":
@@ -71,7 +72,7 @@ def select_files(files, mode="single"):
                     selected.append(files[idx])
     except ValueError:
         print("❌ Input tidak valid.")
-    
+
     return selected
 
 def select_model():
@@ -79,7 +80,7 @@ def select_model():
     print("\n🤖 Pilih Model Summary:")
     for k, v in MODELS.items():
         print(f"  [{k}] {v['display']}")
-    
+
     choice = input("\nPilih nomor (1-7, Default=1): ").strip() or "1"
     return MODELS.get(choice, MODELS["1"])["name"]
 
@@ -87,7 +88,7 @@ def extract_metadata(text):
     """Ekstrak metadata dari header file transcript"""
     lines = text.split("\n")
     metadata = {"language": "id"} # Default to Indonesian
-    
+
     for line in lines[:20]: # Cek 20 baris pertama saja untuk header
         line = line.strip()
         if line.startswith("Detected:"):
@@ -95,7 +96,7 @@ def extract_metadata(text):
             parts = line.split(":", 1)[1].strip().split(" ")
             if parts:
                 metadata["language"] = parts[0].strip().lower()
-                
+
     return metadata
 
 def clean_transcript(text):
@@ -103,32 +104,39 @@ def clean_transcript(text):
     lines = text.split("\n")
     cleaned_lines = []
     in_timestamps = False
-    
+
     for line in lines:
         line = line.strip()
         if not line: continue
-        
+
         # Skip header info
         if any(line.startswith(h) for h in ["Source:", "Language Mode:", "Detected:", "Transcribed:", "====", "TIMESTAMPS:", "TRANSLATION:"]):
             if line.startswith("TIMESTAMPS:"): in_timestamps = True
             continue
-        
+
         # Skip timestamp lines like [00:10 - 00:20]
         if line.startswith("[") and " - " in line and "]" in line:
             continue
-            
+
         if not in_timestamps:
             cleaned_lines.append(line)
-            
+
     return " ".join(cleaned_lines)
 
 def generate_summary(text, model_name, language="id"):
     """Kirim teks ke Ollama API untuk diringkas dengan instruksi spesifik bahasa"""
-    
+
+    # Fix M3: Configurable API URL dengan environment variable
+    ollama_url = os.environ.get("OLLAMA_URL", "http://localhost:11434/api/generate")
+
+    # Fix L4: Retry logic dengan exponential backoff
+    max_retries = 3
+    retry_delay = 2  # detik
+
     # Prompt logic based on detected language
     lang_info = "Bahasa Inggris" if language == "en" else "Bahasa Indonesia"
     print(f"   ℹ️  Bahasa terdeteksi: {language.upper()} ({lang_info})")
-    
+
     if language == "en":
         target_instruction = "Teks asli dalam Bahasa Inggris. Tolong buat ringkasan dalam Bahasa Indonesia yang akurat."
     else:
@@ -202,19 +210,25 @@ TRANSKRIPSI:
 {text}
 """
 
-    url = "http://localhost:11434/api/generate"
-    payload = {
-        "model": model_name,
-        "prompt": prompt,
-        "stream": False
-    }
+    # Fix L4: Retry logic
+    for attempt in range(max_retries):
+        try:
+            response = requests.post(ollama_url, json=payload, timeout=300)
+            response.raise_for_status()
+            return response.json().get("response", "Gagal menghasilkan ringkasan.")
+        except requests.exceptions.Timeout:
+            print(f"   ⚠️ Timeout (attempt {attempt + 1}/{max_retries})")
+            if attempt < max_retries - 1:
+                time.sleep(retry_delay * (attempt + 1))  # Exponential backoff
+        except requests.exceptions.ConnectionError:
+            print(f"   ⚠️ Connection error (attempt {attempt + 1}/{max_retries})")
+            if attempt < max_retries - 1:
+                time.sleep(retry_delay * (attempt + 1))
+        except Exception as e:
+            if attempt == max_retries - 1:
+                return f"❌ Error Ollama: {e}\n(Pastikan Ollama sudah jalan dan model sudah di-'pull')"
 
-    try:
-        response = requests.post(url, json=payload, timeout=300)
-        response.raise_for_status()
-        return response.json().get("response", "Gagal menghasilkan ringkasan.")
-    except Exception as e:
-        return f"❌ Error Ollama: {e}\n(Pastikan Ollama sudah jalan dan model sudah di-'pull')"
+    return "❌ Error: Max retries exceeded"
 
 def save_summary(original_path, summary, model_name):
     """Simpan summary ke folder summary dengan struktur yang sama"""
@@ -222,15 +236,15 @@ def save_summary(original_path, summary, model_name):
         # Hitung path relatif dari folder convert txt
         # Contoh: D:\...\convert txt\single\file.txt -> single\file.txt
         relative_path = original_path.relative_to(CONVERT_TXT_DIR)
-        
+
         # Buat path baru di folder summary
         # Contoh: D:\...\summary\single\file_summary.md
         new_path = SUMMARY_DIR / relative_path
         new_path = new_path.with_name(f"{original_path.stem}_summary.md")
-        
+
         # Pastikan parent directory ada
         new_path.parent.mkdir(parents=True, exist_ok=True)
-        
+
         with open(new_path, "w", encoding="utf-8") as f:
             f.write(f"# Summary: {original_path.stem}\n")
             f.write(f"**Model:** {model_name}\n")
@@ -238,7 +252,7 @@ def save_summary(original_path, summary, model_name):
             f.write("-" * 50 + "\n\n")
             f.write(summary)
             f.write("\n")
-            
+
         print(f"   📂 Disimpan di: summary/{relative_path.parent.name}/{new_path.name}")
         return True
     except Exception as e:
@@ -249,7 +263,7 @@ def main():
     if len(sys.argv) < 2:
         print("Usage: python summarytext.py <single|multiple>")
         sys.exit(1)
-        
+
     mode = sys.argv[1].lower()
     if mode not in ["single", "multiple"]:
         print("❌ Mode harus 'single' atau 'multiple'")
@@ -257,30 +271,30 @@ def main():
 
     files = get_txt_files()
     selected_files = select_files(files, mode)
-    
+
     if not selected_files:
         return
 
     model_name = select_model()
-    
+
     print(f"\n🚀 Memulai proses ringkasan untuk {len(selected_files)} file...")
-    
+
     for item in selected_files:
         path = item['path']
         print(f"\n📄 Memproses: {item['name']}")
-        
+
         with open(path, "r", encoding="utf-8") as f:
             raw_text = f.read()
-            
+
         metadata = extract_metadata(raw_text)
         cleaned_text = clean_transcript(raw_text)
-        
+
         if not cleaned_text.strip():
             print("   ⚠️ File kosong atau tidak ada konten yang bisa diringkas.")
             continue
-            
+
         summary = generate_summary(cleaned_text, model_name, language=metadata.get("language", "id"))
-        
+
         if save_summary(path, summary, model_name):
             print(f"   ✅ Ringkasan berhasil disimpan ke file!")
 

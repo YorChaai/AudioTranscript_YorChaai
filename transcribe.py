@@ -53,6 +53,71 @@ SUPPORTED_LANGS = {
     "auto": "Auto-detect (Mixed)"
 }
 
+# Video to audio conversion
+def convert_video_to_mp3(video_path: Path) -> Path:
+    """
+    Convert video file to MP3 using ffmpeg
+    Returns path to converted audio file
+    """
+    import subprocess
+
+    print(f"   🎬 Converting: {video_path.name}")
+
+    # Output path
+    audio_path = video_path.with_suffix(".mp3")
+
+    # Find ffmpeg
+    ffmpeg_paths = [
+        BASE_DIR / "ffmpeg.exe",
+        Path("C:/ffmpeg/bin/ffmpeg.exe"),
+        Path("C:/Program Files/ffmpeg/bin/ffmpeg.exe"),
+    ]
+
+    ffmpeg_bin = "ffmpeg"  # Default: assume in PATH
+
+    for p in ffmpeg_paths:
+        if p.exists():
+            ffmpeg_bin = str(p)
+            break
+
+    # Build command
+    command = [
+        ffmpeg_bin,
+        "-y",  # Overwrite output
+        "-i", str(video_path),
+        "-vn",  # No video
+        "-acodec", "libmp3lame",
+        "-q:a", "2",  # High quality
+        str(audio_path)
+    ]
+
+    try:
+        result = subprocess.run(
+            command,
+            capture_output=True,
+            text=True,
+            check=False,
+            timeout=600  # 10 minutes timeout
+        )
+
+        if result.returncode != 0:
+            print(f"   ❌ Conversion failed: {result.stderr[:200]}")
+            return None
+
+        if not audio_path.exists() or audio_path.stat().st_size == 0:
+            print(f"   ❌ Output file not created")
+            return None
+
+        print(f"   ✅ Converted: {audio_path.name}")
+        return audio_path
+
+    except subprocess.TimeoutExpired:
+        print(f"   ❌ Conversion timeout (>10 min)")
+        return None
+    except Exception as e:
+        print(f"   ❌ Error: {e}")
+        return None
+
 # Glossary: English -> Indonesian
 # Istilah in akan diproses menjadi: "Terjemahan (Istilah Asli)"
 # Contoh: "data scientist" -> "ilmuwan data (data scientist)"
@@ -966,10 +1031,114 @@ def main():
     mode = sys.argv[1].lower()
     language = sys.argv[2].lower()
 
+    # Fix: Handle custom_folder mode dengan video conversion
+    if mode == "custom_folder":
+        # custom_folder mode: langsung proses folder dengan path custom
+        if len(sys.argv) < 5:
+            print("❌ custom_folder mode requires: path dan file list")
+            sys.exit(1)
+
+        folder_path = Path(sys.argv[3])
+        files_str = sys.argv[4]
+        media_files = [Path(f) for f in files_str.split(",")]
+
+        # validate files
+        media_files = [f for f in media_files if f.exists()]
+
+        if not media_files:
+            print("❌ Tidak ada file valid")
+            sys.exit(1)
+
+        # validate language
+        if language not in SUPPORTED_LANGS:
+            print(f"❌ Language tidak valid: {language}")
+            print("   Gunakan: id, en, ja, atau auto")
+            sys.exit(1)
+
+        # check for translation arguments
+        do_translate = False
+        target_lang = 'id'
+
+        if len(sys.argv) >= 7 and sys.argv[5].lower() == 'tr':
+            do_translate = True
+            target_lang = sys.argv[6].lower()
+            load_glossary()
+
+        # load model
+        model = load_model()
+
+        # process dengan custom folder mode
+        print(f"\n📁 Mode: CUSTOM FOLDER")
+        print(f"📂 Source: {folder_path}")
+        print(f"🌐 Language: {SUPPORTED_LANGS.get(language, 'Auto')}")
+        if do_translate:
+            print(f"🔤 Translate to: {target_lang}")
+        print(f"📋 Files to process: {len(media_files)}")
+        print("=" * 60 + "\n")
+
+        # Separate audio and video files
+        audio_files = [f for f in media_files if f.suffix.lower() in AUDIO_EXTENSIONS]
+        video_files = [f for f in media_files if f.suffix.lower() in VIDEO_EXTENSIONS]
+
+        # Convert video to audio first
+        if video_files:
+            print(f"🎬 Converting {len(video_files)} video files to MP3...\n")
+            converted_audio_files = []
+
+            for video_file in video_files:
+                audio_path = convert_video_to_mp3(video_file)
+                if audio_path:
+                    converted_audio_files.append(audio_path)
+
+            print(f"✅ Converted {len(converted_audio_files)} videos to audio\n")
+            audio_files.extend(converted_audio_files)
+
+        # Process all audio files
+        generated_files = []
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+
+        for i, audio_file in enumerate(audio_files, 1):
+            print(f"\n[{i}/{len(audio_files)}] Processing: {audio_file.name}")
+            print("-" * 40)
+
+            _, out_path = process_file(
+                model,
+                audio_file,
+                OUTPUT_MULTIPLE,
+                language,
+                do_translate,
+                target_lang,
+                preserve_structure=True,
+                selected_folder=folder_path,
+                timestamp=timestamp
+            )
+            generated_files.append(out_path)
+
+        print("\n" + "=" * 60)
+        print("✅ Custom folder processing complete!")
+        print(f"   Processed: {len(audio_files)} files")
+        print(f"   Output: convert txt/multiple/{folder_path.name}/")
+        print("=" * 60)
+
+        # PDF Conversion Prompt
+        if generated_files:
+            print("\n" + "-"*50)
+            print("📄 PDF Conversion")
+            choice = input("Convert to PDF? (1 = Yes, 0 = No): ").strip()
+            if choice == "1":
+                print("\n🔄 Generating PDFs...")
+                for txt_path in generated_files:
+                    convert_pdf.txt_to_pdf(txt_path)
+                print("\n✨ All PDF tasks completed.")
+            else:
+                print("👌 Skipped PDF conversion.")
+
+        return generated_files
+
     # validate mode
-    if mode not in ("single", "multiple"):
+    if mode not in ("single", "multiple", "folder"):
         print(f"❌ Mode tidak valid: {mode}")
-        print("   Gunakan: single atau multiple")
+        print("   Gunakan: single, multiple, atau folder")
         sys.exit(1)
 
     # validate language
