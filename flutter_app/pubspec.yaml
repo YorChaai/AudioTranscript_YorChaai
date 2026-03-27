@@ -1,0 +1,48 @@
+name: audio_convert_app
+description: Audio Convert to Text - Transcribe, Edit, PDF
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # --- Network & Data ---
+  # Untuk komunikasi dengan Flask Server (upload/download/transcribe)
+  http: ^1.2.0
+  http_parser: ^4.0.0
+  
+  # --- File Operations ---
+  # Untuk pilih file audio dari device
+  file_picker: ^8.0.0
+  # Untuk akses folder penyimpanan (download hasil)
+  path_provider: ^2.1.0
+  # Untuk buka file hasil (PDF/TXT) langsung dari app
+  open_file: ^3.3.2
+  
+  # --- State Management ---
+  # Untuk manajemen data antar screen (misal status koneksi)
+  provider: ^6.1.0
+  
+  # --- UI (Tampilan) ---
+  # Icon set standar iOS
+  cupertino_icons: ^1.0.8
+  # Font custom (kita pakai Google Fonts Inter)
+  google_fonts: ^6.1.0
+  # Efek loading yang keren (tulang-tulang loading)
+  shimmer: ^3.0.0
+  
+  # --- Permissions ---
+  # Untuk minta izin akses file di Android 13+
+  permission_handler: ^11.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true

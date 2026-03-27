@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Database
+data/*.db
+data/*.db-shm
+data/*.db-wal
+*.db
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+audio/*
+!audio/.gitkeep
+convert txt/*
+!convert txt/.gitkeep
+summary/*
+!summary/.gitkeep
+data/uploads/*
+!data/uploads/.gitkeep
+
+# Temporary files
+*.tmp
+*.temp
+test_*.txt
+test_*.pdf
+tmp_*.pdf
+
+# Analysis reports (optional - can be kept if needed)
+CODE_ANALYSIS_REPORT.md
+IMPLEMENTATION_SUMMARY.md
