@@ -52,12 +52,13 @@ def get_video_extensions():
     return VIDEO_EXTENSIONS
 
 
-def find_ffmpeg(base_dir: Path = None) -> str:
+def find_ffmpeg(base_dir: Path = None, verbose: bool = False) -> str:
     """
     Find ffmpeg executable in common locations
 
     Args:
         base_dir: Base directory to search (optional)
+        verbose: Whether to print found message
 
     Returns:
         Path to ffmpeg executable
@@ -76,13 +77,13 @@ def find_ffmpeg(base_dir: Path = None) -> str:
         if env_path_obj.is_dir():
             env_path_obj = env_path_obj / "ffmpeg.exe"
         if env_path_obj.exists():
-            print(f"   ✅ FFmpeg found via FFMPEG_PATH: {env_path_obj}")
+            if verbose: print(f"   FFmpeg found via FFMPEG_PATH: {env_path_obj}")
             return str(env_path_obj)
 
     # Check if ffmpeg is in PATH (Windows specific)
     ffmpeg_in_path = shutil.which("ffmpeg.exe") or shutil.which("ffmpeg")
     if ffmpeg_in_path:
-        print(f"   ✅ FFmpeg found in PATH: {ffmpeg_in_path}")
+        if verbose: print(f"   FFmpeg found in PATH: {ffmpeg_in_path}")
         return ffmpeg_in_path
 
     # Local candidates
@@ -106,14 +107,14 @@ def find_ffmpeg(base_dir: Path = None) -> str:
                     if bin_folder.exists():
                         ffmpeg_exe = bin_folder / "ffmpeg.exe"
                         if ffmpeg_exe.exists():
-                            print(f"   ✅ FFmpeg found: {ffmpeg_exe}")
+                            if verbose: print(f"   FFmpeg found: {ffmpeg_exe}")
                             return str(ffmpeg_exe)
     except Exception as e:
-        print(f"   ⚠️ Error scanning C:\\ffmpeg: {e}")
+        if verbose: print(f"   Error scanning C:\\ffmpeg: {e}")
 
     for candidate in local_candidates:
         if candidate.exists():
-            print(f"   ✅ FFmpeg found: {candidate}")
+            if verbose: print(f"   FFmpeg found: {candidate}")
             return str(candidate)
 
     # FFmpeg not found - raise error with helpful message
