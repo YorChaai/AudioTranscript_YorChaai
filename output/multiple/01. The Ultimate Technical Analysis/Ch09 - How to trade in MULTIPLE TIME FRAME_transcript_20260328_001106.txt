@@ -1,0 +1,620 @@
+Source: Ch09 - How to trade in MULTIPLE TIME FRAME.mp3
+Language Mode: Indonesian
+Detected: id (100.0%)
+Transcribed: 2026-03-28 01:20:56
+==================================================
+
+Pada chapter kali ini, Anda akan mempelajari sebuah sistematika trading yang penting. ; How to use multiple time frame for trading? ; Seringkali orang bertanya pada saya, Pak bagaimana cara trading, time frame berapa yang digunakan? ; Ini merupakan pertanyaan yang klasik, tetapi banyak sekali orang yang tidak memahami tentang time frame. ; Akhirnya orang menggunakan time frame itu dengan berbagai macam kesalahan. ; Saya akan jabarkan dulu kesalahannya. ; Contoh, ada berbagai macam time frame. ; Kita bicara di futures market, mulai dari weekly sampai menit, sampai M1. ; Jadi weekly, monthly, kemudian daily, H4, H1, M30, M15, M5, M1. ; Ada orang yang menggunakan voting. ; Kalau H4 bulis, H1 beris, kemudian M30 bulis, M15 bulis, M5 bulis, maka trendnya bulis. ; Banyak yang seperti itu, dan akhirnya mereka hancur. ; Ada juga orang yang kebingungan. ; Terlihat bulis di M15? ; M15, tetapi di H1 terlihat beris, di H4 terlihat bulis, akhirnya bingung sendiri mau ngapain. ; Ini merupakan kesalahan-kesalahan fatal yang dilakukan, kemudian mereka juga memilih-milih time frame. ; Apakah saya trading, kalau saya short term, saya pakai time frame M15. ; Kalau saya long term, saya pakai weekly. ; Ternyata bukan seperti itu. ; Mari saya berikan sebuah teori yang bisa diaplikasikan sesuai dengan nomenklatur time frame yang benar. ; Time frame itu berbicara mengenai, ; mengkotak-kotakan chart. ; Pada dasarnya, time frame itu hanya ilusi, karena time frame yang ada, dan satu-satunya time frame, itu sebenarnya adalah daily time frame. ; Daily time frame itu bekerja karena market itu dibuka setiap hari, dan harga penutupan itu setiap hari. ; Munculnya time frame itu disebabkan karena adanya chart tadi. ; Ada candlestick, ada bar, dimana satu batang candle kita bisa melakukan setting up bahwa satu batang ini, ; dibuat satu hari, atau H4, atau H1, dan seterusnya. ; Ini tentunya akan sangat penting untuk Anda ketahui. ; Karena apabila Anda tidak melakukan setting up time frame dengan benar, ; tidak mengetahui konsep filosofinya, Anda akan terjebak ke misleading konsep dan perspektif seperti itu. ; Lantas bagaimana caranya? ; Kita set terlebih dahulu pemikiran kita bahwa time frame yang utama adalah daily time frame. ; Dan dari daily time frame itu, nanti akan bisa diturunkan untuk melihat yang lebih, ; lebih kecil. ; Menggunakan time frame sama persis seperti Anda menggunakan Google Map. ; Mungkin waktu kita membuka Google Map, kita bisa zoom sekali sampai Anda melihat globe dengan daratan pulaunya. ; Dan kemudian pada saat kita melihat daratan pulau tersebut, Anda bisa lihat, wah saya ternyata lagi di benua ini. ; Lalu kita ingin melihat benuanya itu, di dalam benua itu kota-kota apa saja. ; Pada saat Anda melihat benua, mungkin Anda sedang melihat monthly chart. ; Dan waktu kita masuk ke pulau, ; Jawa, Anda akan melihat pulau Jawa dari Indonesia. ; Dari Indonesia Anda melihat pulau Jawa, ini mungkin Anda masuk weekly chart. ; Setelah pulau Jawa, Anda melihat Jakarta, ini Anda masuk ke daily chart. ; Dan di Jakarta, Anda mungkin akan melihat bundaran HI, Anda masuk ke H4. ; Dan di bundaran HI, Anda melihat ada Plaza Indonesia, Anda masuk ke H1. ; Tapi pada saat kita membuka di monthly, apakah waktu monthly itu bundaran HI dan Plaza Indonesia berbeda tempat? Tidak. ; Pada saat Anda melihat pola pergerakan harga dengan monthly, sebenarnya waktu kita buka di daily itu sama saja. ; Anda melihat bagian daripada elemen daripada keseluruhan pergerakan harga. ; Contoh, kalau Anda melihat kaki gajah dari jauh, itu tetap kaki gajah. ; Dan kalau Anda melihat dengan jarak 1 meter, tetap kaki gajah, tetapi Anda bisa melihat tulangnya, Anda bisa melihat kukunya. ; Tapi apakah dari jarak, katakan 100 meter tadi, atau monthly chart tadi, kaki gajah. ; Kaki gajahnya tidak punya kuku? Tidak, tetap kukunya ada, tapi dengan masuk ke dalam daily chart, Anda bisa melihat lebih detail bagaimana kuku tersebut bentuknya. ; Itu adalah konsep filosofi daripada time frame. ; Nah, pada saat kita trading, yang penting untuk Anda ketahui, dan ini tidak banyak yang memahami, ada 2 yang harus Anda bedakan. ; Bagian yang pertama, Anda memilih the major time frame. Major time frame boleh berapapun, ini simpelnya. ; Karena nanti detailnya saya akan contohkan di CIT program, itu akan ada pembahasan lebih dalam tentang time frame ini dan aplikasinya. ; Tetapi untuk basic course, Anda harus memahami yang paling simpel. Tentukan major time frame bisa berapapun. ; Katakan Anda suka dengan H4, karena volatility-nya tidak terlalu besar. Anda menggunakan H4 sebagai major time frame. ; Dan major time frame ini bertugas untuk memberikan informasi pada Anda ke manakah arah pergerakan harga, bullish atau bearish, atau sideways. ; Di dalam major time frame, Anda bisa melihat kaki gajah. ; Di dalam major time frame, Anda tidak menentukan buy atau sell. Yang Anda tentukan di sini adalah bull atau bear. ; Setelah kita menentukan kepala cangkulnya seperti ini dan harganya bergerak di atas moving average dan seterusnya, ; maka berikutnya kita sudah tahu bahwa ini bergerak dalam kondisi bull. ; Pada saat kita sudah menentukan itu bull, kita taruh di otak kita bahwa market adalah bull, ; maka kita akan masuk di dalam time frame yang lebih kecil untuk melihat kuku daripada gajah tadi. ; Kalau gajah adalah bull, berarti Anda melihat kuku daripada bull tadi dengan menggunakan time frame M30. ; Kenapa M30? Saya biasanya menggunakan 2 derajat. Kalau H4, saya pakai M30. ; Kalau weekly, saya turunkan ke daily, karena 1 daily itu sama dengan 5 weekly, jadi cukup nyaman untuk dilihat. ; Karena terlalu besar time frame, juga susah. Terlalu kecil time frame, tidak nyaman. ; Nah, desain seperti apa itu sudah masuk ke advance, tapi untuk basic, just use our template. Anda menggunakan H4 untuk menentukan major-nya. ; Untuk mendapatkan jawaban bullish atau bearish atau sideways, setelah Anda yakin bull atau bear, ; Anda sudah menemukan, baik, kalau akan terjadi bear, maka saya akan mengambil posisi sell. ; Dan waktu sell, kita turunkan ke time frame yang lebih kecil, katakan di M30, dan di M30 inilah Anda menjawab pertanyaan, ; saya akan sell dan sell di mana? Walaupun M30-nya naik, dan Anda percaya bahwa H4-nya dalam kondisi yang bearish, ; maka di M30 yang naik ini, ; Anda bukan membeli, tetapi menunggu naiknya selesai, dan kemudian Anda baru melakukan sell. ; Sekali lagi, walaupun H4-nya kita sudah tentukan itu bearish, tetapi M30-nya sedang bullish, kita tidak boleh berkata bahwa bullish, saya buy dulu deh. ; Tidak, karena itu akan melawan arah trend. Anda menunggu sampai naiknya selesai, Anda menghitung pola-pola yang mungkin terjadi, ; atau mungkin Anda menunggu pola M atau double tap terjadi di M30, setelah itu, baru Anda tentukan sell, karena di secondary time frame atau di entry time frame, ; kita menentukan sell atau buy-nya. ; Jadi cukup jelas penggunaan time frame di sini, dan kita akan masuk di aplikasi untuk membahasnya. ; Kita akan memasuki aplikasi dari multiple time frame. ; Sebagai contoh, saya akan mengerjakan analisis pada GPP Jepang Yen. ; Kita melihat bahwa saya menggunakan major time frame H4, dan terlihat di sini harga bergerak dalam kondisi bearish, karena dia berada di area bawah daripada, ; dan ini adalah moving average, dynamic resistance, dan ini adalah konsolidasinya kepala canggul pertama, ; dan kita yakin membuat sebuah roadmap bahwa setelah ini mengalami penurunan seperti ini, kemudian dia mulai naik seperti ini, dan kemudian akan turun ke bawah. ; Jadi, di dalam time frame major, kita akan menyebutkan bahwa trend bergerak di dalam bearish trend, maka yang harus kita lakukan adalah sell, ; apalagi dia sudah membuat kepala canggul yang kecil. ; Kalau kita melihat kepala canggul yang kecil di sini, di minarnya, maka yang saya concern adalah bagaimana caranya kita bisa entry sell, ; pada saat harga mencapai area dynamic resistance, dan kemudian kita percaya bahwa setelah ini dia akan turun. ; Apakah dia turun menembus bawah, atau nanti dia berhenti sampai di tengah-tengah, yang jelas ini akan memberikan range penurunan minimal 140 pips. ; Yang harus kita perhatikan sekarang, dari major time frame, H4, kita turun ke M30. ; Karena di M30, Anda bisa melihat lebih detail di sini, seperti teori tentang Google Map tadi. ; Kalau di monthly, saya melihat hanya bagian ini saja. ; Ternyata bagian ini, kalau kita ke weekly, yang saya area warna kuning, sudah menjadi beberapa bar, semakin kelihatan pulaunya. ; Pada saat saya buka ke daily, menjadi beberapa bar. ; Tetapi bentuknya sama, ayunannya sama, dan sekarang kita akan fokus di mana? ; Kita akan fokus di wilayah area ini saja, yang berwarna putih. ; Karena kita yakin bahwa pelemahan ini masih akan berlanjut, kalau kita lihat di sini, masih akan berlanjut, arahnya tetap down. ; Dan yang kita bahas tadi, hanya bagian kecil, ini bagian kecil. ; Sama seperti kita melihat peta, ini hanya bagian kecil di sini, kemudian kita membahas bagaimana saya menikmati ; range besar turun, saya buka H4. ; Jadi sebenarnya ini hanya menunjukkan kepada Anda bagaimana cara manajemen time frame itu. ; Sebenarnya yang kita bahas tadi itu cuma area yang berwarna, saya berikan warna ya, orange. ; Sebenarnya yang kita bahas tadi yang orange, tetapi kalau kita melihat dari time frame yang besar, akan terlihat perbedaannya. ; Perbedaannya adalah Anda tidak akan melihat orange ini, kalau dilihat dari monthly, mata orang biasanya langsung melihat dari sini, itu salahnya. ; Padahal sebenarnya kita spoting yang ini, orange, kita tidak kelihatan. ; Kalau saya buat di daily, terlihat kecil, nah sebenarnya yang akan kita bahas itu kita entry di area orange itu. ; Makanya majernya jangan terlalu besar, karena kita memilih bagian-bagian fraktal harga sebenarnya, tidak semuanya. ; Karena kalau Anda pakai Google Map kan, kita tahu kita mau jalan kemana, ya kita pakai range yang seberapa. ; Tidak mungkin lihat sampai pulau-pulaunya semua. ; Nah, di dalam kasus ini kita membicarakan tentang range. ; Yang ada di orange ini, lalu entry cell saya pakai M30. ; Nah, di M30 ini sebenarnya belum terlihat adanya pembalikan arah, saya masuk spekulasi. ; Yang harus kita perhatikan, ini nanti akan turun dulu ke bentuk kepala cangkul. ; Ingat, sebelum dia berbalik arah menjadi bearish pun dia harus membentuk kepala cangkul, kemudian dia membentuk lower high, baru dia turun. ; Nah, pada saat sudah terbukti dia membentuk lower high, ; ini nanti saya akan tambah posisi, tetapi sekarang saya sudah mulai mencoba masuk dulu. ; Cara kita tahu dia akan turun dulu, mengayun lagi ke atas. ; Nah, inilah fungsi daripada menggunakan multiple time frame sebenarnya. ; Mari kita coba di gold market. ; Kita percaya bahwa kenaikan ini akan berhenti di area Fibonacci 78,6 misalnya. ; Ini kita menggunakan XAB, parameter XAB. ; Ini XAB, kemudian saya mencoba menggunakan dengan sudut pandang yang lain, yaitu XAY. ; Terlihat di sini harga sebenarnya sudah mencapai area harmonic resistance, dan terakhir dia masih bisa naik sampai 78,6 kira-kira. ; Ini sudah maksimal. ; Yang harus kita lakukan, kita menggambar roadmap terlebih dahulu. ; Setelah dia turun ke sini, kemudian dia naik sampai ke sini. ; Dan akan ada penurunan, setidaknya kemana, kita sudah tahu di sini ada area exponential moving average. ; Dia akan kembali ke 1325. ; Yang harus kita lakukan adalah kita percaya bahwa ini masih ada kenaikan sebentar lagi, lalu berbalik arah menjadi bear. ; Maka saya tidak mau buy, karena apa kalau kita buy di posisi ini akan beresiko, karena resikonya apa? ; Di syarat naik dulu, kecuali di M30-nya kita menemukan pola sell. ; Apakah pola M atau pola rising wage? ; Apakah kita sudah menemukan pola di sini? ; Belum terlihat ada pola pembalikan arah, oleh karena itu kita membuat skenario. ; Karena ingat, di dalam trend bearish, dari bull ke bear, itu selalu nanti diikuti dengan pembalikan arah harga. ; Misalnya turun ke sini, dan naik tidak mampu menembus, lalu dia akan turun ke bawah seperti ini. ; Ini adalah pembalikan arah dari bull ke bear. ; Dia akan berbalik, dan pada saat ini semua terbukti, kita akan enter di M30 untuk melakukan sell trade. ; Bagaimana dengan pair yang lain? ; Atau mungkin kita akan melihat di saham terlebih dahulu. ; Mari kita lihat saham BBRI. ; Saya menggunakan weekly untuk menggambarkan peta pergerakan harganya. ; Forecasting, bull atau bear, itu ditentukan di sini. ; Kalau saya melihat seperti ini, maka gambaran yang ada di sini adalah dia up 1, badan canggul besar. ; Kemudian membentuk badan canggul kecil, dan pada akhirnya dia tarik ke atas cukup tinggi. ; Dan di sinilah kita akan melihat petanya akan terus ke atas, dan ini bagian minor trendnya. ; Saya turunkan ke daily, ternyata minor trend tadi adalah bagian ini. ; Dan bagian inilah yang akan menjadi fokus kita, di mana bagian yang kecil-kecil ini. ; Ini lihat, kalau saya di weekly dia bagiannya di sini. ; Ternyata kalau di daily lebih jelas, dan di sini kita mencari entry-nya. ; Bagaimana cara entry-nya? ; Apakah ada pola? Kalau kita tarik begini, kemudian kita sambungkan ke bawah, kemungkinan akan terjadi falling wedge. ; Jadi mungkin saya akan menunggu dia turun, kemudian naik. ; Ini opsi pertama. ; Opsi kedua, saya menggunakan strategi breakout. ; Itu bisa yang jelas di time frame yang kecil ini, kita harus sepakat. ; Bukan berarti kalau kita percaya time frame besarnya up, lalu time frame-nya kalau kecil kita sell dulu. ; Tidak. Kita harus in line dengan major-nya. ; Jadi itu cara kita menggunakan 2 time frame. ; Time frame major untuk forecasting, dan time frame yang kecil itu untuk entry. ; Dengan begitu, Anda bisa sangat objektif sekali di dalam menentukan pergerakan harga. ; Karena ini akan menjadi aturan main yang sangat penting sekali dan setiap dari kita bisa trading dengan sangat objektif. ; Saat kita menggunakan 2 time frame dan kita tahu fungsinya untuk apa. ; Pada saat ini terjadi, kita tahu dia akan turun, tetap kita melakukan zooming di M30 selama dia belum muncul pattern bearish reversal. ; Anda tidak boleh melakukan sell, kecuali memang niatnya adalah spekulatif untuk mengambil pendek misalnya di sini. ; Tetapi secara besarnya, Anda harus melihat di time frame entry benar-benar terjadi either double top. ; Ini opsi pertama terjadinya double top. ; Atau Anda melihat pelemahan harga, mungkin sampai di sini. ; Lalu dia turun. ; Yang jelas, ini semua akan kita bicarakan di time frame yang lebih kecil. ; Candlestick semuanya, trigger untuk entry, ekor, dan seterusnya kita bisa lihat di time frame yang lebih kecil. ; Karena akan lebih presisi kalau Anda melihat di time frame yang lebih kecil. ; Bagaimana dengan mata uangnya lain misalnya di GBP? ; Karena dia sideways, misalnya saya menggunakan daily sekarang untuk range yang lebih besar. ; Dia sideways, kemudian untuk futures kita harus melihat rangkaian yang lebih kecil. ; Jangan-jangan rangkaian yang terlalu besar. ; Yang sebelum-sebelumnya tidak perlu kita lihat. ; Kita lihat ini sekarang. ; Naik, kemudian dia turun. ; Lalu kita tahu dia akan bikin kepala canggul. ; Kepala canggulnya akan kemana? ; Gunakan XAB. ; Kita tarik di sini, ingat teori 50 dan 62. ; Kurang lebih kenaikannya sampai di sini. ; Lalu kita buka di H1. ; Kita sekarang pakai H1 karena di daily. ; Targetnya di area kuning. ; Sekarang masih di sini. ; Berarti yang bisa Anda lakukan adalah Anda menunggu terbentuknya kepala canggul dan kemudian ini naik kembali. ; Apakah nanti muncul inside bar? Itu bisa kita manfaatkan. ; Tapi yang jelas fungsi daripada multiple time frame, ada major time frame untuk menentukan forecasting arah harga. ; Kalau kita sudah sepakat dia akan naik, maka pilihannya adalah buy. ; Kemudian minor time frame itu untuk melakukan buy. ; Kalau major time frame maksud saya adalah forecasting bull dan hasil dari bull itu di minor time frame atau entry time frame kita memutuskan buy. ; Walaupun dia turun di sini, saya tidak akan sell. ; Tapi saya akan menunggu sampai dia benar-benar terjadi pembalikan arah atau muncul pola-pola misalnya ada inside bar, kita bisa ada trigger untuk entry. ; Seringkali orang tidak sabar, dia buy di sini lalu diseret ke bawah, lotnya besar, akhirnya kena margin call dan ini menjadi berbahaya. ; Oleh karena itu strukturnya harus selalu ingat forecasting di time frame yang lebih besar kemudian Anda masuk di time frame yang lebih kecil untuk entry nya. ; Dan ini akan membuat Anda menjadi trader yang sukses di dalam financial market. ; Demikianlah multiple time frame, Anda pasti akan mendapatkan benefit yang luar biasa sambil kita terus berlatih nanti Anda akan tahu hasilnya bagaimana trading dengan lebih baik melalui multiple time frame. ; Terima kasih telah menonton.
+
+==================================================
+TIMESTAMPS:
+
+[01:31 - 01:36]
+Pada chapter kali ini, Anda akan mempelajari sebuah sistematika trading yang penting.
+
+[01:37 - 01:39]
+How to use multiple time frame for trading?
+
+[01:40 - 01:45]
+Seringkali orang bertanya pada saya, Pak bagaimana cara trading, time frame berapa yang digunakan?
+
+[01:45 - 01:50]
+Ini merupakan pertanyaan yang klasik, tetapi banyak sekali orang yang tidak memahami tentang time frame.
+
+[01:50 - 01:55]
+Akhirnya orang menggunakan time frame itu dengan berbagai macam kesalahan.
+
+[01:55 - 01:57]
+Saya akan jabarkan dulu kesalahannya.
+
+[01:57 - 01:59]
+Contoh, ada berbagai macam time frame.
+
+[01:59 - 02:03]
+Kita bicara di futures market, mulai dari weekly sampai menit, sampai M1.
+
+[02:03 - 02:11]
+Jadi weekly, monthly, kemudian daily, H4, H1, M30, M15, M5, M1.
+
+[02:12 - 02:14]
+Ada orang yang menggunakan voting.
+
+[02:14 - 02:22]
+Kalau H4 bulis, H1 beris, kemudian M30 bulis, M15 bulis, M5 bulis, maka trendnya bulis.
+
+[02:22 - 02:24]
+Banyak yang seperti itu, dan akhirnya mereka hancur.
+
+[02:25 - 02:26]
+Ada juga orang yang kebingungan.
+
+[02:27 - 02:29]
+Terlihat bulis di M15?
+
+[02:29 - 02:34]
+M15, tetapi di H1 terlihat beris, di H4 terlihat bulis, akhirnya bingung sendiri mau ngapain.
+
+[02:35 - 02:40]
+Ini merupakan kesalahan-kesalahan fatal yang dilakukan, kemudian mereka juga memilih-milih time frame.
+
+[02:40 - 02:44]
+Apakah saya trading, kalau saya short term, saya pakai time frame M15.
+
+[02:44 - 02:46]
+Kalau saya long term, saya pakai weekly.
+
+[02:47 - 02:48]
+Ternyata bukan seperti itu.
+
+[02:49 - 02:54]
+Mari saya berikan sebuah teori yang bisa diaplikasikan sesuai dengan nomenklatur time frame yang benar.
+
+[02:55 - 02:58]
+Time frame itu berbicara mengenai,
+
+[02:59 - 03:00]
+mengkotak-kotakan chart.
+
+[03:01 - 03:10]
+Pada dasarnya, time frame itu hanya ilusi, karena time frame yang ada, dan satu-satunya time frame, itu sebenarnya adalah daily time frame.
+
+[03:11 - 03:18]
+Daily time frame itu bekerja karena market itu dibuka setiap hari, dan harga penutupan itu setiap hari.
+
+[03:18 - 03:22]
+Munculnya time frame itu disebabkan karena adanya chart tadi.
+
+[03:22 - 03:29]
+Ada candlestick, ada bar, dimana satu batang candle kita bisa melakukan setting up bahwa satu batang ini,
+
+[03:29 - 03:32]
+dibuat satu hari, atau H4, atau H1, dan seterusnya.
+
+[03:33 - 03:35]
+Ini tentunya akan sangat penting untuk Anda ketahui.
+
+[03:36 - 03:40]
+Karena apabila Anda tidak melakukan setting up time frame dengan benar,
+
+[03:40 - 03:45]
+tidak mengetahui konsep filosofinya, Anda akan terjebak ke misleading konsep dan perspektif seperti itu.
+
+[03:45 - 03:47]
+Lantas bagaimana caranya?
+
+[03:47 - 03:53]
+Kita set terlebih dahulu pemikiran kita bahwa time frame yang utama adalah daily time frame.
+
+[03:53 - 03:59]
+Dan dari daily time frame itu, nanti akan bisa diturunkan untuk melihat yang lebih,
+
+[03:59 - 03:59]
+lebih kecil.
+
+[03:59 - 04:03]
+Menggunakan time frame sama persis seperti Anda menggunakan Google Map.
+
+[04:04 - 04:10]
+Mungkin waktu kita membuka Google Map, kita bisa zoom sekali sampai Anda melihat globe dengan daratan pulaunya.
+
+[04:10 - 04:17]
+Dan kemudian pada saat kita melihat daratan pulau tersebut, Anda bisa lihat, wah saya ternyata lagi di benua ini.
+
+[04:18 - 04:23]
+Lalu kita ingin melihat benuanya itu, di dalam benua itu kota-kota apa saja.
+
+[04:23 - 04:26]
+Pada saat Anda melihat benua, mungkin Anda sedang melihat monthly chart.
+
+[04:26 - 04:29]
+Dan waktu kita masuk ke pulau,
+
+[04:29 - 04:32]
+Jawa, Anda akan melihat pulau Jawa dari Indonesia.
+
+[04:33 - 04:35]
+Dari Indonesia Anda melihat pulau Jawa, ini mungkin Anda masuk weekly chart.
+
+[04:35 - 04:40]
+Setelah pulau Jawa, Anda melihat Jakarta, ini Anda masuk ke daily chart.
+
+[04:40 - 04:45]
+Dan di Jakarta, Anda mungkin akan melihat bundaran HI, Anda masuk ke H4.
+
+[04:46 - 04:49]
+Dan di bundaran HI, Anda melihat ada Plaza Indonesia, Anda masuk ke H1.
+
+[04:50 - 04:58]
+Tapi pada saat kita membuka di monthly, apakah waktu monthly itu bundaran HI dan Plaza Indonesia berbeda tempat? Tidak.
+
+[04:59 - 05:06]
+Pada saat Anda melihat pola pergerakan harga dengan monthly, sebenarnya waktu kita buka di daily itu sama saja.
+
+[05:07 - 05:12]
+Anda melihat bagian daripada elemen daripada keseluruhan pergerakan harga.
+
+[05:12 - 05:16]
+Contoh, kalau Anda melihat kaki gajah dari jauh, itu tetap kaki gajah.
+
+[05:16 - 05:23]
+Dan kalau Anda melihat dengan jarak 1 meter, tetap kaki gajah, tetapi Anda bisa melihat tulangnya, Anda bisa melihat kukunya.
+
+[05:23 - 05:29]
+Tapi apakah dari jarak, katakan 100 meter tadi, atau monthly chart tadi, kaki gajah.
+
+[05:29 - 05:37]
+Kaki gajahnya tidak punya kuku? Tidak, tetap kukunya ada, tapi dengan masuk ke dalam daily chart, Anda bisa melihat lebih detail bagaimana kuku tersebut bentuknya.
+
+[05:37 - 05:40]
+Itu adalah konsep filosofi daripada time frame.
+
+[05:41 - 05:48]
+Nah, pada saat kita trading, yang penting untuk Anda ketahui, dan ini tidak banyak yang memahami, ada 2 yang harus Anda bedakan.
+
+[05:49 - 05:56]
+Bagian yang pertama, Anda memilih the major time frame. Major time frame boleh berapapun, ini simpelnya.
+
+[05:56 - 06:02]
+Karena nanti detailnya saya akan contohkan di CIT program, itu akan ada pembahasan lebih dalam tentang time frame ini dan aplikasinya.
+
+[06:02 - 06:08]
+Tetapi untuk basic course, Anda harus memahami yang paling simpel. Tentukan major time frame bisa berapapun.
+
+[06:08 - 06:14]
+Katakan Anda suka dengan H4, karena volatility-nya tidak terlalu besar. Anda menggunakan H4 sebagai major time frame.
+
+[06:15 - 06:24]
+Dan major time frame ini bertugas untuk memberikan informasi pada Anda ke manakah arah pergerakan harga, bullish atau bearish, atau sideways.
+
+[06:24 - 06:26]
+Di dalam major time frame, Anda bisa melihat kaki gajah.
+
+[06:26 - 06:31]
+Di dalam major time frame, Anda tidak menentukan buy atau sell. Yang Anda tentukan di sini adalah bull atau bear.
+
+[06:32 - 06:38]
+Setelah kita menentukan kepala cangkulnya seperti ini dan harganya bergerak di atas moving average dan seterusnya,
+
+[06:38 - 06:43]
+maka berikutnya kita sudah tahu bahwa ini bergerak dalam kondisi bull.
+
+[06:43 - 06:49]
+Pada saat kita sudah menentukan itu bull, kita taruh di otak kita bahwa market adalah bull,
+
+[06:49 - 06:55]
+maka kita akan masuk di dalam time frame yang lebih kecil untuk melihat kuku daripada gajah tadi.
+
+[06:55 - 07:01]
+Kalau gajah adalah bull, berarti Anda melihat kuku daripada bull tadi dengan menggunakan time frame M30.
+
+[07:02 - 07:06]
+Kenapa M30? Saya biasanya menggunakan 2 derajat. Kalau H4, saya pakai M30.
+
+[07:06 - 07:12]
+Kalau weekly, saya turunkan ke daily, karena 1 daily itu sama dengan 5 weekly, jadi cukup nyaman untuk dilihat.
+
+[07:12 - 07:16]
+Karena terlalu besar time frame, juga susah. Terlalu kecil time frame, tidak nyaman.
+
+[07:17 - 07:24]
+Nah, desain seperti apa itu sudah masuk ke advance, tapi untuk basic, just use our template. Anda menggunakan H4 untuk menentukan major-nya.
+
+[07:25 - 07:30]
+Untuk mendapatkan jawaban bullish atau bearish atau sideways, setelah Anda yakin bull atau bear,
+
+[07:30 - 07:35]
+Anda sudah menemukan, baik, kalau akan terjadi bear, maka saya akan mengambil posisi sell.
+
+[07:35 - 07:42]
+Dan waktu sell, kita turunkan ke time frame yang lebih kecil, katakan di M30, dan di M30 inilah Anda menjawab pertanyaan,
+
+[07:42 - 07:52]
+saya akan sell dan sell di mana? Walaupun M30-nya naik, dan Anda percaya bahwa H4-nya dalam kondisi yang bearish,
+
+[07:52 - 07:55]
+maka di M30 yang naik ini,
+
+[07:55 - 08:00]
+Anda bukan membeli, tetapi menunggu naiknya selesai, dan kemudian Anda baru melakukan sell.
+
+[08:01 - 08:09]
+Sekali lagi, walaupun H4-nya kita sudah tentukan itu bearish, tetapi M30-nya sedang bullish, kita tidak boleh berkata bahwa bullish, saya buy dulu deh.
+
+[08:09 - 08:15]
+Tidak, karena itu akan melawan arah trend. Anda menunggu sampai naiknya selesai, Anda menghitung pola-pola yang mungkin terjadi,
+
+[08:15 - 08:24]
+atau mungkin Anda menunggu pola M atau double tap terjadi di M30, setelah itu, baru Anda tentukan sell, karena di secondary time frame atau di entry time frame,
+
+[08:25 - 08:27]
+kita menentukan sell atau buy-nya.
+
+[08:27 - 08:32]
+Jadi cukup jelas penggunaan time frame di sini, dan kita akan masuk di aplikasi untuk membahasnya.
+
+[08:37 - 08:41]
+Kita akan memasuki aplikasi dari multiple time frame.
+
+[08:42 - 08:47]
+Sebagai contoh, saya akan mengerjakan analisis pada GPP Jepang Yen.
+
+[08:47 - 08:59]
+Kita melihat bahwa saya menggunakan major time frame H4, dan terlihat di sini harga bergerak dalam kondisi bearish, karena dia berada di area bawah daripada,
+
+[09:00 - 09:04]
+dan ini adalah moving average, dynamic resistance, dan ini adalah konsolidasinya kepala canggul pertama,
+
+[09:04 - 09:15]
+dan kita yakin membuat sebuah roadmap bahwa setelah ini mengalami penurunan seperti ini, kemudian dia mulai naik seperti ini, dan kemudian akan turun ke bawah.
+
+[09:15 - 09:26]
+Jadi, di dalam time frame major, kita akan menyebutkan bahwa trend bergerak di dalam bearish trend, maka yang harus kita lakukan adalah sell,
+
+[09:26 - 09:29]
+apalagi dia sudah membuat kepala canggul yang kecil.
+
+[09:30 - 09:39]
+Kalau kita melihat kepala canggul yang kecil di sini, di minarnya, maka yang saya concern adalah bagaimana caranya kita bisa entry sell,
+
+[09:40 - 09:48]
+pada saat harga mencapai area dynamic resistance, dan kemudian kita percaya bahwa setelah ini dia akan turun.
+
+[09:48 - 09:58]
+Apakah dia turun menembus bawah, atau nanti dia berhenti sampai di tengah-tengah, yang jelas ini akan memberikan range penurunan minimal 140 pips.
+
+[09:58 - 10:04]
+Yang harus kita perhatikan sekarang, dari major time frame, H4, kita turun ke M30.
+
+[10:05 - 10:11]
+Karena di M30, Anda bisa melihat lebih detail di sini, seperti teori tentang Google Map tadi.
+
+[10:11 - 10:15]
+Kalau di monthly, saya melihat hanya bagian ini saja.
+
+[10:16 - 10:23]
+Ternyata bagian ini, kalau kita ke weekly, yang saya area warna kuning, sudah menjadi beberapa bar, semakin kelihatan pulaunya.
+
+[10:23 - 10:27]
+Pada saat saya buka ke daily, menjadi beberapa bar.
+
+[10:27 - 10:32]
+Tetapi bentuknya sama, ayunannya sama, dan sekarang kita akan fokus di mana?
+
+[10:32 - 10:36]
+Kita akan fokus di wilayah area ini saja, yang berwarna putih.
+
+[10:37 - 10:46]
+Karena kita yakin bahwa pelemahan ini masih akan berlanjut, kalau kita lihat di sini, masih akan berlanjut, arahnya tetap down.
+
+[10:47 - 10:51]
+Dan yang kita bahas tadi, hanya bagian kecil, ini bagian kecil.
+
+[10:51 - 10:57]
+Sama seperti kita melihat peta, ini hanya bagian kecil di sini, kemudian kita membahas bagaimana saya menikmati
+
+[10:57 - 11:00]
+range besar turun, saya buka H4.
+
+[11:00 - 11:04]
+Jadi sebenarnya ini hanya menunjukkan kepada Anda bagaimana cara manajemen time frame itu.
+
+[11:04 - 11:10]
+Sebenarnya yang kita bahas tadi itu cuma area yang berwarna, saya berikan warna ya, orange.
+
+[11:11 - 11:18]
+Sebenarnya yang kita bahas tadi yang orange, tetapi kalau kita melihat dari time frame yang besar, akan terlihat perbedaannya.
+
+[11:20 - 11:27]
+Perbedaannya adalah Anda tidak akan melihat orange ini, kalau dilihat dari monthly, mata orang biasanya langsung melihat dari sini, itu salahnya.
+
+[11:27 - 11:29]
+Padahal sebenarnya kita spoting yang ini, orange, kita tidak kelihatan.
+
+[11:30 - 11:36]
+Kalau saya buat di daily, terlihat kecil, nah sebenarnya yang akan kita bahas itu kita entry di area orange itu.
+
+[11:36 - 11:43]
+Makanya majernya jangan terlalu besar, karena kita memilih bagian-bagian fraktal harga sebenarnya, tidak semuanya.
+
+[11:43 - 11:49]
+Karena kalau Anda pakai Google Map kan, kita tahu kita mau jalan kemana, ya kita pakai range yang seberapa.
+
+[11:50 - 11:52]
+Tidak mungkin lihat sampai pulau-pulaunya semua.
+
+[11:53 - 11:56]
+Nah, di dalam kasus ini kita membicarakan tentang range.
+
+[11:57 - 12:01]
+Yang ada di orange ini, lalu entry cell saya pakai M30.
+
+[12:02 - 12:08]
+Nah, di M30 ini sebenarnya belum terlihat adanya pembalikan arah, saya masuk spekulasi.
+
+[12:08 - 12:12]
+Yang harus kita perhatikan, ini nanti akan turun dulu ke bentuk kepala cangkul.
+
+[12:12 - 12:23]
+Ingat, sebelum dia berbalik arah menjadi bearish pun dia harus membentuk kepala cangkul, kemudian dia membentuk lower high, baru dia turun.
+
+[12:23 - 12:26]
+Nah, pada saat sudah terbukti dia membentuk lower high,
+
+[12:26 - 12:30]
+ini nanti saya akan tambah posisi, tetapi sekarang saya sudah mulai mencoba masuk dulu.
+
+[12:31 - 12:33]
+Cara kita tahu dia akan turun dulu, mengayun lagi ke atas.
+
+[12:34 - 12:38]
+Nah, inilah fungsi daripada menggunakan multiple time frame sebenarnya.
+
+[12:39 - 12:41]
+Mari kita coba di gold market.
+
+[12:42 - 12:52]
+Kita percaya bahwa kenaikan ini akan berhenti di area Fibonacci 78,6 misalnya.
+
+[12:52 - 12:56]
+Ini kita menggunakan XAB, parameter XAB.
+
+[12:56 - 13:03]
+Ini XAB, kemudian saya mencoba menggunakan dengan sudut pandang yang lain, yaitu XAY.
+
+[13:04 - 13:13]
+Terlihat di sini harga sebenarnya sudah mencapai area harmonic resistance, dan terakhir dia masih bisa naik sampai 78,6 kira-kira.
+
+[13:13 - 13:15]
+Ini sudah maksimal.
+
+[13:17 - 13:20]
+Yang harus kita lakukan, kita menggambar roadmap terlebih dahulu.
+
+[13:20 - 13:25]
+Setelah dia turun ke sini, kemudian dia naik sampai ke sini.
+
+[13:26 - 13:32]
+Dan akan ada penurunan, setidaknya kemana, kita sudah tahu di sini ada area exponential moving average.
+
+[13:32 - 13:34]
+Dia akan kembali ke 1325.
+
+[13:34 - 13:41]
+Yang harus kita lakukan adalah kita percaya bahwa ini masih ada kenaikan sebentar lagi, lalu berbalik arah menjadi bear.
+
+[13:42 - 13:49]
+Maka saya tidak mau buy, karena apa kalau kita buy di posisi ini akan beresiko, karena resikonya apa?
+
+[13:49 - 13:54]
+Di syarat naik dulu, kecuali di M30-nya kita menemukan pola sell.
+
+[13:54 - 13:56]
+Apakah pola M atau pola rising wage?
+
+[13:58 - 14:00]
+Apakah kita sudah menemukan pola di sini?
+
+[14:00 - 14:05]
+Belum terlihat ada pola pembalikan arah, oleh karena itu kita membuat skenario.
+
+[14:05 - 14:13]
+Karena ingat, di dalam trend bearish, dari bull ke bear, itu selalu nanti diikuti dengan pembalikan arah harga.
+
+[14:13 - 14:21]
+Misalnya turun ke sini, dan naik tidak mampu menembus, lalu dia akan turun ke bawah seperti ini.
+
+[14:21 - 14:26]
+Ini adalah pembalikan arah dari bull ke bear.
+
+[14:26 - 14:35]
+Dia akan berbalik, dan pada saat ini semua terbukti, kita akan enter di M30 untuk melakukan sell trade.
+
+[14:37 - 14:38]
+Bagaimana dengan pair yang lain?
+
+[14:39 - 14:42]
+Atau mungkin kita akan melihat di saham terlebih dahulu.
+
+[14:44 - 14:46]
+Mari kita lihat saham BBRI.
+
+[14:46 - 14:51]
+Saya menggunakan weekly untuk menggambarkan peta pergerakan harganya.
+
+[14:51 - 14:54]
+Forecasting, bull atau bear, itu ditentukan di sini.
+
+[14:54 - 15:03]
+Kalau saya melihat seperti ini, maka gambaran yang ada di sini adalah dia up 1, badan canggul besar.
+
+[15:05 - 15:11]
+Kemudian membentuk badan canggul kecil, dan pada akhirnya dia tarik ke atas cukup tinggi.
+
+[15:11 - 15:20]
+Dan di sinilah kita akan melihat petanya akan terus ke atas, dan ini bagian minor trendnya.
+
+[15:20 - 15:24]
+Saya turunkan ke daily, ternyata minor trend tadi adalah bagian ini.
+
+[15:26 - 15:31]
+Dan bagian inilah yang akan menjadi fokus kita, di mana bagian yang kecil-kecil ini.
+
+[15:31 - 15:33]
+Ini lihat, kalau saya di weekly dia bagiannya di sini.
+
+[15:34 - 15:37]
+Ternyata kalau di daily lebih jelas, dan di sini kita mencari entry-nya.
+
+[15:37 - 15:38]
+Bagaimana cara entry-nya?
+
+[15:39 - 15:47]
+Apakah ada pola? Kalau kita tarik begini, kemudian kita sambungkan ke bawah, kemungkinan akan terjadi falling wedge.
+
+[15:47 - 15:52]
+Jadi mungkin saya akan menunggu dia turun, kemudian naik.
+
+[15:52 - 15:53]
+Ini opsi pertama.
+
+[15:54 - 15:58]
+Opsi kedua, saya menggunakan strategi breakout.
+
+[15:58 - 16:01]
+Itu bisa yang jelas di time frame yang kecil ini, kita harus sepakat.
+
+[16:01 - 16:05]
+Bukan berarti kalau kita percaya time frame besarnya up, lalu time frame-nya kalau kecil kita sell dulu.
+
+[16:05 - 16:09]
+Tidak. Kita harus in line dengan major-nya.
+
+[16:09 - 16:12]
+Jadi itu cara kita menggunakan 2 time frame.
+
+[16:12 - 16:16]
+Time frame major untuk forecasting, dan time frame yang kecil itu untuk entry.
+
+[16:16 - 16:21]
+Dengan begitu, Anda bisa sangat objektif sekali di dalam menentukan pergerakan harga.
+
+[16:22 - 16:31]
+Karena ini akan menjadi aturan main yang sangat penting sekali dan setiap dari kita bisa trading dengan sangat objektif.
+
+[16:31 - 16:34]
+Saat kita menggunakan 2 time frame dan kita tahu fungsinya untuk apa.
+
+[16:35 - 16:43]
+Pada saat ini terjadi, kita tahu dia akan turun, tetap kita melakukan zooming di M30 selama dia belum muncul pattern bearish reversal.
+
+[16:44 - 16:49]
+Anda tidak boleh melakukan sell, kecuali memang niatnya adalah spekulatif untuk mengambil pendek misalnya di sini.
+
+[16:50 - 16:56]
+Tetapi secara besarnya, Anda harus melihat di time frame entry benar-benar terjadi either double top.
+
+[16:56 - 16:59]
+Ini opsi pertama terjadinya double top.
+
+[16:59 - 17:03]
+Atau Anda melihat pelemahan harga, mungkin sampai di sini.
+
+[17:05 - 17:06]
+Lalu dia turun.
+
+[17:07 - 17:11]
+Yang jelas, ini semua akan kita bicarakan di time frame yang lebih kecil.
+
+[17:11 - 17:17]
+Candlestick semuanya, trigger untuk entry, ekor, dan seterusnya kita bisa lihat di time frame yang lebih kecil.
+
+[17:17 - 17:21]
+Karena akan lebih presisi kalau Anda melihat di time frame yang lebih kecil.
+
+[17:22 - 17:25]
+Bagaimana dengan mata uangnya lain misalnya di GBP?
+
+[17:25 - 17:30]
+Karena dia sideways, misalnya saya menggunakan daily sekarang untuk range yang lebih besar.
+
+[17:30 - 17:39]
+Dia sideways, kemudian untuk futures kita harus melihat rangkaian yang lebih kecil.
+
+[17:39 - 17:43]
+Jangan-jangan rangkaian yang terlalu besar.
+
+[17:43 - 17:45]
+Yang sebelum-sebelumnya tidak perlu kita lihat.
+
+[17:45 - 17:46]
+Kita lihat ini sekarang.
+
+[17:49 - 17:51]
+Naik, kemudian dia turun.
+
+[17:51 - 17:53]
+Lalu kita tahu dia akan bikin kepala canggul.
+
+[17:53 - 17:54]
+Kepala canggulnya akan kemana?
+
+[17:55 - 17:56]
+Gunakan XAB.
+
+[17:56 - 18:01]
+Kita tarik di sini, ingat teori 50 dan 62.
+
+[18:02 - 18:04]
+Kurang lebih kenaikannya sampai di sini.
+
+[18:05 - 18:08]
+Lalu kita buka di H1.
+
+[18:09 - 18:11]
+Kita sekarang pakai H1 karena di daily.
+
+[18:13 - 18:15]
+Targetnya di area kuning.
+
+[18:15 - 18:16]
+Sekarang masih di sini.
+
+[18:16 - 18:24]
+Berarti yang bisa Anda lakukan adalah Anda menunggu terbentuknya kepala canggul dan kemudian ini naik kembali.
+
+[18:24 - 18:28]
+Apakah nanti muncul inside bar? Itu bisa kita manfaatkan.
+
+[18:28 - 18:35]
+Tapi yang jelas fungsi daripada multiple time frame, ada major time frame untuk menentukan forecasting arah harga.
+
+[18:35 - 18:38]
+Kalau kita sudah sepakat dia akan naik, maka pilihannya adalah buy.
+
+[18:39 - 18:44]
+Kemudian minor time frame itu untuk melakukan buy.
+
+[18:44 - 18:53]
+Kalau major time frame maksud saya adalah forecasting bull dan hasil dari bull itu di minor time frame atau entry time frame kita memutuskan buy.
+
+[18:53 - 18:56]
+Walaupun dia turun di sini, saya tidak akan sell.
+
+[18:56 - 19:05]
+Tapi saya akan menunggu sampai dia benar-benar terjadi pembalikan arah atau muncul pola-pola misalnya ada inside bar, kita bisa ada trigger untuk entry.
+
+[19:05 - 19:12]
+Seringkali orang tidak sabar, dia buy di sini lalu diseret ke bawah, lotnya besar, akhirnya kena margin call dan ini menjadi berbahaya.
+
+[19:12 - 19:23]
+Oleh karena itu strukturnya harus selalu ingat forecasting di time frame yang lebih besar kemudian Anda masuk di time frame yang lebih kecil untuk entry nya.
+
+[19:24 - 19:28]
+Dan ini akan membuat Anda menjadi trader yang sukses di dalam financial market.
+
+[19:28 - 19:41]
+Demikianlah multiple time frame, Anda pasti akan mendapatkan benefit yang luar biasa sambil kita terus berlatih nanti Anda akan tahu hasilnya bagaimana trading dengan lebih baik melalui multiple time frame.
+
+[19:42 - 19:42]
+Terima kasih telah menonton.
+

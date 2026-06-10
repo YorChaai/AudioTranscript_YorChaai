@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir *)",
+      "Bash(\"c:\\ffmpeg\\ffmpeg-8.1-essentials_build\\bin\\ffmpeg.exe\" *)",
+      "Bash(findstr *)",
+      "Bash(python *)",
+      "Bash(del *)",
+      "Bash(set *)",
+      "Bash(setx *)",
+      "Read(D:\\model/**)",
+      "Bash(powershell *)",
+      "Read(D:\\model\\large-v3/**)",
+      "Bash(mkdir *)",
+      "Bash(pip uninstall *)",
+      "Bash(select-string *)",
+      "Bash(pip list)",
+      "Bash(pip install *)",
+      "Bash(move *)"
+    ]
+  },
+  "$version": 3
+}

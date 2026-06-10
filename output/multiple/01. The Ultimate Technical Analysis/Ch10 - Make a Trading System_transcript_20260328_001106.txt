@@ -1,0 +1,1688 @@
+Source: Ch10 - Make a Trading System.mp3
+Language Mode: Indonesian
+Detected: id (100.0%)
+Transcribed: 2026-03-28 01:26:49
+==================================================
+
+Pada chapter terakhir ini kita akan bersama-sama menggabungkan keseluruhan teori yang sudah Anda pelajari ; Mulai dari basic technical analysis hingga sampai time frame ; Dan Anda akan menjadikan semua itu menjadi sebuah trading system ; Saya akan mengajarkan sebuah trading system yang simple disertai dengan money management ; Anda harus menguasai money management yang perlu untuk diaplikasikan di dalam trading system ini tentunya ; Dan bisa langsung kita praktekkan untuk futures market dan kemudian untuk stocks market ; Yang pada akhirnya membuat Anda bisa menjadi seorang trader yang profitable ; Kita membahas tentang money management ; Di dalam money management saya menganut hukum aturan yang sangat-sangat simple ; Kita bagi menjadi dua, stock market dan futures market ; Untuk stocks market kita menganut hukum 2%, 6% atau 10% ; Pada saat kita memilih 2%, 6% atau 10% artinya ; Di dalam setiap kali trading resiko terbesar adalah 2%, 6% atau 10% ; Tergantung preference daripada resiko masing-masing trader ; Katakan Anda memilih 10% ; Berarti maksimal setiap kali trading Anda tidak boleh mengalami kerugian lebih daripada 10% dari total modal ; Katakan modal Anda adalah 100 juta rupiah ; Anda tidak boleh hold posisi loss lebih daripada 10% dari total modal ; Karena itu akan merusak profil 10% ; Karena dengan 10% risk Anda memiliki nyawa 10 kali ; Lebih dari 10 kali Anda akan mengalami kehancuran ; Artinya total modalnya sudah habis ; Maka nyawa Anda 10 kali ; Kalau Anda memilih 2% maka nyawa Anda 50 kali ; Mari kita simulasikan ; Dengan asumsi 6% maka kurang lebih Anda memiliki nyawa sekitar 16 kali ; Kita pilih yang moderat ; 6% ; Atau lebih gampangnya 5% ; 5% dan 6% ; Ini teori dari money management Anda bisa browsing di internet untuk mendapatkan informasi lebih lanjut ; Tapi mari kita buat sebuah gambaran yang gampang ; Katakan 5% ; Di dalam saham ; Kita membagi portfolio kita modal kita menjadi 3 atau 5 bagian ; Katakan Anda membagi 5 bagian yang sama ; Berarti kalau 100 juta kita bagi menjadi 5 ; Masing-masing ; Diisi dengan ; 20 juta ; Masing-masing adalah 20 juta ; Seperti Anda lihat diilustrasi ; 100 juta kita tarik 5 dan masing-masing berisi 20 juta ; Kalau kita aplikasikan 5% ; Maka 5% ini dihitung dari 100 juta ; 5% dari 100 juta adalah 5 juta ; Kalau satu saham ; Kita membeli dengan 20 juta ; Maka Anda tidak boleh menahan kerugian lebih dari 25% penurunan ; Karena kalau lebih dari 25% menurunkan 25% penurunan ; 25% penurunan maka anda akan mengalami floating loss 5 juta dan apapun yang terjadi pattern ; apapun yang akan anda gunakan maka 25% adalah maksimal penurunan yang boleh anda tahan dan ; apabila mencapai level tersebut yang boleh anda lakukan adalah cut loss anda tidak boleh average ; anda tidak boleh hold yang anda butuhkan adalah cut karena walaupun anda melakukan cut tersebut ; anda masih memiliki setidaknya 19 nyawa karena 5% itu merupakan 20 kali kesempatan untuk salah ; jadi di dalam saham kita membagi dulu sahamnya menjadi 5 kemudian kita menganut 5% per trade ; itu 5% dari capital bukan 5% sahamnya turun artinya 5 juta dari 20 juta itu tidak mungkin ; kalau kita trading dengan semua pattern yang sudah anda pelajari minus sampai 25% itu artinya ; anda salah menganalisa tetapi sesalah-salahnya ; pun senekat-nekatnya setidak disiplinnya anda harus melakukan likuidasi pada saat drop 25% ; karena itu menyentuh angka 5 juta kalau anda tawar-menawar dan rusak profilnya maka anda ; merusak seluruh tatanan bagaimana money management yang ada di futures market karena futures market ; merupakan market yang menggunakan leverage artinya modal yang anda tanamkan di future ; haruslah uang yang anda siap untuk kalah artinya uang yang memang dalam hal ini ; yang tidak berhasil berhasil berhasil berhasil berhasil berhasil berhasil berhasil berhasil berhasil berhasil ; tidak berarti kita resikokan uang sekecil mungkin katakan 500 dollar 1000 dollar 2000 dollar karena ; setiap orang berbeda-beda dan pada akhirnya 2000 dollar ini bisa meledak menjadi 100 ribu dollar ; atau seperti saya 2000 dollar menjadi 400 ribu dollar dalam waktu tiga tahun itu memungkinkan ; yang paling penting adalah di futures market tidak berbicara mengenai berapa rasio dua persen ; enam persen aliran astronasi dari uang kecil menjadi besar yang kita masukkan di tahap awal adalah ; 5 ribu dollar maka make sure bahwa Anda memiliki nyawa setidaknya 20 kali jadi 20 kali Anda trading ; Anda salah 20 kali baru uangnya habis jangan kurang dari situ sehingga nanti kita bisa hitung berapa ; pips yang akan Anda butuhkan pattern-pattern yang sudah kita ajarkan biasanya akan memberikan Anda ; resiko kurang lebih antara 70 pips sampai maksimal 100 pips per trading jadi kalau masuk 0,1 lot maka ; setiap kali cut loss Anda akan kehilangan 100 dollar kalau uang Anda adalah 5 ribu dengan 0,1 ; lot dan Anda stop loss 100 dollar maka 50 kali stop loss uang Anda akan habis ya kalau Anda masuk ; 0,5 berarti 10 kali stop loss uang Anda akan habis ini tergantung dari berapa lot yang akan Anda ; habiskan jadi kalau kita set up adalah 20 kali nyawanya ya maka kurang lebih Anda bisa menggunakan ; 0,25 ; karena dengan 0,25 lot Anda stop loss 100 poin selama 20 kali berturut-turut maka uang 5000 itu ; akan habis nah inilah yang harus kita concern kalau di saham tadi 5% atau 10% atau 2% dari total equity ; kalau di futures kita melihat berapa pips dan berapa lot lalu kita ingin berapa risk yang akan ; kita inginkan dalam bentuk dollar berapa kali ya itu dari sisi money management dari sisi trading ; strateginya ; kita harus ; bisa menentukan terlebih dahulu saya adalah swing trader atau saya adalah scalping trader. ; Materi kali ini akan mendidik Anda menjadi seorang swing trader, ; karena menjadi swing trader setidaknya kalau di futures Anda akan mendapatkan profit 70 pips sampai 100 pips, ; idealnya, dan kalau di saham 8 sampai 12 persen idealnya. ; Nah, mari kita susun strategi bagaimana caranya untuk melakukan trading setup, ; mulai dari nol, mulai dari membaca cap, sampai menentukan entry dan stop loss. ; Kita akan memberikan contoh 5 trading setup yang akan bisa Anda duplikasikan nanti. ; 5 trading setup berdasarkan dari semua ilmu yang sudah kita pelajari, ; dan Anda bisa melihat saya bagaimana caranya membuat sebuah trading system, ; mengaplikasikan semua ilmu untuk menjadikan sebuah trading plan yang siap untuk ditradingkan. ; Selamat datang di chapter terakhir, ini merupakan chapter yang paling penting dari semua yang sudah Anda pelajari, ; karena kita akan menggabungkan keseluruhan konsep dasar trading pada chapter ini. ; Kita akan mulai membuat sebuah trading system, ; dan akan mengambil 5 contoh trading system untuk Anda pelajari, ; dan nanti Anda akan mengikuti semua step-nya. ; Kita akan membagi menjadi 3 step, ; the first step, second step, and third step. ; The first step, tugas yang harus Anda lakukan, melakukan major trend analysis. ; Ingat, waktu masuk ke chapter pertama, Anda mempelajari tentang primary, secondary. ; Primary, secondary. ; Lalu di dalam Fibonacci, Anda mempelajari XA. ; B. ; Bentuk ini akan terus berulang, dan kita akan menggunakan satu per satu di dalam trading secara sistematis. ; Ada chart pattern, ada candlestick, mana yang harus digunakan? ; Ada trend line, nanti kita akan bahas secara satu per satu, ; tetapi sebelumnya harus dikategorikan bahwa yang pertama, first step, ini harus dilakukan terlebih dahulu, ; di mana ilmu menganalisa yang tahap awal, ; di mana Anda menggunakan swing high, swing low, Anda mengkonekkan higher high, ; high, high, low, dan seterusnya di chapter satu, itu akan digunakan di first step. ; Kemudian di second step, kita akan berbicara mengenai pattern, apa yang akan Anda masuki, ; terus kemudian candlestick-nya apa sebagai trigger entry-nya, ; dan yang terakhir di third step, di mana entry-nya, target profit-nya berapa, ; otomatis akan menggunakan ilmu daripada chart pattern target dan Fibonacci target, ; kemudian stop loss-nya di mana, kemudian reverse strategy-nya, ; ini bagaimana, kita akan mengambil lima contoh, ; yang pertama adalah pada saham BBRI, Anda bisa perhatikan, ini saham BBRI, ; secara keseluruhan, kita melihat yang akan kita gunakan dulu adalah menarik garis, ; atau menghubung-hubungkan garis ini untuk menjadi sebuah referensi, ; jadi kita akan save terlebih dahulu, ; major yang harus kita lakukan adalah major analysis, ; dimulai dari membuat swing line, harus dikerjakan ya, membuat swing line, ; kita menggunakan warna biru saja, diberikan garis agak kebal, ; apakah ini atau yang kecil, misalnya, kita akan menggunakan yang ini, ; kenapa, karena di dalamnya sudah mengandung swing line, ; jadi nanti kalau kita tarik akan membuat 3 derajat, ; di tahap ini Anda harus sudah mengerti cara membeda-bedakan, ; kemudian ini kita tarik primary, kemudian secondary, ; kemudian ini primary, ya, kemudian ini adalah bagian dari secondary, ; ini primary, dan seterusnya, ini, nah, lalu Anda harus memberikan coding, ; high, low-nya pasti yang sebelumnya ya, low-nya di sini, ; berarti ini adalah lower low, kemudian di sini adalah lower high, ; kemudian di sini adalah higher low, ini adalah lower high, ; berarti ini bearish, jelas ya, lower low, karena ada lower high 2 kali atau lebih, ; nah, di sini ada higher low, tapi di sini masih lower high, ; di sini higher low, ingat ada 2 kali higher low, ada 3 kali higher low, ; berarti di tahap pertama kita sudah melakukan major analysis, ; ada 3 kali higher low, ada kemungkinan besar bahwa saham ini akan kembali menjadi bullish, ; lalu, yang bisa kita lakukan berikutnya, ; kita bisa bermain dengan, ; trendline, kita sudah hubungkan garis-garis ini, ; terhubung, ; dan pada saat ini, ternyata, ; ya, apa yang bisa kita lihat, ada breakout, ; ya, kita kembali dulu ke step 1, ya, ; major trend analysis, forecast-nya bagaimana, setelah kita gabungkan, ; kemudian kita forecast, ada kemungkinan dari bearish menjadi bullish, ; price range-nya berapa, kalau dia menjadi bullish, seberapa jauh dia bisa naik, ; maka, ; maka, ilmu yang kita gunakan adalah, ; support resistance, ; classic, ; kemudian, ; X, A, Y, ; atau X, A, B, ; jadi, seandainya support resistance klasik, ; kita tahu bahwa ini adalah area yang paling kuat, ; kemudian ini juga resistance kuat, ; maka, range-nya, kalau sekarang di 10.675, ; dia akan naik terus sampai di, setidaknya di 11.500, ya, naik 1000 rupiah, ; untuk terus keatas dan kemudian dia akan kesini, ; Kita menggunakan XAB, ya, katakan ini adalah XAB, kemudian, nah, ini X, A, dan kemudian B, kita mau lihat sampai di berapa, ukur dengan vibonacinya, ya, katakan kalau kita menggunakan vibonaci dari atas ini, kita tarik ke yang paling bawah, ; 50%-nya itu di 11.000, kemudian 61,8%-nya di 11.350, which is itu cukup dekat dengan area klasik resistance yang ada di sini, ya, 11.500, ya, kurang lebih, ya, ini nggak sampai 11.400, ; berarti, kalau kita tanyakan berapa price range-nya, maka jawaban terbesar adalah masih ada Rp. 1.000 kenaikan, upside opportunity. ; Jadi, pattern itu masuk di second step, setelah kita sudah tahu, berarti arahnya tendensinya akan bullish, yang kita lakukan berikutnya adalah pola apa yang saat ini kebentuk, caranya bagaimana kita mengkonekkan, saya hilangkan ini, kita mengkonekkan, coba, garis di sini, kemudian saya konekkan garis di sini, yang terbentuk adalah seperti triangle, atau seperti penan, ya, ; tetapi, secara kondisi, kita bisa menggunakan Rp. 1.000, Rp. 1.000, Rp. 1.000, Rp. 1.000, Rp. 1.000, Rp. 1.000, Rp. 1.000. ; Nah, ke seluruh ruang, kita melihat huruf W di sini, bahwa ini ada huruf W kecil, yang mana memiliki satu peluang untuk menghantarkan harga naik, jadi kemungkinan ada double bottom, atau huruf W, yang menjadi pattern penentu untuk bullish-nya saham BBRI. ; Pattern W, kemudian candlestick to entry, adakah candlestick yang muncul di sini, ya, ini Marobozu, ya, full, barnya full, open di bawah. ; Close-nya di atas, saya tinggal menunggu terjadinya inside bar, lalu kemudian saya akan entry. ; Berapa target price, where to entry, menunggu candlestick, ya, itu trading sistemnya. ; Kemudian berapa target price, target price saya akan set di Rp. 11.500, dan di Rp. 12.200, mungkin. ; Dan ini, saya percaya, akan terus bergerak ke atas, mencapai level salah satu dari level ini. ; Stop loss-nya bagaimana? ; Stop loss dilakukan pada saat harga tidak mampu lagi naik, dan kemudian dia turun di bawah Rp. 10.000, artinya Rp. 10.000 ini ditembus, karena ini adalah support, akan menjadi support yang cukup kuat. ; Begitu support ini ditembus, saya akan buang, kenapa? Karena dia akan kembali membentuk lower low, dasarnya itu, kita cut di situ, tidak perlu kita tahan, karena berikutnya dia akan menjadi lower low. ; Jadi, keputusan kita adalah kita melakukan... ; trading di sambil hari buy, target price Rp. 11.500 sekian, stop loss-nya di sini karena dia akan membentuk lower low. ; Mari kita lihat, kita jalankan, oke, harga naik, ya, sudah benar, tapi belum ada titik entry. ; Harga mulai drop, kita lihat, the next day, harga up, mencapai target price pertama, walaupun kita belum bisa masuk, saya setelah ini akan memberikan alternate entry. ; Jadi, kita masih membahas dulu satu teknik entry yang kita sebut dengan inside bar, tidak ada entry sama sekali, dan harga menembus atas, jadi sudut pandang inside bar itu tidak muncul. ; Jadi, saya akan membongkar satu per satu ide untuk entry, yang kita perlukan adalah vocabulary bagaimana saya bisa entry, inside bar jelas tidak ada di sini, ya, kemudian dia naik lagi, dia naik lagi, dan seterusnya. ; Mungkin inside bar akan muncul di tengah-tengah. ; Sekarang, saya akan mencoba... ; Repeat situation, dari level ini, ya, dari level ini, equal dengan ini, pertanyaan berikutnya, di dalam kita melakukan entry, kita tidak bisa hanya menggunakan satu cara entry, harus ada setidaknya tiga. ; Kalau tidak bisa seperti ini, besok harus seperti apa? Kita berharap inside bar, ternyata inside bar tidak ada. Apakah tidak ada ide lain untuk entry? Tidak, tidak begitu. Anda bisa menggunakan ide lain untuk entry, khususnya. ; Nanti setelah ini kita akan mencoba di market yang lain. ; Alternatif kedua, pada saat kita menggambar, ya, kita tahu bahwa ini baru saja break resistance, baru saja break resistance, break resistance pertama, dan di sini ada resistance kedua. ; Alternatifnya adalah kita berasumsi bahwa buy on break, karena trendnya benar-benar kuat, dia membentuk way, dan akan menekan ke atas. ; Dari sisi trendline, dia sudah break. ; Dari sisi pattern, dia juga sudah break. ; Ini berada di resistance. ; Artinya, besok satu poin saja di atas 10, 6, 7, 5, kita masuk. ; Jadi, kita sudah punya dua pilihan. ; Yang pertama, munculnya inside bar. ; Yang kedua, kita trading dengan munculnya breakout. ; Karena waktu kita buka market, harga tidak di sini. ; Kalau harga di sini, kita berani buy on weakness. ; Tetapi, setiap orang waktu buka market beda-beda. ; Kita harus memiliki jurus. ; Kalau buka market posisi begini, ini tidak susah, karena sudah jelas inside bar, dan ini harga sudah menembus. ; Maka, teori satu, dua, tiga, empat bisa dipakai. ; Anda pasti ingat teori satu, dua, tiga, empat. ; Jadi, kalau dalam kasus seperti ini, langsung saja satu, dua, tiga, dan pada saat nanti empat, kita buy. ; Masalahnya, waktu Anda masuk, harga sudah di atas. ; Empatnya sudah jadi. ; Nah, teori satu, dua, tiga, empat pun bisa terpakai di sini. ; Kita percaya bahwa setelah dia tembus ini, empat sudah terbentuk. ; Artinya, harusnya naik dengan signifikan. ; Maka, yang bisa kita lakukan di sini adalah, ; saya mengambil posisi buy dengan kondisi breakout, misalnya. ; Maka, begitu harga lompat seperti ini, saya memberanikan diri untuk masuk terlebih dahulu. ; Selama stop loss-nya belum dikenakan, kita yakin bahwa trend bullish akan berjalan. ; Besok harinya merah, ya. ; Selama dia tidak masuk lagi di bawah ini, selama dia tidak kembali turun di bawah area yang baru ditembusnya, ; it's good enough. ; Dan akhirnya, Anda bisa make money. ; Lalu, target keduanya masih di atas. ; Apakah kita bisa capai? ; Mungkin Anda sudah take profit. ; Jelas, take profit pertama sudah kena. ; Lalu, kita menunggu lagi untuk entry berikutnya. ; Adakah kesempatan entry? ; Ya, ini ada inside bar. ; Maka, saya bersiap-siap untuk buy pada saat break mother candle di atas Rp11.600. ; Dan target price-nya mungkin di level di Rp12.050, mungkin ya. ; Ternyata tidak kena, masih turun ke bawah. ; Dan besoknya done. ; Kita buy. ; Hampir kena. ; Dan dia turun. ; Tapi Anda lihat, range-nya sudah sangat dekat sekali dengan target yang kita inginkan, ya. ; Di Rp12.050 ini. ; Kalau kita menggunakan Fibonacci, maka percayalah bahwa Rp78.6 sudah di hit. ; Ini Rp78.6 di hit. ; Dan Anda sudah mendapatkan hasilnya. ; Kemudian dia turun lagi, turun lagi. ; Trend masih bullish, perhatikan. ; Moving average sudah di atas. ; Dan seterusnya hit Rp12.050. ; Oke. ; Ini merupakan sebuah mekanisme trading yang sangat objektif dan high profitability, ya. ; Bagaimana dengan contoh yang lain? ; Kita akan masuk di GBP Jepang Yen. ; Ini live trade. ; Saya sedang melakukan sell. ; Dan saya akan bagikan caranya bagaimana pertimbangan saya sampai bisa melakukan sell. ; Dan kita ada posisi 3 lot di sini. ; Posisi sudah floating profit. ; Anda akan tahu bagaimana caranya mengambil keputusan untuk entry sell di atas, ya. ; Mari kita breakdown satu persatu. ; Kita urutkan, kita jadikan bar chart terlebih dahulu. ; Kita gunakan GBP Jepang Yen sesuai dengan aturan main. ; Yang pertama, major trend analysis. ; Major trend analysis. ; Kita tarik garisnya. ; Swing line-nya. ; Harga berada di bawah moving average. ; Kita gunakan dynamic support. ; Dynamic resistance. ; Dan kita berasumsi dia akan turun. ; Itu aturan main pertama. ; Lalu mulai. ; Kita gunakan di sini adalah high. ; Dan. ; Pelemahannya di sini pasti adalah lower low. ; Karena ada berbagai macam low yang ditembus. ; Lower high. ; Lower low. ; Lower high. ; Lower low. ; Lower low. ; Lower low. ; Lower low. ; Lower low. ; Lower low. ; Lower low. ; Lower low. ; Lower low. ; Lower low. ; Lower low. ; Lower low. ; Lower low. ; Lower low. ; Lower low. ; Pips ; Pattern to entry ; Kalau kita sudah bilang pattern to entry ; Saya akan gunakan M30 ; Karena ini adalah time frame untuk entry ; Pattern to entry nya bagaimana ; Kemudian apalagi candlestick to entry nya bagaimana ; Pattern to entry salah satu reason nya adalah ; Harga mencapai area exponential moving average 21-22 ; Kurang lebih saya ganti 21 ; Kemudian mulai menunjukkan pembalikan arah ; Saya yakin akan terpembentukan ABCD ; Jadi ABCD nya adalah ini AB ; Kemudian ini CD nantinya ; Tetapi pattern yang akan terjadi apa pattern nya ; Mungkin di dalam kasus ini ; Anda harus menggambarkan lagi disini ; Menghubungkan trend line nya seperti ini ; Dan yang bisa terjadi ; Yang paling besar kemungkinan ; Mungkinan nya adalah M pattern ; Untuk sementara saya pakai kaki yang ada disini ; Adalah M pattern ; Candlestick to entry ; Kenapa saya sudah entry duluan ; Karena disini saya melihat ada ; Waktu di posisi ini candle ekor panjang di atas ; Ekor panjang di atas ini kakinya seperti ; Climax dipaksakan bukan ekor panjang di bawah maksud saya ; Yang harusnya dia bull tetapi next bar nya dia tidak mampu ; Dan kemudian ini membentuk inside bar ; Jadi bagi anda yang baru mulai mau masuk ; Mungkin pada saat dia tembus low yang ada disini ; Ini akan jadi sell trigger yang pertama ; Sebenarnya karena inside bar ; Ya inside bar yang terbentuk ini akan menjadi trigger pertama ; Begitu dia tembus di bawah mother candle nya akan turun ; Waktu saya sell di atas baru saja saya sell ; Itu karena saya menggunakan X I Y ; Dimana ini X I Y saya tarik ; Ternyata di 1618 kena lalu dia mulai slowing down ; Maka saya langsung menggunakan sell karena dia X I Y ya kena 1618 ; Bisa-bisa saja tetapi yang paling aman ; Candle apa yang buat masuk kebetulan disini ada inside bar ; Break mother candle maka kita akan mulai sell ; Where to entry? ; Pada saat mother candle ditembus ; Anda cek harganya 131,9 ; Where to take profit? ; Saya pasang take profit disini yang pertama itu 125 pips ; Kenapa? Karena ini adalah support yang kuat ; Lalu target stop loss adalah cuma 30 pips karena kecil disini stop loss nya ; Ya itu sangat enak sekali ; Target price berikutnya saya bisa menggunakan X I Y ; Jadi kalau ini anda masih ingat X I Y tentunya ya ini X ; Ini A dan ini Y, setidaknya sekarang saya sudah floating $228, which is not bad, lalu saya taruh di sini, tarik ke bawah, 1618 itu mendekati area classic support, maka di range ini kita bisa menjadi profit target. ; It's very simple. Bagaimana kita melihat pair yang lain? Mari kita mencari, mungkin di saham, kita buka lagi di saham, kita mencari yang belum terjadi, kalau tadi kita sudah mendemonstrasikan yang sudah terjadi, dan kita juga mendemonstrasikan yang kita telah play kembali, maka kita akan melihat saham bank BNI. ; Mari kita kerjakan tugas kemudian. ; Tugas kita, di mana mengerjakan tugas kita ini harusnya menyenangkan ya, karena ini adalah rutin yang tidak boleh di skip ya. ; Oke, mari kita lihat. Kita tarik dulu garis di sini, kemudian di sini, secara keseluruhan ini low, kemudian high-nya pasti somewhere di sini, karena di sini, oke ini adalah high-nya, ; berarti di sini. ; Ini higher high, ini higher low, kemudian higher high, higher low, ya, dan berikutnya ini adalah higher high, oke, saya melakukan kesalahan, hati-hati, Anda harus jeli, di sini adalah lower low, kemudian saya yakin ini adalah higher high, sorry, higher low maksud saya, dan seterusnya kepala canggul akan dilanjutkan dengan higher low. ; Oke, Asalnya saya tetap 있다. ; Betul, jadi событи pada hari ini buat kita, ini sudah optimal. ; cats gets a good fish. ; worries me, ; They have good fish. ; they got a niceISI. ; They got madre Cand sorcerio. ; They gotMax brand TV気Sguya berhasil berhasil berhasil berhasil menjadi cousin mulher part of the rash. ; Seriously like this is the famous GPP You know. ; This pictures of mom told me so much. ; ikuti flow-nya lagi, pattern to entry ; dan candlestick to entry ; pattern to entry-nya apa? apakah kita sudah ; menemukan pattern di sini ; pattern yang kita ajarkan, double bottom ; apakah Anda bisa melihat ada ; double bottom di sini, atau flag ; mungkin, atau ; falling wedge, dan ternyata ; yang muncul di sini ; sesuai perkiraan adalah ; falling wedge ; falling wedge merupakan bull pattern ; dan dalam hal ini ; kita sudah menemukan ada bull pattern ; di sini, yang bisa Anda ; lakukan adalah mencari ; candlestick ; untuk entry, nah ; kalau kita perhatikan ; saya melihat ada ; mother candle di sini ; sehingga, mother candle ; inside bar, waktu dia ; tembus ini saya akan melakukan buy ; 5525 ; tembus itu buy ; dan stop loss-nya di bawah ; dengan ini saya langsung mendapatkan ; entry, entry tekniknya ; menggunakan inside bar ; buy on break di mother candle-nya ; dan stop loss-nya pada saat dia masuk ke sini ; falling wedge ; major timeframe-nya tadi ; bull ; akan melanjutkan penguatannya ; dan kemudian diharapkan dia akan ; melanjutkan pergerakan ke atas ; it's very simple ; dalam contoh yang ke empat ; saya akan mengambil contoh ; pola transisi yang sangat-sangat ; powerfull dan apabila Anda melakukan ; Anda menemukan transisi di time frame yang besar, katakan H4, jangan takut untuk menggunakannya. ; Tinggal Anda bisa set money management Anda. ; Saya akan fokus transisi yang terbentuk di level ini. ; Ini adalah non-farm payroll, pada saat itu kita mendapatkan profit yang luar biasa. ; Pak Syafruddin CET batch 14 mendapatkan Rp96.000 dalam semalam. ; Hendry Irwan batch 14 CET juga mendapatkan Rp44.000 dalam satu malam. ; Nah, dasarnya adalah pola ini. ; Kalau Anda masih ingat, ini adalah trend bearish. ; Kemudian kalau kita menunggu transisi, maka yang akan kita tunggu adalah pembentukan lower low, higher high, higher low, dan higher high. ; Ini adalah transisi yang kita tunggu. ; Dan kita kali ini akan bervariasi bermain pada area yang kecil. ; Mari kita lihat. ; Ini adalah swing kecil. ; Dan apabila Anda menemukan transisi, ini akan fair. ; Very, very powerful di gold market. ; Oke, kita mulai codingnya. ; Ini adalah lower low, kemudian ini adalah higher high, kemudian ini adalah higher low. ; Dan, satu poin saja harga meledak naik di atas garis hijau ini, maka otomatis dia menjadi higher high. ; Dan pada saat itu juga harga meledak dengan signifikan menuju ke target price yang ada di atas ini. ; Ini yang disebut dengan transition. ; Dan alhasil harga terus naik, Anda bisa lihat dari poin ini sampai ke atas, itu total 138 pips dalam sekali penarikan. ; Bukan kayak itu luar biasa. ; Stop loss-nya di mana? ; Stop loss-nya adalah di bawah ini. ; Cukup besar, 138. ; Stop loss-nya 93. ; Tapi, it's worth it. ; Bisa diperjuangkan untuk trading di dalam transisi. ; Jadi, kalau Anda menemukan transisi, Anda akan mendapatkan... ; ...satu performa trading yang luar biasa sekali dan winning rate-nya sangat tinggi. ; Yang terakhir, kita akan mencoba mencari pola-pola yang akan terbentuk. ; Kita mungkin akan mengambil contoh di gold. ; Dalam hal ini adalah example berikutnya falling wedge pattern pada gold yang sudah terjadi. ; Sebelum ini terjadi, kita melihat harga turun secara signifikan seperti ini. ; Mari kita akan buat. ; Kita lihat simulasinya di dalam analisa. ; Katakan saya potong di sini. ; Kita melihat bahwa harga turun ke bawah. ; Tetapi, yang kita mainkan sekarang adalah analisa major-nya dulu. ; Dia mencoba menjadi bear. ; Dia mencoba menjadi bear. ; Pattern yang Anda temukan adalah falling wedge. ; Artinya, bear pendek. ; Dan kita bersiap-siap terjadi pembalikan arah. ; Karena ini merupakan... ; Bear pendek. ; Yang seharusnya akan bergerak seperti ini. ; Bearish pendek disebabkan karena munculnya falling wedge, maka posisinya harus buy. ; Pattern-nya adalah falling wedge. ; Dan kita harus entry buy pada akhir daripada falling wedge itu. ; Ide yang bisa kita gunakan adalah menggunakan XAY analysis untuk menentukan sampai di mana sih dia turun. ; Karena fungsi dari XAY itu bisa membaca sampai di mana dia akan turun. ; Dan kita apply Fibonacci dari sini. ; X ke A. ; Dan kita melihat ada range penting 1618 di sini. ; 2618 di sini. ; Kita jaga di antaranya. ; Jadi, pada saat ada candle yang menyentuh di antaranya dan kemudian membentuk ekor di situ. ; Kita bisa tahu bahwa di area tersebutlah akan muncul... ; Pemberikan arah harga. ; Mari kita lihat. ; 12 ke 1618. ; Oke. ; Adakah inside bar di sana? ; Perhatikan. ; Dan ternyata XAY klik kena di titik tengah. ; Dia berbalik arah. ; Di titik tengah pas ya. ; Dia berbalik arah. ; Dan kemudian menembus ini semua. ; Maka strategi yang kita gunakan jelas entry di dalam falling wedge. ; Kita sudah pelajari sebelumnya. ; Kita menggunakan breakout. ; Dari resistance itu bisa digunakan. ; Jadi, breakout dari falling wedge-nya bisa atau dari resistance terakhir. ; Ini kita sudah pasang by stop di sini. ; Dan pada saat dia hit by stop-nya, kita akan masuk. ; Oke. ; Bagaimana dengan apabila kita menggabungkan dengan time frame yang lebih kecil? ; Katakan kita sudah tahu ini terjadi falling wedge. ; Di sini kita sudah tahu falling wedge. ; Tapi saya kalau masuk di H4. ; Itu kayaknya beresiko. ; Bagaimana caranya saya supaya bisa entry dengan lebih kecil resikonya? ; Seperti biasa kita turunkan lagi ke time frame yang lebih kecil. ; Kita coba zoom ya. ; Sebelum dia naik ya. ; Sebelum dia naik. ; Sebelum dia terbang. ; Yang akan Anda lihat di sini adalah pelemahan harga. ; Masih berlanjut. ; Sampai ekor menyentuh titik tengah. ; Lihat. ; Di M30. ; Berarti entry-nya di M30 ada ekor. ; Dan setelah ekor naik. ; Extreme. ; Mungkin kita tidak sempat beli. ; Tetapi di candle yang ini Anda menemukan ada inside bar. ; Dan Anda harus berani melakukan buy stop di sini. ; Karena ini adalah inside bar. ; Next bar-nya. ; Langsung inside bar lagi kecil. ; Dan kita turunkan. ; Kalau ada dua kali inside bar. ; Ini inside bar lagi ya. ; Terhadap yang ini. ; Kita turunkan. ; Dan langsung dia tembus running. ; Ya. ; Jadi prinsipnya. ; Saya menemukan. ; Falling wedge. ; Dan saya menemukan area X, Y-nya. ; Maka saya akan entry. ; Saya akan menunggu candle yang terbentuk. ; Atau saya akan menggunakan breakout misalnya. ; Itu dua-dua bisa dilakukan. ; Pada saat Anda melakukan breakout. ; Berarti kita menggunakan alternatif. ; Ya. ; Untuk entry. ; Pada saat kita menggunakan inside bar. ; Itu yang kita akan tunggu-tunggu. ; Jadi. ; Sekarang Anda sudah melihat. ; Bagaimana kita meng-combine multiple time frame. ; Kemudian menggunakan pattern. ; Untuk melakukan trading. ; Dan live trading yang saya buat. ; Selama saya mengajar chapter ini. ; Adalah di JPP Jepang ya. ; Dan saya lumayan. ; Make money tadi sempat 600 lebih. ; Tapi saya yakin. ; Metode ini akan bisa kita implementasikan. ; Kalau saya bisa. ; Anda juga bisa. ; Dan bagi Anda yang sudah mempelajari ini. ; Dan ingin melanjutkan ke tahap yang lebih jauh. ; Chartered Astronachy Trader. ; Selama satu tahun. ; Certification program astronachy akan mendidik Anda. ; Menjadi seorang trader yang luar biasa. ; Make sure Anda stay tune di Astronachy. ; Dan Anda terus mengimplementasikan. ; Apa yang sudah saya sharingkan. ; Dari chapter 1 sampai 10. ; Dengan bersabar. ; Dengan menetapkan trading setup yang jelas. ; Tidak sembarang masuk. ; Saya yakin akan ada hasil yang memuaskan. ; Sukses selalu. ; Dan nantikan update berikutnya. ; Dari Ultimate Technical Analysis Home Study Workshop.
+
+==================================================
+TIMESTAMPS:
+
+[00:04 - 00:29]
+Pada chapter terakhir ini kita akan bersama-sama menggabungkan keseluruhan teori yang sudah Anda pelajari
+
+[00:29 - 00:34]
+Mulai dari basic technical analysis hingga sampai time frame
+
+[00:34 - 00:37]
+Dan Anda akan menjadikan semua itu menjadi sebuah trading system
+
+[00:37 - 00:42]
+Saya akan mengajarkan sebuah trading system yang simple disertai dengan money management
+
+[00:42 - 00:48]
+Anda harus menguasai money management yang perlu untuk diaplikasikan di dalam trading system ini tentunya
+
+[00:48 - 00:55]
+Dan bisa langsung kita praktekkan untuk futures market dan kemudian untuk stocks market
+
+[00:55 - 00:59]
+Yang pada akhirnya membuat Anda bisa menjadi seorang trader yang profitable
+
+[00:59 - 01:01]
+Kita membahas tentang money management
+
+[01:01 - 01:05]
+Di dalam money management saya menganut hukum aturan yang sangat-sangat simple
+
+[01:05 - 01:08]
+Kita bagi menjadi dua, stock market dan futures market
+
+[01:08 - 01:14]
+Untuk stocks market kita menganut hukum 2%, 6% atau 10%
+
+[01:14 - 01:18]
+Pada saat kita memilih 2%, 6% atau 10% artinya
+
+[01:18 - 01:25]
+Di dalam setiap kali trading resiko terbesar adalah 2%, 6% atau 10%
+
+[01:25 - 01:30]
+Tergantung preference daripada resiko masing-masing trader
+
+[01:30 - 01:33]
+Katakan Anda memilih 10%
+
+[01:33 - 01:42]
+Berarti maksimal setiap kali trading Anda tidak boleh mengalami kerugian lebih daripada 10% dari total modal
+
+[01:42 - 01:44]
+Katakan modal Anda adalah 100 juta rupiah
+
+[01:44 - 01:48]
+Anda tidak boleh hold posisi loss lebih daripada 10% dari total modal
+
+[01:48 - 01:52]
+Karena itu akan merusak profil 10%
+
+[01:52 - 01:55]
+Karena dengan 10% risk Anda memiliki nyawa 10 kali
+
+[01:55 - 02:01]
+Lebih dari 10 kali Anda akan mengalami kehancuran
+
+[02:01 - 02:03]
+Artinya total modalnya sudah habis
+
+[02:03 - 02:04]
+Maka nyawa Anda 10 kali
+
+[02:04 - 02:07]
+Kalau Anda memilih 2% maka nyawa Anda 50 kali
+
+[02:07 - 02:09]
+Mari kita simulasikan
+
+[02:09 - 02:15]
+Dengan asumsi 6% maka kurang lebih Anda memiliki nyawa sekitar 16 kali
+
+[02:15 - 02:17]
+Kita pilih yang moderat
+
+[02:17 - 02:18]
+6%
+
+[02:18 - 02:20]
+Atau lebih gampangnya 5%
+
+[02:21 - 02:22]
+5% dan 6%
+
+[02:22 - 02:28]
+Ini teori dari money management Anda bisa browsing di internet untuk mendapatkan informasi lebih lanjut
+
+[02:28 - 02:31]
+Tapi mari kita buat sebuah gambaran yang gampang
+
+[02:31 - 02:32]
+Katakan 5%
+
+[02:32 - 02:34]
+Di dalam saham
+
+[02:34 - 02:38]
+Kita membagi portfolio kita modal kita menjadi 3 atau 5 bagian
+
+[02:38 - 02:41]
+Katakan Anda membagi 5 bagian yang sama
+
+[02:41 - 02:45]
+Berarti kalau 100 juta kita bagi menjadi 5
+
+[02:45 - 02:46]
+Masing-masing
+
+[02:47 - 02:48]
+Diisi dengan
+
+[02:48 - 02:49]
+20 juta
+
+[02:49 - 02:51]
+Masing-masing adalah 20 juta
+
+[02:51 - 02:53]
+Seperti Anda lihat diilustrasi
+
+[02:53 - 02:58]
+100 juta kita tarik 5 dan masing-masing berisi 20 juta
+
+[02:58 - 03:01]
+Kalau kita aplikasikan 5%
+
+[03:01 - 03:04]
+Maka 5% ini dihitung dari 100 juta
+
+[03:04 - 03:06]
+5% dari 100 juta adalah 5 juta
+
+[03:06 - 03:09]
+Kalau satu saham
+
+[03:09 - 03:11]
+Kita membeli dengan 20 juta
+
+[03:11 - 03:16]
+Maka Anda tidak boleh menahan kerugian lebih dari 25% penurunan
+
+[03:16 - 03:18]
+Karena kalau lebih dari 25% menurunkan 25% penurunan
+
+[03:18 - 03:24]
+25% penurunan maka anda akan mengalami floating loss 5 juta dan apapun yang terjadi pattern
+
+[03:24 - 03:31]
+apapun yang akan anda gunakan maka 25% adalah maksimal penurunan yang boleh anda tahan dan
+
+[03:31 - 03:36]
+apabila mencapai level tersebut yang boleh anda lakukan adalah cut loss anda tidak boleh average
+
+[03:36 - 03:41]
+anda tidak boleh hold yang anda butuhkan adalah cut karena walaupun anda melakukan cut tersebut
+
+[03:41 - 03:49]
+anda masih memiliki setidaknya 19 nyawa karena 5% itu merupakan 20 kali kesempatan untuk salah
+
+[03:49 - 03:57]
+jadi di dalam saham kita membagi dulu sahamnya menjadi 5 kemudian kita menganut 5% per trade
+
+[03:57 - 04:04]
+itu 5% dari capital bukan 5% sahamnya turun artinya 5 juta dari 20 juta itu tidak mungkin
+
+[04:04 - 04:09]
+kalau kita trading dengan semua pattern yang sudah anda pelajari minus sampai 25% itu artinya
+
+[04:09 - 04:11]
+anda salah menganalisa tetapi sesalah-salahnya
+
+[04:11 - 04:19]
+pun senekat-nekatnya setidak disiplinnya anda harus melakukan likuidasi pada saat drop 25%
+
+[04:19 - 04:24]
+karena itu menyentuh angka 5 juta kalau anda tawar-menawar dan rusak profilnya maka anda
+
+[04:24 - 04:29]
+merusak seluruh tatanan bagaimana money management yang ada di futures market karena futures market
+
+[04:29 - 04:35]
+merupakan market yang menggunakan leverage artinya modal yang anda tanamkan di future
+
+[04:35 - 04:41]
+haruslah uang yang anda siap untuk kalah artinya uang yang memang dalam hal ini
+
+[04:41 - 04:41]
+yang tidak berhasil berhasil berhasil berhasil berhasil berhasil berhasil berhasil berhasil berhasil berhasil
+
+[04:41 - 04:46]
+tidak berarti kita resikokan uang sekecil mungkin katakan 500 dollar 1000 dollar 2000 dollar karena
+
+[04:46 - 04:53]
+setiap orang berbeda-beda dan pada akhirnya 2000 dollar ini bisa meledak menjadi 100 ribu dollar
+
+[04:53 - 04:58]
+atau seperti saya 2000 dollar menjadi 400 ribu dollar dalam waktu tiga tahun itu memungkinkan
+
+[04:58 - 05:04]
+yang paling penting adalah di futures market tidak berbicara mengenai berapa rasio dua persen
+
+[05:04 - 05:10]
+enam persen aliran astronasi dari uang kecil menjadi besar yang kita masukkan di tahap awal adalah
+
+[05:11 - 05:19]
+5 ribu dollar maka make sure bahwa Anda memiliki nyawa setidaknya 20 kali jadi 20 kali Anda trading
+
+[05:19 - 05:25]
+Anda salah 20 kali baru uangnya habis jangan kurang dari situ sehingga nanti kita bisa hitung berapa
+
+[05:25 - 05:31]
+pips yang akan Anda butuhkan pattern-pattern yang sudah kita ajarkan biasanya akan memberikan Anda
+
+[05:31 - 05:39]
+resiko kurang lebih antara 70 pips sampai maksimal 100 pips per trading jadi kalau masuk 0,1 lot maka
+
+[05:39 - 05:46]
+setiap kali cut loss Anda akan kehilangan 100 dollar kalau uang Anda adalah 5 ribu dengan 0,1
+
+[05:46 - 05:53]
+lot dan Anda stop loss 100 dollar maka 50 kali stop loss uang Anda akan habis ya kalau Anda masuk
+
+[05:53 - 06:00]
+0,5 berarti 10 kali stop loss uang Anda akan habis ini tergantung dari berapa lot yang akan Anda
+
+[06:00 - 06:07]
+habiskan jadi kalau kita set up adalah 20 kali nyawanya ya maka kurang lebih Anda bisa menggunakan
+
+[06:07 - 06:09]
+0,25
+
+[06:10 - 06:17]
+karena dengan 0,25 lot Anda stop loss 100 poin selama 20 kali berturut-turut maka uang 5000 itu
+
+[06:17 - 06:24]
+akan habis nah inilah yang harus kita concern kalau di saham tadi 5% atau 10% atau 2% dari total equity
+
+[06:24 - 06:32]
+kalau di futures kita melihat berapa pips dan berapa lot lalu kita ingin berapa risk yang akan
+
+[06:32 - 06:37]
+kita inginkan dalam bentuk dollar berapa kali ya itu dari sisi money management dari sisi trading
+
+[06:37 - 06:38]
+strateginya
+
+[06:38 - 06:39]
+kita harus
+
+[06:39 - 06:43]
+bisa menentukan terlebih dahulu saya adalah swing trader atau saya adalah scalping trader.
+
+[06:43 - 06:46]
+Materi kali ini akan mendidik Anda menjadi seorang swing trader,
+
+[06:46 - 06:52]
+karena menjadi swing trader setidaknya kalau di futures Anda akan mendapatkan profit 70 pips sampai 100 pips,
+
+[06:52 - 06:56]
+idealnya, dan kalau di saham 8 sampai 12 persen idealnya.
+
+[06:57 - 07:01]
+Nah, mari kita susun strategi bagaimana caranya untuk melakukan trading setup,
+
+[07:01 - 07:05]
+mulai dari nol, mulai dari membaca cap, sampai menentukan entry dan stop loss.
+
+[07:05 - 07:11]
+Kita akan memberikan contoh 5 trading setup yang akan bisa Anda duplikasikan nanti.
+
+[07:11 - 07:15]
+5 trading setup berdasarkan dari semua ilmu yang sudah kita pelajari,
+
+[07:15 - 07:19]
+dan Anda bisa melihat saya bagaimana caranya membuat sebuah trading system,
+
+[07:19 - 07:23]
+mengaplikasikan semua ilmu untuk menjadikan sebuah trading plan yang siap untuk ditradingkan.
+
+[07:29 - 07:35]
+Selamat datang di chapter terakhir, ini merupakan chapter yang paling penting dari semua yang sudah Anda pelajari,
+
+[07:35 - 07:40]
+karena kita akan menggabungkan keseluruhan konsep dasar trading pada chapter ini.
+
+[07:41 - 07:43]
+Kita akan mulai membuat sebuah trading system,
+
+[07:43 - 07:48]
+dan akan mengambil 5 contoh trading system untuk Anda pelajari,
+
+[07:48 - 07:50]
+dan nanti Anda akan mengikuti semua step-nya.
+
+[07:50 - 07:52]
+Kita akan membagi menjadi 3 step,
+
+[07:53 - 07:55]
+the first step, second step, and third step.
+
+[07:55 - 08:00]
+The first step, tugas yang harus Anda lakukan, melakukan major trend analysis.
+
+[08:01 - 08:06]
+Ingat, waktu masuk ke chapter pertama, Anda mempelajari tentang primary, secondary.
+
+[08:06 - 08:08]
+Primary, secondary.
+
+[08:08 - 08:10]
+Lalu di dalam Fibonacci, Anda mempelajari XA.
+
+[08:10 - 08:10]
+B.
+
+[08:11 - 08:18]
+Bentuk ini akan terus berulang, dan kita akan menggunakan satu per satu di dalam trading secara sistematis.
+
+[08:18 - 08:22]
+Ada chart pattern, ada candlestick, mana yang harus digunakan?
+
+[08:22 - 08:25]
+Ada trend line, nanti kita akan bahas secara satu per satu,
+
+[08:25 - 08:31]
+tetapi sebelumnya harus dikategorikan bahwa yang pertama, first step, ini harus dilakukan terlebih dahulu,
+
+[08:32 - 08:35]
+di mana ilmu menganalisa yang tahap awal,
+
+[08:35 - 08:41]
+di mana Anda menggunakan swing high, swing low, Anda mengkonekkan higher high,
+
+[08:41 - 08:46]
+high, high, low, dan seterusnya di chapter satu, itu akan digunakan di first step.
+
+[08:46 - 08:53]
+Kemudian di second step, kita akan berbicara mengenai pattern, apa yang akan Anda masuki,
+
+[08:53 - 08:56]
+terus kemudian candlestick-nya apa sebagai trigger entry-nya,
+
+[08:56 - 09:01]
+dan yang terakhir di third step, di mana entry-nya, target profit-nya berapa,
+
+[09:02 - 09:06]
+otomatis akan menggunakan ilmu daripada chart pattern target dan Fibonacci target,
+
+[09:07 - 09:10]
+kemudian stop loss-nya di mana, kemudian reverse strategy-nya,
+
+[09:10 - 09:13]
+ini bagaimana, kita akan mengambil lima contoh,
+
+[09:13 - 09:19]
+yang pertama adalah pada saham BBRI, Anda bisa perhatikan, ini saham BBRI,
+
+[09:20 - 09:27]
+secara keseluruhan, kita melihat yang akan kita gunakan dulu adalah menarik garis,
+
+[09:27 - 09:34]
+atau menghubung-hubungkan garis ini untuk menjadi sebuah referensi,
+
+[09:34 - 09:36]
+jadi kita akan save terlebih dahulu,
+
+[09:37 - 09:40]
+major yang harus kita lakukan adalah major analysis,
+
+[09:41 - 09:46]
+dimulai dari membuat swing line, harus dikerjakan ya, membuat swing line,
+
+[09:46 - 09:49]
+kita menggunakan warna biru saja, diberikan garis agak kebal,
+
+[09:54 - 09:59]
+apakah ini atau yang kecil, misalnya, kita akan menggunakan yang ini,
+
+[09:59 - 10:02]
+kenapa, karena di dalamnya sudah mengandung swing line,
+
+[10:02 - 10:05]
+jadi nanti kalau kita tarik akan membuat 3 derajat,
+
+[10:05 - 10:08]
+di tahap ini Anda harus sudah mengerti cara membeda-bedakan,
+
+[10:08 - 10:11]
+kemudian ini kita tarik primary, kemudian secondary,
+
+[10:13 - 10:21]
+kemudian ini primary, ya, kemudian ini adalah bagian dari secondary,
+
+[10:22 - 10:33]
+ini primary, dan seterusnya, ini, nah, lalu Anda harus memberikan coding,
+
+[10:34 - 10:37]
+high, low-nya pasti yang sebelumnya ya, low-nya di sini,
+
+[10:38 - 10:42]
+berarti ini adalah lower low, kemudian di sini adalah lower high,
+
+[10:42 - 10:45]
+kemudian di sini adalah higher low, ini adalah lower high,
+
+[10:45 - 10:49]
+berarti ini bearish, jelas ya, lower low, karena ada lower high 2 kali atau lebih,
+
+[10:49 - 10:53]
+nah, di sini ada higher low, tapi di sini masih lower high,
+
+[10:53 - 10:57]
+di sini higher low, ingat ada 2 kali higher low, ada 3 kali higher low,
+
+[10:59 - 11:03]
+berarti di tahap pertama kita sudah melakukan major analysis,
+
+[11:03 - 11:09]
+ada 3 kali higher low, ada kemungkinan besar bahwa saham ini akan kembali menjadi bullish,
+
+[11:12 - 11:14]
+lalu, yang bisa kita lakukan berikutnya,
+
+[11:14 - 11:15]
+kita bisa bermain dengan,
+
+[11:15 - 11:17]
+trendline, kita sudah hubungkan garis-garis ini,
+
+[11:18 - 11:18]
+terhubung,
+
+[11:19 - 11:22]
+dan pada saat ini, ternyata,
+
+[11:22 - 11:25]
+ya, apa yang bisa kita lihat, ada breakout,
+
+[11:26 - 11:30]
+ya, kita kembali dulu ke step 1, ya,
+
+[11:31 - 11:34]
+major trend analysis, forecast-nya bagaimana, setelah kita gabungkan,
+
+[11:34 - 11:37]
+kemudian kita forecast, ada kemungkinan dari bearish menjadi bullish,
+
+[11:38 - 11:43]
+price range-nya berapa, kalau dia menjadi bullish, seberapa jauh dia bisa naik,
+
+[11:44 - 11:44]
+maka,
+
+[11:44 - 11:46]
+maka, ilmu yang kita gunakan adalah,
+
+[11:47 - 11:48]
+support resistance,
+
+[11:48 - 11:49]
+classic,
+
+[11:50 - 11:51]
+kemudian,
+
+[11:51 - 11:52]
+X, A, Y,
+
+[11:53 - 11:54]
+atau X, A, B,
+
+[11:54 - 11:56]
+jadi, seandainya support resistance klasik,
+
+[11:56 - 11:59]
+kita tahu bahwa ini adalah area yang paling kuat,
+
+[12:00 - 12:02]
+kemudian ini juga resistance kuat,
+
+[12:02 - 12:05]
+maka, range-nya, kalau sekarang di 10.675,
+
+[12:05 - 12:11]
+dia akan naik terus sampai di, setidaknya di 11.500, ya, naik 1000 rupiah,
+
+[12:11 - 12:13]
+untuk terus keatas dan kemudian dia akan kesini,
+
+[12:14 - 12:36]
+Kita menggunakan XAB, ya, katakan ini adalah XAB, kemudian, nah, ini X, A, dan kemudian B, kita mau lihat sampai di berapa, ukur dengan vibonacinya, ya, katakan kalau kita menggunakan vibonaci dari atas ini, kita tarik ke yang paling bawah,
+
+[12:37 - 12:57]
+50%-nya itu di 11.000, kemudian 61,8%-nya di 11.350, which is itu cukup dekat dengan area klasik resistance yang ada di sini, ya, 11.500, ya, kurang lebih, ya, ini nggak sampai 11.400,
+
+[12:57 - 13:06]
+berarti, kalau kita tanyakan berapa price range-nya, maka jawaban terbesar adalah masih ada Rp. 1.000 kenaikan, upside opportunity.
+
+[13:06 - 13:34]
+Jadi, pattern itu masuk di second step, setelah kita sudah tahu, berarti arahnya tendensinya akan bullish, yang kita lakukan berikutnya adalah pola apa yang saat ini kebentuk, caranya bagaimana kita mengkonekkan, saya hilangkan ini, kita mengkonekkan, coba, garis di sini, kemudian saya konekkan garis di sini, yang terbentuk adalah seperti triangle, atau seperti penan, ya,
+
+[13:35 - 13:36]
+tetapi, secara kondisi, kita bisa menggunakan Rp. 1.000, Rp. 1.000, Rp. 1.000, Rp. 1.000, Rp. 1.000, Rp. 1.000, Rp. 1.000.
+
+[13:36 - 13:58]
+Nah, ke seluruh ruang, kita melihat huruf W di sini, bahwa ini ada huruf W kecil, yang mana memiliki satu peluang untuk menghantarkan harga naik, jadi kemungkinan ada double bottom, atau huruf W, yang menjadi pattern penentu untuk bullish-nya saham BBRI.
+
+[13:59 - 14:09]
+Pattern W, kemudian candlestick to entry, adakah candlestick yang muncul di sini, ya, ini Marobozu, ya, full, barnya full, open di bawah.
+
+[14:09 - 14:15]
+Close-nya di atas, saya tinggal menunggu terjadinya inside bar, lalu kemudian saya akan entry.
+
+[14:16 - 14:20]
+Berapa target price, where to entry, menunggu candlestick, ya, itu trading sistemnya.
+
+[14:21 - 14:29]
+Kemudian berapa target price, target price saya akan set di Rp. 11.500, dan di Rp. 12.200, mungkin.
+
+[14:30 - 14:36]
+Dan ini, saya percaya, akan terus bergerak ke atas, mencapai level salah satu dari level ini.
+
+[14:37 - 14:38]
+Stop loss-nya bagaimana?
+
+[14:38 - 14:52]
+Stop loss dilakukan pada saat harga tidak mampu lagi naik, dan kemudian dia turun di bawah Rp. 10.000, artinya Rp. 10.000 ini ditembus, karena ini adalah support, akan menjadi support yang cukup kuat.
+
+[14:52 - 15:04]
+Begitu support ini ditembus, saya akan buang, kenapa? Karena dia akan kembali membentuk lower low, dasarnya itu, kita cut di situ, tidak perlu kita tahan, karena berikutnya dia akan menjadi lower low.
+
+[15:04 - 15:07]
+Jadi, keputusan kita adalah kita melakukan...
+
+[15:09 - 15:16]
+trading di sambil hari buy, target price Rp. 11.500 sekian, stop loss-nya di sini karena dia akan membentuk lower low.
+
+[15:16 - 15:24]
+Mari kita lihat, kita jalankan, oke, harga naik, ya, sudah benar, tapi belum ada titik entry.
+
+[15:24 - 15:38]
+Harga mulai drop, kita lihat, the next day, harga up, mencapai target price pertama, walaupun kita belum bisa masuk, saya setelah ini akan memberikan alternate entry.
+
+[15:38 - 15:50]
+Jadi, kita masih membahas dulu satu teknik entry yang kita sebut dengan inside bar, tidak ada entry sama sekali, dan harga menembus atas, jadi sudut pandang inside bar itu tidak muncul.
+
+[15:51 - 16:03]
+Jadi, saya akan membongkar satu per satu ide untuk entry, yang kita perlukan adalah vocabulary bagaimana saya bisa entry, inside bar jelas tidak ada di sini, ya, kemudian dia naik lagi, dia naik lagi, dan seterusnya.
+
+[16:04 - 16:05]
+Mungkin inside bar akan muncul di tengah-tengah.
+
+[16:06 - 16:07]
+Sekarang, saya akan mencoba...
+
+[16:08 - 16:24]
+Repeat situation, dari level ini, ya, dari level ini, equal dengan ini, pertanyaan berikutnya, di dalam kita melakukan entry, kita tidak bisa hanya menggunakan satu cara entry, harus ada setidaknya tiga.
+
+[16:24 - 16:36]
+Kalau tidak bisa seperti ini, besok harus seperti apa? Kita berharap inside bar, ternyata inside bar tidak ada. Apakah tidak ada ide lain untuk entry? Tidak, tidak begitu. Anda bisa menggunakan ide lain untuk entry, khususnya.
+
+[16:36 - 16:38]
+Nanti setelah ini kita akan mencoba di market yang lain.
+
+[16:40 - 16:53]
+Alternatif kedua, pada saat kita menggambar, ya, kita tahu bahwa ini baru saja break resistance, baru saja break resistance, break resistance pertama, dan di sini ada resistance kedua.
+
+[16:55 - 17:04]
+Alternatifnya adalah kita berasumsi bahwa buy on break, karena trendnya benar-benar kuat, dia membentuk way, dan akan menekan ke atas.
+
+[17:04 - 17:07]
+Dari sisi trendline, dia sudah break.
+
+[17:07 - 17:09]
+Dari sisi pattern, dia juga sudah break.
+
+[17:10 - 17:10]
+Ini berada di resistance.
+
+[17:10 - 17:14]
+Artinya, besok satu poin saja di atas 10, 6, 7, 5, kita masuk.
+
+[17:14 - 17:15]
+Jadi, kita sudah punya dua pilihan.
+
+[17:15 - 17:17]
+Yang pertama, munculnya inside bar.
+
+[17:17 - 17:22]
+Yang kedua, kita trading dengan munculnya breakout.
+
+[17:22 - 17:25]
+Karena waktu kita buka market, harga tidak di sini.
+
+[17:25 - 17:27]
+Kalau harga di sini, kita berani buy on weakness.
+
+[17:28 - 17:31]
+Tetapi, setiap orang waktu buka market beda-beda.
+
+[17:31 - 17:33]
+Kita harus memiliki jurus.
+
+[17:33 - 17:39]
+Kalau buka market posisi begini, ini tidak susah, karena sudah jelas inside bar, dan ini harga sudah menembus.
+
+[17:40 - 17:42]
+Maka, teori satu, dua, tiga, empat bisa dipakai.
+
+[17:42 - 17:44]
+Anda pasti ingat teori satu, dua, tiga, empat.
+
+[17:45 - 17:50]
+Jadi, kalau dalam kasus seperti ini, langsung saja satu, dua, tiga, dan pada saat nanti empat, kita buy.
+
+[17:50 - 17:53]
+Masalahnya, waktu Anda masuk, harga sudah di atas.
+
+[17:54 - 17:54]
+Empatnya sudah jadi.
+
+[17:55 - 17:58]
+Nah, teori satu, dua, tiga, empat pun bisa terpakai di sini.
+
+[17:58 - 18:01]
+Kita percaya bahwa setelah dia tembus ini, empat sudah terbentuk.
+
+[18:02 - 18:04]
+Artinya, harusnya naik dengan signifikan.
+
+[18:05 - 18:07]
+Maka, yang bisa kita lakukan di sini adalah,
+
+[18:07 - 18:13]
+saya mengambil posisi buy dengan kondisi breakout, misalnya.
+
+[18:13 - 18:19]
+Maka, begitu harga lompat seperti ini, saya memberanikan diri untuk masuk terlebih dahulu.
+
+[18:19 - 18:23]
+Selama stop loss-nya belum dikenakan, kita yakin bahwa trend bullish akan berjalan.
+
+[18:24 - 18:26]
+Besok harinya merah, ya.
+
+[18:26 - 18:33]
+Selama dia tidak masuk lagi di bawah ini, selama dia tidak kembali turun di bawah area yang baru ditembusnya,
+
+[18:33 - 18:34]
+it's good enough.
+
+[18:34 - 18:36]
+Dan akhirnya, Anda bisa make money.
+
+[18:37 - 18:39]
+Lalu, target keduanya masih di atas.
+
+[18:39 - 18:41]
+Apakah kita bisa capai?
+
+[18:41 - 18:43]
+Mungkin Anda sudah take profit.
+
+[18:43 - 18:44]
+Jelas, take profit pertama sudah kena.
+
+[18:44 - 18:47]
+Lalu, kita menunggu lagi untuk entry berikutnya.
+
+[18:47 - 18:48]
+Adakah kesempatan entry?
+
+[18:48 - 18:50]
+Ya, ini ada inside bar.
+
+[18:50 - 18:54]
+Maka, saya bersiap-siap untuk buy pada saat break mother candle di atas Rp11.600.
+
+[18:55 - 18:59]
+Dan target price-nya mungkin di level di Rp12.050, mungkin ya.
+
+[19:01 - 19:03]
+Ternyata tidak kena, masih turun ke bawah.
+
+[19:03 - 19:05]
+Dan besoknya done.
+
+[19:07 - 19:08]
+Kita buy.
+
+[19:09 - 19:10]
+Hampir kena.
+
+[19:11 - 19:12]
+Dan dia turun.
+
+[19:12 - 19:17]
+Tapi Anda lihat, range-nya sudah sangat dekat sekali dengan target yang kita inginkan, ya.
+
+[19:17 - 19:20]
+Di Rp12.050 ini.
+
+[19:20 - 19:25]
+Kalau kita menggunakan Fibonacci, maka percayalah bahwa Rp78.6 sudah di hit.
+
+[19:25 - 19:26]
+Ini Rp78.6 di hit.
+
+[19:27 - 19:29]
+Dan Anda sudah mendapatkan hasilnya.
+
+[19:30 - 19:32]
+Kemudian dia turun lagi, turun lagi.
+
+[19:32 - 19:33]
+Trend masih bullish, perhatikan.
+
+[19:34 - 19:36]
+Moving average sudah di atas.
+
+[19:38 - 19:42]
+Dan seterusnya hit Rp12.050.
+
+[19:43 - 19:43]
+Oke.
+
+[19:43 - 19:50]
+Ini merupakan sebuah mekanisme trading yang sangat objektif dan high profitability, ya.
+
+[19:52 - 19:54]
+Bagaimana dengan contoh yang lain?
+
+[19:54 - 19:56]
+Kita akan masuk di GBP Jepang Yen.
+
+[19:57 - 19:58]
+Ini live trade.
+
+[19:58 - 20:00]
+Saya sedang melakukan sell.
+
+[20:00 - 20:05]
+Dan saya akan bagikan caranya bagaimana pertimbangan saya sampai bisa melakukan sell.
+
+[20:05 - 20:08]
+Dan kita ada posisi 3 lot di sini.
+
+[20:08 - 20:11]
+Posisi sudah floating profit.
+
+[20:13 - 20:19]
+Anda akan tahu bagaimana caranya mengambil keputusan untuk entry sell di atas, ya.
+
+[20:20 - 20:22]
+Mari kita breakdown satu persatu.
+
+[20:22 - 20:25]
+Kita urutkan, kita jadikan bar chart terlebih dahulu.
+
+[20:26 - 20:30]
+Kita gunakan GBP Jepang Yen sesuai dengan aturan main.
+
+[20:31 - 20:36]
+Yang pertama, major trend analysis.
+
+[20:37 - 20:38]
+Major trend analysis.
+
+[20:40 - 20:41]
+Kita tarik garisnya.
+
+[20:50 - 20:51]
+Swing line-nya.
+
+[20:56 - 20:58]
+Harga berada di bawah moving average.
+
+[20:58 - 21:00]
+Kita gunakan dynamic support.
+
+[21:00 - 21:01]
+Dynamic resistance.
+
+[21:01 - 21:04]
+Dan kita berasumsi dia akan turun.
+
+[21:04 - 21:06]
+Itu aturan main pertama.
+
+[21:07 - 21:07]
+Lalu mulai.
+
+[21:07 - 21:09]
+Kita gunakan di sini adalah high.
+
+[21:10 - 21:10]
+Dan.
+
+[21:12 - 21:14]
+Pelemahannya di sini pasti adalah lower low.
+
+[21:15 - 21:18]
+Karena ada berbagai macam low yang ditembus.
+
+[21:19 - 21:19]
+Lower high.
+
+[21:20 - 21:21]
+Lower low.
+
+[21:22 - 21:22]
+Lower high.
+
+[21:22 - 21:24]
+Lower low.
+
+[21:24 - 21:24]
+Lower low.
+
+[21:24 - 21:25]
+Lower low.
+
+[21:25 - 21:25]
+Lower low.
+
+[21:25 - 21:25]
+Lower low.
+
+[21:25 - 21:27]
+Lower low.
+
+[21:27 - 21:27]
+Lower low.
+
+[21:27 - 21:28]
+Lower low.
+
+[21:28 - 21:29]
+Lower low.
+
+[21:29 - 21:29]
+Lower low.
+
+[21:29 - 21:30]
+Lower low.
+
+[21:30 - 21:30]
+Lower low.
+
+[21:30 - 21:35]
+Lower low.
+
+[21:35 - 21:37]
+Lower low.
+
+[21:52 - 21:53]
+Lower low.
+
+[21:53 - 21:55]
+Pips
+
+[21:56 - 21:57]
+Pattern to entry
+
+[21:58 - 22:00]
+Kalau kita sudah bilang pattern to entry
+
+[22:00 - 22:02]
+Saya akan gunakan M30
+
+[22:02 - 22:04]
+Karena ini adalah time frame untuk entry
+
+[22:06 - 22:07]
+Pattern to entry nya bagaimana
+
+[22:07 - 22:10]
+Kemudian apalagi candlestick to entry nya bagaimana
+
+[22:10 - 22:14]
+Pattern to entry salah satu reason nya adalah
+
+[22:14 - 22:20]
+Harga mencapai area exponential moving average 21-22
+
+[22:20 - 22:22]
+Kurang lebih saya ganti 21
+
+[22:23 - 22:26]
+Kemudian mulai menunjukkan pembalikan arah
+
+[22:26 - 22:30]
+Saya yakin akan terpembentukan ABCD
+
+[22:30 - 22:32]
+Jadi ABCD nya adalah ini AB
+
+[22:34 - 22:37]
+Kemudian ini CD nantinya
+
+[22:37 - 22:43]
+Tetapi pattern yang akan terjadi apa pattern nya
+
+[22:43 - 22:45]
+Mungkin di dalam kasus ini
+
+[22:45 - 22:47]
+Anda harus menggambarkan lagi disini
+
+[22:47 - 22:49]
+Menghubungkan trend line nya seperti ini
+
+[22:51 - 22:53]
+Dan yang bisa terjadi
+
+[22:53 - 22:54]
+Yang paling besar kemungkinan
+
+[22:54 - 22:56]
+Mungkinan nya adalah M pattern
+
+[22:56 - 23:03]
+Untuk sementara saya pakai kaki yang ada disini
+
+[23:03 - 23:12]
+Adalah M pattern
+
+[23:13 - 23:14]
+Candlestick to entry
+
+[23:14 - 23:16]
+Kenapa saya sudah entry duluan
+
+[23:16 - 23:21]
+Karena disini saya melihat ada
+
+[23:21 - 23:27]
+Waktu di posisi ini candle ekor panjang di atas
+
+[23:27 - 23:30]
+Ekor panjang di atas ini kakinya seperti
+
+[23:30 - 23:33]
+Climax dipaksakan bukan ekor panjang di bawah maksud saya
+
+[23:33 - 23:39]
+Yang harusnya dia bull tetapi next bar nya dia tidak mampu
+
+[23:39 - 23:48]
+Dan kemudian ini membentuk inside bar
+
+[23:48 - 23:50]
+Jadi bagi anda yang baru mulai mau masuk
+
+[23:50 - 23:54]
+Mungkin pada saat dia tembus low yang ada disini
+
+[23:54 - 23:59]
+Ini akan jadi sell trigger yang pertama
+
+[23:59 - 24:01]
+Sebenarnya karena inside bar
+
+[24:01 - 24:06]
+Ya inside bar yang terbentuk ini akan menjadi trigger pertama
+
+[24:06 - 24:09]
+Begitu dia tembus di bawah mother candle nya akan turun
+
+[24:09 - 24:11]
+Waktu saya sell di atas baru saja saya sell
+
+[24:11 - 24:14]
+Itu karena saya menggunakan X I Y
+
+[24:14 - 24:16]
+Dimana ini X I Y saya tarik
+
+[24:17 - 24:21]
+Ternyata di 1618 kena lalu dia mulai slowing down
+
+[24:21 - 24:26]
+Maka saya langsung menggunakan sell karena dia X I Y ya kena 1618
+
+[24:28 - 24:30]
+Bisa-bisa saja tetapi yang paling aman
+
+[24:30 - 24:34]
+Candle apa yang buat masuk kebetulan disini ada inside bar
+
+[24:34 - 24:36]
+Break mother candle maka kita akan mulai sell
+
+[24:38 - 24:39]
+Where to entry?
+
+[24:39 - 24:41]
+Pada saat mother candle ditembus
+
+[24:41 - 24:44]
+Anda cek harganya 131,9
+
+[24:44 - 24:46]
+Where to take profit?
+
+[24:46 - 24:50]
+Saya pasang take profit disini yang pertama itu 125 pips
+
+[24:51 - 24:53]
+Kenapa? Karena ini adalah support yang kuat
+
+[24:54 - 24:59]
+Lalu target stop loss adalah cuma 30 pips karena kecil disini stop loss nya
+
+[24:59 - 25:00]
+Ya itu sangat enak sekali
+
+[25:01 - 25:04]
+Target price berikutnya saya bisa menggunakan X I Y
+
+[25:04 - 25:10]
+Jadi kalau ini anda masih ingat X I Y tentunya ya ini X
+
+[25:13 - 25:44]
+Ini A dan ini Y, setidaknya sekarang saya sudah floating $228, which is not bad, lalu saya taruh di sini, tarik ke bawah, 1618 itu mendekati area classic support, maka di range ini kita bisa menjadi profit target.
+
+[25:44 - 26:16]
+It's very simple. Bagaimana kita melihat pair yang lain? Mari kita mencari, mungkin di saham, kita buka lagi di saham, kita mencari yang belum terjadi, kalau tadi kita sudah mendemonstrasikan yang sudah terjadi, dan kita juga mendemonstrasikan yang kita telah play kembali, maka kita akan melihat saham bank BNI.
+
+[26:17 - 26:19]
+Mari kita kerjakan tugas kemudian.
+
+[26:19 - 26:30]
+Tugas kita, di mana mengerjakan tugas kita ini harusnya menyenangkan ya, karena ini adalah rutin yang tidak boleh di skip ya.
+
+[26:33 - 27:00]
+Oke, mari kita lihat. Kita tarik dulu garis di sini, kemudian di sini, secara keseluruhan ini low, kemudian high-nya pasti somewhere di sini, karena di sini, oke ini adalah high-nya,
+
+[27:00 - 27:01]
+berarti di sini.
+
+[27:01 - 27:32]
+Ini higher high, ini higher low, kemudian higher high, higher low, ya, dan berikutnya ini adalah higher high, oke, saya melakukan kesalahan, hati-hati, Anda harus jeli, di sini adalah lower low, kemudian saya yakin ini adalah higher high, sorry, higher low maksud saya, dan seterusnya kepala canggul akan dilanjutkan dengan higher low.
+
+[27:34 - 27:34]
+Oke, Asalnya saya tetap 있다.
+
+[27:34 - 27:36]
+Betul, jadi событи pada hari ini buat kita, ini sudah optimal.
+
+[27:36 - 27:42]
+cats gets a good fish.
+
+[27:43 - 27:44]
+worries me,
+
+[27:45 - 27:46]
+They have good fish.
+
+[27:47 - 27:48]
+they got a niceISI.
+
+[27:49 - 27:52]
+They got madre Cand sorcerio.
+
+[27:53 - 27:53]
+They gotMax brand TV気Sguya berhasil berhasil berhasil berhasil menjadi cousin mulher part of the rash.
+
+[27:55 - 28:02]
+Seriously like this is the famous GPP You know.
+
+[28:02 - 28:04]
+This pictures of mom told me so much.
+
+[28:04 - 28:05]
+ikuti flow-nya lagi, pattern to entry
+
+[28:05 - 28:07]
+dan candlestick to entry
+
+[28:07 - 28:09]
+pattern to entry-nya apa? apakah kita sudah
+
+[28:09 - 28:10]
+menemukan pattern di sini
+
+[28:11 - 28:13]
+pattern yang kita ajarkan, double bottom
+
+[28:13 - 28:15]
+apakah Anda bisa melihat ada
+
+[28:15 - 28:17]
+double bottom di sini, atau flag
+
+[28:17 - 28:19]
+mungkin, atau
+
+[28:19 - 28:21]
+falling wedge, dan ternyata
+
+[28:21 - 28:23]
+yang muncul di sini
+
+[28:23 - 28:25]
+sesuai perkiraan adalah
+
+[28:25 - 28:26]
+falling wedge
+
+[28:27 - 28:29]
+falling wedge merupakan bull pattern
+
+[28:30 - 28:31]
+dan dalam hal ini
+
+[28:31 - 28:33]
+kita sudah menemukan ada bull pattern
+
+[28:33 - 28:36]
+di sini, yang bisa Anda
+
+[28:36 - 28:37]
+lakukan adalah mencari
+
+[28:37 - 28:38]
+candlestick
+
+[28:39 - 28:41]
+untuk entry, nah
+
+[28:41 - 28:43]
+kalau kita perhatikan
+
+[28:43 - 28:45]
+saya melihat ada
+
+[28:45 - 28:47]
+mother candle di sini
+
+[28:49 - 28:51]
+sehingga, mother candle
+
+[28:51 - 28:53]
+inside bar, waktu dia
+
+[28:53 - 28:55]
+tembus ini saya akan melakukan buy
+
+[28:57 - 28:58]
+5525
+
+[28:59 - 29:00]
+tembus itu buy
+
+[29:00 - 29:01]
+dan stop loss-nya di bawah
+
+[29:01 - 29:03]
+dengan ini saya langsung mendapatkan
+
+[29:03 - 29:05]
+entry, entry tekniknya
+
+[29:05 - 29:07]
+menggunakan inside bar
+
+[29:07 - 29:09]
+buy on break di mother candle-nya
+
+[29:09 - 29:12]
+dan stop loss-nya pada saat dia masuk ke sini
+
+[29:12 - 29:13]
+falling wedge
+
+[29:14 - 29:15]
+major timeframe-nya tadi
+
+[29:15 - 29:17]
+bull
+
+[29:17 - 29:19]
+akan melanjutkan penguatannya
+
+[29:19 - 29:21]
+dan kemudian diharapkan dia akan
+
+[29:21 - 29:23]
+melanjutkan pergerakan ke atas
+
+[29:23 - 29:24]
+it's very simple
+
+[29:25 - 29:27]
+dalam contoh yang ke empat
+
+[29:27 - 29:29]
+saya akan mengambil contoh
+
+[29:29 - 29:31]
+pola transisi yang sangat-sangat
+
+[29:31 - 29:33]
+powerfull dan apabila Anda melakukan
+
+[29:33 - 29:39]
+Anda menemukan transisi di time frame yang besar, katakan H4, jangan takut untuk menggunakannya.
+
+[29:39 - 29:41]
+Tinggal Anda bisa set money management Anda.
+
+[29:42 - 29:46]
+Saya akan fokus transisi yang terbentuk di level ini.
+
+[29:47 - 29:50]
+Ini adalah non-farm payroll, pada saat itu kita mendapatkan profit yang luar biasa.
+
+[29:51 - 29:56]
+Pak Syafruddin CET batch 14 mendapatkan Rp96.000 dalam semalam.
+
+[29:56 - 30:01]
+Hendry Irwan batch 14 CET juga mendapatkan Rp44.000 dalam satu malam.
+
+[30:01 - 30:03]
+Nah, dasarnya adalah pola ini.
+
+[30:04 - 30:06]
+Kalau Anda masih ingat, ini adalah trend bearish.
+
+[30:06 - 30:15]
+Kemudian kalau kita menunggu transisi, maka yang akan kita tunggu adalah pembentukan lower low, higher high, higher low, dan higher high.
+
+[30:17 - 30:19]
+Ini adalah transisi yang kita tunggu.
+
+[30:20 - 30:23]
+Dan kita kali ini akan bervariasi bermain pada area yang kecil.
+
+[30:25 - 30:26]
+Mari kita lihat.
+
+[30:26 - 30:27]
+Ini adalah swing kecil.
+
+[30:30 - 30:33]
+Dan apabila Anda menemukan transisi, ini akan fair.
+
+[30:33 - 30:35]
+Very, very powerful di gold market.
+
+[30:36 - 30:38]
+Oke, kita mulai codingnya.
+
+[30:40 - 30:45]
+Ini adalah lower low, kemudian ini adalah higher high, kemudian ini adalah higher low.
+
+[30:45 - 30:53]
+Dan, satu poin saja harga meledak naik di atas garis hijau ini, maka otomatis dia menjadi higher high.
+
+[30:53 - 31:01]
+Dan pada saat itu juga harga meledak dengan signifikan menuju ke target price yang ada di atas ini.
+
+[31:02 - 31:04]
+Ini yang disebut dengan transition.
+
+[31:06 - 31:15]
+Dan alhasil harga terus naik, Anda bisa lihat dari poin ini sampai ke atas, itu total 138 pips dalam sekali penarikan.
+
+[31:15 - 31:16]
+Bukan kayak itu luar biasa.
+
+[31:16 - 31:18]
+Stop loss-nya di mana?
+
+[31:18 - 31:20]
+Stop loss-nya adalah di bawah ini.
+
+[31:21 - 31:23]
+Cukup besar, 138.
+
+[31:24 - 31:25]
+Stop loss-nya 93.
+
+[31:26 - 31:27]
+Tapi, it's worth it.
+
+[31:27 - 31:32]
+Bisa diperjuangkan untuk trading di dalam transisi.
+
+[31:32 - 31:35]
+Jadi, kalau Anda menemukan transisi, Anda akan mendapatkan...
+
+[31:35 - 31:40]
+...satu performa trading yang luar biasa sekali dan winning rate-nya sangat tinggi.
+
+[31:41 - 31:47]
+Yang terakhir, kita akan mencoba mencari pola-pola yang akan terbentuk.
+
+[31:47 - 31:50]
+Kita mungkin akan mengambil contoh di gold.
+
+[31:51 - 31:58]
+Dalam hal ini adalah example berikutnya falling wedge pattern pada gold yang sudah terjadi.
+
+[31:59 - 32:03]
+Sebelum ini terjadi, kita melihat harga turun secara signifikan seperti ini.
+
+[32:04 - 32:05]
+Mari kita akan buat.
+
+[32:05 - 32:08]
+Kita lihat simulasinya di dalam analisa.
+
+[32:10 - 32:12]
+Katakan saya potong di sini.
+
+[32:13 - 32:15]
+Kita melihat bahwa harga turun ke bawah.
+
+[32:15 - 32:19]
+Tetapi, yang kita mainkan sekarang adalah analisa major-nya dulu.
+
+[32:19 - 32:20]
+Dia mencoba menjadi bear.
+
+[32:21 - 32:23]
+Dia mencoba menjadi bear.
+
+[32:25 - 32:28]
+Pattern yang Anda temukan adalah falling wedge.
+
+[32:29 - 32:31]
+Artinya, bear pendek.
+
+[32:32 - 32:35]
+Dan kita bersiap-siap terjadi pembalikan arah.
+
+[32:35 - 32:36]
+Karena ini merupakan...
+
+[32:37 - 32:38]
+Bear pendek.
+
+[32:40 - 32:42]
+Yang seharusnya akan bergerak seperti ini.
+
+[32:43 - 32:48]
+Bearish pendek disebabkan karena munculnya falling wedge, maka posisinya harus buy.
+
+[32:48 - 32:50]
+Pattern-nya adalah falling wedge.
+
+[32:52 - 32:56]
+Dan kita harus entry buy pada akhir daripada falling wedge itu.
+
+[32:56 - 33:05]
+Ide yang bisa kita gunakan adalah menggunakan XAY analysis untuk menentukan sampai di mana sih dia turun.
+
+[33:05 - 33:10]
+Karena fungsi dari XAY itu bisa membaca sampai di mana dia akan turun.
+
+[33:11 - 33:14]
+Dan kita apply Fibonacci dari sini.
+
+[33:14 - 33:15]
+X ke A.
+
+[33:16 - 33:19]
+Dan kita melihat ada range penting 1618 di sini.
+
+[33:20 - 33:21]
+2618 di sini.
+
+[33:23 - 33:25]
+Kita jaga di antaranya.
+
+[33:25 - 33:31]
+Jadi, pada saat ada candle yang menyentuh di antaranya dan kemudian membentuk ekor di situ.
+
+[33:31 - 33:35]
+Kita bisa tahu bahwa di area tersebutlah akan muncul...
+
+[33:35 - 33:36]
+Pemberikan arah harga.
+
+[33:37 - 33:38]
+Mari kita lihat.
+
+[33:38 - 33:40]
+12 ke 1618.
+
+[33:41 - 33:42]
+Oke.
+
+[33:42 - 33:44]
+Adakah inside bar di sana?
+
+[33:45 - 33:45]
+Perhatikan.
+
+[33:45 - 33:48]
+Dan ternyata XAY klik kena di titik tengah.
+
+[33:49 - 33:50]
+Dia berbalik arah.
+
+[33:51 - 33:53]
+Di titik tengah pas ya.
+
+[33:53 - 33:55]
+Dia berbalik arah.
+
+[33:55 - 33:57]
+Dan kemudian menembus ini semua.
+
+[33:57 - 34:03]
+Maka strategi yang kita gunakan jelas entry di dalam falling wedge.
+
+[34:03 - 34:04]
+Kita sudah pelajari sebelumnya.
+
+[34:06 - 34:07]
+Kita menggunakan breakout.
+
+[34:08 - 34:10]
+Dari resistance itu bisa digunakan.
+
+[34:10 - 34:14]
+Jadi, breakout dari falling wedge-nya bisa atau dari resistance terakhir.
+
+[34:14 - 34:15]
+Ini kita sudah pasang by stop di sini.
+
+[34:16 - 34:19]
+Dan pada saat dia hit by stop-nya, kita akan masuk.
+
+[34:20 - 34:21]
+Oke.
+
+[34:22 - 34:25]
+Bagaimana dengan apabila kita menggabungkan dengan time frame yang lebih kecil?
+
+[34:25 - 34:29]
+Katakan kita sudah tahu ini terjadi falling wedge.
+
+[34:30 - 34:32]
+Di sini kita sudah tahu falling wedge.
+
+[34:32 - 34:34]
+Tapi saya kalau masuk di H4.
+
+[34:34 - 34:35]
+Itu kayaknya beresiko.
+
+[34:36 - 34:40]
+Bagaimana caranya saya supaya bisa entry dengan lebih kecil resikonya?
+
+[34:40 - 34:44]
+Seperti biasa kita turunkan lagi ke time frame yang lebih kecil.
+
+[34:44 - 34:46]
+Kita coba zoom ya.
+
+[34:46 - 34:48]
+Sebelum dia naik ya.
+
+[34:48 - 34:48]
+Sebelum dia naik.
+
+[34:48 - 34:49]
+Sebelum dia terbang.
+
+[34:49 - 34:53]
+Yang akan Anda lihat di sini adalah pelemahan harga.
+
+[34:54 - 34:55]
+Masih berlanjut.
+
+[34:56 - 34:59]
+Sampai ekor menyentuh titik tengah.
+
+[34:59 - 35:00]
+Lihat.
+
+[35:00 - 35:01]
+Di M30.
+
+[35:01 - 35:03]
+Berarti entry-nya di M30 ada ekor.
+
+[35:03 - 35:07]
+Dan setelah ekor naik.
+
+[35:07 - 35:07]
+Extreme.
+
+[35:09 - 35:10]
+Mungkin kita tidak sempat beli.
+
+[35:10 - 35:14]
+Tetapi di candle yang ini Anda menemukan ada inside bar.
+
+[35:14 - 35:16]
+Dan Anda harus berani melakukan buy stop di sini.
+
+[35:17 - 35:18]
+Karena ini adalah inside bar.
+
+[35:20 - 35:21]
+Next bar-nya.
+
+[35:24 - 35:26]
+Langsung inside bar lagi kecil.
+
+[35:26 - 35:27]
+Dan kita turunkan.
+
+[35:27 - 35:28]
+Kalau ada dua kali inside bar.
+
+[35:28 - 35:29]
+Ini inside bar lagi ya.
+
+[35:29 - 35:30]
+Terhadap yang ini.
+
+[35:30 - 35:31]
+Kita turunkan.
+
+[35:31 - 35:34]
+Dan langsung dia tembus running.
+
+[35:35 - 35:35]
+Ya.
+
+[35:35 - 35:37]
+Jadi prinsipnya.
+
+[35:37 - 35:38]
+Saya menemukan.
+
+[35:38 - 35:38]
+Falling wedge.
+
+[35:39 - 35:42]
+Dan saya menemukan area X, Y-nya.
+
+[35:42 - 35:43]
+Maka saya akan entry.
+
+[35:43 - 35:45]
+Saya akan menunggu candle yang terbentuk.
+
+[35:45 - 35:48]
+Atau saya akan menggunakan breakout misalnya.
+
+[35:48 - 35:50]
+Itu dua-dua bisa dilakukan.
+
+[35:50 - 35:52]
+Pada saat Anda melakukan breakout.
+
+[35:52 - 35:54]
+Berarti kita menggunakan alternatif.
+
+[35:54 - 35:54]
+Ya.
+
+[35:54 - 35:55]
+Untuk entry.
+
+[35:55 - 35:59]
+Pada saat kita menggunakan inside bar.
+
+[35:59 - 36:00]
+Itu yang kita akan tunggu-tunggu.
+
+[36:01 - 36:01]
+Jadi.
+
+[36:01 - 36:03]
+Sekarang Anda sudah melihat.
+
+[36:03 - 36:05]
+Bagaimana kita meng-combine multiple time frame.
+
+[36:05 - 36:06]
+Kemudian menggunakan pattern.
+
+[36:07 - 36:08]
+Untuk melakukan trading.
+
+[36:08 - 36:10]
+Dan live trading yang saya buat.
+
+[36:11 - 36:13]
+Selama saya mengajar chapter ini.
+
+[36:14 - 36:15]
+Adalah di JPP Jepang ya.
+
+[36:15 - 36:16]
+Dan saya lumayan.
+
+[36:16 - 36:18]
+Make money tadi sempat 600 lebih.
+
+[36:18 - 36:19]
+Tapi saya yakin.
+
+[36:19 - 36:21]
+Metode ini akan bisa kita implementasikan.
+
+[36:21 - 36:22]
+Kalau saya bisa.
+
+[36:22 - 36:23]
+Anda juga bisa.
+
+[36:23 - 36:25]
+Dan bagi Anda yang sudah mempelajari ini.
+
+[36:25 - 36:28]
+Dan ingin melanjutkan ke tahap yang lebih jauh.
+
+[36:29 - 36:30]
+Chartered Astronachy Trader.
+
+[36:30 - 36:31]
+Selama satu tahun.
+
+[36:31 - 36:33]
+Certification program astronachy akan mendidik Anda.
+
+[36:34 - 36:35]
+Menjadi seorang trader yang luar biasa.
+
+[36:35 - 36:37]
+Make sure Anda stay tune di Astronachy.
+
+[36:37 - 36:40]
+Dan Anda terus mengimplementasikan.
+
+[36:40 - 36:42]
+Apa yang sudah saya sharingkan.
+
+[36:42 - 36:43]
+Dari chapter 1 sampai 10.
+
+[36:43 - 36:44]
+Dengan bersabar.
+
+[36:44 - 36:47]
+Dengan menetapkan trading setup yang jelas.
+
+[36:47 - 36:48]
+Tidak sembarang masuk.
+
+[36:48 - 36:51]
+Saya yakin akan ada hasil yang memuaskan.
+
+[36:51 - 36:52]
+Sukses selalu.
+
+[36:52 - 36:53]
+Dan nantikan update berikutnya.
+
+[36:53 - 36:57]
+Dari Ultimate Technical Analysis Home Study Workshop.
+

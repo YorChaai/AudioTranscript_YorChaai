@@ -1,0 +1,67 @@
+Source: 6) Don_t Try To Impress.mp3
+Language Mode: Indonesian
+Detected: id (100.0%)
+Transcribed: 2026-06-08 22:53:00
+==================================================
+
+Yang kelima, ngobrol is not trying to impress ; Jangan berusaha untuk membuat dia terkesan ketika kamu ngobrol sama dia ; Karena itu akan berakibat ngobrol kamu gak asik ; Kamu kelihatan jadi bragging ; Bragging itu pamer dan gak ada orang yang suka sama orang pamer ; Atau kamu menggunakan teknik-teknik yang nanti bakal ku ajarkan untuk membuat dia ; Wow, honji keren ; Wow, public speakingnya oke ; Wow, ngobrolnya asik ya ; Ah, keren sekali honji ; Wow, sembah sujud ; No, jangan kamu belajar beginian ; Kamu praktik nanti untuk membuat orang lain terkesan ; That's not good at all
+
+==================================================
+TIMESTAMPS (SRT Format):
+
+1
+00:00:00,000 --> 00:00:03,640
+Yang kelima, ngobrol is not trying to impress
+
+2
+00:00:03,640 --> 00:00:08,400
+Jangan berusaha untuk membuat dia terkesan ketika kamu ngobrol sama dia
+
+3
+00:00:08,400 --> 00:00:12,460
+Karena itu akan berakibat ngobrol kamu gak asik
+
+4
+00:00:12,460 --> 00:00:14,480
+Kamu kelihatan jadi bragging
+
+5
+00:00:14,480 --> 00:00:18,780
+Bragging itu pamer dan gak ada orang yang suka sama orang pamer
+
+6
+00:00:18,780 --> 00:00:23,399
+Atau kamu menggunakan teknik-teknik yang nanti bakal ku ajarkan untuk membuat dia
+
+7
+00:00:23,399 --> 00:00:25,800
+Wow, honji keren
+
+8
+00:00:25,800 --> 00:00:28,199
+Wow, public speakingnya oke
+
+9
+00:00:28,199 --> 00:00:30,379
+Wow, ngobrolnya asik ya
+
+10
+00:00:30,379 --> 00:00:32,280
+Ah, keren sekali honji
+
+11
+00:00:32,280 --> 00:00:33,380
+Wow, sembah sujud
+
+12
+00:00:33,380 --> 00:00:36,880
+No, jangan kamu belajar beginian
+
+13
+00:00:36,880 --> 00:00:40,840
+Kamu praktik nanti untuk membuat orang lain terkesan
+
+14
+00:00:40,840 --> 00:00:42,799
+That's not good at all
+

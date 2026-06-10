@@ -1,0 +1,1324 @@
+Source: Pak fauzi.m4a
+Language Mode: Indonesian
+Detected: id (100.0%)
+Transcribed: 2026-01-19 20:56:58
+==================================================
+
+ya kalau ada
+ini kemarin apa aja
+ini tuh masuk bakmana
+ini tuh masuk bakmana
+oke nanti kalau sudah baru kita
+perbaiki
+minggu depan aja ketemu saya
+minggu depan
+nanti kita harus ratakan
+ya jangan minggu ini saya full
+oke saya harus ngejar
+saya juga bikin proposal soalnya
+oke mantap
+oke saya harus ini
+ya minggu depan ya
+oke terima kasih
+saya cuma mau nanya tentang TA
+yang akan ditanyain
+itu apa aja sih
+jadi gini
+kalau kamu sedang TA
+itu yang pertama adalah masalah kamu apa
+kenapa itu penting
+kenapa itu penting
+jadi tingkat urgensinya
+itu seberapa besar sih urgensinya
+kamu tentang apa
+aku tentang absensi
+untuk antispofing
+absensi antispofing
+dimana
+di
+di
+di
+Di laptop, Pak, itunya, untuk
+pakai Plex. Nah, cuma saya di sini itu pakai
+ada, apa, algoritma baru, Pak,
+yang dimana lebih canggih dibandingkan
+Facebook, ya itu ada Facebook kayak gitu, Pak.
+Oke, itu digunakan untuk?
+Untuk absensi kayak gitu. Nah, cuma...
+Absensinya itu digunakan untuk siswa?
+Oh, untuk semua, Pak. Kalau saya tujuannya
+untuk karyawan, Pak. Oke, untuk karyawan.
+Untuk sekarang, saya datanya itu
+data yang ada, gitu. Contohnya, kayak dapatin dari teman-teman saya.
+Tapi nanti itu beruntuknya nanti
+untuk karyawan, gitu, Pak.
+Kok jadi gugup saya?
+Maksudnya, nanya-nya gini.
+Seberapa penting aplikasi ini diterapkan?
+Oke, gitu.
+Masalahnya, masalahnya rumit nggak sih ini
+kalau kamu sampai ngangkat masalah ini?
+Itu adalah yang pertama.
+Yang kedua, dari masalah itu,
+apa yang akan kamu
+berupos? Bukan berupos,
+ya kamu tugas akhir, ya. Apa yang akan kamu
+kerjakan? Apa yang kamu hasilkan untuk
+mengatasi masalah tersebut?
+Gitu.
+Terus, di sisi lain,
+implementasinya seperti apa sih?
+Kalau implementasinya
+memudahkan.
+Maksudnya, mempersulit sih.
+Tapi mempersulit untuk orang yang curang, gitu, Pak.
+Iya, oke. Jadi,
+memudahkan atau mempersulit?
+Kalau masalahnya
+mempersulit, pasti akan dikejar.
+Kenapa kamu bikin aplikasi yang
+mempersulit? Gitu, ya.
+Tapi kalau ini mempersulit untuk
+pelaku kecurangan?
+Oke, satu hal yang
+terjawab. Bagaimana cara
+kamu mempersulit?
+Saya, jadi ini tuh setiap
+ada, apa, dari yang
+TKG itu disuruh kerja sama kanan itu
+ada jedah 2 detik itu, Pak.
+Nah, di mana itu streaming itu, kadang-kadang
+kalau kita melihat itu ada jedah
+dikit, tapi dia tuh 0,5 detik,
+gitu. Yang mana tuh kalau seandainya telat
+itu bisa ngulang. Nah, cuman masalahnya
+saya udah mencoba tuh, berhasil
+sampai 3 kali dari 30 percobaan.
+3 kali dari 30 percobaan?
+Iya. Nah, kamu sekarang harus cari
+kenapa itu gagal?
+Itu yang harus bisa kamu jelasin.
+Oke. Gitu.
+Kenapa itu gagal? Kamu harus memiliki
+suatu alasan kuat.
+Jurnal, gitu ya? Iya.
+Atau dari hasil
+percobaan berkali-kali,
+ternyata akurasi
+saya itu sekian. Kenapa
+sekian? Apakah nggak bisa
+diterim sampai sekian? Nah,
+perlu namanya optimasi, dan lain
+sebagainya. Nah, itu yang kamu harus kuat.
+Oh, oke. Kamu harus berkuat.
+Pada tasetnya sama algoritma gitu?
+Algoritma dan lain sebagainya itu
+jarang ditanyakan. Oh, jarang ditanyakan ya?
+Iya, jarang ditanyakan. Semangat lebih fokuskan di sana.
+Iya, jarang ditanyakan. Kenapa? Karena dosen itu
+udah paham algoritma ini itu buat ini.
+Mereka udah tahu
+kinerjanya algoritma itu udah tahu
+outputnya itu harusnya kayak gini.
+Nah, kalau inputnya udah oke,
+outputnya nggak sesuai kamu yang dikejar di sininya.
+Oke. Jadi mereka dosen itu
+nggak nanya algoritma. Kamu
+ngomong algoritma apa ya? Dosen ngomong gitu
+sudah pernah, insya Allah,
+sudah pernah nyoba.
+Oh, gitu ya.
+Berarti nanti pas Q&A
+kejadian pertanyaan-pertanyaan itu berarti dia
+nggak bakal nanya pertanyaan-pertanyaan itu.
+Algoritma itu insya Allah dosen itu udah paham.
+Kamu ngomongin
+TF, IDF, kamu ngomong Indobird
+dan lain sebagainya udah paham. Dia maunya manfaat, Pak.
+Iya. Sesuai nggak sih sama
+ekspektasi penguji itu?
+Harusnya keluarnya ini. Kalau seandainya
+nggak sesuai tapi ambil mendatati
+kayak gitu gimana? Boleh, boleh. Saya takut
+tapi kamu harus punya argumen.
+Kamu harus punya argumen. Kenapa kamu
+3 dari 30 kali itu
+kok gagal? Kenapa?
+Sebenernya,
+dosen itu melakukan screening.
+Udah tahu hasilnya.
+Karena dosen itu, penguji itu
+nggak nguji cuma sekali.
+Judul yang mirip
+dengan kalian itu banyak.
+Mungkin kalian menambahkan ini,
+menambahkan ini, saya menambahkan
+di awalnya, saya menambahkan di belakangnya.
+Saya menyatukan dua jadi
+satu. Itu sudah banyak sebenarnya ya.
+Tapi dosen itu nggak mau
+mempersulit kalian. Cuman
+nanya-nanya. Hasilnya itu
+harusnya seperti ini.
+Tapi kok kalian kayak gini ya? Itu yang
+akan dikejar. Paham maksud saya?
+Jadi sebenarnya dosen itu tahu. Masuk
+pintu sini, keluarnya pintu sana.
+Kok kalian malah balik lagi?
+Jadi dosen melihat, oh ini ada
+problem. Nah problem itu harus disolving.
+Gitu.
+Tahu kan?
+Kalian kan yang menulis nih.
+Kalian kan semua yang nulis nih.
+Kalian tahu kan masalah kalian di mana?
+Misalkan,
+mau pakai machine learning.
+Harusnya.
+Harusnya gitu. Kalian kan
+ada penelitian terdahulu.
+Nyarinya berapa minimal?
+20.
+20 ya.
+Sekarang,
+algoritma itu
+pasti dipakai oleh penelitian terdahulu.
+Penelitian terdahulu itu,
+kalau kita baca, oh
+misalkan disitu akurasinya 90%.
+Sudah ada nih yang 90%.
+Oh,
+ada yang 91%.
+Kami hadir dengan 92%.
+Oke, good.
+Tapi apakah disitu ada
+satu hal yang kalian gunakan
+untuk membelokkan sedikit
+jadi hasilnya 92?
+Nah, itu nanti yang akan ditanyakan.
+Tapi kalau kalian bisa menjelaskan dengan baik dan benar,
+dosen sudah. Oke, good.
+Selesai. Nggak perlu tanya lagi.
+Gitu.
+Jadi, sebenarnya dosen itu
+yang akan ditanya,
+ini adalah metode penelitian.
+Metode.
+Metode kalian untuk menghasilkan tadi itu apa.
+Kalau kalian di metodenya aja nggak paham,
+ini pasti dia adalah berantakan.
+Tapi kalau di metode kalian sudah jalankan dengan baik dan benar,
+kalian punya argumen,
+nah, dosen itu pasti nanti memastikan,
+oh, harusnya ini sekian.
+Harusnya di sini, gitu.
+Dan, pastikan,
+yang pasti ya, yang paling penting dalam tugas akhir itu adalah batasan masalah.
+Batasan masalah.
+Batasan masalah itu penting.
+Batasan masalah itu lebih kayak aplikasi kita, kan ya?
+Scoopnya.
+Bukan, kita bukan ngomong aplikasi.
+Saya nggak ngomong ke aplikasi.
+Tapi, scoop penelitian kalian.
+Oh, iya.
+Gitu.
+Misalkan kalian ngomongnya,
+tadi kecurangan, misalkan ya.
+Kecurangan yang seperti apa?
+Streaming.
+Streaming. Jadinya tuh pakai video opal, kayak gitu.
+Ya, oke. Jadi, itu adalah
+sebuah batasan.
+Harus background-nya seperti apa?
+Streaming.
+Apakah real, atau boleh tembok, atau boleh green screen, dan lain sebagainya.
+Saya nggak tahu.
+Ya, saya pakai kertas.
+Ya, saya nggak tahu.
+Itu, intinya seperti itu.
+Tapi, kalau doksen,
+doksen itu nggak punya banyak waktu untuk men-screening
+proposal kalian.
+Ininya di Sabtu pertama.
+Jadi, dia akan langsung lari ke bab tiga,
+kemudian bab empat.
+Setelah itu, kalian jelasin kan,
+dia akan lari ke bab satu.
+Wah, rumus gitu nggak ditanyain, gue.
+Kagak.
+Itu nggak banyak.
+Paham, paham.
+Oke, oke, oke.
+Saya masalahnya ribet di situnya sebenarnya, Mbak.
+Iya.
+Saya tahu.
+Saya pernah jadi mahasiswa S1.
+Ternyata nggak ditanyain, ya.
+Nggak, jadi gini.
+Bikinnya seperti ini juga sih, Mas.
+Sebenarnya, takutnya nggak bisa ditanyain.
+Kalau susah ya nggak bisa jelasin.
+Dosen itu kan punya waktu yang terbatas.
+Iya.
+Jadi, mereka kan screening itu biasanya masalah
+metodologi dan hasil.
+Oke.
+Gitu.
+Begitu.
+Nah, bab dua penelitian terdahulu itu
+biasanya akan dihajar di SEMPRO.
+Tapi kalau di TA, itu akan dihajar bab satu masalahnya apa,
+bab tiga metodologinya apa, bab empat sudah keluarnya sesuai nggak?
+Sesuai.
+Nah, kalau sesuai, udah selesai.
+Jelaskan aja argumen kamu.
+Kalau kamu nggak bisa berargumen, ya...
+Saya cuma tau penelitiannya aja, Pak.
+Ya, memang.
+Pastinya kayak gitu.
+Pastinya saat sidang itu seperti itu.
+Biasanya kalau saya nanya metodologi,
+yang dijawab itu framework.
+Kayak otak itu udah satu arah gitu, tapi tiba-tiba mulutnya beda.
+Ya, itu wajar.
+Nge-repost nggak ya, Pak?
+Hah?
+Nge-repost ya?
+Ya, namanya diuji ya kan?
+Pasti lah, nge-repost.
+Kalau dosennya...
+Yang ngerjain 6 bulan, diuji cuma 20 menit, 30 menit.
+Ya kan?
+Ya, itu.
+Dan buang source code gitu nggak sih, Pak, pas lagi sidang?
+Kadang dosen akan minta.
+Kenapa?
+Kenapa dia akan minta?
+Dia akan screening.
+Problem kalian tuh dimana?
+Oh, bisa, Pak ya?
+Bisa.
+Bisa tanya juga tuh gimana cara saya nge-screen.
+Ya, jadi intinya...
+Ya, gini...
+Apa namanya?
+Dosen itu mengandalkan pattern.
+Ya, mengandalkan pattern.
+Jadi, counting itu kadang...
+Itu oke lah.
+Itu pakai bantuan dan lain sebagainya.
+Tapi patternnya sesuai apa nggak?
+Gitu.
+Ya, yang pasti tadi ya.
+Yang pasti kalian harus pahami betul-betul adalah masalah.
+Ya, masalahnya apa.
+Metodologinya apa.
+Kan dari masalah kalian melakukan problem solving ya.
+Problem solving itu digunakan lewat metode.
+Lalu hasilnya apa?
+Nah, dia itu mungkin 134, 134, 134.
+Setelah 4 selesai, balik lagi ke 1.
+Kan kalian ada permasalahan.
+Ada tujuan.
+Balik ke 3, ke 4, dan sebagainya.
+Itu screeningnya.
+Gitu.
+Clear kan?
+Bisa, Pak.
+Ya, sini lah.
+Ada gambarnya.
+Ada bapak, jadi saya nggak terlalu mikirin rumus saya.
+Oh, udah dapet dosen pemunyiannya, Pak?
+Belum, Pak.
+Saya cuma...
+Maksudnya belajar bab 2 aja, Pak.
+Malah fokus ke bab 2 aja.
+Soalnya saya ubah dulu, Pak.
+Sebenarnya gini.
+Masalah ubah judul itu, masalah ubah judul itu adalah satu.
+Pemahamannya kurang dalam.
+Itu doang.
+Jadi kenapa masalah ubah judul itu ketika ditanya, gitu kan,
+perbandingannya adalah gini.
+Kalian memahami teori utama kalian itu dari 1 tahun yang lalu.
+Tapi kalau kalian ubah judul, itu baru dari 6 bulan yang lalu.
+Gitu.
+Jadi kayak...
+Keyakinannya itu karena menurut saya ya, kalau saya sering menguji,
+itu keyakinannya kurang gitu.
+Gitu.
+Yang pasti sih itu tadi pahami masalah metode dan penghasil.
+Kalau TA?
+Oke, TA.
+Terima kasih banyak.
+30 menit, Pak.
+Emang berapa lama, Pak? 30 menit, Pak?
+30 menit.
+Wah.
+Tapi nanti kalian maksimal 5 menit doang.
+Oh, presentannya 5 menit, Pak.
+Tapi pengguna kalian sudah dibaca oleh dosen itu 4 hari, 5 hari.
+Waduh.
+Bagus kayaknya.
+Dia itu bodoh banget.
+Oke, Pak.
+Terima kasih, Pak.
+Makasih, Pak.
+Makasih, Pak.
+Iya, ya.
+Lagu pengen gue bawa-bawa.
+Waduh, dibaca perut lagi itu.
+Oh, oke, oke.
+Ya, bisa, Pak.
+Bisa, bisa.
+Amin.
+Ya, Pak.
+Terima kasih, Pak.
+Terima kasih, Pak.
+Pak, ada yang mau ambil, Pak.
+Ayo makan, ya.
+Ayo makan.
+Gue ambil motor tapi.
+Jadi yang.
+Nah, itu.
+Nanti liat.
+Jadi yang pencalayan.
+Iya, boleh banget.
+Iya, makasih.
+Tapi enak sih jalanan masih usia.
+Ayo simpan, ya.
+Dan simpan.
+Duh.
+Rumusan waktu batasan masalah gue low lagi, aneh?
+Iya, lo lagi...
+Tapi menjawab semua, sih, itu.
+Itu, ya, yang bisa coba bagi kesini.
+Bisa sih, ya, bisa sih, bisa.
+Iya, bisa sih, bisa.
+Kalau harus gitu mau coba, harus gitu mau coba.
+Oh, kalau tuh panas deh, ini garam.
+Gue bingung, kan.
+Ini, baca lagi, belum usah tuh, belum usah tuh.
+Hahaha.
+Tuh, yuk.
+Hah?
+Biasanya pinta, ya, itu.
+Biasanya pinta.
+Biasanya pinta.
+Biasanya pinta.
+Biasanya pinta.
+Jadi, kalau jangan mau nyanyi,
+ini jatuhnya apaan?
+Betul, deh.
+Ini bener, ini bener.
+Bisa buat apaan?
+Kalau mahasiswa, gitu.
+Bisa buat apaan?
+Ini bener, ini bener.
+Ini bener, ini bener.
+Ini bener, ini bener.
+Ini bener, ini bener.
+Ini bener, ini bener.
+Ini bener, ini bener.
+Ini bener, ini bener.
+Ini bener, ini bener.
+Ini bener, ini bener.
+Ini bener, ini bener.
+Ini bener, ini bener.
+Ini bener, ini bener.
+Ini bener, ini bener.
+Ini bener, ini bener.
+Ini bener, ini bener.
+Ini bener, ini bener.
+Ini bener, ini bener.
+Ini bener, ini bener.
+Ini bener, ini bener.
+Ini bener, ini bener.
+Terima kasih telah menonton
+Terima kasih telah menonton
+Terima kasih telah menonton
+Terima kasih telah menonton
+Terima kasih telah menonton
+Terima kasih telah menonton
+Terima kasih telah menonton
+
+==================================================
+TIMESTAMPS:
+
+[00:15 - 00:21]
+ya kalau ada
+[00:22 - 00:23]
+ini kemarin apa aja
+[00:23 - 00:24]
+ini tuh masuk bakmana
+[00:24 - 00:25]
+ini tuh masuk bakmana
+[00:25 - 00:28]
+oke nanti kalau sudah baru kita
+[00:28 - 00:29]
+perbaiki
+[00:31 - 00:32]
+minggu depan aja ketemu saya
+[00:32 - 00:33]
+minggu depan
+[00:33 - 00:35]
+nanti kita harus ratakan
+[00:35 - 00:38]
+ya jangan minggu ini saya full
+[00:38 - 00:41]
+oke saya harus ngejar
+[00:41 - 00:44]
+saya juga bikin proposal soalnya
+[00:44 - 00:44]
+oke mantap
+[00:44 - 00:47]
+oke saya harus ini
+[00:47 - 00:48]
+ya minggu depan ya
+[00:48 - 00:50]
+oke terima kasih
+[00:50 - 00:53]
+saya cuma mau nanya tentang TA
+[00:53 - 00:55]
+yang akan ditanyain
+[00:55 - 00:55]
+itu apa aja sih
+[00:55 - 00:58]
+jadi gini
+[00:58 - 00:59]
+kalau kamu sedang TA
+[00:59 - 01:02]
+itu yang pertama adalah masalah kamu apa
+[01:03 - 01:04]
+kenapa itu penting
+[01:06 - 01:07]
+kenapa itu penting
+[01:07 - 01:09]
+jadi tingkat urgensinya
+[01:09 - 01:10]
+itu seberapa besar sih urgensinya
+[01:10 - 01:11]
+kamu tentang apa
+[01:11 - 01:13]
+aku tentang absensi
+[01:13 - 01:14]
+untuk antispofing
+[01:15 - 01:17]
+absensi antispofing
+[01:17 - 01:17]
+dimana
+[01:18 - 01:18]
+di
+[01:18 - 01:18]
+di
+[01:18 - 01:19]
+di
+[01:19 - 01:21]
+Di laptop, Pak, itunya, untuk
+[01:21 - 01:23]
+pakai Plex. Nah, cuma saya di sini itu pakai
+[01:23 - 01:25]
+ada, apa, algoritma baru, Pak,
+[01:25 - 01:26]
+yang dimana lebih canggih dibandingkan
+[01:26 - 01:28]
+Facebook, ya itu ada Facebook kayak gitu, Pak.
+[01:28 - 01:30]
+Oke, itu digunakan untuk?
+[01:30 - 01:32]
+Untuk absensi kayak gitu. Nah, cuma...
+[01:32 - 01:34]
+Absensinya itu digunakan untuk siswa?
+[01:34 - 01:36]
+Oh, untuk semua, Pak. Kalau saya tujuannya
+[01:36 - 01:38]
+untuk karyawan, Pak. Oke, untuk karyawan.
+[01:38 - 01:40]
+Untuk sekarang, saya datanya itu
+[01:40 - 01:43]
+data yang ada, gitu. Contohnya, kayak dapatin dari teman-teman saya.
+[01:43 - 01:44]
+Tapi nanti itu beruntuknya nanti
+[01:44 - 01:46]
+untuk karyawan, gitu, Pak.
+[01:46 - 01:47]
+Kok jadi gugup saya?
+[01:47 - 01:48]
+Maksudnya, nanya-nya gini.
+[01:49 - 01:51]
+Seberapa penting aplikasi ini diterapkan?
+[01:51 - 01:53]
+Oke, gitu.
+[01:54 - 01:55]
+Masalahnya, masalahnya rumit nggak sih ini
+[01:55 - 01:58]
+kalau kamu sampai ngangkat masalah ini?
+[01:58 - 01:59]
+Itu adalah yang pertama.
+[02:00 - 02:02]
+Yang kedua, dari masalah itu,
+[02:02 - 02:03]
+apa yang akan kamu
+[02:05 - 02:06]
+berupos? Bukan berupos,
+[02:06 - 02:08]
+ya kamu tugas akhir, ya. Apa yang akan kamu
+[02:08 - 02:09]
+kerjakan? Apa yang kamu hasilkan untuk
+[02:09 - 02:11]
+mengatasi masalah tersebut?
+[02:12 - 02:13]
+Gitu.
+[02:13 - 02:15]
+Terus, di sisi lain,
+[02:15 - 02:17]
+implementasinya seperti apa sih?
+[02:18 - 02:19]
+Kalau implementasinya
+[02:19 - 02:20]
+memudahkan.
+[02:21 - 02:23]
+Maksudnya, mempersulit sih.
+[02:23 - 02:26]
+Tapi mempersulit untuk orang yang curang, gitu, Pak.
+[02:26 - 02:27]
+Iya, oke. Jadi,
+[02:27 - 02:29]
+memudahkan atau mempersulit?
+[02:30 - 02:31]
+Kalau masalahnya
+[02:31 - 02:33]
+mempersulit, pasti akan dikejar.
+[02:33 - 02:35]
+Kenapa kamu bikin aplikasi yang
+[02:35 - 02:37]
+mempersulit? Gitu, ya.
+[02:37 - 02:39]
+Tapi kalau ini mempersulit untuk
+[02:39 - 02:41]
+pelaku kecurangan?
+[02:41 - 02:43]
+Oke, satu hal yang
+[02:43 - 02:45]
+terjawab. Bagaimana cara
+[02:45 - 02:46]
+kamu mempersulit?
+[02:48 - 02:49]
+Saya, jadi ini tuh setiap
+[02:49 - 02:51]
+ada, apa, dari yang
+[02:51 - 02:53]
+TKG itu disuruh kerja sama kanan itu
+[02:53 - 02:55]
+ada jedah 2 detik itu, Pak.
+[02:55 - 02:57]
+Nah, di mana itu streaming itu, kadang-kadang
+[02:57 - 02:59]
+kalau kita melihat itu ada jedah
+[02:59 - 03:01]
+dikit, tapi dia tuh 0,5 detik,
+[03:01 - 03:03]
+gitu. Yang mana tuh kalau seandainya telat
+[03:03 - 03:05]
+itu bisa ngulang. Nah, cuman masalahnya
+[03:05 - 03:07]
+saya udah mencoba tuh, berhasil
+[03:07 - 03:09]
+sampai 3 kali dari 30 percobaan.
+[03:09 - 03:11]
+3 kali dari 30 percobaan?
+[03:11 - 03:13]
+Iya. Nah, kamu sekarang harus cari
+[03:13 - 03:14]
+kenapa itu gagal?
+[03:15 - 03:17]
+Itu yang harus bisa kamu jelasin.
+[03:17 - 03:19]
+Oke. Gitu.
+[03:19 - 03:21]
+Kenapa itu gagal? Kamu harus memiliki
+[03:21 - 03:23]
+suatu alasan kuat.
+[03:23 - 03:24]
+Jurnal, gitu ya? Iya.
+[03:25 - 03:27]
+Atau dari hasil
+[03:28 - 03:29]
+percobaan berkali-kali,
+[03:30 - 03:31]
+ternyata akurasi
+[03:31 - 03:33]
+saya itu sekian. Kenapa
+[03:33 - 03:35]
+sekian? Apakah nggak bisa
+[03:35 - 03:37]
+diterim sampai sekian? Nah,
+[03:37 - 03:39]
+perlu namanya optimasi, dan lain
+[03:39 - 03:41]
+sebagainya. Nah, itu yang kamu harus kuat.
+[03:41 - 03:42]
+Oh, oke. Kamu harus berkuat.
+[03:42 - 03:45]
+Pada tasetnya sama algoritma gitu?
+[03:45 - 03:47]
+Algoritma dan lain sebagainya itu
+[03:47 - 03:49]
+jarang ditanyakan. Oh, jarang ditanyakan ya?
+[03:49 - 03:51]
+Iya, jarang ditanyakan. Semangat lebih fokuskan di sana.
+[03:51 - 03:53]
+Iya, jarang ditanyakan. Kenapa? Karena dosen itu
+[03:53 - 03:55]
+udah paham algoritma ini itu buat ini.
+[03:56 - 03:57]
+Mereka udah tahu
+[03:57 - 03:59]
+kinerjanya algoritma itu udah tahu
+[03:59 - 04:01]
+outputnya itu harusnya kayak gini.
+[04:01 - 04:03]
+Nah, kalau inputnya udah oke,
+[04:03 - 04:05]
+outputnya nggak sesuai kamu yang dikejar di sininya.
+[04:05 - 04:07]
+Oke. Jadi mereka dosen itu
+[04:07 - 04:09]
+nggak nanya algoritma. Kamu
+[04:09 - 04:11]
+ngomong algoritma apa ya? Dosen ngomong gitu
+[04:11 - 04:13]
+sudah pernah, insya Allah,
+[04:13 - 04:15]
+sudah pernah nyoba.
+[04:15 - 04:16]
+Oh, gitu ya.
+[04:17 - 04:19]
+Berarti nanti pas Q&A
+[04:19 - 04:21]
+kejadian pertanyaan-pertanyaan itu berarti dia
+[04:21 - 04:22]
+nggak bakal nanya pertanyaan-pertanyaan itu.
+[04:23 - 04:25]
+Algoritma itu insya Allah dosen itu udah paham.
+[04:25 - 04:26]
+Kamu ngomongin
+[04:26 - 04:29]
+TF, IDF, kamu ngomong Indobird
+[04:29 - 04:31]
+dan lain sebagainya udah paham. Dia maunya manfaat, Pak.
+[04:31 - 04:33]
+Iya. Sesuai nggak sih sama
+[04:33 - 04:35]
+ekspektasi penguji itu?
+[04:35 - 04:37]
+Harusnya keluarnya ini. Kalau seandainya
+[04:37 - 04:39]
+nggak sesuai tapi ambil mendatati
+[04:39 - 04:41]
+kayak gitu gimana? Boleh, boleh. Saya takut
+[04:41 - 04:42]
+tapi kamu harus punya argumen.
+[04:42 - 04:44]
+Kamu harus punya argumen. Kenapa kamu
+[04:44 - 04:46]
+3 dari 30 kali itu
+[04:47 - 04:48]
+kok gagal? Kenapa?
+[04:49 - 04:49]
+Sebenernya,
+[04:51 - 04:52]
+dosen itu melakukan screening.
+[04:53 - 04:53]
+Udah tahu hasilnya.
+[04:55 - 04:57]
+Karena dosen itu, penguji itu
+[04:57 - 04:58]
+nggak nguji cuma sekali.
+[05:00 - 05:01]
+Judul yang mirip
+[05:01 - 05:02]
+dengan kalian itu banyak.
+[05:03 - 05:05]
+Mungkin kalian menambahkan ini,
+[05:05 - 05:07]
+menambahkan ini, saya menambahkan
+[05:07 - 05:09]
+di awalnya, saya menambahkan di belakangnya.
+[05:09 - 05:11]
+Saya menyatukan dua jadi
+[05:11 - 05:13]
+satu. Itu sudah banyak sebenarnya ya.
+[05:13 - 05:15]
+Tapi dosen itu nggak mau
+[05:15 - 05:17]
+mempersulit kalian. Cuman
+[05:17 - 05:19]
+nanya-nanya. Hasilnya itu
+[05:19 - 05:20]
+harusnya seperti ini.
+[05:21 - 05:23]
+Tapi kok kalian kayak gini ya? Itu yang
+[05:23 - 05:24]
+akan dikejar. Paham maksud saya?
+[05:25 - 05:27]
+Jadi sebenarnya dosen itu tahu. Masuk
+[05:27 - 05:28]
+pintu sini, keluarnya pintu sana.
+[05:29 - 05:30]
+Kok kalian malah balik lagi?
+[05:31 - 05:33]
+Jadi dosen melihat, oh ini ada
+[05:33 - 05:35]
+problem. Nah problem itu harus disolving.
+[05:36 - 05:36]
+Gitu.
+[05:39 - 05:39]
+Tahu kan?
+[05:40 - 05:41]
+Kalian kan yang menulis nih.
+[05:42 - 05:43]
+Kalian kan semua yang nulis nih.
+[05:43 - 05:45]
+Kalian tahu kan masalah kalian di mana?
+[05:46 - 05:46]
+Misalkan,
+[05:47 - 05:48]
+mau pakai machine learning.
+[05:49 - 05:49]
+Harusnya.
+[05:50 - 05:52]
+Harusnya gitu. Kalian kan
+[05:52 - 05:54]
+ada penelitian terdahulu.
+[05:55 - 05:56]
+Nyarinya berapa minimal?
+[05:57 - 05:57]
+20.
+[05:57 - 05:59]
+20 ya.
+[06:00 - 06:01]
+Sekarang,
+[06:02 - 06:03]
+algoritma itu
+[06:03 - 06:05]
+pasti dipakai oleh penelitian terdahulu.
+[06:07 - 06:09]
+Penelitian terdahulu itu,
+[06:09 - 06:10]
+kalau kita baca, oh
+[06:10 - 06:14]
+misalkan disitu akurasinya 90%.
+[06:14 - 06:16]
+Sudah ada nih yang 90%.
+[06:16 - 06:17]
+Oh,
+[06:17 - 06:18]
+ada yang 91%.
+[06:18 - 06:21]
+Kami hadir dengan 92%.
+[06:21 - 06:21]
+Oke, good.
+[06:22 - 06:24]
+Tapi apakah disitu ada
+[06:24 - 06:26]
+satu hal yang kalian gunakan
+[06:26 - 06:29]
+untuk membelokkan sedikit
+[06:29 - 06:30]
+jadi hasilnya 92?
+[06:32 - 06:34]
+Nah, itu nanti yang akan ditanyakan.
+[06:35 - 06:37]
+Tapi kalau kalian bisa menjelaskan dengan baik dan benar,
+[06:37 - 06:39]
+dosen sudah. Oke, good.
+[06:39 - 06:41]
+Selesai. Nggak perlu tanya lagi.
+[06:41 - 06:42]
+Gitu.
+[06:42 - 06:45]
+Jadi, sebenarnya dosen itu
+[06:45 - 06:47]
+yang akan ditanya,
+[06:47 - 06:48]
+ini adalah metode penelitian.
+[06:49 - 06:49]
+Metode.
+[06:49 - 06:52]
+Metode kalian untuk menghasilkan tadi itu apa.
+[06:53 - 06:56]
+Kalau kalian di metodenya aja nggak paham,
+[06:56 - 06:58]
+ini pasti dia adalah berantakan.
+[06:58 - 07:03]
+Tapi kalau di metode kalian sudah jalankan dengan baik dan benar,
+[07:03 - 07:04]
+kalian punya argumen,
+[07:05 - 07:07]
+nah, dosen itu pasti nanti memastikan,
+[07:07 - 07:08]
+oh, harusnya ini sekian.
+[07:08 - 07:09]
+Harusnya di sini, gitu.
+[07:11 - 07:12]
+Dan, pastikan,
+[07:12 - 07:16]
+yang pasti ya, yang paling penting dalam tugas akhir itu adalah batasan masalah.
+[07:18 - 07:19]
+Batasan masalah.
+[07:19 - 07:19]
+Batasan masalah itu penting.
+[07:19 - 07:22]
+Batasan masalah itu lebih kayak aplikasi kita, kan ya?
+[07:23 - 07:23]
+Scoopnya.
+[07:23 - 07:25]
+Bukan, kita bukan ngomong aplikasi.
+[07:25 - 07:27]
+Saya nggak ngomong ke aplikasi.
+[07:27 - 07:28]
+Tapi, scoop penelitian kalian.
+[07:29 - 07:29]
+Oh, iya.
+[07:30 - 07:30]
+Gitu.
+[07:30 - 07:32]
+Misalkan kalian ngomongnya,
+[07:33 - 07:35]
+tadi kecurangan, misalkan ya.
+[07:35 - 07:36]
+Kecurangan yang seperti apa?
+[07:38 - 07:38]
+Streaming.
+[07:39 - 07:41]
+Streaming. Jadinya tuh pakai video opal, kayak gitu.
+[07:41 - 07:42]
+Ya, oke. Jadi, itu adalah
+[07:42 - 07:44]
+sebuah batasan.
+[07:45 - 07:46]
+Harus background-nya seperti apa?
+[07:47 - 07:47]
+Streaming.
+[07:47 - 07:52]
+Apakah real, atau boleh tembok, atau boleh green screen, dan lain sebagainya.
+[07:52 - 07:52]
+Saya nggak tahu.
+[07:52 - 07:53]
+Ya, saya pakai kertas.
+[07:53 - 07:54]
+Ya, saya nggak tahu.
+[07:54 - 07:56]
+Itu, intinya seperti itu.
+[07:56 - 07:57]
+Tapi, kalau doksen,
+[07:58 - 08:02]
+doksen itu nggak punya banyak waktu untuk men-screening
+[08:02 - 08:03]
+proposal kalian.
+[08:03 - 08:04]
+Ininya di Sabtu pertama.
+[08:05 - 08:07]
+Jadi, dia akan langsung lari ke bab tiga,
+[08:08 - 08:08]
+kemudian bab empat.
+[08:09 - 08:11]
+Setelah itu, kalian jelasin kan,
+[08:11 - 08:12]
+dia akan lari ke bab satu.
+[08:12 - 08:14]
+Wah, rumus gitu nggak ditanyain, gue.
+[08:14 - 08:15]
+Kagak.
+[08:15 - 08:16]
+Itu nggak banyak.
+[08:16 - 08:17]
+Paham, paham.
+[08:17 - 08:19]
+Oke, oke, oke.
+[08:19 - 08:21]
+Saya masalahnya ribet di situnya sebenarnya, Mbak.
+[08:21 - 08:22]
+Iya.
+[08:22 - 08:23]
+Saya tahu.
+[08:23 - 08:25]
+Saya pernah jadi mahasiswa S1.
+[08:26 - 08:27]
+Ternyata nggak ditanyain, ya.
+[08:28 - 08:28]
+Nggak, jadi gini.
+[08:29 - 08:30]
+Bikinnya seperti ini juga sih, Mas.
+[08:30 - 08:32]
+Sebenarnya, takutnya nggak bisa ditanyain.
+[08:32 - 08:33]
+Kalau susah ya nggak bisa jelasin.
+[08:33 - 08:36]
+Dosen itu kan punya waktu yang terbatas.
+[08:36 - 08:36]
+Iya.
+[08:37 - 08:40]
+Jadi, mereka kan screening itu biasanya masalah
+[08:40 - 08:41]
+metodologi dan hasil.
+[08:42 - 08:42]
+Oke.
+[08:43 - 08:43]
+Gitu.
+[08:43 - 08:44]
+Begitu.
+[08:46 - 08:48]
+Nah, bab dua penelitian terdahulu itu
+[08:48 - 08:51]
+biasanya akan dihajar di SEMPRO.
+[08:53 - 08:56]
+Tapi kalau di TA, itu akan dihajar bab satu masalahnya apa,
+[08:56 - 09:00]
+bab tiga metodologinya apa, bab empat sudah keluarnya sesuai nggak?
+[09:00 - 09:00]
+Sesuai.
+[09:00 - 09:01]
+Nah, kalau sesuai, udah selesai.
+[09:02 - 09:03]
+Jelaskan aja argumen kamu.
+[09:03 - 09:06]
+Kalau kamu nggak bisa berargumen, ya...
+[09:06 - 09:07]
+Saya cuma tau penelitiannya aja, Pak.
+[09:07 - 09:08]
+Ya, memang.
+[09:09 - 09:10]
+Pastinya kayak gitu.
+[09:11 - 09:13]
+Pastinya saat sidang itu seperti itu.
+[09:14 - 09:15]
+Biasanya kalau saya nanya metodologi,
+[09:15 - 09:16]
+yang dijawab itu framework.
+[09:18 - 09:21]
+Kayak otak itu udah satu arah gitu, tapi tiba-tiba mulutnya beda.
+[09:21 - 09:23]
+Ya, itu wajar.
+[09:23 - 09:24]
+Nge-repost nggak ya, Pak?
+[09:24 - 09:24]
+Hah?
+[09:24 - 09:25]
+Nge-repost ya?
+[09:25 - 09:27]
+Ya, namanya diuji ya kan?
+[09:28 - 09:28]
+Pasti lah, nge-repost.
+[09:29 - 09:29]
+Kalau dosennya...
+[09:29 - 09:33]
+Yang ngerjain 6 bulan, diuji cuma 20 menit, 30 menit.
+[09:33 - 09:34]
+Ya kan?
+[09:34 - 09:34]
+Ya, itu.
+[09:35 - 09:37]
+Dan buang source code gitu nggak sih, Pak, pas lagi sidang?
+[09:37 - 09:39]
+Kadang dosen akan minta.
+[09:40 - 09:40]
+Kenapa?
+[09:41 - 09:42]
+Kenapa dia akan minta?
+[09:42 - 09:43]
+Dia akan screening.
+[09:43 - 09:45]
+Problem kalian tuh dimana?
+[09:46 - 09:47]
+Oh, bisa, Pak ya?
+[09:47 - 09:48]
+Bisa.
+[09:48 - 09:51]
+Bisa tanya juga tuh gimana cara saya nge-screen.
+[09:56 - 09:57]
+Ya, jadi intinya...
+[09:58 - 09:59]
+Ya, gini...
+[10:00 - 10:01]
+Apa namanya?
+[10:01 - 10:02]
+Dosen itu mengandalkan pattern.
+[10:03 - 10:05]
+Ya, mengandalkan pattern.
+[10:05 - 10:07]
+Jadi, counting itu kadang...
+[10:07 - 10:08]
+Itu oke lah.
+[10:09 - 10:11]
+Itu pakai bantuan dan lain sebagainya.
+[10:11 - 10:13]
+Tapi patternnya sesuai apa nggak?
+[10:13 - 10:14]
+Gitu.
+[10:15 - 10:16]
+Ya, yang pasti tadi ya.
+[10:16 - 10:19]
+Yang pasti kalian harus pahami betul-betul adalah masalah.
+[10:20 - 10:22]
+Ya, masalahnya apa.
+[10:23 - 10:23]
+Metodologinya apa.
+[10:24 - 10:27]
+Kan dari masalah kalian melakukan problem solving ya.
+[10:27 - 10:29]
+Problem solving itu digunakan lewat metode.
+[10:30 - 10:31]
+Lalu hasilnya apa?
+[10:32 - 10:36]
+Nah, dia itu mungkin 134, 134, 134.
+[10:38 - 10:40]
+Setelah 4 selesai, balik lagi ke 1.
+[10:41 - 10:42]
+Kan kalian ada permasalahan.
+[10:43 - 10:44]
+Ada tujuan.
+[10:44 - 10:47]
+Balik ke 3, ke 4, dan sebagainya.
+[10:47 - 10:47]
+Itu screeningnya.
+[10:49 - 10:50]
+Gitu.
+[10:50 - 10:51]
+Clear kan?
+[10:51 - 10:51]
+Bisa, Pak.
+[10:52 - 10:53]
+Ya, sini lah.
+[10:53 - 10:54]
+Ada gambarnya.
+[10:54 - 10:57]
+Ada bapak, jadi saya nggak terlalu mikirin rumus saya.
+[10:58 - 10:59]
+Oh, udah dapet dosen pemunyiannya, Pak?
+[11:00 - 11:00]
+Belum, Pak.
+[11:00 - 11:01]
+Saya cuma...
+[11:01 - 11:03]
+Maksudnya belajar bab 2 aja, Pak.
+[11:03 - 11:05]
+Malah fokus ke bab 2 aja.
+[11:06 - 11:09]
+Soalnya saya ubah dulu, Pak.
+[11:10 - 11:11]
+Sebenarnya gini.
+[11:12 - 11:16]
+Masalah ubah judul itu, masalah ubah judul itu adalah satu.
+[11:17 - 11:17]
+Pemahamannya kurang dalam.
+[11:18 - 11:19]
+Itu doang.
+[11:19 - 11:24]
+Jadi kenapa masalah ubah judul itu ketika ditanya, gitu kan,
+[11:25 - 11:27]
+perbandingannya adalah gini.
+[11:28 - 11:33]
+Kalian memahami teori utama kalian itu dari 1 tahun yang lalu.
+[11:33 - 11:36]
+Tapi kalau kalian ubah judul, itu baru dari 6 bulan yang lalu.
+[11:37 - 11:38]
+Gitu.
+[11:38 - 11:38]
+Jadi kayak...
+[11:38 - 11:42]
+Keyakinannya itu karena menurut saya ya, kalau saya sering menguji,
+[11:42 - 11:43]
+itu keyakinannya kurang gitu.
+[11:45 - 11:45]
+Gitu.
+[11:45 - 11:49]
+Yang pasti sih itu tadi pahami masalah metode dan penghasil.
+[11:50 - 11:51]
+Kalau TA?
+[11:51 - 11:52]
+Oke, TA.
+[11:54 - 11:55]
+Terima kasih banyak.
+[11:55 - 11:56]
+30 menit, Pak.
+[11:56 - 11:59]
+Emang berapa lama, Pak? 30 menit, Pak?
+[11:59 - 12:00]
+30 menit.
+[12:00 - 12:00]
+Wah.
+[12:01 - 12:03]
+Tapi nanti kalian maksimal 5 menit doang.
+[12:04 - 12:05]
+Oh, presentannya 5 menit, Pak.
+[12:05 - 12:10]
+Tapi pengguna kalian sudah dibaca oleh dosen itu 4 hari, 5 hari.
+[12:11 - 12:12]
+Waduh.
+[12:12 - 12:13]
+Bagus kayaknya.
+[12:14 - 12:15]
+Dia itu bodoh banget.
+[12:16 - 12:16]
+Oke, Pak.
+[12:17 - 12:18]
+Terima kasih, Pak.
+[12:19 - 12:20]
+Makasih, Pak.
+[12:21 - 12:21]
+Makasih, Pak.
+[12:21 - 12:21]
+Iya, ya.
+[12:22 - 12:23]
+Lagu pengen gue bawa-bawa.
+[12:25 - 12:26]
+Waduh, dibaca perut lagi itu.
+[12:29 - 12:32]
+Oh, oke, oke.
+[12:32 - 12:34]
+Ya, bisa, Pak.
+[12:34 - 12:34]
+Bisa, bisa.
+[12:34 - 12:35]
+Amin.
+[12:35 - 12:35]
+Ya, Pak.
+[12:36 - 12:37]
+Terima kasih, Pak.
+[12:38 - 12:39]
+Terima kasih, Pak.
+[12:40 - 12:42]
+Pak, ada yang mau ambil, Pak.
+[12:42 - 12:43]
+Ayo makan, ya.
+[12:43 - 12:44]
+Ayo makan.
+[12:44 - 12:44]
+Gue ambil motor tapi.
+[12:45 - 12:45]
+Jadi yang.
+[12:45 - 12:46]
+Nah, itu.
+[12:46 - 12:47]
+Nanti liat.
+[12:47 - 12:48]
+Jadi yang pencalayan.
+[12:49 - 12:49]
+Iya, boleh banget.
+[12:49 - 12:50]
+Iya, makasih.
+[12:51 - 12:52]
+Tapi enak sih jalanan masih usia.
+[12:54 - 12:55]
+Ayo simpan, ya.
+[12:55 - 12:56]
+Dan simpan.
+[13:01 - 13:01]
+Duh.
+[13:07 - 13:09]
+Rumusan waktu batasan masalah gue low lagi, aneh?
+[13:10 - 13:11]
+Iya, lo lagi...
+[13:12 - 13:13]
+Tapi menjawab semua, sih, itu.
+[13:13 - 13:17]
+Itu, ya, yang bisa coba bagi kesini.
+[13:17 - 13:18]
+Bisa sih, ya, bisa sih, bisa.
+[13:19 - 13:20]
+Iya, bisa sih, bisa.
+[13:21 - 13:23]
+Kalau harus gitu mau coba, harus gitu mau coba.
+[13:23 - 13:24]
+Oh, kalau tuh panas deh, ini garam.
+[13:24 - 13:25]
+Gue bingung, kan.
+[13:25 - 13:29]
+Ini, baca lagi, belum usah tuh, belum usah tuh.
+[13:29 - 13:30]
+Hahaha.
+[13:31 - 13:32]
+Tuh, yuk.
+[13:33 - 13:33]
+Hah?
+[13:35 - 13:36]
+Biasanya pinta, ya, itu.
+[13:37 - 13:38]
+Biasanya pinta.
+[13:39 - 13:39]
+Biasanya pinta.
+[13:41 - 13:41]
+Biasanya pinta.
+[13:42 - 13:42]
+Biasanya pinta.
+[13:46 - 13:47]
+Jadi, kalau jangan mau nyanyi,
+[13:47 - 13:48]
+ini jatuhnya apaan?
+[13:48 - 13:49]
+Betul, deh.
+[13:50 - 13:52]
+Ini bener, ini bener.
+[13:53 - 13:55]
+Bisa buat apaan?
+[13:55 - 13:57]
+Kalau mahasiswa, gitu.
+[13:59 - 14:00]
+Bisa buat apaan?
+[14:00 - 14:00]
+Ini bener, ini bener.
+[14:00 - 14:00]
+Ini bener, ini bener.
+[14:01 - 14:01]
+Ini bener, ini bener.
+[14:01 - 14:02]
+Ini bener, ini bener.
+[14:03 - 14:04]
+Ini bener, ini bener.
+[14:04 - 14:05]
+Ini bener, ini bener.
+[14:06 - 14:08]
+Ini bener, ini bener.
+[14:08 - 14:10]
+Ini bener, ini bener.
+[14:10 - 14:11]
+Ini bener, ini bener.
+[14:12 - 14:15]
+Ini bener, ini bener.
+[14:15 - 14:22]
+Ini bener, ini bener.
+[14:23 - 14:24]
+Ini bener, ini bener.
+[14:24 - 14:26]
+Ini bener, ini bener.
+[14:26 - 14:27]
+Ini bener, ini bener.
+[14:27 - 14:29]
+Ini bener, ini bener.
+[14:30 - 14:32]
+Ini bener, ini bener.
+[14:32 - 14:33]
+Ini bener, ini bener.
+[14:34 - 14:35]
+Ini bener, ini bener.
+[14:35 - 14:36]
+Ini bener, ini bener.
+[14:36 - 14:37]
+Ini bener, ini bener.
+[17:29 - 18:06]
+Terima kasih telah menonton
+[18:15 - 18:36]
+Terima kasih telah menonton
+[19:00 - 19:12]
+Terima kasih telah menonton
+[19:49 - 20:00]
+Terima kasih telah menonton
+[20:08 - 20:30]
+Terima kasih telah menonton
+[21:04 - 21:19]
+Terima kasih telah menonton
+[21:19 - 21:25]
+Terima kasih telah menonton

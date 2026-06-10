@@ -1,0 +1,509 @@
+Source: Diskusi gform TA di TU.mp4
+Language Mode: Indonesian
+Detected: id (100.0%)
+Transcribed: 2026-02-19 00:05:44
+==================================================
+
+di sini record ; lebih kayak ini mas saya udah bikin ; dari file ; liuran itu pak ; yang di bagian ke 9 ; nah itu tuh kayak gimana mas ya ; skemanya apa? ; aplikatif ; ya ada ; upload ke drive mas ; ada 1 giga lebih? ; lebih dari 20 ; berapa pak? ; gak nyampe 1 giga sih ; tapi untuk ; tapi gak apa-apa kan mas ; kalau seandainya masalnya tuh ada beberapa ; kayak filenya tuh kayak pythors ; kayak gitu-gitu ; itu buat bukti aja ; kalau mas itu buatnya itu ; jadi mas nanti upload di drive mas ; di set ke situ ; oke tapi ; pythorsnya bisa gak ; perlu di ; sama juga kayak ; ada face juga kayak gitu ; jadi saya filenya tuh terpisah-pisah kayak gitu ; makanya ; lmn nya ya ; iya ; jadi itu aja ; circle smart saja yang python nya atau apanya gitu ; oke ; di zip aja ; berarti ini berarti ; di zip ya ; baik ; berarti pertama-tama ada ; ini jurnal gak usah dulu ya ; jurnal ; itu pilih salah satu ; oh pilih salah satu ; itu salah satu ; berarti saya yang pilih yang ketiga pak ya ; hasil compel nya boleh ; tapi mas kan bukan compel ya ; iya ; tapi lebih ke ; shortcode ya ; jadi python nya nanti di zip aja ; oke ; berarti saya ; apa ; di zip aja ; di zip aja ; itu bilang bapak shortcode ya ; saya perlu kasih lihat kah di word nya ada coding gitu ; ngasih file aja ya ; iya ; oke ; ini media pelan belajaran gak usah berarti pak ya ; itu salah satu aja ; yang ketiga ya ; itu salah satu aja ; oke oke makasih ; sekarang di bagian ini pak ; skpi ; saya pahamnya skpi itu ini kayak download pdf gitu pak ya ; ee ; bukan jadi gini ee ; mas isya tuh ada namanya pengalaman mahasiswa ; iya ; di sebelah kiri tuh ; itu mas isi sesuai dengan 10 sertifikat yang mas upload kemarin ; oke ; di upload tuh ; jadi bentuknya pdf nih ; ee word ; tuh 10 biji ; masukin isya ; itu di pengalaman mahasiswa tuh di pojok kanan atas ada tambah kelas ; itu mas liat di ini ada pandangan pasar sidang ada cara masukinnya ; ditambah sampai 10 ; udah ; nanti bisa dicetak list nya ; cetak list nya ; print to pdf itu yang di upload ; ini yang untuk pdf alaman sia ini kan pak ; ee ; jadi ntar mas isi di sia ; gitu mas isi di sia ; nanti bisa dicetak print to pdf ; nah itu yang di upload ; bukannya ada crt pak ya ; itu filenya ; itu filenya ; oh ; sertifikatnya ; oh sertifikatnya ; ini saya minta interface yang ada di sianya ; oh ; betul ya ; berarti saya dibikin kayak ada kategorinya sama taunya lebih perjelas gitu ya ; itu contoh panggilan sia ; di dalam sianya itu isinya kayak gini ; itu contohnya ; mas muka dulu makanya sianya ntar ; saya gak paham ; nah itu makanya ; jadi itu sianya itu ; isianya itu contoh pengisiannya itu kategorinya apa ; misalnya mas workshop atau seminar maksudnya apa ; kayak gitu contohnya itu ; gitu ; agak sedikit beda sama crt berarti pak ya ; c e r t ; crt itu bagian skpi 10 juga gitu ; c e r t itu file sertifikatnya ya? ; iya ; ini listnya ; listnya ; yang di input di sianya gitu ; oh ; nanti saya ngecek sertifikatnya ; dc di siya itu dasarnya ; oke ; soalnya tuh ada ada text list juga soalnya tapi saya coba cek dulu ; gimana ya ; oh itu ini doang tulisan ; oh itu tulisan doang ; iya itu buat saya validasi lagi tapi saya pake lagi ya ; oke ; oke ; sama ini pak ; di bagian verifikasi data mahasiswa itu ; di sini bilangnya dosan pembimbing ya itu pembimbing akademi apa ta? ; ta ya ; oh ; oke sama satu lagi ; ada berapa lagi nih ya ; oke ada dua lagi pak ini alamat kerja itu lebih ke universitas aja pak ya? ; sama jabatannya mahasiswa ya? ; kerja kerja ; kerja ; itu biasanya buat yang punya kerjaan ; oh berarti ; kalau gak ada mas trip aja ya ; trip aja ya ; sama satu lagi nih mas ; yang bagian pengajuan ta ; apa? ; pengajuan ta durasi saya agak agak beda gitu ya ; oh gapapa gapapa ; oh itu gak sedurus itu ; pas lagi mas udah ganti udun ya ganti ; karena kan udah obat sih itu ; iya udah ; nanti saya coba bikin pak ya yang bagian luran itu eh ; eh skpi ; ya skpi itu nanti saya coba kasih ke mas ya kalau seandainya bener ya mas ya ; oke ; oke makasih mas ya ; ya ; ta ya
+
+==================================================
+TIMESTAMPS:
+
+[00:00 - 00:00]
+di sini record
+
+[00:00 - 00:03]
+lebih kayak ini mas saya udah bikin
+
+[00:03 - 00:05]
+dari file
+
+[00:05 - 00:06]
+liuran itu pak
+
+[00:06 - 00:08]
+yang di bagian ke 9
+
+[00:08 - 00:10]
+nah itu tuh kayak gimana mas ya
+
+[00:10 - 00:11]
+skemanya apa?
+
+[00:12 - 00:13]
+aplikatif
+
+[00:13 - 00:14]
+ya ada
+
+[00:16 - 00:18]
+upload ke drive mas
+
+[00:18 - 00:20]
+ada 1 giga lebih?
+
+[00:21 - 00:22]
+lebih dari 20
+
+[00:22 - 00:23]
+berapa pak?
+
+[00:24 - 00:26]
+gak nyampe 1 giga sih
+
+[00:26 - 00:27]
+tapi untuk
+
+[00:30 - 00:35]
+tapi gak apa-apa kan mas
+
+[00:35 - 00:37]
+kalau seandainya masalnya tuh ada beberapa
+
+[00:37 - 00:39]
+kayak filenya tuh kayak pythors
+
+[00:39 - 00:40]
+kayak gitu-gitu
+
+[00:40 - 00:41]
+itu buat bukti aja
+
+[00:41 - 00:43]
+kalau mas itu buatnya itu
+
+[00:43 - 00:46]
+jadi mas nanti upload di drive mas
+
+[00:46 - 00:47]
+di set ke situ
+
+[00:47 - 00:49]
+oke tapi
+
+[00:50 - 00:52]
+pythorsnya bisa gak
+
+[00:52 - 00:52]
+perlu di
+
+[00:54 - 00:55]
+sama juga kayak
+
+[00:55 - 00:57]
+ada face juga kayak gitu
+
+[00:57 - 01:00]
+jadi saya filenya tuh terpisah-pisah kayak gitu
+
+[01:00 - 01:00]
+makanya
+
+[01:01 - 01:02]
+lmn nya ya
+
+[01:02 - 01:02]
+iya
+
+[01:02 - 01:03]
+jadi itu aja
+
+[01:03 - 01:05]
+circle smart saja yang python nya atau apanya gitu
+
+[01:05 - 01:06]
+oke
+
+[01:06 - 01:08]
+di zip aja
+
+[01:08 - 01:09]
+berarti ini berarti
+
+[01:09 - 01:10]
+di zip ya
+
+[01:10 - 01:11]
+baik
+
+[01:12 - 01:13]
+berarti pertama-tama ada
+
+[01:13 - 01:15]
+ini jurnal gak usah dulu ya
+
+[01:15 - 01:16]
+jurnal
+
+[01:16 - 01:17]
+itu pilih salah satu
+
+[01:17 - 01:18]
+oh pilih salah satu
+
+[01:19 - 01:20]
+itu salah satu
+
+[01:22 - 01:24]
+berarti saya yang pilih yang ketiga pak ya
+
+[01:25 - 01:26]
+hasil compel nya boleh
+
+[01:26 - 01:28]
+tapi mas kan bukan compel ya
+
+[01:28 - 01:29]
+iya
+
+[01:29 - 01:29]
+tapi lebih ke
+
+[01:30 - 01:30]
+shortcode ya
+
+[01:31 - 01:32]
+jadi python nya nanti di zip aja
+
+[01:32 - 01:33]
+oke
+
+[01:33 - 01:34]
+berarti saya
+
+[01:34 - 01:35]
+apa
+
+[01:35 - 01:35]
+di zip aja
+
+[01:35 - 01:36]
+di zip aja
+
+[01:36 - 01:38]
+itu bilang bapak shortcode ya
+
+[01:38 - 01:42]
+saya perlu kasih lihat kah di word nya ada coding gitu
+
+[01:42 - 01:43]
+ngasih file aja ya
+
+[01:43 - 01:43]
+iya
+
+[01:43 - 01:44]
+oke
+
+[01:44 - 01:47]
+ini media pelan belajaran gak usah berarti pak ya
+
+[01:47 - 01:48]
+itu salah satu aja
+
+[01:48 - 01:49]
+yang ketiga ya
+
+[01:49 - 01:50]
+itu salah satu aja
+
+[01:50 - 01:51]
+oke oke makasih
+
+[01:51 - 01:53]
+sekarang di bagian ini pak
+
+[01:53 - 01:54]
+skpi
+
+[01:54 - 01:57]
+saya pahamnya skpi itu ini kayak download pdf gitu pak ya
+
+[01:57 - 01:58]
+ee
+
+[01:58 - 02:00]
+bukan jadi gini ee
+
+[02:00 - 02:02]
+mas isya tuh ada namanya pengalaman mahasiswa
+
+[02:02 - 02:02]
+iya
+
+[02:02 - 02:03]
+di sebelah kiri tuh
+
+[02:03 - 02:07]
+itu mas isi sesuai dengan 10 sertifikat yang mas upload kemarin
+
+[02:07 - 02:08]
+oke
+
+[02:08 - 02:09]
+di upload tuh
+
+[02:10 - 02:11]
+jadi bentuknya pdf nih
+
+[02:12 - 02:13]
+ee word
+
+[02:13 - 02:14]
+tuh 10 biji
+
+[02:15 - 02:15]
+masukin isya
+
+[02:15 - 02:18]
+itu di pengalaman mahasiswa tuh di pojok kanan atas ada tambah kelas
+
+[02:19 - 02:22]
+itu mas liat di ini ada pandangan pasar sidang ada cara masukinnya
+
+[02:22 - 02:23]
+ditambah sampai 10
+
+[02:24 - 02:24]
+udah
+
+[02:25 - 02:26]
+nanti bisa dicetak list nya
+
+[02:26 - 02:28]
+cetak list nya
+
+[02:28 - 02:29]
+print to pdf itu yang di upload
+
+[02:30 - 02:32]
+ini yang untuk pdf alaman sia ini kan pak
+
+[02:32 - 02:32]
+ee
+
+[02:33 - 02:34]
+jadi ntar mas isi di sia
+
+[02:35 - 02:36]
+gitu mas isi di sia
+
+[02:37 - 02:39]
+nanti bisa dicetak print to pdf
+
+[02:39 - 02:40]
+nah itu yang di upload
+
+[02:41 - 02:43]
+bukannya ada crt pak ya
+
+[02:44 - 02:45]
+itu filenya
+
+[02:45 - 02:45]
+itu filenya
+
+[02:46 - 02:46]
+oh
+
+[02:47 - 02:47]
+sertifikatnya
+
+[02:47 - 02:48]
+oh sertifikatnya
+
+[02:48 - 02:50]
+ini saya minta interface yang ada di sianya
+
+[02:51 - 02:51]
+oh
+
+[02:52 - 02:52]
+betul ya
+
+[02:53 - 02:58]
+berarti saya dibikin kayak ada kategorinya sama taunya lebih perjelas gitu ya
+
+[02:58 - 02:58]
+itu contoh panggilan sia
+
+[02:58 - 03:00]
+di dalam sianya itu isinya kayak gini
+
+[03:00 - 03:01]
+itu contohnya
+
+[03:02 - 03:04]
+mas muka dulu makanya sianya ntar
+
+[03:04 - 03:05]
+saya gak paham
+
+[03:05 - 03:06]
+nah itu makanya
+
+[03:06 - 03:08]
+jadi itu sianya itu
+
+[03:08 - 03:11]
+isianya itu contoh pengisiannya itu kategorinya apa
+
+[03:11 - 03:15]
+misalnya mas workshop atau seminar maksudnya apa
+
+[03:15 - 03:17]
+kayak gitu contohnya itu
+
+[03:17 - 03:18]
+gitu
+
+[03:22 - 03:24]
+agak sedikit beda sama crt berarti pak ya
+
+[03:24 - 03:26]
+c e r t
+
+[03:26 - 03:29]
+crt itu bagian skpi 10 juga gitu
+
+[03:29 - 03:31]
+c e r t itu file sertifikatnya ya?
+
+[03:31 - 03:31]
+iya
+
+[03:31 - 03:33]
+ini listnya
+
+[03:33 - 03:33]
+listnya
+
+[03:33 - 03:35]
+yang di input di sianya gitu
+
+[03:35 - 03:35]
+oh
+
+[03:36 - 03:38]
+nanti saya ngecek sertifikatnya
+
+[03:39 - 03:40]
+dc di siya itu dasarnya
+
+[03:42 - 03:42]
+oke
+
+[03:46 - 03:50]
+soalnya tuh ada ada text list juga soalnya tapi saya coba cek dulu
+
+[03:52 - 03:52]
+gimana ya
+
+[03:52 - 03:54]
+oh itu ini doang tulisan
+
+[03:54 - 03:55]
+oh itu tulisan doang
+
+[03:55 - 04:01]
+iya itu buat saya validasi lagi tapi saya pake lagi ya
+
+[04:01 - 04:01]
+oke
+
+[04:01 - 04:02]
+oke
+
+[04:02 - 04:03]
+sama ini pak
+
+[04:07 - 04:11]
+di bagian verifikasi data mahasiswa itu
+
+[04:11 - 04:15]
+di sini bilangnya dosan pembimbing ya itu pembimbing akademi apa ta?
+
+[04:15 - 04:15]
+ta ya
+
+[04:15 - 04:16]
+oh
+
+[04:17 - 04:19]
+oke sama satu lagi
+
+[04:19 - 04:20]
+ada berapa lagi nih ya
+
+[04:22 - 04:27]
+oke ada dua lagi pak ini alamat kerja itu lebih ke universitas aja pak ya?
+
+[04:27 - 04:29]
+sama jabatannya mahasiswa ya?
+
+[04:29 - 04:29]
+kerja kerja
+
+[04:29 - 04:30]
+kerja
+
+[04:30 - 04:32]
+itu biasanya buat yang punya kerjaan
+
+[04:32 - 04:33]
+oh berarti
+
+[04:33 - 04:34]
+kalau gak ada mas trip aja ya
+
+[04:34 - 04:34]
+trip aja ya
+
+[04:34 - 04:36]
+sama satu lagi nih mas
+
+[04:36 - 04:38]
+yang bagian pengajuan ta
+
+[04:38 - 04:39]
+apa?
+
+[04:41 - 04:45]
+pengajuan ta durasi saya agak agak beda gitu ya
+
+[04:46 - 04:47]
+oh gapapa gapapa
+
+[04:47 - 04:48]
+oh itu gak sedurus itu
+
+[04:48 - 04:52]
+pas lagi mas udah ganti udun ya ganti
+
+[04:52 - 04:53]
+karena kan udah obat sih itu
+
+[04:54 - 04:54]
+iya udah
+
+[04:54 - 04:58]
+nanti saya coba bikin pak ya yang bagian luran itu eh
+
+[04:58 - 05:00]
+eh skpi
+
+[05:00 - 05:03]
+ya skpi itu nanti saya coba kasih ke mas ya kalau seandainya bener ya mas ya
+
+[05:03 - 05:04]
+oke
+
+[05:04 - 05:05]
+oke makasih mas ya
+
+[05:05 - 05:05]
+ya
+
+[05:05 - 05:07]
+ta ya
+

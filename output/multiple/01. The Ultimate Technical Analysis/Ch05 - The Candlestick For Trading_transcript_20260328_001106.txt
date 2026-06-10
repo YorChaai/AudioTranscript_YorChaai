@@ -1,0 +1,1658 @@
+Source: Ch05 - The Candlestick For Trading.mp3
+Language Mode: Indonesian
+Detected: id (100.0%)
+Transcribed: 2026-03-28 01:12:46
+==================================================
+
+mengenal candlestick kita tahu bahwa di dalam chart selain line chart Anda juga mengenal candlestick ; bar chart ya dan ada berbagai macam jenis chart ada point of figure ada ; Renko chart dan seterusnya tetapi dalam pelajaran kali ini Anda akan belajar mengenai candlestick dan bar chart ; tapi sebelumnya saya akan menjelaskan kepada Anda mengenai candlestick ini ; teori dasarnya apa sih sebenarnya adalah seorang pedagang beras di Jepang ; pada tahun 1700-an yang bernama Munahesa Homa dia melihat bahwa untuk menghitung tendensi ; pergerakan harga atau trend ; dia menemukan sebuah metode bahwa dia akan mencatat harga pembukaan harga penutupan harga tertinggi dan terendah dalam sebuah periode sehingga dengan begitu ; dia bisa melihat ; psikologi dari pasar itu seperti apa jadi kalau seandainya harga beras itu dibuka di harga pembukaan lebih ; kita catat ya misalnya harga pembukaannya ; 1000 kemudian dia sempat turun gitu ya mencapai mungkin ; 950 lalu kemudian dia naik kembali dan ditutup di ; 1050 misalnya makanya itu melambangkan sebuah psychology dimana pelaku pasar itu cenderung ingin membeli beras ; dah satu periode demi satu periode dicatat oleh Homa dan pada akhirnya dia bisa menginterprestasi kan psikologi yang terjadi dan hebatnya ; candlestick ini bisa membaca trend ; jadi dari sebuah candlestick yang ada di ; pasar itu bisa di breakdown ke time frame yang lebih kecil dan pada akhirnya bisa melihat arah pergerakan trend ; kalian melihat di ilustrasi ini yang disebut candlestick itu bentuknya seperti lilin ; bentuk seperti lilin ini sebenarnya bukan lilin tetapi dia mencakup ; informasi yang ada di pasar jadi harga pembukaan itu langsung dicatat di dalam sebuah cat misalnya hari ini market dibuka di harga 1000 ; maka kita bisa lihat kita tarik garis mendatar ini adalah 1000 ya garis mendatar pendek ; kemudian harga naik mencapai 1100 tiba-tiba kita bisa lihat candlesticknya bertumbuh pelan-pelan ke atas ; mencapai 1100 ya disitu 1100 pada saat harga last atau harga terakhir ; atau harga penutupan dibandingkan harga pembukaan lebih tinggi ; maka candlestick akan berwarna hijau biasanya atau putih atau whatever itu yang jelas bukan merah dan hitam ; ya artinya harga penutupan atau last lebih tinggi ; daripada harga yang saat ini pada hari ini adalah pada satu periode itu di open dia akan berwarna positif hijau dan seterusnya ; oke kemudian pada saat kebalikannya sekarang dia open besok harinya mungkin open di 1100 ya ; anda bisa lihat open di 1100 kemudian harga melemah ; ternyata waktu dia melemah itu karena ada selling pressure yang lebih besar dan tiba-tiba anda bisa lihat pelan-pelan harga turun meninggalkan harga open ya ; disinilah dia langsung berubah menjadi merah ; atau hitam ; dari situ kita melihat bahwa ternyata pada saat candlestick merah dan hitam ini berpengaruh karena apa seller dan buyer ini menguasai pasar ; dengan demikian kita bisa memperhatikan bahwa apabila market itu bisa digambarkan dengan seperti ini ada ; seller ada buyer bisa kita lihat range pergerakannya berapa jauh maka psikologinya ini bisa dilihat kalau misalnya dalam satu hari ; jarak antara open dan close itu benar-benar jauh dan full kebawah open di 1000 penutupan di 1100 itu 10% dan tidak ada penurunan lagi ; digambarkan dengan satu batang candle yang full berwarna hijau itu yang kita sebut dengan Marubozu Candle atau full ; ya dimana buyer menguasai pasar dengan sempurna dia full dia tidak lagi terpecah-pecah ; kemudian kalau penurunan juga sangat ekstrim dia berwarna merah full artinya ; kuat sekali tekanan jual dan di sini kita harus berhati-hati ; bagaimana apabila ada ekor yang panjang Anda bisa melihat salah satu gambar ini kita ambil gambar candlestick yang kita sebut dengan hammer ; kakinya panjang sekali atau mungkin kita bisa menggunakan nama lain yang dibuat oleh Martin Pring yaitu Pinocchio Bar ; ini terdiri dari tipuan yang awalnya ekor di bawah itu artinya positif mostly yang awalnya sekarang harga turun ke bawah ; Anda bisa lihat mulai dari open ya kita coba open 1100 lalu dia turun ke bawah sekarang kembali ke sini ; 1100 tetapi tiba-tiba di tengah sesi dia naik coba kita lihat dia pelan-pelan naik ; meninggalkan ekor ; dan kemudian akhirnya malah ditutup menguat bahkan satu ; step di atas harga open dan akhirnya kepalanya membentuk kepala yang kecil berwarna hijau ; meninggalkan ekor ini tandanya bulis yang cukup kuat artinya bulis kembali masuk ke pasar ; buyer optimis para optimis trader masuk kembali ke pasar dari yang sebelumnya mereka sangat depresi terhadap market ; kemudian ; dan kalau Anda melihat berikutnya adalah harga ; naik ya kita lihat sekarang skenario kebalikannya open di 1000 lalu dia naik ; ekstrim ke atas ke 1100 tiba-tiba di tengah sesi ; seller mulai berdatangan dan Anda bisa perhatikan mulai turun perlahan-lahan meninggalkan ekor ya terus turun sampai akhirnya ; harga open dilewati dan dia tutup di bawah berwarna merah maka yang terjadi adalah ekor yang tinggi sekali di atas ; ini yang kita sebut dengan kemungkinan akan terjadi pembalikan arah menjadi peris ini bahaya sekali perlu Anda perhatikan ; psikologinya ini kekuatan candlestick jadi dengan pola-pola seperti ini Anda bisa membaca apa yang sebenarnya akan terjadi nantinya ; dan apabila harga open dan close sama kita sebut dengan doji ; mirip seperti tanda tambah tidak punya daging tidak ada apa-apa hanya exactly ; close and open is same dia sebelumnya bergerak beriak-riak naik atas bawah tapi pada akhirnya sama nah ini adalah bentuk dasar daripada ; pada candlestick yang juga kita nanti bisa convert dia menjadi bar ya kita menjadi bar, bar chart tuh ; adalah seperti ini gambarnya dan lebih gampang sampai kita menggunakan bar chart karena kita ; tidak terpengaruh dengan tebal daripada body tetapi untuk melihat volume daripada range ; pergerakan harga ya volume itu bukan berarti volume indikator volume bukan tetapi volume ; range harga jadi kalau kenaikan harganya tebal seperti ini range besar artinya range harganya ; besar dan ini didukung dengan animo pasar maka itu yang akan menjadikan seorang trader ; itu sadar bahwa market sekarang sedang penuh kesepakatan dari salah satu arah trend kita akan ; membahas lebih detail di aplikasi bagaimana cara menggunakannya dan pola-pola apa saja yang penting ; untuk kita perhatikan setelah Anda mempelajari teori tentang candlestick for trading saat ini ; kita akan berbicara mengenai bagaimana aplikasi daripada candlestick for trading ada 202 pattern ; candlestick tetapi ini terlalu ; luas sekali untuk kita pelajari untuk basic di dalam trading kita tidak mengambil candlestick secara ; keseluruhan yang akan kita pakai tetapi ada pola-pola tertentu yang akan sangat membantu Anda di dalam ; melakukan trading dan ini akan sangat simple sekali gampang untuk diaplikasikan dan saya akan ; menjelaskan tempat ya artinya placement untuk candlestick ini idealnya dimana sih Apakah dalam ; tersebutnya Anda bisa menggunakan candlestick atau hanya situasi-situasi tertentu saja Anda ; menggunakan candlestick ya dalam hal ini kita tidak terlalu spesifik ke candlestick ya tetapi kita bicara mengenai bentuk pola harga apakah itu menggunakan price bar atau menggunakan candlestick misalnya so dalam kesempatan kali ini mari kita lihat kalau di, ; sini ada bentuk kotak-kotak ini maka saya mewakilkan pembahasan ini dengan candlestick tetapi pada umumnya Tidak yang akan kita lihat atau herba-herba 5 talk in your situation. ; bahas itu adalah mungkin dari bar chart juga ; dari candlestick juga, tetapi saya akan ; mengambil esensi yang paling penting, karena ; fungsi daripada candlestick ; dan seterusnya ini, untuk ; trigger, ya, untuk ; penentuan, disini loh ; dan ini loh saatnya, harga sudah ; terbentuk di support, ya, memang harga ; sudah mencapai support, tetapi bagaimana ; Anda mengetahui bahwa, ya ; di support ini, lalu ; saya harus mengeksekut tombol ; buy, itu seperti apa ; setelah kita menentukan support dan resistance ; kita akan menentukan ; di mana kita akan mengeksekusi ; ya, itu sekali lagi, yang harus ; selalu ada di mindset, bahwa ; pada saat Anda sudah ; mengetahui trendnya bullish, Anda ; sudah menentukan titik swing low, dan seterusnya ; kita yakin bahwa saat ini adalah secondary reaction ; dan kemudian akan ; naik, gitu ya, maka ; yang harus Anda lakukan adalah ; menentukan ; titik entry-nya, karena titik entry-nya ; ini yang lebih penting ; atau mungkin Anda sudah menggabung ; dengan ; dynamic support resistance, misalnya ; mungkin Anda sudah menggabungkan dengan ; dynamic support resistance ; ya, seperti di gambar ini ; maka yang akan kita ; lihat adalah bagaimana ; pergerakan harga selanjutnya ; dan kita di mana entry-nya, tapi sebelumnya ; kita akan lihat dulu sesuai dari ; chapter sebelumnya, bahwa ; kita prediksi bahwa harga akan turun ya ; setelah mencapai level ini, ternyata benar ; setelah mencapai level exponential level, kita mencoba ; moving average 90 benar-benar turun ; seperti chapter sebelumnya ; ya, sudah 40 pips ; jadi teori bahwa ; MA90 adalah rejection ; area untuk harga itu sangat ; bisa diandalkan ; ya, mungkin anda akan kelebihan seperti ini ; tetapi, ini akan menjadi ; satu trigger yang baik karena anda sudah mengetahui ; ada area ; MA90, nah ; ini akan kita jadikan contoh sekaligus ; sebelum kita masuk, saya akan ; mem-breakdown terlebih dahulu mengenai ; pola pergerakan harga ; ada pun pola ; candle atau bar ; yang sangat crucial dan penting secara ; psychology, anda harus mengerti ini ; dimana ; yang paling gampang di ; identifikasi adalah apabila terbentuknya ; sebuah candle, katakan ; yang ini bull, anda sudah ; tahu sebelumnya bahwa kalau ; ini candle bull, maka open ada di bawah ; dan kemudian close ada di atas ; sedangkan kalau bear, open di atas ; close-nya di bawah misalnya ; ya ; nah, di dalam kasus ini, yang paling penting ; dilihat disini yang paling signifikan ; ekornya panjang sekali ; dan ini juga panjang sekali ; ekornya ; ini merupakan area yang ; menandakan bahwa ; awalnya harga turun, lalu kembali naik ; dan ekor ini yang memberikan satu konfirmasi ; kuat bahwa kemungkinan besar ; ini adalah trigger kita untuk masuk ; ini adalah trigger kita untuk ; melakukan eksekusi buy ; atau mungkin eksekusi sell ; dan munculnya ; bar-bar ini haruslah berada pada tempat yang tepat ; alasan yang tepat misalnya ; munculnya bar ini berada pada area ; resisten atau support yang kuat ; mungkin di classic support yang kuat ; tiba-tiba kita sudah memberikan area classic support ; misalnya classic supportnya disini ; atau classic resisten ; misalnya ; atau mungkin kita balik saja ; classic supportnya di bawah ; classic resistennya di atas ; nah, ini misalnya daerah classic yang kuat ; lalu tiba-tiba muncul ekor ini ; artinya ; memang betul-betul ; Setelah ini kemungkinan besar akan dilanjutkan dengan kenaikan harga ; Nah pertanyaannya kan ini berarti kalau kenaikan harga disini ; Akan dilanjutkan dengan kenaikan mungkin ini adalah badan cangkul yang baru gitu ya ; Naik badan cangkul yang isinya adalah candle-candle ini ; Maka yang harus anda lakukan apa? ; Yang harus anda lakukan adalah bersiap membeli pada saat next bar ; The next bar dari candle ini ; Misalnya next bar nya open nya disini atau next candle nya open disini ; Nah lalu dimana kita akan membeli? ; Next bar nya open nya disini lalu entry sell nya dimana? ; Nah ini yang akan kita bahas ; Sebelum kita kesana ; Ada pun bentuk lain selain yang gampangnya ekor ya ; Anda melihat ekor pada area support resistance misalnya ; Di chapter sebelumnya pada saat harga gold running ; Saya sudah mengatakan bahwa ini harga naik ; Lalu akan kita take profit disitu dan saya sudah dapat 2000 dolar ; Take profit nya di MA90 ; Tadi saya mengatakan anda bisa putar kembali videonya ; Bahwa setelah sampai sini seharusnya ; Dia akan turun ; Turun nya kemana tadi saya tarik sampai setengah ; Dan itu kurang lebih tadi 60 pips ; Ternyata benar turun ; Dan anda perhatikan di area moving average 90 ; Saya berikan yang lebih tebal ; Terjadi muncul sebuah pola yang mirip sekali dengan gambar ini ; Ekor nya panjang ke atas ; Ini ekor nya panjang ke atas dan kepalanya seperti martil ; Seperti kotak ; Sama persisanya saja disitu ada ekor nya sedikit ; Tapi itu tidak jadi masalah yang jelas ; Ini adalah candle ; Candle pembalikan arah ; Dan ekor nya terjadi tepat pada area moving average 90 ; Kemudian diikuti dengan kejatuhan harga ; Entry nya biasanya kalau seperti ini apa yang harus dilakukan ; Cara entry mari kita breakdown terlebih dahulu ; Jadi kita melihat ini cara entry nya ; Itu ada beberapa cara ; Tetapi yang paling umum biasanya ; Anda ambil separuh daripada kaki nya ; Disini separuh daripada kaki nya ; Kita bisa menunggu sampai harga ; Turun ; Atau naik ke separuh dari kaki nya ; Tetapi kelemahannya adalah ; Bisa saja dia langsung turun dan anda tidak mendapatkan apa apa ; Yang paling konservatif biasanya orang menunggu ; Titik terendahnya ini ditembus ; Ini yang paling konservatif ; Jadi pada saat dia naik dia naik di atas ini ; Pada saat dia turun dia turun di atas ; Titik terendahnya ; Di bawah titik terendahnya ; Kemudian ; Cara berikutnya adalah harga open next bar ; Anda bisa entry ; Ini kembali lagi ke masing masing terendahnya ; Selama anda entry pada area support atau resistance yang kuat ; Pada dynamic support resistance yang benar ; Dan kemudian itu merupakan secondary reaction yang benar ; Maka jangan khawatir ; Bahwa hasilnya akan baik ; Dalam kasus ini kalau kita mau entry ; Seperti tadi saya katakan entry nya ; Di low penembus low ini berarti kita sudah entry seharusnya ; Dan pada saat kita entry ditambah spread ini sudah dapat 14 pips ; Tinggal kita mencari target support yang kuat dimana misalnya ; Ini adalah kaki kaki support yang kuat ; Kita bisa aiming turun sampai di level ini ; Dan anda mungkin juga bisa mewaspadai area konsolidasi ; Ini juga ada ekor ; Maybe akan berhenti di 1310 untuk tahap awal ; Sebelum dia turun ke bawah ; Dan ini sudah memberikan anda 57 pips ; 57 ya 57 angka yang di tengah itu 57 pips ; Dari 1314 sampai 1310 ; Kurang lebih ; Ini merupakan cara untuk melihat rejection seperti ini ya ; Ini rejection jadi rejection itu pembalikan arah ; Setelah harga naik kena 90 dia langsung meninggalkan ekor ; Kalau sudah ada ekor ekor panjang seperti ini ; Ini merupakan satu tendensi bahwa trendnya akan berlanjut ; Dilanjutkan beris ; Dan anda bisa lihat disini titik low nya ini yang akan ditembus sama dia ; Begitu ditembus dia turun dia dalam sekali ; Kenapa berani kita asumsikan seperti itu ; Satu trendnya beris terlihat turun terus ; Kedua waktu dia membentuk kenaikan atau secondary reaction ; Dia naik sampai ke MA90 lalu membuat ekor disana ; Dan kemudian turun ekstrim sekali ke bawah ya ; Turun ekstrim sekali ke bawah ; Kemudian kita bisa lihat ; Pola-pola ini akan selalu berulang seperti ini karena history repeat itself tadi ; Kita buktikan ; Di area-area menjelang MA90 ; Ini membentuk ekor juga ; Dan ekor-ekor inilah yang akan membantu anda ; Untuk menentukan trigger ; Jadi semakin panjang ekor semakin baik ; Contohnya disini ada ekor panjang dia turun kemudian dia menutup gap ; Jadi di dalam kasus ini ini ada gap ; Di kesempatan yang lain kita akan membahas tentang gap nanti ; Kalau di CIT program gap merupakan chapter khusus yang akan kita dalami ; Karena ada beberapa jenis gap ; Yang perlu anda perhatikan ; Tapi untuk saat ini sebagai dasar anda perhatikan ; Begitu tutup gap lalu dia mengekor ; Begitu ada ekor di area strong resistance atau strong support ; Hati-hati akan kemungkinan terjadi pembalikan arah ; Karena memang itu adalah missionnya ; Ada ekor seperti ini ; Di area support resistance supportnya yang mana? ; Resistance yang mana? ; Dia otomatis kalau ekor bawah akan sensitif terhadap support ; Ini merupakan area harga tertinggi ; Sama harga terendah ini biasanya saya pakai ya ; Dari candle yang di bawah ini ; Harga tertinggi dan terengah karena ini cukup strong ; Kita gunakan disini ; Itu hampir menyentuh dan dia mengekor ; Kemudian naik ; Itu teknik pertama apabila kita menggunakan Pinocchio bar ; Kita sebut ini sebagai pin bar atau Pinocchio bar ; Jadi pin bar ini sering kali terbentuk pada area-area strong resistance ; Strong support ya ; Kemudian dynamic resistance, dynamic support ; Lantas bagaimana kalau seandainya suatu ketika kita mau membeli atau kita mau trading ; Tetapi kita ketinggalan ; Kita sudah tahu trendnya ini naik cukup signifikan ; Kita bakal tungguin ; Tetapi kita tertinggal ; Apa yang harus dilakukan? ; Mari kita lihat disini ; Pada gold saya kasih M30 ; Saya menjelaskan pada anda tentang inside bar pattern ; Jadi ada inside bar pattern yang perlu diperhatikan ; Arti dari inside bar ini adalah ; Bar atau candlesticknya itu di dalam bar sebelumnya ; Dan bar sebelumnya ini cukup besar ; Sehingga pada saat kita trading kita itu berada di tengah-tengahnya ; Di dalam tengah-tengahnya sini ; Dan itu bisa di area support resistance ; Karena lebih baik lagi kalau di area support resistance ; Berarti dia sebagai awal mula untuk pembalikan arah harga ; Atau yang kita sebut dengan reversal misalnya ; Disini ada resistance ; Ada resistance disini ya ; Kemudian harga naik kena resistance ; Lalu turun ; Nah pada saat ini ya ini kan naik misalnya ; Kemudian ini turun ; Kemudian pada saat ini naik dan turun ; Sebelumnya di atas membentuk seperti ini ; Inside bar ; Pada formasi inside bar ; Candle yang lebih besar yang tidak ditembus atas bawah disebut mother bar ; Dan yang lebih kecil disebut inside bar ; Oke ; Kalau sudah seperti itu ; Maka inside bar ini akan berfungsi sebagai pembalikan arah ; Karena more than likely dia akan ditembus ke bawah seperti ini ; Jadi ditembus kaki daripada mother bar ini ditembus ; Harga itu akan melanjutkan penurunan ; Ini kalau inside bar nya terjadi untuk reversal ; Pertanyaan berikutnya ; Kalau saya sudah mengetahui bahwa trend ini sekarang bergerak 40% ; 45 derajat up ; Tetapi saya ketinggalan ; Saya mau beli ketinggalan misalnya disini ketinggalan ; Apa yang harus dilakukan ; Untuk itu anda bisa menggunakan inside bar ; Trading sebagai continuation ; Di dalam kasus ini ; Anda bisa lihat ini ada inside bar ; Maka kalau sudah ketinggalan seperti ini ; Yang bisa anda lakukan adalah anda beli di atas mother candle nya ; Atau kalau mother candle nya cukup lebar ; Anda bagi dua mother candle nya ; Kita ambil nilai titik tengah daripada mother candle nya ; Anda akan mendapatkan ; Oke anda akan mendapatkan harga yang cukup baik ; Karena biasanya the next bar ; Dia akan melakukan penurunan sampai separuh daripada range atas bawah ; Jadi yang paling atas dipakai Fibonacci juga bisa ; Atau anda hitung saja berapa ; Anda hitung manual ; Ya 50% itu tepat di kaki nya ; Jadi 50% itu saya kasih garis merah ya ; Tepat di ujung kaki jadi ada dua ; Kalau anda sudah ketinggalan pasang buy stop di atas ; Anda siap buy pada saat dia break ; Atau antri di perutnya ; Kalau kecil inside bar nya kecil ; Induknya kecil nggak masalah ; Kita tinggal gunakan buy stop di atas ; Dan kemudian dia akan naik ; Tembus atas ; Dalam kasus seperti ini ini menarik nih ; Yang ketiga ya ; Awal mulanya dia adalah inside bar ; Awal mulanya ; Tetapi bar berikutnya setelah dia tembus atas ; Bersamaan dengan itu dia tembus bawah ; Ini yang disebut dengan outside bar ; Ya kalau ini inside bar ; Ini outside bar kebalikannya ; Dan biasanya outside bar kalau terjadinya di area-area resisten yang kuat ; Maka yang akan terjadi adalah reversal ; Jadi di dalam kasus ini kalau kita lihat ini adalah reversal ; Dari mana kita tahu itu adalah resisten yang kuat ; Mari akan kita lihat ; Pada saat dia reverse itu posisinya di mana? ; Kenaikan ini menggunakan ; Kita bisa mengikutinya ; Mengikuti pergerakan arah harga ini ; Sampai di mana bisa menggunakan Fibonacci ; Ini 1357 dan resisten berikutnya itu ada di 1358 ; Kalau kita menggunakan Fibonacci kita tarik dari sini ; Ternyata dia pas berada di 78,6 ; Itu adalah rasio yang nanti akan kita bahas di chapter selanjutnya ; Basic Fibonacci saya akan berikan ; Karena untuk kelas Fibonacci itu memerlukan ; Waktu yang cukup panjang ; Tapi saya akan berikan basic yang simple ; Untuk bisa anda gunakan ; Ya ; Jadi katakan dengan menggunakan Fibonacci saya tahu bahwa di sini ; Ini ada resisten yang kuat ; Let's say kita menganggap ini resisten yang kuat ; Dan mendekati resisten yang kuat tersebut karena itu adalah harmonic resisten dengan Fibonacci ; Anda bersiap-siap terjadinya pembalikan arah ; Dan pembalikan arah yang terjadi saat ini ; Ya ; Ini adalah sebuah engulfing ; Engulfing itu adalah candle yang kebalikan dari mother candle ; Yang di luar atau kebalikan dari inside bar ; Ini yang disebut dengan outside bar ; Outside bar tembus atas dan tembus bawah ; Ini yang penting untuk anda ketahui ; Jadi setelah di inside bar dibalas dengan outside bar ; Harusnya kita buy mungkin ; Ya karena kita mencoba buy ; Ternyata begitu buy langsung turun ke bawah ; Yang bisa kita lakukan dalam kasus ini kita segera cut loss ; Dan langsung berbalik sell ; Jangan di tahan buy atau jangan di average-average ke bawah ; Never ; Anda bisa langsung lakukan sell ; Sell short otomatis ya ; Nah ini merupakan pelajaran yang sangat penting sekali ; Karena ini hampir ada di semua market ; Anda harus mengetahui dengan betul ekor itu penting ; Kemudian untuk kita masuk itu apa yang harus dilakukan ; Itu harus kita ketahui ; Di dalam kasus ini kalau mau masuk di saham BBRI kita mencari terlebih dahulu ; Apakah trendnya bullish ; Ya trendnya masih bullish ; Oke ; Tetapi apakah boleh kita masuk ; Kita belum boleh masuk ; Kapan kita boleh masuk ; Menunggu sampai harga masuk ke area support ; Di mana area supportnya ; Tentunya kita sudah belajar classic support resistance disini ; Ya kemudian kita menunggu dia masuk ; Dan membuat ekor itu dulu ; Atau dia mungkin tidak membuat ekor ; Tetapi membuat inside bar ; Misal di dalam kasus ini ini terjadinya inside bar ; Ya ; Ya inside bar yang ada disini adalah ; Ini ada satu bar ; Kemudian ada yang di dalamnya ; Dan pada saat dia tembus atas running ya ; Pertanyaannya ; Dari mana kita tahu bahwa kemungkinan ini bisa dipercaya atau tidak ; Atau kuat atau tidak ; Kita lakukan ; Perhitungan seperti ini ; Ini adalah area atas bawah ; Dan kita melihat bahwa ; Pelemahannya ini mencapai area strong support ; Dan pada saat dia berada di area strong support ; Ternyata dia membentuk satu inside bar ini dulu ; Maka ini merupakan lonceng untuk kita masuk di saham BRI ; Dari mana karena sebelumnya kita mencari ; Di mana sih strong supportnya ; Strong supportnya misalnya kita pakai ini ; Atau mungkin anda mau menggunakan yang ini ; Ya ; Maka ini adalah strong supportnya ; Begitu dia hit disini ; Kemudian dia mulai up dengan signifikan ke atas ; Ya ; Ini merupakan strong support ; Yang bisa kita gunakan sebagai referensi untuk entry ; Kita sudah tahu trendnya akan reversal ; Kita sudah tahu ada dua kali higher low ; Kemudian ada support kuatnya ; Begitu dia menyentuh support kuatnya ; Dan kemudian dia mulai up ke atas ; That's it ya ; Itu kita menggunakan ; Metode inside bar ; Untuk kita entry ; Sedangkan Pinocchio atau pin bar ; Kita sudah gunakan tadi di akhir-akhir sini ; Ya ; Harganya membentuk ekor di atas ; Kemudian mulai turun ke bawah ; Dan inilah yang paling penting untuk kita pelajari ; Di dalam chapter ini ; Karena candlestick ini merupakan ; Atau bar ini merupakan pijakan ; Sehingga setelah itu ; Bagaimana saya menentukan stop lossnya ; Kalau sekarang misalnya kita entry ; Dengan menggunakan Pinocchio ; Stop lossnya yang akan terjadi ; Itu di atas sini ; Karena itu merupakan akhir daripada Pinocchionya ; Kalau seandainya demand bisa menyerap semua supply yang ada ; Di atas sini ; Karena disini orang-orang pada jual semua kan ; Ternyata ada money in masuk ; Dan harga naik melampaui ini ; Yang terjadi adalah harus stop loss ; Kenapa? ; Karena posisi short selling kita akan gagal ; Karena demand akan kembali ke pasar ; Demikian juga pada saat kita melihat ; Trend yang bullish ; Trend yang bullish ; Maka stop lossnya adalah di bawah sini ; Ini harus kita ketahui pada saat ; Dia ditekan terus sampai ke bawah sini ; Maka stop loss harus di hit karena ; Dia akan berbalik arah menjadi bearish ; Dan kalau kita perhatikan ; Di sini gold masih tetap lemah ; Setelah dia membentuk pin bar ; Jadi ini merupakan salah satu strategi nyata ; Setelah kita men-set up trendnya ; Menggambar swing low-nya ; Meng-coding higher low dan seterusnya ; Kemudian kita sudah menentukan support resistance ; Apa yang dilakukan setelahnya? ; Kita sudah memiliki support resistance ; Apa yang harus dilakukan? ; Yang harus dilakukan adalah ; Anda menemukan ekor-ekor tersebut ; Atau inside bar tersebut ; Atau pada saat Anda ketinggalan ; Anda bisa masuk di tengah-tengah market ; Dengan inside bar tersebut ; Baik buy maupun sell ; Dan akhirnya Anda memiliki referensi yang jelas ; Untuk melakukan entry dan stop loss ; Kita akan bertemu di chapter selanjutnya ; Untuk membahas aplikasi daripada ; Trendline dan teorinya
+
+==================================================
+TIMESTAMPS:
+
+[01:32 - 01:38]
+mengenal candlestick kita tahu bahwa di dalam chart selain line chart Anda juga mengenal candlestick
+
+[01:38 - 01:43]
+bar chart ya dan ada berbagai macam jenis chart ada point of figure ada
+
+[01:44 - 01:51]
+Renko chart dan seterusnya tetapi dalam pelajaran kali ini Anda akan belajar mengenai candlestick dan bar chart
+
+[01:52 - 01:56]
+tapi sebelumnya saya akan menjelaskan kepada Anda mengenai candlestick ini
+
+[01:57 - 02:01]
+teori dasarnya apa sih sebenarnya adalah seorang pedagang beras di Jepang
+
+[02:01 - 02:07]
+pada tahun 1700-an yang bernama Munahesa Homa dia melihat bahwa untuk menghitung tendensi
+
+[02:07 - 02:09]
+pergerakan harga atau trend
+
+[02:10 - 02:18]
+dia menemukan sebuah metode bahwa dia akan mencatat harga pembukaan harga penutupan harga tertinggi dan terendah dalam sebuah periode sehingga dengan begitu
+
+[02:19 - 02:20]
+dia bisa melihat
+
+[02:21 - 02:28]
+psikologi dari pasar itu seperti apa jadi kalau seandainya harga beras itu dibuka di harga pembukaan lebih
+
+[02:28 - 02:30]
+kita catat ya misalnya harga pembukaannya
+
+[02:30 - 02:34]
+1000 kemudian dia sempat turun gitu ya mencapai mungkin
+
+[02:34 - 02:38]
+950 lalu kemudian dia naik kembali dan ditutup di
+
+[02:38 - 02:45]
+1050 misalnya makanya itu melambangkan sebuah psychology dimana pelaku pasar itu cenderung ingin membeli beras
+
+[02:45 - 02:53]
+dah satu periode demi satu periode dicatat oleh Homa dan pada akhirnya dia bisa menginterprestasi kan psikologi yang terjadi dan hebatnya
+
+[02:54 - 02:55]
+candlestick ini bisa membaca trend
+
+[02:56 - 02:59]
+jadi dari sebuah candlestick yang ada di
+
+[03:00 - 03:05]
+pasar itu bisa di breakdown ke time frame yang lebih kecil dan pada akhirnya bisa melihat arah pergerakan trend
+
+[03:05 - 03:10]
+kalian melihat di ilustrasi ini yang disebut candlestick itu bentuknya seperti lilin
+
+[03:11 - 03:14]
+bentuk seperti lilin ini sebenarnya bukan lilin tetapi dia mencakup
+
+[03:15 - 03:21]
+informasi yang ada di pasar jadi harga pembukaan itu langsung dicatat di dalam sebuah cat misalnya hari ini market dibuka di harga 1000
+
+[03:22 - 03:29]
+maka kita bisa lihat kita tarik garis mendatar ini adalah 1000 ya garis mendatar pendek
+
+[03:30 - 03:38]
+kemudian harga naik mencapai 1100 tiba-tiba kita bisa lihat candlesticknya bertumbuh pelan-pelan ke atas
+
+[03:39 - 03:44]
+mencapai 1100 ya disitu 1100 pada saat harga last atau harga terakhir
+
+[03:45 - 03:49]
+atau harga penutupan dibandingkan harga pembukaan lebih tinggi
+
+[03:50 - 03:57]
+maka candlestick akan berwarna hijau biasanya atau putih atau whatever itu yang jelas bukan merah dan hitam
+
+[03:57 - 04:00]
+ya artinya harga penutupan atau last lebih tinggi
+
+[04:00 - 04:10]
+daripada harga yang saat ini pada hari ini adalah pada satu periode itu di open dia akan berwarna positif hijau dan seterusnya
+
+[04:10 - 04:17]
+oke kemudian pada saat kebalikannya sekarang dia open besok harinya mungkin open di 1100 ya
+
+[04:17 - 04:21]
+anda bisa lihat open di 1100 kemudian harga melemah
+
+[04:22 - 04:30]
+ternyata waktu dia melemah itu karena ada selling pressure yang lebih besar dan tiba-tiba anda bisa lihat pelan-pelan harga turun meninggalkan harga open ya
+
+[04:30 - 04:33]
+disinilah dia langsung berubah menjadi merah
+
+[04:33 - 04:34]
+atau hitam
+
+[04:35 - 04:42]
+dari situ kita melihat bahwa ternyata pada saat candlestick merah dan hitam ini berpengaruh karena apa seller dan buyer ini menguasai pasar
+
+[04:43 - 04:48]
+dengan demikian kita bisa memperhatikan bahwa apabila market itu bisa digambarkan dengan seperti ini ada
+
+[04:49 - 04:56]
+seller ada buyer bisa kita lihat range pergerakannya berapa jauh maka psikologinya ini bisa dilihat kalau misalnya dalam satu hari
+
+[04:56 - 05:06]
+jarak antara open dan close itu benar-benar jauh dan full kebawah open di 1000 penutupan di 1100 itu 10% dan tidak ada penurunan lagi
+
+[05:06 - 05:13]
+digambarkan dengan satu batang candle yang full berwarna hijau itu yang kita sebut dengan Marubozu Candle atau full
+
+[05:14 - 05:20]
+ya dimana buyer menguasai pasar dengan sempurna dia full dia tidak lagi terpecah-pecah
+
+[05:21 - 05:26]
+kemudian kalau penurunan juga sangat ekstrim dia berwarna merah full artinya
+
+[05:26 - 05:29]
+kuat sekali tekanan jual dan di sini kita harus berhati-hati
+
+[05:30 - 05:37]
+bagaimana apabila ada ekor yang panjang Anda bisa melihat salah satu gambar ini kita ambil gambar candlestick yang kita sebut dengan hammer
+
+[05:38 - 05:43]
+kakinya panjang sekali atau mungkin kita bisa menggunakan nama lain yang dibuat oleh Martin Pring yaitu Pinocchio Bar
+
+[05:44 - 05:51]
+ini terdiri dari tipuan yang awalnya ekor di bawah itu artinya positif mostly yang awalnya sekarang harga turun ke bawah
+
+[05:51 - 05:56]
+Anda bisa lihat mulai dari open ya kita coba open 1100 lalu dia turun ke bawah sekarang kembali ke sini
+
+[05:56 - 06:01]
+1100 tetapi tiba-tiba di tengah sesi dia naik coba kita lihat dia pelan-pelan naik
+
+[06:02 - 06:03]
+meninggalkan ekor
+
+[06:03 - 06:07]
+dan kemudian akhirnya malah ditutup menguat bahkan satu
+
+[06:08 - 06:12]
+step di atas harga open dan akhirnya kepalanya membentuk kepala yang kecil berwarna hijau
+
+[06:12 - 06:17]
+meninggalkan ekor ini tandanya bulis yang cukup kuat artinya bulis kembali masuk ke pasar
+
+[06:17 - 06:24]
+buyer optimis para optimis trader masuk kembali ke pasar dari yang sebelumnya mereka sangat depresi terhadap market
+
+[06:25 - 06:26]
+kemudian
+
+[06:26 - 06:29]
+dan kalau Anda melihat berikutnya adalah harga
+
+[06:30 - 06:35]
+naik ya kita lihat sekarang skenario kebalikannya open di 1000 lalu dia naik
+
+[06:36 - 06:39]
+ekstrim ke atas ke 1100 tiba-tiba di tengah sesi
+
+[06:39 - 06:48]
+seller mulai berdatangan dan Anda bisa perhatikan mulai turun perlahan-lahan meninggalkan ekor ya terus turun sampai akhirnya
+
+[06:49 - 06:55]
+harga open dilewati dan dia tutup di bawah berwarna merah maka yang terjadi adalah ekor yang tinggi sekali di atas
+
+[06:55 - 07:01]
+ini yang kita sebut dengan kemungkinan akan terjadi pembalikan arah menjadi peris ini bahaya sekali perlu Anda perhatikan
+
+[07:01 - 07:07]
+psikologinya ini kekuatan candlestick jadi dengan pola-pola seperti ini Anda bisa membaca apa yang sebenarnya akan terjadi nantinya
+
+[07:07 - 07:12]
+dan apabila harga open dan close sama kita sebut dengan doji
+
+[07:12 - 07:17]
+mirip seperti tanda tambah tidak punya daging tidak ada apa-apa hanya exactly
+
+[07:18 - 07:25]
+close and open is same dia sebelumnya bergerak beriak-riak naik atas bawah tapi pada akhirnya sama nah ini adalah bentuk dasar daripada
+
+[07:25 - 07:32]
+pada candlestick yang juga kita nanti bisa convert dia menjadi bar ya kita menjadi bar, bar chart tuh
+
+[07:32 - 07:37]
+adalah seperti ini gambarnya dan lebih gampang sampai kita menggunakan bar chart karena kita
+
+[07:37 - 07:43]
+tidak terpengaruh dengan tebal daripada body tetapi untuk melihat volume daripada range
+
+[07:43 - 07:48]
+pergerakan harga ya volume itu bukan berarti volume indikator volume bukan tetapi volume
+
+[07:48 - 07:54]
+range harga jadi kalau kenaikan harganya tebal seperti ini range besar artinya range harganya
+
+[07:54 - 08:00]
+besar dan ini didukung dengan animo pasar maka itu yang akan menjadikan seorang trader
+
+[08:00 - 08:05]
+itu sadar bahwa market sekarang sedang penuh kesepakatan dari salah satu arah trend kita akan
+
+[08:05 - 08:10]
+membahas lebih detail di aplikasi bagaimana cara menggunakannya dan pola-pola apa saja yang penting
+
+[08:10 - 08:21]
+untuk kita perhatikan setelah Anda mempelajari teori tentang candlestick for trading saat ini
+
+[08:21 - 08:27]
+kita akan berbicara mengenai bagaimana aplikasi daripada candlestick for trading ada 202 pattern
+
+[08:27 - 08:28]
+candlestick tetapi ini terlalu
+
+[08:29 - 08:37]
+luas sekali untuk kita pelajari untuk basic di dalam trading kita tidak mengambil candlestick secara
+
+[08:37 - 08:42]
+keseluruhan yang akan kita pakai tetapi ada pola-pola tertentu yang akan sangat membantu Anda di dalam
+
+[08:42 - 08:49]
+melakukan trading dan ini akan sangat simple sekali gampang untuk diaplikasikan dan saya akan
+
+[08:49 - 08:56]
+menjelaskan tempat ya artinya placement untuk candlestick ini idealnya dimana sih Apakah dalam
+
+[08:59 - 09:03]
+tersebutnya Anda bisa menggunakan candlestick atau hanya situasi-situasi tertentu saja Anda
+
+[09:03 - 09:21]
+menggunakan candlestick ya dalam hal ini kita tidak terlalu spesifik ke candlestick ya tetapi kita bicara mengenai bentuk pola harga apakah itu menggunakan price bar atau menggunakan candlestick misalnya so dalam kesempatan kali ini mari kita lihat kalau di,
+
+[09:21 - 09:29]
+sini ada bentuk kotak-kotak ini maka saya mewakilkan pembahasan ini dengan candlestick tetapi pada umumnya Tidak yang akan kita lihat atau herba-herba 5 talk in your situation.
+
+[09:29 - 09:31]
+bahas itu adalah mungkin dari bar chart juga
+
+[09:31 - 09:33]
+dari candlestick juga, tetapi saya akan
+
+[09:33 - 09:35]
+mengambil esensi yang paling penting, karena
+
+[09:36 - 09:37]
+fungsi daripada candlestick
+
+[09:37 - 09:39]
+dan seterusnya ini, untuk
+
+[09:39 - 09:41]
+trigger, ya, untuk
+
+[09:41 - 09:43]
+penentuan, disini loh
+
+[09:43 - 09:45]
+dan ini loh saatnya, harga sudah
+
+[09:45 - 09:47]
+terbentuk di support, ya, memang harga
+
+[09:47 - 09:49]
+sudah mencapai support, tetapi bagaimana
+
+[09:49 - 09:51]
+Anda mengetahui bahwa, ya
+
+[09:51 - 09:53]
+di support ini, lalu
+
+[09:53 - 09:55]
+saya harus mengeksekut tombol
+
+[09:55 - 09:57]
+buy, itu seperti apa
+
+[09:57 - 09:59]
+setelah kita menentukan support dan resistance
+
+[09:59 - 10:01]
+kita akan menentukan
+
+[10:01 - 10:03]
+di mana kita akan mengeksekusi
+
+[10:03 - 10:05]
+ya, itu sekali lagi, yang harus
+
+[10:05 - 10:07]
+selalu ada di mindset, bahwa
+
+[10:07 - 10:09]
+pada saat Anda sudah
+
+[10:09 - 10:11]
+mengetahui trendnya bullish, Anda
+
+[10:11 - 10:13]
+sudah menentukan titik swing low, dan seterusnya
+
+[10:13 - 10:15]
+kita yakin bahwa saat ini adalah secondary reaction
+
+[10:15 - 10:16]
+dan kemudian akan
+
+[10:17 - 10:19]
+naik, gitu ya, maka
+
+[10:19 - 10:20]
+yang harus Anda lakukan adalah
+
+[10:20 - 10:21]
+menentukan
+
+[10:23 - 10:25]
+titik entry-nya, karena titik entry-nya
+
+[10:25 - 10:26]
+ini yang lebih penting
+
+[10:27 - 10:29]
+atau mungkin Anda sudah menggabung
+
+[10:29 - 10:29]
+dengan
+
+[10:30 - 10:32]
+dynamic support resistance, misalnya
+
+[10:32 - 10:34]
+mungkin Anda sudah menggabungkan dengan
+
+[10:35 - 10:37]
+dynamic support resistance
+
+[10:37 - 10:38]
+ya, seperti di gambar ini
+
+[10:39 - 10:40]
+maka yang akan kita
+
+[10:40 - 10:43]
+lihat adalah bagaimana
+
+[10:44 - 10:46]
+pergerakan harga selanjutnya
+
+[10:46 - 10:48]
+dan kita di mana entry-nya, tapi sebelumnya
+
+[10:48 - 10:50]
+kita akan lihat dulu sesuai dari
+
+[10:50 - 10:52]
+chapter sebelumnya, bahwa
+
+[10:52 - 10:54]
+kita prediksi bahwa harga akan turun ya
+
+[10:54 - 10:56]
+setelah mencapai level ini, ternyata benar
+
+[10:56 - 10:59]
+setelah mencapai level exponential level, kita mencoba
+
+[10:59 - 11:00]
+moving average 90 benar-benar turun
+
+[11:00 - 11:02]
+seperti chapter sebelumnya
+
+[11:02 - 11:05]
+ya, sudah 40 pips
+
+[11:05 - 11:06]
+jadi teori bahwa
+
+[11:06 - 11:08]
+MA90 adalah rejection
+
+[11:08 - 11:10]
+area untuk harga itu sangat
+
+[11:10 - 11:12]
+bisa diandalkan
+
+[11:12 - 11:15]
+ya, mungkin anda akan kelebihan seperti ini
+
+[11:15 - 11:16]
+tetapi, ini akan menjadi
+
+[11:16 - 11:19]
+satu trigger yang baik karena anda sudah mengetahui
+
+[11:19 - 11:20]
+ada area
+
+[11:21 - 11:22]
+MA90, nah
+
+[11:22 - 11:24]
+ini akan kita jadikan contoh sekaligus
+
+[11:24 - 11:26]
+sebelum kita masuk, saya akan
+
+[11:26 - 11:28]
+mem-breakdown terlebih dahulu mengenai
+
+[11:28 - 11:29]
+pola pergerakan harga
+
+[11:30 - 11:32]
+ada pun pola
+
+[11:32 - 11:33]
+candle atau bar
+
+[11:33 - 11:36]
+yang sangat crucial dan penting secara
+
+[11:36 - 11:37]
+psychology, anda harus mengerti ini
+
+[11:38 - 11:39]
+dimana
+
+[11:39 - 11:41]
+yang paling gampang di
+
+[11:42 - 11:44]
+identifikasi adalah apabila terbentuknya
+
+[11:44 - 11:46]
+sebuah candle, katakan
+
+[11:46 - 11:48]
+yang ini bull, anda sudah
+
+[11:48 - 11:49]
+tahu sebelumnya bahwa kalau
+
+[11:49 - 11:52]
+ini candle bull, maka open ada di bawah
+
+[11:52 - 11:54]
+dan kemudian close ada di atas
+
+[11:54 - 11:56]
+sedangkan kalau bear, open di atas
+
+[11:56 - 11:57]
+close-nya di bawah misalnya
+
+[11:57 - 11:57]
+ya
+
+[11:57 - 12:00]
+nah, di dalam kasus ini, yang paling penting
+
+[12:00 - 12:02]
+dilihat disini yang paling signifikan
+
+[12:02 - 12:03]
+ekornya panjang sekali
+
+[12:04 - 12:06]
+dan ini juga panjang sekali
+
+[12:06 - 12:07]
+ekornya
+
+[12:07 - 12:10]
+ini merupakan area yang
+
+[12:10 - 12:11]
+menandakan bahwa
+
+[12:11 - 12:14]
+awalnya harga turun, lalu kembali naik
+
+[12:14 - 12:16]
+dan ekor ini yang memberikan satu konfirmasi
+
+[12:16 - 12:17]
+kuat bahwa kemungkinan besar
+
+[12:17 - 12:19]
+ini adalah trigger kita untuk masuk
+
+[12:19 - 12:22]
+ini adalah trigger kita untuk
+
+[12:22 - 12:23]
+melakukan eksekusi buy
+
+[12:23 - 12:25]
+atau mungkin eksekusi sell
+
+[12:25 - 12:27]
+dan munculnya
+
+[12:27 - 12:31]
+bar-bar ini haruslah berada pada tempat yang tepat
+
+[12:31 - 12:33]
+alasan yang tepat misalnya
+
+[12:33 - 12:36]
+munculnya bar ini berada pada area
+
+[12:36 - 12:37]
+resisten atau support yang kuat
+
+[12:38 - 12:40]
+mungkin di classic support yang kuat
+
+[12:40 - 12:43]
+tiba-tiba kita sudah memberikan area classic support
+
+[12:43 - 12:45]
+misalnya classic supportnya disini
+
+[12:45 - 12:46]
+atau classic resisten
+
+[12:46 - 12:47]
+misalnya
+
+[12:47 - 12:49]
+atau mungkin kita balik saja
+
+[12:49 - 12:51]
+classic supportnya di bawah
+
+[12:51 - 12:52]
+classic resistennya di atas
+
+[12:52 - 12:54]
+nah, ini misalnya daerah classic yang kuat
+
+[12:54 - 12:55]
+lalu tiba-tiba muncul ekor ini
+
+[12:55 - 12:56]
+artinya
+
+[12:56 - 12:57]
+memang betul-betul
+
+[12:57 - 13:02]
+Setelah ini kemungkinan besar akan dilanjutkan dengan kenaikan harga
+
+[13:02 - 13:05]
+Nah pertanyaannya kan ini berarti kalau kenaikan harga disini
+
+[13:07 - 13:10]
+Akan dilanjutkan dengan kenaikan mungkin ini adalah badan cangkul yang baru gitu ya
+
+[13:10 - 13:14]
+Naik badan cangkul yang isinya adalah candle-candle ini
+
+[13:15 - 13:17]
+Maka yang harus anda lakukan apa?
+
+[13:17 - 13:21]
+Yang harus anda lakukan adalah bersiap membeli pada saat next bar
+
+[13:21 - 13:23]
+The next bar dari candle ini
+
+[13:23 - 13:26]
+Misalnya next bar nya open nya disini atau next candle nya open disini
+
+[13:26 - 13:28]
+Nah lalu dimana kita akan membeli?
+
+[13:28 - 13:31]
+Next bar nya open nya disini lalu entry sell nya dimana?
+
+[13:31 - 13:32]
+Nah ini yang akan kita bahas
+
+[13:33 - 13:34]
+Sebelum kita kesana
+
+[13:34 - 13:37]
+Ada pun bentuk lain selain yang gampangnya ekor ya
+
+[13:37 - 13:40]
+Anda melihat ekor pada area support resistance misalnya
+
+[13:40 - 13:43]
+Di chapter sebelumnya pada saat harga gold running
+
+[13:43 - 13:45]
+Saya sudah mengatakan bahwa ini harga naik
+
+[13:45 - 13:49]
+Lalu akan kita take profit disitu dan saya sudah dapat 2000 dolar
+
+[13:49 - 13:51]
+Take profit nya di MA90
+
+[13:52 - 13:55]
+Tadi saya mengatakan anda bisa putar kembali videonya
+
+[13:55 - 13:56]
+Bahwa setelah sampai sini seharusnya
+
+[13:56 - 13:57]
+Dia akan turun
+
+[13:57 - 13:59]
+Turun nya kemana tadi saya tarik sampai setengah
+
+[13:59 - 14:01]
+Dan itu kurang lebih tadi 60 pips
+
+[14:01 - 14:03]
+Ternyata benar turun
+
+[14:03 - 14:05]
+Dan anda perhatikan di area moving average 90
+
+[14:05 - 14:08]
+Saya berikan yang lebih tebal
+
+[14:09 - 14:14]
+Terjadi muncul sebuah pola yang mirip sekali dengan gambar ini
+
+[14:14 - 14:16]
+Ekor nya panjang ke atas
+
+[14:16 - 14:19]
+Ini ekor nya panjang ke atas dan kepalanya seperti martil
+
+[14:19 - 14:20]
+Seperti kotak
+
+[14:20 - 14:22]
+Sama persisanya saja disitu ada ekor nya sedikit
+
+[14:22 - 14:24]
+Tapi itu tidak jadi masalah yang jelas
+
+[14:24 - 14:26]
+Ini adalah candle
+
+[14:26 - 14:28]
+Candle pembalikan arah
+
+[14:28 - 14:32]
+Dan ekor nya terjadi tepat pada area moving average 90
+
+[14:33 - 14:35]
+Kemudian diikuti dengan kejatuhan harga
+
+[14:36 - 14:39]
+Entry nya biasanya kalau seperti ini apa yang harus dilakukan
+
+[14:39 - 14:41]
+Cara entry mari kita breakdown terlebih dahulu
+
+[14:41 - 14:43]
+Jadi kita melihat ini cara entry nya
+
+[14:43 - 14:45]
+Itu ada beberapa cara
+
+[14:45 - 14:46]
+Tetapi yang paling umum biasanya
+
+[14:46 - 14:51]
+Anda ambil separuh daripada kaki nya
+
+[14:51 - 14:53]
+Disini separuh daripada kaki nya
+
+[14:53 - 14:55]
+Kita bisa menunggu sampai harga
+
+[14:55 - 14:56]
+Turun
+
+[14:56 - 14:58]
+Atau naik ke separuh dari kaki nya
+
+[14:58 - 15:00]
+Tetapi kelemahannya adalah
+
+[15:00 - 15:03]
+Bisa saja dia langsung turun dan anda tidak mendapatkan apa apa
+
+[15:03 - 15:06]
+Yang paling konservatif biasanya orang menunggu
+
+[15:06 - 15:08]
+Titik terendahnya ini ditembus
+
+[15:08 - 15:09]
+Ini yang paling konservatif
+
+[15:10 - 15:12]
+Jadi pada saat dia naik dia naik di atas ini
+
+[15:13 - 15:15]
+Pada saat dia turun dia turun di atas
+
+[15:15 - 15:17]
+Titik terendahnya
+
+[15:17 - 15:19]
+Di bawah titik terendahnya
+
+[15:19 - 15:20]
+Kemudian
+
+[15:21 - 15:23]
+Cara berikutnya adalah harga open next bar
+
+[15:23 - 15:24]
+Anda bisa entry
+
+[15:24 - 15:26]
+Ini kembali lagi ke masing masing terendahnya
+
+[15:26 - 15:30]
+Selama anda entry pada area support atau resistance yang kuat
+
+[15:30 - 15:32]
+Pada dynamic support resistance yang benar
+
+[15:32 - 15:36]
+Dan kemudian itu merupakan secondary reaction yang benar
+
+[15:36 - 15:38]
+Maka jangan khawatir
+
+[15:38 - 15:40]
+Bahwa hasilnya akan baik
+
+[15:41 - 15:43]
+Dalam kasus ini kalau kita mau entry
+
+[15:43 - 15:45]
+Seperti tadi saya katakan entry nya
+
+[15:45 - 15:49]
+Di low penembus low ini berarti kita sudah entry seharusnya
+
+[15:49 - 15:53]
+Dan pada saat kita entry ditambah spread ini sudah dapat 14 pips
+
+[15:54 - 15:58]
+Tinggal kita mencari target support yang kuat dimana misalnya
+
+[15:58 - 16:00]
+Ini adalah kaki kaki support yang kuat
+
+[16:00 - 16:04]
+Kita bisa aiming turun sampai di level ini
+
+[16:04 - 16:08]
+Dan anda mungkin juga bisa mewaspadai area konsolidasi
+
+[16:08 - 16:10]
+Ini juga ada ekor
+
+[16:10 - 16:13]
+Maybe akan berhenti di 1310 untuk tahap awal
+
+[16:13 - 16:15]
+Sebelum dia turun ke bawah
+
+[16:15 - 16:17]
+Dan ini sudah memberikan anda 57 pips
+
+[16:17 - 16:20]
+57 ya 57 angka yang di tengah itu 57 pips
+
+[16:20 - 16:23]
+Dari 1314 sampai 1310
+
+[16:23 - 16:23]
+Kurang lebih
+
+[16:24 - 16:28]
+Ini merupakan cara untuk melihat rejection seperti ini ya
+
+[16:28 - 16:30]
+Ini rejection jadi rejection itu pembalikan arah
+
+[16:30 - 16:33]
+Setelah harga naik kena 90 dia langsung meninggalkan ekor
+
+[16:33 - 16:36]
+Kalau sudah ada ekor ekor panjang seperti ini
+
+[16:36 - 16:39]
+Ini merupakan satu tendensi bahwa trendnya akan berlanjut
+
+[16:39 - 16:40]
+Dilanjutkan beris
+
+[16:41 - 16:45]
+Dan anda bisa lihat disini titik low nya ini yang akan ditembus sama dia
+
+[16:45 - 16:48]
+Begitu ditembus dia turun dia dalam sekali
+
+[16:48 - 16:50]
+Kenapa berani kita asumsikan seperti itu
+
+[16:50 - 16:53]
+Satu trendnya beris terlihat turun terus
+
+[16:53 - 16:57]
+Kedua waktu dia membentuk kenaikan atau secondary reaction
+
+[16:57 - 17:00]
+Dia naik sampai ke MA90 lalu membuat ekor disana
+
+[17:01 - 17:05]
+Dan kemudian turun ekstrim sekali ke bawah ya
+
+[17:05 - 17:06]
+Turun ekstrim sekali ke bawah
+
+[17:08 - 17:11]
+Kemudian kita bisa lihat
+
+[17:12 - 17:16]
+Pola-pola ini akan selalu berulang seperti ini karena history repeat itself tadi
+
+[17:16 - 17:17]
+Kita buktikan
+
+[17:18 - 17:20]
+Di area-area menjelang MA90
+
+[17:20 - 17:23]
+Ini membentuk ekor juga
+
+[17:24 - 17:27]
+Dan ekor-ekor inilah yang akan membantu anda
+
+[17:29 - 17:31]
+Untuk menentukan trigger
+
+[17:32 - 17:35]
+Jadi semakin panjang ekor semakin baik
+
+[17:35 - 17:39]
+Contohnya disini ada ekor panjang dia turun kemudian dia menutup gap
+
+[17:39 - 17:41]
+Jadi di dalam kasus ini ini ada gap
+
+[17:41 - 17:44]
+Di kesempatan yang lain kita akan membahas tentang gap nanti
+
+[17:46 - 17:50]
+Kalau di CIT program gap merupakan chapter khusus yang akan kita dalami
+
+[17:50 - 17:51]
+Karena ada beberapa jenis gap
+
+[17:52 - 17:52]
+Yang perlu anda perhatikan
+
+[17:52 - 17:55]
+Tapi untuk saat ini sebagai dasar anda perhatikan
+
+[17:55 - 17:57]
+Begitu tutup gap lalu dia mengekor
+
+[17:57 - 18:01]
+Begitu ada ekor di area strong resistance atau strong support
+
+[18:01 - 18:04]
+Hati-hati akan kemungkinan terjadi pembalikan arah
+
+[18:04 - 18:06]
+Karena memang itu adalah missionnya
+
+[18:06 - 18:08]
+Ada ekor seperti ini
+
+[18:09 - 18:11]
+Di area support resistance supportnya yang mana?
+
+[18:11 - 18:12]
+Resistance yang mana?
+
+[18:12 - 18:17]
+Dia otomatis kalau ekor bawah akan sensitif terhadap support
+
+[18:18 - 18:21]
+Ini merupakan area harga tertinggi
+
+[18:21 - 18:23]
+Sama harga terendah ini biasanya saya pakai ya
+
+[18:23 - 18:24]
+Dari candle yang di bawah ini
+
+[18:24 - 18:27]
+Harga tertinggi dan terengah karena ini cukup strong
+
+[18:27 - 18:28]
+Kita gunakan disini
+
+[18:29 - 18:31]
+Itu hampir menyentuh dan dia mengekor
+
+[18:31 - 18:33]
+Kemudian naik
+
+[18:33 - 18:38]
+Itu teknik pertama apabila kita menggunakan Pinocchio bar
+
+[18:38 - 18:41]
+Kita sebut ini sebagai pin bar atau Pinocchio bar
+
+[18:41 - 18:48]
+Jadi pin bar ini sering kali terbentuk pada area-area strong resistance
+
+[18:48 - 18:50]
+Strong support ya
+
+[18:50 - 18:52]
+Kemudian dynamic resistance, dynamic support
+
+[18:52 - 18:57]
+Lantas bagaimana kalau seandainya suatu ketika kita mau membeli atau kita mau trading
+
+[18:57 - 18:58]
+Tetapi kita ketinggalan
+
+[18:58 - 19:01]
+Kita sudah tahu trendnya ini naik cukup signifikan
+
+[19:01 - 19:02]
+Kita bakal tungguin
+
+[19:03 - 19:04]
+Tetapi kita tertinggal
+
+[19:05 - 19:06]
+Apa yang harus dilakukan?
+
+[19:08 - 19:09]
+Mari kita lihat disini
+
+[19:09 - 19:12]
+Pada gold saya kasih M30
+
+[19:12 - 19:15]
+Saya menjelaskan pada anda tentang inside bar pattern
+
+[19:15 - 19:18]
+Jadi ada inside bar pattern yang perlu diperhatikan
+
+[19:18 - 19:20]
+Arti dari inside bar ini adalah
+
+[19:20 - 19:23]
+Bar atau candlesticknya itu di dalam bar sebelumnya
+
+[19:23 - 19:25]
+Dan bar sebelumnya ini cukup besar
+
+[19:26 - 19:30]
+Sehingga pada saat kita trading kita itu berada di tengah-tengahnya
+
+[19:30 - 19:32]
+Di dalam tengah-tengahnya sini
+
+[19:32 - 19:37]
+Dan itu bisa di area support resistance
+
+[19:37 - 19:40]
+Karena lebih baik lagi kalau di area support resistance
+
+[19:40 - 19:47]
+Berarti dia sebagai awal mula untuk pembalikan arah harga
+
+[19:47 - 19:49]
+Atau yang kita sebut dengan reversal misalnya
+
+[19:50 - 19:51]
+Disini ada resistance
+
+[19:52 - 19:53]
+Ada resistance disini ya
+
+[19:55 - 19:58]
+Kemudian harga naik kena resistance
+
+[19:59 - 20:00]
+Lalu turun
+
+[20:00 - 20:03]
+Nah pada saat ini ya ini kan naik misalnya
+
+[20:03 - 20:04]
+Kemudian ini turun
+
+[20:05 - 20:07]
+Kemudian pada saat ini naik dan turun
+
+[20:07 - 20:09]
+Sebelumnya di atas membentuk seperti ini
+
+[20:10 - 20:11]
+Inside bar
+
+[20:12 - 20:13]
+Pada formasi inside bar
+
+[20:14 - 20:18]
+Candle yang lebih besar yang tidak ditembus atas bawah disebut mother bar
+
+[20:18 - 20:21]
+Dan yang lebih kecil disebut inside bar
+
+[20:21 - 20:22]
+Oke
+
+[20:23 - 20:25]
+Kalau sudah seperti itu
+
+[20:25 - 20:28]
+Maka inside bar ini akan berfungsi sebagai pembalikan arah
+
+[20:28 - 20:32]
+Karena more than likely dia akan ditembus ke bawah seperti ini
+
+[20:32 - 20:36]
+Jadi ditembus kaki daripada mother bar ini ditembus
+
+[20:36 - 20:38]
+Harga itu akan melanjutkan penurunan
+
+[20:38 - 20:41]
+Ini kalau inside bar nya terjadi untuk reversal
+
+[20:41 - 20:43]
+Pertanyaan berikutnya
+
+[20:43 - 20:48]
+Kalau saya sudah mengetahui bahwa trend ini sekarang bergerak 40%
+
+[20:48 - 20:48]
+45 derajat up
+
+[20:48 - 20:50]
+Tetapi saya ketinggalan
+
+[20:50 - 20:53]
+Saya mau beli ketinggalan misalnya disini ketinggalan
+
+[20:53 - 20:54]
+Apa yang harus dilakukan
+
+[20:54 - 20:58]
+Untuk itu anda bisa menggunakan inside bar
+
+[20:59 - 21:00]
+Trading sebagai continuation
+
+[21:01 - 21:02]
+Di dalam kasus ini
+
+[21:03 - 21:05]
+Anda bisa lihat ini ada inside bar
+
+[21:06 - 21:09]
+Maka kalau sudah ketinggalan seperti ini
+
+[21:09 - 21:13]
+Yang bisa anda lakukan adalah anda beli di atas mother candle nya
+
+[21:13 - 21:16]
+Atau kalau mother candle nya cukup lebar
+
+[21:16 - 21:17]
+Anda bagi dua mother candle nya
+
+[21:17 - 21:21]
+Kita ambil nilai titik tengah daripada mother candle nya
+
+[21:21 - 21:23]
+Anda akan mendapatkan
+
+[21:24 - 21:28]
+Oke anda akan mendapatkan harga yang cukup baik
+
+[21:28 - 21:29]
+Karena biasanya the next bar
+
+[21:29 - 21:36]
+Dia akan melakukan penurunan sampai separuh daripada range atas bawah
+
+[21:36 - 21:39]
+Jadi yang paling atas dipakai Fibonacci juga bisa
+
+[21:39 - 21:41]
+Atau anda hitung saja berapa
+
+[21:41 - 21:42]
+Anda hitung manual
+
+[21:43 - 21:46]
+Ya 50% itu tepat di kaki nya
+
+[21:47 - 21:50]
+Jadi 50% itu saya kasih garis merah ya
+
+[21:50 - 21:52]
+Tepat di ujung kaki jadi ada dua
+
+[21:52 - 21:55]
+Kalau anda sudah ketinggalan pasang buy stop di atas
+
+[21:55 - 21:56]
+Anda siap buy pada saat dia break
+
+[21:56 - 21:58]
+Atau antri di perutnya
+
+[21:59 - 22:02]
+Kalau kecil inside bar nya kecil
+
+[22:02 - 22:03]
+Induknya kecil nggak masalah
+
+[22:03 - 22:07]
+Kita tinggal gunakan buy stop di atas
+
+[22:07 - 22:09]
+Dan kemudian dia akan naik
+
+[22:09 - 22:10]
+Tembus atas
+
+[22:10 - 22:12]
+Dalam kasus seperti ini ini menarik nih
+
+[22:13 - 22:14]
+Yang ketiga ya
+
+[22:14 - 22:17]
+Awal mulanya dia adalah inside bar
+
+[22:17 - 22:17]
+Awal mulanya
+
+[22:18 - 22:21]
+Tetapi bar berikutnya setelah dia tembus atas
+
+[22:22 - 22:24]
+Bersamaan dengan itu dia tembus bawah
+
+[22:24 - 22:26]
+Ini yang disebut dengan outside bar
+
+[22:27 - 22:28]
+Ya kalau ini inside bar
+
+[22:28 - 22:30]
+Ini outside bar kebalikannya
+
+[22:30 - 22:34]
+Dan biasanya outside bar kalau terjadinya di area-area resisten yang kuat
+
+[22:34 - 22:37]
+Maka yang akan terjadi adalah reversal
+
+[22:37 - 22:40]
+Jadi di dalam kasus ini kalau kita lihat ini adalah reversal
+
+[22:41 - 22:43]
+Dari mana kita tahu itu adalah resisten yang kuat
+
+[22:43 - 22:44]
+Mari akan kita lihat
+
+[22:44 - 22:47]
+Pada saat dia reverse itu posisinya di mana?
+
+[22:47 - 22:49]
+Kenaikan ini menggunakan
+
+[22:49 - 22:51]
+Kita bisa mengikutinya
+
+[22:51 - 22:53]
+Mengikuti pergerakan arah harga ini
+
+[22:53 - 22:55]
+Sampai di mana bisa menggunakan Fibonacci
+
+[22:55 - 23:00]
+Ini 1357 dan resisten berikutnya itu ada di 1358
+
+[23:01 - 23:04]
+Kalau kita menggunakan Fibonacci kita tarik dari sini
+
+[23:05 - 23:08]
+Ternyata dia pas berada di 78,6
+
+[23:08 - 23:12]
+Itu adalah rasio yang nanti akan kita bahas di chapter selanjutnya
+
+[23:12 - 23:14]
+Basic Fibonacci saya akan berikan
+
+[23:14 - 23:16]
+Karena untuk kelas Fibonacci itu memerlukan
+
+[23:16 - 23:17]
+Waktu yang cukup panjang
+
+[23:17 - 23:19]
+Tapi saya akan berikan basic yang simple
+
+[23:19 - 23:20]
+Untuk bisa anda gunakan
+
+[23:21 - 23:22]
+Ya
+
+[23:22 - 23:25]
+Jadi katakan dengan menggunakan Fibonacci saya tahu bahwa di sini
+
+[23:25 - 23:27]
+Ini ada resisten yang kuat
+
+[23:27 - 23:29]
+Let's say kita menganggap ini resisten yang kuat
+
+[23:29 - 23:34]
+Dan mendekati resisten yang kuat tersebut karena itu adalah harmonic resisten dengan Fibonacci
+
+[23:34 - 23:37]
+Anda bersiap-siap terjadinya pembalikan arah
+
+[23:37 - 23:39]
+Dan pembalikan arah yang terjadi saat ini
+
+[23:39 - 23:40]
+Ya
+
+[23:40 - 23:43]
+Ini adalah sebuah engulfing
+
+[23:43 - 23:46]
+Engulfing itu adalah candle yang kebalikan dari mother candle
+
+[23:46 - 23:48]
+Yang di luar atau kebalikan dari inside bar
+
+[23:48 - 23:51]
+Ini yang disebut dengan outside bar
+
+[23:52 - 23:55]
+Outside bar tembus atas dan tembus bawah
+
+[23:55 - 23:57]
+Ini yang penting untuk anda ketahui
+
+[23:57 - 24:00]
+Jadi setelah di inside bar dibalas dengan outside bar
+
+[24:00 - 24:01]
+Harusnya kita buy mungkin
+
+[24:01 - 24:03]
+Ya karena kita mencoba buy
+
+[24:03 - 24:05]
+Ternyata begitu buy langsung turun ke bawah
+
+[24:05 - 24:08]
+Yang bisa kita lakukan dalam kasus ini kita segera cut loss
+
+[24:08 - 24:10]
+Dan langsung berbalik sell
+
+[24:10 - 24:14]
+Jangan di tahan buy atau jangan di average-average ke bawah
+
+[24:14 - 24:14]
+Never
+
+[24:14 - 24:16]
+Anda bisa langsung lakukan sell
+
+[24:17 - 24:19]
+Sell short otomatis ya
+
+[24:19 - 24:23]
+Nah ini merupakan pelajaran yang sangat penting sekali
+
+[24:24 - 24:27]
+Karena ini hampir ada di semua market
+
+[24:27 - 24:30]
+Anda harus mengetahui dengan betul ekor itu penting
+
+[24:31 - 24:33]
+Kemudian untuk kita masuk itu apa yang harus dilakukan
+
+[24:33 - 24:34]
+Itu harus kita ketahui
+
+[24:35 - 24:39]
+Di dalam kasus ini kalau mau masuk di saham BBRI kita mencari terlebih dahulu
+
+[24:39 - 24:40]
+Apakah trendnya bullish
+
+[24:40 - 24:41]
+Ya trendnya masih bullish
+
+[24:42 - 24:43]
+Oke
+
+[24:43 - 24:46]
+Tetapi apakah boleh kita masuk
+
+[24:46 - 24:47]
+Kita belum boleh masuk
+
+[24:47 - 24:48]
+Kapan kita boleh masuk
+
+[24:48 - 24:51]
+Menunggu sampai harga masuk ke area support
+
+[24:51 - 24:53]
+Di mana area supportnya
+
+[24:53 - 24:56]
+Tentunya kita sudah belajar classic support resistance disini
+
+[24:56 - 24:58]
+Ya kemudian kita menunggu dia masuk
+
+[24:58 - 25:01]
+Dan membuat ekor itu dulu
+
+[25:01 - 25:03]
+Atau dia mungkin tidak membuat ekor
+
+[25:03 - 25:06]
+Tetapi membuat inside bar
+
+[25:06 - 25:10]
+Misal di dalam kasus ini ini terjadinya inside bar
+
+[25:12 - 25:12]
+Ya
+
+[25:12 - 25:14]
+Ya inside bar yang ada disini adalah
+
+[25:14 - 25:16]
+Ini ada satu bar
+
+[25:16 - 25:17]
+Kemudian ada yang di dalamnya
+
+[25:17 - 25:21]
+Dan pada saat dia tembus atas running ya
+
+[25:21 - 25:22]
+Pertanyaannya
+
+[25:23 - 25:27]
+Dari mana kita tahu bahwa kemungkinan ini bisa dipercaya atau tidak
+
+[25:27 - 25:29]
+Atau kuat atau tidak
+
+[25:29 - 25:30]
+Kita lakukan
+
+[25:32 - 25:33]
+Perhitungan seperti ini
+
+[25:34 - 25:36]
+Ini adalah area atas bawah
+
+[25:36 - 25:37]
+Dan kita melihat bahwa
+
+[25:38 - 25:42]
+Pelemahannya ini mencapai area strong support
+
+[25:42 - 25:44]
+Dan pada saat dia berada di area strong support
+
+[25:44 - 25:48]
+Ternyata dia membentuk satu inside bar ini dulu
+
+[25:48 - 25:51]
+Maka ini merupakan lonceng untuk kita masuk di saham BRI
+
+[25:52 - 25:54]
+Dari mana karena sebelumnya kita mencari
+
+[25:54 - 25:58]
+Di mana sih strong supportnya
+
+[25:58 - 25:59]
+Strong supportnya misalnya kita pakai ini
+
+[25:59 - 26:01]
+Atau mungkin anda mau menggunakan yang ini
+
+[26:02 - 26:02]
+Ya
+
+[26:02 - 26:04]
+Maka ini adalah strong supportnya
+
+[26:04 - 26:05]
+Begitu dia hit disini
+
+[26:06 - 26:09]
+Kemudian dia mulai up dengan signifikan ke atas
+
+[26:09 - 26:10]
+Ya
+
+[26:10 - 26:12]
+Ini merupakan strong support
+
+[26:12 - 26:17]
+Yang bisa kita gunakan sebagai referensi untuk entry
+
+[26:17 - 26:19]
+Kita sudah tahu trendnya akan reversal
+
+[26:19 - 26:21]
+Kita sudah tahu ada dua kali higher low
+
+[26:21 - 26:22]
+Kemudian ada support kuatnya
+
+[26:22 - 26:25]
+Begitu dia menyentuh support kuatnya
+
+[26:25 - 26:27]
+Dan kemudian dia mulai up ke atas
+
+[26:27 - 26:28]
+That's it ya
+
+[26:28 - 26:30]
+Itu kita menggunakan
+
+[26:30 - 26:32]
+Metode inside bar
+
+[26:32 - 26:33]
+Untuk kita entry
+
+[26:33 - 26:36]
+Sedangkan Pinocchio atau pin bar
+
+[26:36 - 26:38]
+Kita sudah gunakan tadi di akhir-akhir sini
+
+[26:38 - 26:39]
+Ya
+
+[26:41 - 26:44]
+Harganya membentuk ekor di atas
+
+[26:44 - 26:45]
+Kemudian mulai turun ke bawah
+
+[26:45 - 26:48]
+Dan inilah yang paling penting untuk kita pelajari
+
+[26:48 - 26:49]
+Di dalam chapter ini
+
+[26:49 - 26:51]
+Karena candlestick ini merupakan
+
+[26:52 - 26:53]
+Atau bar ini merupakan pijakan
+
+[26:53 - 26:54]
+Sehingga setelah itu
+
+[26:54 - 26:57]
+Bagaimana saya menentukan stop lossnya
+
+[26:57 - 26:59]
+Kalau sekarang misalnya kita entry
+
+[26:59 - 27:01]
+Dengan menggunakan Pinocchio
+
+[27:01 - 27:03]
+Stop lossnya yang akan terjadi
+
+[27:03 - 27:04]
+Itu di atas sini
+
+[27:04 - 27:07]
+Karena itu merupakan akhir daripada Pinocchionya
+
+[27:07 - 27:10]
+Kalau seandainya demand bisa menyerap semua supply yang ada
+
+[27:10 - 27:10]
+Di atas sini
+
+[27:10 - 27:13]
+Karena disini orang-orang pada jual semua kan
+
+[27:13 - 27:15]
+Ternyata ada money in masuk
+
+[27:15 - 27:16]
+Dan harga naik melampaui ini
+
+[27:16 - 27:19]
+Yang terjadi adalah harus stop loss
+
+[27:19 - 27:19]
+Kenapa?
+
+[27:19 - 27:21]
+Karena posisi short selling kita akan gagal
+
+[27:21 - 27:22]
+Karena demand akan kembali ke pasar
+
+[27:22 - 27:25]
+Demikian juga pada saat kita melihat
+
+[27:25 - 27:27]
+Trend yang bullish
+
+[27:27 - 27:28]
+Trend yang bullish
+
+[27:29 - 27:31]
+Maka stop lossnya adalah di bawah sini
+
+[27:31 - 27:33]
+Ini harus kita ketahui pada saat
+
+[27:33 - 27:35]
+Dia ditekan terus sampai ke bawah sini
+
+[27:35 - 27:37]
+Maka stop loss harus di hit karena
+
+[27:37 - 27:42]
+Dia akan berbalik arah menjadi bearish
+
+[27:43 - 27:45]
+Dan kalau kita perhatikan
+
+[27:45 - 27:46]
+Di sini gold masih tetap lemah
+
+[27:46 - 27:48]
+Setelah dia membentuk pin bar
+
+[27:48 - 27:50]
+Jadi ini merupakan salah satu strategi nyata
+
+[27:50 - 27:52]
+Setelah kita men-set up trendnya
+
+[27:52 - 27:53]
+Menggambar swing low-nya
+
+[27:53 - 27:55]
+Meng-coding higher low dan seterusnya
+
+[27:55 - 27:57]
+Kemudian kita sudah menentukan support resistance
+
+[27:57 - 27:59]
+Apa yang dilakukan setelahnya?
+
+[27:59 - 28:00]
+Kita sudah memiliki support resistance
+
+[28:00 - 28:02]
+Apa yang harus dilakukan?
+
+[28:02 - 28:03]
+Yang harus dilakukan adalah
+
+[28:03 - 28:05]
+Anda menemukan ekor-ekor tersebut
+
+[28:05 - 28:07]
+Atau inside bar tersebut
+
+[28:07 - 28:08]
+Atau pada saat Anda ketinggalan
+
+[28:08 - 28:10]
+Anda bisa masuk di tengah-tengah market
+
+[28:10 - 28:11]
+Dengan inside bar tersebut
+
+[28:11 - 28:13]
+Baik buy maupun sell
+
+[28:13 - 28:17]
+Dan akhirnya Anda memiliki referensi yang jelas
+
+[28:17 - 28:20]
+Untuk melakukan entry dan stop loss
+
+[28:20 - 28:22]
+Kita akan bertemu di chapter selanjutnya
+
+[28:22 - 28:24]
+Untuk membahas aplikasi daripada
+
+[28:24 - 28:25]
+Trendline dan teorinya
+

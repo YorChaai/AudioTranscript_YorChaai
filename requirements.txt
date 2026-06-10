@@ -1,33 +1,41 @@
 # --- Backend Web Server & API ---
-Flask==3.1.2
-flask-cors==6.0.2
-Werkzeug==3.1.5
+Flask>=3.1.2
+flask-cors>=6.0.2
+Werkzeug>=3.1.5
 
 # --- AI Speech Recognition ---
-faster-whisper==1.2.1
-ctranslate2==4.6.3
+faster-whisper>=1.2.1
+ctranslate2>=4.6.3
 
-# --- PyTorch (STABLE MATCH) ---
-torch==2.1.2
-torchaudio==2.1.2
+# --- PyTorch (CUDA 12.1) ---
+# Install separately: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 
-# --- Transformers compatibility ---
-tokenizers==0.15.2
+# --- Transformers & NLP ---
+transformers>=5.4.0
+tokenizers>=0.15.2
 
 # --- Text Processing ---
-deep-translator==1.11.4
-nltk==3.9.2
-requests==2.32.5
+deep-translator>=1.11.4
+nltk>=3.9.2
+requests>=2.33.0
 
 # --- PDF ---
-fpdf==1.7.2
-pypdf==3.17.4
+fpdf>=1.7.2
+pypdf>=6.9.2
 
 # --- Utilities ---
-tqdm==4.67.1
-colorama==0.4.6
-numpy==2.2.0
-psutil==5.9.8
+tqdm>=4.67.1
+colorama>=0.4.6
+numpy>=2.2.0
+psutil>=5.9.8
+python-dotenv>=1.0.1
+
+# --- Database ---
+# SQLite (built-in)
 
 # --- Fix critical deps ---
 protobuf>=4.25.1
+cryptography>=46.0.6
+urllib3>=2.6.3
+chardet>=7.4.0
+charset-normalizer>=3.4.6

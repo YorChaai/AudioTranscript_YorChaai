@@ -1,0 +1,3041 @@
+Source: Ch02 - How to Predict The Next Trend.mp3
+Language Mode: Indonesian
+Detected: id (100.0%)
+Transcribed: 2026-03-28 01:03:09
+==================================================
+
+Berikut adalah analisis mendalam dan ekstraksi informasi lengkap dari teks mengenai metodologi prediksi tren (*How to Predict the Next Trend*) menggunakan pendekatan *Price Action Analysis*.
+
+---
+
+## Ringkasan Isi Teks
+Teks ini menjelaskan metodologi tingkat lanjut dalam membaca grafik melalui *Price Action Analysis* (PAA) untuk memprediksi arah pergerakan harga di masa depan. Fokus utama materi ini adalah meningkatkan *winning rate* dengan cara melakukan *forecasting* (peramalan) sebelum melakukan eksekusi *trading*. Teknik yang dibahas meliputi pengidentifikasian *swing high/low*, pembuatan *swing line*, pemberian kode (*coding*) pada struktur harga (HH, HL, LL, LH), penggunaan pola "Cangkul" dan "ABCD" (Mirror), serta pemahaman mengenai transisi tren (*Trend Dilemma*). Penulis menekankan pentingnya menggunakan grafik polos (*naked chart*) dan *time frame* besar untuk mendapatkan gambaran tren yang jernih sebelum menentukan titik *entry*.
+
+---
+
+## Daftar Topik yang Dibahas
+1. Filosofi dan Dasar *Price Action Analysis* (PAA).
+2. Mekanisme *Swing High*, *Swing Low*, dan *Swing Line*.
+3. Struktur dan Aturan Tren *Bullish*.
+4. Analogi Hukum Newton (*Inertia*) dalam Pergerakan Harga.
+5. Konsep Pola "Cangkul" (Badan dan Kepala).
+6. Pola ABCD (*Mirror Pattern*) dan *Continuation*.
+7. Transisi dan Pembalikan Tren (*Trend Reversal/Dilemma*).
+8. Metodologi *Forecasting* dan Aplikasi Praktis pada Grafik.
+9. Manajemen *Time Frame* dan Strategi *Entry*.
+
+---
+
+## Penjelasan Detail untuk Setiap Topik
+
+Terdapat **9** topik utama yang teridentifikasi.
+
+### Topik 1: Filosofi dan Dasar Price Action Analysis (PAA)
+Total informasi yang ditemukan pada topik ini: **9** poin
+
+1. Memprediksi tren berikutnya adalah level baru dalam pengenalan terhadap grafik.
+2. Prediksi tren dilakukan setelah trader memahami komponen *primary* dan *secondary trend*.
+3. Astronacci memperkenalkan metode *Price Action Analysis* untuk memprediksi harga.
+4. Metode ini diklaim memiliki akurasi yang cukup tinggi.
+5. Teknik PAA secara konsisten terus disempurnakan.
+6. Tujuan utama teknik ini adalah melihat arah pergerakan harga di masa yang akan datang.
+7. Memprediksi arah harga yang signifikan (bull atau bear) sangat penting.
+8. Prediksi arah yang tepat akan meningkatkan *probability winning rate*.
+9. PAA memungkinkan trader mengetahuiRoughly arah harga berikutnya dari banyak percobaan.
+
+---
+
+### Topik 2: Mekanisme Swing High, Swing Low, dan Swing Line
+Total informasi yang ditemukan pada topik ini: **11** poin
+
+1. Grafik harus diberikan tanda lingkaran pada titik *swing high* dan *swing low*.
+2. *Swing high* dan *swing low* adalah poin penting untuk mengurutkan pergerakan harga.
+3. *Swing* membantu menentukan posisi puncak (*peak*) atau dasar (*bottom/trough*).
+4. Penentuan *swing* merupakan langkah dasar yang harus dikuasai.
+5. Secara ilustrasi, *swing high* terdiri dari formasi 3 bar.
+6. Secara ilustrasi, *swing low* terdiri dari formasi 3 bar di posisi bawah.
+7. Titik-titik *swing* yang valid kemudian dihubungkan untuk membentuk *swing line*.
+8. *Swing line* berfungsi mengikuti pergerakan naik dan turun harga.
+9. Titik poin atas dan bawah harus ditentukan terlebih dahulu sebelum menarik garis.
+10. *Swing* yang signifikan sering kali memiliki riak-riak kecil (minor) di dalamnya.
+11. Menentukan *swing* yang valid secara kasat mata adalah kunci awal penggunaan PAA.
+
+---
+
+### Topik 3: Struktur dan Aturan Tren Bullish
+Total informasi yang ditemukan pada topik ini: **9** poin
+
+1. Tren *bullish* memiliki kode identifikasi berupa *Higher Low* (HL).
+2. *Higher Low* berarti kaki atau titik rendah harga harus selalu lebih tinggi dari sebelumnya.
+3. Tren *bullish* membutuhkan setidaknya 2 kali kemunculan *Higher Low*.
+4. Tren *bullish* membutuhkan setidaknya 2 kali kemunculan *Higher High* (HH).
+5. Secara visual, tren *bullish* harus menghadap ke atas dengan sudut 45 derajat.
+6. Penentuan sudut 45 derajat dilakukan dengan mengambil garis diagonal pada grafik.
+7. Sudut 45 derajat ini menentukan kekuatan tren *bullish* atau *bearish*.
+8. *Dow Theory* menyebut tren 45 derajat ke atas sebagai *bullish participation*.
+9. *Dow Theory* menyebut tren 45 derajat ke bawah sebagai *bearish participation*.
+
+---
+
+### Topik 4: Analogi Hukum Newton (Inertia) dalam Pergerakan Harga
+Total informasi yang ditemukan pada topik ini: **4** poin
+
+1. Pergerakan tren mengikuti hukum Newton yang disebut *The Law of Inertia*.
+2. Hukum ini menyatakan bahwa benda yang bergerak akan terus berjalan sampai ada gaya yang menghentikan.
+3. Tren akan terus berjalan searah sampai ada gaya yang membuat harga berhenti dan berbalik arah.
+4. Filosofi dasarnya adalah tren cenderung bergerak konsisten seperti bola yang menggelinding.
+
+---
+
+### Topik 5: Konsep Pola "Cangkul" (Badan dan Kepala)
+Total informasi yang ditemukan pada topik ini: **8** poin
+
+1. Struktur pergerakan harga dianalogikan dengan bentuk cangkul.
+2. Badan cangkul mewakili *primary trend*.
+3. Kepala cangkul mewakili *secondary trend*.
+4. Jika tren sedang *bullish*, urutannya adalah badan cangkul diikuti kepala cangkul secara berulang.
+5. Apabila harga saat ini berada di posisi kepala cangkul, kemungkinan besar selanjutnya terbentuk badan cangkul kembali.
+6. Terbentuknya badan cangkul baru menandakan harga akan bergerak naik.
+7. Fokus utama trader adalah menghitung urutan badan dan kepala cangkul ini.
+8. Penggunaan indikator atau robot bukan merupakan fokus dalam metode ini.
+
+---
+
+### Topik 6: Pola ABCD (Mirror Pattern) dan Continuation
+Total informasi yang ditemukan pada topik ini: **10** poin
+
+1. Pola ABCD adalah pola kelanjutan (*continuation*) dari sebuah tren.
+2. Pola ini juga dikenal sebagai pola *mirror* atau cermin.
+3. Pola ABCD merupakan hasil pengembangan dari formasi cangkul.
+4. Dalam pola ini, panjang pergerakan harga AB akan sama dengan panjang CD.
+5. Titik C adalah lokasi di mana trader melakukan *entry*.
+6. Titik D adalah lokasi yang digunakan untuk melakukan *take profit*.
+7. Pola CD memberikan gambaran yang sangat jelas mengenai target pergerakan harga ke depan.
+8. Pola ABCD termasuk ke dalam kategori *harmonic pattern*.
+9. Pola ini membantu trader menghitung target profit secara optimal.
+10. ABCD berlaku secara konsisten baik pada kondisi market *bullish* maupun *bearish*.
+
+---
+
+### Topik 7: Transisi dan Pembalikan Tren (Trend Reversal/Dilemma)
+Total informasi yang ditemukan pada topik ini: **16** poin
+
+1. Pembalikan arah harga disebut sebagai *trend reversal* atau *trend transition*.
+2. Transisi tren sering disebut dengan istilah *trend dilemma*.
+3. Trading pada fase transisi atau dilema ini sangat menguntungkan (*profitable*).
+4. Trader harus masuk tepat waktu (*just in time*) saat transisi ini benar-benar terjadi.
+5. Tingkat keberhasilan (*winning rate*) pola transisi ini mencapai 75%.
+6. Rumus perubahan dari *bullish* ke *bearish* dimulai dengan adanya *Higher High* (HH).
+7. Setelah HH, harga harus membentuk *Lower Low* (LL).
+8. Harga kemudian naik membentuk *Lower High* (LH) karena gagal menembus HH sebelumnya.
+9. Tren *bearish* konfirm saat harga menembus level *trough* terakhir (LL).
+10. Rumus perubahan dari *bearish* ke *bullish* dimulai dengan *Lower Low* (LL).
+11. Setelah LL, harga harus membentuk *Higher High* (HH).
+12. Harga kemudian membentuk kepala cangkul atau *Higher Low* (HL).
+13. Tren *bullish* baru dimulai saat harga menembus titik *Higher High*-nya.
+14. Terdapat empat poin sakral yang harus dipenuhi dalam rumus transisi tren ini.
+15. Pemahaman transisi mencegah trader terjebak pada tren lama yang sudah berubah arah.
+16. Perubahan *coding* harga menjadi indikasi awal berakhirnya fase kenyamanan *trend following*.
+
+---
+
+### Topik 8: Metodologi Forecasting dan Aplikasi Praktis pada Grafik
+Total informasi yang ditemukan pada topik ini: **18** poin
+
+1. *Forecasting* (peramalan) wajib dilakukan sebelum melakukan *trading*.
+2. Jangan pernah melakukan *trading* tanpa membuat *forecasting* terlebih dahulu.
+3. Fokus analisis harus diarahkan pada area kosong di sebelah kanan grafik yang belum terisi harga.
+4. Di perangkat lunak Amibroker, gunakan tombol "N" untuk menggeser grafik ke area kosong tersebut.
+5. Proses identifikasi urutan harga disebut dengan istilah *coding*.
+6. *Coding* dimulai dari satu langkah atau satu *swing* sebelum tren yang sedang berjalan dimulai.
+7. Contoh aplikasi dilakukan pada aset *Gold*, GBP/JPY, saham BBRI, dan saham Telkom.
+8. Trader harus menarik garis yang menghubungkan antar titik *swing* yang valid.
+9. Riak-riak kecil di dalam *primary trend* dikategorikan sebagai *minor trend*.
+10. *Minor trend* tidak perlu diberikan nomor *coding* utama untuk menjaga kejelasan tren besar.
+11. Mengurutkan arah harga membantu trader "merasakan" arah pergerakan pasar.
+12. Pola yang terjadi di masa lalu dipercaya akan berulang kembali (*history repeats itself*).
+13. Dalam kasus saham Telkom, dipercayai akan membentuk fase *bottoming* sebelum melanjutkan kenaikan.
+14. Kepala cangkul yang sedang berlangsung harus dipantau sampai selesai sebelum melakukan *buy*.
+15. Target kenaikan saham adalah sampai titik puncak (*Peak*) atau titik D ditembus.
+16. Penarikan garis *swing line* harus dilakukan secara terus-menerus sebagai latihan.
+17. Chart harus dijaga tetap jernih (*naked chart*) tanpa gangguan indikator yang berlebihan.
+18. *Forecasting* memberikan jawaban apakah kondisi pasar saat ini sedang *bullish* atau *bearish*.
+
+---
+
+### Topik 9: Manajemen Time Frame dan Strategi Entry
+Total informasi yang ditemukan pada topik ini: **11** poin
+
+1. Terdapat perbedaan tahap antara *forecasting* dan *entry*.
+2. *Forecasting* menentukan arah (Bull/Bear), sedangkan *entry* menentukan aksi (Buy/Sell).
+3. Banyak trader mengalami kerugian karena langsung memikirkan *buy/sell* tanpa *forecasting*.
+4. Tanpa *forecasting*, trader mudah terjebak dalam volatilitas pasar yang besar.
+5. Untuk *forecasting* di pasar *futures*, disarankan menggunakan *time frame* H4 (4 jam) atau *Daily* (harian).
+6. Untuk melakukan *entry*, disarankan menggunakan *time frame* M30 (30 menit) atau M15 (15 menit).
+7. Jika pola cangkul di *time frame Daily* tidak jelas, silakan buka *time frame Weekly* (mingguan).
+8. Memilih *time frame* yang lebih besar bertujuan untuk mendapatkan perspektif tren yang lebih luas.
+9. *Time frame* kecil cenderung membuat pola *primary* dan *secondary* menjadi kabur.
+10. Dalam tren *bullish*, tindakan yang wajib dilakukan adalah mengambil posisi *buy*.
+11. Posisi *sell* dalam tren *bullish* (kontrarian) tidak direkomendasikan karena berisiko tinggi.
+
+---
+
+## Informasi Tambahan yang Tersirat dalam Teks
+* **Kemandirian Trader:** Teks menyiratkan bahwa dengan menguasai PAA, trader tidak lagi bergantung pada alat otomatis seperti robot atau indikator matematis.
+* **Faktor Psikologi:** Pengulangan sejarah (*history repeats itself*) menyiratkan bahwa perilaku manusia di bursa saham bersifat statis dan dapat diprediksi secara geometris.
+* **Objektivitas:** Penekanan pada "area kosong" menyiratkan bahwa trader harus melepaskan bias masa lalu dan fokus pada proyeksi probabilitas masa depan.
+* **Struktur Fraktal:** Penggunaan istilah *minor trend* di dalam *primary* menyiratkan bahwa pasar memiliki struktur yang serupa di berbagai skala waktu (fraktal).
+
+Apakah Anda ingin saya membantu membuatkan tabel ringkasan rumus *coding* untuk transisi tren (Bull ke Bear dan sebaliknya) agar lebih mudah dihafal?
+
+==================================================
+
+How to predict the next trend? ; Ini merupakan sebuah level baru di dalam pengenalan Anda terhadap chart. ; Setelah Anda sudah mengenal chart, Anda sudah melihat, ; oh ini ternyata grafiknya, saya sudah menemukan primary, ; saya sudah menemukan secondary, maka ini menjadi simple sekali. ; Nah, setelah Anda menemukan ini semua, yang berikutnya adalah, ; bagaimana sih caranya supaya kita ini kalau melihat grafik, ; kita bisa tahu setelah ini mau kemana? ; Ber tahun-tahun, astronaci memperkenalkan metode price action analysis-nya ; dan kita mendapatkan sebuah respon yang cukup baik, ; di mana akurasi cukup tinggi. ; Ini karena kita memiliki sebuah teknik yang secara konsisten terus disempurnakan ; untuk melihat arah pergerakan harga di masa yang akan datang. ; Nah, ini yang penting sekali. ; Pada saat kita bisa mempredik arah harga yang signifikan, ; harganya akan kemana, bull atau bear, dan seterusnya, ; maka probability winning rate kita akan menyebabkan, ; bahwa harga ini akan menjadi tinggi. ; Lantas, bagaimana caranya? ; Ada beberapa hal yang bisa kita mulai. ; Yang pertama adalah, Anda harus mengenal apa yang dimaksud dengan swing low atau swing high, ; karena pada dasarnya grafik ini akan kita berikan tanda. ; Nanti Anda akan lihat kita berikan lingkaran-lingkaran pada swing high dan swing low. ; Seperti yang Anda lihat di layar, ini adalah bentuk jenis-jenis swing. ; Ada swing high yang seperti ini, dan kemudian ada swing low, ; di mana swing high dan swing low ini akan menjadi poin penting ; untuk mengkonekkan atau menggambarkan dan mengurutkan pergerakan harga itu. ; Apakah sekarang misalnya kita menghadapi tren bulis? ; Tentunya Anda sudah memahami tren bulis seperti apa. ; Nah, dari tren bulis ini, yang mana yang harus saya tentukan ini adalah poin pentingnya? ; Puncak, peak, atau bottom-nya. ; Support, resistance yang penting. ; Nah, kalau kita melihat swing high, bentuknya akan seperti ini. ; Akan ada 3 bar, secara ilustrasi Anda bisa lihat. ; Dan kalau swing low, bentuknya akan ada 3 bar. ; 3 bar juga, tetapi dia di bawah. ; Anda harus mengerti tentang itu. ; Kemudian, berikutnya adalah kita mampu menggambarkan swing line. ; Swing line itu seperti apa? Anda bisa lihat di gambar ini. ; Pada saat kita sudah menentukan titik demi titik, ; maka ini otomatis akan bisa kita tarik garis dan membentuk swing line. ; Ya, Anda bisa lihat garisnya. ; Kemudian, dia naik dan dia turun mengikuti. ; Kalaupun dia beris, dia akan ikuti juga. ; Yang paling penting adalah kita mengetahui terlebih dahulu di mana kita bisa menentukan titik poin. ; Titik poin atas dan bawahnya. ; Setelah itu, kita harus menghitung. ; Kalau kita bicara trend bullish, maka bentuknya atau kodenya adalah harus ada selalu higher low. ; Kakinya ini harus lebih tinggi. ; Seperti ini contohnya. ; Ada 2 kali higher low, dan kemudian diikuti dengan 2 kali higher high. ; Higher high dan higher low itu harus terjadi 2 kali setidaknya, ; dan kemudian menghadap ke atas 45 derajat. ; Bagaimana 45 derajat? ; Ilustrasi ini akan menggambarkan 45 derajat. ; Anda bisa lihat 45 derajat naik atau 45 derajat menghadap ke bawah. ; Misalnya kita ambil diagonalnya. ; Jadi ini yang akan menentukan trend bullish dan bearish. ; Kalau di dalam Dow Theory, kita akan mempelajari tentang bullish participation dan bearish participation. ; Kalau bullish participation artinya 45 derajat ke atas. ; Kalau bearish participation 45 derajat ke bawah. ; Setelah kita bisa mengurutkan higher high, higher low, dan seterusnya yang akan nanti dibahas lebih lanjut ; di dalam aplikasi, Anda sudah akan bisa menentukan setelah ini urutan berikutnya apa. ; Setelah kita melihat sekarang, badan canggul, kepala canggul. ; Anda bisa lihat di gambar. ; Badan canggul, kepala canggul, lalu membuat lagi badan canggul lagi, kepala canggul. ; Maka kalau sekarang sudah kepala canggul, kira-kira apa berikutnya? ; Maka kemungkinan atau probability yang paling besar adalah terbentuknya badan canggul kembali. ; Artinya kita akan tahu bahwa harganya sekarang sedang akan naik. ; Ini adalah trend bullish. ; Yang harus menjadi fokus bukanlah indikator, bukanlah robot, dan seterusnya. ; Tetapi bagaimana Anda bisa menghitung badan canggul, kepala canggul, badan dan kepala, dan seterusnya. ; Kemudian, trend itu akan terus berjalan. ; Sesuai dengan hukum Newton, the law of inertia. ; Yang dikatakan bahwa apabila benda jalan, itu akan terus berjalan sampai nanti ada gaya yang membuat dia berhenti dan berbalik arah. ; Pembalikan arah ini akan disebut sebagai trend rich. ; Di mana trend reversal ini akan muncul melalui transisi. ; Transisi atau trend dilema ini akan membuat Anda sangat profitable tradingnya apabila Anda bisa melihat terjadinya trend dilema atau transisi ini benar-benar terjadi dan Anda masuk just in time dia sedang terjadi. ; Ada pun rumus untuk pembalikan arah harga dari trend bullish menjadi trend bearish. ; Anda memerlukan higher high. ; Kemudian harga harus membentuk lower low. ; Kemudian harga naik kembali membentuk lower high karena dia tidak mampu menembus higher high. ; Dan dia turun ke bawah, menembus kaki yang bawah menjadi lower low. ; Jadi sekali lagi, Anda membutuhkan higher high. ; Terlihat dia sudah tembus. ; Tetapi setelah dia tembus, dia turun langsung, dia membentuk lower low. ; Setelah itu dia mencoba untuk rebound, membentuk lower high. ; Dan dia ternyata tidak kuat, dia menembus yang level terbawahnya menjadi lower low. ; Lower low saat support atau trough yang terakhir ini ditembus, disitulah trend bearish baru dimulai. ; Bagaimana dengan bullish? ; Kebalikannya. ; Lower low, kemudian dia harus membentuk higher high. ; Ternyata dia membuat kepala canggul. ; Higher low, dan pada akhirnya dia menembus higher high-nya. ; Maka itu adalah trend bullish baru. ; Ini merupakan sebuah teknik dasar yang harus Anda kuatai. ; Karena dengan mengurutkan coding tersebut, dengan menarik garis swing-swing line ini, Anda akan mendapatkan satu gambaran yang sangat jelas. ; Where the next movement of the trend? ; Kita akan masuk di dalam aplikasi. ; Baik, sekarang kita akan memasuki aplikasi how to predict the next trend. ; Setelah Anda mempelajari teori bahwa di dalam menggunakan price action analysis, kita bisa melihat arah pergerakan harga di masa yang akan datang. ; Maka saat ini adalah aplikasinya. ; Bagaimana caranya kita menggunakan price action analysis, khususnya Anda berhadapan dengan chart sekarang, untuk melihat apa yang akan terjadi di depan. ; Ini sangat menarik sekali. ; Pada awalnya, kita sudah mempelajari di chapter 1. ; Bagaimana basic price action analysis method itu. ; Anda sudah mempelajari primary and secondary. ; Sekarang di dalam mempredik next trend, ada beberapa hal yang kita harus ketahui terlebih dahulu. ; Di dalam sampel kali ini, saya akan memberikan satu gambaran bagaimana mempredik arah harga berikutnya dengan contoh-contoh. ; Ada gold nanti, ada GBP Jepang Yen, ada saham BBRI, kemudian Telkom. ; Ini akan kita sama-sama melihat bagaimana sih caranya untuk mempredik arah pergerakan ke depan. ; Dan ini akan Anda lakukan setiap kali. ; Setiap kali kita akan trading, Anda harus melakukan analysis terlebih dahulu dengan membuat forecasting. ; Jadi jangan pernah Anda melakukan trading tanpa melakukan forecasting. ; Jadi yang pertama, Anda harus tahu terlebih dahulu. ; Dari 100 kali percobaan misalnya, 100 kali analisa apabila Anda diperhadapkan dengan kondisi market yang sama, ; kemana sih roughly atau probability yang paling besar arah harga berikutnya. ; Jadi pada saat kita sudah mengetahui arah harga berikutnya, ; kita sudah memiliki chance atau probability untuk menang yang lebih besar. ; Karena pada dasarnya, harga seperti kita pelajari dari basic technical analysis, ; dia akan cenderung bergerak di dalam sebuah trend dan trend tersebut akan jalan dengan sendirinya. ; Maka yang harus kita lakukan sekarang yang pertama adalah kita fokus kepada area kosong yang belum ada di sini. ; Dan untuk di saham pada awalnya di Amibroker, Anda bisa tekan tombol N. ; Akhir ya. ; Di sebelah home biasanya. ; Dan kemudian Anda bisa lihat area kosong di sinilah akan kita gambar. ; Nah, sebelum kita masuk di aplikasinya, kita akan mengenal swing terlebih dahulu. ; Kalau sebelumnya kita sudah mempelajari tentang apa itu swing, ; maka sekarang kita akan bicara lebih detail lagi. ; Kita harus mengkonekkan titik-titik tertinggi dan titik-titik tertengah. ; Kalau yang di atas ini disebut high, ; yang di bawah ini disebut low atau peak and trap, ; maka kita harus menentukan terlebih dahulu yang mana yang swing high, ; yang mana yang swing low karena nanti kita akan mengurutkan. ; Dan ciri-ciri bullish itu ada coding-coding tertentu yang harus Anda kerjakan. ; Misalnya di dalam kasus ini kita akan mengambil contoh di saham BBRI ; terhadap market yang sudah terjadi sebelumnya. ; Mari kita lihat. ; Kita akan melihat apakah dia valid atau tidak seperti yang sudah disampaikan bahwa harus ada ; tiga garis. ; Jadi di dalam kasus ini kita akan melihat swing mana yang valid. ; Saya akan berikan lingkaran berwarna merah. ; Ini merupakan swing yang valid. ; Kemudian ini swing yang valid. ; Ini swing yang valid. ; Ini juga valid. ; Kemudian ini adalah swing yang valid. ; Kenapa? Karena dia terdiri dari tiga bagian seperti ini. ; Kemudian ini swing yang valid. ; Ini swing yang valid. ; Ini juga valid. ; Dari sini kita akan melihat bersama-sama bahwa kondisi seperti ini merupakan swing-swing yang valid semua. ; Ini valid. ; Ini swing yang valid. ; Ini swing high. ; Ini swing low. ; Ini swing high. ; Swing low. ; Ini swing high juga. ; Dan dari sini kita akan melakukan connection. ; Ini secara umum dulu kita coba. ; Ini swing low. ; Assumption dia swing low. ; Dan kita connect-kan begini. ; Kita connect di sini. ; Kemudian kita connect-kan di sini. ; Jadi ini kita mengconnect-kan antar swing. ; Dan dari sini kita akan mulai melakukan coding. ; Ini swing low yang valid juga. ; Ini swing low yang valid juga. ; Ini juga valid. ; Kemudian di sini valid. ; Dan seterusnya ini merupakan swing yang valid yang harus Anda kerjakan. ; Oke. ; Kemudian setelah kita mengetahui itu swing valid, maka saya akan memberikan tanda yang mana yang peak, yang mana yang trough, atau yang mana yang high. ; Kalau kita mulai di atas ini adalah kita sebut dengan high. ; Oke. ; Di sini adalah high. ; Kemudian di bawah sini adalah low karena dia low. ; Maka kaki yang ada di sini akan disebut higher low. ; Karena low-nya lebih tinggi daripada low sebelumnya. ; Kemudian di sini adalah higher high. ; Di sini adalah higher low. ; Dan kemudian di sini adalah higher high. ; Ya. ; Dan di sini karena dia sudah lebih rendah daripada low sebelumnya. ; Kita sebut lower. ; Oke. Lower low. ; Ya. ; Kemudian di sini kita sebut lower high. ; Di sini kita sebut lower low. ; Dan di sini adalah. ; Higher high. ; Di sini adalah higher low. ; Oke. ; Ini harus dilakukan. ; Higher high dan kemudian higher low. ; Kemudian naik kembali. ; Kita tahu bahwa swing yang signifikan ini adalah swing-swing kecil. ; Tetapi dari ilmu yang sebelumnya kita tahu bahwa yang akan kita tarik garisnya adalah di sini. ; Maka yang kita akan tulis di sini adalah higher high. ; Dan kemudian sekali lagi di sini adalah higher low. ; Oke. ; Setelah kita tarik di sini higher low. ; Kemudian ini naik lagi ke atas. ; Ingat di dalamnya ada minor trendnya. ; Ada riak-riaknya. ; Kita tidak memberikan nomor di sini. ; Karena di sini merupakan sebuah minor daripada primary. ; Dan ini secondary. ; Itu kita sudah ingat sebelumnya. ; Ini adalah higher high. ; Jadi high, low. ; Kemudian higher low, higher high, higher low, higher high. ; Dan seterusnya. ; Oke. ; Jadi ini merupakan. ; Ini merupakan awal mula dari coding. ; Nah sekarang bagaimana caranya kita bisa menentukan bullish dan bearish. ; Bullish dan bearish itu ditentukan dari coding yang akan muncul. ; Jadi misalnya kita bicara higher high. ; Kemudian kita akan melihat di sini ada nanti higher low. ; Ada higher high. ; Dan ada higher low. ; Ini akan otomatis menjadi bullish. ; Jadi kalau urutan daripada coding tersebut. ; Dia membentuk high yang lebih tinggi dua kali. ; Dan dia membentuk low yang lebih tinggi dua kali. ; Maka dia akan menjadi higher high, higher low, dan seterusnya. ; Nah sekarang bagaimana sih caranya untuk kita menentukan awal mula daripada coding. ; Awal mula daripada coding. ; Misalnya kita berbicara dari trend yang sedang bearish seperti ini. ; Oke. ; Ini trendnya sedang bearish. ; Maka yang akan kita asumsikan adalah di mana low dan high yang akan menjadi referensi utama. ; Ini primary, secondary, primary, secondary. ; Maka kita tahu bahwa kemungkinan yang akan kita harapkan adalah perubahan trend. ; Kita mau ada perubahan trend. ; Ini bikin kepala canggul. ; Dia waktu turun membuat, waktu harusnya membuat badan canggul. ; Tapi dia tidak bisa turun lebih dalam. ; Maka secara otomatis dia akan menjadi badan canggul. ; Badan canggul kepala dan ini akan mulai menjadi badan lagi. ; Maka di mana kita bisa menaruhnya. ; Maka di sini saya akan taruh high. ; Dan di sini saya akan taruh low. ; Bukan di sini high-nya. ; Tetapi di sini sebelumnya. ; Supaya kita tahu bahwa coding yang di sini apa. ; Jadi selalu satu step sebelumnya atau satu swing sebelumnya dari trend yang sebelumnya. ; Itu yang akan kita gunakan. ; Jadi kalau di atas ini high. ; Dan kemudian di bawah ini low. ; Maka di sini otomatis akan menjadi lower high. ; Dan kemudian di sini lower high. ; Ini akan menjadi higher low. ; Karena low-nya lebih tinggi. ; Ketika ini dilewati. ; Maka satu point saja dia dilewati. ; Otomatis dia akan menjadi higher high. ; Karena dia lebih tinggi daripada high yang ada di sini. ; Dan kita tahu bahwa sebentar lagi akan terjadi higher low. ; Karena itu merupakan urutan. ; Dan di sinilah kita berkata bahwa trend itu sebenarnya sudah mulai bullish. ; Terutama pada saat dia mulai naik di sini. ; Ini sudah mulai bullish. ; Dan ini yang kita sebut trend reversal. ; Di dalam kita trading menggunakan price action analysis. ; Yang kita tidak ingin terjebak adalah apabila kita mendapatkan suatu kondisi kita terjebak di dalam trend reversal. ; Dan kita tidak tahu bahwa trend itu sebenarnya sudah berubah. ; Yang awalnya kita berpikir dia bull ternyata dia sudah bear. ; Dan yang ternyata dia bear ternyata sekarang sudah bull. ; Ini yang harus kita hindari. ; So, di dalam contoh kasus VBRI ini. ; Kita akan menghitung bagaimana trend selanjutnya. ; Sebelum kita nanti masuk di dalam pola yang saya sebut dengan ABCD. ; Sekarang kita fokus di sini. ; Sebelumnya kita menentukan terlebih dahulu swing mana yang valid. ; Kita mencoba menggambar dari posisi sini boleh ya. ; Kenapa dari sini? ; Karena ini merupakan sebuah awal mula kenaikan kembali setelah terjadinya bearish pendek. ; Ini adalah swing-swing yang valid. ; Kenapa tidak yang kecil-kecil? ; Ingat, karena di dalam primary harus ada minornya. ; Dan ini yang kecil-kecilnya kita buat. ; Ini juga kita buat. ; Di sini kita buat. ; Dan kemudian kita stop. ; Karena ini yang sudah mulai terjadi di sini. ; Nah, setelah kita menggambarkan swing-swing yang kita anggap valid seperti ini. ; Dan Anda harus tahu bahwa di dalam primary and secondary harus ada minor trend ya. ; Di mana minor trendnya untuk saat ini kita tidak gambar terlebih dahulu swing line-nya. ; Maka yang bisa Anda lakukan saat ini adalah menggaris satu demi satu kita connect-kan. ; Dan inilah yang harus terus-menerus dilatih karena dengan melatih ini Anda akan bisa merasakan urutan. ; Jadi kita itu sebenarnya mengurutkan arah harga. ; Ini primary. ; Awalnya harusnya menjadi secondary di sini. ; Tetapi dia tersendat. ; Dan setelah kita mengurutkan seperti ini. ; Maka selanjutnya kita akan melihat bahwa ini harusnya bergerak ke arah atas. Kenapa? ; Karena di dalamnya ada riak-riak kecil. ; Maka ini kemungkinan minornya. ; Dan somewhere di atas ini. ; Dia akan membentuk sebuah swing high yang baru. ; Dan apabila dia sudah membentuk swing high yang baru. ; Ini adalah gambar yang mungkin akan terjadi di BBRI. ; Artinya Anda sedang menggambar sebuah peta perjalanan yang ada di market. ; Dan saat ini kalau kita menggambarkan ini adalah low. ; Dan kemudian di sini adalah high. ; Ini adalah period yang sebelumnya ya. ; Maka yang akan kita lihat selanjutnya adalah di sini. ; Ini adalah higher high. ; Kemudian kita akan melihat di sini adalah higher low. ; Kita urutkan. ; Di sini berarti higher high karena dia lebih tinggi daripada yang sebelumnya. ; Kemudian di sini adalah higher low. ; Dan di sini adalah higher high. ; Kemudian di sini kita mulai masuk di dalam tahap yang kita sebut sebagai lower low. ; Kemudian di sini adalah lower high. ; Oke. ; Dan di sini kita membuat adalah higher low kembali. ; Dan kita percaya bahwa ini akan ada higher high. ; Pada saat kita sudah percaya bahwa di sini adalah higher high. ; Maka selanjutnya Anda akan melihat ini arah akan menghadap ke atas. ; Oke. ; So ini yang kita sebut dengan mengurutkan untuk melihat how to predict the next trend. ; Ini yang paling penting di sini. ; Ya. ; Jadi Anda harus mengerti yang pertama menentukan swing high yang valid. ; Swing low yang valid. ; Kemudian mengkonekkan. ; Dan kemudian mengurutkan gambarnya. ; Di sini kita sudah memiliki higher high. ; Di sini juga sudah higher low. ; Maka ada potensi yang cukup besar bahwa trend ini akan mulai berbalik arah. ; Dan akan kembali lagi up ke atas. ; Dan kita tahu bahwa itu akan menjadi satu hal yang positif ya. ; Kemudian bagaimana kalau kita melihat terjadinya pergerakan harga dari market yang lain. ; Let's say kita mencoba pada ; gold misalnya. ; Ini layarnya agak sedikit bervariasi karena saya sudah mulai menggambarkan moving average. ; Mungkin untuk sementara saya hapus terlebih dahulu agar Anda bisa melihat pergerakan harga dengan lebih clear tanpa indicator. ; Ya. ; Ini yang kita sebut dengan naked chart. ; Saat ini kita melihat gold market terlebih dahulu. ; Kalau tadi kita sudah menggambar yang bullish. ; Sekarang kita melihat yang bearish ya. ; Jadi ini kita sudah lihat perspektifnya bagaimana cara menentukan arah ; harga ya. ; Sebelum kita bicara chart yang kosong. ; Saya membawa Anda untuk menentukan swing high dan swing low nya lagi. ; Berarti katakan ini adalah swing high awal karena dia lebih tinggi. ; Ya. ; Ini yang disebut swing high awal karena dia lebih tinggi dari sebelumnya ya. ; Lebih tinggi. ; Berarti ini awal mula pembalikan arah dari bullish besar menjadi bearish besar. ; Dan di sini adalah low nya. ; Oke. ; Lalu swing-swing mana saja yang akan kita gunakan. ; Kita akan pakai ini. ; Kita akan pakai ini. ; Kemudian kita akan pakai ini. ; Kita akan pakai ini. ; Oke. ; Ini kita akan pakai juga. ; Kenapa bukan yang. ; Kenapa tidak kita lewati. ; Karena di dalamnya ini sudah ada riak-riak. ; Sehingga ini menjadi trend utama. ; Ya. ; Ingat. ; Kalau seandainya ini adalah garis lurus. ; Tidak ada swing-swing kecil lagi di dalamnya. ; Maka ini kita akan menjadikan lurus langsung ke bawah. ; Tapi karena di dalamnya ada riak. ; Kita akan perhitungkan. ; Oke. ; Sebagai latihan. ; Sampai di sini terlebih dahulu. ; Kita akan tarik. ; Ya. ; Ini kita tidak akan tarik. ; Karena ini trend yang sebelumnya. ; Tetapi mengingatkan pada Anda. ; Bahwa ini adalah low dan high yang akan dihitung. ; Di coding low dan high. ; Selebihnya. ; Mari kita lihat. ; Ini merupakan trend yang besarnya. ; Berarti swing line di sini primary. ; Ini kepala cangkul secondary nya ya. ; Ini primary. ; Kemudian kepala cangkul lagi secondary. ; Kemudian ada di primary. ; Lebih kecil secondary. ; Kemudian ada primary. ; Dan kemudian di sini ada secondary. ; Oke. ; Nah. ; Nantinya Anda sudah akan bisa mengukur tanpa lagi menggambar swing line lingkaran. ; Kasat mata kita sudah bisa melihat. ; Nah. ; Kita memberikan coding ya. ; Otomatis. ; Let's say. ; Harga itu bergerak sampai terakhir di sini. ; Maka kita coding terlebih dahulu. ; Kalau di sini. ; Adalah low. ; Kemudian di sini adalah high. ; Di sini ada lower low. ; Jangan sampai salah karena low nya lebih rendah. ; Ini adalah lower high. ; Di sini adalah lower low. ; Karena lebih rendah ya. ; Kemudian di sini lower high. ; Muncul higher low satu. ; Apakah dia sudah bullish? ; Belum. ; Karena apa? ; Atasnya masih lower high. ; Di dalam bullish dia minta dua kali higher low. ; Dan setidaknya akan ada berikutnya higher high. ; Yang ada tendensi setidaknya akan membuat higher high. ; Sebanyak dua kali. ; Tetapi ini masih lower low. ; Kemudian di sini. ; Dia masih kuat lower high. ; Dia tidak mampu menembus. ; Maka ini tetap bearish. ; Lalu mencoba lagi higher low. ; Tetapi di atasnya dia tidak kuat ya. ; Dia membentuk lower high. ; Dia membentuk lower high di sini. ; Dan kemudian dia membuat lower low. ; Di level ini. ; Apa yang harus kita lakukan selanjutnya? ; Yang harus kita lakukan selanjutnya adalah. ; Tetap melihat bahwa dia tidak kuat. ; Di sini dia membentuk lower high. ; Dan pada saat dia lower high. ; Sekali lagi di sini dia membentuk lower low. ; Dan setelah dia lower low di sini. ; Perhatikan apa yang terjadi setelahnya. ; Oke. ; Yang terjadi setelahnya adalah. ; Satu pergerakan harga. ; Di mana high yang ini ditembus. ; Dan pada saat ini ditembus. ; Anda akan melihat sebuah coding baru. ; Di mana ini adalah swing high yang baru. ; Di mana swing high yang baru itu. ; Kita lihat di sini ya. ; Kenapa bukan ambil yang ini? ; Karena ini kecil. ; Dan ini penurunannya cukup besar. ; Dan kalau kita menarik swing line di sini. ; Ini merupakan minornya. ; Maka. ; Ini bisa jadi awal mula sebuah trend bullish. ; Kenapa? ; Karena di sini mulai higher high. ; Awal mula trend bullish ada higher high. ; Dan kita tahu. ; Kalau seandainya ini kita diberikan kesempatan untuk memprediksi arah harga. ; Karena kita sudah mengurutkan. ; Maka urutan berikutnya dia akan turun. ; Mengharapkan bahwa. ; Yang ada di sini adalah. ; Primary trend. ; PT primary trend. ; Badan canggul. ; Kemudian di sini adalah ST. ; Maka berikutnya. ; Kita akan expect akan terjadinya. ; Badan canggul yang baru. ; Dan ini akan naik terus ke atas. ; Nah ini yang kita sebut dengan melakukan mengurutkan ya. ; Kita coding. ; Nah pertanyaan berikutnya. ; Kita tahu sebelumnya ada formasi pergerakan harga itu ada lima. ; Yang pertama adalah canggul bullish. ; Kemudian canggul bearish. ; Kemudian result daripada bullish canggul. ; Itu seperti ini. ; Dan kemudian canggul bearish berikutnya adalah seperti ini. ; Ya. ; Dan setelah itu. ; Kita bisa melihat. ; Kalau seandainya pattern ini benar-benar terjadi. ; Maka yang terjadi berikutnya adalah. ; Pola mirror bullish. ; Dan arahnya ke sini. ; Ya. ; Mirror bullish ini kita sebut dengan di ABCD. ; Jadi apakah itu setelah kita sudah mengetahui cara menarik garis. ; Baik bullish dan bearish. ; Sekarang saya akan mengajarkan pada Anda. ; Bahwa kelanjutan daripada canggul tersebut adalah ABCD. ; Dimana ABCD ini merupakan sebuah pola yang sangat penting sekali. ; Dimana pola ini adalah pola continuation. ; Dimana akan adanya perlanjutan. ; Daripada trend. ; Di sini ABCD. ; Jadi setelah munculnya C. ; Kita entry di sini. ; Maka berikutnya adalah D. ; Ya. ; Jadi panjangnya AB. ; Kemudian dia akan CD ke atas. ; Itu yang akan membuat Anda mendapatkan profit optimal. ; Karena apa? ; Kita juga sudah bisa memprediksi arah harga berikutnya adalah C ke D. ; Dan kemudian kita setelah entry di C. ; Kita akan take profitnya di D. ; Ya. ; This is ABCD. ; Harmonic pattern sebenarnya. ; Dan ini merupakan kelanjutan. ; Dalam kondisi bearish sekalipun dia juga akan membentuk AB. ; Kemudian dia akan membentuk CD ke bawah ya. ; So dalam kasus ini kita sekarang sudah menyadari bahwa ABCD sangat penting. ; Karena CD akan membuat Anda lebih clear dan lebih jelas untuk melihat arah pergerakan harga ke depan. ; Setelah munculnya canggul. ; Anda benar-benar bisa menghitung. ; Next. ; Akan kemana harganya? ; Ya. ; Jadi ini yang akan mulai kita lakukan di dalam saham apapun. ; Sekarang misalnya di dalam saham. ; Kalau kita sudah lihat. ; Sekarang kita coba ke pair mata uang yang lain. ; Oke. ; Mari kita lihat misalnya di GBP Jepang Yen. ; Ya. ; Oke. ; GBP Jepang Yen merupakan mata uang yang sangat penting diperhatikan karena dia cenderung bergerak di dalam continuation trend. ; Ya. ; Misalnya di dalam bearish. ; Dia akan cenderung terus turun dalam kondisi bearish sampai ada satu signal bahwa dia berbalik arah. ; Tetapi sebelum munculnya signal tersebut dia akan cenderung bergerak dalam kondisi trending ya. ; Terus continuation dan seterusnya. ; Nah dalam kondisi hal seperti ini paling enak sekali kita menentukan arah trend berikutnya. ; Mari kita lihat bersama-sama dalam kasus ini kemana sih arahnya. ; Mungkin Anda bertanya-tanya ya seringkali kemana arah atau bagaimana cara membuat roadmap. ; Kita akan menggabungkan pola ABCD dan canggul tadi. ; Tapi sebelumnya mari kita lakukan terlebih dahulu cara menghitung peak and trough nya. ; High and low nya. ; Kita gunakan swing low, swing high yang akan kita jadikan referensi. ; Tentunya di tahap ini Anda sudah bisa pelan-pelan bersama saya untuk mengikuti yang mana yang harus dilingkari. ; Dan yang mana yang harus dilengkapi. ; Ini kita lingkari karena disini ada riaknya. ; Jadi disini kita berikan swing-swing nya. ; Disini ada swing, kemudian disini ada swing. ; Ini juga ada swing low, disini ada swing, disini ada swing. ; So kita akan melihat kemana arah harganya. ; Mari kita tarik. ; Berarti dari sini kita tarik ke sini, kita tarik ke sini. ; Tarik ke sini. ; Oke. ; Ini kita menghubungkan swing line nya semua. ; Kemudian tujuan kita melihat jelas ya bahwa ini semua canggul beris semua yang terjadi disini. ; Ini semua canggul beris. ; Ini canggul beris, canggul beris, canggul beris. ; Canggul beris juga ya karena kepala canggul nya di atas. ; Canggul beris berlanjut, canggul beris berlanjut dan semuanya ABCD. ; Nah. ; Seakan-seakan sekarang dia berusaha menjadi bulis ya. ; Menjadi bulis. ; Kepala canggul disini tetapi ingat. ; Rumus membentuk peak and drop atau high and low itu tidak pernah boleh anda lupakan. ; Jadi kalau misalkan disini high dan disini ada low. ; Ya ingat selalu diambil dari sebelumnya. ; Maka yang ada disini adalah jelas adalah lower low. ; Kemudian disini adalah lower high. ; Disini adalah higher low, lower high, lower low. ; Disini lower high karena lebih rendah. ; Kemudian lower low. ; Kemudian disini lower high. ; Disini higher low. ; Disini higher low. ; Kemudian lower high disini. ; Dan disini lower low. ; Tetap. ; Dia lower high semua berarti belum ada indikasi dia menjadi bulis. ; Disini biologi higher high. ; Tetapi setelah higher high, rumus bulis adalah harus ada higher low. ; Tetapi dia langsung lower low lagi. ; Maka itu hanya merupakan sebuah varian. ; Dan sebenarnya dia masih bergerak dalam kondisi beris. ; Dan disini lower high. ; Di bawah sini adalah lower low. ; Ya. ; Ini lower high. ; Ini lower. ; Ini higher low. ; Coba. ; Tapi ingat sekali lagi lower low. ; Sorry. ; Disini adalah lower high. ; Maka berikutnya ini adalah. ; Kalau kita pakai pattern mirror. ; Harusnya yang akan terjadi adalah ABCD. ; Kalau kita melakukan ini di time frame yang besar. ; Maka anda akan mendapatkan kredisi range yang cukup besar. ; Dimana ini adalah ABCD sebenarnya. ; Dan ini akan terus turun bahkan lebih rendah daripada low yang ada disini. ; Dan ini akan ditembus ke bawah. ; Nah setelah kita mengetahui bahwa arahnya menuju ke bawah. ; Baru nanti kita akan belajar mengenai entry. ; Ya. ; Yang sedang kita bahas saat ini adalah assumption bahwa trend itu akan continue. ; Trend itu akan continue dan kelemahan seperti ini disebut dengan bearish continuation. ; Yang menjadi resiko adalah apabila trend yang awalnya continue. ; Tiba-tiba dia ini berbalik arah dan tidak turun lagi lalu berbalik arah. ; Disinilah resiko kita sebagai seorang trader. ; Tetapi sebagai seorang trader kita harus memilih probability yang paling tinggi. ; Kita percaya bahwa filosofi dasarnya. ; Bahwa trend itu akan terus berjalan searah seperti bola ya. ; Menggelinding hukum Newton. ; Walaupun ada kemungkinan dia berhenti turun lalu naik. ; Tapi itu kemungkinannya lebih kecil karena major trend. ; Kalau kita lihat major trend. ; Ini secara kasat mata Anda melihat sedang 45 derajat bearish. ; Maka akan cenderung bearish terus. ; Dan hanya kecil kemungkinannya untuk dia kembali naik. ; Sekarang saya berikan judul. ; Seandainya itu terjadi. ; Pembalikan arah. ; Apa yang harus dilakukan dan bagaimana mengidentifikasinya. ; Yang akan kita pelajari disini adalah melihat sebuah pola yang kita sebut dengan trend dilema. ; Ya. ; Trend dilema atau yang kita sebut dengan transition. ; Transition ini merupakan perubahan arah dari bull ke bear atau bear ke bull. ; Pink and trough atau high atau low ini trend dilema. ; Yang juga diajarkan di Doe Theory. ; Pada saat Anda melihat adanya pergerakan seperti ini. ; Maka kita sedang membahas tentang perubahan arah trend. ; Yang awalnya kita berharap dia dari bull ke bear. ; Dia continuation ya. Bull gitu. ; Tetapi ternyata saat ini dia sedang membentuk trend dilema. ; Dia berbalik arah. ; Ini disebut trend transition ya. ; Kuncinya adalah apabila kita terlena. ; Sometimes kita terlena ya. ; Melihat arah pergerakan yang terus turun dan harapan turun. ; Ternyata sampai di tengah-tengah dia berbalik arah menjadi bull. ; Ini akan menjadi risk untuk kita kan. ; Nah disinilah rahasia besarnya. ; Trend transition winning ratenya cukup tinggi. ; Bisa 75% ya benarnya. ; Pada saat Anda melihat ini cangkul terus bergerakan ya. ; Misalnya ini juga turun terus bergerak. ; Lalu tiba-tiba muncul sebuah perubahan coding. ; Setelah disini dia membentuk higher high. ; Kemudian disini dia membentuk lower low atau lower shrug. ; Ingat dicatat. ; Lalu dia tidak mampu naik lagi setelah dia tembus lantai disini. ; Dia membentuk lower low. ; Setelah dia membentuk lower low. ; Kemudian disini dia lower high. ; Dan akhirnya satu poin saja dia tembus disini dengan breakout. ; Anda bisa lakukan sell trade. ; Anda entry sell. ; Karena ini akan membuat harga pasti membuat lower low. ; Dan kemudian trendnya berubah. ; Dari yang awalnya bull sekarang dari bull menjadi bear. ; Ya berbalik arah. ; Demikian juga pada saat harga terus turun seperti ini. ; Anda mungkin akan melihat bahwa waduh ini trendnya beres nih. ; Ternyata tiba-tiba ada sebuah pergerakan harga yang signifikan. ; Dan dia menembus. ; High yang ada disini. ; Ini bisa menjadi catatan pertama. ; Rumus daripada transisi atau trend dilema ini. ; Adalah. ; Lower low. ; Pada saat dari bear ke bull. ; Lower low kemudian higher high. ; Kemudian higher low dan higher high. ; Ini harus terjadi terlebih dahulu. ; Jadi ini terjadi. ; Rumus ini. ; Kalau dari bear ke bull. ; Ya. ; Kemudian dari bull ke bear. ; Perubahannya ya. ; Ini dalam rangka supaya kita tidak terlena. ; Berarti ada kebalikannya. ; Ada higher high. ; Kemudian ada lower low. ; Kemudian ada lower high. ; Kemudian ada higher high. ; Bull ke bear. ; Sorry. ; Ini ada lower high lalu ada lower low. ; Jadi empat poin yang menjadi sakral sekali. ; Pada saat dia lower low. ; Higher high. ; Higher low. ; Dan pada saat satu poin saja ditembus di sini. ; Ini confirm dari bear menjadi bull. ; Ini yang disebut dengan transition. ; Trendnya berubah. ; Dan Anda tidak lagi bisa mengharapkan bahwa ini turun ke bawah. ; Ini chance-nya untuk terus naik itu besar. ; Sehingga Anda mengantisipasi kenyamanan Anda melakukan trend following. ; Tadi kan kalau kita sudah lihat ya. ; Kemungkinan ada ABCD turun. ; Tetapi pada saat dia sudah turun. ; Setelah dia sudah break. ; Lalu dilanjutkan dengan rumus ini. ; Misalnya. ; Ini sudah break ke bawah. ; Sesuai dengan ABCD tadi. ; Seperti di Jepangian tadi. ; Ini kita harapkan misalnya. ; Anda perhatikan. ; Aplikasinya begini. ; Misalnya ini naik. ; Cangkul. ; Lalu kita harapkan dia menjadi ABCD kan. ; Ternyata sudah betul seperti ini. ; Tiba-tiba dia naik ke sini. ; Menembus garis. ; Atau menembus peak yang ada di sini. ; Lalu dia membuat. ; Kepala cangkul ada di sini. ; Dan dia tembus lagi di sini. ; Ini akan disebut dengan trend reversal. ; Bahwa pelemahan sudah tidak akan berlangit lagi. ; Dan akan berubah menjadi bull. ; Jadi kuncinya adalah. ; Di empat coding ini. ; Anda harus ingat baik-baik. ; Bear ke bull. ; Lower low. ; Higher high. ; Higher low. ; Higher high. ; Dan bull ke bear. ; Rumusnya ini. ; Ini adalah the trend transition. ; Dan ini akan sangat penting. ; Jadi sebagai kunci. ; Daripada pembalikan arah harga sebenarnya. ; Itu akan jadi seperti apa. ; Jadi di dalam kesimpulan chapter kali ini. ; Anda sudah mempelajari bagaimana sih caranya. ; Melihat arah trend. ; Yang akan terjadi ke depan. ; Maka layarnya harus kosong. ; Kemudian Anda zoom. ; Agak jauh. ; Dan gunakan time frame yang agak besar. ; Supaya Anda mendapatkan range yang cukup baik. ; Anda menentukan poin-poin penting. ; Lingkaran-lingkaran-lingkaran seperti tadi. ; Ya. ; Misalnya kita gunakan sample form. ; Sedikit review untuk Anda. ; Yang tahap pertama harus dilakukan adalah. ; Mengosongkan range sebelah kanan. ; Setelah itu. ; Kita masukkan ke paint. ; Dengan cara print screen mungkin. ; Kita masukkan ke paint ya. ; Kemudian kita mulai menentukan. ; Poin dari swing yang palit itu di mana. ; Let's say dari bawah ya. ; Karena ini merupakan perubahan arah yang awal. ; Kemudian di bawah. ; Kemudian di sini. ; Kemudian Anda melihat ada pick point di sini. ; Kemudian di sini. ; Ya. ; Ini sideways. ; Sideways seperti ini dianggap kepala canggulnya di sini. ; Kenapa? ; Karena ini merupakan satu kepala canggul yang sideways. ; Kemudian ditaruh di sini. ; Oke. ; Kemudian kita lihat yang mana yang akan digunakan di sini. ; Karena di dalamnya sudah ada riak. ; Kita masuk sini. ; Taruh di sini. ; Kita set. ; Oke. ; Dan ini merupakan satu bagian. ; Karena semuanya kecil-kecil. ; Maka Anda connect-kan. ; Karena dengan cara begini Anda akan tahu kemana arah harga akan berlangsung. ; Kita membuat swing line terlebih dahulu. ; Untuk memprediksi apa yang akan terjadi di depan. ; Kita mempelajari dari history. ; Kenapa? ; Karena dari principle technical analysis mengatakan history repeat itself. ; Maka kita percaya bahwa ini akan repeat. ; Kemudian ini akan turun. ; Dan ini pasti akan membentuk swing low. ; Akan membentuk swing low dan mulai up. ; Kenapa? ; Prinsip daripada zigzag atau mirror atau ABCD. ; Kita percaya bahwa setelah ini dia akan membuat sebuah bottoming. ; Di mana bottoming itu hanya akan palit nanti pada saat terjadi low seperti ini. ; Dan kemudian ada swing bottom signifikan di sini. ; Lalu dia mulai naik. ; Dan ini adalah ABCD. ; Sehingga secara keseluruhan Anda bisa memprediksi bahwa saham Telkom. ; Sebenarnya masih berada di dalam trend bullish. ; Hanya saja kepala cangkulnya atau yang kita sebut dengan secondary reaction. ; Secondary trend atau secondary reactionnya belum selesai mungkin. ; Kepala cangkulnya belum selesai. ; Pada saat kepala cangkulnya selesai dia akan melanjutkan pengelatannya. ; Sehingga tugas Anda nanti adalah menentukan kapankah atau dimanakah kepala cangkul atau secondary trend ini selesai. ; Pada saat Anda sudah mengetahui secondary selesai. ; Kita bisa melakukan buy. ; Dan Anda bisa hold saham ini hingga sampai peak atau day itu ditembus. ; Di mana day itu dicapai. ; Kalau Anda bisa menemukan bahwa daynya ditembus. ; Ini merupakan pattern yang selalu berulang. ; ABCD, ABCD, dan seterusnya. ; Dan ini akan menjadi acuan Anda. ; Apapun sahamnya atau forexnya yang Anda lihat adalah bagaimana cangkulnya itu terjadi. ; Dan bagaimana kemungkinan. ; Kemungkinan pola CD-nya akan terbentuk. ; Dan lakukan ini di time frame yang besar. ; Karena di tahap how to predict the next trend. ; Yang kita lakukan adalah forecasting. ; Untuk menentukan bullish atau bearish. ; Jadi sebagai penutup di chapter ini. ; Kesimpulannya adalah di dalam kita melakukan trading. ; Yang harus Anda lakukan pertama bukan menentukan buy atau sell. ; Tapi forecasting. ; Ini akan menghasilkan jawaban. ; Dan jawabannya cukup jelas. ; Apakah tren yang saat ini terjadi itu bullish? ; Apakah tren yang terjadi saat ini itu adalah bearish? ; Jawabannya itu. ; Kalau dia bullish. ; Baru nanti kita akan mempelajari tentang entry. ; Setelah forecasting. ; Baru disini nanti kita akan mempelajari tentang entry. ; Jawabannya disini adalah buy atau sell. ; Buy atau sell. ; Karena di dalam tren bullish. ; Anda bisa lakukan buy. ; Atau wajib melakukan buy. ; Dan apabila ada seorang kontrarian. ; Mungkin Anda akan lakukan sell. ; Karena ada kontrarian. ; Jadi ingat. ; Tahap awal forecasting terlebih dahulu. ; Kemudian menentukan apakah bull atau bear. ; Misalnya di dalam kasus saham telkom. ; Kasus saham telkom ini adalah bull. ; Karena kita percaya ini akan membentuk bottoming. ; Dan kemudian ini akan ke atas. ; Berikutnya. ; Kalau sudah bull. ; Maka apa yang harus kita ambil? ; Kita akan mengambil posisi buy. ; Kalau Anda sell. ; Berarti Anda kontrarian. ; Anda menikmati turunnya ini. ; Anda sell. ; Kebetulan di saham tidak bisa. ; Anda harus di futures market. ; Misalnya di gold. ; Atau di GBP Jepang Yen. ; Anda lakukan short selling dulu. ; Tetapi itu tidak direkomendasikan. ; Karena pada saat bullish. ; Pilihan Anda hanya buy. ; Karena Anda yakin setidaknya bullish. ; Salah satu manfaatnya. ; Kalau Anda melakukan forecasting. ; Anda tidak bingung. ; Karena kebanyakan trader loss. ; Karena mereka tidak tahu arahnya mau kemana. ; Mereka sebelum melakukan forecasting. ; Mereka hanya langsung memikirkan buy atau sell. ; Berdasarkan indikator. ; Pada akhirnya. ; Terjebak di dalam suatu volatility yang besar. ; Mereka bingung. ; Ini marketnya sebenarnya bull atau bear. ; Dan mereka ada conflict of interest. ; Karena mereka sebelumnya sudah memiliki posisi. ; Sehingga sangat dipentingkan. ; Sebelum Anda masuk. ; Kita melalui tahap forecasting. ; Jadi. ; Bagaimana untuk memprediksi trend selanjutnya. ; Itu berbicara mengenai forecasting. ; Dan ini setidaknya menggunakan time frame yang lebih tinggi. ; Seberapa besar. ; Saya pribadi. ; Kalau di futures market. ; Saya menggunakan lampad. ; Atau daily. ; Dan entry. ; Saya selalu menggunakan. ; M30 atau. ; M30 dan M15. ; Oke. ; Anda tinggal mengikuti saja. ; Alasannya kenapa. ; Karena. ; Pada saat kita melakukan forecasting. ; Salah satu rahasianya adalah. ; Kita berusaha membuat chart. ; Ini sejernih mungkin. ; Kita mencari sejelas mungkin terbentuknya cangkul. ; Kalau cangkul di time frame daily tidak jelas. ; Silahkan Anda buka di weekly. ; Anda akan melihat cangkul yang sangat jelas. ; Jadi time frame itu bukan berarti bebas memilih. ; Tetapi. ; Kita boleh memilih time frame yang lebih kecil. ; Karena lebih kecil itu lebih enak sebenarnya. ; Tetapi selama. ; Semakin kecil dia semakin kelihatan cangkulnya. ; Kalau semakin kecil biasanya cangkulnya makin tidak kelihatan. ; Primary secondary nya makin kabur ya. ; Nah. ; Kalau dia semakin kabur seperti itu. ; Akan susah kita menentukan. ; Sehingga kita mencoba membesarkan. ; Jadi kenapa kita harus besarkan time frame. ; Karena pada saat di time frame yang lebih kecil. ; Tidak terlihat dengan jelas. ; Di mana primary atau secondary nya. ; Jadi kalau selama di daily tidak ada. ; Mungkin kita akan lihat di weekly. ; Karena saya akan melihat perspektif yang lebih luas. ; Forecasting means. ; Anda menentukan apakah trend nya sedang bull. ; Atau sedang bear. ; Masalah entry. ; Kita akan bahas di chapter selanjutnya. ; Setelah anda menentukan support dan resistance. ; Oke. ; Demikianlah. ; Tutorial. ; How to predict the next trend. ; Kita akan bertemu di chapter selanjutnya. ; Menemukan support dan resistance dengan cara yang sangat mudah.
+
+==================================================
+TIMESTAMPS:
+
+[00:03 - 00:24]
+How to predict the next trend?
+
+[00:24 - 00:29]
+Ini merupakan sebuah level baru di dalam pengenalan Anda terhadap chart.
+
+[00:29 - 00:32]
+Setelah Anda sudah mengenal chart, Anda sudah melihat,
+
+[00:32 - 00:35]
+oh ini ternyata grafiknya, saya sudah menemukan primary,
+
+[00:35 - 00:37]
+saya sudah menemukan secondary, maka ini menjadi simple sekali.
+
+[00:38 - 00:42]
+Nah, setelah Anda menemukan ini semua, yang berikutnya adalah,
+
+[00:42 - 00:45]
+bagaimana sih caranya supaya kita ini kalau melihat grafik,
+
+[00:45 - 00:47]
+kita bisa tahu setelah ini mau kemana?
+
+[00:48 - 00:52]
+Ber tahun-tahun, astronaci memperkenalkan metode price action analysis-nya
+
+[00:52 - 00:55]
+dan kita mendapatkan sebuah respon yang cukup baik,
+
+[00:55 - 00:56]
+di mana akurasi cukup tinggi.
+
+[00:56 - 01:02]
+Ini karena kita memiliki sebuah teknik yang secara konsisten terus disempurnakan
+
+[01:02 - 01:05]
+untuk melihat arah pergerakan harga di masa yang akan datang.
+
+[01:06 - 01:07]
+Nah, ini yang penting sekali.
+
+[01:08 - 01:12]
+Pada saat kita bisa mempredik arah harga yang signifikan,
+
+[01:12 - 01:15]
+harganya akan kemana, bull atau bear, dan seterusnya,
+
+[01:15 - 01:18]
+maka probability winning rate kita akan menyebabkan,
+
+[01:18 - 01:18]
+bahwa harga ini akan menjadi tinggi.
+
+[01:20 - 01:21]
+Lantas, bagaimana caranya?
+
+[01:21 - 01:23]
+Ada beberapa hal yang bisa kita mulai.
+
+[01:23 - 01:28]
+Yang pertama adalah, Anda harus mengenal apa yang dimaksud dengan swing low atau swing high,
+
+[01:28 - 01:31]
+karena pada dasarnya grafik ini akan kita berikan tanda.
+
+[01:31 - 01:35]
+Nanti Anda akan lihat kita berikan lingkaran-lingkaran pada swing high dan swing low.
+
+[01:35 - 01:39]
+Seperti yang Anda lihat di layar, ini adalah bentuk jenis-jenis swing.
+
+[01:39 - 01:42]
+Ada swing high yang seperti ini, dan kemudian ada swing low,
+
+[01:43 - 01:46]
+di mana swing high dan swing low ini akan menjadi poin penting
+
+[01:46 - 01:51]
+untuk mengkonekkan atau menggambarkan dan mengurutkan pergerakan harga itu.
+
+[01:51 - 01:54]
+Apakah sekarang misalnya kita menghadapi tren bulis?
+
+[01:54 - 01:56]
+Tentunya Anda sudah memahami tren bulis seperti apa.
+
+[01:57 - 02:02]
+Nah, dari tren bulis ini, yang mana yang harus saya tentukan ini adalah poin pentingnya?
+
+[02:02 - 02:04]
+Puncak, peak, atau bottom-nya.
+
+[02:04 - 02:06]
+Support, resistance yang penting.
+
+[02:07 - 02:10]
+Nah, kalau kita melihat swing high, bentuknya akan seperti ini.
+
+[02:10 - 02:13]
+Akan ada 3 bar, secara ilustrasi Anda bisa lihat.
+
+[02:13 - 02:16]
+Dan kalau swing low, bentuknya akan ada 3 bar.
+
+[02:16 - 02:17]
+3 bar juga, tetapi dia di bawah.
+
+[02:17 - 02:19]
+Anda harus mengerti tentang itu.
+
+[02:20 - 02:23]
+Kemudian, berikutnya adalah kita mampu menggambarkan swing line.
+
+[02:24 - 02:26]
+Swing line itu seperti apa? Anda bisa lihat di gambar ini.
+
+[02:27 - 02:29]
+Pada saat kita sudah menentukan titik demi titik,
+
+[02:29 - 02:33]
+maka ini otomatis akan bisa kita tarik garis dan membentuk swing line.
+
+[02:33 - 02:35]
+Ya, Anda bisa lihat garisnya.
+
+[02:36 - 02:38]
+Kemudian, dia naik dan dia turun mengikuti.
+
+[02:39 - 02:41]
+Kalaupun dia beris, dia akan ikuti juga.
+
+[02:41 - 02:45]
+Yang paling penting adalah kita mengetahui terlebih dahulu di mana kita bisa menentukan titik poin.
+
+[02:45 - 02:47]
+Titik poin atas dan bawahnya.
+
+[02:48 - 02:51]
+Setelah itu, kita harus menghitung.
+
+[02:51 - 02:58]
+Kalau kita bicara trend bullish, maka bentuknya atau kodenya adalah harus ada selalu higher low.
+
+[02:58 - 03:00]
+Kakinya ini harus lebih tinggi.
+
+[03:00 - 03:01]
+Seperti ini contohnya.
+
+[03:01 - 03:05]
+Ada 2 kali higher low, dan kemudian diikuti dengan 2 kali higher high.
+
+[03:05 - 03:09]
+Higher high dan higher low itu harus terjadi 2 kali setidaknya,
+
+[03:09 - 03:12]
+dan kemudian menghadap ke atas 45 derajat.
+
+[03:12 - 03:13]
+Bagaimana 45 derajat?
+
+[03:13 - 03:15]
+Ilustrasi ini akan menggambarkan 45 derajat.
+
+[03:15 - 03:22]
+Anda bisa lihat 45 derajat naik atau 45 derajat menghadap ke bawah.
+
+[03:22 - 03:24]
+Misalnya kita ambil diagonalnya.
+
+[03:24 - 03:27]
+Jadi ini yang akan menentukan trend bullish dan bearish.
+
+[03:27 - 03:33]
+Kalau di dalam Dow Theory, kita akan mempelajari tentang bullish participation dan bearish participation.
+
+[03:33 - 03:36]
+Kalau bullish participation artinya 45 derajat ke atas.
+
+[03:36 - 03:39]
+Kalau bearish participation 45 derajat ke bawah.
+
+[03:39 - 03:44]
+Setelah kita bisa mengurutkan higher high, higher low, dan seterusnya yang akan nanti dibahas lebih lanjut
+
+[03:44 - 03:49]
+di dalam aplikasi, Anda sudah akan bisa menentukan setelah ini urutan berikutnya apa.
+
+[03:51 - 03:54]
+Setelah kita melihat sekarang, badan canggul, kepala canggul.
+
+[03:54 - 03:54]
+Anda bisa lihat di gambar.
+
+[03:55 - 03:59]
+Badan canggul, kepala canggul, lalu membuat lagi badan canggul lagi, kepala canggul.
+
+[03:59 - 04:02]
+Maka kalau sekarang sudah kepala canggul, kira-kira apa berikutnya?
+
+[04:02 - 04:08]
+Maka kemungkinan atau probability yang paling besar adalah terbentuknya badan canggul kembali.
+
+[04:08 - 04:11]
+Artinya kita akan tahu bahwa harganya sekarang sedang akan naik.
+
+[04:12 - 04:14]
+Ini adalah trend bullish.
+
+[04:14 - 04:19]
+Yang harus menjadi fokus bukanlah indikator, bukanlah robot, dan seterusnya.
+
+[04:19 - 04:24]
+Tetapi bagaimana Anda bisa menghitung badan canggul, kepala canggul, badan dan kepala, dan seterusnya.
+
+[04:26 - 04:29]
+Kemudian, trend itu akan terus berjalan.
+
+[04:29 - 04:31]
+Sesuai dengan hukum Newton, the law of inertia.
+
+[04:32 - 04:40]
+Yang dikatakan bahwa apabila benda jalan, itu akan terus berjalan sampai nanti ada gaya yang membuat dia berhenti dan berbalik arah.
+
+[04:41 - 04:44]
+Pembalikan arah ini akan disebut sebagai trend rich.
+
+[04:44 - 04:48]
+Di mana trend reversal ini akan muncul melalui transisi.
+
+[04:49 - 05:02]
+Transisi atau trend dilema ini akan membuat Anda sangat profitable tradingnya apabila Anda bisa melihat terjadinya trend dilema atau transisi ini benar-benar terjadi dan Anda masuk just in time dia sedang terjadi.
+
+[05:02 - 05:08]
+Ada pun rumus untuk pembalikan arah harga dari trend bullish menjadi trend bearish.
+
+[05:08 - 05:10]
+Anda memerlukan higher high.
+
+[05:11 - 05:13]
+Kemudian harga harus membentuk lower low.
+
+[05:13 - 05:18]
+Kemudian harga naik kembali membentuk lower high karena dia tidak mampu menembus higher high.
+
+[05:18 - 05:22]
+Dan dia turun ke bawah, menembus kaki yang bawah menjadi lower low.
+
+[05:22 - 05:24]
+Jadi sekali lagi, Anda membutuhkan higher high.
+
+[05:24 - 05:26]
+Terlihat dia sudah tembus.
+
+[05:26 - 05:29]
+Tetapi setelah dia tembus, dia turun langsung, dia membentuk lower low.
+
+[05:29 - 05:32]
+Setelah itu dia mencoba untuk rebound, membentuk lower high.
+
+[05:33 - 05:37]
+Dan dia ternyata tidak kuat, dia menembus yang level terbawahnya menjadi lower low.
+
+[05:37 - 05:43]
+Lower low saat support atau trough yang terakhir ini ditembus, disitulah trend bearish baru dimulai.
+
+[05:43 - 05:44]
+Bagaimana dengan bullish?
+
+[05:45 - 05:46]
+Kebalikannya.
+
+[05:47 - 05:50]
+Lower low, kemudian dia harus membentuk higher high.
+
+[05:50 - 05:52]
+Ternyata dia membuat kepala canggul.
+
+[05:52 - 05:55]
+Higher low, dan pada akhirnya dia menembus higher high-nya.
+
+[05:55 - 05:57]
+Maka itu adalah trend bullish baru.
+
+[05:58 - 06:01]
+Ini merupakan sebuah teknik dasar yang harus Anda kuatai.
+
+[06:01 - 06:08]
+Karena dengan mengurutkan coding tersebut, dengan menarik garis swing-swing line ini, Anda akan mendapatkan satu gambaran yang sangat jelas.
+
+[06:08 - 06:11]
+Where the next movement of the trend?
+
+[06:11 - 06:12]
+Kita akan masuk di dalam aplikasi.
+
+[06:18 - 06:23]
+Baik, sekarang kita akan memasuki aplikasi how to predict the next trend.
+
+[06:23 - 06:32]
+Setelah Anda mempelajari teori bahwa di dalam menggunakan price action analysis, kita bisa melihat arah pergerakan harga di masa yang akan datang.
+
+[06:32 - 06:33]
+Maka saat ini adalah aplikasinya.
+
+[06:33 - 06:42]
+Bagaimana caranya kita menggunakan price action analysis, khususnya Anda berhadapan dengan chart sekarang, untuk melihat apa yang akan terjadi di depan.
+
+[06:42 - 06:43]
+Ini sangat menarik sekali.
+
+[06:43 - 06:48]
+Pada awalnya, kita sudah mempelajari di chapter 1.
+
+[06:48 - 06:51]
+Bagaimana basic price action analysis method itu.
+
+[06:51 - 06:53]
+Anda sudah mempelajari primary and secondary.
+
+[06:54 - 06:58]
+Sekarang di dalam mempredik next trend, ada beberapa hal yang kita harus ketahui terlebih dahulu.
+
+[06:58 - 07:05]
+Di dalam sampel kali ini, saya akan memberikan satu gambaran bagaimana mempredik arah harga berikutnya dengan contoh-contoh.
+
+[07:05 - 07:09]
+Ada gold nanti, ada GBP Jepang Yen, ada saham BBRI, kemudian Telkom.
+
+[07:10 - 07:16]
+Ini akan kita sama-sama melihat bagaimana sih caranya untuk mempredik arah pergerakan ke depan.
+
+[07:16 - 07:18]
+Dan ini akan Anda lakukan setiap kali.
+
+[07:18 - 07:26]
+Setiap kali kita akan trading, Anda harus melakukan analysis terlebih dahulu dengan membuat forecasting.
+
+[07:26 - 07:29]
+Jadi jangan pernah Anda melakukan trading tanpa melakukan forecasting.
+
+[07:30 - 07:32]
+Jadi yang pertama, Anda harus tahu terlebih dahulu.
+
+[07:32 - 07:38]
+Dari 100 kali percobaan misalnya, 100 kali analisa apabila Anda diperhadapkan dengan kondisi market yang sama,
+
+[07:39 - 07:43]
+kemana sih roughly atau probability yang paling besar arah harga berikutnya.
+
+[07:43 - 07:47]
+Jadi pada saat kita sudah mengetahui arah harga berikutnya,
+
+[07:47 - 07:51]
+kita sudah memiliki chance atau probability untuk menang yang lebih besar.
+
+[07:51 - 07:56]
+Karena pada dasarnya, harga seperti kita pelajari dari basic technical analysis,
+
+[07:56 - 08:02]
+dia akan cenderung bergerak di dalam sebuah trend dan trend tersebut akan jalan dengan sendirinya.
+
+[08:03 - 08:09]
+Maka yang harus kita lakukan sekarang yang pertama adalah kita fokus kepada area kosong yang belum ada di sini.
+
+[08:09 - 08:14]
+Dan untuk di saham pada awalnya di Amibroker, Anda bisa tekan tombol N.
+
+[08:15 - 08:16]
+Akhir ya.
+
+[08:16 - 08:18]
+Di sebelah home biasanya.
+
+[08:18 - 08:21]
+Dan kemudian Anda bisa lihat area kosong di sinilah akan kita gambar.
+
+[08:22 - 08:26]
+Nah, sebelum kita masuk di aplikasinya, kita akan mengenal swing terlebih dahulu.
+
+[08:26 - 08:30]
+Kalau sebelumnya kita sudah mempelajari tentang apa itu swing,
+
+[08:31 - 08:34]
+maka sekarang kita akan bicara lebih detail lagi.
+
+[08:36 - 08:40]
+Kita harus mengkonekkan titik-titik tertinggi dan titik-titik tertengah.
+
+[08:40 - 08:42]
+Kalau yang di atas ini disebut high,
+
+[08:43 - 08:46]
+yang di bawah ini disebut low atau peak and trap,
+
+[08:46 - 08:50]
+maka kita harus menentukan terlebih dahulu yang mana yang swing high,
+
+[08:50 - 08:53]
+yang mana yang swing low karena nanti kita akan mengurutkan.
+
+[08:53 - 08:58]
+Dan ciri-ciri bullish itu ada coding-coding tertentu yang harus Anda kerjakan.
+
+[08:59 - 09:04]
+Misalnya di dalam kasus ini kita akan mengambil contoh di saham BBRI
+
+[09:04 - 09:07]
+terhadap market yang sudah terjadi sebelumnya.
+
+[09:07 - 09:08]
+Mari kita lihat.
+
+[09:09 - 09:14]
+Kita akan melihat apakah dia valid atau tidak seperti yang sudah disampaikan bahwa harus ada
+
+[09:15 - 09:16]
+tiga garis.
+
+[09:17 - 09:21]
+Jadi di dalam kasus ini kita akan melihat swing mana yang valid.
+
+[09:21 - 09:23]
+Saya akan berikan lingkaran berwarna merah.
+
+[09:24 - 09:25]
+Ini merupakan swing yang valid.
+
+[09:25 - 09:27]
+Kemudian ini swing yang valid.
+
+[09:27 - 09:28]
+Ini swing yang valid.
+
+[09:29 - 09:30]
+Ini juga valid.
+
+[09:32 - 09:33]
+Kemudian ini adalah swing yang valid.
+
+[09:33 - 09:38]
+Kenapa? Karena dia terdiri dari tiga bagian seperti ini.
+
+[09:41 - 09:42]
+Kemudian ini swing yang valid.
+
+[09:42 - 09:43]
+Ini swing yang valid.
+
+[09:43 - 09:44]
+Ini juga valid.
+
+[09:47 - 09:53]
+Dari sini kita akan melihat bersama-sama bahwa kondisi seperti ini merupakan swing-swing yang valid semua.
+
+[09:53 - 09:53]
+Ini valid.
+
+[09:54 - 09:55]
+Ini swing yang valid.
+
+[09:56 - 09:56]
+Ini swing high.
+
+[09:57 - 09:57]
+Ini swing low.
+
+[09:57 - 09:58]
+Ini swing high.
+
+[09:58 - 09:58]
+Swing low.
+
+[09:58 - 09:59]
+Ini swing high juga.
+
+[10:01 - 10:04]
+Dan dari sini kita akan melakukan connection.
+
+[10:04 - 10:06]
+Ini secara umum dulu kita coba.
+
+[10:08 - 10:09]
+Ini swing low.
+
+[10:09 - 10:11]
+Assumption dia swing low.
+
+[10:11 - 10:13]
+Dan kita connect-kan begini.
+
+[10:13 - 10:14]
+Kita connect di sini.
+
+[10:15 - 10:16]
+Kemudian kita connect-kan di sini.
+
+[10:16 - 10:18]
+Jadi ini kita mengconnect-kan antar swing.
+
+[10:19 - 10:22]
+Dan dari sini kita akan mulai melakukan coding.
+
+[10:22 - 10:23]
+Ini swing low yang valid juga.
+
+[10:23 - 10:25]
+Ini swing low yang valid juga.
+
+[10:25 - 10:26]
+Ini juga valid.
+
+[10:27 - 10:28]
+Kemudian di sini valid.
+
+[10:28 - 10:34]
+Dan seterusnya ini merupakan swing yang valid yang harus Anda kerjakan.
+
+[10:35 - 10:35]
+Oke.
+
+[10:38 - 10:48]
+Kemudian setelah kita mengetahui itu swing valid, maka saya akan memberikan tanda yang mana yang peak, yang mana yang trough, atau yang mana yang high.
+
+[10:48 - 10:52]
+Kalau kita mulai di atas ini adalah kita sebut dengan high.
+
+[10:54 - 10:54]
+Oke.
+
+[10:54 - 10:55]
+Di sini adalah high.
+
+[10:56 - 10:59]
+Kemudian di bawah sini adalah low karena dia low.
+
+[10:59 - 11:03]
+Maka kaki yang ada di sini akan disebut higher low.
+
+[11:03 - 11:06]
+Karena low-nya lebih tinggi daripada low sebelumnya.
+
+[11:07 - 11:09]
+Kemudian di sini adalah higher high.
+
+[11:10 - 11:11]
+Di sini adalah higher low.
+
+[11:12 - 11:14]
+Dan kemudian di sini adalah higher high.
+
+[11:15 - 11:15]
+Ya.
+
+[11:16 - 11:20]
+Dan di sini karena dia sudah lebih rendah daripada low sebelumnya.
+
+[11:20 - 11:22]
+Kita sebut lower.
+
+[11:23 - 11:24]
+Oke. Lower low.
+
+[11:25 - 11:25]
+Ya.
+
+[11:26 - 11:28]
+Kemudian di sini kita sebut lower high.
+
+[11:28 - 11:30]
+Di sini kita sebut lower low.
+
+[11:31 - 11:32]
+Dan di sini adalah.
+
+[11:32 - 11:33]
+Higher high.
+
+[11:34 - 11:36]
+Di sini adalah higher low.
+
+[11:37 - 11:37]
+Oke.
+
+[11:38 - 11:39]
+Ini harus dilakukan.
+
+[11:39 - 11:41]
+Higher high dan kemudian higher low.
+
+[11:41 - 11:42]
+Kemudian naik kembali.
+
+[11:42 - 11:46]
+Kita tahu bahwa swing yang signifikan ini adalah swing-swing kecil.
+
+[11:46 - 11:51]
+Tetapi dari ilmu yang sebelumnya kita tahu bahwa yang akan kita tarik garisnya adalah di sini.
+
+[11:52 - 11:57]
+Maka yang kita akan tulis di sini adalah higher high.
+
+[11:57 - 12:00]
+Dan kemudian sekali lagi di sini adalah higher low.
+
+[12:01 - 12:02]
+Oke.
+
+[12:02 - 12:04]
+Setelah kita tarik di sini higher low.
+
+[12:04 - 12:06]
+Kemudian ini naik lagi ke atas.
+
+[12:06 - 12:08]
+Ingat di dalamnya ada minor trendnya.
+
+[12:08 - 12:09]
+Ada riak-riaknya.
+
+[12:09 - 12:12]
+Kita tidak memberikan nomor di sini.
+
+[12:13 - 12:17]
+Karena di sini merupakan sebuah minor daripada primary.
+
+[12:17 - 12:18]
+Dan ini secondary.
+
+[12:18 - 12:20]
+Itu kita sudah ingat sebelumnya.
+
+[12:20 - 12:22]
+Ini adalah higher high.
+
+[12:22 - 12:24]
+Jadi high, low.
+
+[12:24 - 12:27]
+Kemudian higher low, higher high, higher low, higher high.
+
+[12:27 - 12:28]
+Dan seterusnya.
+
+[12:29 - 12:30]
+Oke.
+
+[12:30 - 12:31]
+Jadi ini merupakan.
+
+[12:31 - 12:33]
+Ini merupakan awal mula dari coding.
+
+[12:33 - 12:37]
+Nah sekarang bagaimana caranya kita bisa menentukan bullish dan bearish.
+
+[12:38 - 12:41]
+Bullish dan bearish itu ditentukan dari coding yang akan muncul.
+
+[12:42 - 12:44]
+Jadi misalnya kita bicara higher high.
+
+[12:45 - 12:48]
+Kemudian kita akan melihat di sini ada nanti higher low.
+
+[12:49 - 12:50]
+Ada higher high.
+
+[12:50 - 12:51]
+Dan ada higher low.
+
+[12:51 - 12:52]
+Ini akan otomatis menjadi bullish.
+
+[12:52 - 12:56]
+Jadi kalau urutan daripada coding tersebut.
+
+[12:56 - 12:58]
+Dia membentuk high yang lebih tinggi dua kali.
+
+[12:58 - 13:01]
+Dan dia membentuk low yang lebih tinggi dua kali.
+
+[13:01 - 13:05]
+Maka dia akan menjadi higher high, higher low, dan seterusnya.
+
+[13:06 - 13:12]
+Nah sekarang bagaimana sih caranya untuk kita menentukan awal mula daripada coding.
+
+[13:13 - 13:15]
+Awal mula daripada coding.
+
+[13:15 - 13:18]
+Misalnya kita berbicara dari trend yang sedang bearish seperti ini.
+
+[13:18 - 13:19]
+Oke.
+
+[13:19 - 13:21]
+Ini trendnya sedang bearish.
+
+[13:21 - 13:28]
+Maka yang akan kita asumsikan adalah di mana low dan high yang akan menjadi referensi utama.
+
+[13:28 - 13:31]
+Ini primary, secondary, primary, secondary.
+
+[13:32 - 13:38]
+Maka kita tahu bahwa kemungkinan yang akan kita harapkan adalah perubahan trend.
+
+[13:38 - 13:39]
+Kita mau ada perubahan trend.
+
+[13:39 - 13:41]
+Ini bikin kepala canggul.
+
+[13:41 - 13:46]
+Dia waktu turun membuat, waktu harusnya membuat badan canggul.
+
+[13:46 - 13:48]
+Tapi dia tidak bisa turun lebih dalam.
+
+[13:48 - 13:53]
+Maka secara otomatis dia akan menjadi badan canggul.
+
+[13:54 - 13:58]
+Badan canggul kepala dan ini akan mulai menjadi badan lagi.
+
+[13:59 - 14:01]
+Maka di mana kita bisa menaruhnya.
+
+[14:01 - 14:03]
+Maka di sini saya akan taruh high.
+
+[14:03 - 14:05]
+Dan di sini saya akan taruh low.
+
+[14:06 - 14:07]
+Bukan di sini high-nya.
+
+[14:08 - 14:09]
+Tetapi di sini sebelumnya.
+
+[14:09 - 14:12]
+Supaya kita tahu bahwa coding yang di sini apa.
+
+[14:12 - 14:17]
+Jadi selalu satu step sebelumnya atau satu swing sebelumnya dari trend yang sebelumnya.
+
+[14:17 - 14:19]
+Itu yang akan kita gunakan.
+
+[14:19 - 14:20]
+Jadi kalau di atas ini high.
+
+[14:20 - 14:22]
+Dan kemudian di bawah ini low.
+
+[14:22 - 14:24]
+Maka di sini otomatis akan menjadi lower high.
+
+[14:26 - 14:28]
+Dan kemudian di sini lower high.
+
+[14:28 - 14:29]
+Ini akan menjadi higher low.
+
+[14:29 - 14:30]
+Karena low-nya lebih tinggi.
+
+[14:32 - 14:35]
+Ketika ini dilewati.
+
+[14:36 - 14:38]
+Maka satu point saja dia dilewati.
+
+[14:38 - 14:41]
+Otomatis dia akan menjadi higher high.
+
+[14:42 - 14:44]
+Karena dia lebih tinggi daripada high yang ada di sini.
+
+[14:45 - 14:51]
+Dan kita tahu bahwa sebentar lagi akan terjadi higher low.
+
+[14:51 - 14:53]
+Karena itu merupakan urutan.
+
+[14:54 - 14:58]
+Dan di sinilah kita berkata bahwa trend itu sebenarnya sudah mulai bullish.
+
+[14:59 - 15:01]
+Terutama pada saat dia mulai naik di sini.
+
+[15:02 - 15:03]
+Ini sudah mulai bullish.
+
+[15:04 - 15:06]
+Dan ini yang kita sebut trend reversal.
+
+[15:06 - 15:09]
+Di dalam kita trading menggunakan price action analysis.
+
+[15:09 - 15:16]
+Yang kita tidak ingin terjebak adalah apabila kita mendapatkan suatu kondisi kita terjebak di dalam trend reversal.
+
+[15:16 - 15:20]
+Dan kita tidak tahu bahwa trend itu sebenarnya sudah berubah.
+
+[15:20 - 15:23]
+Yang awalnya kita berpikir dia bull ternyata dia sudah bear.
+
+[15:23 - 15:27]
+Dan yang ternyata dia bear ternyata sekarang sudah bull.
+
+[15:27 - 15:29]
+Ini yang harus kita hindari.
+
+[15:29 - 15:32]
+So, di dalam contoh kasus VBRI ini.
+
+[15:32 - 15:38]
+Kita akan menghitung bagaimana trend selanjutnya.
+
+[15:39 - 15:43]
+Sebelum kita nanti masuk di dalam pola yang saya sebut dengan ABCD.
+
+[15:43 - 15:45]
+Sekarang kita fokus di sini.
+
+[15:46 - 15:50]
+Sebelumnya kita menentukan terlebih dahulu swing mana yang valid.
+
+[15:50 - 15:54]
+Kita mencoba menggambar dari posisi sini boleh ya.
+
+[15:55 - 15:56]
+Kenapa dari sini?
+
+[15:56 - 16:05]
+Karena ini merupakan sebuah awal mula kenaikan kembali setelah terjadinya bearish pendek.
+
+[16:07 - 16:09]
+Ini adalah swing-swing yang valid.
+
+[16:09 - 16:10]
+Kenapa tidak yang kecil-kecil?
+
+[16:10 - 16:13]
+Ingat, karena di dalam primary harus ada minornya.
+
+[16:14 - 16:16]
+Dan ini yang kecil-kecilnya kita buat.
+
+[16:16 - 16:18]
+Ini juga kita buat.
+
+[16:18 - 16:19]
+Di sini kita buat.
+
+[16:19 - 16:22]
+Dan kemudian kita stop.
+
+[16:22 - 16:24]
+Karena ini yang sudah mulai terjadi di sini.
+
+[16:24 - 16:30]
+Nah, setelah kita menggambarkan swing-swing yang kita anggap valid seperti ini.
+
+[16:30 - 16:37]
+Dan Anda harus tahu bahwa di dalam primary and secondary harus ada minor trend ya.
+
+[16:37 - 16:40]
+Di mana minor trendnya untuk saat ini kita tidak gambar terlebih dahulu swing line-nya.
+
+[16:41 - 16:46]
+Maka yang bisa Anda lakukan saat ini adalah menggaris satu demi satu kita connect-kan.
+
+[16:47 - 16:54]
+Dan inilah yang harus terus-menerus dilatih karena dengan melatih ini Anda akan bisa merasakan urutan.
+
+[16:54 - 16:57]
+Jadi kita itu sebenarnya mengurutkan arah harga.
+
+[16:59 - 17:00]
+Ini primary.
+
+[17:01 - 17:03]
+Awalnya harusnya menjadi secondary di sini.
+
+[17:04 - 17:05]
+Tetapi dia tersendat.
+
+[17:06 - 17:09]
+Dan setelah kita mengurutkan seperti ini.
+
+[17:09 - 17:14]
+Maka selanjutnya kita akan melihat bahwa ini harusnya bergerak ke arah atas. Kenapa?
+
+[17:14 - 17:17]
+Karena di dalamnya ada riak-riak kecil.
+
+[17:17 - 17:18]
+Maka ini kemungkinan minornya.
+
+[17:19 - 17:22]
+Dan somewhere di atas ini.
+
+[17:22 - 17:25]
+Dia akan membentuk sebuah swing high yang baru.
+
+[17:25 - 17:27]
+Dan apabila dia sudah membentuk swing high yang baru.
+
+[17:27 - 17:31]
+Ini adalah gambar yang mungkin akan terjadi di BBRI.
+
+[17:31 - 17:36]
+Artinya Anda sedang menggambar sebuah peta perjalanan yang ada di market.
+
+[17:38 - 17:41]
+Dan saat ini kalau kita menggambarkan ini adalah low.
+
+[17:42 - 17:44]
+Dan kemudian di sini adalah high.
+
+[17:45 - 17:48]
+Ini adalah period yang sebelumnya ya.
+
+[17:49 - 17:52]
+Maka yang akan kita lihat selanjutnya adalah di sini.
+
+[17:52 - 17:53]
+Ini adalah higher high.
+
+[17:54 - 17:56]
+Kemudian kita akan melihat di sini adalah higher low.
+
+[17:57 - 17:58]
+Kita urutkan.
+
+[17:58 - 18:03]
+Di sini berarti higher high karena dia lebih tinggi daripada yang sebelumnya.
+
+[18:04 - 18:06]
+Kemudian di sini adalah higher low.
+
+[18:06 - 18:08]
+Dan di sini adalah higher high.
+
+[18:08 - 18:14]
+Kemudian di sini kita mulai masuk di dalam tahap yang kita sebut sebagai lower low.
+
+[18:14 - 18:16]
+Kemudian di sini adalah lower high.
+
+[18:17 - 18:17]
+Oke.
+
+[18:17 - 18:21]
+Dan di sini kita membuat adalah higher low kembali.
+
+[18:21 - 18:23]
+Dan kita percaya bahwa ini akan ada higher high.
+
+[18:23 - 18:27]
+Pada saat kita sudah percaya bahwa di sini adalah higher high.
+
+[18:27 - 18:32]
+Maka selanjutnya Anda akan melihat ini arah akan menghadap ke atas.
+
+[18:32 - 18:33]
+Oke.
+
+[18:33 - 18:39]
+So ini yang kita sebut dengan mengurutkan untuk melihat how to predict the next trend.
+
+[18:39 - 18:40]
+Ini yang paling penting di sini.
+
+[18:41 - 18:41]
+Ya.
+
+[18:41 - 18:44]
+Jadi Anda harus mengerti yang pertama menentukan swing high yang valid.
+
+[18:44 - 18:46]
+Swing low yang valid.
+
+[18:46 - 18:47]
+Kemudian mengkonekkan.
+
+[18:47 - 18:50]
+Dan kemudian mengurutkan gambarnya.
+
+[18:50 - 18:52]
+Di sini kita sudah memiliki higher high.
+
+[18:53 - 18:54]
+Di sini juga sudah higher low.
+
+[18:55 - 19:03]
+Maka ada potensi yang cukup besar bahwa trend ini akan mulai berbalik arah.
+
+[19:03 - 19:06]
+Dan akan kembali lagi up ke atas.
+
+[19:06 - 19:09]
+Dan kita tahu bahwa itu akan menjadi satu hal yang positif ya.
+
+[19:10 - 19:16]
+Kemudian bagaimana kalau kita melihat terjadinya pergerakan harga dari market yang lain.
+
+[19:16 - 19:19]
+Let's say kita mencoba pada
+
+[19:19 - 19:21]
+gold misalnya.
+
+[19:21 - 19:25]
+Ini layarnya agak sedikit bervariasi karena saya sudah mulai menggambarkan moving average.
+
+[19:25 - 19:32]
+Mungkin untuk sementara saya hapus terlebih dahulu agar Anda bisa melihat pergerakan harga dengan lebih clear tanpa indicator.
+
+[19:32 - 19:33]
+Ya.
+
+[19:33 - 19:34]
+Ini yang kita sebut dengan naked chart.
+
+[19:35 - 19:38]
+Saat ini kita melihat gold market terlebih dahulu.
+
+[19:38 - 19:41]
+Kalau tadi kita sudah menggambar yang bullish.
+
+[19:41 - 19:42]
+Sekarang kita melihat yang bearish ya.
+
+[19:43 - 19:48]
+Jadi ini kita sudah lihat perspektifnya bagaimana cara menentukan arah
+
+[19:48 - 19:49]
+harga ya.
+
+[19:49 - 19:51]
+Sebelum kita bicara chart yang kosong.
+
+[19:51 - 19:56]
+Saya membawa Anda untuk menentukan swing high dan swing low nya lagi.
+
+[19:58 - 20:01]
+Berarti katakan ini adalah swing high awal karena dia lebih tinggi.
+
+[20:02 - 20:02]
+Ya.
+
+[20:02 - 20:06]
+Ini yang disebut swing high awal karena dia lebih tinggi dari sebelumnya ya.
+
+[20:06 - 20:06]
+Lebih tinggi.
+
+[20:06 - 20:10]
+Berarti ini awal mula pembalikan arah dari bullish besar menjadi bearish besar.
+
+[20:11 - 20:13]
+Dan di sini adalah low nya.
+
+[20:14 - 20:14]
+Oke.
+
+[20:15 - 20:17]
+Lalu swing-swing mana saja yang akan kita gunakan.
+
+[20:17 - 20:18]
+Kita akan pakai ini.
+
+[20:18 - 20:19]
+Kita akan pakai ini.
+
+[20:20 - 20:22]
+Kemudian kita akan pakai ini.
+
+[20:22 - 20:23]
+Kita akan pakai ini.
+
+[20:24 - 20:24]
+Oke.
+
+[20:24 - 20:26]
+Ini kita akan pakai juga.
+
+[20:26 - 20:27]
+Kenapa bukan yang.
+
+[20:27 - 20:28]
+Kenapa tidak kita lewati.
+
+[20:28 - 20:31]
+Karena di dalamnya ini sudah ada riak-riak.
+
+[20:31 - 20:33]
+Sehingga ini menjadi trend utama.
+
+[20:33 - 20:34]
+Ya.
+
+[20:35 - 20:35]
+Ingat.
+
+[20:36 - 20:38]
+Kalau seandainya ini adalah garis lurus.
+
+[20:38 - 20:40]
+Tidak ada swing-swing kecil lagi di dalamnya.
+
+[20:40 - 20:43]
+Maka ini kita akan menjadikan lurus langsung ke bawah.
+
+[20:43 - 20:44]
+Tapi karena di dalamnya ada riak.
+
+[20:45 - 20:46]
+Kita akan perhitungkan.
+
+[20:46 - 20:46]
+Oke.
+
+[20:46 - 20:47]
+Sebagai latihan.
+
+[20:47 - 20:49]
+Sampai di sini terlebih dahulu.
+
+[20:49 - 20:50]
+Kita akan tarik.
+
+[20:51 - 20:51]
+Ya.
+
+[20:51 - 20:53]
+Ini kita tidak akan tarik.
+
+[20:53 - 20:54]
+Karena ini trend yang sebelumnya.
+
+[20:54 - 20:56]
+Tetapi mengingatkan pada Anda.
+
+[20:56 - 20:59]
+Bahwa ini adalah low dan high yang akan dihitung.
+
+[20:59 - 21:00]
+Di coding low dan high.
+
+[21:01 - 21:02]
+Selebihnya.
+
+[21:02 - 21:03]
+Mari kita lihat.
+
+[21:03 - 21:05]
+Ini merupakan trend yang besarnya.
+
+[21:05 - 21:07]
+Berarti swing line di sini primary.
+
+[21:07 - 21:11]
+Ini kepala cangkul secondary nya ya.
+
+[21:11 - 21:11]
+Ini primary.
+
+[21:11 - 21:13]
+Kemudian kepala cangkul lagi secondary.
+
+[21:14 - 21:15]
+Kemudian ada di primary.
+
+[21:15 - 21:16]
+Lebih kecil secondary.
+
+[21:17 - 21:18]
+Kemudian ada primary.
+
+[21:18 - 21:20]
+Dan kemudian di sini ada secondary.
+
+[21:20 - 21:21]
+Oke.
+
+[21:22 - 21:22]
+Nah.
+
+[21:23 - 21:28]
+Nantinya Anda sudah akan bisa mengukur tanpa lagi menggambar swing line lingkaran.
+
+[21:29 - 21:30]
+Kasat mata kita sudah bisa melihat.
+
+[21:31 - 21:32]
+Nah.
+
+[21:32 - 21:34]
+Kita memberikan coding ya.
+
+[21:34 - 21:35]
+Otomatis.
+
+[21:35 - 21:36]
+Let's say.
+
+[21:36 - 21:38]
+Harga itu bergerak sampai terakhir di sini.
+
+[21:38 - 21:40]
+Maka kita coding terlebih dahulu.
+
+[21:40 - 21:40]
+Kalau di sini.
+
+[21:41 - 21:42]
+Adalah low.
+
+[21:43 - 21:44]
+Kemudian di sini adalah high.
+
+[21:47 - 21:49]
+Di sini ada lower low.
+
+[21:49 - 21:51]
+Jangan sampai salah karena low nya lebih rendah.
+
+[21:51 - 21:52]
+Ini adalah lower high.
+
+[21:53 - 21:55]
+Di sini adalah lower low.
+
+[21:55 - 21:57]
+Karena lebih rendah ya.
+
+[21:57 - 21:59]
+Kemudian di sini lower high.
+
+[22:00 - 22:02]
+Muncul higher low satu.
+
+[22:02 - 22:03]
+Apakah dia sudah bullish?
+
+[22:03 - 22:03]
+Belum.
+
+[22:03 - 22:04]
+Karena apa?
+
+[22:04 - 22:05]
+Atasnya masih lower high.
+
+[22:05 - 22:08]
+Di dalam bullish dia minta dua kali higher low.
+
+[22:08 - 22:10]
+Dan setidaknya akan ada berikutnya higher high.
+
+[22:10 - 22:14]
+Yang ada tendensi setidaknya akan membuat higher high.
+
+[22:14 - 22:14]
+Sebanyak dua kali.
+
+[22:15 - 22:17]
+Tetapi ini masih lower low.
+
+[22:18 - 22:19]
+Kemudian di sini.
+
+[22:20 - 22:23]
+Dia masih kuat lower high.
+
+[22:23 - 22:24]
+Dia tidak mampu menembus.
+
+[22:24 - 22:25]
+Maka ini tetap bearish.
+
+[22:26 - 22:27]
+Lalu mencoba lagi higher low.
+
+[22:27 - 22:29]
+Tetapi di atasnya dia tidak kuat ya.
+
+[22:29 - 22:32]
+Dia membentuk lower high.
+
+[22:33 - 22:34]
+Dia membentuk lower high di sini.
+
+[22:36 - 22:39]
+Dan kemudian dia membuat lower low.
+
+[22:39 - 22:40]
+Di level ini.
+
+[22:41 - 22:43]
+Apa yang harus kita lakukan selanjutnya?
+
+[22:43 - 22:44]
+Yang harus kita lakukan selanjutnya adalah.
+
+[22:44 - 22:47]
+Tetap melihat bahwa dia tidak kuat.
+
+[22:47 - 22:49]
+Di sini dia membentuk lower high.
+
+[22:49 - 22:51]
+Dan pada saat dia lower high.
+
+[22:51 - 22:53]
+Sekali lagi di sini dia membentuk lower low.
+
+[22:54 - 22:56]
+Dan setelah dia lower low di sini.
+
+[22:56 - 22:58]
+Perhatikan apa yang terjadi setelahnya.
+
+[22:59 - 22:59]
+Oke.
+
+[22:59 - 23:01]
+Yang terjadi setelahnya adalah.
+
+[23:01 - 23:03]
+Satu pergerakan harga.
+
+[23:03 - 23:06]
+Di mana high yang ini ditembus.
+
+[23:06 - 23:07]
+Dan pada saat ini ditembus.
+
+[23:07 - 23:09]
+Anda akan melihat sebuah coding baru.
+
+[23:10 - 23:13]
+Di mana ini adalah swing high yang baru.
+
+[23:13 - 23:15]
+Di mana swing high yang baru itu.
+
+[23:15 - 23:16]
+Kita lihat di sini ya.
+
+[23:17 - 23:18]
+Kenapa bukan ambil yang ini?
+
+[23:18 - 23:19]
+Karena ini kecil.
+
+[23:19 - 23:21]
+Dan ini penurunannya cukup besar.
+
+[23:21 - 23:23]
+Dan kalau kita menarik swing line di sini.
+
+[23:23 - 23:25]
+Ini merupakan minornya.
+
+[23:25 - 23:25]
+Maka.
+
+[23:26 - 23:30]
+Ini bisa jadi awal mula sebuah trend bullish.
+
+[23:30 - 23:30]
+Kenapa?
+
+[23:30 - 23:32]
+Karena di sini mulai higher high.
+
+[23:32 - 23:34]
+Awal mula trend bullish ada higher high.
+
+[23:35 - 23:36]
+Dan kita tahu.
+
+[23:36 - 23:40]
+Kalau seandainya ini kita diberikan kesempatan untuk memprediksi arah harga.
+
+[23:40 - 23:41]
+Karena kita sudah mengurutkan.
+
+[23:41 - 23:44]
+Maka urutan berikutnya dia akan turun.
+
+[23:44 - 23:45]
+Mengharapkan bahwa.
+
+[23:46 - 23:48]
+Yang ada di sini adalah.
+
+[23:50 - 23:51]
+Primary trend.
+
+[23:51 - 23:52]
+PT primary trend.
+
+[23:52 - 23:53]
+Badan canggul.
+
+[23:53 - 23:55]
+Kemudian di sini adalah ST.
+
+[23:55 - 23:56]
+Maka berikutnya.
+
+[23:56 - 23:59]
+Kita akan expect akan terjadinya.
+
+[24:00 - 24:02]
+Badan canggul yang baru.
+
+[24:02 - 24:03]
+Dan ini akan naik terus ke atas.
+
+[24:04 - 24:08]
+Nah ini yang kita sebut dengan melakukan mengurutkan ya.
+
+[24:08 - 24:08]
+Kita coding.
+
+[24:09 - 24:10]
+Nah pertanyaan berikutnya.
+
+[24:11 - 24:14]
+Kita tahu sebelumnya ada formasi pergerakan harga itu ada lima.
+
+[24:14 - 24:17]
+Yang pertama adalah canggul bullish.
+
+[24:17 - 24:19]
+Kemudian canggul bearish.
+
+[24:19 - 24:22]
+Kemudian result daripada bullish canggul.
+
+[24:22 - 24:22]
+Itu seperti ini.
+
+[24:23 - 24:27]
+Dan kemudian canggul bearish berikutnya adalah seperti ini.
+
+[24:27 - 24:28]
+Ya.
+
+[24:28 - 24:30]
+Dan setelah itu.
+
+[24:30 - 24:31]
+Kita bisa melihat.
+
+[24:31 - 24:34]
+Kalau seandainya pattern ini benar-benar terjadi.
+
+[24:34 - 24:36]
+Maka yang terjadi berikutnya adalah.
+
+[24:38 - 24:40]
+Pola mirror bullish.
+
+[24:40 - 24:42]
+Dan arahnya ke sini.
+
+[24:42 - 24:42]
+Ya.
+
+[24:43 - 24:46]
+Mirror bullish ini kita sebut dengan di ABCD.
+
+[24:46 - 24:50]
+Jadi apakah itu setelah kita sudah mengetahui cara menarik garis.
+
+[24:50 - 24:51]
+Baik bullish dan bearish.
+
+[24:51 - 24:53]
+Sekarang saya akan mengajarkan pada Anda.
+
+[24:54 - 24:59]
+Bahwa kelanjutan daripada canggul tersebut adalah ABCD.
+
+[24:59 - 25:03]
+Dimana ABCD ini merupakan sebuah pola yang sangat penting sekali.
+
+[25:03 - 25:07]
+Dimana pola ini adalah pola continuation.
+
+[25:07 - 25:09]
+Dimana akan adanya perlanjutan.
+
+[25:09 - 25:10]
+Daripada trend.
+
+[25:10 - 25:13]
+Di sini ABCD.
+
+[25:13 - 25:15]
+Jadi setelah munculnya C.
+
+[25:15 - 25:16]
+Kita entry di sini.
+
+[25:16 - 25:17]
+Maka berikutnya adalah D.
+
+[25:18 - 25:19]
+Ya.
+
+[25:19 - 25:20]
+Jadi panjangnya AB.
+
+[25:20 - 25:22]
+Kemudian dia akan CD ke atas.
+
+[25:22 - 25:25]
+Itu yang akan membuat Anda mendapatkan profit optimal.
+
+[25:25 - 25:26]
+Karena apa?
+
+[25:26 - 25:30]
+Kita juga sudah bisa memprediksi arah harga berikutnya adalah C ke D.
+
+[25:31 - 25:34]
+Dan kemudian kita setelah entry di C.
+
+[25:34 - 25:37]
+Kita akan take profitnya di D.
+
+[25:37 - 25:37]
+Ya.
+
+[25:37 - 25:38]
+This is ABCD.
+
+[25:38 - 25:40]
+Harmonic pattern sebenarnya.
+
+[25:40 - 25:42]
+Dan ini merupakan kelanjutan.
+
+[25:42 - 25:46]
+Dalam kondisi bearish sekalipun dia juga akan membentuk AB.
+
+[25:47 - 25:49]
+Kemudian dia akan membentuk CD ke bawah ya.
+
+[25:50 - 25:54]
+So dalam kasus ini kita sekarang sudah menyadari bahwa ABCD sangat penting.
+
+[25:54 - 26:01]
+Karena CD akan membuat Anda lebih clear dan lebih jelas untuk melihat arah pergerakan harga ke depan.
+
+[26:01 - 26:02]
+Setelah munculnya canggul.
+
+[26:02 - 26:06]
+Anda benar-benar bisa menghitung.
+
+[26:07 - 26:07]
+Next.
+
+[26:07 - 26:10]
+Akan kemana harganya?
+
+[26:10 - 26:10]
+Ya.
+
+[26:10 - 26:14]
+Jadi ini yang akan mulai kita lakukan di dalam saham apapun.
+
+[26:14 - 26:17]
+Sekarang misalnya di dalam saham.
+
+[26:18 - 26:19]
+Kalau kita sudah lihat.
+
+[26:19 - 26:22]
+Sekarang kita coba ke pair mata uang yang lain.
+
+[26:23 - 26:23]
+Oke.
+
+[26:23 - 26:27]
+Mari kita lihat misalnya di GBP Jepang Yen.
+
+[26:27 - 26:27]
+Ya.
+
+[26:28 - 26:28]
+Oke.
+
+[26:28 - 26:36]
+GBP Jepang Yen merupakan mata uang yang sangat penting diperhatikan karena dia cenderung bergerak di dalam continuation trend.
+
+[26:36 - 26:37]
+Ya.
+
+[26:37 - 26:38]
+Misalnya di dalam bearish.
+
+[26:38 - 26:45]
+Dia akan cenderung terus turun dalam kondisi bearish sampai ada satu signal bahwa dia berbalik arah.
+
+[26:45 - 26:52]
+Tetapi sebelum munculnya signal tersebut dia akan cenderung bergerak dalam kondisi trending ya.
+
+[26:52 - 26:54]
+Terus continuation dan seterusnya.
+
+[26:54 - 27:01]
+Nah dalam kondisi hal seperti ini paling enak sekali kita menentukan arah trend berikutnya.
+
+[27:01 - 27:05]
+Mari kita lihat bersama-sama dalam kasus ini kemana sih arahnya.
+
+[27:05 - 27:10]
+Mungkin Anda bertanya-tanya ya seringkali kemana arah atau bagaimana cara membuat roadmap.
+
+[27:10 - 27:13]
+Kita akan menggabungkan pola ABCD dan canggul tadi.
+
+[27:14 - 27:20]
+Tapi sebelumnya mari kita lakukan terlebih dahulu cara menghitung peak and trough nya.
+
+[27:21 - 27:22]
+High and low nya.
+
+[27:22 - 27:26]
+Kita gunakan swing low, swing high yang akan kita jadikan referensi.
+
+[27:27 - 27:33]
+Tentunya di tahap ini Anda sudah bisa pelan-pelan bersama saya untuk mengikuti yang mana yang harus dilingkari.
+
+[27:34 - 27:35]
+Dan yang mana yang harus dilengkapi.
+
+[27:36 - 27:40]
+Ini kita lingkari karena disini ada riaknya.
+
+[27:41 - 27:46]
+Jadi disini kita berikan swing-swing nya.
+
+[27:49 - 27:52]
+Disini ada swing, kemudian disini ada swing.
+
+[27:53 - 27:57]
+Ini juga ada swing low, disini ada swing, disini ada swing.
+
+[27:57 - 28:01]
+So kita akan melihat kemana arah harganya.
+
+[28:01 - 28:03]
+Mari kita tarik.
+
+[28:04 - 28:07]
+Berarti dari sini kita tarik ke sini, kita tarik ke sini.
+
+[28:08 - 28:09]
+Tarik ke sini.
+
+[28:10 - 28:10]
+Oke.
+
+[28:11 - 28:13]
+Ini kita menghubungkan swing line nya semua.
+
+[28:15 - 28:20]
+Kemudian tujuan kita melihat jelas ya bahwa ini semua canggul beris semua yang terjadi disini.
+
+[28:21 - 28:22]
+Ini semua canggul beris.
+
+[28:23 - 28:27]
+Ini canggul beris, canggul beris, canggul beris.
+
+[28:28 - 28:31]
+Canggul beris juga ya karena kepala canggul nya di atas.
+
+[28:31 - 28:35]
+Canggul beris berlanjut, canggul beris berlanjut dan semuanya ABCD.
+
+[28:36 - 28:36]
+Nah.
+
+[28:36 - 28:40]
+Seakan-seakan sekarang dia berusaha menjadi bulis ya.
+
+[28:41 - 28:41]
+Menjadi bulis.
+
+[28:41 - 28:43]
+Kepala canggul disini tetapi ingat.
+
+[28:43 - 28:48]
+Rumus membentuk peak and drop atau high and low itu tidak pernah boleh anda lupakan.
+
+[28:49 - 28:52]
+Jadi kalau misalkan disini high dan disini ada low.
+
+[28:52 - 28:55]
+Ya ingat selalu diambil dari sebelumnya.
+
+[28:55 - 28:59]
+Maka yang ada disini adalah jelas adalah lower low.
+
+[28:59 - 29:02]
+Kemudian disini adalah lower high.
+
+[29:02 - 29:06]
+Disini adalah higher low, lower high, lower low.
+
+[29:06 - 29:08]
+Disini lower high karena lebih rendah.
+
+[29:09 - 29:11]
+Kemudian lower low.
+
+[29:11 - 29:13]
+Kemudian disini lower high.
+
+[29:13 - 29:14]
+Disini higher low.
+
+[29:15 - 29:16]
+Disini higher low.
+
+[29:17 - 29:19]
+Kemudian lower high disini.
+
+[29:19 - 29:21]
+Dan disini lower low.
+
+[29:21 - 29:22]
+Tetap.
+
+[29:22 - 29:25]
+Dia lower high semua berarti belum ada indikasi dia menjadi bulis.
+
+[29:25 - 29:27]
+Disini biologi higher high.
+
+[29:27 - 29:31]
+Tetapi setelah higher high, rumus bulis adalah harus ada higher low.
+
+[29:31 - 29:32]
+Tetapi dia langsung lower low lagi.
+
+[29:32 - 29:35]
+Maka itu hanya merupakan sebuah varian.
+
+[29:35 - 29:38]
+Dan sebenarnya dia masih bergerak dalam kondisi beris.
+
+[29:38 - 29:39]
+Dan disini lower high.
+
+[29:39 - 29:42]
+Di bawah sini adalah lower low.
+
+[29:42 - 29:43]
+Ya.
+
+[29:43 - 29:43]
+Ini lower high.
+
+[29:44 - 29:44]
+Ini lower.
+
+[29:44 - 29:45]
+Ini higher low.
+
+[29:45 - 29:46]
+Coba.
+
+[29:46 - 29:48]
+Tapi ingat sekali lagi lower low.
+
+[29:48 - 29:48]
+Sorry.
+
+[29:49 - 29:50]
+Disini adalah lower high.
+
+[29:51 - 29:54]
+Maka berikutnya ini adalah.
+
+[29:54 - 29:56]
+Kalau kita pakai pattern mirror.
+
+[29:56 - 29:59]
+Harusnya yang akan terjadi adalah ABCD.
+
+[29:59 - 30:01]
+Kalau kita melakukan ini di time frame yang besar.
+
+[30:02 - 30:05]
+Maka anda akan mendapatkan kredisi range yang cukup besar.
+
+[30:05 - 30:08]
+Dimana ini adalah ABCD sebenarnya.
+
+[30:08 - 30:14]
+Dan ini akan terus turun bahkan lebih rendah daripada low yang ada disini.
+
+[30:14 - 30:15]
+Dan ini akan ditembus ke bawah.
+
+[30:15 - 30:18]
+Nah setelah kita mengetahui bahwa arahnya menuju ke bawah.
+
+[30:19 - 30:21]
+Baru nanti kita akan belajar mengenai entry.
+
+[30:22 - 30:22]
+Ya.
+
+[30:23 - 30:28]
+Yang sedang kita bahas saat ini adalah assumption bahwa trend itu akan continue.
+
+[30:29 - 30:34]
+Trend itu akan continue dan kelemahan seperti ini disebut dengan bearish continuation.
+
+[30:34 - 30:39]
+Yang menjadi resiko adalah apabila trend yang awalnya continue.
+
+[30:39 - 30:43]
+Tiba-tiba dia ini berbalik arah dan tidak turun lagi lalu berbalik arah.
+
+[30:43 - 30:45]
+Disinilah resiko kita sebagai seorang trader.
+
+[30:45 - 30:50]
+Tetapi sebagai seorang trader kita harus memilih probability yang paling tinggi.
+
+[30:50 - 30:54]
+Kita percaya bahwa filosofi dasarnya.
+
+[30:54 - 30:58]
+Bahwa trend itu akan terus berjalan searah seperti bola ya.
+
+[30:58 - 30:59]
+Menggelinding hukum Newton.
+
+[31:00 - 31:02]
+Walaupun ada kemungkinan dia berhenti turun lalu naik.
+
+[31:02 - 31:05]
+Tapi itu kemungkinannya lebih kecil karena major trend.
+
+[31:05 - 31:06]
+Kalau kita lihat major trend.
+
+[31:07 - 31:10]
+Ini secara kasat mata Anda melihat sedang 45 derajat bearish.
+
+[31:10 - 31:12]
+Maka akan cenderung bearish terus.
+
+[31:13 - 31:16]
+Dan hanya kecil kemungkinannya untuk dia kembali naik.
+
+[31:16 - 31:18]
+Sekarang saya berikan judul.
+
+[31:18 - 31:19]
+Seandainya itu terjadi.
+
+[31:19 - 31:21]
+Pembalikan arah.
+
+[31:21 - 31:24]
+Apa yang harus dilakukan dan bagaimana mengidentifikasinya.
+
+[31:24 - 31:30]
+Yang akan kita pelajari disini adalah melihat sebuah pola yang kita sebut dengan trend dilema.
+
+[31:31 - 31:31]
+Ya.
+
+[31:31 - 31:34]
+Trend dilema atau yang kita sebut dengan transition.
+
+[31:35 - 31:40]
+Transition ini merupakan perubahan arah dari bull ke bear atau bear ke bull.
+
+[31:40 - 31:43]
+Pink and trough atau high atau low ini trend dilema.
+
+[31:43 - 31:46]
+Yang juga diajarkan di Doe Theory.
+
+[31:46 - 31:50]
+Pada saat Anda melihat adanya pergerakan seperti ini.
+
+[31:50 - 31:54]
+Maka kita sedang membahas tentang perubahan arah trend.
+
+[31:54 - 31:58]
+Yang awalnya kita berharap dia dari bull ke bear.
+
+[31:58 - 32:00]
+Dia continuation ya. Bull gitu.
+
+[32:00 - 32:05]
+Tetapi ternyata saat ini dia sedang membentuk trend dilema.
+
+[32:05 - 32:05]
+Dia berbalik arah.
+
+[32:05 - 32:08]
+Ini disebut trend transition ya.
+
+[32:09 - 32:11]
+Kuncinya adalah apabila kita terlena.
+
+[32:11 - 32:13]
+Sometimes kita terlena ya.
+
+[32:13 - 32:15]
+Melihat arah pergerakan yang terus turun dan harapan turun.
+
+[32:15 - 32:18]
+Ternyata sampai di tengah-tengah dia berbalik arah menjadi bull.
+
+[32:18 - 32:20]
+Ini akan menjadi risk untuk kita kan.
+
+[32:20 - 32:23]
+Nah disinilah rahasia besarnya.
+
+[32:24 - 32:26]
+Trend transition winning ratenya cukup tinggi.
+
+[32:26 - 32:28]
+Bisa 75% ya benarnya.
+
+[32:29 - 32:33]
+Pada saat Anda melihat ini cangkul terus bergerakan ya.
+
+[32:34 - 32:36]
+Misalnya ini juga turun terus bergerak.
+
+[32:36 - 32:40]
+Lalu tiba-tiba muncul sebuah perubahan coding.
+
+[32:40 - 32:43]
+Setelah disini dia membentuk higher high.
+
+[32:44 - 32:47]
+Kemudian disini dia membentuk lower low atau lower shrug.
+
+[32:47 - 32:48]
+Ingat dicatat.
+
+[32:48 - 32:51]
+Lalu dia tidak mampu naik lagi setelah dia tembus lantai disini.
+
+[32:52 - 32:53]
+Dia membentuk lower low.
+
+[32:53 - 32:55]
+Setelah dia membentuk lower low.
+
+[32:56 - 32:57]
+Kemudian disini dia lower high.
+
+[32:58 - 33:01]
+Dan akhirnya satu poin saja dia tembus disini dengan breakout.
+
+[33:01 - 33:03]
+Anda bisa lakukan sell trade.
+
+[33:03 - 33:04]
+Anda entry sell.
+
+[33:05 - 33:08]
+Karena ini akan membuat harga pasti membuat lower low.
+
+[33:08 - 33:10]
+Dan kemudian trendnya berubah.
+
+[33:11 - 33:14]
+Dari yang awalnya bull sekarang dari bull menjadi bear.
+
+[33:14 - 33:15]
+Ya berbalik arah.
+
+[33:16 - 33:18]
+Demikian juga pada saat harga terus turun seperti ini.
+
+[33:19 - 33:22]
+Anda mungkin akan melihat bahwa waduh ini trendnya beres nih.
+
+[33:22 - 33:26]
+Ternyata tiba-tiba ada sebuah pergerakan harga yang signifikan.
+
+[33:27 - 33:27]
+Dan dia menembus.
+
+[33:27 - 33:29]
+High yang ada disini.
+
+[33:29 - 33:31]
+Ini bisa menjadi catatan pertama.
+
+[33:31 - 33:34]
+Rumus daripada transisi atau trend dilema ini.
+
+[33:34 - 33:35]
+Adalah.
+
+[33:35 - 33:37]
+Lower low.
+
+[33:38 - 33:40]
+Pada saat dari bear ke bull.
+
+[33:40 - 33:41]
+Lower low kemudian higher high.
+
+[33:42 - 33:44]
+Kemudian higher low dan higher high.
+
+[33:44 - 33:46]
+Ini harus terjadi terlebih dahulu.
+
+[33:48 - 33:49]
+Jadi ini terjadi.
+
+[33:50 - 33:50]
+Rumus ini.
+
+[33:51 - 33:54]
+Kalau dari bear ke bull.
+
+[33:54 - 33:54]
+Ya.
+
+[33:56 - 33:57]
+Kemudian dari bull ke bear.
+
+[33:59 - 33:59]
+Perubahannya ya.
+
+[34:00 - 34:02]
+Ini dalam rangka supaya kita tidak terlena.
+
+[34:02 - 34:03]
+Berarti ada kebalikannya.
+
+[34:03 - 34:04]
+Ada higher high.
+
+[34:04 - 34:06]
+Kemudian ada lower low.
+
+[34:06 - 34:07]
+Kemudian ada lower high.
+
+[34:08 - 34:10]
+Kemudian ada higher high.
+
+[34:12 - 34:13]
+Bull ke bear.
+
+[34:13 - 34:13]
+Sorry.
+
+[34:14 - 34:15]
+Ini ada lower high lalu ada lower low.
+
+[34:16 - 34:20]
+Jadi empat poin yang menjadi sakral sekali.
+
+[34:20 - 34:22]
+Pada saat dia lower low.
+
+[34:23 - 34:24]
+Higher high.
+
+[34:24 - 34:25]
+Higher low.
+
+[34:25 - 34:27]
+Dan pada saat satu poin saja ditembus di sini.
+
+[34:27 - 34:30]
+Ini confirm dari bear menjadi bull.
+
+[34:30 - 34:32]
+Ini yang disebut dengan transition.
+
+[34:32 - 34:33]
+Trendnya berubah.
+
+[34:33 - 34:36]
+Dan Anda tidak lagi bisa mengharapkan bahwa ini turun ke bawah.
+
+[34:36 - 34:38]
+Ini chance-nya untuk terus naik itu besar.
+
+[34:38 - 34:45]
+Sehingga Anda mengantisipasi kenyamanan Anda melakukan trend following.
+
+[34:45 - 34:46]
+Tadi kan kalau kita sudah lihat ya.
+
+[34:46 - 34:48]
+Kemungkinan ada ABCD turun.
+
+[34:48 - 34:49]
+Tetapi pada saat dia sudah turun.
+
+[34:50 - 34:51]
+Setelah dia sudah break.
+
+[34:51 - 34:53]
+Lalu dilanjutkan dengan rumus ini.
+
+[34:53 - 34:54]
+Misalnya.
+
+[34:54 - 34:56]
+Ini sudah break ke bawah.
+
+[34:56 - 34:57]
+Sesuai dengan ABCD tadi.
+
+[34:57 - 34:59]
+Seperti di Jepangian tadi.
+
+[35:00 - 35:02]
+Ini kita harapkan misalnya.
+
+[35:02 - 35:03]
+Anda perhatikan.
+
+[35:04 - 35:05]
+Aplikasinya begini.
+
+[35:05 - 35:07]
+Misalnya ini naik.
+
+[35:08 - 35:08]
+Cangkul.
+
+[35:09 - 35:11]
+Lalu kita harapkan dia menjadi ABCD kan.
+
+[35:12 - 35:13]
+Ternyata sudah betul seperti ini.
+
+[35:13 - 35:15]
+Tiba-tiba dia naik ke sini.
+
+[35:16 - 35:17]
+Menembus garis.
+
+[35:17 - 35:19]
+Atau menembus peak yang ada di sini.
+
+[35:19 - 35:21]
+Lalu dia membuat.
+
+[35:21 - 35:23]
+Kepala cangkul ada di sini.
+
+[35:23 - 35:25]
+Dan dia tembus lagi di sini.
+
+[35:25 - 35:29]
+Ini akan disebut dengan trend reversal.
+
+[35:29 - 35:31]
+Bahwa pelemahan sudah tidak akan berlangit lagi.
+
+[35:31 - 35:33]
+Dan akan berubah menjadi bull.
+
+[35:33 - 35:34]
+Jadi kuncinya adalah.
+
+[35:35 - 35:37]
+Di empat coding ini.
+
+[35:37 - 35:38]
+Anda harus ingat baik-baik.
+
+[35:38 - 35:39]
+Bear ke bull.
+
+[35:39 - 35:40]
+Lower low.
+
+[35:40 - 35:41]
+Higher high.
+
+[35:41 - 35:42]
+Higher low.
+
+[35:42 - 35:43]
+Higher high.
+
+[35:43 - 35:44]
+Dan bull ke bear.
+
+[35:44 - 35:44]
+Rumusnya ini.
+
+[35:45 - 35:48]
+Ini adalah the trend transition.
+
+[35:49 - 35:51]
+Dan ini akan sangat penting.
+
+[35:51 - 35:53]
+Jadi sebagai kunci.
+
+[35:53 - 35:56]
+Daripada pembalikan arah harga sebenarnya.
+
+[35:56 - 35:57]
+Itu akan jadi seperti apa.
+
+[35:57 - 36:00]
+Jadi di dalam kesimpulan chapter kali ini.
+
+[36:00 - 36:03]
+Anda sudah mempelajari bagaimana sih caranya.
+
+[36:03 - 36:04]
+Melihat arah trend.
+
+[36:04 - 36:06]
+Yang akan terjadi ke depan.
+
+[36:06 - 36:07]
+Maka layarnya harus kosong.
+
+[36:08 - 36:09]
+Kemudian Anda zoom.
+
+[36:09 - 36:10]
+Agak jauh.
+
+[36:10 - 36:12]
+Dan gunakan time frame yang agak besar.
+
+[36:12 - 36:14]
+Supaya Anda mendapatkan range yang cukup baik.
+
+[36:14 - 36:17]
+Anda menentukan poin-poin penting.
+
+[36:17 - 36:19]
+Lingkaran-lingkaran-lingkaran seperti tadi.
+
+[36:19 - 36:19]
+Ya.
+
+[36:21 - 36:23]
+Misalnya kita gunakan sample form.
+
+[36:23 - 36:24]
+Sedikit review untuk Anda.
+
+[36:25 - 36:27]
+Yang tahap pertama harus dilakukan adalah.
+
+[36:28 - 36:29]
+Mengosongkan range sebelah kanan.
+
+[36:30 - 36:31]
+Setelah itu.
+
+[36:31 - 36:33]
+Kita masukkan ke paint.
+
+[36:33 - 36:34]
+Dengan cara print screen mungkin.
+
+[36:35 - 36:36]
+Kita masukkan ke paint ya.
+
+[36:39 - 36:42]
+Kemudian kita mulai menentukan.
+
+[36:42 - 36:44]
+Poin dari swing yang palit itu di mana.
+
+[36:45 - 36:47]
+Let's say dari bawah ya.
+
+[36:47 - 36:50]
+Karena ini merupakan perubahan arah yang awal.
+
+[36:52 - 36:52]
+Kemudian di bawah.
+
+[36:54 - 36:55]
+Kemudian di sini.
+
+[36:56 - 36:59]
+Kemudian Anda melihat ada pick point di sini.
+
+[36:59 - 37:00]
+Kemudian di sini.
+
+[37:00 - 37:01]
+Ya.
+
+[37:01 - 37:02]
+Ini sideways.
+
+[37:02 - 37:05]
+Sideways seperti ini dianggap kepala canggulnya di sini.
+
+[37:05 - 37:05]
+Kenapa?
+
+[37:05 - 37:08]
+Karena ini merupakan satu kepala canggul yang sideways.
+
+[37:08 - 37:09]
+Kemudian ditaruh di sini.
+
+[37:10 - 37:10]
+Oke.
+
+[37:11 - 37:14]
+Kemudian kita lihat yang mana yang akan digunakan di sini.
+
+[37:14 - 37:15]
+Karena di dalamnya sudah ada riak.
+
+[37:15 - 37:16]
+Kita masuk sini.
+
+[37:17 - 37:17]
+Taruh di sini.
+
+[37:18 - 37:19]
+Kita set.
+
+[37:20 - 37:21]
+Oke.
+
+[37:21 - 37:22]
+Dan ini merupakan satu bagian.
+
+[37:22 - 37:23]
+Karena semuanya kecil-kecil.
+
+[37:24 - 37:26]
+Maka Anda connect-kan.
+
+[37:27 - 37:31]
+Karena dengan cara begini Anda akan tahu kemana arah harga akan berlangsung.
+
+[37:31 - 37:33]
+Kita membuat swing line terlebih dahulu.
+
+[37:33 - 37:35]
+Untuk memprediksi apa yang akan terjadi di depan.
+
+[37:36 - 37:38]
+Kita mempelajari dari history.
+
+[37:38 - 37:38]
+Kenapa?
+
+[37:38 - 37:44]
+Karena dari principle technical analysis mengatakan history repeat itself.
+
+[37:45 - 37:48]
+Maka kita percaya bahwa ini akan repeat.
+
+[37:49 - 37:50]
+Kemudian ini akan turun.
+
+[37:50 - 37:52]
+Dan ini pasti akan membentuk swing low.
+
+[37:52 - 37:55]
+Akan membentuk swing low dan mulai up.
+
+[37:56 - 37:56]
+Kenapa?
+
+[37:57 - 38:00]
+Prinsip daripada zigzag atau mirror atau ABCD.
+
+[38:00 - 38:05]
+Kita percaya bahwa setelah ini dia akan membuat sebuah bottoming.
+
+[38:05 - 38:10]
+Di mana bottoming itu hanya akan palit nanti pada saat terjadi low seperti ini.
+
+[38:10 - 38:12]
+Dan kemudian ada swing bottom signifikan di sini.
+
+[38:13 - 38:14]
+Lalu dia mulai naik.
+
+[38:14 - 38:16]
+Dan ini adalah ABCD.
+
+[38:16 - 38:20]
+Sehingga secara keseluruhan Anda bisa memprediksi bahwa saham Telkom.
+
+[38:20 - 38:24]
+Sebenarnya masih berada di dalam trend bullish.
+
+[38:24 - 38:29]
+Hanya saja kepala cangkulnya atau yang kita sebut dengan secondary reaction.
+
+[38:30 - 38:34]
+Secondary trend atau secondary reactionnya belum selesai mungkin.
+
+[38:34 - 38:36]
+Kepala cangkulnya belum selesai.
+
+[38:36 - 38:39]
+Pada saat kepala cangkulnya selesai dia akan melanjutkan pengelatannya.
+
+[38:40 - 38:49]
+Sehingga tugas Anda nanti adalah menentukan kapankah atau dimanakah kepala cangkul atau secondary trend ini selesai.
+
+[38:49 - 38:51]
+Pada saat Anda sudah mengetahui secondary selesai.
+
+[38:52 - 38:53]
+Kita bisa melakukan buy.
+
+[38:53 - 38:58]
+Dan Anda bisa hold saham ini hingga sampai peak atau day itu ditembus.
+
+[38:58 - 39:00]
+Di mana day itu dicapai.
+
+[39:01 - 39:03]
+Kalau Anda bisa menemukan bahwa daynya ditembus.
+
+[39:03 - 39:06]
+Ini merupakan pattern yang selalu berulang.
+
+[39:06 - 39:07]
+ABCD, ABCD, dan seterusnya.
+
+[39:08 - 39:10]
+Dan ini akan menjadi acuan Anda.
+
+[39:10 - 39:15]
+Apapun sahamnya atau forexnya yang Anda lihat adalah bagaimana cangkulnya itu terjadi.
+
+[39:15 - 39:17]
+Dan bagaimana kemungkinan.
+
+[39:17 - 39:20]
+Kemungkinan pola CD-nya akan terbentuk.
+
+[39:20 - 39:22]
+Dan lakukan ini di time frame yang besar.
+
+[39:22 - 39:24]
+Karena di tahap how to predict the next trend.
+
+[39:24 - 39:26]
+Yang kita lakukan adalah forecasting.
+
+[39:27 - 39:29]
+Untuk menentukan bullish atau bearish.
+
+[39:30 - 39:32]
+Jadi sebagai penutup di chapter ini.
+
+[39:33 - 39:36]
+Kesimpulannya adalah di dalam kita melakukan trading.
+
+[39:36 - 39:39]
+Yang harus Anda lakukan pertama bukan menentukan buy atau sell.
+
+[39:39 - 39:41]
+Tapi forecasting.
+
+[39:41 - 39:43]
+Ini akan menghasilkan jawaban.
+
+[39:43 - 39:45]
+Dan jawabannya cukup jelas.
+
+[39:45 - 39:49]
+Apakah tren yang saat ini terjadi itu bullish?
+
+[39:49 - 39:54]
+Apakah tren yang terjadi saat ini itu adalah bearish?
+
+[39:55 - 39:56]
+Jawabannya itu.
+
+[39:56 - 39:57]
+Kalau dia bullish.
+
+[39:57 - 40:01]
+Baru nanti kita akan mempelajari tentang entry.
+
+[40:01 - 40:02]
+Setelah forecasting.
+
+[40:03 - 40:06]
+Baru disini nanti kita akan mempelajari tentang entry.
+
+[40:08 - 40:11]
+Jawabannya disini adalah buy atau sell.
+
+[40:12 - 40:15]
+Buy atau sell.
+
+[40:15 - 40:18]
+Karena di dalam tren bullish.
+
+[40:18 - 40:20]
+Anda bisa lakukan buy.
+
+[40:20 - 40:22]
+Atau wajib melakukan buy.
+
+[40:22 - 40:25]
+Dan apabila ada seorang kontrarian.
+
+[40:25 - 40:29]
+Mungkin Anda akan lakukan sell.
+
+[40:29 - 40:31]
+Karena ada kontrarian.
+
+[40:31 - 40:31]
+Jadi ingat.
+
+[40:31 - 40:34]
+Tahap awal forecasting terlebih dahulu.
+
+[40:34 - 40:36]
+Kemudian menentukan apakah bull atau bear.
+
+[40:36 - 40:39]
+Misalnya di dalam kasus saham telkom.
+
+[40:40 - 40:43]
+Kasus saham telkom ini adalah bull.
+
+[40:43 - 40:46]
+Karena kita percaya ini akan membentuk bottoming.
+
+[40:46 - 40:48]
+Dan kemudian ini akan ke atas.
+
+[40:51 - 40:52]
+Berikutnya.
+
+[40:52 - 40:52]
+Kalau sudah bull.
+
+[40:52 - 40:54]
+Maka apa yang harus kita ambil?
+
+[40:54 - 40:56]
+Kita akan mengambil posisi buy.
+
+[40:57 - 40:59]
+Kalau Anda sell.
+
+[40:59 - 41:00]
+Berarti Anda kontrarian.
+
+[41:00 - 41:01]
+Anda menikmati turunnya ini.
+
+[41:01 - 41:02]
+Anda sell.
+
+[41:02 - 41:03]
+Kebetulan di saham tidak bisa.
+
+[41:03 - 41:04]
+Anda harus di futures market.
+
+[41:05 - 41:05]
+Misalnya di gold.
+
+[41:05 - 41:07]
+Atau di GBP Jepang Yen.
+
+[41:07 - 41:08]
+Anda lakukan short selling dulu.
+
+[41:09 - 41:11]
+Tetapi itu tidak direkomendasikan.
+
+[41:11 - 41:12]
+Karena pada saat bullish.
+
+[41:12 - 41:14]
+Pilihan Anda hanya buy.
+
+[41:14 - 41:15]
+Karena Anda yakin setidaknya bullish.
+
+[41:16 - 41:18]
+Salah satu manfaatnya.
+
+[41:18 - 41:19]
+Kalau Anda melakukan forecasting.
+
+[41:19 - 41:20]
+Anda tidak bingung.
+
+[41:20 - 41:22]
+Karena kebanyakan trader loss.
+
+[41:22 - 41:24]
+Karena mereka tidak tahu arahnya mau kemana.
+
+[41:24 - 41:25]
+Mereka sebelum melakukan forecasting.
+
+[41:26 - 41:27]
+Mereka hanya langsung memikirkan buy atau sell.
+
+[41:27 - 41:28]
+Berdasarkan indikator.
+
+[41:28 - 41:29]
+Pada akhirnya.
+
+[41:29 - 41:31]
+Terjebak di dalam suatu volatility yang besar.
+
+[41:32 - 41:32]
+Mereka bingung.
+
+[41:32 - 41:34]
+Ini marketnya sebenarnya bull atau bear.
+
+[41:34 - 41:35]
+Dan mereka ada conflict of interest.
+
+[41:35 - 41:37]
+Karena mereka sebelumnya sudah memiliki posisi.
+
+[41:38 - 41:39]
+Sehingga sangat dipentingkan.
+
+[41:39 - 41:40]
+Sebelum Anda masuk.
+
+[41:40 - 41:42]
+Kita melalui tahap forecasting.
+
+[41:42 - 41:42]
+Jadi.
+
+[41:42 - 41:44]
+Bagaimana untuk memprediksi trend selanjutnya.
+
+[41:44 - 41:46]
+Itu berbicara mengenai forecasting.
+
+[41:46 - 41:49]
+Dan ini setidaknya menggunakan time frame yang lebih tinggi.
+
+[41:49 - 41:50]
+Seberapa besar.
+
+[41:50 - 41:51]
+Saya pribadi.
+
+[41:51 - 41:52]
+Kalau di futures market.
+
+[41:52 - 41:54]
+Saya menggunakan lampad.
+
+[41:54 - 41:55]
+Atau daily.
+
+[41:56 - 41:57]
+Dan entry.
+
+[41:57 - 41:59]
+Saya selalu menggunakan.
+
+[42:00 - 42:01]
+M30 atau.
+
+[42:03 - 42:04]
+M30 dan M15.
+
+[42:07 - 42:07]
+Oke.
+
+[42:09 - 42:10]
+Anda tinggal mengikuti saja.
+
+[42:10 - 42:11]
+Alasannya kenapa.
+
+[42:11 - 42:12]
+Karena.
+
+[42:12 - 42:14]
+Pada saat kita melakukan forecasting.
+
+[42:15 - 42:16]
+Salah satu rahasianya adalah.
+
+[42:16 - 42:18]
+Kita berusaha membuat chart.
+
+[42:18 - 42:19]
+Ini sejernih mungkin.
+
+[42:19 - 42:23]
+Kita mencari sejelas mungkin terbentuknya cangkul.
+
+[42:23 - 42:25]
+Kalau cangkul di time frame daily tidak jelas.
+
+[42:25 - 42:27]
+Silahkan Anda buka di weekly.
+
+[42:27 - 42:31]
+Anda akan melihat cangkul yang sangat jelas.
+
+[42:31 - 42:33]
+Jadi time frame itu bukan berarti bebas memilih.
+
+[42:33 - 42:34]
+Tetapi.
+
+[42:34 - 42:37]
+Kita boleh memilih time frame yang lebih kecil.
+
+[42:37 - 42:39]
+Karena lebih kecil itu lebih enak sebenarnya.
+
+[42:39 - 42:40]
+Tetapi selama.
+
+[42:41 - 42:44]
+Semakin kecil dia semakin kelihatan cangkulnya.
+
+[42:44 - 42:46]
+Kalau semakin kecil biasanya cangkulnya makin tidak kelihatan.
+
+[42:46 - 42:49]
+Primary secondary nya makin kabur ya.
+
+[42:49 - 42:50]
+Nah.
+
+[42:50 - 42:51]
+Kalau dia semakin kabur seperti itu.
+
+[42:51 - 42:53]
+Akan susah kita menentukan.
+
+[42:54 - 42:56]
+Sehingga kita mencoba membesarkan.
+
+[42:56 - 42:58]
+Jadi kenapa kita harus besarkan time frame.
+
+[42:58 - 43:01]
+Karena pada saat di time frame yang lebih kecil.
+
+[43:01 - 43:03]
+Tidak terlihat dengan jelas.
+
+[43:03 - 43:06]
+Di mana primary atau secondary nya.
+
+[43:06 - 43:08]
+Jadi kalau selama di daily tidak ada.
+
+[43:08 - 43:09]
+Mungkin kita akan lihat di weekly.
+
+[43:09 - 43:11]
+Karena saya akan melihat perspektif yang lebih luas.
+
+[43:12 - 43:13]
+Forecasting means.
+
+[43:13 - 43:15]
+Anda menentukan apakah trend nya sedang bull.
+
+[43:15 - 43:16]
+Atau sedang bear.
+
+[43:16 - 43:17]
+Masalah entry.
+
+[43:17 - 43:19]
+Kita akan bahas di chapter selanjutnya.
+
+[43:19 - 43:21]
+Setelah anda menentukan support dan resistance.
+
+[43:21 - 43:22]
+Oke.
+
+[43:22 - 43:23]
+Demikianlah.
+
+[43:24 - 43:24]
+Tutorial.
+
+[43:24 - 43:26]
+How to predict the next trend.
+
+[43:26 - 43:28]
+Kita akan bertemu di chapter selanjutnya.
+
+[43:28 - 43:31]
+Menemukan support dan resistance dengan cara yang sangat mudah.
+

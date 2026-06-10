@@ -1,0 +1,1607 @@
+Source: Ch06 - Trend Line Application For Short Term Trading.mp3
+Language Mode: Indonesian
+Detected: id (100.0%)
+Transcribed: 2026-03-28 01:11:33
+==================================================
+
+Pada chapter ini Anda akan mempelajari tentang trendline ; Trendline merupakan sebuah alat untuk memvisualisasikan pola yang terjadi di market ; Dalam tahap ini dengan menggunakan trendline Anda akan mendapatkan benefit yang luar biasa ; Karena Anda akan mengukur kekuatan harga, kecepatan harga, dan power yang ada di dalam trend itu sendiri ; Ini merupakan rahasia besar daripada trendline ; Sehingga Anda bisa tahu kalau terjadi trend bullish, maka trend bullish ini sekuat apa ; Dan kalau terjadi trend bearish, sekuat apa ; Di dalam trendline kita memerlukan 2 swing low atau swing high minimal ; Kita sebelumnya sudah mempelajari bagaimana menentukan swing low dan swing high ; Pada saat kita menggambarkan trendline artinya kita mengkonekkan 2 titik swing low atau 2 titik swing high ; Di dalam trend bearish kita mengkonekkan 2 titik swing high ; Anda bisa lihat di ilustrasi ; Kalau sebelumnya ada primary dan secondary yang terbentuk ; Maka ; Maka swing high nya ; Titik-titik high nya ini dikonekkan minimal ada 2 titik ; Dan pada saat 2 titik ini dikonekkan ke sebelah kanan dari cat ; Diharapkan primary dan secondary nya akan mengikuti ; Selama trendline ini tidak ditembus ; Artinya pergerakan harga tidak naik di atas trendline ; Atau tidak turun di bawah trendline pada saat bullish ; Sebagai contoh kalau di dalam bullish ilustrasinya seperti ini ; Selama kaki-kaki yang sudah dikonekkan ini tetap terkonek ; Dan harga tidak membentuk pelemahan di bawah itu ; Maka trend dianggap tetap valid untuk ke atas ; Jadi ini adalah konsep pergerakan trendline minimal 2 ; Nah sekarang saya akan membahas kepada Anda 3 hal yang penting benefit menggunakan trendline ; Yang pertama Anda mengetahui power daripada trendline ; Bagaimana caranya? ; Pergerakan harga yang serius atau di dalam trend yang serius ; Dia bergerak di dalam 45 derajat ; Bagaimana cara mengukur 45 derajat? ; Maksudnya bagaimana Anda lihat ilustrasi ; Dalam pergerakan chart itu selalu ; Dia bergerak di dalam vektor ; Jadi ada unsur waktu dan unsur harga ; Kemudian harga itu sebenarnya bergerak secara diagonal ; Karena dia pasti bergerak ke kanan ; Dan otomatis semakin dia bergerak ke kanan ; Dia harus naik dalam waktu yang sudah ditetapkan ; Misalnya satuan waktu 1 hari ; Kenaikan 1% ; Naik 2 hari 2% ; 3 hari 3% ; Artinya dia membentuk sudut 45 derajat kemiringannya ; Seperti contoh di samping ini ; Saya memberikan Anda gambar chart real time ; Pada saat Anda melihat gambar ini ; Anda akan mengetahui bahwa saat ini ; Harga bergerak di dalam kondisi bearish ; Saya mengambil contoh pada gold ; Dan akan dikonekkan ; Dari puncak swing high dan swing high ditarik ; Dan pergerakan harga berada di bawahnya ; Kemudian Anda juga melihat ; Ini adalah trend bullish pada saat dikonekkan ; Dari low ke low nya minimal 2 ; Dan terlihat pergerakan harganya sedang dalam kondisi bullish ; Nah 45 derajat ; Kita lanjutkan yang tadi ; 45 derajat ; Berarti apabila satu satuan waktu dan satu satuan harga bergerak ; Berkesinambungan artinya ; Bergerak sama-sama ya ; 1 hari 1% 2 hari 2% ; Maka 45 degree akan terbentuk ; Tetapi pada saat Anda memerlukan ; Waktu 2 hari untuk 1% ; Ini akan melandaikan trend line ; Dan apabila trend line nya sudah landai seperti ini ; Maka akan sangat berisiko untuk Anda ; Dalam trading kita tidak akan memilih pergerakan harga yang landai ; Jadi kekuatan arah harga bisa dilihat dari trend line ; Kemudian yang kedua ; Pada saat kecepatan ; Kecepatan harga tentunya ; Kita bisa lihat waktu dia bergerak di dalam 45 derajat ; Candlestick yang terbentuk ; Itu muncul range-range lebar ; Artinya semakin banyak marabouzu candle ; Yang terbentuk ; Maka akan semakin baik ; Artinya apa ; Kecepatan geraknya sangat-sangat agresif ; Kita hanya akan trading pada saham-saham yang agresif ; Atau pada futures market dengan pair-pair yang agresif ; Artinya range bergeraknya sangat-sangat agresif ; Pergerakan harganya cukup lebar ; Banyak body-body candle yang besar ; Dan hindari pergerakan harga yang pendek-pendek ; Karena range nya itu kalau kecil-kecil seperti itu akan berbahaya ; Artinya apa ; Market nya akan slow down ; Dan tidak begitu bereaksi pada kekuatan trend nya ; Dan Anda tidak akan mendapatkan profit yang optimal ; Hanya membuang-buang waktu saja ; Jadi dengan trend line ini ; Kita yang pertama bisa mengetahui ; Kekuatan arah harga melalui arah trend nya ; Kemudian kecepatan harga ; Dan yang ketiga Anda bisa mengetahui ; Pada saat apa dia akan mematahkan arah trend nya ; Nah arah trend yang akan dipatahkan menggunakan teori 1234 ; Yang akan saya bahas di aplikasi ; Jadi dengan menggunakan trend line kita tahu ; Saya berikan summary singkatnya ; Trend line diambil dari satu titik ke titik yang lain ; Menghubungkan dua swing low dengan swing low untuk bullish ; Menghubungkan dua swing high dan swing high untuk bearish ; Dan juga trend line bisa di adjust ; Jadi ada adjustment di trend line ; Karena kita tahu bahwa pergerakan arah harga ini bergerak di dalam ; Fase akumulasi kemudian dia masuk partisipasi ; Yang saya akan tunjukkan nanti di dalam real chart ; Yang akan kita pelajari di aplikasi ; Tetapi perlu Anda ketahui bahwa trend line itu ada kesempatan untuk di adjust ; Dia tidak sangat fix atau kaku ; Tidak tapi kita bisa melakukan adjustment ; Itu yang pertama ; Dan yang kedua tidak semua pergerakan harga bisa di adjust ; Nah pertanyaannya apakah trend line ini ; Boleh kita tarik di tengah-tengah body atau bagaimana ; Tidak trend line harus ditarik di ujung-ujung harga ; Jadi ujung dari swing low atau ujung dari swing high ; Itu yang harus ditarik ; Dan itulah yang disebut trend line ; Karena trend line ini akan membantu Anda ; Tidak semua market juga bisa muncul trend line ; Ada market yang tidak muncul trend line nya ; Tetapi dengan adanya trend line ; Kita bisa memprediksi kekuatan dari harga ; Salah satu keburukan daripada trend line adalah ; Apabila Anda menggunakan trend line untuk support dan resistance ; Biasanya orang-orang menggunakan trend line untuk support dan resistance ; Tetapi saya tidak merekomendasikan ; Karena support dan resistance dengan market yang volatile ; Itu akan banyak false break di trend line ; Sehingga ini seringkali tidak valid ; Jadi seperti contoh misalnya Anda sudah menggambar ; Seperti di ilustrasi ini lalu tiba-tiba ada whip show ; Whip show atau ekor-ekor kaki ; Maka akan terlalu banyak noise yang ada di trend line ; Dan ini kita tidak rekomendasikan ; Kita akan membahas trend line lebih lanjut di aplikasi ; Saat ini kita akan melanjutkan ; Aplikasi dari trend line ; Sebelumnya Anda sudah mendengar tentang teori ; Anda sudah mempelajari fungsi dari trend line ; Kita bisa melihat power ; Kita bisa melihat speed dari trend tersebut ; Nah sekarang bagaimana secara menggambarnya ; Pada dasarnya trend line ini kita tahu bahwa ; Seringkali orang menggunakan untuk support dan resistance ; Jadi support dan resistance tidak hanya ada dynamic ; Tidak hanya ada classic ; Tetapi seringkali orang menggunakan support dan resistance ; Dengan trend line ; Tapi ; Di dalam perjalanannya ; Seorang nasi melihat bahwa ; Hal ini kurang baik ; Karena noise daripada market itu seringkali ; Melakukan penetrasi terhadap trend line ; Dan itu merugikan ; Karena akan membuat trend line itu tidak valid lagi ; Lantas pada akhirnya trend line ini kita gunakan sebagai ; Parameter ; Untuk menentukan direction ; Kemudian untuk menentukan ; Pembalikan arah harga ; Pada saat kita bisa melihat pembalikan arah harga ; Anda akan melihat bahwa ; The reversal of the trend itu valid ; Dan kemudian Anda akan menemukan bahwa ; Oh ternyata ini tandanya bahwa trend itu sudah reverse ; Kalau trend itu sudah reverse ; Maka yang harus Anda lakukan adalah ; Bersiap-siap mengambil posisi sebaliknya ; Jadi trend line yang akan kita gunakan disini adalah ; Untuk mengukur ; Reversal trend dari ; Trend itu sendiri ; Jadi melihat apakah sudah ; Reversal atau belum ; Ini yang akan kita pelajari ; Salah satu aturan untuk menarik trend line ; Adalah menghubungkan 2 titik swing ; Minimal ; Jadi kalau dalam IISG kali ini ; Kita akan menghubungkan 2 titik swing ; Dan kita menemukan ini adalah arah trend seperti ini ; Lalu Anda akan mengenal yang disebut ; Trend line adjustment ; Bahwa trend line itu bisa di adjust karena kita tahu ; Bahwa ada sebuah ; Fase dimana kita menyebutnya ; Bullish participation ; Dia naik dengan ekstrim ; Dan kemiringannya lebih miring daripada yang sebelumnya ; Sehingga untuk kali ini ; Anda harus menghubungkannya ; Dari titik terbaru ; Lalu kita tarik ke atas mencari ; Support ; Karena disini tidak ada support yang signifikan ya ; Jadi kita mencari dulu ; Sekiranya trend line itu dibuat ; Apabila referensinya tidak ada ; Sebelum harga terjadi ; Maka referensi yang kita buat adalah ; Menggambar trend line dengan sudut kemiringan ; 45 derajat ; Kurang lebih disini ; Dan menggambar trend line dengan sudut kemiringan ; 62,5 derajat ; Kurang lebih disini ; Maka ini arah ya ; Ini bukan trend line ; Maka pada saat harga itu bergerak ; Jalan seperti ini ; Kita bisa adjust kita turunkan sedikit misalnya ; Disini ; Dan inilah trend ; Yang kita sebut dengan bullish trend ; Tetapi sebelumnya Anda harus ingat bahwa ; Chart scale ; Itu harus selalu logaritmik ; Karena akan sangat beda sekali antara aritmatik ; Dengan logaritmik ; Pada kesempatan lain lagi kita akan bahas tentang ini ; Tetapi yang jelas harus selalu logaritmik ; Tetapi tidak semua chart memiliki logaritmik ; Kalau kita bicara di meta trader ; Selalu aritmatik ; Jadi trend line itu sebenarnya ; Kurang begitu valid apalagi kalau dipakai ; Untuk support resistance ya untuk menentukan ; Apakah ini sudah break support dari ; Trend line ; Jadi kalau ini trend line ; Maka break support itu turun ke bawah seperti ini ; Kalau kita aritmatik dia ; Akan lebih lambat ya ; Sedangkan apabila chart tersebut ; Tidak memiliki logaritmik ini akan jadi masalah ; Nah dalam kasus seperti ini ; Yang harus kita lakukan bullish ; Itu di bawah trend line nya ; Kemudian kalau ; Bearish itu nanti trend line di atas ; Kita coba ; Pada saat kita sudah connect kan dua ; Tiba-tiba harga kemiringannya jauh ; Diatas maka anda bisa ; Konekkan sekali lagi ; Di adjust ya ; Yang akan menjadi ; Point of interest kita ; Adalah pada saat trend line itu ; Ditembus ; Pada saat harga itu tidak mampu lagi lurus ; Tidak mampu lagi naik ; Lebih tinggi lagi disini karena pada saat ; Harga naik lebih tinggi disini ; Lebih tinggi disini ; Yang bisa kita lakukan adalah ; Hmm ; Kita melakukan ; Posisi kita adalah ; Hold ya kita hold dulu sampai dia ; Tidak mampu lagi kalau dia break ; Kalau dia bisa lebih tinggi ini yang namanya trend line ; Ini akan terus up ke atas ; Ya akan terus up ke atas ; Hmm ; Harganya akan bergerak ; Ke atas dan cukup aman ; So ; Dalam kasus ini ; Ini turun dia hempaskan ke bawah ; Maka otomatis ini akan ; Menjadi ; 1 2 3 4 ini ; Penting sekali pada saat dia ; Break 1 2 3 4 ini ; Kita akan melihat bahwa trend itu akan ; Menjadi bearish pada saat ; 4 ini terjadi dimana 4 ini terjadi ketika ; 2 ini ; Ditembus ; Dan 1 2 3 4 valid ; Artinya memang betul ini ; Dalam kondisi trend bearish pendek ; Itu cara menggambar trend line ; Dan bagaimana caranya anda ; Untuk melihat trend itu sudah ; Berubah ke belum itu fokus utama ; Mari kita lihat dari ; Saham yang lain misalnya kita lihat ; Saham bank BCA ; Sejak awal saham bank BCA ini sudah ; Ekstrim ya kenaikannya ; Dan kita tarik begini ; Lalu ; Harga tidak menembus tetapi bergeser ke kanan ; Atau dia bergeraknya semakin landai ; Tapi dia tidak menembus sebenarnya ; Karena ini sudah habis disini ; Kita harus melakukan adjustment ; Kalau kita lihat adjustment berarti ; Ini adalah yang terakhir ya ; Karena ini adalah konsolidasi yang paling banyak ; Jadi ini saya tarik kesini ; Untuk mencari gambaran yang lebih jelas ; Karena di bagian ini ; Kemiringan ini sudah diambil dari ; Kerainan yang ada di bawah ; Artinya ini harga masih bisa bertahan ; Once atau ketika ini tembus ke bawah ; Langsung anda harus ; Berikan penomoran disini 1 ; Kemudian disini 2 ; Disini 3 ; Dan pada saat ; Titik ini ditembus ; Anda jangan berpikir lagi ; Untuk buy BCA sampai ; Selesai membentuk ; Sebuah pelemahan harga ; Sampai ke bawah ; Oke ; Dan pada saat ini terjadi ; Kita akan melakukan pembelian disini ; Dan trendline itu akan otomatis berubah ; Menjadi bearish dimana kalau bearish ; Itu bagian atas yang ditarik ; Bagian atas yang ditarik ; Ini penting sekali untuk kita ; Pahami di bagian ini ; Dan ; Pada saat kita menggambar ; Apapun trend bearish ataupun bullish ; Lalu mengkonekkan 2 titik ; Jadi misalnya ini sedang sideways ; Tapi mari kita asumsikan ini bearish ; Saya akan konekkan begini ; Kita konekkan begini ; Pada saat ; Dia tembus misalnya ; Ini langsung bagian bottom nomor 1 ; Kita mencari swing tapi ; Ini kasus khusus dimana ; Penguatannya benar-benar ekstrim sekali ; Tidak ada swing lagi ; Dan ini benar-benar ekstrim ; Kita belum bisa menggunakan 1,2,3,4 ; Tetapi otomatis jelas anda bisa melihat ; Bahwa dengan kekuatan seperti itu ; Otomatis akan menjadi bullish ; Sangat-sangat bullish ; Bagaimana dengan was kita ; Ini salah satu contoh yang baik ; Kita menarik trendline ; Dari mana? ; Bisa dari sini katakan ; Dan ini kena semua ya ; Kenapa boleh dari situ ; Karena ini merupakan konsolidasi ; Kita tidak perlu bercerita dari awal ; Tapi untuk training mungkin kita bisa pakai ; Dari sini ; Dia ternyata break ; Pada saat dia break ; Ke bawah ; Saya langsung akan gunakan disini 1 ; Kemudian disini 2 ; 3 dan 4 ; Artinya sudah selesai ; Dan pada saat 2 ini sudah ditembus ; Maka trendline ini akan berubah menjadi seperti ini ; Sehingga kita tahu ; Kenaikan ini akan berhenti disini ; Dan turun lagi ; Kalaupun dia naik karena ; Trendnya mulai berubah menjadi ; New short term bearish ; Walaupun weekly nya masih belum ya ; Weekly nya masih very strong ; Ini yang harus kita pelajari ; Bagaimana cara menarik trendline ; Bagaimana dengan saham yang lain ; Misalnya ; Kita melihat saham teams ; Dari sini ya ; Katakan yang sudah terjadi dulu ; Kita menarik seperti ini ; Dari atas ; Ini adalah cara menarik trendline ; Bearish ; Dalam kasus ini juga karena ; Formula nya trendline nya disini ; Lalu pas harga naik cukup tajam kita tarik ; Begitu dia sampai ke atas ; Ini adalah ; 1 ; Ini adalah 2 ; Ini adalah 3 ; Dan dia break ini menjadi short term bearish ; Pada saat dia break 1 point saja ; Langsung trendline nya berubah menjadi seperti ini ; Dan ; Kemudian ini mengikuti ya ; Karena dia mengikuti ke bawah ; Kita geser ; Selama dia tidak menembus 2 trendline yang ke bawah ini ; Maka dia akan terus ; Ke bawah sampai strong support ; Kembali lagi ke teori support ; Ini adalah strong support ; Maka target price nya adalah ke bawah ; Dan ini kita bisa extend ; Kita bisa tarik sampai bawah ; Karena ini merupakan strong ; Resistance ; Maksud saya ini strong resistance dan ini strong support ; Jadi ini trendline nya ; Menjadi penghalang ; Dan secondary reaction akan terus disitu ; Jadi trendline ini simple ; Anda sekarang sudah tahu cara menarik trendline ; Tidak susah ; Dan ; Tujuan daripada cara menarik trendline ; Supaya kita bisa mengikuti ; Ini kecepatannya berarti tinggi ; Kalau kemiringannya ke atas ; Berarti dia memiliki power yang cukup kuat ; Power nya baik ; Semakin dia landai ; Kita tidak mau ; Karena power nya kurang ; Oke ; Dan itu yang harus benar-benar di pertimbangkan ; Untuk ; Melakukan trading ; Dalam kasus gold contohnya ; Misalnya di time frame yang besar ; Ini adalah tarikan pertama ; Kemudian ini ; Tarikan kedua ; Terlihat disini harga mulai bergeser ; Maka saya akan mencoba menarik dari sini karena ada ; Ya ; Jadi dalam hal ini ; Pergerakan harga sebenarnya masih beris ; Sehingga belum ada ; Satu moment yang bisa kita gunakan ; Untuk breaking out ; Dan ini penting sekali kalau kita sudah tahu seperti ini ; Kita mencari posisi ; Untuk sell selama dia tidak berbalik arah ; Kita turunkan ke ; H1 ; Kita masih bisa ; Berharap akan sell ; Dengan target kurang lebih di ; Strong support ; Untuk saat ini ada disini ; Ya ; Jadi masih ada chance untuk dia ; Turun sampai disini ; Dan mungkin baru akan naik ; Jadi dari sini kita bisa lihat menarik trendline ; Dalam scope yang lebih kecil disini ; Ini akan membuat ; Kita ; Melihat bahwa ; Ternyata pergerakan harga yang seperti ini ; Masih beris ; Dan belum ada satu penetrasi ; Sehingga kalaupun dia naik sampai disini pun ; Dia akan kembali turun lagi ; Sementara waktu ; Ini yang bisa membantu kita untuk ; Identifikasi trend itu seperti apa ; Ini fokusnya belum untuk entry ; Tetapi untuk memproyeksi harga bahwa ; Oke ini masih trend turun beris ; Target price nya di area warna ; Kuning dan kita tinggal ; Mencari kalau ini adalah ; Kepala cangkul ; Ini badan cangkulnya ; Maka ini adalah downside movement ; Oke ; Nah ini yang ; Perlu diperhatikan ; Bagaimana caranya ; Kita bisa trading dengan benar ; Melihat arah trend dengan trendline ; Menggabungkannya dengan support resistance ; Dan kita menggabungkannya juga dengan ; Eem ; Primary and secondary trend ; Khususnya ; Kita juga bisa lihat di GPP Jepang ; Memiliki satu kesamaan ; Trendline seperti ini ; Anda adjust kesini selama dia tidak menembus ini ; Dan artinya bearish trend ; Masih memegang kendali ; Nah dalam hal ini kita benar-benar bisa mengetahui ; Fungsi dari dynamic support ; Juga ini ada ekor panjang ; Seperti yang kita sudah bahas ; Masuk di area magnet atau di area dynamic resistance ; Ada ekor panjang kemudian dia drop ; Kita katakan entry di bawah ; Di bawahnya sini anda sudah dapat 30 pips ; Sampai sekarang 70an ; Jadi itu cara yang fix ; Karena harga itu bergerak seperti itu saja ; Tidak akan bergerak dengan cara lain ; Kalau anda bisa mahir disini ; Anda menggunakan trendline juga ; Maka anda akan sangat berhati-hati dalam trading ; Anda bisa mengantisipasi pembalikan arah ; Yang secara tiba-tiba ; Demikianlah materi trendline ; Dan anda harus mengaplikasikannya di dalam strategi trading ; Untuk mewaspadai pembalikan arah ; Sukses selalu untuk anda kita bertemu di chapter berikutnya
+
+==================================================
+TIMESTAMPS:
+
+[00:01 - 00:26]
+Pada chapter ini Anda akan mempelajari tentang trendline
+
+[00:26 - 00:32]
+Trendline merupakan sebuah alat untuk memvisualisasikan pola yang terjadi di market
+
+[00:32 - 00:37]
+Dalam tahap ini dengan menggunakan trendline Anda akan mendapatkan benefit yang luar biasa
+
+[00:37 - 00:43]
+Karena Anda akan mengukur kekuatan harga, kecepatan harga, dan power yang ada di dalam trend itu sendiri
+
+[00:43 - 00:45]
+Ini merupakan rahasia besar daripada trendline
+
+[00:45 - 00:50]
+Sehingga Anda bisa tahu kalau terjadi trend bullish, maka trend bullish ini sekuat apa
+
+[00:50 - 00:53]
+Dan kalau terjadi trend bearish, sekuat apa
+
+[00:53 - 00:59]
+Di dalam trendline kita memerlukan 2 swing low atau swing high minimal
+
+[00:59 - 01:02]
+Kita sebelumnya sudah mempelajari bagaimana menentukan swing low dan swing high
+
+[01:02 - 01:09]
+Pada saat kita menggambarkan trendline artinya kita mengkonekkan 2 titik swing low atau 2 titik swing high
+
+[01:09 - 01:13]
+Di dalam trend bearish kita mengkonekkan 2 titik swing high
+
+[01:13 - 01:15]
+Anda bisa lihat di ilustrasi
+
+[01:15 - 01:19]
+Kalau sebelumnya ada primary dan secondary yang terbentuk
+
+[01:19 - 01:20]
+Maka
+
+[01:20 - 01:21]
+Maka swing high nya
+
+[01:21 - 01:24]
+Titik-titik high nya ini dikonekkan minimal ada 2 titik
+
+[01:24 - 01:30]
+Dan pada saat 2 titik ini dikonekkan ke sebelah kanan dari cat
+
+[01:30 - 01:33]
+Diharapkan primary dan secondary nya akan mengikuti
+
+[01:33 - 01:36]
+Selama trendline ini tidak ditembus
+
+[01:36 - 01:38]
+Artinya pergerakan harga tidak naik di atas trendline
+
+[01:38 - 01:42]
+Atau tidak turun di bawah trendline pada saat bullish
+
+[01:42 - 01:45]
+Sebagai contoh kalau di dalam bullish ilustrasinya seperti ini
+
+[01:46 - 01:49]
+Selama kaki-kaki yang sudah dikonekkan ini tetap terkonek
+
+[01:49 - 01:51]
+Dan harga tidak membentuk pelemahan di bawah itu
+
+[01:51 - 01:55]
+Maka trend dianggap tetap valid untuk ke atas
+
+[01:55 - 01:58]
+Jadi ini adalah konsep pergerakan trendline minimal 2
+
+[01:58 - 02:04]
+Nah sekarang saya akan membahas kepada Anda 3 hal yang penting benefit menggunakan trendline
+
+[02:04 - 02:08]
+Yang pertama Anda mengetahui power daripada trendline
+
+[02:08 - 02:09]
+Bagaimana caranya?
+
+[02:09 - 02:12]
+Pergerakan harga yang serius atau di dalam trend yang serius
+
+[02:12 - 02:14]
+Dia bergerak di dalam 45 derajat
+
+[02:14 - 02:16]
+Bagaimana cara mengukur 45 derajat?
+
+[02:16 - 02:18]
+Maksudnya bagaimana Anda lihat ilustrasi
+
+[02:19 - 02:21]
+Dalam pergerakan chart itu selalu
+
+[02:21 - 02:22]
+Dia bergerak di dalam vektor
+
+[02:22 - 02:25]
+Jadi ada unsur waktu dan unsur harga
+
+[02:25 - 02:27]
+Kemudian harga itu sebenarnya bergerak secara diagonal
+
+[02:27 - 02:29]
+Karena dia pasti bergerak ke kanan
+
+[02:29 - 02:32]
+Dan otomatis semakin dia bergerak ke kanan
+
+[02:32 - 02:35]
+Dia harus naik dalam waktu yang sudah ditetapkan
+
+[02:35 - 02:38]
+Misalnya satuan waktu 1 hari
+
+[02:38 - 02:39]
+Kenaikan 1%
+
+[02:40 - 02:41]
+Naik 2 hari 2%
+
+[02:41 - 02:43]
+3 hari 3%
+
+[02:43 - 02:46]
+Artinya dia membentuk sudut 45 derajat kemiringannya
+
+[02:46 - 02:48]
+Seperti contoh di samping ini
+
+[02:48 - 02:50]
+Saya memberikan Anda gambar chart real time
+
+[02:50 - 02:53]
+Pada saat Anda melihat gambar ini
+
+[02:53 - 02:54]
+Anda akan mengetahui bahwa saat ini
+
+[02:55 - 02:57]
+Harga bergerak di dalam kondisi bearish
+
+[02:57 - 02:58]
+Saya mengambil contoh pada gold
+
+[02:58 - 03:00]
+Dan akan dikonekkan
+
+[03:01 - 03:03]
+Dari puncak swing high dan swing high ditarik
+
+[03:03 - 03:05]
+Dan pergerakan harga berada di bawahnya
+
+[03:05 - 03:07]
+Kemudian Anda juga melihat
+
+[03:07 - 03:09]
+Ini adalah trend bullish pada saat dikonekkan
+
+[03:09 - 03:11]
+Dari low ke low nya minimal 2
+
+[03:11 - 03:15]
+Dan terlihat pergerakan harganya sedang dalam kondisi bullish
+
+[03:15 - 03:17]
+Nah 45 derajat
+
+[03:17 - 03:18]
+Kita lanjutkan yang tadi
+
+[03:18 - 03:19]
+45 derajat
+
+[03:19 - 03:23]
+Berarti apabila satu satuan waktu dan satu satuan harga bergerak
+
+[03:23 - 03:24]
+Berkesinambungan artinya
+
+[03:24 - 03:26]
+Bergerak sama-sama ya
+
+[03:26 - 03:29]
+1 hari 1% 2 hari 2%
+
+[03:29 - 03:30]
+Maka 45 degree akan terbentuk
+
+[03:30 - 03:32]
+Tetapi pada saat Anda memerlukan
+
+[03:33 - 03:35]
+Waktu 2 hari untuk 1%
+
+[03:35 - 03:38]
+Ini akan melandaikan trend line
+
+[03:38 - 03:40]
+Dan apabila trend line nya sudah landai seperti ini
+
+[03:41 - 03:43]
+Maka akan sangat berisiko untuk Anda
+
+[03:43 - 03:46]
+Dalam trading kita tidak akan memilih pergerakan harga yang landai
+
+[03:46 - 03:49]
+Jadi kekuatan arah harga bisa dilihat dari trend line
+
+[03:49 - 03:49]
+Kemudian yang kedua
+
+[03:49 - 03:51]
+Pada saat kecepatan
+
+[03:51 - 03:53]
+Kecepatan harga tentunya
+
+[03:53 - 03:56]
+Kita bisa lihat waktu dia bergerak di dalam 45 derajat
+
+[03:56 - 03:58]
+Candlestick yang terbentuk
+
+[03:58 - 04:01]
+Itu muncul range-range lebar
+
+[04:01 - 04:03]
+Artinya semakin banyak marabouzu candle
+
+[04:03 - 04:04]
+Yang terbentuk
+
+[04:04 - 04:06]
+Maka akan semakin baik
+
+[04:06 - 04:06]
+Artinya apa
+
+[04:07 - 04:09]
+Kecepatan geraknya sangat-sangat agresif
+
+[04:09 - 04:11]
+Kita hanya akan trading pada saham-saham yang agresif
+
+[04:11 - 04:15]
+Atau pada futures market dengan pair-pair yang agresif
+
+[04:15 - 04:16]
+Artinya range bergeraknya sangat-sangat agresif
+
+[04:16 - 04:17]
+Pergerakan harganya cukup lebar
+
+[04:18 - 04:19]
+Banyak body-body candle yang besar
+
+[04:19 - 04:23]
+Dan hindari pergerakan harga yang pendek-pendek
+
+[04:23 - 04:26]
+Karena range nya itu kalau kecil-kecil seperti itu akan berbahaya
+
+[04:26 - 04:27]
+Artinya apa
+
+[04:27 - 04:29]
+Market nya akan slow down
+
+[04:29 - 04:34]
+Dan tidak begitu bereaksi pada kekuatan trend nya
+
+[04:34 - 04:36]
+Dan Anda tidak akan mendapatkan profit yang optimal
+
+[04:36 - 04:38]
+Hanya membuang-buang waktu saja
+
+[04:38 - 04:39]
+Jadi dengan trend line ini
+
+[04:39 - 04:42]
+Kita yang pertama bisa mengetahui
+
+[04:43 - 04:46]
+Kekuatan arah harga melalui arah trend nya
+
+[04:46 - 04:47]
+Kemudian kecepatan harga
+
+[04:47 - 04:50]
+Dan yang ketiga Anda bisa mengetahui
+
+[04:50 - 04:54]
+Pada saat apa dia akan mematahkan arah trend nya
+
+[04:54 - 04:58]
+Nah arah trend yang akan dipatahkan menggunakan teori 1234
+
+[04:58 - 05:00]
+Yang akan saya bahas di aplikasi
+
+[05:00 - 05:02]
+Jadi dengan menggunakan trend line kita tahu
+
+[05:02 - 05:04]
+Saya berikan summary singkatnya
+
+[05:04 - 05:08]
+Trend line diambil dari satu titik ke titik yang lain
+
+[05:08 - 05:11]
+Menghubungkan dua swing low dengan swing low untuk bullish
+
+[05:11 - 05:14]
+Menghubungkan dua swing high dan swing high untuk bearish
+
+[05:14 - 05:16]
+Dan juga trend line bisa di adjust
+
+[05:16 - 05:18]
+Jadi ada adjustment di trend line
+
+[05:18 - 05:22]
+Karena kita tahu bahwa pergerakan arah harga ini bergerak di dalam
+
+[05:23 - 05:25]
+Fase akumulasi kemudian dia masuk partisipasi
+
+[05:25 - 05:28]
+Yang saya akan tunjukkan nanti di dalam real chart
+
+[05:28 - 05:29]
+Yang akan kita pelajari di aplikasi
+
+[05:29 - 05:33]
+Tetapi perlu Anda ketahui bahwa trend line itu ada kesempatan untuk di adjust
+
+[05:33 - 05:35]
+Dia tidak sangat fix atau kaku
+
+[05:35 - 05:37]
+Tidak tapi kita bisa melakukan adjustment
+
+[05:37 - 05:38]
+Itu yang pertama
+
+[05:38 - 05:42]
+Dan yang kedua tidak semua pergerakan harga bisa di adjust
+
+[05:42 - 05:44]
+Nah pertanyaannya apakah trend line ini
+
+[05:45 - 05:49]
+Boleh kita tarik di tengah-tengah body atau bagaimana
+
+[05:49 - 05:52]
+Tidak trend line harus ditarik di ujung-ujung harga
+
+[05:52 - 05:54]
+Jadi ujung dari swing low atau ujung dari swing high
+
+[05:54 - 05:56]
+Itu yang harus ditarik
+
+[05:56 - 05:58]
+Dan itulah yang disebut trend line
+
+[05:58 - 06:00]
+Karena trend line ini akan membantu Anda
+
+[06:00 - 06:02]
+Tidak semua market juga bisa muncul trend line
+
+[06:02 - 06:04]
+Ada market yang tidak muncul trend line nya
+
+[06:04 - 06:06]
+Tetapi dengan adanya trend line
+
+[06:06 - 06:08]
+Kita bisa memprediksi kekuatan dari harga
+
+[06:08 - 06:11]
+Salah satu keburukan daripada trend line adalah
+
+[06:11 - 06:14]
+Apabila Anda menggunakan trend line untuk support dan resistance
+
+[06:15 - 06:17]
+Biasanya orang-orang menggunakan trend line untuk support dan resistance
+
+[06:17 - 06:19]
+Tetapi saya tidak merekomendasikan
+
+[06:19 - 06:22]
+Karena support dan resistance dengan market yang volatile
+
+[06:22 - 06:25]
+Itu akan banyak false break di trend line
+
+[06:25 - 06:27]
+Sehingga ini seringkali tidak valid
+
+[06:27 - 06:30]
+Jadi seperti contoh misalnya Anda sudah menggambar
+
+[06:30 - 06:32]
+Seperti di ilustrasi ini lalu tiba-tiba ada whip show
+
+[06:32 - 06:34]
+Whip show atau ekor-ekor kaki
+
+[06:34 - 06:37]
+Maka akan terlalu banyak noise yang ada di trend line
+
+[06:37 - 06:38]
+Dan ini kita tidak rekomendasikan
+
+[06:38 - 06:41]
+Kita akan membahas trend line lebih lanjut di aplikasi
+
+[06:41 - 06:48]
+Saat ini kita akan melanjutkan
+
+[06:48 - 06:50]
+Aplikasi dari trend line
+
+[06:50 - 06:52]
+Sebelumnya Anda sudah mendengar tentang teori
+
+[06:53 - 06:55]
+Anda sudah mempelajari fungsi dari trend line
+
+[06:55 - 06:56]
+Kita bisa melihat power
+
+[06:56 - 06:58]
+Kita bisa melihat speed dari trend tersebut
+
+[06:58 - 07:01]
+Nah sekarang bagaimana secara menggambarnya
+
+[07:01 - 07:04]
+Pada dasarnya trend line ini kita tahu bahwa
+
+[07:04 - 07:07]
+Seringkali orang menggunakan untuk support dan resistance
+
+[07:07 - 07:10]
+Jadi support dan resistance tidak hanya ada dynamic
+
+[07:10 - 07:12]
+Tidak hanya ada classic
+
+[07:12 - 07:14]
+Tetapi seringkali orang menggunakan support dan resistance
+
+[07:14 - 07:16]
+Dengan trend line
+
+[07:16 - 07:17]
+Tapi
+
+[07:17 - 07:19]
+Di dalam perjalanannya
+
+[07:19 - 07:20]
+Seorang nasi melihat bahwa
+
+[07:20 - 07:22]
+Hal ini kurang baik
+
+[07:22 - 07:26]
+Karena noise daripada market itu seringkali
+
+[07:28 - 07:30]
+Melakukan penetrasi terhadap trend line
+
+[07:30 - 07:33]
+Dan itu merugikan
+
+[07:33 - 07:36]
+Karena akan membuat trend line itu tidak valid lagi
+
+[07:36 - 07:40]
+Lantas pada akhirnya trend line ini kita gunakan sebagai
+
+[07:42 - 07:42]
+Parameter
+
+[07:43 - 07:45]
+Untuk menentukan direction
+
+[07:45 - 07:47]
+Kemudian untuk menentukan
+
+[07:47 - 07:49]
+Pembalikan arah harga
+
+[07:49 - 07:52]
+Pada saat kita bisa melihat pembalikan arah harga
+
+[07:53 - 07:55]
+Anda akan melihat bahwa
+
+[07:56 - 07:59]
+The reversal of the trend itu valid
+
+[07:59 - 08:01]
+Dan kemudian Anda akan menemukan bahwa
+
+[08:01 - 08:03]
+Oh ternyata ini tandanya bahwa trend itu sudah reverse
+
+[08:03 - 08:05]
+Kalau trend itu sudah reverse
+
+[08:05 - 08:08]
+Maka yang harus Anda lakukan adalah
+
+[08:09 - 08:11]
+Bersiap-siap mengambil posisi sebaliknya
+
+[08:11 - 08:13]
+Jadi trend line yang akan kita gunakan disini adalah
+
+[08:13 - 08:15]
+Untuk mengukur
+
+[08:16 - 08:17]
+Reversal trend dari
+
+[08:18 - 08:19]
+Trend itu sendiri
+
+[08:19 - 08:21]
+Jadi melihat apakah sudah
+
+[08:21 - 08:22]
+Reversal atau belum
+
+[08:22 - 08:24]
+Ini yang akan kita pelajari
+
+[08:24 - 08:26]
+Salah satu aturan untuk menarik trend line
+
+[08:28 - 08:30]
+Adalah menghubungkan 2 titik swing
+
+[08:30 - 08:30]
+Minimal
+
+[08:30 - 08:33]
+Jadi kalau dalam IISG kali ini
+
+[08:33 - 08:34]
+Kita akan menghubungkan 2 titik swing
+
+[08:35 - 08:38]
+Dan kita menemukan ini adalah arah trend seperti ini
+
+[08:39 - 08:41]
+Lalu Anda akan mengenal yang disebut
+
+[08:41 - 08:42]
+Trend line adjustment
+
+[08:42 - 08:44]
+Bahwa trend line itu bisa di adjust karena kita tahu
+
+[08:45 - 08:45]
+Bahwa ada sebuah
+
+[08:47 - 08:49]
+Fase dimana kita menyebutnya
+
+[08:49 - 08:50]
+Bullish participation
+
+[08:50 - 08:53]
+Dia naik dengan ekstrim
+
+[08:53 - 08:55]
+Dan kemiringannya lebih miring daripada yang sebelumnya
+
+[08:55 - 08:57]
+Sehingga untuk kali ini
+
+[08:57 - 08:58]
+Anda harus menghubungkannya
+
+[08:59 - 09:00]
+Dari titik terbaru
+
+[09:00 - 09:03]
+Lalu kita tarik ke atas mencari
+
+[09:03 - 09:04]
+Support
+
+[09:04 - 09:06]
+Karena disini tidak ada support yang signifikan ya
+
+[09:06 - 09:07]
+Jadi kita mencari dulu
+
+[09:08 - 09:10]
+Sekiranya trend line itu dibuat
+
+[09:10 - 09:12]
+Apabila referensinya tidak ada
+
+[09:12 - 09:14]
+Sebelum harga terjadi
+
+[09:14 - 09:15]
+Maka referensi yang kita buat adalah
+
+[09:16 - 09:18]
+Menggambar trend line dengan sudut kemiringan
+
+[09:18 - 09:19]
+45 derajat
+
+[09:20 - 09:21]
+Kurang lebih disini
+
+[09:22 - 09:24]
+Dan menggambar trend line dengan sudut kemiringan
+
+[09:24 - 09:26]
+62,5 derajat
+
+[09:26 - 09:27]
+Kurang lebih disini
+
+[09:27 - 09:29]
+Maka ini arah ya
+
+[09:29 - 09:30]
+Ini bukan trend line
+
+[09:30 - 09:33]
+Maka pada saat harga itu bergerak
+
+[09:33 - 09:35]
+Jalan seperti ini
+
+[09:35 - 09:37]
+Kita bisa adjust kita turunkan sedikit misalnya
+
+[09:37 - 09:38]
+Disini
+
+[09:40 - 09:41]
+Dan inilah trend
+
+[09:41 - 09:43]
+Yang kita sebut dengan bullish trend
+
+[09:43 - 09:45]
+Tetapi sebelumnya Anda harus ingat bahwa
+
+[09:45 - 09:47]
+Chart scale
+
+[09:47 - 09:49]
+Itu harus selalu logaritmik
+
+[09:49 - 09:51]
+Karena akan sangat beda sekali antara aritmatik
+
+[09:51 - 09:52]
+Dengan logaritmik
+
+[09:53 - 09:56]
+Pada kesempatan lain lagi kita akan bahas tentang ini
+
+[09:56 - 09:57]
+Tetapi yang jelas harus selalu logaritmik
+
+[09:57 - 10:00]
+Tetapi tidak semua chart memiliki logaritmik
+
+[10:00 - 10:01]
+Kalau kita bicara di meta trader
+
+[10:01 - 10:03]
+Selalu aritmatik
+
+[10:03 - 10:05]
+Jadi trend line itu sebenarnya
+
+[10:05 - 10:07]
+Kurang begitu valid apalagi kalau dipakai
+
+[10:07 - 10:09]
+Untuk support resistance ya untuk menentukan
+
+[10:09 - 10:11]
+Apakah ini sudah break support dari
+
+[10:11 - 10:12]
+Trend line
+
+[10:12 - 10:14]
+Jadi kalau ini trend line
+
+[10:14 - 10:16]
+Maka break support itu turun ke bawah seperti ini
+
+[10:16 - 10:18]
+Kalau kita aritmatik dia
+
+[10:19 - 10:20]
+Akan lebih lambat ya
+
+[10:20 - 10:23]
+Sedangkan apabila chart tersebut
+
+[10:23 - 10:25]
+Tidak memiliki logaritmik ini akan jadi masalah
+
+[10:25 - 10:27]
+Nah dalam kasus seperti ini
+
+[10:27 - 10:29]
+Yang harus kita lakukan bullish
+
+[10:29 - 10:32]
+Itu di bawah trend line nya
+
+[10:32 - 10:32]
+Kemudian kalau
+
+[10:34 - 10:36]
+Bearish itu nanti trend line di atas
+
+[10:36 - 10:36]
+Kita coba
+
+[10:37 - 10:39]
+Pada saat kita sudah connect kan dua
+
+[10:39 - 10:41]
+Tiba-tiba harga kemiringannya jauh
+
+[10:41 - 10:43]
+Diatas maka anda bisa
+
+[10:44 - 10:45]
+Konekkan sekali lagi
+
+[10:45 - 10:47]
+Di adjust ya
+
+[10:47 - 10:49]
+Yang akan menjadi
+
+[10:49 - 10:51]
+Point of interest kita
+
+[10:51 - 10:53]
+Adalah pada saat trend line itu
+
+[10:53 - 10:54]
+Ditembus
+
+[10:55 - 10:57]
+Pada saat harga itu tidak mampu lagi lurus
+
+[10:57 - 10:59]
+Tidak mampu lagi naik
+
+[10:59 - 11:01]
+Lebih tinggi lagi disini karena pada saat
+
+[11:01 - 11:03]
+Harga naik lebih tinggi disini
+
+[11:03 - 11:05]
+Lebih tinggi disini
+
+[11:07 - 11:09]
+Yang bisa kita lakukan adalah
+
+[11:09 - 11:10]
+Hmm
+
+[11:11 - 11:12]
+Kita melakukan
+
+[11:14 - 11:15]
+Posisi kita adalah
+
+[11:15 - 11:17]
+Hold ya kita hold dulu sampai dia
+
+[11:17 - 11:18]
+Tidak mampu lagi kalau dia break
+
+[11:18 - 11:21]
+Kalau dia bisa lebih tinggi ini yang namanya trend line
+
+[11:21 - 11:23]
+Ini akan terus up ke atas
+
+[11:23 - 11:26]
+Ya akan terus up ke atas
+
+[11:27 - 11:27]
+Hmm
+
+[11:28 - 11:29]
+Harganya akan bergerak
+
+[11:29 - 11:31]
+Ke atas dan cukup aman
+
+[11:32 - 11:32]
+So
+
+[11:33 - 11:34]
+Dalam kasus ini
+
+[11:35 - 11:37]
+Ini turun dia hempaskan ke bawah
+
+[11:37 - 11:39]
+Maka otomatis ini akan
+
+[11:39 - 11:40]
+Menjadi
+
+[11:41 - 11:43]
+1 2 3 4 ini
+
+[11:43 - 11:45]
+Penting sekali pada saat dia
+
+[11:45 - 11:47]
+Break 1 2 3 4 ini
+
+[11:47 - 11:49]
+Kita akan melihat bahwa trend itu akan
+
+[11:49 - 11:51]
+Menjadi bearish pada saat
+
+[11:51 - 11:53]
+4 ini terjadi dimana 4 ini terjadi ketika
+
+[11:55 - 11:55]
+2 ini
+
+[11:55 - 11:56]
+Ditembus
+
+[11:57 - 11:59]
+Dan 1 2 3 4 valid
+
+[11:59 - 12:01]
+Artinya memang betul ini
+
+[12:01 - 12:03]
+Dalam kondisi trend bearish pendek
+
+[12:03 - 12:05]
+Itu cara menggambar trend line
+
+[12:05 - 12:07]
+Dan bagaimana caranya anda
+
+[12:07 - 12:09]
+Untuk melihat trend itu sudah
+
+[12:09 - 12:11]
+Berubah ke belum itu fokus utama
+
+[12:11 - 12:13]
+Mari kita lihat dari
+
+[12:13 - 12:15]
+Saham yang lain misalnya kita lihat
+
+[12:15 - 12:16]
+Saham bank BCA
+
+[12:16 - 12:22]
+Sejak awal saham bank BCA ini sudah
+
+[12:23 - 12:24]
+Ekstrim ya kenaikannya
+
+[12:24 - 12:28]
+Dan kita tarik begini
+
+[12:29 - 12:30]
+Lalu
+
+[12:30 - 12:32]
+Harga tidak menembus tetapi bergeser ke kanan
+
+[12:32 - 12:34]
+Atau dia bergeraknya semakin landai
+
+[12:34 - 12:35]
+Tapi dia tidak menembus sebenarnya
+
+[12:36 - 12:38]
+Karena ini sudah habis disini
+
+[12:38 - 12:39]
+Kita harus melakukan adjustment
+
+[12:40 - 12:42]
+Kalau kita lihat adjustment berarti
+
+[12:42 - 12:43]
+Ini adalah yang terakhir ya
+
+[12:43 - 12:45]
+Karena ini adalah konsolidasi yang paling banyak
+
+[12:46 - 12:47]
+Jadi ini saya tarik kesini
+
+[12:49 - 12:51]
+Untuk mencari gambaran yang lebih jelas
+
+[12:51 - 12:52]
+Karena di bagian ini
+
+[12:52 - 12:54]
+Kemiringan ini sudah diambil dari
+
+[12:54 - 12:55]
+Kerainan yang ada di bawah
+
+[12:55 - 12:58]
+Artinya ini harga masih bisa bertahan
+
+[12:58 - 13:01]
+Once atau ketika ini tembus ke bawah
+
+[13:01 - 13:02]
+Langsung anda harus
+
+[13:02 - 13:04]
+Berikan penomoran disini 1
+
+[13:05 - 13:07]
+Kemudian disini 2
+
+[13:08 - 13:09]
+Disini 3
+
+[13:09 - 13:11]
+Dan pada saat
+
+[13:11 - 13:12]
+Titik ini ditembus
+
+[13:12 - 13:13]
+Anda jangan berpikir lagi
+
+[13:13 - 13:16]
+Untuk buy BCA sampai
+
+[13:16 - 13:17]
+Selesai membentuk
+
+[13:18 - 13:20]
+Sebuah pelemahan harga
+
+[13:20 - 13:21]
+Sampai ke bawah
+
+[13:21 - 13:22]
+Oke
+
+[13:23 - 13:25]
+Dan pada saat ini terjadi
+
+[13:25 - 13:29]
+Kita akan melakukan pembelian disini
+
+[13:29 - 13:31]
+Dan trendline itu akan otomatis berubah
+
+[13:31 - 13:33]
+Menjadi bearish dimana kalau bearish
+
+[13:33 - 13:35]
+Itu bagian atas yang ditarik
+
+[13:45 - 13:46]
+Bagian atas yang ditarik
+
+[13:47 - 13:48]
+Ini penting sekali untuk kita
+
+[13:49 - 13:51]
+Pahami di bagian ini
+
+[13:52 - 13:53]
+Dan
+
+[13:53 - 13:55]
+Pada saat kita menggambar
+
+[13:55 - 13:56]
+Apapun trend bearish ataupun bullish
+
+[13:57 - 13:58]
+Lalu mengkonekkan 2 titik
+
+[13:58 - 14:01]
+Jadi misalnya ini sedang sideways
+
+[14:01 - 14:03]
+Tapi mari kita asumsikan ini bearish
+
+[14:03 - 14:05]
+Saya akan konekkan begini
+
+[14:05 - 14:07]
+Kita konekkan begini
+
+[14:08 - 14:09]
+Pada saat
+
+[14:09 - 14:10]
+Dia tembus misalnya
+
+[14:10 - 14:12]
+Ini langsung bagian bottom nomor 1
+
+[14:12 - 14:14]
+Kita mencari swing tapi
+
+[14:14 - 14:16]
+Ini kasus khusus dimana
+
+[14:17 - 14:19]
+Penguatannya benar-benar ekstrim sekali
+
+[14:19 - 14:21]
+Tidak ada swing lagi
+
+[14:21 - 14:23]
+Dan ini benar-benar ekstrim
+
+[14:23 - 14:25]
+Kita belum bisa menggunakan 1,2,3,4
+
+[14:25 - 14:27]
+Tetapi otomatis jelas anda bisa melihat
+
+[14:27 - 14:29]
+Bahwa dengan kekuatan seperti itu
+
+[14:29 - 14:30]
+Otomatis akan menjadi bullish
+
+[14:31 - 14:32]
+Sangat-sangat bullish
+
+[14:33 - 14:35]
+Bagaimana dengan was kita
+
+[14:35 - 14:38]
+Ini salah satu contoh yang baik
+
+[14:39 - 14:41]
+Kita menarik trendline
+
+[14:41 - 14:41]
+Dari mana?
+
+[14:41 - 14:43]
+Bisa dari sini katakan
+
+[14:44 - 14:45]
+Dan ini kena semua ya
+
+[14:46 - 14:47]
+Kenapa boleh dari situ
+
+[14:48 - 14:50]
+Karena ini merupakan konsolidasi
+
+[14:50 - 14:52]
+Kita tidak perlu bercerita dari awal
+
+[14:52 - 14:54]
+Tapi untuk training mungkin kita bisa pakai
+
+[14:54 - 14:55]
+Dari sini
+
+[14:56 - 14:58]
+Dia ternyata break
+
+[14:58 - 15:00]
+Pada saat dia break
+
+[15:00 - 15:01]
+Ke bawah
+
+[15:01 - 15:04]
+Saya langsung akan gunakan disini 1
+
+[15:09 - 15:10]
+Kemudian disini 2
+
+[15:12 - 15:15]
+3 dan 4
+
+[15:15 - 15:16]
+Artinya sudah selesai
+
+[15:16 - 15:20]
+Dan pada saat 2 ini sudah ditembus
+
+[15:20 - 15:22]
+Maka trendline ini akan berubah menjadi seperti ini
+
+[15:22 - 15:22]
+Sehingga kita tahu
+
+[15:22 - 15:24]
+Kenaikan ini akan berhenti disini
+
+[15:24 - 15:25]
+Dan turun lagi
+
+[15:26 - 15:27]
+Kalaupun dia naik karena
+
+[15:27 - 15:30]
+Trendnya mulai berubah menjadi
+
+[15:30 - 15:32]
+New short term bearish
+
+[15:34 - 15:36]
+Walaupun weekly nya masih belum ya
+
+[15:36 - 15:38]
+Weekly nya masih very strong
+
+[15:39 - 15:40]
+Ini yang harus kita pelajari
+
+[15:41 - 15:43]
+Bagaimana cara menarik trendline
+
+[15:44 - 15:46]
+Bagaimana dengan saham yang lain
+
+[15:46 - 15:46]
+Misalnya
+
+[15:47 - 15:49]
+Kita melihat saham teams
+
+[15:49 - 15:50]
+Dari sini ya
+
+[15:50 - 15:51]
+Katakan yang sudah terjadi dulu
+
+[15:52 - 15:54]
+Kita menarik seperti ini
+
+[15:54 - 15:55]
+Dari atas
+
+[15:55 - 15:56]
+Ini adalah cara menarik trendline
+
+[15:58 - 15:59]
+Bearish
+
+[15:59 - 16:01]
+Dalam kasus ini juga karena
+
+[16:02 - 16:03]
+Formula nya trendline nya disini
+
+[16:03 - 16:06]
+Lalu pas harga naik cukup tajam kita tarik
+
+[16:06 - 16:08]
+Begitu dia sampai ke atas
+
+[16:08 - 16:09]
+Ini adalah
+
+[16:10 - 16:10]
+1
+
+[16:10 - 16:14]
+Ini adalah 2
+
+[16:16 - 16:17]
+Ini adalah 3
+
+[16:18 - 16:20]
+Dan dia break ini menjadi short term bearish
+
+[16:20 - 16:22]
+Pada saat dia break 1 point saja
+
+[16:22 - 16:24]
+Langsung trendline nya berubah menjadi seperti ini
+
+[16:27 - 16:28]
+Dan
+
+[16:28 - 16:30]
+Kemudian ini mengikuti ya
+
+[16:30 - 16:31]
+Karena dia mengikuti ke bawah
+
+[16:31 - 16:32]
+Kita geser
+
+[16:33 - 16:36]
+Selama dia tidak menembus 2 trendline yang ke bawah ini
+
+[16:37 - 16:38]
+Maka dia akan terus
+
+[16:38 - 16:41]
+Ke bawah sampai strong support
+
+[16:41 - 16:42]
+Kembali lagi ke teori support
+
+[16:43 - 16:44]
+Ini adalah strong support
+
+[16:45 - 16:47]
+Maka target price nya adalah ke bawah
+
+[16:47 - 16:48]
+Dan ini kita bisa extend
+
+[16:48 - 16:50]
+Kita bisa tarik sampai bawah
+
+[16:51 - 16:52]
+Karena ini merupakan strong
+
+[16:52 - 16:53]
+Resistance
+
+[16:53 - 16:57]
+Maksud saya ini strong resistance dan ini strong support
+
+[16:57 - 16:58]
+Jadi ini trendline nya
+
+[16:59 - 17:00]
+Menjadi penghalang
+
+[17:00 - 17:02]
+Dan secondary reaction akan terus disitu
+
+[17:02 - 17:04]
+Jadi trendline ini simple
+
+[17:04 - 17:06]
+Anda sekarang sudah tahu cara menarik trendline
+
+[17:08 - 17:09]
+Tidak susah
+
+[17:09 - 17:10]
+Dan
+
+[17:11 - 17:13]
+Tujuan daripada cara menarik trendline
+
+[17:13 - 17:14]
+Supaya kita bisa mengikuti
+
+[17:14 - 17:16]
+Ini kecepatannya berarti tinggi
+
+[17:16 - 17:17]
+Kalau kemiringannya ke atas
+
+[17:17 - 17:20]
+Berarti dia memiliki power yang cukup kuat
+
+[17:22 - 17:23]
+Power nya baik
+
+[17:23 - 17:25]
+Semakin dia landai
+
+[17:25 - 17:26]
+Kita tidak mau
+
+[17:26 - 17:27]
+Karena power nya kurang
+
+[17:28 - 17:28]
+Oke
+
+[17:29 - 17:32]
+Dan itu yang harus benar-benar di pertimbangkan
+
+[17:32 - 17:33]
+Untuk
+
+[17:34 - 17:35]
+Melakukan trading
+
+[17:36 - 17:38]
+Dalam kasus gold contohnya
+
+[17:38 - 17:39]
+Misalnya di time frame yang besar
+
+[17:41 - 17:42]
+Ini adalah tarikan pertama
+
+[17:44 - 17:45]
+Kemudian ini
+
+[17:45 - 17:45]
+Tarikan kedua
+
+[17:46 - 17:48]
+Terlihat disini harga mulai bergeser
+
+[17:48 - 17:51]
+Maka saya akan mencoba menarik dari sini karena ada
+
+[17:52 - 17:52]
+Ya
+
+[17:52 - 17:53]
+Jadi dalam hal ini
+
+[17:54 - 17:56]
+Pergerakan harga sebenarnya masih beris
+
+[17:57 - 17:58]
+Sehingga belum ada
+
+[17:58 - 18:00]
+Satu moment yang bisa kita gunakan
+
+[18:00 - 18:01]
+Untuk breaking out
+
+[18:01 - 18:06]
+Dan ini penting sekali kalau kita sudah tahu seperti ini
+
+[18:07 - 18:09]
+Kita mencari posisi
+
+[18:09 - 18:11]
+Untuk sell selama dia tidak berbalik arah
+
+[18:11 - 18:13]
+Kita turunkan ke
+
+[18:14 - 18:14]
+H1
+
+[18:16 - 18:17]
+Kita masih bisa
+
+[18:17 - 18:18]
+Berharap akan sell
+
+[18:19 - 18:21]
+Dengan target kurang lebih di
+
+[18:21 - 18:22]
+Strong support
+
+[18:23 - 18:25]
+Untuk saat ini ada disini
+
+[18:25 - 18:26]
+Ya
+
+[18:28 - 18:30]
+Jadi masih ada chance untuk dia
+
+[18:31 - 18:32]
+Turun sampai disini
+
+[18:32 - 18:34]
+Dan mungkin baru akan naik
+
+[18:34 - 18:36]
+Jadi dari sini kita bisa lihat menarik trendline
+
+[18:36 - 18:38]
+Dalam scope yang lebih kecil disini
+
+[18:39 - 18:40]
+Ini akan membuat
+
+[18:40 - 18:41]
+Kita
+
+[18:43 - 18:44]
+Melihat bahwa
+
+[18:44 - 18:46]
+Ternyata pergerakan harga yang seperti ini
+
+[18:46 - 18:47]
+Masih beris
+
+[18:47 - 18:50]
+Dan belum ada satu penetrasi
+
+[18:50 - 18:53]
+Sehingga kalaupun dia naik sampai disini pun
+
+[18:53 - 18:54]
+Dia akan kembali turun lagi
+
+[18:54 - 18:55]
+Sementara waktu
+
+[18:56 - 18:58]
+Ini yang bisa membantu kita untuk
+
+[18:58 - 18:59]
+Identifikasi trend itu seperti apa
+
+[18:59 - 19:01]
+Ini fokusnya belum untuk entry
+
+[19:01 - 19:03]
+Tetapi untuk memproyeksi harga bahwa
+
+[19:03 - 19:05]
+Oke ini masih trend turun beris
+
+[19:05 - 19:07]
+Target price nya di area warna
+
+[19:07 - 19:09]
+Kuning dan kita tinggal
+
+[19:09 - 19:10]
+Mencari kalau ini adalah
+
+[19:11 - 19:12]
+Kepala cangkul
+
+[19:13 - 19:14]
+Ini badan cangkulnya
+
+[19:15 - 19:17]
+Maka ini adalah downside movement
+
+[19:17 - 19:18]
+Oke
+
+[19:22 - 19:23]
+Nah ini yang
+
+[19:23 - 19:25]
+Perlu diperhatikan
+
+[19:26 - 19:27]
+Bagaimana caranya
+
+[19:27 - 19:29]
+Kita bisa trading dengan benar
+
+[19:29 - 19:31]
+Melihat arah trend dengan trendline
+
+[19:31 - 19:33]
+Menggabungkannya dengan support resistance
+
+[19:33 - 19:35]
+Dan kita menggabungkannya juga dengan
+
+[19:35 - 19:36]
+Eem
+
+[19:37 - 19:39]
+Primary and secondary trend
+
+[19:39 - 19:40]
+Khususnya
+
+[19:41 - 19:43]
+Kita juga bisa lihat di GPP Jepang
+
+[19:44 - 19:46]
+Memiliki satu kesamaan
+
+[19:46 - 19:46]
+Trendline seperti ini
+
+[19:46 - 19:49]
+Anda adjust kesini selama dia tidak menembus ini
+
+[19:49 - 19:51]
+Dan artinya bearish trend
+
+[19:51 - 19:52]
+Masih memegang kendali
+
+[19:52 - 19:56]
+Nah dalam hal ini kita benar-benar bisa mengetahui
+
+[19:56 - 19:57]
+Fungsi dari dynamic support
+
+[19:57 - 19:59]
+Juga ini ada ekor panjang
+
+[19:59 - 20:00]
+Seperti yang kita sudah bahas
+
+[20:00 - 20:03]
+Masuk di area magnet atau di area dynamic resistance
+
+[20:03 - 20:05]
+Ada ekor panjang kemudian dia drop
+
+[20:05 - 20:07]
+Kita katakan entry di bawah
+
+[20:07 - 20:09]
+Di bawahnya sini anda sudah dapat 30 pips
+
+[20:09 - 20:11]
+Sampai sekarang 70an
+
+[20:11 - 20:13]
+Jadi itu cara yang fix
+
+[20:13 - 20:16]
+Karena harga itu bergerak seperti itu saja
+
+[20:16 - 20:17]
+Tidak akan bergerak dengan cara lain
+
+[20:17 - 20:19]
+Kalau anda bisa mahir disini
+
+[20:19 - 20:20]
+Anda menggunakan trendline juga
+
+[20:20 - 20:22]
+Maka anda akan sangat berhati-hati dalam trading
+
+[20:22 - 20:25]
+Anda bisa mengantisipasi pembalikan arah
+
+[20:25 - 20:26]
+Yang secara tiba-tiba
+
+[20:27 - 20:28]
+Demikianlah materi trendline
+
+[20:28 - 20:31]
+Dan anda harus mengaplikasikannya di dalam strategi trading
+
+[20:31 - 20:33]
+Untuk mewaspadai pembalikan arah
+
+[20:33 - 20:36]
+Sukses selalu untuk anda kita bertemu di chapter berikutnya
+

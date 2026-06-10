@@ -1,0 +1,75 @@
+Source: meeeting rabu.mp3
+Language Mode: Indonesian
+Detected: id (100.0%)
+Transcribed: 2026-04-30 04:19:54
+==================================================
+
+kita mulai dari settlement aja dulu ; disini kan kita kan disini ada bagian list-listnya ya ; contohnya dari singlenya itu ; yang dari papa kan ada singlenya kan ; pengeluaran sendiri aja ; dimana itemnya cuma satuan aja ; ini kenapa bisa 4 ; karena tadi disengajain ; apa namanya ; ditambahin gitu ; intinya itu pendatanya sampai 3000 ada bug gak di excelnya ; intinya di single ini satu aja itemnya ; ini gak bisa 4 ; disengajain tadi ; lebih baik ini aja dulu ya ; gpp
+
+==================================================
+TIMESTAMPS (SRT Format):
+
+1
+00:00:01,679 --> 00:00:03,919
+kita mulai dari settlement aja dulu
+
+2
+00:00:03,919 --> 00:00:07,719
+disini kan kita kan disini ada bagian list-listnya ya
+
+3
+00:00:07,719 --> 00:00:10,060
+contohnya dari singlenya itu
+
+4
+00:00:10,060 --> 00:00:12,220
+yang dari papa kan ada singlenya kan
+
+5
+00:00:12,220 --> 00:00:14,060
+pengeluaran sendiri aja
+
+6
+00:00:14,060 --> 00:00:18,179
+dimana itemnya cuma satuan aja
+
+7
+00:00:23,919 --> 00:00:25,699
+ini kenapa bisa 4
+
+8
+00:00:25,699 --> 00:00:27,059
+karena tadi disengajain
+
+9
+00:00:27,580 --> 00:00:28,539
+apa namanya
+
+10
+00:00:29,440 --> 00:00:30,219
+ditambahin gitu
+
+11
+00:00:30,219 --> 00:00:33,460
+intinya itu pendatanya sampai 3000 ada bug gak di excelnya
+
+12
+00:00:33,460 --> 00:00:35,679
+intinya di single ini satu aja itemnya
+
+13
+00:00:35,679 --> 00:00:37,140
+ini gak bisa 4
+
+14
+00:00:37,140 --> 00:00:38,399
+disengajain tadi
+
+15
+00:00:39,060 --> 00:00:40,380
+lebih baik ini aja dulu ya
+
+16
+00:01:05,479 --> 00:01:06,879
+gpp
+

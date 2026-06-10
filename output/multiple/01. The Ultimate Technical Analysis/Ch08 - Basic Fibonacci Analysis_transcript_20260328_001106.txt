@@ -1,0 +1,2771 @@
+Source: Ch08 - Basic Fibonacci Analysis.mp3
+Language Mode: Indonesian
+Detected: id (100.0%)
+Transcribed: 2026-03-28 01:23:52
+==================================================
+
+Pada chapter kali ini kita akan membahas sebuah ilmu yang memiliki rahasia besar yakni The Secret of Fibonacci ; Saya akan mengajarkan basic daripada konsep pemahaman Fibonacci untuk menghitung target harga ; Fibonacci, apa itu? ; Leonardo da Pisa atau Leonardo Fibonacci, seorang ahli matematika dan fisika dari Itali pada abad ke-13 ; Dialah yang menemukan angka Hindu Arabian yang Anda mungkin kenal sekarang 1, 2, 3, 4 ; Dan angka-angka ini ternyata memiliki rasio yang luar biasa ; Dimana Leonardo Fibonacci ini memperhatikan pola kelahiran klinci dan dia menemukan di alam semesta ; Ini angka-angka yang selalu berulang adalah angka-angka yang memiliki rasio 0,618 ; Ini kita sebut sebagai Golden Ratio ; 0,618 atau disebut P ini memiliki harmoni dimana semua kehidupan kita mengandung unsur 6,1,8 atau 2,3 ; Anda bisa lihat di sini ; Anda bisa browsing untuk mendapatkan informasi lebih dalam tentang The Secret of Fibonacci Numbers atau Golden Ratio ; Anda bisa memperhatikan bahwa susunan tata surya kita itu mengandung spiral Fibonacci ; Anda juga bisa melihat pohon pinus itu ruas-ruas buahnya mengandung angka 8 dan 13 ; Lalu angka-angka ini dari mana? ; Dimulai dari angka 0 ; Kemudian muncul angka 1 ; Karena 0 dan 1 ini mulai dari tidak ada menjadi ada ; Kemudian 0 ditambah 1 sama dengan 1 ; Kemudian dari 1 ditambah 0 ditambah angka sebelumnya sama dengan 1 ; Jadi 1,1 kemudian 1 ditambah 1 sama dengan 2 ; 2 ditambah 1 sama dengan 3 ; Jadi 3 ditambah 2 sama dengan 5 ; 5 ditambah 3 sama dengan 8 ; Dan seterusnya seperti Anda lihat di ilustrasi ini sehingga tak terhingga angkanya terus ditambahkan ; Yang ajaib adalah pada saat Anda membagi ; 2 dibagi 3, 3 dibagi 5, 5 dibagi 8 dan seterusnya ; Anda akan mendapatkan rasio 0,6 sekian ; Dan pada saat digit ke-13 ; 89 dibagi 144 dan seterusnya ; Anda akan mendapatkan the perfect number 0,618 ; Dimana kita percaya bahwa 0,618 ini merupakan bagian daripada harmony numbers ; Sebab akibat, hukum sebab akibat ; Apabila Anda melihat sebuah pergerakan harga ; Badan canggulnya naik dari 1000 ; Menjadi 10 ribu ; Maka penurunan atau kepala canggul berikutnya ; Biasanya akan ada di 0,618 dari bagian tersebut ; Atau misalnya kita menghitung lebih gampang ; Anda menghitung sebuah jarak ; Misalnya jaraknya itu adalah 1000 meter ; Maka di meter 600 ke 18 ; Mostly orang akan merasa capai ; Dan dia akan berhenti terlebih dahulu ; Tanpa Anda sadari bahwa ; Wajah manusia ; Jarak dari mata ke atas dan mata ke dagu ; Ini adalah 1 per 3 dan 2 per 3 ; Artinya apa? ; Mengimplementasikan hukum Fibonacci di dalam pergerakan harga ; Ini berhubungan dengan ; Berapa jauh koreksi yang akan terjadi ; Berapa jauh target price yang akan terjadi ; Tidak mungkin ada orang yang tahu ; Tetapi dengan Fibonacci kita bisa meminjam unsur harmony ; Bahwa market itu akan merasa jenuh ; Kalau dia mendekati titik-titik daripada golden ratio atau 0,61 ; Banyak bukti yang akan saya tunjukkan nanti di aplikasi ; Tetapi sebagai konsep awal ; Akan ada 2 yang akan Anda pelajari hari ini ; Yang pertama adalah ; Bagaimana menghitung jarak kepala cangkul ; Jarak kepala cangkul dihitung dari badan cangkul ; Kalau Anda melihat pola cangkul di samping ini ; Kita akan mulai memberikan nomor ; Yang paling bawah kita berikan X ; Kemudian puncaknya kita berikan A ; Dan ujung dari kepala cangkul kita berikan B ; Contoh ini adalah kepala cangkul yang bulis ; Demikian juga kalau Anda melihat yang lainnya ; Yang beris ; X, A, dan B ; Equal ; Dan di mana titik B ini ; Nanti akan saya bukakan rahasianya ; Bagaimana Anda mengetahui kepala cangkul jatuhnya di mana ; Sehingga Anda bisa melakukan buy on weakness atau sell on strength ; Yang kedua ; Pada saat Anda melihat pola berikutnya adalah ; X, A, Y ; Jadi kalau kita melihat X, A, Y ; Posisi ini diberikan X ; Kemudian bagian berikutnya ini yang disebut A ; Dan yang harusnya B ; Ternyata dia melampaui ; Nanti ada pola yang X, A, Y ini ; Kita gambarkan bagaimana cara menemukannya ; X, A, Y juga diukur Y-nya ; Dengan menggunakan Fibonacci ; 1.618 ; Atau variasi yang lain ; Jadi golden ratio itu ada dua ; 0.618 atau 1.618 ; Munculnya golden ratio akan membantu kita ; Di dalam menentukan ; Market itu secara psikologi ; Dia akan tertahan di mana ; Atau dia akan bergejolak di level ; Dan mostly ; Gejolak-gejolak harga ; Pembalikan arah harga ; Itu tidak lepas daripada ; Rasio-rasio Fibonacci ; Sehingga dengan Anda menggunakan ; Rasio Fibonacci 0.618 golden ratio ; Anda akan menemukan titik pembalikan arah harga ; Yang berikutnya ; Kita bisa menyebut ; Anda akan menemukan ; Harmonic pattern ; Harmonic ratio ; Harmonic ratio dan pattern ini artinya apa? ; Pola-pola geometris ; Seperti chart pattern itu bisa diukur jaraknya ; Dan Anda akan menemukan ; The harmonic support resistance ; Terutama untuk market yang membentuk ; All time high ; Bagaimana Anda bisa menemukan resistance ; Kalau dia naik terus all time high ; Anda tidak mungkin menemukan resistance ; Resistance di all time high ; Hanya bisa ditentukan dengan menggunakan ; Harmonic resistance ; Yakni angka-angka Fibonacci ; Mari kita bahas lebih lanjut ; Dan lebih detail di application ; Kita memasuki aplikasi dari Fibonacci ; Tadi Anda sudah mendengarkan ; Tentang teori Fibonacci ; Dan bagaimana konsep ; Angka-angka rasio harmoni tadi ; Memungkinkan untuk ; Merubah ; Tatanan market ; Dalam hal ini adalah support resistance ; Itu yang awalnya dari ; Klasik Anda mengenal ; Dynamic saat ini Anda mempelajari ; Tentang harmoni klasik ; Dan Anda juga sudah mengetahui prinsip dasar ; Daripada rasio harmoni itu bagaimana ; Bisa merubah ; Pola pikir manusia ; Dan membuat harga itu respect ; Terhadap rasio-rasio tersebut ; Ini yang menarik ; Jadi setelah kita memahami konsep teorinya ; Sekarang bagaimana mengaplikasikannya ; Untuk menemukan support resistance ; Yang sangat unik ; Di dalam CET program ; Fibonacci merupakan bagian yang sangat penting sekali ; Dan bagian yang penting ini ; Akan menjadi salah satu kunci keberhasilan ; Siswa-siswa ; Ya ; Yang ada di CET dan mereka pada akhirnya ; Akan menjadi seorang trader yang profesional ; Dengan angka-angka Fibonacci ini ; Karena mereka mengetahui target-target ; Harga yang tidak bisa diramalkan ; Dengan dynamic support atau resistance ; Atau juga dengan klasik support resistance ; Terutama untuk ; Mata uang atau saham yang sedang all time high ; Hanya bisa ditentukan dengan menggunakan ; The Fibonacci itu ; Oke ; Nah ada pun pola yang akan terbentuk di dalam Fibonacci ; Pola-pola price action yang nantinya bisa kita ukur ; Ya ; Dimana memang pada dasarnya yang ; Yang akan muncul di dalam pelajaran Fibonacci ; Adalah bagaimana kita mengukur pola-pola tersebut ; Ya ; Pola-pola ini ; Kalau kita sudah tahu ada pola secondary reaction ; Ada pola primary atau pola canggul ; Pertanyaan berikutnya seperti gambar ini ; Canggulnya akan berhenti dimana ; Ya ; Apakah disini di tengah atau agak bawah ; Inilah yang nanti akan kita ukur dengan Fibonacci ; Pola yang muncul di dalam Fibonacci ; Dan yang perlu kita perhatikan adalah ; Yang pertama yang paling dasar ; Yang akan anda belajar di hari ini adalah ; X, A dan B ; X, A, B merupakan primary dan secondary ; Yang akan menjadi sebuah konsep penting ; Di dalam ; Kita menentukan target dari pola harga yang sudah terbentuk ; Seperti kita ketahui bahwa ; Pada dasarnya harga itu membentuk canggul ; Pertanyaannya adalah ; Kita harus menentukan dimana akhir daripada kepala canggul tersebut ; Kalau kepala canggul tersebut telah diidentifikasi akhirnya ; Maka anda akan lebih mudah untuk menentukan ; Dimana saya harus mulai melakukan pembelian ; Caranya bagaimana? ; X itu selalu menjadi ujung pangkal ; Kemudian A itu di atas ; Dan B ini yang kita cari ; Karena N akhir daripada pola X, A, B ini ; Akan menjadi titik entry kita ; Cara kita untuk entry ada disini ; Ini ada 4 stage yang akan kita gunakan ; Rasio Fibonacci 38,2% ; 50%, 61,8% dan 78,6% ; Yang menjadi pertanyaan ; Dari semua rasio ini ; Yang mana yang sekiranya akan menjadi tempat perhentian ; Secara umum terlebih dahulu ; Rasio antara 50% dan 61,8% ; Ini merupakan area perhentian yang umum ; Jadi kepala canggul itu idealnya akan berhenti disitu ; Pada saat dia berada di dalam fase akumulasi ; Kalau dia sudah bergerak 45 derajat ; Di atas Exponential Moving Average ; Di atas Dynamic Supportnya ; Maka biasanya dia akan berhenti di 38,2% ; Lalu naik lagi ; Atau berhenti di 38,2% ; Lalu turun ; Itu yang membedakan ; Ini adalah pola X, A, B ; Rasionya antara 38, 50% dan 61,8% ; Dan 78,6% ; Tetapi most likely ; 70 dari 100 kejadian ; Kepala canggul itu berhentinya di 50% sampai 61,8% ; Ini adalah basic Fibonacci ; Ada advanced Fibonacci ; Tetapi saat ini kita mau belajar yang basic terlebih dahulu ; Di dalam AMI Broker kita bisa set up ; Ini ada 38,2, 50, 61,8 dan 78,6 ; Yang lainnya ada 224, 86 ; Ini adalah advanced dan harus digabungkan dengan pola-pola yang lain ; Tetapi untuk saat ini saya akan mengajarkan anda bagaimana ; Menggunakan Fibonacci untuk menghitung X, A, B ; Dan nanti menghitung X, A, Y ; X, A, Y ; Oke ; Tapi yang kita hitung sekarang X, A, B terlebih dahulu ; It's very simple ; Mari kita mencoba mencari canggul ; Katakan ini adalah canggul ya ; Ini adalah canggul ; Dan kemudian ini turun ke bawah ; Ini adalah kepala canggul ; Bagaimana caranya saya bisa tahu kepala canggulnya ini berhenti di mana ; Saya akan menggunakan Fibonacci ; Sebagai bukti ini canggulnya anda sudah pasti tahu ya cara menariknya ; Kita tarik dari sini sampai ke ujung sini ; Dan kalau anda perhatikan ; Begitu harga turun sampai 61,8 ; Dia langsung naik ; Terjadi pentalan ; Terjadi rejection ; Di 61,8 ; Dan kemudian dia langsung kembali naik ; Itu yang terjadi di dalam X, A, B ; Bagaimana dengan posisi yang ada di sini ; Kalau kita melihat posisi ini ; Swing nya dari bawah ke atas ; Kemudian dia turun ke bawah ; Yang menarik ; Dia berhenti di area dynamic support lalu naik ; Kalau kita hitung dengan Fibonacci nya ; Exactly di 50% ; Bertemu dengan exponential moving average 34 ; Dan langsung naik ; Luar biasa kan ; Jadi kita bisa memberikan sebuah ; Gambaran ya ; Gambaran bahwa di mana kepala canggulnya itu bisa berhenti ; Selain kita menggabungkan dynamic support ; Dynamic resistance katakan ; Dynamic support dulu ya dalam kasus ini ; Maka kepala canggul itu maksudnya akan berhenti di 3.. ; Di 50% sampai 61,8 dalam range ini ; Kalau 50% nya berada di dalam moving average nya ; Most likely dia berhenti di situ ya ; Dan kemudian dia akan kembali naik ; Sehingga anda tahu ; Kalau harga sudah naik lalu ini mulai turun ; Anda tidak mau beli di sini ; Tidak mau beli di sini ; Tidak ; Anda menunggu sampai harga masuk di dalam area ; Exponential moving average nya ; Atau di area 50 dan 61,8 ; Karena ini merupakan range ; Bisa di tengah-tengah ; Bisa pas 50 ; Bisa 61,8 ; Kita harus perhatikan candle nya ; Anda sudah mempelajari candle nya ; Ada bullish harami ; Kalau ternyata sampai di dalam sini ; Sampai di dalam sini muncul yang namanya harami ; Maka mostly kebanyakan dia naik dengan harami ; Berarti kemungkinan anda mungkin tidak beli di 61,8 ; Tapi menggunakan entry berdasarkan harami ; Atau inside bar ya ; Sama saja namanya ; Waktu dia break high ini ; Kita akan masuk ; Ya ; Itu biasanya akan terjadi di sana ; Jadi kalau ditanya gimana terjadinya pola-pola pembalikan arah tersebut ; Mostly dia akan terjadi di area 50 atau 61,8 ; Oke ; Mari kita perhatikan yang lain ; Pada saat di gold misalnya ; Ini di metatrader ; Ini sama Fibonacci nya juga kita bisa set ya ; Ini cukup lengkap ; Saya sudah set yang atas 38 ; Oke ; Mari kita lihat ; Klik double klik ; Ya caranya begini ; Double klik ; Klik kanan Fibo properties ; Saya biasanya akan ganti style nya jadi red ; Agak tebal sedikit ya ; Nomor 2 ; Kita lihat 0,5 6,2 ; Kemudian 38,2 ya ; Saya tulis 38,2 ; Ini kebetulan saya sudah set untuk advanced Fibo ; Yang nanti anda akan pelajari lebih banyak di CIT ; Pada saat ini saya taruh di sini ; Perhatikan ; Bahkan 38,2 pun tidak sampai ; Karena dia sudah langsung masuk di dalam participation ; Ya ; Tapi ingat ; Katakan pun dia tidak mencapai 38,2 ; Tetapi dia masih berada di area moving average ini ; Kita bisa menggunakan ; Pola-pola yang lain untuk masuk ; Ya ; Ini hanya sebagai reference untuk mengukur sebenarnya ; Kalau kita bicara tentang Fibonacci ; Lalu kita tarik ini ; Dan mencapai 50 ; Kembali lagi dia up ; Ya ; Mencapai 50 dia up ; Itulah ; Bagaimana advantage kita menggunakan Fibonacci ; Kita tahu bahwa ini adalah kepala campur lagi ; Katakan bar nya sudah jalan 2 ; Saya ingin tahu dia berhenti di mana ; Saya tarik ke atas ; Ingat rule nya ; 50 dan 62 ; Ini masuk di antara tengah-tengah ini ; Dan membuat ekor ; Ingat membuat ekor ; Di antara 50 dan 61,8 ; Saya bulatkan 62 ; Lalu running dengan signifikan ; Ya ; Nah bagaimana dengan yang beris ; Kalau anda melihat yang beris ; Ini turun lalu dia membentuk ; Kepala ganggul ; Oke ; Maka anda ambil Fibonacci nya ; Anda tarik dari atas ditarik ke bawah ; Ketemu 50 dan 62 ; Exactly ; Lalu membentuk ekor ; Dan turun dalam ; Ya ; Rasio 50 dan 62 ; Kemudian ; Kita melihat lagi ya ; Sebelumnya anda harus menentukan cangkulnya ya ; Seperti biasa ; Misalnya kita menarik cangkul ; Dari sini ; Primary ; Kemudian anda melihat secondary ; Sudah mulai gerak ; Secondary nya turun ; Pertanyaannya ini masih bull nggak ; Atau boleh dibeli ; Katakan ; Kita sudah percaya itu ; Dan kita tarik ; Dari bawah ke atas ya ; Kalau bullish ; Ternyata ; Ajaibnya gold ini ; Masuk lagi di area 50 dan 62 ; Dan membentuk ekor ; Lalu up ; Berapa jauh up nya ; Dan kalau kita mau beli biasanya ; Setelah di ekor ; Next bar nya ya ; Seperti yang kita sudah pelajari ; Ternyata 50 pips ; Di time frame M15 ; Nah ini ; Ini menarik sekali ; Dan apakah ini ada cangkul ; Ini belum ada cangkul ; Mungkin kita tarik disini ; Kita lihat ; Ini ada 50 dan 62 lagi ; Ini area penentuan ; Seharusnya ; Kalau dia respect terhadap area ini ; Dia akan terus naik ; Ini untuk menghitung ; X ; A ; B ; Jadi B untuk tempat entry kita ; Baik bullish atau bearish ; Ya ; Ini harus diingat ; Rasio nya ; 38,2 ; 50% ; 61,8 ; 78,6 ; Range nya di 50 dan 61,8 ; Pada saat dia bergerak ; Dalam bullish participation ; Yang extreme ; Sekali 45 derajat ; Atau lebih ; Dia mostly akan berhenti ; Di 38,2 ; Sekarang ; Setelah kita mengetahui ; Prinsip dari X ; A B ; Bagaimana apabila ; Kepala cangkulnya ; Melampaui X ; Ada pola-pola seperti itu ; Dan itu akan kita ; Beri nama ; X A Y ; Dan kalau anda menguasai ; X A Y ini ; Pada saat anda berhadapan ; Dengan saham yang tiba-tiba turun ; Dengan drastis ; Akan mendapatkan keuntungan yang signifikan ; Minimal 10% ; Dan kalau sedang crash ; Itu bisa sampai ; 30% ; Khususnya di saham-saham banking ya ; Saya pernah mengalami ; Dan itu sangat manis sekali ; Saya hari ini akan memberitahu rahasianya ; Pada saat ; Trend bullish atau bearish ; Market akan melanjutkan ; Penguatannya ; Seperti ini ; Oke ; Kemudian ; Dia kalau turun ; Kepala cangkul ; Lalu dia akan melanjutkan ; Penurunan yang begini ; Nah ; X A Y itu ; Kalau tadi ini ; X A B ; Sekarang X A Y itu ; Di bagian atasnya ; Ini X ; Ini A ; Dan ini Y ; Ini X ; Ini A ; Oops sorry ; Di balik ya sekarang ; X ; A ; Dan di sini Y ; Fungsi dari pada X A Y ; Itu untuk menemukan bentuk ini ; X A Y ini ; Seperti tanda cawang ; Kita mencari ; X nya ini ; Y nya ini berhenti di mana ; Di sini ; Di sini ; Atau di sini ; Di sini ; Yang pertama itu yang paling dekat ya ; Di sini ; Di sini ; Atau yang agak jauh ; Di sini ; Fungsinya adalah menemukan ; Di mana ; Kalau di extend ; Itu berhenti di mana ; Di area ini ; Kita sebut area ; Ini menggunakan ; Rasio Fibonacci ; 1.272 ; Atau 127,2% ; Ya sama saja ; Kita akan menggunakan yang 1 titik ; Biar lebih mudah ; 1.62 berarti ; Dan di sini ; Yang paling penting 2.62 ; Ini pembulatan dari ; 1.618 ; 2.1618 ; Ini 172 ; Oke ; Nah ; Perlu anda perhatikan bahwa ; 7 dari 10 ; Pada saat harga ini naik seperti ini ; Dia akan berhenti di ; 618 ; Kemudian ; Ada ; Pembalikan arah minor ; Dan dia akan berhenti di sini ; Lalu pembalikan arah minor ; Tetapi ; Pada saat ini extend ; Mencapai 2618 ; Atau 262 ; Maka pembalikannya akan cukup besar ; Turun sampai sini ; Ini pembalikannya akan cukup besar ; Sehingga ; Kalau aturan main seperti ini ; Anda akan mengerti ; Bahwa ; 162 ; 262 ; Ini merupakan angka krusial ; 127 ini adalah minimal ; Biasanya kalau false break ; Tipuan ; Double top misalnya ; Double top biasanya berhentinya di ; 1.272 ; Lalu dia turun ; Itulah awal mula double top ; Jadi kita bisa tahu ; Munculnya double top ; Atau double bottom ; Itu pada saat ; Ini berhenti di ; 1.272 ; Lalu naik ; Ya ; Ini yang terjadi ; 1.272 turun ; 1.6 ; 1.62 ; Kalau ini 1.272 ini gagalnya ke bawah ; Biasanya kalau 1.62 ; Dia masih sideways lagi ; Lalu dia up ; Ya ke atas ; Kalau yang 2.62 ; Itu juga akan ; Itu berbalik menjadi trend ; Baru ; Misalnya di sini ; Trend baru ; 2.62 ; Jadi 1.272 ; Adalah gerbang dari breakout ; Untuk munculnya trend reversal ; Biasanya seperti double top ; Kemudian mungkin rising wage ya ; Kalau 1.618 ; Dia akan hit ; Kemudian dia turun lagi konsolidasi ; Sebentar atau correction ; Atau membentuk badan canggul biasa ; Lalu dia mulai up ; Kalau 2.62 ; Itu bisa kita pakai sebagai ; Area trading yang signifikan ; Ya oke ; Ini terbukti ; Walaupun dia sempat turun dulu ya ; Tapi benar-benar ; Dia up ; Ini ada news ya ; Ini benar-benar dia up ; Ekstrim sekali kenaikannya ; Karena ini ada the Fed ; Untuk masalah suku bunga ; Mari kita lihat terlebih dahulu ; Market action discount everything ; Bawa berita ; Itu sebenarnya sudah dipredik ya ; Tadi kita sudah predik ; Jelas-jelas bahwa dia akan ke atas ya ; Karena rasionya ; Dan ini ; Kita sudah memprediksi dengan pola ; Falling wage ; Kemudian garis ini kita sudah ; Gambarkan di chapter sebelumnya ; Bahwa gold ini akan naik ; Menjadi falling wage dengan target price ini ; Ternyata ; Newsnya sepakat ya ; Nah sharply divided Fed indicates rate high ; This year ; Jadi belum ada sebuah ; Gambaran sebenarnya ; Statementnya akan naik atau tidak ; Rates unchanged in September meeting ; As predicted ; Astrology menggambarkan bahwa ; Rate unchanged pasti ; Dan news ini ; Ternyata ; Yap akhirnya ; Gold kena ya ; Gold kena disini ; Dan ; Anda bisa lihat ; Falling wage ; Mencapai targetnya ; Target yang sebelumnya kita bahas ; Di chapter chart pattern ; Dan ternyata ini ; Benar-benar kena ya ; Dan ini merupakan bukti nyata ; Bahwa ; US dollar ini kan sekarang sedang melemah jadinya ya ; Dan falling wage ini ; Menjawab pertanyaan ; Kemana sih sebenarnya arahnya ; Ternyata benar-benar ke atas ; Newsnya apapun ; Yang jelas target falling wage nya kena ; Ya ; Nah sekarang di dalam gambar ini ; Saya akan memberikan contoh ; Untuk XAY ; Ini adalah XAY ; Berarti begini ; Dan ini begini ; Ya ; Kita gunakan Fibonacci yang sama ; Fibonacci retracement yang ini ; Tetapi di dalam settingannya ; Kita double klik ; Kita klik kanan ; Kita Fibo properties ; Kita akan ambil ; 1272 ; Kemudian ; 1618 ; Dan 2618 ; Kalau di dalam Fibo anda belum terlihat ; Maka yang bisa kita lakukan ; Kita add ; Kemudian kita ketik ; 2.618 ; Atau mungkin tadi anda belum punya 1272 ; Anda add ; Kemudian ketik sendiri ; 1272 ; Description ini ; Bagaimana nanti ditampilannya terlihat ; Ya ; Mari kita lihat ; Sekarang saya akan mengambil Fibonacci nya ; Dan saya tarik dari sini ke sini ; Lihat ; Mencapai 2618 ; Ya ; Oke sementara saya akan hilangkan ; 224 nya ; Agar tidak bias ; Dan mencapai 2618 ; Normally setelah ini ; Dia akan turun dulu ; Mungkin lebih sedikit gitu ; Baru nanti akan turun ; Ya ; Nah ini adalah alat untuk mengukur X I Y tadi ; Ya ; Jadi kalau kita sudah melihat seperti ini misalnya ; Dia naik kan ; Udah cangkul begini lalu dia mulai turun ; Seberapa jauh turunnya ; Anda akan sulit menghitung ya ; Karena paling mengandalkan classic support ; Tapi kalau kita hitung begini ; Ya ini kelihatan ya ; Ini berhenti diantara 1618 sampai 2218 ya ; Tapi yang jelas ; Kalau kita melakukan sell 1618 ; Akan menjadi target yang manis sekali ; Dan terlihat harga mulai turun ; Mengenai 2618 ; Exactly titik disitu ; Dan mulai turun ; This is the magic of Fibonacci ; Ya ; Kalau di saham kita lihat ; Kemarin ada saham BMRI mungkin ya ; Yang tiba-tiba turun ; Nah ; Turun naik lalu dia pada saat ; Dia sudah mulai slowing down ke bawah ; Ini kita bisa predict ; Kira-kira dia berhenti di mana ; Sama ini kita tarik ; 1272 ; Begitu dia kena ; Langsung mental lagi ; Ya ; Tapi kita bisa aiming di 1618 ; Kita tunggu disini ; Di 1272 sama ; Kita tunggu ternyata ; Dia ada ekor ; Dan membentuk inside bar ; Ini inside bar ; Setelah dia terbentuk inside bar ; Otomatis kita tahu bahwa ; Kita tidak akan beli disini ; Kita langsung buy disini ; Dan ini yang terjadi ; 10800 sampai 11400 ; Di dalam saham BBCA ; Tidak ada XAY ; Nah coba kita lihat di saham AALI ; Up kemudian down ; Ya ; Pada saat harga sudah merah disini ; Kita sudah bisa hitung ; Nggak perlu sampai di bawah ; Sudah merah besar disini ; Kita langsung tarik kesini ; Ujungnya ; Exactly di 1618 ; Ekor dan naik ; Itu adalah XAY ; Dimana secara variasi ; Anda juga bisa gabungkan ; Sebenarnya ini adalah XAB ; Dalam skala besarnya ini adalah XAB ; Maka untuk lebih memperkuat ; Saya biasanya akan menggunakan ; Cluster dari bawah sini ; Saya tarik lagi ke atas ; 61,8 ; Dan ini menjadi satu area ; 61,8 bertemu dengan 1272 ; Akhirnya menjadi area zona magnet ; Dari Fibonacci ; Kemudian mari kita lihat contoh satu lagi ; XAY ; Yang kita lakukan disini adalah ; Tarik dari atas ke bawah ; Kena 2618 ; Exactly 2618 ; Tembus sedikit ; Langsung turun ke bawah ; Ini ekstrim sekali ; Dan kalau terjadinya itu di bearish ; Anda bisa mendapatkan keuntungan yang besar ; Kita lihat Pegas ; Turun turun turun ; Kita sudah siapkan ; Tarik ; Ini 1618 ya ; 1618 ; Dia consolidate ; Ada inside bar ; Maka pada saat disini ada inside bar di area ini ; Buy disini ; Dan saya yakin ; Target berikutnya dimana ; Kalau kita sudah mempelajari support resistance ; Target berikutnya adalah di area sini ; Minimal ; Dan berikutnya adalah disini ; Karena ini adalah strong support ; Minimal di 2900 sekian ; Ya ; Karena ini adalah area classic support ; Yang dari ; Classic support menjadi resistance ; Jadi ini setelah awalnya support ditembus ; Kan balik lagi jadi resistance ya ; Nah ; Kita lihat ; Masih belum mampu menembus 2618 ; Ini seperti angka sakti dan terpukul ke bawah ; Jadi seakan-akan kita bisa ngefaskan gitu ; Inilah ; Istimewanya daripada ; The Fibonacci itu sendiri ; Ini kita tarik kesini ; 1618 ; Dia tidak mampu lagi turun ; Dia tertahan disitu ; Dan kemudian ; Mulai up ; Ya ; Jadi ini yang perlu kita ketahui ; Pada saat kita mengukur ; Kita mencari cangkul ; Itu XAB ; Misalnya cangkul disini kita tarik dari sini kesini ; Sekali lagi ; Area 50 dan 62 ; Itu berkumpul disini ; Kepala cangkul ; Setelah itu kita mencari ada bar apa disini ; Tidak ada ; Dia menyentuh area dynamic supportnya lalu naik ; In the next bar setelah ekor ; Kita masuk ingat kuncinya ekor ; The next bar kita masuk ; Ya karena kita sudah yakin bahwa bottomnya adalah ; Di area Fibonacci tersebut ; Kalau kita sudah yakin ; Maka anda bisa mulai trading ; Atau mulai masuk karena kita tahu ; Itu adalah kemungkinan besar end of the period ; Jadi fungsi dari Fibonacci number ini ; Adalah bagaimana caranya kita bisa ; Mengukur ya bagaimana kita bisa mengukur ; Bottom dan peak targetnya ; Karena ini yang paling penting sekali ; Patternnya sudah ada tinggal kita mengukur ; Agar bisa memanfaatkan dengan baik ; Ya itu cara kita mengukurnya ; Jadi misalnya ini XA ; Dan kemudian ini Y ; Maka kita tarik lagi dari sini ; Kita tarik ke atas ; Sama seperti mengukur yang XAB ya ; Tapi untuk XAYA ; Kita mengukurnya melihat yang di bawah 100 ; Lihat mendekati 1618 ; Kemudian dia mulai up ; Yang masuk di dalam range itu ; Jadi panjangnya ; Panjang daripada harga saat dia bergerak ; Mau saham mau futures ; Sebenarnya sama ; Kalau dia sudah membentuk kepala canggul itu 50 dan 62 ; Setelah dia membentuk XAYA seperti ini ; Itu setidaknya berhenti mendekati 1618 ; Tinggal anda mencari ekor ; Kemudian anda mencari ; Insight Bar ; Kita akan mencari contoh ; Yang lain lagi ; Mungkin dari saham ; Sudah sekarang kita lihat dari index ; Coba anda bayangkan ; Ketika harga turun dalam seperti ini ; Lalu anda panik ; Kapan berhentinya ; Kita tarik ; Tidak perlu tanya kiri kanan ; Ya ; Ternyata pada saat kita tarik ; Ini saya hilangkan dulu 224 nya ; Ternyata waktu kita tarik ; Kita melihat harga mendekati 2618 ; Jadi waktu harga itu masih mungkin di 4300 ; Kita sudah tahu ; 4171 dan 3800 ; Itu adalah targetnya ; Mungkin sebagian orang tidak percaya ya ; Aduh terlalu jauh ; Tetapi ; Fibonacci is Fibonacci ; Dia memiliki rasio yang harus diikuti ; Dan pada kenyataannya ; Harga akan mendekati area-area tersebut ; Dan ; Kita bisa lihat juga ; Dari poin ini ke sini ; Almost 50% ; Dan dia kembali naik ; Ini XAB ; Nah saat ini kita sudah mengetahui ; Cara menggunakan keseluruhan dari rasio ini ; Tinggal kita mencari polanya ; Dan kemudian mengaplikasikannya ke market ; Setelah itu anda pasti bisa menghitung ; Target-target harga dengan baik ; Dan ini bisa kita gabungkan dengan chart pattern ; Ingat konsepnya XAB ; Dan bentuk XAY yang anda hafalkan ; Sukses lalu kita akan bertemu di chapter 9 ; Untuk membahas tentang ; How to trade in multiple time frame
+
+==================================================
+TIMESTAMPS:
+
+[00:04 - 00:29]
+Pada chapter kali ini kita akan membahas sebuah ilmu yang memiliki rahasia besar yakni The Secret of Fibonacci
+
+[00:29 - 00:35]
+Saya akan mengajarkan basic daripada konsep pemahaman Fibonacci untuk menghitung target harga
+
+[00:36 - 00:37]
+Fibonacci, apa itu?
+
+[00:38 - 00:44]
+Leonardo da Pisa atau Leonardo Fibonacci, seorang ahli matematika dan fisika dari Itali pada abad ke-13
+
+[00:44 - 00:49]
+Dialah yang menemukan angka Hindu Arabian yang Anda mungkin kenal sekarang 1, 2, 3, 4
+
+[00:49 - 00:53]
+Dan angka-angka ini ternyata memiliki rasio yang luar biasa
+
+[00:53 - 01:01]
+Dimana Leonardo Fibonacci ini memperhatikan pola kelahiran klinci dan dia menemukan di alam semesta
+
+[01:01 - 01:07]
+Ini angka-angka yang selalu berulang adalah angka-angka yang memiliki rasio 0,618
+
+[01:07 - 01:09]
+Ini kita sebut sebagai Golden Ratio
+
+[01:09 - 01:18]
+0,618 atau disebut P ini memiliki harmoni dimana semua kehidupan kita mengandung unsur 6,1,8 atau 2,3
+
+[01:18 - 01:19]
+Anda bisa lihat di sini
+
+[01:19 - 01:25]
+Anda bisa browsing untuk mendapatkan informasi lebih dalam tentang The Secret of Fibonacci Numbers atau Golden Ratio
+
+[01:25 - 01:33]
+Anda bisa memperhatikan bahwa susunan tata surya kita itu mengandung spiral Fibonacci
+
+[01:33 - 01:39]
+Anda juga bisa melihat pohon pinus itu ruas-ruas buahnya mengandung angka 8 dan 13
+
+[01:40 - 01:41]
+Lalu angka-angka ini dari mana?
+
+[01:42 - 01:44]
+Dimulai dari angka 0
+
+[01:44 - 01:46]
+Kemudian muncul angka 1
+
+[01:46 - 01:49]
+Karena 0 dan 1 ini mulai dari tidak ada menjadi ada
+
+[01:49 - 01:52]
+Kemudian 0 ditambah 1 sama dengan 1
+
+[01:53 - 01:59]
+Kemudian dari 1 ditambah 0 ditambah angka sebelumnya sama dengan 1
+
+[01:59 - 02:03]
+Jadi 1,1 kemudian 1 ditambah 1 sama dengan 2
+
+[02:03 - 02:05]
+2 ditambah 1 sama dengan 3
+
+[02:05 - 02:09]
+Jadi 3 ditambah 2 sama dengan 5
+
+[02:09 - 02:10]
+5 ditambah 3 sama dengan 8
+
+[02:10 - 02:16]
+Dan seterusnya seperti Anda lihat di ilustrasi ini sehingga tak terhingga angkanya terus ditambahkan
+
+[02:16 - 02:19]
+Yang ajaib adalah pada saat Anda membagi
+
+[02:19 - 02:23]
+2 dibagi 3, 3 dibagi 5, 5 dibagi 8 dan seterusnya
+
+[02:23 - 02:26]
+Anda akan mendapatkan rasio 0,6 sekian
+
+[02:26 - 02:28]
+Dan pada saat digit ke-13
+
+[02:28 - 02:32]
+89 dibagi 144 dan seterusnya
+
+[02:32 - 02:35]
+Anda akan mendapatkan the perfect number 0,618
+
+[02:35 - 02:41]
+Dimana kita percaya bahwa 0,618 ini merupakan bagian daripada harmony numbers
+
+[02:41 - 02:44]
+Sebab akibat, hukum sebab akibat
+
+[02:44 - 02:46]
+Apabila Anda melihat sebuah pergerakan harga
+
+[02:46 - 02:49]
+Badan canggulnya naik dari 1000
+
+[02:49 - 02:51]
+Menjadi 10 ribu
+
+[02:51 - 02:56]
+Maka penurunan atau kepala canggul berikutnya
+
+[02:56 - 03:00]
+Biasanya akan ada di 0,618 dari bagian tersebut
+
+[03:00 - 03:02]
+Atau misalnya kita menghitung lebih gampang
+
+[03:02 - 03:05]
+Anda menghitung sebuah jarak
+
+[03:05 - 03:09]
+Misalnya jaraknya itu adalah 1000 meter
+
+[03:09 - 03:12]
+Maka di meter 600 ke 18
+
+[03:12 - 03:15]
+Mostly orang akan merasa capai
+
+[03:15 - 03:17]
+Dan dia akan berhenti terlebih dahulu
+
+[03:17 - 03:19]
+Tanpa Anda sadari bahwa
+
+[03:19 - 03:20]
+Wajah manusia
+
+[03:20 - 03:23]
+Jarak dari mata ke atas dan mata ke dagu
+
+[03:23 - 03:25]
+Ini adalah 1 per 3 dan 2 per 3
+
+[03:25 - 03:26]
+Artinya apa?
+
+[03:26 - 03:29]
+Mengimplementasikan hukum Fibonacci di dalam pergerakan harga
+
+[03:29 - 03:31]
+Ini berhubungan dengan
+
+[03:31 - 03:35]
+Berapa jauh koreksi yang akan terjadi
+
+[03:35 - 03:37]
+Berapa jauh target price yang akan terjadi
+
+[03:37 - 03:38]
+Tidak mungkin ada orang yang tahu
+
+[03:38 - 03:43]
+Tetapi dengan Fibonacci kita bisa meminjam unsur harmony
+
+[03:43 - 03:45]
+Bahwa market itu akan merasa jenuh
+
+[03:45 - 03:49]
+Kalau dia mendekati titik-titik daripada golden ratio atau 0,61
+
+[03:49 - 03:52]
+Banyak bukti yang akan saya tunjukkan nanti di aplikasi
+
+[03:52 - 03:54]
+Tetapi sebagai konsep awal
+
+[03:54 - 03:57]
+Akan ada 2 yang akan Anda pelajari hari ini
+
+[03:57 - 03:57]
+Yang pertama adalah
+
+[03:57 - 04:01]
+Bagaimana menghitung jarak kepala cangkul
+
+[04:01 - 04:04]
+Jarak kepala cangkul dihitung dari badan cangkul
+
+[04:04 - 04:06]
+Kalau Anda melihat pola cangkul di samping ini
+
+[04:06 - 04:08]
+Kita akan mulai memberikan nomor
+
+[04:08 - 04:10]
+Yang paling bawah kita berikan X
+
+[04:10 - 04:12]
+Kemudian puncaknya kita berikan A
+
+[04:12 - 04:14]
+Dan ujung dari kepala cangkul kita berikan B
+
+[04:14 - 04:17]
+Contoh ini adalah kepala cangkul yang bulis
+
+[04:17 - 04:19]
+Demikian juga kalau Anda melihat yang lainnya
+
+[04:19 - 04:19]
+Yang beris
+
+[04:19 - 04:22]
+X, A, dan B
+
+[04:23 - 04:24]
+Equal
+
+[04:24 - 04:26]
+Dan di mana titik B ini
+
+[04:26 - 04:28]
+Nanti akan saya bukakan rahasianya
+
+[04:28 - 04:30]
+Bagaimana Anda mengetahui kepala cangkul jatuhnya di mana
+
+[04:30 - 04:34]
+Sehingga Anda bisa melakukan buy on weakness atau sell on strength
+
+[04:34 - 04:35]
+Yang kedua
+
+[04:35 - 04:37]
+Pada saat Anda melihat pola berikutnya adalah
+
+[04:37 - 04:39]
+X, A, Y
+
+[04:39 - 04:41]
+Jadi kalau kita melihat X, A, Y
+
+[04:41 - 04:43]
+Posisi ini diberikan X
+
+[04:44 - 04:46]
+Kemudian bagian berikutnya ini yang disebut A
+
+[04:46 - 04:49]
+Dan yang harusnya B
+
+[04:49 - 04:50]
+Ternyata dia melampaui
+
+[04:50 - 04:52]
+Nanti ada pola yang X, A, Y ini
+
+[04:52 - 04:54]
+Kita gambarkan bagaimana cara menemukannya
+
+[04:54 - 04:57]
+X, A, Y juga diukur Y-nya
+
+[04:57 - 04:59]
+Dengan menggunakan Fibonacci
+
+[04:59 - 05:00]
+1.618
+
+[05:00 - 05:02]
+Atau variasi yang lain
+
+[05:02 - 05:04]
+Jadi golden ratio itu ada dua
+
+[05:04 - 05:07]
+0.618 atau 1.618
+
+[05:08 - 05:10]
+Munculnya golden ratio akan membantu kita
+
+[05:10 - 05:11]
+Di dalam menentukan
+
+[05:12 - 05:14]
+Market itu secara psikologi
+
+[05:14 - 05:15]
+Dia akan tertahan di mana
+
+[05:15 - 05:18]
+Atau dia akan bergejolak di level
+
+[05:18 - 05:19]
+Dan mostly
+
+[05:19 - 05:21]
+Gejolak-gejolak harga
+
+[05:21 - 05:22]
+Pembalikan arah harga
+
+[05:22 - 05:24]
+Itu tidak lepas daripada
+
+[05:24 - 05:25]
+Rasio-rasio Fibonacci
+
+[05:25 - 05:27]
+Sehingga dengan Anda menggunakan
+
+[05:27 - 05:29]
+Rasio Fibonacci 0.618 golden ratio
+
+[05:29 - 05:32]
+Anda akan menemukan titik pembalikan arah harga
+
+[05:32 - 05:33]
+Yang berikutnya
+
+[05:33 - 05:34]
+Kita bisa menyebut
+
+[05:34 - 05:35]
+Anda akan menemukan
+
+[05:35 - 05:37]
+Harmonic pattern
+
+[05:37 - 05:38]
+Harmonic ratio
+
+[05:38 - 05:41]
+Harmonic ratio dan pattern ini artinya apa?
+
+[05:41 - 05:42]
+Pola-pola geometris
+
+[05:42 - 05:45]
+Seperti chart pattern itu bisa diukur jaraknya
+
+[05:45 - 05:46]
+Dan Anda akan menemukan
+
+[05:46 - 05:48]
+The harmonic support resistance
+
+[05:48 - 05:50]
+Terutama untuk market yang membentuk
+
+[05:50 - 05:51]
+All time high
+
+[05:51 - 05:53]
+Bagaimana Anda bisa menemukan resistance
+
+[05:53 - 05:55]
+Kalau dia naik terus all time high
+
+[05:55 - 05:56]
+Anda tidak mungkin menemukan resistance
+
+[05:56 - 05:58]
+Resistance di all time high
+
+[05:58 - 06:00]
+Hanya bisa ditentukan dengan menggunakan
+
+[06:00 - 06:01]
+Harmonic resistance
+
+[06:01 - 06:03]
+Yakni angka-angka Fibonacci
+
+[06:03 - 06:04]
+Mari kita bahas lebih lanjut
+
+[06:04 - 06:05]
+Dan lebih detail di application
+
+[06:05 - 06:13]
+Kita memasuki aplikasi dari Fibonacci
+
+[06:13 - 06:15]
+Tadi Anda sudah mendengarkan
+
+[06:15 - 06:16]
+Tentang teori Fibonacci
+
+[06:16 - 06:18]
+Dan bagaimana konsep
+
+[06:18 - 06:19]
+Angka-angka rasio harmoni tadi
+
+[06:19 - 06:21]
+Memungkinkan untuk
+
+[06:21 - 06:22]
+Merubah
+
+[06:22 - 06:23]
+Tatanan market
+
+[06:23 - 06:25]
+Dalam hal ini adalah support resistance
+
+[06:25 - 06:26]
+Itu yang awalnya dari
+
+[06:26 - 06:29]
+Klasik Anda mengenal
+
+[06:29 - 06:31]
+Dynamic saat ini Anda mempelajari
+
+[06:31 - 06:32]
+Tentang harmoni klasik
+
+[06:32 - 06:35]
+Dan Anda juga sudah mengetahui prinsip dasar
+
+[06:35 - 06:37]
+Daripada rasio harmoni itu bagaimana
+
+[06:37 - 06:38]
+Bisa merubah
+
+[06:39 - 06:41]
+Pola pikir manusia
+
+[06:41 - 06:43]
+Dan membuat harga itu respect
+
+[06:43 - 06:44]
+Terhadap rasio-rasio tersebut
+
+[06:44 - 06:45]
+Ini yang menarik
+
+[06:45 - 06:49]
+Jadi setelah kita memahami konsep teorinya
+
+[06:49 - 06:51]
+Sekarang bagaimana mengaplikasikannya
+
+[06:51 - 06:53]
+Untuk menemukan support resistance
+
+[06:53 - 06:54]
+Yang sangat unik
+
+[06:54 - 06:55]
+Di dalam CET program
+
+[06:55 - 06:57]
+Fibonacci merupakan bagian yang sangat penting sekali
+
+[06:57 - 07:00]
+Dan bagian yang penting ini
+
+[07:00 - 07:03]
+Akan menjadi salah satu kunci keberhasilan
+
+[07:03 - 07:04]
+Siswa-siswa
+
+[07:04 - 07:04]
+Ya
+
+[07:04 - 07:07]
+Yang ada di CET dan mereka pada akhirnya
+
+[07:07 - 07:09]
+Akan menjadi seorang trader yang profesional
+
+[07:09 - 07:11]
+Dengan angka-angka Fibonacci ini
+
+[07:11 - 07:12]
+Karena mereka mengetahui target-target
+
+[07:12 - 07:14]
+Harga yang tidak bisa diramalkan
+
+[07:14 - 07:16]
+Dengan dynamic support atau resistance
+
+[07:16 - 07:18]
+Atau juga dengan klasik support resistance
+
+[07:18 - 07:19]
+Terutama untuk
+
+[07:19 - 07:22]
+Mata uang atau saham yang sedang all time high
+
+[07:22 - 07:25]
+Hanya bisa ditentukan dengan menggunakan
+
+[07:25 - 07:26]
+The Fibonacci itu
+
+[07:26 - 07:27]
+Oke
+
+[07:27 - 07:31]
+Nah ada pun pola yang akan terbentuk di dalam Fibonacci
+
+[07:31 - 07:35]
+Pola-pola price action yang nantinya bisa kita ukur
+
+[07:35 - 07:36]
+Ya
+
+[07:36 - 07:38]
+Dimana memang pada dasarnya yang
+
+[07:38 - 07:42]
+Yang akan muncul di dalam pelajaran Fibonacci
+
+[07:42 - 07:45]
+Adalah bagaimana kita mengukur pola-pola tersebut
+
+[07:45 - 07:45]
+Ya
+
+[07:45 - 07:47]
+Pola-pola ini
+
+[07:47 - 07:50]
+Kalau kita sudah tahu ada pola secondary reaction
+
+[07:50 - 07:51]
+Ada pola primary atau pola canggul
+
+[07:51 - 07:53]
+Pertanyaan berikutnya seperti gambar ini
+
+[07:53 - 07:55]
+Canggulnya akan berhenti dimana
+
+[07:56 - 07:57]
+Ya
+
+[07:57 - 07:59]
+Apakah disini di tengah atau agak bawah
+
+[07:59 - 08:02]
+Inilah yang nanti akan kita ukur dengan Fibonacci
+
+[08:02 - 08:04]
+Pola yang muncul di dalam Fibonacci
+
+[08:04 - 08:06]
+Dan yang perlu kita perhatikan adalah
+
+[08:06 - 08:08]
+Yang pertama yang paling dasar
+
+[08:08 - 08:10]
+Yang akan anda belajar di hari ini adalah
+
+[08:10 - 08:11]
+X, A dan B
+
+[08:13 - 08:16]
+X, A, B merupakan primary dan secondary
+
+[08:16 - 08:20]
+Yang akan menjadi sebuah konsep penting
+
+[08:20 - 08:21]
+Di dalam
+
+[08:21 - 08:26]
+Kita menentukan target dari pola harga yang sudah terbentuk
+
+[08:27 - 08:29]
+Seperti kita ketahui bahwa
+
+[08:29 - 08:32]
+Pada dasarnya harga itu membentuk canggul
+
+[08:32 - 08:33]
+Pertanyaannya adalah
+
+[08:33 - 08:37]
+Kita harus menentukan dimana akhir daripada kepala canggul tersebut
+
+[08:38 - 08:42]
+Kalau kepala canggul tersebut telah diidentifikasi akhirnya
+
+[08:42 - 08:45]
+Maka anda akan lebih mudah untuk menentukan
+
+[08:45 - 08:47]
+Dimana saya harus mulai melakukan pembelian
+
+[08:48 - 08:49]
+Caranya bagaimana?
+
+[08:50 - 08:53]
+X itu selalu menjadi ujung pangkal
+
+[08:53 - 08:55]
+Kemudian A itu di atas
+
+[08:55 - 08:56]
+Dan B ini yang kita cari
+
+[08:56 - 08:59]
+Karena N akhir daripada pola X, A, B ini
+
+[08:59 - 09:02]
+Akan menjadi titik entry kita
+
+[09:03 - 09:06]
+Cara kita untuk entry ada disini
+
+[09:06 - 09:11]
+Ini ada 4 stage yang akan kita gunakan
+
+[09:11 - 09:13]
+Rasio Fibonacci 38,2%
+
+[09:13 - 09:16]
+50%, 61,8% dan 78,6%
+
+[09:16 - 09:18]
+Yang menjadi pertanyaan
+
+[09:19 - 09:21]
+Dari semua rasio ini
+
+[09:21 - 09:25]
+Yang mana yang sekiranya akan menjadi tempat perhentian
+
+[09:25 - 09:27]
+Secara umum terlebih dahulu
+
+[09:28 - 09:31]
+Rasio antara 50% dan 61,8%
+
+[09:31 - 09:34]
+Ini merupakan area perhentian yang umum
+
+[09:35 - 09:38]
+Jadi kepala canggul itu idealnya akan berhenti disitu
+
+[09:38 - 09:42]
+Pada saat dia berada di dalam fase akumulasi
+
+[09:42 - 09:44]
+Kalau dia sudah bergerak 45 derajat
+
+[09:44 - 09:46]
+Di atas Exponential Moving Average
+
+[09:46 - 09:47]
+Di atas Dynamic Supportnya
+
+[09:47 - 09:50]
+Maka biasanya dia akan berhenti di 38,2%
+
+[09:50 - 09:51]
+Lalu naik lagi
+
+[09:51 - 09:53]
+Atau berhenti di 38,2%
+
+[09:53 - 09:54]
+Lalu turun
+
+[09:54 - 09:55]
+Itu yang membedakan
+
+[09:56 - 09:57]
+Ini adalah pola X, A, B
+
+[09:57 - 10:01]
+Rasionya antara 38, 50% dan 61,8%
+
+[10:01 - 10:02]
+Dan 78,6%
+
+[10:02 - 10:03]
+Tetapi most likely
+
+[10:03 - 10:05]
+70 dari 100 kejadian
+
+[10:05 - 10:09]
+Kepala canggul itu berhentinya di 50% sampai 61,8%
+
+[10:09 - 10:11]
+Ini adalah basic Fibonacci
+
+[10:11 - 10:12]
+Ada advanced Fibonacci
+
+[10:13 - 10:15]
+Tetapi saat ini kita mau belajar yang basic terlebih dahulu
+
+[10:15 - 10:18]
+Di dalam AMI Broker kita bisa set up
+
+[10:18 - 10:23]
+Ini ada 38,2, 50, 61,8 dan 78,6
+
+[10:23 - 10:26]
+Yang lainnya ada 224, 86
+
+[10:26 - 10:29]
+Ini adalah advanced dan harus digabungkan dengan pola-pola yang lain
+
+[10:29 - 10:32]
+Tetapi untuk saat ini saya akan mengajarkan anda bagaimana
+
+[10:32 - 10:35]
+Menggunakan Fibonacci untuk menghitung X, A, B
+
+[10:35 - 10:38]
+Dan nanti menghitung X, A, Y
+
+[10:38 - 10:39]
+X, A, Y
+
+[10:39 - 10:40]
+Oke
+
+[10:40 - 10:43]
+Tapi yang kita hitung sekarang X, A, B terlebih dahulu
+
+[10:43 - 10:44]
+It's very simple
+
+[10:44 - 10:47]
+Mari kita mencoba mencari canggul
+
+[10:47 - 10:49]
+Katakan ini adalah canggul ya
+
+[10:49 - 10:50]
+Ini adalah canggul
+
+[10:50 - 10:59]
+Dan kemudian ini turun ke bawah
+
+[10:59 - 11:00]
+Ini adalah kepala canggul
+
+[11:01 - 11:05]
+Bagaimana caranya saya bisa tahu kepala canggulnya ini berhenti di mana
+
+[11:05 - 11:07]
+Saya akan menggunakan Fibonacci
+
+[11:07 - 11:11]
+Sebagai bukti ini canggulnya anda sudah pasti tahu ya cara menariknya
+
+[11:11 - 11:13]
+Kita tarik dari sini sampai ke ujung sini
+
+[11:13 - 11:15]
+Dan kalau anda perhatikan
+
+[11:15 - 11:17]
+Begitu harga turun sampai 61,8
+
+[11:17 - 11:19]
+Dia langsung naik
+
+[11:20 - 11:22]
+Terjadi pentalan
+
+[11:22 - 11:23]
+Terjadi rejection
+
+[11:23 - 11:24]
+Di 61,8
+
+[11:24 - 11:27]
+Dan kemudian dia langsung kembali naik
+
+[11:27 - 11:33]
+Itu yang terjadi di dalam X, A, B
+
+[11:34 - 11:37]
+Bagaimana dengan posisi yang ada di sini
+
+[11:37 - 11:39]
+Kalau kita melihat posisi ini
+
+[11:39 - 11:42]
+Swing nya dari bawah ke atas
+
+[11:45 - 11:47]
+Kemudian dia turun ke bawah
+
+[11:47 - 11:49]
+Yang menarik
+
+[11:49 - 11:51]
+Dia berhenti di area dynamic support lalu naik
+
+[11:51 - 11:53]
+Kalau kita hitung dengan Fibonacci nya
+
+[11:53 - 11:57]
+Exactly di 50%
+
+[11:57 - 12:00]
+Bertemu dengan exponential moving average 34
+
+[12:01 - 12:02]
+Dan langsung naik
+
+[12:02 - 12:03]
+Luar biasa kan
+
+[12:03 - 12:05]
+Jadi kita bisa memberikan sebuah
+
+[12:08 - 12:09]
+Gambaran ya
+
+[12:09 - 12:12]
+Gambaran bahwa di mana kepala canggulnya itu bisa berhenti
+
+[12:13 - 12:15]
+Selain kita menggabungkan dynamic support
+
+[12:16 - 12:18]
+Dynamic resistance katakan
+
+[12:18 - 12:19]
+Dynamic support dulu ya dalam kasus ini
+
+[12:19 - 12:22]
+Maka kepala canggul itu maksudnya akan berhenti di 3..
+
+[12:22 - 12:25]
+Di 50% sampai 61,8 dalam range ini
+
+[12:25 - 12:28]
+Kalau 50% nya berada di dalam moving average nya
+
+[12:28 - 12:30]
+Most likely dia berhenti di situ ya
+
+[12:30 - 12:32]
+Dan kemudian dia akan kembali naik
+
+[12:32 - 12:33]
+Sehingga anda tahu
+
+[12:33 - 12:35]
+Kalau harga sudah naik lalu ini mulai turun
+
+[12:35 - 12:36]
+Anda tidak mau beli di sini
+
+[12:36 - 12:37]
+Tidak mau beli di sini
+
+[12:37 - 12:38]
+Tidak
+
+[12:38 - 12:41]
+Anda menunggu sampai harga masuk di dalam area
+
+[12:42 - 12:43]
+Exponential moving average nya
+
+[12:43 - 12:47]
+Atau di area 50 dan 61,8
+
+[12:48 - 12:49]
+Karena ini merupakan range
+
+[12:49 - 12:50]
+Bisa di tengah-tengah
+
+[12:50 - 12:51]
+Bisa pas 50
+
+[12:51 - 12:52]
+Bisa 61,8
+
+[12:52 - 12:55]
+Kita harus perhatikan candle nya
+
+[12:55 - 12:57]
+Anda sudah mempelajari candle nya
+
+[12:57 - 12:58]
+Ada bullish harami
+
+[12:58 - 13:00]
+Kalau ternyata sampai di dalam sini
+
+[13:01 - 13:04]
+Sampai di dalam sini muncul yang namanya harami
+
+[13:04 - 13:10]
+Maka mostly kebanyakan dia naik dengan harami
+
+[13:10 - 13:13]
+Berarti kemungkinan anda mungkin tidak beli di 61,8
+
+[13:13 - 13:16]
+Tapi menggunakan entry berdasarkan harami
+
+[13:16 - 13:17]
+Atau inside bar ya
+
+[13:18 - 13:20]
+Sama saja namanya
+
+[13:20 - 13:21]
+Waktu dia break high ini
+
+[13:21 - 13:24]
+Kita akan masuk
+
+[13:24 - 13:25]
+Ya
+
+[13:27 - 13:29]
+Itu biasanya akan terjadi di sana
+
+[13:29 - 13:33]
+Jadi kalau ditanya gimana terjadinya pola-pola pembalikan arah tersebut
+
+[13:33 - 13:38]
+Mostly dia akan terjadi di area 50 atau 61,8
+
+[13:38 - 13:39]
+Oke
+
+[13:41 - 13:42]
+Mari kita perhatikan yang lain
+
+[13:43 - 13:45]
+Pada saat di gold misalnya
+
+[13:45 - 13:46]
+Ini di metatrader
+
+[13:46 - 13:49]
+Ini sama Fibonacci nya juga kita bisa set ya
+
+[13:49 - 13:50]
+Ini cukup lengkap
+
+[13:50 - 13:51]
+Saya sudah set yang atas 38
+
+[13:53 - 13:53]
+Oke
+
+[13:54 - 13:55]
+Mari kita lihat
+
+[13:56 - 13:56]
+Klik double klik
+
+[13:56 - 13:58]
+Ya caranya begini
+
+[13:58 - 13:58]
+Double klik
+
+[13:58 - 14:00]
+Klik kanan Fibo properties
+
+[14:01 - 14:03]
+Saya biasanya akan ganti style nya jadi red
+
+[14:03 - 14:05]
+Agak tebal sedikit ya
+
+[14:05 - 14:06]
+Nomor 2
+
+[14:06 - 14:09]
+Kita lihat 0,5 6,2
+
+[14:10 - 14:12]
+Kemudian 38,2 ya
+
+[14:12 - 14:14]
+Saya tulis 38,2
+
+[14:14 - 14:16]
+Ini kebetulan saya sudah set untuk advanced Fibo
+
+[14:16 - 14:19]
+Yang nanti anda akan pelajari lebih banyak di CIT
+
+[14:21 - 14:23]
+Pada saat ini saya taruh di sini
+
+[14:23 - 14:24]
+Perhatikan
+
+[14:24 - 14:26]
+Bahkan 38,2 pun tidak sampai
+
+[14:26 - 14:29]
+Karena dia sudah langsung masuk di dalam participation
+
+[14:29 - 14:30]
+Ya
+
+[14:31 - 14:31]
+Tapi ingat
+
+[14:31 - 14:35]
+Katakan pun dia tidak mencapai 38,2
+
+[14:35 - 14:38]
+Tetapi dia masih berada di area moving average ini
+
+[14:38 - 14:40]
+Kita bisa menggunakan
+
+[14:41 - 14:43]
+Pola-pola yang lain untuk masuk
+
+[14:43 - 14:43]
+Ya
+
+[14:43 - 14:48]
+Ini hanya sebagai reference untuk mengukur sebenarnya
+
+[14:48 - 14:49]
+Kalau kita bicara tentang Fibonacci
+
+[14:49 - 14:50]
+Lalu kita tarik ini
+
+[14:51 - 14:52]
+Dan mencapai 50
+
+[14:52 - 14:54]
+Kembali lagi dia up
+
+[14:54 - 14:55]
+Ya
+
+[14:56 - 14:57]
+Mencapai 50 dia up
+
+[14:57 - 14:58]
+Itulah
+
+[14:58 - 15:01]
+Bagaimana advantage kita menggunakan Fibonacci
+
+[15:01 - 15:03]
+Kita tahu bahwa ini adalah kepala campur lagi
+
+[15:03 - 15:05]
+Katakan bar nya sudah jalan 2
+
+[15:05 - 15:06]
+Saya ingin tahu dia berhenti di mana
+
+[15:06 - 15:07]
+Saya tarik ke atas
+
+[15:07 - 15:08]
+Ingat rule nya
+
+[15:08 - 15:10]
+50 dan 62
+
+[15:10 - 15:12]
+Ini masuk di antara tengah-tengah ini
+
+[15:12 - 15:14]
+Dan membuat ekor
+
+[15:14 - 15:16]
+Ingat membuat ekor
+
+[15:16 - 15:18]
+Di antara 50 dan 61,8
+
+[15:18 - 15:19]
+Saya bulatkan 62
+
+[15:19 - 15:22]
+Lalu running dengan signifikan
+
+[15:22 - 15:23]
+Ya
+
+[15:24 - 15:26]
+Nah bagaimana dengan yang beris
+
+[15:26 - 15:27]
+Kalau anda melihat yang beris
+
+[15:28 - 15:30]
+Ini turun lalu dia membentuk
+
+[15:30 - 15:32]
+Kepala ganggul
+
+[15:32 - 15:33]
+Oke
+
+[15:36 - 15:38]
+Maka anda ambil Fibonacci nya
+
+[15:38 - 15:40]
+Anda tarik dari atas ditarik ke bawah
+
+[15:42 - 15:44]
+Ketemu 50 dan 62
+
+[15:45 - 15:46]
+Exactly
+
+[15:47 - 15:48]
+Lalu membentuk ekor
+
+[15:49 - 15:51]
+Dan turun dalam
+
+[15:51 - 15:52]
+Ya
+
+[15:52 - 15:54]
+Rasio 50 dan 62
+
+[15:55 - 15:56]
+Kemudian
+
+[15:56 - 15:57]
+Kita melihat lagi ya
+
+[15:57 - 16:00]
+Sebelumnya anda harus menentukan cangkulnya ya
+
+[16:00 - 16:01]
+Seperti biasa
+
+[16:01 - 16:03]
+Misalnya kita menarik cangkul
+
+[16:03 - 16:04]
+Dari sini
+
+[16:04 - 16:04]
+Primary
+
+[16:04 - 16:06]
+Kemudian anda melihat secondary
+
+[16:06 - 16:07]
+Sudah mulai gerak
+
+[16:07 - 16:08]
+Secondary nya turun
+
+[16:08 - 16:09]
+Pertanyaannya ini masih bull nggak
+
+[16:09 - 16:10]
+Atau boleh dibeli
+
+[16:10 - 16:10]
+Katakan
+
+[16:10 - 16:12]
+Kita sudah percaya itu
+
+[16:12 - 16:13]
+Dan kita tarik
+
+[16:13 - 16:14]
+Dari bawah ke atas ya
+
+[16:14 - 16:14]
+Kalau bullish
+
+[16:15 - 16:16]
+Ternyata
+
+[16:16 - 16:17]
+Ajaibnya gold ini
+
+[16:17 - 16:20]
+Masuk lagi di area 50 dan 62
+
+[16:20 - 16:22]
+Dan membentuk ekor
+
+[16:22 - 16:22]
+Lalu up
+
+[16:22 - 16:23]
+Berapa jauh up nya
+
+[16:23 - 16:26]
+Dan kalau kita mau beli biasanya
+
+[16:26 - 16:27]
+Setelah di ekor
+
+[16:27 - 16:28]
+Next bar nya ya
+
+[16:28 - 16:29]
+Seperti yang kita sudah pelajari
+
+[16:29 - 16:30]
+Ternyata 50 pips
+
+[16:30 - 16:31]
+Di time frame M15
+
+[16:32 - 16:33]
+Nah ini
+
+[16:33 - 16:34]
+Ini menarik sekali
+
+[16:35 - 16:36]
+Dan apakah ini ada cangkul
+
+[16:36 - 16:38]
+Ini belum ada cangkul
+
+[16:38 - 16:39]
+Mungkin kita tarik disini
+
+[16:39 - 16:40]
+Kita lihat
+
+[16:40 - 16:44]
+Ini ada 50 dan 62 lagi
+
+[16:44 - 16:46]
+Ini area penentuan
+
+[16:48 - 16:49]
+Seharusnya
+
+[16:49 - 16:51]
+Kalau dia respect terhadap area ini
+
+[16:51 - 16:52]
+Dia akan terus naik
+
+[16:52 - 16:54]
+Ini untuk menghitung
+
+[16:54 - 16:55]
+X
+
+[16:55 - 16:55]
+A
+
+[16:56 - 16:56]
+B
+
+[16:56 - 16:58]
+Jadi B untuk tempat entry kita
+
+[16:58 - 16:59]
+Baik bullish atau bearish
+
+[16:59 - 17:00]
+Ya
+
+[17:00 - 17:01]
+Ini harus diingat
+
+[17:01 - 17:01]
+Rasio nya
+
+[17:01 - 17:02]
+38,2
+
+[17:02 - 17:03]
+50%
+
+[17:03 - 17:04]
+61,8
+
+[17:04 - 17:05]
+78,6
+
+[17:05 - 17:08]
+Range nya di 50 dan 61,8
+
+[17:08 - 17:09]
+Pada saat dia bergerak
+
+[17:09 - 17:10]
+Dalam bullish participation
+
+[17:10 - 17:12]
+Yang extreme
+
+[17:12 - 17:13]
+Sekali 45 derajat
+
+[17:13 - 17:13]
+Atau lebih
+
+[17:13 - 17:15]
+Dia mostly akan berhenti
+
+[17:15 - 17:17]
+Di 38,2
+
+[17:17 - 17:18]
+Sekarang
+
+[17:18 - 17:19]
+Setelah kita mengetahui
+
+[17:19 - 17:20]
+Prinsip dari X
+
+[17:20 - 17:21]
+A B
+
+[17:22 - 17:23]
+Bagaimana apabila
+
+[17:23 - 17:24]
+Kepala cangkulnya
+
+[17:24 - 17:25]
+Melampaui X
+
+[17:26 - 17:28]
+Ada pola-pola seperti itu
+
+[17:28 - 17:29]
+Dan itu akan kita
+
+[17:29 - 17:30]
+Beri nama
+
+[17:30 - 17:31]
+X A Y
+
+[17:31 - 17:32]
+Dan kalau anda menguasai
+
+[17:32 - 17:33]
+X A Y ini
+
+[17:33 - 17:35]
+Pada saat anda berhadapan
+
+[17:35 - 17:37]
+Dengan saham yang tiba-tiba turun
+
+[17:37 - 17:38]
+Dengan drastis
+
+[17:38 - 17:40]
+Akan mendapatkan keuntungan yang signifikan
+
+[17:40 - 17:41]
+Minimal 10%
+
+[17:41 - 17:42]
+Dan kalau sedang crash
+
+[17:42 - 17:43]
+Itu bisa sampai
+
+[17:43 - 17:44]
+30%
+
+[17:44 - 17:46]
+Khususnya di saham-saham banking ya
+
+[17:46 - 17:47]
+Saya pernah mengalami
+
+[17:47 - 17:48]
+Dan itu sangat manis sekali
+
+[17:48 - 17:50]
+Saya hari ini akan memberitahu rahasianya
+
+[17:50 - 17:51]
+Pada saat
+
+[17:51 - 17:53]
+Trend bullish atau bearish
+
+[17:53 - 17:55]
+Market akan melanjutkan
+
+[17:56 - 17:57]
+Penguatannya
+
+[17:57 - 17:58]
+Seperti ini
+
+[17:59 - 17:59]
+Oke
+
+[18:00 - 18:01]
+Kemudian
+
+[18:01 - 18:02]
+Dia kalau turun
+
+[18:02 - 18:03]
+Kepala cangkul
+
+[18:03 - 18:04]
+Lalu dia akan melanjutkan
+
+[18:04 - 18:06]
+Penurunan yang begini
+
+[18:06 - 18:07]
+Nah
+
+[18:07 - 18:09]
+X A Y itu
+
+[18:09 - 18:10]
+Kalau tadi ini
+
+[18:10 - 18:11]
+X A B
+
+[18:11 - 18:12]
+Sekarang X A Y itu
+
+[18:12 - 18:13]
+Di bagian atasnya
+
+[18:13 - 18:14]
+Ini X
+
+[18:14 - 18:15]
+Ini A
+
+[18:15 - 18:16]
+Dan ini Y
+
+[18:17 - 18:18]
+Ini X
+
+[18:18 - 18:19]
+Ini A
+
+[18:19 - 18:20]
+Oops sorry
+
+[18:21 - 18:22]
+Di balik ya sekarang
+
+[18:22 - 18:23]
+X
+
+[18:23 - 18:23]
+A
+
+[18:23 - 18:25]
+Dan di sini Y
+
+[18:28 - 18:29]
+Fungsi dari pada X A Y
+
+[18:29 - 18:31]
+Itu untuk menemukan bentuk ini
+
+[18:31 - 18:32]
+X A Y ini
+
+[18:32 - 18:33]
+Seperti tanda cawang
+
+[18:33 - 18:35]
+Kita mencari
+
+[18:35 - 18:36]
+X nya ini
+
+[18:36 - 18:37]
+Y nya ini berhenti di mana
+
+[18:37 - 18:37]
+Di sini
+
+[18:37 - 18:38]
+Di sini
+
+[18:38 - 18:39]
+Atau di sini
+
+[18:40 - 18:41]
+Di sini
+
+[18:42 - 18:44]
+Yang pertama itu yang paling dekat ya
+
+[18:44 - 18:44]
+Di sini
+
+[18:47 - 18:48]
+Di sini
+
+[18:48 - 18:49]
+Atau yang agak jauh
+
+[18:49 - 18:50]
+Di sini
+
+[18:52 - 18:53]
+Fungsinya adalah menemukan
+
+[18:53 - 18:54]
+Di mana
+
+[18:54 - 18:55]
+Kalau di extend
+
+[18:55 - 18:56]
+Itu berhenti di mana
+
+[18:57 - 18:58]
+Di area ini
+
+[18:58 - 18:59]
+Kita sebut area
+
+[18:59 - 19:00]
+Ini menggunakan
+
+[19:00 - 19:01]
+Rasio Fibonacci
+
+[19:01 - 19:03]
+1.272
+
+[19:03 - 19:05]
+Atau 127,2%
+
+[19:05 - 19:06]
+Ya sama saja
+
+[19:06 - 19:08]
+Kita akan menggunakan yang 1 titik
+
+[19:08 - 19:08]
+Biar lebih mudah
+
+[19:08 - 19:10]
+1.62 berarti
+
+[19:10 - 19:11]
+Dan di sini
+
+[19:11 - 19:13]
+Yang paling penting 2.62
+
+[19:13 - 19:14]
+Ini pembulatan dari
+
+[19:14 - 19:15]
+1.618
+
+[19:15 - 19:17]
+2.1618
+
+[19:17 - 19:18]
+Ini 172
+
+[19:18 - 19:20]
+Oke
+
+[19:21 - 19:21]
+Nah
+
+[19:22 - 19:24]
+Perlu anda perhatikan bahwa
+
+[19:26 - 19:27]
+7 dari 10
+
+[19:27 - 19:30]
+Pada saat harga ini naik seperti ini
+
+[19:30 - 19:32]
+Dia akan berhenti di
+
+[19:32 - 19:33]
+618
+
+[19:34 - 19:35]
+Kemudian
+
+[19:35 - 19:35]
+Ada
+
+[19:35 - 19:37]
+Pembalikan arah minor
+
+[19:38 - 19:39]
+Dan dia akan berhenti di sini
+
+[19:39 - 19:41]
+Lalu pembalikan arah minor
+
+[19:42 - 19:43]
+Tetapi
+
+[19:43 - 19:44]
+Pada saat ini extend
+
+[19:44 - 19:46]
+Mencapai 2618
+
+[19:46 - 19:47]
+Atau 262
+
+[19:47 - 19:49]
+Maka pembalikannya akan cukup besar
+
+[19:50 - 19:51]
+Turun sampai sini
+
+[19:51 - 19:53]
+Ini pembalikannya akan cukup besar
+
+[19:54 - 19:54]
+Sehingga
+
+[19:54 - 19:56]
+Kalau aturan main seperti ini
+
+[19:56 - 19:57]
+Anda akan mengerti
+
+[19:57 - 19:58]
+Bahwa
+
+[19:59 - 20:00]
+162
+
+[20:00 - 20:01]
+262
+
+[20:01 - 20:03]
+Ini merupakan angka krusial
+
+[20:03 - 20:05]
+127 ini adalah minimal
+
+[20:05 - 20:06]
+Biasanya kalau false break
+
+[20:06 - 20:07]
+Tipuan
+
+[20:07 - 20:08]
+Double top misalnya
+
+[20:08 - 20:10]
+Double top biasanya berhentinya di
+
+[20:10 - 20:12]
+1.272
+
+[20:12 - 20:13]
+Lalu dia turun
+
+[20:13 - 20:15]
+Itulah awal mula double top
+
+[20:15 - 20:16]
+Jadi kita bisa tahu
+
+[20:16 - 20:17]
+Munculnya double top
+
+[20:17 - 20:18]
+Atau double bottom
+
+[20:18 - 20:19]
+Itu pada saat
+
+[20:19 - 20:20]
+Ini berhenti di
+
+[20:21 - 20:22]
+1.272
+
+[20:22 - 20:24]
+Lalu naik
+
+[20:25 - 20:25]
+Ya
+
+[20:26 - 20:27]
+Ini yang terjadi
+
+[20:29 - 20:30]
+1.272 turun
+
+[20:30 - 20:31]
+1.6
+
+[20:31 - 20:32]
+1.62
+
+[20:33 - 20:36]
+Kalau ini 1.272 ini gagalnya ke bawah
+
+[20:36 - 20:37]
+Biasanya kalau 1.62
+
+[20:37 - 20:38]
+Dia masih sideways lagi
+
+[20:38 - 20:39]
+Lalu dia up
+
+[20:39 - 20:40]
+Ya ke atas
+
+[20:40 - 20:42]
+Kalau yang 2.62
+
+[20:42 - 20:44]
+Itu juga akan
+
+[20:44 - 20:46]
+Itu berbalik menjadi trend
+
+[20:46 - 20:47]
+Baru
+
+[20:47 - 20:49]
+Misalnya di sini
+
+[20:49 - 20:52]
+Trend baru
+
+[20:52 - 20:52]
+2.62
+
+[20:52 - 20:53]
+Jadi 1.272
+
+[20:53 - 20:56]
+Adalah gerbang dari breakout
+
+[20:56 - 20:57]
+Untuk munculnya trend reversal
+
+[20:58 - 21:00]
+Biasanya seperti double top
+
+[21:00 - 21:03]
+Kemudian mungkin rising wage ya
+
+[21:03 - 21:04]
+Kalau 1.618
+
+[21:04 - 21:06]
+Dia akan hit
+
+[21:06 - 21:09]
+Kemudian dia turun lagi konsolidasi
+
+[21:09 - 21:09]
+Sebentar atau correction
+
+[21:09 - 21:11]
+Atau membentuk badan canggul biasa
+
+[21:12 - 21:13]
+Lalu dia mulai up
+
+[21:13 - 21:14]
+Kalau 2.62
+
+[21:14 - 21:15]
+Itu bisa kita pakai sebagai
+
+[21:16 - 21:19]
+Area trading yang signifikan
+
+[21:19 - 21:20]
+Ya oke
+
+[21:20 - 21:21]
+Ini terbukti
+
+[21:21 - 21:23]
+Walaupun dia sempat turun dulu ya
+
+[21:23 - 21:24]
+Tapi benar-benar
+
+[21:24 - 21:25]
+Dia up
+
+[21:25 - 21:27]
+Ini ada news ya
+
+[21:27 - 21:29]
+Ini benar-benar dia up
+
+[21:29 - 21:31]
+Ekstrim sekali kenaikannya
+
+[21:31 - 21:32]
+Karena ini ada the Fed
+
+[21:32 - 21:35]
+Untuk masalah suku bunga
+
+[21:35 - 21:36]
+Mari kita lihat terlebih dahulu
+
+[21:36 - 21:38]
+Market action discount everything
+
+[21:38 - 21:39]
+Bawa berita
+
+[21:39 - 21:42]
+Itu sebenarnya sudah dipredik ya
+
+[21:42 - 21:43]
+Tadi kita sudah predik
+
+[21:43 - 21:44]
+Jelas-jelas bahwa dia akan ke atas ya
+
+[21:44 - 21:47]
+Karena rasionya
+
+[21:47 - 21:47]
+Dan ini
+
+[21:48 - 21:51]
+Kita sudah memprediksi dengan pola
+
+[21:51 - 21:52]
+Falling wage
+
+[21:52 - 21:54]
+Kemudian garis ini kita sudah
+
+[21:54 - 21:57]
+Gambarkan di chapter sebelumnya
+
+[21:57 - 21:58]
+Bahwa gold ini akan naik
+
+[21:58 - 22:00]
+Menjadi falling wage dengan target price ini
+
+[22:00 - 22:01]
+Ternyata
+
+[22:01 - 22:03]
+Newsnya sepakat ya
+
+[22:03 - 22:08]
+Nah sharply divided Fed indicates rate high
+
+[22:08 - 22:09]
+This year
+
+[22:09 - 22:10]
+Jadi belum ada sebuah
+
+[22:12 - 22:13]
+Gambaran sebenarnya
+
+[22:13 - 22:15]
+Statementnya akan naik atau tidak
+
+[22:15 - 22:18]
+Rates unchanged in September meeting
+
+[22:18 - 22:19]
+As predicted
+
+[22:19 - 22:21]
+Astrology menggambarkan bahwa
+
+[22:21 - 22:22]
+Rate unchanged pasti
+
+[22:22 - 22:24]
+Dan news ini
+
+[22:24 - 22:25]
+Ternyata
+
+[22:25 - 22:26]
+Yap akhirnya
+
+[22:26 - 22:28]
+Gold kena ya
+
+[22:29 - 22:30]
+Gold kena disini
+
+[22:30 - 22:31]
+Dan
+
+[22:31 - 22:33]
+Anda bisa lihat
+
+[22:33 - 22:34]
+Falling wage
+
+[22:34 - 22:36]
+Mencapai targetnya
+
+[22:36 - 22:39]
+Target yang sebelumnya kita bahas
+
+[22:39 - 22:40]
+Di chapter chart pattern
+
+[22:40 - 22:41]
+Dan ternyata ini
+
+[22:41 - 22:43]
+Benar-benar kena ya
+
+[22:43 - 22:45]
+Dan ini merupakan bukti nyata
+
+[22:46 - 22:47]
+Bahwa
+
+[22:48 - 22:51]
+US dollar ini kan sekarang sedang melemah jadinya ya
+
+[22:51 - 22:53]
+Dan falling wage ini
+
+[22:53 - 22:55]
+Menjawab pertanyaan
+
+[22:55 - 22:57]
+Kemana sih sebenarnya arahnya
+
+[22:57 - 22:58]
+Ternyata benar-benar ke atas
+
+[22:58 - 22:59]
+Newsnya apapun
+
+[22:59 - 23:01]
+Yang jelas target falling wage nya kena
+
+[23:01 - 23:01]
+Ya
+
+[23:01 - 23:03]
+Nah sekarang di dalam gambar ini
+
+[23:03 - 23:06]
+Saya akan memberikan contoh
+
+[23:06 - 23:07]
+Untuk XAY
+
+[23:08 - 23:10]
+Ini adalah XAY
+
+[23:10 - 23:11]
+Berarti begini
+
+[23:11 - 23:13]
+Dan ini begini
+
+[23:13 - 23:13]
+Ya
+
+[23:14 - 23:16]
+Kita gunakan Fibonacci yang sama
+
+[23:16 - 23:18]
+Fibonacci retracement yang ini
+
+[23:18 - 23:20]
+Tetapi di dalam settingannya
+
+[23:20 - 23:22]
+Kita double klik
+
+[23:22 - 23:23]
+Kita klik kanan
+
+[23:23 - 23:23]
+Kita Fibo properties
+
+[23:26 - 23:28]
+Kita akan ambil
+
+[23:28 - 23:28]
+1272
+
+[23:30 - 23:31]
+Kemudian
+
+[23:32 - 23:32]
+1618
+
+[23:32 - 23:38]
+Dan 2618
+
+[23:38 - 23:41]
+Kalau di dalam Fibo anda belum terlihat
+
+[23:41 - 23:43]
+Maka yang bisa kita lakukan
+
+[23:43 - 23:44]
+Kita add
+
+[23:44 - 23:46]
+Kemudian kita ketik
+
+[23:46 - 23:47]
+2.618
+
+[23:52 - 23:54]
+Atau mungkin tadi anda belum punya 1272
+
+[23:54 - 23:55]
+Anda add
+
+[23:55 - 23:56]
+Kemudian ketik sendiri
+
+[23:56 - 23:57]
+1272
+
+[23:57 - 23:58]
+Description ini
+
+[23:58 - 24:00]
+Bagaimana nanti ditampilannya terlihat
+
+[24:00 - 24:00]
+Ya
+
+[24:01 - 24:03]
+Mari kita lihat
+
+[24:03 - 24:06]
+Sekarang saya akan mengambil Fibonacci nya
+
+[24:06 - 24:07]
+Dan saya tarik dari sini ke sini
+
+[24:07 - 24:08]
+Lihat
+
+[24:08 - 24:11]
+Mencapai 2618
+
+[24:12 - 24:13]
+Ya
+
+[24:14 - 24:16]
+Oke sementara saya akan hilangkan
+
+[24:17 - 24:18]
+224 nya
+
+[24:18 - 24:20]
+Agar tidak bias
+
+[24:20 - 24:23]
+Dan mencapai 2618
+
+[24:24 - 24:26]
+Normally setelah ini
+
+[24:26 - 24:27]
+Dia akan turun dulu
+
+[24:30 - 24:31]
+Mungkin lebih sedikit gitu
+
+[24:31 - 24:33]
+Baru nanti akan turun
+
+[24:33 - 24:34]
+Ya
+
+[24:34 - 24:38]
+Nah ini adalah alat untuk mengukur X I Y tadi
+
+[24:38 - 24:39]
+Ya
+
+[24:40 - 24:43]
+Jadi kalau kita sudah melihat seperti ini misalnya
+
+[24:44 - 24:45]
+Dia naik kan
+
+[24:45 - 24:48]
+Udah cangkul begini lalu dia mulai turun
+
+[24:49 - 24:50]
+Seberapa jauh turunnya
+
+[24:50 - 24:51]
+Anda akan sulit menghitung ya
+
+[24:51 - 24:53]
+Karena paling mengandalkan classic support
+
+[24:53 - 24:55]
+Tapi kalau kita hitung begini
+
+[24:55 - 24:57]
+Ya ini kelihatan ya
+
+[24:57 - 25:00]
+Ini berhenti diantara 1618 sampai 2218 ya
+
+[25:00 - 25:01]
+Tapi yang jelas
+
+[25:01 - 25:04]
+Kalau kita melakukan sell 1618
+
+[25:04 - 25:05]
+Akan menjadi target yang manis sekali
+
+[25:05 - 25:08]
+Dan terlihat harga mulai turun
+
+[25:08 - 25:09]
+Mengenai 2618
+
+[25:09 - 25:11]
+Exactly titik disitu
+
+[25:11 - 25:12]
+Dan mulai turun
+
+[25:12 - 25:14]
+This is the magic of Fibonacci
+
+[25:14 - 25:15]
+Ya
+
+[25:16 - 25:18]
+Kalau di saham kita lihat
+
+[25:18 - 25:21]
+Kemarin ada saham BMRI mungkin ya
+
+[25:21 - 25:24]
+Yang tiba-tiba turun
+
+[25:25 - 25:26]
+Nah
+
+[25:26 - 25:28]
+Turun naik lalu dia pada saat
+
+[25:28 - 25:30]
+Dia sudah mulai slowing down ke bawah
+
+[25:30 - 25:31]
+Ini kita bisa predict
+
+[25:31 - 25:32]
+Kira-kira dia berhenti di mana
+
+[25:32 - 25:34]
+Sama ini kita tarik
+
+[25:34 - 25:35]
+1272
+
+[25:35 - 25:36]
+Begitu dia kena
+
+[25:36 - 25:38]
+Langsung mental lagi
+
+[25:38 - 25:39]
+Ya
+
+[25:39 - 25:42]
+Tapi kita bisa aiming di 1618
+
+[25:42 - 25:43]
+Kita tunggu disini
+
+[25:43 - 25:45]
+Di 1272 sama
+
+[25:45 - 25:47]
+Kita tunggu ternyata
+
+[25:47 - 25:48]
+Dia ada ekor
+
+[25:48 - 25:51]
+Dan membentuk inside bar
+
+[25:53 - 25:54]
+Ini inside bar
+
+[25:54 - 25:56]
+Setelah dia terbentuk inside bar
+
+[25:58 - 25:59]
+Otomatis kita tahu bahwa
+
+[25:59 - 26:00]
+Kita tidak akan beli disini
+
+[26:00 - 26:02]
+Kita langsung buy disini
+
+[26:02 - 26:03]
+Dan ini yang terjadi
+
+[26:04 - 26:06]
+10800 sampai 11400
+
+[26:08 - 26:10]
+Di dalam saham BBCA
+
+[26:10 - 26:11]
+Tidak ada XAY
+
+[26:13 - 26:15]
+Nah coba kita lihat di saham AALI
+
+[26:15 - 26:17]
+Up kemudian down
+
+[26:17 - 26:18]
+Ya
+
+[26:18 - 26:20]
+Pada saat harga sudah merah disini
+
+[26:20 - 26:21]
+Kita sudah bisa hitung
+
+[26:21 - 26:22]
+Nggak perlu sampai di bawah
+
+[26:22 - 26:23]
+Sudah merah besar disini
+
+[26:23 - 26:24]
+Kita langsung tarik kesini
+
+[26:24 - 26:25]
+Ujungnya
+
+[26:25 - 26:27]
+Exactly di 1618
+
+[26:27 - 26:28]
+Ekor dan naik
+
+[26:28 - 26:31]
+Itu adalah XAY
+
+[26:31 - 26:33]
+Dimana secara variasi
+
+[26:33 - 26:34]
+Anda juga bisa gabungkan
+
+[26:34 - 26:36]
+Sebenarnya ini adalah XAB
+
+[26:36 - 26:38]
+Dalam skala besarnya ini adalah XAB
+
+[26:38 - 26:40]
+Maka untuk lebih memperkuat
+
+[26:40 - 26:42]
+Saya biasanya akan menggunakan
+
+[26:42 - 26:43]
+Cluster dari bawah sini
+
+[26:43 - 26:44]
+Saya tarik lagi ke atas
+
+[26:45 - 26:46]
+61,8
+
+[26:46 - 26:48]
+Dan ini menjadi satu area
+
+[26:48 - 26:52]
+61,8 bertemu dengan 1272
+
+[26:52 - 26:55]
+Akhirnya menjadi area zona magnet
+
+[26:55 - 26:56]
+Dari Fibonacci
+
+[26:58 - 27:00]
+Kemudian mari kita lihat contoh satu lagi
+
+[27:01 - 27:02]
+XAY
+
+[27:03 - 27:07]
+Yang kita lakukan disini adalah
+
+[27:07 - 27:08]
+Tarik dari atas ke bawah
+
+[27:11 - 27:12]
+Kena 2618
+
+[27:12 - 27:14]
+Exactly 2618
+
+[27:15 - 27:15]
+Tembus sedikit
+
+[27:16 - 27:17]
+Langsung turun ke bawah
+
+[27:17 - 27:18]
+Ini ekstrim sekali
+
+[27:19 - 27:21]
+Dan kalau terjadinya itu di bearish
+
+[27:21 - 27:24]
+Anda bisa mendapatkan keuntungan yang besar
+
+[27:24 - 27:25]
+Kita lihat Pegas
+
+[27:25 - 27:27]
+Turun turun turun
+
+[27:27 - 27:28]
+Kita sudah siapkan
+
+[27:28 - 27:28]
+Tarik
+
+[27:29 - 27:30]
+Ini 1618 ya
+
+[27:30 - 27:31]
+1618
+
+[27:31 - 27:33]
+Dia consolidate
+
+[27:33 - 27:35]
+Ada inside bar
+
+[27:35 - 27:38]
+Maka pada saat disini ada inside bar di area ini
+
+[27:38 - 27:39]
+Buy disini
+
+[27:40 - 27:41]
+Dan saya yakin
+
+[27:41 - 27:42]
+Target berikutnya dimana
+
+[27:42 - 27:44]
+Kalau kita sudah mempelajari support resistance
+
+[27:45 - 27:48]
+Target berikutnya adalah di area sini
+
+[27:49 - 27:49]
+Minimal
+
+[27:50 - 27:52]
+Dan berikutnya adalah disini
+
+[27:52 - 27:56]
+Karena ini adalah strong support
+
+[27:56 - 27:57]
+Minimal di 2900 sekian
+
+[27:57 - 27:58]
+Ya
+
+[27:58 - 28:01]
+Karena ini adalah area classic support
+
+[28:01 - 28:02]
+Yang dari
+
+[28:03 - 28:05]
+Classic support menjadi resistance
+
+[28:05 - 28:07]
+Jadi ini setelah awalnya support ditembus
+
+[28:07 - 28:09]
+Kan balik lagi jadi resistance ya
+
+[28:09 - 28:09]
+Nah
+
+[28:09 - 28:12]
+Kita lihat
+
+[28:12 - 28:15]
+Masih belum mampu menembus 2618
+
+[28:15 - 28:17]
+Ini seperti angka sakti dan terpukul ke bawah
+
+[28:17 - 28:20]
+Jadi seakan-akan kita bisa ngefaskan gitu
+
+[28:21 - 28:21]
+Inilah
+
+[28:22 - 28:23]
+Istimewanya daripada
+
+[28:23 - 28:25]
+The Fibonacci itu sendiri
+
+[28:26 - 28:27]
+Ini kita tarik kesini
+
+[28:29 - 28:30]
+1618
+
+[28:31 - 28:32]
+Dia tidak mampu lagi turun
+
+[28:32 - 28:33]
+Dia tertahan disitu
+
+[28:33 - 28:34]
+Dan kemudian
+
+[28:34 - 28:35]
+Mulai up
+
+[28:35 - 28:36]
+Ya
+
+[28:36 - 28:38]
+Jadi ini yang perlu kita ketahui
+
+[28:38 - 28:41]
+Pada saat kita mengukur
+
+[28:41 - 28:42]
+Kita mencari cangkul
+
+[28:42 - 28:42]
+Itu XAB
+
+[28:42 - 28:45]
+Misalnya cangkul disini kita tarik dari sini kesini
+
+[28:45 - 28:46]
+Sekali lagi
+
+[28:46 - 28:49]
+Area 50 dan 62
+
+[28:49 - 28:50]
+Itu berkumpul disini
+
+[28:50 - 28:52]
+Kepala cangkul
+
+[28:52 - 28:54]
+Setelah itu kita mencari ada bar apa disini
+
+[28:54 - 28:55]
+Tidak ada
+
+[28:55 - 29:00]
+Dia menyentuh area dynamic supportnya lalu naik
+
+[29:00 - 29:02]
+In the next bar setelah ekor
+
+[29:02 - 29:04]
+Kita masuk ingat kuncinya ekor
+
+[29:04 - 29:05]
+The next bar kita masuk
+
+[29:05 - 29:08]
+Ya karena kita sudah yakin bahwa bottomnya adalah
+
+[29:08 - 29:10]
+Di area Fibonacci tersebut
+
+[29:10 - 29:11]
+Kalau kita sudah yakin
+
+[29:11 - 29:14]
+Maka anda bisa mulai trading
+
+[29:14 - 29:16]
+Atau mulai masuk karena kita tahu
+
+[29:16 - 29:19]
+Itu adalah kemungkinan besar end of the period
+
+[29:19 - 29:23]
+Jadi fungsi dari Fibonacci number ini
+
+[29:23 - 29:25]
+Adalah bagaimana caranya kita bisa
+
+[29:26 - 29:29]
+Mengukur ya bagaimana kita bisa mengukur
+
+[29:29 - 29:32]
+Bottom dan peak targetnya
+
+[29:32 - 29:33]
+Karena ini yang paling penting sekali
+
+[29:33 - 29:36]
+Patternnya sudah ada tinggal kita mengukur
+
+[29:36 - 29:39]
+Agar bisa memanfaatkan dengan baik
+
+[29:39 - 29:41]
+Ya itu cara kita mengukurnya
+
+[29:41 - 29:44]
+Jadi misalnya ini XA
+
+[29:44 - 29:47]
+Dan kemudian ini Y
+
+[29:47 - 29:49]
+Maka kita tarik lagi dari sini
+
+[29:49 - 29:50]
+Kita tarik ke atas
+
+[29:50 - 29:57]
+Sama seperti mengukur yang XAB ya
+
+[29:57 - 29:59]
+Tapi untuk XAYA
+
+[29:59 - 30:01]
+Kita mengukurnya melihat yang di bawah 100
+
+[30:01 - 30:05]
+Lihat mendekati 1618
+
+[30:06 - 30:08]
+Kemudian dia mulai up
+
+[30:08 - 30:09]
+Yang masuk di dalam range itu
+
+[30:09 - 30:11]
+Jadi panjangnya
+
+[30:11 - 30:13]
+Panjang daripada harga saat dia bergerak
+
+[30:13 - 30:14]
+Mau saham mau futures
+
+[30:14 - 30:14]
+Sebenarnya sama
+
+[30:14 - 30:18]
+Kalau dia sudah membentuk kepala canggul itu 50 dan 62
+
+[30:18 - 30:21]
+Setelah dia membentuk XAYA seperti ini
+
+[30:21 - 30:24]
+Itu setidaknya berhenti mendekati 1618
+
+[30:24 - 30:26]
+Tinggal anda mencari ekor
+
+[30:27 - 30:28]
+Kemudian anda mencari
+
+[30:28 - 30:29]
+Insight Bar
+
+[30:30 - 30:32]
+Kita akan mencari contoh
+
+[30:32 - 30:34]
+Yang lain lagi
+
+[30:34 - 30:35]
+Mungkin dari saham
+
+[30:36 - 30:38]
+Sudah sekarang kita lihat dari index
+
+[30:38 - 30:40]
+Coba anda bayangkan
+
+[30:40 - 30:42]
+Ketika harga turun dalam seperti ini
+
+[30:42 - 30:43]
+Lalu anda panik
+
+[30:43 - 30:44]
+Kapan berhentinya
+
+[30:44 - 30:45]
+Kita tarik
+
+[30:45 - 30:47]
+Tidak perlu tanya kiri kanan
+
+[30:47 - 30:47]
+Ya
+
+[30:48 - 30:50]
+Ternyata pada saat kita tarik
+
+[30:50 - 30:52]
+Ini saya hilangkan dulu 224 nya
+
+[30:52 - 30:56]
+Ternyata waktu kita tarik
+
+[30:56 - 30:59]
+Kita melihat harga mendekati 2618
+
+[30:59 - 31:01]
+Jadi waktu harga itu masih mungkin di 4300
+
+[31:01 - 31:02]
+Kita sudah tahu
+
+[31:02 - 31:05]
+4171 dan 3800
+
+[31:05 - 31:07]
+Itu adalah targetnya
+
+[31:07 - 31:10]
+Mungkin sebagian orang tidak percaya ya
+
+[31:10 - 31:10]
+Aduh terlalu jauh
+
+[31:10 - 31:11]
+Tetapi
+
+[31:12 - 31:13]
+Fibonacci is Fibonacci
+
+[31:13 - 31:16]
+Dia memiliki rasio yang harus diikuti
+
+[31:16 - 31:18]
+Dan pada kenyataannya
+
+[31:18 - 31:20]
+Harga akan mendekati area-area tersebut
+
+[31:20 - 31:21]
+Dan
+
+[31:21 - 31:24]
+Kita bisa lihat juga
+
+[31:25 - 31:27]
+Dari poin ini ke sini
+
+[31:27 - 31:29]
+Almost 50%
+
+[31:29 - 31:30]
+Dan dia kembali naik
+
+[31:30 - 31:32]
+Ini XAB
+
+[31:32 - 31:35]
+Nah saat ini kita sudah mengetahui
+
+[31:35 - 31:38]
+Cara menggunakan keseluruhan dari rasio ini
+
+[31:38 - 31:40]
+Tinggal kita mencari polanya
+
+[31:40 - 31:42]
+Dan kemudian mengaplikasikannya ke market
+
+[31:42 - 31:45]
+Setelah itu anda pasti bisa menghitung
+
+[31:45 - 31:47]
+Target-target harga dengan baik
+
+[31:47 - 31:49]
+Dan ini bisa kita gabungkan dengan chart pattern
+
+[31:49 - 31:51]
+Ingat konsepnya XAB
+
+[31:51 - 31:53]
+Dan bentuk XAY yang anda hafalkan
+
+[31:53 - 31:55]
+Sukses lalu kita akan bertemu di chapter 9
+
+[31:56 - 31:57]
+Untuk membahas tentang
+
+[31:57 - 31:59]
+How to trade in multiple time frame
+

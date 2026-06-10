@@ -38,6 +38,7 @@ dependencies:
   # --- Permissions ---
   # Untuk minta izin akses file di Android 13+
   permission_handler: ^11.3.0
+  go_router: ^17.3.0
 
 dev_dependencies:
   flutter_test:

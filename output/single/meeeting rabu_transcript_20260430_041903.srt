@@ -1,0 +1,52 @@
+1
+00:00:01,940 --> 00:00:03,919
+kita mulai dari settlement aja dulu
+
+2
+00:00:03,919 --> 00:00:07,740
+di settlement disini kan kita kan disini ada bagian list-listnya ya
+
+3
+00:00:07,740 --> 00:00:10,060
+contohnya dari singlenya itu
+
+4
+00:00:10,060 --> 00:00:12,220
+yang dari papa kan ada singlenya kan
+
+5
+00:00:12,220 --> 00:00:14,080
+pengeluaran sendiri aja
+
+6
+00:00:14,080 --> 00:00:18,160
+dimana itemnya cuma satuan aja
+
+7
+00:00:18,160 --> 00:00:27,089
+ini kenapa bisa 4 karena tadi disengajain
+
+8
+00:00:27,089 --> 00:00:29,050
+apa namanya informasi
+
+9
+00:00:29,050 --> 00:00:30,230
+ditambahin gitu
+
+10
+00:00:30,230 --> 00:00:33,490
+jadinya tuh pendatanya sampai 3000 ada bug gak di actionnya
+
+11
+00:00:33,490 --> 00:00:35,689
+intinya di single ini satu aja itemnya
+
+12
+00:00:35,689 --> 00:00:38,409
+ini gak bisa 4 disengajain tadi
+
+13
+00:00:38,950 --> 00:00:40,329
+lebih baik ini nanti dulu ya
+

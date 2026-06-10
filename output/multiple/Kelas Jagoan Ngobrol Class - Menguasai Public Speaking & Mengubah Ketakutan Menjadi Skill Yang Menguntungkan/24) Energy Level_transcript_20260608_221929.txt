@@ -1,0 +1,239 @@
+Source: 24) Energy Level.mp3
+Language Mode: Indonesian
+Detected: id (100.0%)
+Transcribed: 2026-06-08 22:37:39
+==================================================
+
+Energy level ; Kamu ketika ngobrol juga harus ; Aku jadi inget seseorang yang ngobrolnya energy levelnya tuh gak disetel ; Jadi ketika ngobrol sama yang ini ; Energy levelnya gede banget ; Ngobrol sama itu gede banget ; Sama semua orang energinya gede ; Dimana-mana dia gede ; And that's not good at all ; It's fucking annoying ; Alright? ; It's fucking annoying ; Jadi kamu tau dia lawan ngobrolan kamu itu seperti apa ; Misalnya nih energy levelnya dia 5 gitu ; Kayak dia ngobrolnya santai, kalem, kayak gini ; Oh iya nama aku Honji Milagro ; Ya jangan kamu pakai energy yang segede ini ; Alright? ; Bakalan dia bakal ngerasa jauh ; Bakal ngerasa tidak sama nih frekuensinya ; Dia disini, kamu disini ; Begitu pula kamu ; Ketika dia energy yang seperti aku kayak gini ; Kalau kamu nya disini ; Kamu yang akan ketilep ; Ketilep itu kamu akan ; Apa ya ketilep ya? ; Ketilep ya? ; Ketilep ; Ketilep ; Ketilep ; Ketilep ; Ketilep ; Tetelan ; Terjatuhkan ; Hancur ; Tidak oke ; Ketilep ; Alright? ; Kamu yang akan kebanting ; Kalau kamu yang posisi energy nya dibawahnya dia ; So energy level bagusnya seberapa ; Dia segini ; Maksimal ; Kamu segini ; Alright? ; Sama masih oke ; Segini oke ; Segini gak oke ; Segini gak oke ; That's it ; Energy level ; Ya memang harus sering latihan ; Kamu harus sering mengamati orang ; Harus bisa mengendalikan diri ; Awareness ; There's it
+
+==================================================
+TIMESTAMPS (SRT Format):
+
+1
+00:00:00,000 --> 00:00:01,219
+Energy level
+
+2
+00:00:01,899 --> 00:00:03,879
+Kamu ketika ngobrol juga harus
+
+3
+00:00:05,379 --> 00:00:10,019
+Aku jadi inget seseorang yang ngobrolnya energy levelnya tuh gak disetel
+
+4
+00:00:10,019 --> 00:00:11,919
+Jadi ketika ngobrol sama yang ini
+
+5
+00:00:11,919 --> 00:00:13,660
+Energy levelnya gede banget
+
+6
+00:00:13,660 --> 00:00:14,759
+Ngobrol sama itu gede banget
+
+7
+00:00:14,759 --> 00:00:16,100
+Sama semua orang energinya gede
+
+8
+00:00:16,100 --> 00:00:17,079
+Dimana-mana dia gede
+
+9
+00:00:17,079 --> 00:00:18,920
+And that's not good at all
+
+10
+00:00:18,920 --> 00:00:21,019
+It's fucking annoying
+
+11
+00:00:21,019 --> 00:00:21,620
+Alright?
+
+12
+00:00:21,739 --> 00:00:22,980
+It's fucking annoying
+
+13
+00:00:22,980 --> 00:00:26,920
+Jadi kamu tau dia lawan ngobrolan kamu itu seperti apa
+
+14
+00:00:26,920 --> 00:00:29,339
+Misalnya nih energy levelnya dia 5 gitu
+
+15
+00:00:29,339 --> 00:00:32,100
+Kayak dia ngobrolnya santai, kalem, kayak gini
+
+16
+00:00:32,100 --> 00:00:34,259
+Oh iya nama aku Honji Milagro
+
+17
+00:00:34,259 --> 00:00:37,280
+Ya jangan kamu pakai energy yang segede ini
+
+18
+00:00:37,920 --> 00:00:38,299
+Alright?
+
+19
+00:00:38,820 --> 00:00:40,740
+Bakalan dia bakal ngerasa jauh
+
+20
+00:00:40,740 --> 00:00:43,719
+Bakal ngerasa tidak sama nih frekuensinya
+
+21
+00:00:43,719 --> 00:00:45,500
+Dia disini, kamu disini
+
+22
+00:00:45,500 --> 00:00:46,579
+Begitu pula kamu
+
+23
+00:00:46,579 --> 00:00:49,380
+Ketika dia energy yang seperti aku kayak gini
+
+24
+00:00:49,380 --> 00:00:50,740
+Kalau kamu nya disini
+
+25
+00:00:50,740 --> 00:00:52,380
+Kamu yang akan ketilep
+
+26
+00:00:52,920 --> 00:00:54,140
+Ketilep itu kamu akan
+
+27
+00:00:54,920 --> 00:00:56,000
+Apa ya ketilep ya?
+
+28
+00:00:56,240 --> 00:00:56,899
+Ketilep ya?
+
+29
+00:00:56,920 --> 00:00:57,039
+Ketilep
+
+30
+00:00:57,880 --> 00:00:58,219
+Ketilep
+
+31
+00:00:58,219 --> 00:00:58,320
+Ketilep
+
+32
+00:00:58,320 --> 00:00:58,679
+Ketilep
+
+33
+00:00:58,679 --> 00:00:58,700
+Ketilep
+
+34
+00:00:58,700 --> 00:00:59,200
+Tetelan
+
+35
+00:00:59,200 --> 00:01:00,420
+Terjatuhkan
+
+36
+00:01:00,420 --> 00:01:01,640
+Hancur
+
+37
+00:01:01,640 --> 00:01:02,359
+Tidak oke
+
+38
+00:01:02,359 --> 00:01:03,000
+Ketilep
+
+39
+00:01:03,000 --> 00:01:03,340
+Alright?
+
+40
+00:01:03,420 --> 00:01:05,079
+Kamu yang akan kebanting
+
+41
+00:01:05,079 --> 00:01:07,980
+Kalau kamu yang posisi energy nya dibawahnya dia
+
+42
+00:01:07,980 --> 00:01:09,599
+So energy level bagusnya seberapa
+
+43
+00:01:09,599 --> 00:01:10,879
+Dia segini
+
+44
+00:01:10,879 --> 00:01:11,659
+Maksimal
+
+45
+00:01:11,659 --> 00:01:12,939
+Kamu segini
+
+46
+00:01:12,939 --> 00:01:13,319
+Alright?
+
+47
+00:01:13,560 --> 00:01:14,519
+Sama masih oke
+
+48
+00:01:15,599 --> 00:01:16,480
+Segini oke
+
+49
+00:01:16,480 --> 00:01:17,459
+Segini gak oke
+
+50
+00:01:17,459 --> 00:01:18,280
+Segini gak oke
+
+51
+00:01:18,640 --> 00:01:19,079
+That's it
+
+52
+00:01:19,079 --> 00:01:19,680
+Energy level
+
+53
+00:01:19,680 --> 00:01:21,260
+Ya memang harus sering latihan
+
+54
+00:01:21,260 --> 00:01:22,400
+Kamu harus sering mengamati orang
+
+55
+00:01:22,400 --> 00:01:23,859
+Harus bisa mengendalikan diri
+
+56
+00:01:23,859 --> 00:01:24,680
+Awareness
+
+57
+00:01:24,680 --> 00:01:25,420
+There's it
+

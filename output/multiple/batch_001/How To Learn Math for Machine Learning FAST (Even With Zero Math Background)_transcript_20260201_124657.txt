@@ -1,0 +1,1238 @@
+Source: How To Learn Math for Machine Learning FAST (Even With Zero Math Background).mp3
+Language Mode: Auto-detect (Mixed)
+Detected: en (99.9%)
+Transcribed: 2026-02-01 12:49:54
+==================================================
+
+Do you want to become a data scientist or machine learning engineer, but you feel
+intimidated by all the math involved? I get it, I've been there. I dropped out
+of high school after 10th grade, so I never learned any math beyond trigonometry in
+school. When I started my journey into machine learning, I didn't even know what a
+derivative was. Fast forward to today, and I'm an applied scientist at Amazon, and I
+feel pretty confident in my math skills. I've picked up the necessary math along the
+way using free resources and self-directed learning. Today I'm going to walk you through some
+of my favorite books, courses, and YouTube channels that helped me to get where I
+am today, and I'll also share some study tips on how to study effectively and
+not waste your time struggling and being bored. So let's get to it. First, let's
+address a common question. Do you even really need to know the math to work
+in machine learning? The short answer is, it depends on what you want to do.
+For research-heavy roles where you're creating new machine learning algorithms, then yes, you obviously need
+to know the math. But if you're asking yourself if you need to learn math,
+chances are that's not the kind of job you're looking for. For practitioners, most of
+us in the industry, you can be totally competent without knowing all the underlying details.
+At this point, libraries like NumPy, Scikit Learn, and TensorFlow handle most of the heavy
+lifting for you. You don't need to know the math behind gradient descent to deploy
+a model to production. If you're a beginner trying to get into machine learning, in
+my opinion it's not strategic to spend a bunch of time memorizing formulas or studying
+linear algebra. You should be spending that time building things. Train a simple model, explore
+your data, build a pipeline that predicts something fun. That said, there are moments where
+knowing the math really helps. Here are a couple of examples. So imagine you're training
+a model, and it's just not converging. If you understand concepts like gradients and optimization
+functions, you'll know whether to adjust your learning rate, try a different optimizer, or tweak
+your data processing. Or let's say you're running a linear regression, and you're interpreting the
+coefficients. Without math knowledge, you might miss problems like multicolinearity, which makes the coefficients unreliable.
+Then you might make incorrect conclusions from the data, and cost the company millions and
+lose your job. Just kidding. Kind of. We do really need to be careful when
+making business decisions from the models that we build. So while you can, and should,
+get started without deep math knowledge, you should be careful when making business decisions from
+the models that we build. It's definitely reasonable to build your comfort with math over
+time. Once you're hands-on, you'll start encountering problems that naturally push you to learn more.
+When you need to debug or explain your results, that's when the math is going
+to start to click because it's connected to something real. So seriously, don't let fear
+of math stop you from starting. You don't need to learn it all up front
+to make progress. Get your hands dirty with the tools, build your portfolio, and let
+math grow as a skill alongside your practical knowledge. Alright, now let's talk about what
+to learn when you're building your math foundation for machine learning jobs. First, linear algebra.
+Linear algebra is fundamental for machine learning, especially for deep learning. Many models rely on
+representing data and computations as matrices and vectors. Here's what to prioritize. First, matrices and
+vectors. Think of matrices as grids of numbers and vectors as lists of numbers. Data
+is often stored this way, and operations like addition, multiplication, and dot products are really
+central to how models process that information. Determinants and inverses. Determinants tell you whether a
+matrix can be inverted, which is used in optimization problems and solving systems of linear
+equations. Eigenvalues and eigenvectors. These are key to understanding variance in data and are foundational
+of techniques like principal component analysis, which can help to reduce the dimensionality in datasets.
+Lastly, matrix decomposition. Methods like singular value decomposition are used in recommendation systems, dimensionality reduction,
+and data compression. Now we're onto basic calculus. Calculus is core to understanding how models
+learn from data. But we don't need to worry about solving super complex problems, it's
+just about grasping a couple of key ideas. First, derivatives and gradients. Derivatives measure how
+things change, and gradients, which are multidimensional derivatives, are what we call the most complex
+and complex problems. Second, power optimization algorithms, like gradient descent. These help models adjust their
+parameters to minimize error. The chain rule is central to neural networks. It's how backpropagation
+works, which is the process of figuring out how much each weight in the network
+contributes to the overall error so the model can learn effectively. Lastly, optimization basics. Concepts
+like local versus global minima, saddle points, and convexity are important to understand why some
+models get stuck and others manage to find the best solutions. Lastly, statistics and probability.
+Statistics and probability are the bread and butter of understanding data. While they're data science,
+there's definitely a lot of value for machine learning as well. Here's what you need
+to know. Distributions. Get familiar with common distributions like the normal, binomial, and uniform. The
+normal distribution in particular pops up everywhere in data science and machine learning. Variance and
+covariance. Variance tells you how spread out your data is, while covariance shows you how
+two variables relate. These concepts are really important for feature selection and understanding your data
+structure. Bayes' theorem. While it has kind of a silly, maybe intimidating name, Bayes' theorem
+is a pretty simple but powerful tool for probabilistic reasoning. It's found in a few
+of the most traditional algorithms like Naive Bayes , which is used for things like
+spam detection, as well as for Bayesian optimization for hyperparameter tuning. You'll also want to
+understand maximum likelihood estimation, which helps to estimate model parameters by finding values that maximize
+the likelihood of your data. It's a really fundamental concept, especially in algorithms like logistic
+regression. Finally, sampling and conditional probability. Sampling lets you work with subsets of data efficiently,
+and conditional probability is essential for understanding the relationship between events, especially in Bayesian models.
+Now, this is definitely not an exhaustive list, but I think it's a good overview
+of the common concepts you'll need to know to do a good job as a
+data scientist who's focused on machine learning or as a machine learning engineer. Next up,
+I'll share the best resources to learn these concepts without it being stressful or overwhelming,
+and hopefully also not too boring. Personally, I would highly recommend starting with a visual
+and intuitive understanding of the key concepts before you start reading really difficult textbooks and
+trying to solve equations. For linear algebra and calculus, I cannot speak highly enough about
+3Blue1Brown's Essence of Linear Algebra and Essence of Calculus series. These videos give a really
+solid introduction to what is actually being measured and manipulated when we use these mathematical
+approaches. More importantly, they kind of show the beauty in it. It's kind of strange
+to say that math videos could be inspirational in a way, but these ones are.
+For statistics and probability, I am a huge fan of StatQuest. His videos are clear,
+engaging, and just a joy to watch. StatQuest has playlists with overviews on course stats
+and machine learning concepts. So, I'd recommend starting there. Once you have a visual intuition,
+you can start working through more structured books and courses. There are a lot of
+great options here as well. Let's go through a few that I personally use to
+learn. I completed the Mathematics for Machine Learning specialization from Imperial College London on Coursera
+when I was just starting out. The specialization is divided into three courses – linear
+algebra, multivariate calculus, and a last one on principal component analysis. The courses are well-structured
+and include a mix of video lectures, quizzes, and programming assignments in Python. I found
+the course to be a little bit challenging as a beginner, but it was a
+really good overview and I did manage to pass everything with a little bit of
+effort. DeepLearning.ai also recently released a Math for Machine Learning specialization, on Coursera. This specialization
+has courses on linear algebra and calculus, but instead of PCA, the final course focuses
+on stats and probability. I'm personally working through this specialization right now, and overall, I'm
+finding it to be another really great option. Each module starts with a nice motivation
+for how the math connects to an applied machine learning concept. It has coding exercises
+in Python, and some neat 3D tools to mess around with to get a good
+kind of visual understanding of the concepts as well. If you prefer learning from books,
+I have some suggestions there too. First up, if you like anime or nerdy stuff,
+boy oh boy do I have a recommendation for you. If you're into manga and
+math books, I've read the Manga Guide to Calculus, Manga Guide to Linear Algebra, and
+Manga Guide to Statistics. They also have a ton more, they have some on physics
+I think, and some other engineering concepts, so they're super super fun. I can't say
+the instructional quality is world class or anything, but they're cute and engaging, and they
+made me not dread reading a math book. The next level up would be real
+math books. These are some of the best. The Mathematics for Machine Learning eBook by
+Dysonroth and colleagues is a great comprehensive resource, and it's available for free for personal
+use. It covers key topics we've already discussed like linear algebra, calculus, probability, and optimization,
+with a focus on how these concepts apply to machine learning algorithms. It's relatively beginner-friendly,
+and is generally regarded as one of the best books for learning this material. Next,
+Practical Statistics for Data Scientists is another well-loved resource that includes code examples in Python
+and R. Now before we actually start studying, I think it's important to spend a
+little bit of time thinking really deeply about why you even want to do this.
+Personally, I find that if I'm studying just because I feel like I should, or
+because it's some arbitrary assignment, I get distracted easily and I don't actually end up
+retaining that much of the information. Instead, I try to connect to some kind of
+a deeper motivation, if possible. Personally, right now, I have a really basic motivation. I
+want to do well in my job because I want to earn a lot of
+money so that I can take care of everyone I love. I have these great
+resources to learn from that weren't even available a couple of years ago, and I
+have this opportunity to push myself and make sure that everyone I love is safe
+and cared for now and in the future. I don't want to put extra pressure
+on myself, but actually just a way that works for me to kind of get
+excited that I have this opportunity to learn and grow and hopefully help others along
+the way. Your motivation might be totally different, but whatever it is, try to tie
+this work to a larger goal. In terms of optimizing your study time, I've found
+that one of the most effective methods is writing notes in my own words. Don't
+just copy definitions or formulas. Take time to summarize concepts as if you were explaining
+them to someone else, or really to future you. For example, if you're learning about
+derivatives, you might write, Relatedly, when it comes to math formulas, don't just stare at
+them, I know it's easy to do. It's really helpful to translate them into plain
+English or whatever spoken language you prefer. For instance, take the equation y equals mx
+plus b. You might describe m as the slope that shows how steep the line
+is, and b as the point where the line crosses the y-axis. So the final
+formula might be, the value of y, the output, is determined by taking the slope,
+m, multiplying it by x, and taking the slope, m, multiplying it by x, and
+taking the slope, m, multiplying it by x, the input, and then adding b, the
+starting point where the line intersects the y-axis. You can even use your notes as
+like a personal blog, kind of. Writing short posts about what you've learned is a
+really solid way to clarify your understanding, and teaching others, even if nobody reads it,
+solidifies the material in your own mind. Plus, sharing your posts on Medium or LinkedIn
+not only potentially helps others, but also allows you to build kind of a portfolio
+showcasing your learning journey. Also, trust me, when it's interview time, you're going to be
+really happy that you have these notes. I use my own study notes all the
+time, so if you're interested, you can use them. The next piece of advice I
+have might not be super duper fun, but I also recommend not using just one
+resource. Personally, I've had a lot of success from taking many different courses and kind
+of just throwing all my notes together at first. Then I'll write a blog like
+I was just talking about that summarizes all of my learnings. There are a couple
+of advantages to this approach. First, repetition helps you retain things. If I see a
+concept multiple times, explained from multiple angles, I'm much more likely to actually get what's
+going on and remember it for longer than a day. Plus, not only do I
+see the information presented to me multiple times, I'm writing the concepts out in my
+own words multiple times, including that final time where I synthesize it all and get
+ready to share with others. So I have to be really confident that I actually
+got it by the end if I'm going to be putting it out publicly. Let
+me show you an example. Here are three different explanations for the concept of rank
+in linear algebra. Starting with three blue, one brown, you can see this visual intuition,
+which is a great starting point, but you know, it lacks a little detail. Then
+we can look at how rank was presented in deeplearning.ai, which has some more detail,
+in a really simple way. Finally, we can go to the Mathematics for Machine Learning
+eBook to get an even more formalized definition with additional detail. Each one of these
+builds on the other and adds to my store of knowledge. Finally, once you've built
+that foundation and get to the level of math where you can actually use it
+for stuff, I really recommend coding concepts from scratch. If you can code gradient descent
+or logistic regression using just NumPy, you're off to a really strong start. While I
+know at this point you are super excited to start learning math, I do want
+to just circle back to the important fact that if you're a beginner trying to
+get your first job. In my opinion, math should not be the first thing you
+prioritize. It's really unlikely that your math skills are going to be the thing that
+gets you a job as a data scientist or machine learning engineer. Instead, prioritize gaining
+hands-on experience by working on projects and actually building stuff. Employers are far more interested
+in seeing what you can do with the tools and knowledge you already have than
+how many formulas you've memorized. As you encounter challenges in your work, you'll naturally be
+motivated to learn the math behind the algorithms. Remember, math is a tool to help
+you succeed and shouldn't be a barrier to getting started. Now, if you're curious about
+what else you need to know to become a data scientist, I have a really
+comprehensive video that lays out the entire roadmap from absolute beginner to your first job,
+including skills to learn, project examples, how to get experience, preparing for interviews, and more.
+Definitely check that out next!
+
+==================================================
+TIMESTAMPS:
+
+[00:00 - 00:04]
+Do you want to become a data scientist or machine learning engineer, but you feel
+intimidated by all
+
+[00:04 - 00:08]
+the math involved? I get it, I've been there. I dropped out of high school
+after 10th grade,
+
+[00:08 - 00:13]
+so I never learned any math beyond trigonometry in school. When I started my journey
+into machine
+
+[00:13 - 00:16]
+learning, I didn't even know what a derivative was. Fast forward to today, and I'm
+an applied
+
+[00:16 - 00:20]
+scientist at Amazon, and I feel pretty confident in my math skills. I've picked up
+the necessary
+
+[00:20 - 00:25]
+math along the way using free resources and self-directed learning. Today I'm going to walk
+
+[00:25 - 00:28]
+you through some of my favorite books, courses, and YouTube channels that helped me to
+get where
+
+[00:28 - 00:32]
+I am today, and I'll also share some study tips on how to study effectively
+and not waste your
+
+[00:32 - 00:38]
+time struggling and being bored. So let's get to it. First, let's address a common
+question. Do you
+
+[00:38 - 00:41]
+even really need to know the math to work in machine learning? The short answer
+is, it depends
+
+[00:41 - 00:45]
+on what you want to do. For research-heavy roles where you're creating new machine learning
+
+[00:45 - 00:49]
+algorithms, then yes, you obviously need to know the math. But if you're asking yourself
+if you
+
+[00:49 - 00:53]
+need to learn math, chances are that's not the kind of job you're looking for.
+For practitioners,
+
+[00:53 - 00:57]
+most of us in the industry, you can be totally competent without knowing all the
+underlying
+
+[00:57 - 00:58]
+details.
+
+[00:58 - 01:03]
+At this point, libraries like NumPy, Scikit Learn, and TensorFlow handle most of the heavy
+
+[01:03 - 01:07]
+lifting for you. You don't need to know the math behind gradient descent to deploy
+a model to
+
+[01:07 - 01:11]
+production. If you're a beginner trying to get into machine learning, in my opinion it's
+not
+
+[01:11 - 01:15]
+strategic to spend a bunch of time memorizing formulas or studying linear algebra. You should
+
+[01:15 - 01:20]
+be spending that time building things. Train a simple model, explore your data, build a
+pipeline
+
+[01:20 - 01:24]
+that predicts something fun. That said, there are moments where knowing the math really helps.
+
+[01:24 - 01:28]
+Here are a couple of examples. So imagine you're training a model, and it's just
+not converging.
+
+[01:28 - 01:32]
+If you understand concepts like gradients and optimization functions, you'll know whether to
+
+[01:32 - 01:36]
+adjust your learning rate, try a different optimizer, or tweak your data processing.
+
+[01:36 - 01:40]
+Or let's say you're running a linear regression, and you're interpreting the coefficients. Without
+
+[01:40 - 01:44]
+math knowledge, you might miss problems like multicolinearity, which makes the coefficients
+
+[01:44 - 01:48]
+unreliable. Then you might make incorrect conclusions from the data, and cost the company
+
+[01:48 - 01:52]
+millions and lose your job. Just kidding. Kind of. We do really need to be
+careful when making
+
+[01:52 - 01:57]
+business decisions from the models that we build. So while you can, and should, get
+started without
+
+[01:57 - 01:58]
+deep math knowledge, you should be careful when making business decisions from the models that
+we
+
+[01:58 - 02:01]
+build. It's definitely reasonable to build your comfort with math over time. Once you're hands-on,
+
+[02:02 - 02:06]
+you'll start encountering problems that naturally push you to learn more. When you need to
+debug or
+
+[02:06 - 02:09]
+explain your results, that's when the math is going to start to click because it's
+connected
+
+[02:09 - 02:14]
+to something real. So seriously, don't let fear of math stop you from starting. You
+don't need to
+
+[02:14 - 02:18]
+learn it all up front to make progress. Get your hands dirty with the tools,
+build your portfolio,
+
+[02:18 - 02:23]
+and let math grow as a skill alongside your practical knowledge. Alright, now let's talk
+
+[02:23 - 02:25]
+about what to learn when you're building your math foundation for machine learning jobs.
+
+[02:26 - 02:27]
+First, linear algebra.
+
+[02:27 - 02:31]
+Linear algebra is fundamental for machine learning, especially for deep learning. Many
+
+[02:31 - 02:35]
+models rely on representing data and computations as matrices and vectors. Here's what to prioritize.
+
+[02:36 - 02:41]
+First, matrices and vectors. Think of matrices as grids of numbers and vectors as lists
+of numbers.
+
+[02:41 - 02:45]
+Data is often stored this way, and operations like addition, multiplication, and dot products
+
+[02:45 - 02:49]
+are really central to how models process that information. Determinants and inverses.
+
+[02:49 - 02:53]
+Determinants tell you whether a matrix can be inverted, which is used in optimization problems
+
+[02:53 - 02:56]
+and solving systems of linear equations. Eigenvalues and eigenvectors.
+
+[02:57 - 03:00]
+These are key to understanding variance in data and are foundational of techniques like
+
+[03:00 - 03:04]
+principal component analysis, which can help to reduce the dimensionality in datasets.
+
+[03:04 - 03:09]
+Lastly, matrix decomposition. Methods like singular value decomposition are used in recommendation
+
+[03:09 - 03:11]
+systems, dimensionality reduction, and data compression.
+
+[03:12 - 03:15]
+Now we're onto basic calculus. Calculus is core to understanding how models learn from
+
+[03:15 - 03:19]
+data. But we don't need to worry about solving super complex problems, it's just about
+grasping
+
+[03:19 - 03:20]
+a couple of key ideas.
+
+[03:21 - 03:25]
+First, derivatives and gradients. Derivatives measure how things change, and gradients,
+
+[03:25 - 03:27]
+which are multidimensional derivatives, are what we call the most complex and complex
+
+[03:27 - 03:27]
+problems.
+
+[03:27 - 03:30]
+Second, power optimization algorithms, like gradient descent. These help models adjust
+
+[03:30 - 03:32]
+their parameters to minimize error.
+
+[03:32 - 03:36]
+The chain rule is central to neural networks. It's how backpropagation works, which is the
+
+[03:36 - 03:39]
+process of figuring out how much each weight in the network contributes to the overall
+
+[03:39 - 03:41]
+error so the model can learn effectively.
+
+[03:41 - 03:46]
+Lastly, optimization basics. Concepts like local versus global minima, saddle points,
+
+[03:46 - 03:50]
+and convexity are important to understand why some models get stuck and others manage to
+
+[03:50 - 03:50]
+find the best solutions.
+
+[03:51 - 03:52]
+Lastly, statistics and probability.
+
+[03:52 - 03:56]
+Statistics and probability are the bread and butter of understanding data. While they're
+
+[03:57 - 04:00]
+data science, there's definitely a lot of value for machine learning as well. Here's
+
+[04:00 - 04:01]
+what you need to know.
+
+[04:01 - 04:06]
+Distributions. Get familiar with common distributions like the normal, binomial, and uniform. The
+
+[04:06 - 04:09]
+normal distribution in particular pops up everywhere in data science and machine learning.
+
+[04:10 - 04:14]
+Variance and covariance. Variance tells you how spread out your data is, while covariance
+
+[04:14 - 04:17]
+shows you how two variables relate. These concepts are really important for feature
+
+[04:17 - 04:19]
+selection and understanding your data structure.
+
+[04:19 - 04:24]
+Bayes' theorem. While it has kind of a silly, maybe intimidating name, Bayes' theorem is
+
+[04:24 - 04:27]
+a pretty simple but powerful tool for probabilistic reasoning. It's found in a few of
+the most
+
+[04:27 - 04:31]
+traditional algorithms like Naive Bayes , which is used for things like
+
+[04:31 - 04:34]
+spam detection, as well as for Bayesian optimization for hyperparameter tuning.
+
+[04:34 - 04:38]
+You'll also want to understand maximum likelihood estimation, which helps to estimate model
+
+[04:38 - 04:42]
+parameters by finding values that maximize the likelihood of your data. It's a really
+
+[04:42 - 04:45]
+fundamental concept, especially in algorithms like logistic regression.
+
+[04:45 - 04:49]
+Finally, sampling and conditional probability. Sampling lets you work with subsets of data
+
+[04:49 - 04:53]
+efficiently, and conditional probability is essential for understanding the relationship
+
+[04:53 - 04:57]
+between events, especially in Bayesian models. Now, this is definitely not an exhaustive
+
+[04:57 - 05:00]
+list, but I think it's a good overview of the common concepts you'll need to
+know
+
+[05:00 - 05:03]
+to do a good job as a data scientist who's focused on machine learning or
+as a machine
+
+[05:03 - 05:04]
+learning engineer.
+
+[05:04 - 05:08]
+Next up, I'll share the best resources to learn these concepts without it being stressful
+
+[05:08 - 05:10]
+or overwhelming, and hopefully also not too boring.
+
+[05:10 - 05:14]
+Personally, I would highly recommend starting with a visual and intuitive understanding
+
+[05:14 - 05:18]
+of the key concepts before you start reading really difficult textbooks and trying to solve
+
+[05:18 - 05:22]
+equations. For linear algebra and calculus, I cannot speak highly enough about 3Blue1Brown's
+
+[05:22 - 05:27]
+Essence of Linear Algebra and Essence of Calculus series. These videos give a really solid
+
+[05:27 - 05:30]
+introduction to what is actually being measured and manipulated when we use these mathematical
+
+[05:30 - 05:34]
+approaches. More importantly, they kind of show the beauty in it. It's kind of strange
+
+[05:34 - 05:37]
+to say that math videos could be inspirational in a way, but these ones are.
+
+[05:38 - 05:43]
+For statistics and probability, I am a huge fan of StatQuest. His videos are clear,
+engaging,
+
+[05:43 - 05:47]
+and just a joy to watch. StatQuest has playlists with overviews on course stats and
+machine
+
+[05:47 - 05:48]
+learning concepts.
+
+[05:48 - 05:52]
+So, I'd recommend starting there. Once you have a visual intuition, you can start working
+
+[05:52 - 05:56]
+through more structured books and courses. There are a lot of great options here as
+well.
+
+[05:56 - 05:58]
+Let's go through a few that I personally use to learn.
+
+[05:58 - 06:02]
+I completed the Mathematics for Machine Learning specialization from Imperial College London
+
+[06:02 - 06:06]
+on Coursera when I was just starting out. The specialization is divided into three courses
+
+[06:06 - 06:10]
+– linear algebra, multivariate calculus, and a last one on principal component analysis.
+
+[06:11 - 06:15]
+The courses are well-structured and include a mix of video lectures, quizzes, and programming
+
+[06:15 - 06:19]
+assignments in Python. I found the course to be a little bit challenging as a
+beginner,
+
+[06:19 - 06:22]
+but it was a really good overview and I did manage to pass everything with
+a little bit
+
+[06:22 - 06:22]
+of effort.
+
+[06:22 - 06:26]
+DeepLearning.ai also recently released a Math for Machine Learning specialization,
+
+[06:26 - 06:30]
+on Coursera. This specialization has courses on linear algebra and calculus, but instead
+
+[06:30 - 06:34]
+of PCA, the final course focuses on stats and probability. I'm personally working
+
+[06:34 - 06:37]
+through this specialization right now, and overall, I'm finding it to be another really
+
+[06:37 - 06:37]
+great option.
+
+[06:38 - 06:41]
+Each module starts with a nice motivation for how the math connects to an applied
+machine
+
+[06:41 - 06:46]
+learning concept. It has coding exercises in Python, and some neat 3D tools to mess
+
+[06:46 - 06:49]
+around with to get a good kind of visual understanding of the concepts as well.
+
+[06:49 - 06:52]
+If you prefer learning from books, I have some suggestions there too. First up, if
+you
+
+[06:52 - 06:56]
+like anime or nerdy stuff, boy oh boy do I have a recommendation for you.
+If you're
+
+[06:57 - 07:02]
+into manga and math books, I've read the Manga Guide to Calculus, Manga Guide to
+Linear
+
+[07:02 - 07:07]
+Algebra, and Manga Guide to Statistics. They also have a ton more, they have some
+on physics
+
+[07:07 - 07:11]
+I think, and some other engineering concepts, so they're super super fun. I can't say
+
+[07:11 - 07:16]
+the instructional quality is world class or anything, but they're cute and engaging,
+
+[07:16 - 07:18]
+and they made me not dread reading a math book.
+
+[07:18 - 07:21]
+The next level up would be real math books. These are some of the best.
+
+[07:22 - 07:26]
+The Mathematics for Machine Learning eBook by Dysonroth and colleagues is a great comprehensive
+
+[07:26 - 07:30]
+resource, and it's available for free for personal use. It covers key topics we've already
+
+[07:30 - 07:35]
+discussed like linear algebra, calculus, probability, and optimization, with a focus on how these
+
+[07:35 - 07:39]
+concepts apply to machine learning algorithms. It's relatively beginner-friendly, and is
+
+[07:39 - 07:41]
+generally regarded as one of the best books for learning this material.
+
+[07:42 - 07:46]
+Next, Practical Statistics for Data Scientists is another well-loved resource that includes
+
+[07:46 - 07:47]
+code examples in Python and R.
+
+[07:48 - 07:51]
+Now before we actually start studying, I think it's important to spend a little bit
+of time
+
+[07:51 - 07:56]
+thinking really deeply about why you even want to do this. Personally, I find that
+if I'm studying just
+
+[07:56 - 08:00]
+because I feel like I should, or because it's some arbitrary assignment, I get distracted
+
+[08:00 - 08:04]
+easily and I don't actually end up retaining that much of the information. Instead, I
+try
+
+[08:04 - 08:09]
+to connect to some kind of a deeper motivation, if possible. Personally, right now, I
+have
+
+[08:09 - 08:12]
+a really basic motivation. I want to do well in my job because I want
+to earn a lot of
+
+[08:12 - 08:16]
+money so that I can take care of everyone I love. I have these great
+resources to learn
+
+[08:16 - 08:20]
+from that weren't even available a couple of years ago, and I have this opportunity
+
+[08:20 - 08:25]
+to push myself and make sure that everyone I love is safe and cared for
+now and in the
+
+[08:25 - 08:25]
+future.
+
+[08:26 - 08:30]
+I don't want to put extra pressure on myself, but actually just a way that
+works for me to kind
+
+[08:30 - 08:34]
+of get excited that I have this opportunity to learn and grow and hopefully help
+others
+
+[08:34 - 08:38]
+along the way. Your motivation might be totally different, but whatever it is, try to
+tie
+
+[08:38 - 08:39]
+this work to a larger goal.
+
+[08:40 - 08:43]
+In terms of optimizing your study time, I've found that one of the most effective
+methods
+
+[08:43 - 08:48]
+is writing notes in my own words. Don't just copy definitions or formulas. Take time
+to
+
+[08:48 - 08:52]
+summarize concepts as if you were explaining them to someone else, or really to future
+
+[08:52 - 08:55]
+you. For example, if you're learning about derivatives, you might write,
+
+[09:02 - 09:05]
+Relatedly, when it comes to math formulas, don't just stare at them, I know it's
+easy
+
+[09:05 - 09:09]
+to do. It's really helpful to translate them into plain English or whatever spoken language
+
+[09:09 - 09:10]
+you prefer.
+
+[09:10 - 09:15]
+For instance, take the equation y equals mx plus b. You might describe m as
+the slope
+
+[09:15 - 09:19]
+that shows how steep the line is, and b as the point where the line
+crosses the y-axis.
+
+[09:20 - 09:24]
+So the final formula might be, the value of y, the output, is determined by
+taking the
+
+[09:24 - 09:26]
+slope, m, multiplying it by x, and taking the slope, m, multiplying it by x,
+and taking the
+
+[09:26 - 09:29]
+slope, m, multiplying it by x, the input, and then adding b, the starting point
+where
+
+[09:29 - 09:30]
+the line intersects the y-axis.
+
+[09:30 - 09:35]
+You can even use your notes as like a personal blog, kind of. Writing short
+posts about what
+
+[09:35 - 09:39]
+you've learned is a really solid way to clarify your understanding, and teaching others, even
+
+[09:39 - 09:44]
+if nobody reads it, solidifies the material in your own mind. Plus, sharing your posts
+
+[09:44 - 09:48]
+on Medium or LinkedIn not only potentially helps others, but also allows you to build
+
+[09:48 - 09:50]
+kind of a portfolio showcasing your learning journey.
+
+[09:51 - 09:54]
+Also, trust me, when it's interview time, you're going to be really happy that you
+have
+
+[09:54 - 09:56]
+these notes. I use my own study notes all the time, so if you're interested,
+you can
+
+[09:56 - 10:00]
+use them. The next piece of advice I have might not be super duper fun,
+but I also recommend
+
+[10:00 - 10:05]
+not using just one resource. Personally, I've had a lot of success from taking many
+different
+
+[10:05 - 10:09]
+courses and kind of just throwing all my notes together at first. Then I'll write
+a blog
+
+[10:09 - 10:12]
+like I was just talking about that summarizes all of my learnings. There are a
+couple of
+
+[10:12 - 10:17]
+advantages to this approach. First, repetition helps you retain things. If I see a concept
+
+[10:17 - 10:21]
+multiple times, explained from multiple angles, I'm much more likely to actually get what's
+
+[10:21 - 10:25]
+going on and remember it for longer than a day. Plus, not only do I
+see the information
+
+[10:25 - 10:29]
+presented to me multiple times, I'm writing the concepts out in my own words multiple
+
+[10:29 - 10:33]
+times, including that final time where I synthesize it all and get ready to share
+with others.
+
+[10:33 - 10:37]
+So I have to be really confident that I actually got it by the end
+if I'm going to be putting
+
+[10:37 - 10:41]
+it out publicly. Let me show you an example. Here are three different explanations for
+
+[10:41 - 10:45]
+the concept of rank in linear algebra. Starting with three blue, one brown, you can
+see this
+
+[10:45 - 10:49]
+visual intuition, which is a great starting point, but you know, it lacks a little
+detail.
+
+[10:49 - 10:54]
+Then we can look at how rank was presented in deeplearning.ai, which has some more
+detail,
+
+[10:55 - 10:58]
+in a really simple way. Finally, we can go to the Mathematics for Machine Learning
+eBook
+
+[10:58 - 11:02]
+to get an even more formalized definition with additional detail. Each one of these
+
+[11:02 - 11:04]
+builds on the other and adds to my store of knowledge.
+
+[11:04 - 11:08]
+Finally, once you've built that foundation and get to the level of math where you
+can
+
+[11:08 - 11:12]
+actually use it for stuff, I really recommend coding concepts from scratch. If you can
+code
+
+[11:12 - 11:16]
+gradient descent or logistic regression using just NumPy, you're off to a really strong
+
+[11:16 - 11:19]
+start. While I know at this point you are super excited to start learning math,
+I do
+
+[11:19 - 11:23]
+want to just circle back to the important fact that if you're a beginner trying
+to get
+
+[11:23 - 11:24]
+your first job.
+
+[11:25 - 11:28]
+In my opinion, math should not be the first thing you prioritize. It's really unlikely
+
+[11:28 - 11:32]
+that your math skills are going to be the thing that gets you a job
+as a data scientist
+
+[11:32 - 11:36]
+or machine learning engineer. Instead, prioritize gaining hands-on experience by working on
+
+[11:36 - 11:40]
+projects and actually building stuff. Employers are far more interested in seeing what you
+
+[11:40 - 11:44]
+can do with the tools and knowledge you already have than how many formulas you've
+memorized.
+
+[11:44 - 11:47]
+As you encounter challenges in your work, you'll naturally be motivated to learn the
+
+[11:47 - 11:51]
+math behind the algorithms. Remember, math is a tool to help you succeed and shouldn't
+
+[11:51 - 11:54]
+be a barrier to getting started. Now, if you're curious about what else you need
+to know to
+
+[11:55 - 11:59]
+become a data scientist, I have a really comprehensive video that lays out the entire
+roadmap from
+
+[11:59 - 12:04]
+absolute beginner to your first job, including skills to learn, project examples, how to
+
+[12:04 - 12:08]
+get experience, preparing for interviews, and more. Definitely check that out next!
+
+==================================================
+
+SEMICOLON MERGED:
+
+Do you want to become a data scientist or machine learning engineer, but you feel
+intimidated by all ; the math involved? I get it, I've been there. I dropped
+out of high school after 10th grade, ; so I never learned any math beyond
+trigonometry in school. When I started my journey into machine ; learning, I didn't even
+know what a derivative was. Fast forward to today, and I'm an applied ; scientist
+at Amazon, and I feel pretty confident in my math skills. I've picked up the
+necessary ; math along the way using free resources and self-directed learning. Today I'm going
+to walk ; you through some of my favorite books, courses, and YouTube channels that
+helped me to get where ; I am today, and I'll also share some study
+tips on how to study effectively and not waste your ; time struggling and being
+bored. So let's get to it. First, let's address a common question. Do you ;
+even really need to know the math to work in machine learning? The short answer
+is, it depends ; on what you want to do. For research-heavy roles where you're
+creating new machine learning ; algorithms, then yes, you obviously need to know the math.
+But if you're asking yourself if you ; need to learn math, chances are that's
+not the kind of job you're looking for. For practitioners, ; most of us in
+the industry, you can be totally competent without knowing all the underlying ; details. ;
+At this point, libraries like NumPy, Scikit Learn, and TensorFlow handle most of the heavy
+; lifting for you. You don't need to know the math behind gradient descent to
+deploy a model to ; production. If you're a beginner trying to get into machine
+learning, in my opinion it's not ; strategic to spend a bunch of time memorizing
+formulas or studying linear algebra. You should ; be spending that time building things. Train
+a simple model, explore your data, build a pipeline ; that predicts something fun. That
+said, there are moments where knowing the math really helps. ; Here are a couple
+of examples. So imagine you're training a model, and it's just not converging. ; If
+you understand concepts like gradients and optimization functions, you'll know whether to ; adjust your
+learning rate, try a different optimizer, or tweak your data processing. ; Or let's say
+you're running a linear regression, and you're interpreting the coefficients. Without ; math knowledge, you
+might miss problems like multicolinearity, which makes the coefficients ; unreliable. Then you might make
+incorrect conclusions from the data, and cost the company ; millions and lose your job.
+Just kidding. Kind of. We do really need to be careful when making ; business
+decisions from the models that we build. So while you can, and should, get started
+without ; deep math knowledge, you should be careful when making business decisions from the
+models that we ; build. It's definitely reasonable to build your comfort with math over
+time. Once you're hands-on, ; you'll start encountering problems that naturally push you to learn
+more. When you need to debug or ; explain your results, that's when the math
+is going to start to click because it's connected ; to something real. So seriously,
+don't let fear of math stop you from starting. You don't need to ; learn
+it all up front to make progress. Get your hands dirty with the tools, build
+your portfolio, ; and let math grow as a skill alongside your practical knowledge. Alright,
+now let's talk ; about what to learn when you're building your math foundation for
+machine learning jobs. ; First, linear algebra. ; Linear algebra is fundamental for machine learning,
+especially for deep learning. Many ; models rely on representing data and computations as matrices
+and vectors. Here's what to prioritize. ; First, matrices and vectors. Think of matrices as
+grids of numbers and vectors as lists of numbers. ; Data is often stored this
+way, and operations like addition, multiplication, and dot products ; are really central to how
+models process that information. Determinants and inverses. ; Determinants tell you whether a matrix can
+be inverted, which is used in optimization problems ; and solving systems of linear equations.
+Eigenvalues and eigenvectors. ; These are key to understanding variance in data and are foundational
+of techniques like ; principal component analysis, which can help to reduce the dimensionality in
+datasets. ; Lastly, matrix decomposition. Methods like singular value decomposition are used in recommendation ;
+systems, dimensionality reduction, and data compression. ; Now we're onto basic calculus. Calculus is core
+to understanding how models learn from ; data. But we don't need to worry about
+solving super complex problems, it's just about grasping ; a couple of key ideas. ;
+First, derivatives and gradients. Derivatives measure how things change, and gradients, ; which are multidimensional
+derivatives, are what we call the most complex and complex ; problems. ; Second, power
+optimization algorithms, like gradient descent. These help models adjust ; their parameters to minimize error.
+; The chain rule is central to neural networks. It's how backpropagation works, which is
+the ; process of figuring out how much each weight in the network contributes to
+the overall ; error so the model can learn effectively. ; Lastly, optimization basics. Concepts
+like local versus global minima, saddle points, ; and convexity are important to understand why
+some models get stuck and others manage to ; find the best solutions. ; Lastly,
+statistics and probability. ; Statistics and probability are the bread and butter of understanding data.
+While they're ; data science, there's definitely a lot of value for machine learning as
+well. Here's ; what you need to know. ; Distributions. Get familiar with common distributions
+like the normal, binomial, and uniform. The ; normal distribution in particular pops up everywhere
+in data science and machine learning. ; Variance and covariance. Variance tells you how spread
+out your data is, while covariance ; shows you how two variables relate. These concepts
+are really important for feature ; selection and understanding your data structure. ; Bayes' theorem.
+While it has kind of a silly, maybe intimidating name, Bayes' theorem is ; a
+pretty simple but powerful tool for probabilistic reasoning. It's found in a few of the
+most ; traditional algorithms like Naive Bayes , which is used for things like ;
+spam detection, as well as for Bayesian optimization for hyperparameter tuning. ; You'll also want
+to understand maximum likelihood estimation, which helps to estimate model ; parameters by finding values
+that maximize the likelihood of your data. It's a really ; fundamental concept, especially in
+algorithms like logistic regression. ; Finally, sampling and conditional probability. Sampling lets you work with
+subsets of data ; efficiently, and conditional probability is essential for understanding the relationship ;
+between events, especially in Bayesian models. Now, this is definitely not an exhaustive ; list,
+but I think it's a good overview of the common concepts you'll need to know
+; to do a good job as a data scientist who's focused on machine learning
+or as a machine ; learning engineer. ; Next up, I'll share the best resources
+to learn these concepts without it being stressful ; or overwhelming, and hopefully also not
+too boring. ; Personally, I would highly recommend starting with a visual and intuitive understanding
+; of the key concepts before you start reading really difficult textbooks and trying to
+solve ; equations. For linear algebra and calculus, I cannot speak highly enough about 3Blue1Brown's
+; Essence of Linear Algebra and Essence of Calculus series. These videos give a really
+solid ; introduction to what is actually being measured and manipulated when we use these
+mathematical ; approaches. More importantly, they kind of show the beauty in it. It's kind
+of strange ; to say that math videos could be inspirational in a way, but
+these ones are. ; For statistics and probability, I am a huge fan of StatQuest.
+His videos are clear, engaging, ; and just a joy to watch. StatQuest has playlists
+with overviews on course stats and machine ; learning concepts. ; So, I'd recommend starting
+there. Once you have a visual intuition, you can start working ; through more structured
+books and courses. There are a lot of great options here as well. ; Let's
+go through a few that I personally use to learn. ; I completed the Mathematics
+for Machine Learning specialization from Imperial College London ; on Coursera when I was just
+starting out. The specialization is divided into three courses ; – linear algebra, multivariate calculus,
+and a last one on principal component analysis. ; The courses are well-structured and include
+a mix of video lectures, quizzes, and programming ; assignments in Python. I found the
+course to be a little bit challenging as a beginner, ; but it was a
+really good overview and I did manage to pass everything with a little bit ;
+of effort. ; DeepLearning.ai also recently released a Math for Machine Learning specialization, ; on
+Coursera. This specialization has courses on linear algebra and calculus, but instead ; of PCA,
+the final course focuses on stats and probability. I'm personally working ; through this specialization
+right now, and overall, I'm finding it to be another really ; great option. ;
+Each module starts with a nice motivation for how the math connects to an applied
+machine ; learning concept. It has coding exercises in Python, and some neat 3D tools
+to mess ; around with to get a good kind of visual understanding of the
+concepts as well. ; If you prefer learning from books, I have some suggestions there
+too. First up, if you ; like anime or nerdy stuff, boy oh boy do
+I have a recommendation for you. If you're ; into manga and math books, I've
+read the Manga Guide to Calculus, Manga Guide to Linear ; Algebra, and Manga Guide
+to Statistics. They also have a ton more, they have some on physics ; I
+think, and some other engineering concepts, so they're super super fun. I can't say ;
+the instructional quality is world class or anything, but they're cute and engaging, ; and
+they made me not dread reading a math book. ; The next level up would
+be real math books. These are some of the best. ; The Mathematics for Machine
+Learning eBook by Dysonroth and colleagues is a great comprehensive ; resource, and it's available
+for free for personal use. It covers key topics we've already ; discussed like linear
+algebra, calculus, probability, and optimization, with a focus on how these ; concepts apply to
+machine learning algorithms. It's relatively beginner-friendly, and is ; generally regarded as one of the
+best books for learning this material. ; Next, Practical Statistics for Data Scientists is another
+well-loved resource that includes ; code examples in Python and R. ; Now before we
+actually start studying, I think it's important to spend a little bit of time ;
+thinking really deeply about why you even want to do this. Personally, I find that
+if I'm studying just ; because I feel like I should, or because it's some
+arbitrary assignment, I get distracted ; easily and I don't actually end up retaining that
+much of the information. Instead, I try ; to connect to some kind of a
+deeper motivation, if possible. Personally, right now, I have ; a really basic motivation. I
+want to do well in my job because I want to earn a lot of
+; money so that I can take care of everyone I love. I have these
+great resources to learn ; from that weren't even available a couple of years ago,
+and I have this opportunity ; to push myself and make sure that everyone I
+love is safe and cared for now and in the ; future. ; I don't
+want to put extra pressure on myself, but actually just a way that works for
+me to kind ; of get excited that I have this opportunity to learn and
+grow and hopefully help others ; along the way. Your motivation might be totally different,
+but whatever it is, try to tie ; this work to a larger goal. ;
+In terms of optimizing your study time, I've found that one of the most effective
+methods ; is writing notes in my own words. Don't just copy definitions or formulas.
+Take time to ; summarize concepts as if you were explaining them to someone else,
+or really to future ; you. For example, if you're learning about derivatives, you might
+write, ; Relatedly, when it comes to math formulas, don't just stare at them, I
+know it's easy ; to do. It's really helpful to translate them into plain English
+or whatever spoken language ; you prefer. ; For instance, take the equation y equals
+mx plus b. You might describe m as the slope ; that shows how steep
+the line is, and b as the point where the line crosses the y-axis. ;
+So the final formula might be, the value of y, the output, is determined by
+taking the ; slope, m, multiplying it by x, and taking the slope, m, multiplying
+it by x, and taking the ; slope, m, multiplying it by x, the input,
+and then adding b, the starting point where ; the line intersects the y-axis. ;
+You can even use your notes as like a personal blog, kind of. Writing short
+posts about what ; you've learned is a really solid way to clarify your understanding,
+and teaching others, even ; if nobody reads it, solidifies the material in your own
+mind. Plus, sharing your posts ; on Medium or LinkedIn not only potentially helps others,
+but also allows you to build ; kind of a portfolio showcasing your learning journey.
+; Also, trust me, when it's interview time, you're going to be really happy that
+you have ; these notes. I use my own study notes all the time, so
+if you're interested, you can ; use them. The next piece of advice I have
+might not be super duper fun, but I also recommend ; not using just one
+resource. Personally, I've had a lot of success from taking many different ; courses and
+kind of just throwing all my notes together at first. Then I'll write a blog
+; like I was just talking about that summarizes all of my learnings. There are
+a couple of ; advantages to this approach. First, repetition helps you retain things. If
+I see a concept ; multiple times, explained from multiple angles, I'm much more likely
+to actually get what's ; going on and remember it for longer than a day.
+Plus, not only do I see the information ; presented to me multiple times, I'm
+writing the concepts out in my own words multiple ; times, including that final time
+where I synthesize it all and get ready to share with others. ; So I
+have to be really confident that I actually got it by the end if I'm
+going to be putting ; it out publicly. Let me show you an example. Here
+are three different explanations for ; the concept of rank in linear algebra. Starting with
+three blue, one brown, you can see this ; visual intuition, which is a great
+starting point, but you know, it lacks a little detail. ; Then we can look
+at how rank was presented in deeplearning.ai, which has some more detail, ; in a
+really simple way. Finally, we can go to the Mathematics for Machine Learning eBook ;
+to get an even more formalized definition with additional detail. Each one of these ;
+builds on the other and adds to my store of knowledge. ; Finally, once you've
+built that foundation and get to the level of math where you can ; actually
+use it for stuff, I really recommend coding concepts from scratch. If you can code
+; gradient descent or logistic regression using just NumPy, you're off to a really strong
+; start. While I know at this point you are super excited to start learning
+math, I do ; want to just circle back to the important fact that if
+you're a beginner trying to get ; your first job. ; In my opinion, math
+should not be the first thing you prioritize. It's really unlikely ; that your math
+skills are going to be the thing that gets you a job as a data
+scientist ; or machine learning engineer. Instead, prioritize gaining hands-on experience by working on ;
+projects and actually building stuff. Employers are far more interested in seeing what you ;
+can do with the tools and knowledge you already have than how many formulas you've
+memorized. ; As you encounter challenges in your work, you'll naturally be motivated to learn
+the ; math behind the algorithms. Remember, math is a tool to help you succeed
+and shouldn't ; be a barrier to getting started. Now, if you're curious about what
+else you need to know to ; become a data scientist, I have a really
+comprehensive video that lays out the entire roadmap from ; absolute beginner to your first
+job, including skills to learn, project examples, how to ; get experience, preparing for interviews,
+and more. Definitely check that out next!
+
+==================================================
+
+TRANSLATION (ID):
+
+Apakah Anda ingin menjadi ilmuwan data atau insinyur pembelajaran mesin, tetapi Anda merasa terintimidasi oleh
+semua orang matematika yang terlibat? Saya mengerti, saya pernah ke sana. Saya putus sekolah setelah
+kelas 10, jadi saya tidak pernah belajar matematika selain trigonometri di sekolah. Saat saya memulai
+perjalanan saya ke mesin belajar, saya bahkan tidak tahu apa itu turunan. Maju cepat ke
+hari ini, dan saya sudah melamar ilmuwan di Amazon, dan saya merasa cukup percaya diri
+dengan kemampuan matematika saya. Aku sudah mengambil yang diperlukan matematika sepanjang jalan menggunakan sumber daya
+gratis dan pembelajaran mandiri. Hari ini aku akan berjalan Anda melalui beberapa buku, kursus, dan
+saluran YouTube favorit saya yang membantu saya mencapai tujuan Saya hari ini, dan saya juga
+akan berbagi beberapa tips belajar tentang cara belajar yang efektif dan tidak menyia-nyiakan waktu Anda
+waktu berjuang dan merasa bosan. Jadi mari kita mulai. Pertama, mari kita jawab pertanyaan umum.
+Apakah kamu bahkan benar-benar perlu mengetahui matematika untuk dapat bekerja dalam pembelajaran mesin? Jawaban singkatnya
+adalah, itu tergantung pada apa yang ingin Anda lakukan. Untuk peran yang banyak melakukan penelitian
+saat Anda membuat pembelajaran mesin baru algoritma, maka ya, Anda jelas perlu mengetahui matematika. Tetapi
+jika Anda bertanya pada diri sendiri apakah Anda perlu belajar matematika, kemungkinan besar itu bukan
+pekerjaan yang Anda cari. Bagi praktisi, kebanyakan dari kita di industri ini, Anda bisa menjadi
+benar-benar kompeten tanpa mengetahui semua hal mendasarnya detail. Pada titik ini, perpustakaan seperti NumPy, Scikit
+Learn, dan TensorFlow menangani sebagian besar tugas berat mengangkat untukmu. Anda tidak perlu mengetahui matematika
+di balik penurunan gradien untuk menerapkan model produksi. Jika Anda seorang pemula yang mencoba mempelajari
+pembelajaran mesin, menurut saya tidak strategis untuk menghabiskan banyak waktu menghafal rumus atau mempelajari aljabar
+linier. Anda harus menghabiskan waktu itu untuk membangun sesuatu. Latih model sederhana, jelajahi data Anda,
+bangun saluran yang memprediksi sesuatu yang menyenangkan. Meskipun demikian, ada saat-saat di mana mengetahui matematika
+sangat membantu. Berikut beberapa contohnya. Jadi bayangkan Anda sedang melatih seorang model, dan modelnya tidak
+konvergen. Jika Anda memahami konsep seperti gradien dan fungsi pengoptimalan, Anda akan mengetahui apakah Anda
+perlu memahaminya sesuaikan kecepatan pembelajaran Anda, coba pengoptimal lain, atau sesuaikan pemrosesan data Anda. Atau
+katakanlah Anda menjalankan regresi linier, dan Anda menafsirkan koefisiennya. Tanpa pengetahuan matematika, Anda mungkin melewatkan
+soal seperti multikolinearitas, yang menghasilkan koefisien tidak dapat diandalkan. Kemudian Anda mungkin membuat kesimpulan yang
+salah dari data tersebut, dan merugikan perusahaan jutaan dan kehilangan pekerjaan Anda. Cuma bercanda. Agak.
+Kita memang harus berhati-hati saat membuatnya keputusan bisnis dari model yang kami bangun. Jadi selagi
+Anda bisa, dan harus, memulai tanpa pengetahuan matematika yang mendalam, Anda harus berhati-hati saat mengambil
+keputusan bisnis dari model yang kami membangun. Sangat masuk akal untuk membangun kenyamanan Anda dengan
+matematika seiring berjalannya waktu. Setelah Anda siap, Anda akan mulai menghadapi masalah yang secara alami
+mendorong Anda untuk belajar lebih banyak. Ketika Anda perlu men-debug atau jelaskan hasilmu, saat itulah
+matematika akan mulai diklik karena terhubung untuk sesuatu yang nyata. Serius, jangan biarkan rasa takut
+terhadap matematika menghentikan Anda untuk memulai. Anda tidak perlu melakukannya pelajari semuanya terlebih dahulu untuk
+membuat kemajuan. Jadikan tangan Anda kotor dengan alatnya, bangun portofolio Anda, dan biarkan matematika berkembang
+sebagai keterampilan seiring dengan pengetahuan praktis Anda. Baiklah, sekarang mari kita bicara tentang apa yang
+harus dipelajari saat Anda membangun landasan matematika untuk pekerjaan pembelajaran mesin. Pertama, aljabar linier. Aljabar
+linier sangat penting untuk pembelajaran mesin, terutama untuk pembelajaran mendalam. Banyak model mengandalkan representasi data
+dan komputasi sebagai matriks dan vektor. Inilah yang harus diprioritaskan. Pertama, matriks dan vektor. Bayangkan
+matriks sebagai kisi-kisi bilangan dan vektor sebagai daftar bilangan. Data sering kali disimpan dengan cara
+ini, dan operasi seperti penjumlahan, perkalian, dan perkalian titik sangat penting dalam cara model memproses
+informasi tersebut. Penentu dan invers. Penentu memberi tahu Anda apakah suatu matriks dapat dibalik, yang
+digunakan dalam masalah optimasi dan menyelesaikan sistem persamaan linear. Nilai eigen dan vektor eigen. Ini
+adalah kunci untuk memahami varians dalam data dan merupakan dasar dari teknik serupa analisis komponen
+utama, yang dapat membantu mengurangi dimensi dalam kumpulan data. Terakhir, dekomposisi matriks. Metode seperti dekomposisi
+nilai tunggal digunakan dalam rekomendasi sistem, reduksi dimensi, dan kompresi data. Sekarang kita masuk ke
+kalkulus dasar. Kalkulus adalah inti untuk memahami bagaimana model belajar data. Namun kita tidak perlu
+khawatir untuk memecahkan masalah yang super rumit, yang penting adalah pemahaman beberapa ide kunci. Pertama,
+turunan dan gradien. Derivatif mengukur bagaimana sesuatu berubah, dan gradien, yang merupakan turunan multidimensi, inilah
+yang kita sebut paling kompleks dan kompleks masalah. Kedua, algoritma optimasi daya, seperti penurunan gradien.
+Model bantuan ini menyesuaikan diri parameternya untuk meminimalkan kesalahan. Aturan rantai sangat penting dalam jaringan
+saraf. Begitulah cara kerja propagasi mundur, yaitu proses mencari tahu seberapa besar kontribusi masing-masing bobot
+dalam jaringan terhadap keseluruhan kesalahan sehingga model dapat belajar secara efektif. Terakhir, dasar-dasar pengoptimalan. Konsep
+seperti minimum lokal versus global, titik pelana, dan konveksitas penting untuk memahami mengapa beberapa model
+mengalami kebuntuan dan model lainnya berhasil menemukan solusi terbaik. Terakhir, statistik dan probabilitas. Statistik dan
+probabilitas adalah inti dari pemahaman data. Selagi mereka ilmu data, pembelajaran mesin juga memiliki banyak
+manfaat. Ini dia apa yang perlu Anda ketahui. Distribusi. Kenali distribusi umum seperti normal, binomial,
+dan seragam. Itu distribusi normal khususnya muncul di mana-mana dalam ilmu data dan pembelajaran mesin.
+Varians dan kovarians. Varians memberi tahu Anda seberapa tersebar data Anda, sedangkan kovarians menunjukkan kepada
+Anda bagaimana dua variabel berhubungan. Konsep-konsep ini sangat penting untuk fitur memilih dan memahami struktur
+data Anda. Teorema Bayes. Meskipun namanya agak konyol dan mungkin mengintimidasi, teorema Bayes memang demikian
+alat yang cukup sederhana namun ampuh untuk penalaran probabilistik. Ini paling banyak ditemukan algoritma tradisional
+seperti Naive Bayes, yang digunakan untuk hal-hal seperti deteksi spam, serta optimasi Bayesian untuk penyetelan
+hyperparameter. Anda juga ingin memahami estimasi kemungkinan maksimum, yang membantu memperkirakan model parameter dengan menemukan
+nilai yang memaksimalkan kemungkinan data Anda. Itu sungguh konsep dasar, terutama dalam algoritma seperti regresi
+logistik. Terakhir, pengambilan sampel dan probabilitas bersyarat. Pengambilan sampel memungkinkan Anda bekerja dengan subkumpulan data
+efisien, dan probabilitas bersyarat sangat penting untuk memahami hubungan tersebut antar peristiwa, terutama dalam model
+Bayesian. Sekarang, ini jelas tidak menyeluruh daftarnya, tapi menurut saya ini adalah ikhtisar bagus tentang
+konsep umum yang perlu Anda ketahui untuk melakukan pekerjaan dengan baik sebagai ilmuwan data yang
+berfokus pada pembelajaran mesin atau sebagai mesin insinyur pembelajaran. Selanjutnya, saya akan membagikan sumber daya
+terbaik untuk mempelajari konsep-konsep ini tanpa membuat stres atau berlebihan, dan semoga juga tidak terlalu
+membosankan. Secara pribadi, saya sangat menyarankan memulai dengan pemahaman visual dan intuitif konsep-konsep kunci sebelum
+Anda mulai membaca buku teks yang sangat sulit dan mencoba memecahkannya persamaan. Untuk aljabar linier
+dan kalkulus, saya tidak bisa berbicara cukup banyak tentang 3Blue1Brown Deret Esensi Aljabar Linier dan
+Deret Esensi Kalkulus. Video-video ini memberikan kesan yang sangat solid pengenalan tentang apa yang sebenarnya
+diukur dan dimanipulasi ketika kita menggunakan matematika ini pendekatan. Lebih penting lagi, mereka menunjukkan keindahan
+di dalamnya. Agak aneh untuk mengatakan bahwa video matematika bisa menjadi inspirasi, tetapi video ini
+memang menginspirasi. Untuk statistik dan probabilitas, saya penggemar berat StatQuest. Videonya jelas, menarik, dan menyenangkan
+untuk ditonton. StatQuest memiliki daftar putar dengan ikhtisar statistik kursus dan mesin konsep pembelajaran. Jadi,
+saya sarankan memulai dari sana. Setelah Anda memiliki intuisi visual, Anda dapat mulai bekerja melalui
+buku dan kursus yang lebih terstruktur. Ada banyak pilihan bagus di sini juga. Mari kita
+lihat beberapa yang saya pribadi gunakan untuk belajar. Saya menyelesaikan spesialisasi Matematika untuk Pembelajaran Mesin
+dari Imperial College London di Coursera ketika saya baru memulai. Spesialisasi ini dibagi menjadi tiga
+program studi – aljabar linier, kalkulus multivariat, dan yang terakhir tentang analisis komponen utama. Kursus-kursusnya
+terstruktur dengan baik dan mencakup campuran video ceramah, kuis, dan pemrograman tugas dengan Python. Menurut
+saya kursus ini sedikit menantang sebagai pemula, tapi itu gambaran yang sangat bagus dan saya
+berhasil menyampaikan semuanya dengan sedikit upaya. DeepLearning.ai juga baru-baru ini merilis spesialisasi Matematika untuk Pembelajaran
+Mesin, di Coursera. Spesialisasi ini memiliki kursus tentang aljabar linier dan kalkulus, tetapi sebaliknya PCA,
+kursus terakhir berfokus pada statistik dan probabilitas. Saya pribadi sedang bekerja melalui spesialisasi ini sekarang,
+dan secara keseluruhan, menurut saya ini adalah spesialisasi yang lain pilihan bagus. Setiap modul dimulai
+dengan motivasi bagus tentang bagaimana matematika terhubung ke mesin yang diterapkan konsep pembelajaran. Ini memiliki
+latihan pengkodean dengan Python, dan beberapa alat 3D yang rapi untuk dipusingkan berkeliling untuk mendapatkan
+pemahaman visual yang baik tentang konsep juga. Jika Anda lebih suka belajar dari buku, saya
+juga punya beberapa saran. Pertama, jika Anda seperti anime atau hal-hal kutu buku, astaga, aku
+punya rekomendasi untukmu. Jika kamu ke dalam manga dan buku matematika, saya telah membaca Panduan
+Manga untuk Kalkulus, Panduan Manga untuk Linear Panduan Aljabar dan Manga untuk Statistika. Mereka juga
+punya lebih banyak lagi, mereka punya beberapa di bidang fisika Menurut saya, dan beberapa konsep
+teknik lainnya, jadi sangat menyenangkan. Saya tidak bisa mengatakannya kualitas pengajarannya kelas dunia atau apa
+pun, tapi lucu dan menarik, dan mereka membuatku tidak takut membaca buku matematika. Level berikutnya
+adalah buku matematika sungguhan. Ini adalah beberapa yang terbaik. EBook Matematika untuk Pembelajaran Mesin oleh
+Dysonroth dan rekannya sangat komprehensif sumber daya, dan tersedia gratis untuk penggunaan pribadi. Ini mencakup
+topik-topik utama yang sudah kami bahas dibahas seperti aljabar linier, kalkulus, probabilitas, dan optimasi, dengan
+fokus pada cara kerjanya konsep berlaku untuk algoritma pembelajaran mesin. Ini relatif ramah bagi pemula,
+dan memang demikian umumnya dianggap sebagai salah satu buku terbaik untuk mempelajari materi ini. Berikutnya,
+Statistik Praktis untuk Ilmuwan Data adalah sumber daya populer lainnya yang mencakup contoh kode dengan
+Python dan R. Sekarang sebelum kita benar-benar mulai belajar, menurut saya penting untuk meluangkan sedikit
+waktu memikirkan secara mendalam mengapa Anda ingin melakukan ini. Secara pribadi, saya menemukan bahwa jika
+saya belajar saja karena saya merasa harus melakukannya, atau karena ini adalah tugas yang sewenang-wenang,
+perhatian saya teralihkan dengan mudah dan saya sebenarnya tidak menyimpan banyak informasi. Sebaliknya, saya mencoba
+untuk terhubung ke semacam motivasi yang lebih dalam, jika memungkinkan. Secara pribadi, saat ini, saya
+punya motivasi yang sangat mendasar. Saya ingin melakukan pekerjaan saya dengan baik karena saya ingin
+mendapat penghasilan yang banyak uang agar aku bisa menjaga semua orang yang kucintai. Saya memiliki
+sumber daya yang bagus untuk dipelajari dari itu bahkan tidak tersedia beberapa tahun yang lalu,
+dan saya memiliki kesempatan ini untuk mendorong diri sendiri dan memastikan bahwa semua orang yang
+saya cintai aman dan dirawat saat ini dan di masa depan masa depan. Saya tidak
+ingin memberikan tekanan ekstra pada diri saya sendiri, tetapi sebenarnya hanya cara yang berhasil bagi
+saya untuk bersikap baik Saya merasa gembira karena saya memiliki kesempatan untuk belajar dan berkembang
+dan semoga dapat membantu orang lain sepanjang jalan. Motivasi Anda mungkin sangat berbeda, tetapi apa
+pun itu, cobalah untuk mengikatnya ini bekerja untuk tujuan yang lebih besar. Dalam hal mengoptimalkan
+waktu belajar Anda, saya menemukan salah satu metode yang paling efektif sedang menulis catatan dengan
+kata-kataku sendiri. Jangan hanya menyalin definisi atau rumus. Luangkan waktu untuk meringkas konsep seolah-olah Anda
+sedang menjelaskannya kepada orang lain, atau sebenarnya ke masa depan Anda. Misalnya, jika Anda mempelajari
+turunan, Anda bisa menulis, Terkait dengan rumus matematika, jangan hanya dilihat saja, saya tahu itu
+mudah untuk melakukan. Sangat membantu untuk menerjemahkannya ke dalam bahasa Inggris sederhana atau bahasa lisan
+apa pun kamu lebih suka. Misalnya, persamaan y sama dengan mx ditambah b. Anda mungkin
+mendeskripsikan m sebagai kemiringan yang menunjukkan seberapa curam garis tersebut, dan b sebagai titik potong
+garis terhadap sumbu y. Jadi rumus akhirnya mungkin, nilai y, keluarannya, ditentukan dengan mengambil kemiringan,
+m, kalikan dengan x, dan ambil kemiringan, m, kalikan dengan x, dan ambil kemiringan, m,
+kalikan dengan x, masukannya, lalu tambahkan b, titik awal di mana garis tersebut memotong sumbu
+y. Anda bahkan dapat menggunakan catatan Anda seperti blog pribadi. Menulis postingan singkat tentang apa
+yang telah Anda pelajari adalah cara yang sangat solid untuk memperjelas pemahaman Anda, dan bahkan
+mengajar orang lain jika tidak ada yang membacanya, padatkan materi tersebut dalam pikiran Anda sendiri.
+Plus, bagikan postingan Anda di Medium atau LinkedIn tidak hanya berpotensi membantu orang lain, tetapi
+juga memungkinkan Anda membangun semacam portofolio yang menampilkan perjalanan belajar Anda. Juga, percayalah, ketika tiba
+waktunya wawancara, Anda akan sangat senang melakukannya catatan ini. Saya selalu menggunakan catatan belajar saya
+sendiri, jadi jika Anda tertarik, Anda bisa gunakan mereka. Saran berikutnya yang saya miliki mungkin
+tidak terlalu menyenangkan, tetapi saya juga merekomendasikannya tidak hanya menggunakan satu sumber daya. Secara pribadi,
+saya telah meraih banyak kesuksesan dengan mengambil banyak hal berbeda kursus dan hanya mengumpulkan semua
+catatan saya pada awalnya. Lalu aku akan menulis blog seperti yang baru saja saya bicarakan
+yang merangkum semua pembelajaran saya. Ada beberapa keuntungan dari pendekatan ini. Pertama, pengulangan membantu Anda
+mempertahankan sesuatu. Jika saya melihat sebuah konsep berkali-kali, dijelaskan dari berbagai sudut, kemungkinan besar saya
+akan benar-benar memahaminya terjadi dan mengingatnya lebih dari sehari. Ditambah lagi, saya tidak hanya melihat
+informasinya disajikan kepada saya berkali-kali, saya menuliskan konsepnya dengan kata-kata saya sendiri berkali-kali kali, termasuk
+saat terakhir ketika saya menyatukan semuanya dan bersiap untuk berbagi dengan orang lain. Jadi saya
+harus benar-benar yakin bahwa saya benar-benar mendapatkannya pada akhirnya jika saya ingin melakukan put itu
+secara terbuka. Mari saya tunjukkan sebuah contoh. Berikut adalah tiga penjelasan berbeda untuk konsep pangkat
+dalam aljabar linier. Dimulai dengan tiga warna biru, satu coklat, Anda bisa melihat ini intuisi
+visual, yang merupakan titik awal yang bagus, tapi tahukah Anda, ada sedikit detail yang kurang.
+Kemudian kita bisa melihat bagaimana peringkat disajikan di deeplearning.ai, yang memiliki lebih banyak detail, dengan
+cara yang sangat sederhana. Terakhir, kita bisa membuka eBook Matematika untuk Pembelajaran Mesin untuk mendapatkan
+definisi yang lebih formal dengan detail tambahan. Masing-masing dari ini membangun di atas yang lain
+dan menambah simpanan pengetahuan saya. Terakhir, setelah Anda membangun fondasi itu dan mencapai tingkat matematika
+semampu Anda sebenarnya menggunakannya untuk berbagai hal, saya sangat merekomendasikan konsep pengkodean dari awal. Jika
+Anda bisa membuat kode penurunan gradien atau regresi logistik hanya dengan menggunakan NumPy, Anda akan
+mencapai hasil yang sangat kuat awal. Meskipun saya tahu saat ini Anda sangat bersemangat untuk
+mulai belajar matematika, saya tahu ingin kembali ke fakta penting yang jika Anda seorang pemula
+mencoba untuk mendapatkannya pekerjaan pertamamu. Menurut saya, matematika tidak boleh menjadi hal pertama yang diprioritaskan.
+Ini sangat tidak mungkin bahwa keterampilan matematika Anda akan memberi Anda pekerjaan sebagai data scientist
+atau insinyur pembelajaran mesin. Sebaliknya, prioritaskan untuk mendapatkan pengalaman langsung dengan bekerja proyek dan benar-benar
+membangun sesuatu. Pengusaha jauh lebih tertarik untuk melihat apa yang Anda lakukan dapat dilakukan dengan
+alat dan pengetahuan yang sudah anda miliki dibandingkan dengan berapa banyak rumus yang sudah anda
+hafal. Saat Anda menghadapi tantangan dalam pekerjaan Anda, secara alami Anda akan termotivasi untuk mempelajarinya
+matematika di balik algoritma. Ingat, matematika adalah alat untuk membantu Anda sukses dan tidak seharusnya
+demikian menjadi penghalang untuk memulai. Sekarang, jika Anda penasaran, apa lagi yang perlu Anda ketahui
+menjadi seorang ilmuwan data, saya memiliki video yang sangat komprehensif yang memaparkan keseluruhan peta jalannya
+pemula mutlak untuk pekerjaan pertama Anda, termasuk keterampilan yang harus dipelajari, contoh proyek, cara melakukannya
+mendapatkan pengalaman, mempersiapkan wawancara, dan banyak lagi. Pastikan untuk memeriksanya selanjutnya!
+

@@ -1,0 +1,2384 @@
+Source: Ch01 - Basic Technical Analysis Method.mp3
+Language Mode: Indonesian
+Detected: id (100.0%)
+Transcribed: 2026-03-27 22:17:05
+==================================================
+
+Welcome, traders. Sekarang kita akan masuk di dalam pembahasan basic technical analysis methodology. ; Di dalam astronaci, kita mengenal four dimensional analysis. ; Yang pertama adalah seringkali orang bertanya, apakah astronaci ini menggunakan fundamental? ; Apakah hanya technical saja? ; Maka inilah saatnya untuk Anda mengetahui bagaimana sebenarnya astronaci ini bekerja. ; Yang pertama, kita menggunakan satu konsep di mana market itu harus dianalisa dari empat dimensi. ; Dimensi yang pertama adalah why. ; Why kita harus investasi di salah satu market? ; Misalnya, apakah kita investasi di market Indonesia, Amerika, mungkin Anda ke Hong Kong market, atau ke Thailand market. ; Jadi, why ini akan menjawab di mana kita mengalokasikan dana. ; Apakah di gold, apakah di bond, apakah di stocks, atau di forex? ; Kita menggunakan makroekonomi untuk menjawab pertanyaan ini. ; Itu adalah dimensi yang pertama. ; Kemudian dimensi yang kedua adalah what to buy. ; Apa yang harus kita beli? ; Katakan kita sudah memilih saham, kemudian mungkin kita sudah memilih currency, tapi apa yang akan kita beli? ; Apakah saham konsumer? Apakah sektoralnya batu bara, misalnya? ; Dan kalaupun sudah membeli saham batu bara, apa yang harus kita beli? ; Kalaupun kita membeli mata uang, apa yang akan kita beli? ; Apakah ponsterling Jepang Yen, ataukah mungkin Anda beli Euro USD, dan seterusnya? ; Kita menggunakan fundamental analysis untuk micro analysis. ; Jadi, mikroekonominya mungkin kalau di saham. ; Kita nanti akan mempelajari tentang valuation, dan seterusnya. ; Itu adalah what to buy dengan menggunakan fundamental analysis. ; Elemen atau dimensi yang ketiga, kita menggunakan where, menjawab pertanyaan, ; di mana sih kalau kita mau beli, di harga berapa? ; Ini adalah ilmu technical analysis yang kita fokuskan kepada price action analysis. ; Price action analysis di sini merupakan sebuah ilmu yang memprediksi grafik karakternya bagaimana. ; Karena technical analysis itu sangat luas. ; Ada modern, ada classic, ada yang menggunakan indikator, ; ada yang bahkan mungkin hanya cuma chart saja, atau yang kita sebut dengan naked chart. ; Aliran dari astronaci yang kita perkenalkan adalah bagaimana Anda membuat sebuah prediksi, ; atau melihat pergerakan arah harga dengan menggunakan naked chart. ; Classic technical analysis dalam hal ini fokus kepada price action analysis. ; Kemudian yang terakhir, tentang when, di mana when ini akan membahas, ; mengenai time, kapan Anda masuknya. ; Jadi itu adalah empat elemen, dan yang akan kita fokuskan di dalam home study workshop kali ini adalah where, ; di mana kita akan mempelajari tentang bagaimana price action analysis itu bekerja. ; Di dalam mempelajari price action analysis, maka Anda harus mengerti prinsip-prinsip dasar daripada technical analysis. ; Apa saja prinsip dasarnya? ; Kalau orang berkata bahwa kenapa sih saya harus pakai technical analysis, kenapa harus membaca grafik? ; Karena grafik ini sama dengan seperti, ; Anda seorang dokter jantung, lalu Anda ingin melihat denyut nadi daripada pasien Anda, ; maka kita menggunakan konsep teknik untuk melihat dengan EKG ya, electronic cardiograph ya. ; Jadi kita memasang alat-alat dan denyut jantungnya terlihat itu seperti grafik, ; dan itu bisa dilihat dengan jelas bahwa apakah jantung daripada pasien ini bermasalah atau tidak, oke. ; Nah dari sinilah kita juga melihat apakah jantung market ini sekarang sedang mengarah ke buli, ; atau mengarah ke beris, ya dengan begini, apabila market sedang mengarah ke beris, ; Anda bisa melihatnya dengan lebih jelas melalui chart, karena chart itu melambangkan supply and demand secara langsung. ; Mungkin Anda berkata, saya bisa menggunakan rumor atau news dan seterusnya, ; tetapi ingat, dengan teori diffusion news information, artinya pada saat news itu sudah sampai di media, ; dan Anda sudah menerimanya, maka bisa disimpulkan bahwa sebenarnya news itu sudah expired. ; Dan news yang expired tersebut, adalah efektif. ; Mereka tidak merek daripada adanya insider trading, mereka sudah take action terlebih dahulu, ; dan kemudian mereka baru menyebarkan news itu keluaran, maka yang Anda dapatkan adalah sisa-sisanya. ; Oleh karena itu, yang paling real time sebenarnya adalah the graphic itself. ; Nah, di dalam technical analysis, Anda mengenal prinsip-prinsip dasar, ; dan ada 3 prinsip dasar yang penting sekali, di mana ini nanti secara aplikasi akan saya tunjukkan. ; Yang pertama adalah bahwa market itu bergerak di dalam trend, market moves in trend. ; Ini filosofi dasar. ; Anda harus percaya bahwa yang namanya pergerakan harga, kalau bullish, itu ada bullish. ; Ya, benar-benar dia bergerak dengan trend bullish, dia naik ke atas, ; dan juga pergerakan harga itu bisa bergerak dengan kondisi bearish, atau dia turun ke bawah, atau sideways sama sekali. ; Ini harus menjadi satu perhatian khusus, di mana kita benar-benar melihat bahwa ; kalau memang trend itu ada arahnya, bullish atau bearish, maka yang harus kita lakukan saat ini adalah kita menunggangi trend tersebut. ; Kita harus memprediksi, melihat bagaimana caranya trend itu bullish dan bagaimana caranya trend itu bearish. ; Dengan begitu, Anda benar-benar bisa menikmati keuntungan yang besar dan mulai terhindar dari kesalahan-kesalahan yang seringkali dilakukan. ; Market lagi bearish, Anda buy. Market lagi bullish, Anda sell short. ; Akhirnya, loss semuanya. ; Oleh karena itu, prinsip dasar bahwa kita harus follow the trend, karena aturan pertama adalah market moves in trend. ; Ini harus benar-benar menjadi satu konsep dasar yang penting, yang harus Anda sepakati bahwa saya tidak akan sembarang, ; masuk ke market sebelum saya tahu trendnya. ; Berarti trend analysis, nanti kita akan lihat secara aplikasi satu persatu bagaimana cara kita menarik garisnya, ini harus Anda latih setiap hari. ; Kemudian yang kedua, history repeats itself. ; Di sini dikatakan kalau history repeats itself, artinya bahwa pola-pola yang terjadi di market itu akan selalu berulang. ; Kenapa berulang? Karena kesalahan-kesalahan dari trader itu selalu berulang, karena manusia selalu memiliki satu tendensius untuk melakukan kesalahan yang sama. ; Dan kesalahan yang sama inilah yang kita gunakan. ; Dimana kesalahan yang sama tersebut adalah fear and greed. ; Seseorang akan mengalami fear, ketakutan sendiri kalau sahamnya merah atau posisinya loss. ; Atau dia akan sangat euphoria, dia tertawa, terbakbak kalau posisinya sedang untung banyak. ; Dan ini yang menjadi masalah. ; Terus-menerus akhirnya membentuk sebuah pola dan pola ini berulang, ; kita bisa melihat apa yang akan terjadi dari market bahwa ada kemiripan. ; Sehingga kita percaya bahwa trend, di dalam trend itu nanti ada pola-pola yang berulang. ; Ada pattern-pattern tertentu, mungkin Anda mengenal seperti head and shoulder, double top, double bottom, mungkin Anda pernah dengar. ; Kalau Anda tidak pernah dengar, jangan mengkhawatir. ; Nanti di chapter berikutnya kita akan membahas itu. ; Yang ketiga, market action discount everything. ; Artinya, dalam kondisi market yang seringkali dipengaruhi oleh news dan seterusnya, ; Anda mungkin tidak perlu bingung terhadap news. ; Karena news-news atau laporan keuangan dan seterusnya memang tetap harus kita perhatikan, ya harus kita perhatikan. ; Tetapi, pada saat kita trading, ; yang paling real time, yang paling cepat informasinya, itu adalah grafik itu sendiri. ; Karena kalau Anda melihat grafik itu bergerak, tick by tick, ; itu sebenarnya merupakan aksi daripada pelaku pasar yang sedang melakukan klik. ; Dan coba Anda bayangkan, kalau mereka bisa melakukan klik, ; itu pasti didasari oleh rasa ingin untuk mengeksekusi. ; Rasa ingin untuk mengeksekusi, makanya mereka akhirnya langsung mengeksekusi. ; Dan kita bisa melihat apa sih yang sebenarnya ada di dalam pikiran mereka. ; Dan kita bisa merespon. ; Jadi, tiga dasar ini yang nanti akan kita coba antahkan dalam bentuk chart. ; Lalu, chart itu sendiri ada beberapa jenis. ; Ada yang pertama, bar chart. ; Ada kemudian line chart. ; Dan ada candlestick. ; Di mana masing-masing memiliki perbedaan. ; Prinsipnya kalau line chart, dia hanya deal dengan close price. ; Kalau candlestick, dia akan ada open, high, low, dan close. ; Dan kalau bar chart juga sama, ada open, high, low, dan close. ; Nah. ; Di dalam mempelajari price action analysis, ; nanti kita juga mempelajari tentang primary, secondary, dan minor trend. ; Primary kita sebut sebagai arah gerak trend yang paling utama. ; Analoginya adalah seperti sebuah cangkul. ; Di dalam basic technical analysis method, ; Anda harus tahu bahwa ada lima formasi dasar pola harga. ; Bentuknya adalah seperti cangkul. ; Kemudian cangkul ini akhirnya menjadi mirror. ; Seperti yang Anda bisa lihat. ; Di sebelah, di layar ini. ; Dari cangkul kemudian menjadi mirror. ; Dan pada akhirnya dari mirror ini, ; Anda bisa melihat bahwa panjang daripada pergerakan harga yang awal. ; Kita berikan nama AB. ; Itu akan sama dengan CD. ; Ini yang akan menjadi perhatian kita. ; Jadi cangkul pun ada bullish cangkul seperti ini. ; Dan kemudian bearish cangkul seperti ini. ; Pada akhirnya ini akan berkembang menjadi mirror bullish dan mirror bearish. ; Lalu juga ada gambar di mana supply and demand ini sama. ; Itu yang kita sebut dengan sideways. ; Dan sideways itu cenderung bergerak mendatar. ; Dan pola sideways seperti ini akan sangat sulit untuk kita tradingkan. ; Karena Anda akan terjebak di dalam satu pergerakan yang flat-flat saja. ; Dan tidak memiliki sebuah kepastian kegerakan harga. ; Tetapi Anda harus ingat bahwa pada saat trend sideways ini sudah selesai. ; Akan kembali diikuti dengan ; ledakan harga di mana trend akan kembali muncul. ; Oleh karena itu setiap kali kita trading kita perlu sekali untuk memperhatikan arah trend yang mau kemana. ; Lalu kemudian kita juga melihat dari bentuk candlesticknya untuk entry. ; Karena candlestick ini akan merepresentasikan bagaimana kita bisa masuk ke market dan melalui apa. ; Itu yang akan sangat membantu Anda di dalam trading. ; Jadi price action analysis setelah kita tahu prinsipnya lalu kita melihat chart. ; Saya mengajarkan Anda bagaimana melihat satu demi satu. ; Lalu kita akan mulai melihat arah trend. ; Karena di dalam melihat chart fokus utama yang harus Anda lakukan adalah Anda tanyakan pada diri sendiri. ; Kemanakah arah trend setelah ini? ; Ini akan menjadi fokus utama. ; Apakah dia akan naik kencang? Apakah dia akan turun kencang? ; Fokus utama adalah apabila sekarang adalah hari yang terakhir. ; Dan besok ini masih kosong layar chartnya di sebelah kanan dari chart itu. ; Kemana pergerakan harga ini akan berjalan? ; Ini akan menjadi salah satu fokus kita yang paling utama di dalam aktivitas kita. ; Karena kita akan melihat terus apakah pergerakan harga ini akan berlanjut bullish atau bearish. ; So kita akan mulai dan Anda akan melihat aplikasi daripada teori basic technical analysis method. ; Saat ini kita akan memulai aplikasi mengenai basic technical analysis method. ; Sebelumnya Anda sudah mengenal tentang prinsip-prinsip dasar technical analysis. ; Anda juga sudah mengerti pentingnya menggunakan technical analysis. ; Yang mana saya lebih senang menyebutnya price action analysis. ; Karena technical analysis ini sangat luas. ; Kita membagi menjadi modern dan kita juga membagi menjadi classic. ; Alirannya cukup sporadis. ; Artinya banyak orang yang menggunakan technical analysis tetapi konsep dasarnya sangat bervariasi. ; Sehingga technical analysis antara modern dan classic ini kita mesti pisahkan terlebih dahulu. ; Dan kemudian pada saat kita berbicara mengenai menganalisa peta pergerakan harga yang ada di masa depan. ; Saya lebih cenderung menggunakan price action analysis. ; Saat ini saya akan menunjukkan pada Anda tentang jenis-jenis chart. ; Kemudian ada bar chart, ada candlestick. ; Kemudian prinsip dasar technical analysis yang diaplikasikan. ; Di dalam menggambarkan technical analysis Anda harus memiliki software. ; Yang mana software ini akan sangat menentukan kesuksesan Anda. ; Di mana untuk saham saya biasanya standardnya menggunakan Amibroker. ; Dan kemudian untuk futures market kita sudah disediakan metatrader. ; Dan disinilah kita akan pelan-pelan belajar bagaimana sih cara menggunakan grafik ini dan fokusnya apa. ; Seperti kita ketahui bahwa technical analysis itu memprediksi pergerakan harga berdasarkan human value. ; Human psychology atau crowd psychology. ; Supply and demand yang diejawabkan dalam bentuk grafis. ; Dan kemudian dari sini Anda bisa melihat kedepannya ini kurang lebih harga akan kemana. ; Jadi kita harus memfokuskan diri bahwa pada saat kita sudah masuk di dalam technical analysis khususnya price action analysis. ; Anda harus fokus mencari harga yang akan terjadi di masa depan. ; Oleh karena itu kalau Anda lihat di layar gambar ini memiliki ruang gerak yang sangat sempit. ; Hanya segini. ; Ini merupakan salah satu kesalahan umum yang dilakukan oleh para chartist di Indonesia maupun di dunia ataupun di Asia. ; Di international intinya. ; Pada saat mereka membuat gambaran arah peta pergerakan harga mereka cenderung tidak memberikan ruang di sebelah kanan. ; Dan mereka cenderung fokus pada apa yang ada di kiri. ; Apalagi belum lagi mereka menggunakan indikator yang begitu banyak. ; Ini merupakan kesalahan-kesalahan fatal yang seringkali dilakukan. ; Oleh karena itu yang harus Anda lakukan saat ini. ; Karena kita fokus untuk membahas apa yang akan terjadi di depan. ; Oleh karena itu Anda harus fokus untuk melihat yang di sebelah kanan. ; Jadi saya seringkali selalu mengingatkan ya. ; Baik kepada murid-murid di CAT program ataupun siapapun yang sedang belajar chartist bersama Sronaci. ; Bahwa di dalam kita membuat analisa selalu berikan ruang yang cukup banyak di sebelah kanan. ; Karena tugas Anda bukan bercerita tentang masa lalu. ; Tetapi tugas Anda menceritakan tentang apa. ; Apa yang akan terjadi berikutnya. ; Sehingga di area sebelah kanan ini harus kosong. ; Kalau di Amibroker Anda bisa tekan tombol N ya. ; N akhir ya. ; Di sebelah home biasanya di keyboard Anda. ; Ini akan otomatis gerak dan disinilah Anda akan mulai membuat sebuah analisa. ; Dan di dalam menggambar di grafik ini ada beberapa time frame. ; Ada monthly, kemudian ada weekly, kemudian ada daily, ada hourly. ; Bahkan kalau di futures mulai dari monthly sampai ke... ; One minute chart ya. ; Nah ini nanti di chapter-chapter selanjutnya kita akan membahas bagaimana menggunakan multiple time frame ini. ; Tetapi untuk saat ini saya perlu memberi satu informasi bahwa time frame yang ideal, yang standard itu selalu daily. ; Karena market itu dibentuknya day per day. ; So kita akan mulai bahwa technical analysis itu disebut price action discount everything. ; Kalau price action discount everything artinya semua... ; Hal-hal yang akan terjadi, news, laporan keuangan, kemudian ada natural calamity seperti bom, tsunami dan seterusnya itu sebenarnya sudah dibaca oleh market. ; Sehingga kalau sudah dibaca oleh market selanjutnya adalah Anda tinggal memprediksi pergerakan harga atau pola apa yang saat ini sedang terbentuk. ; Dan kemudian pada saat itu Anda akan melihat ternyata sebelum bahkan sebelum munculnya news ya. ; Sebelum munculnya news. ; Anda akan melihat bahwa pola itu sebenarnya sudah terbentuk. ; Pola-pola yang sudah terbentuk itulah yang akan kita prediksi sehingga akan menggambarkan satu peta ya apa yang akan terjadi di depan. ; Sehingga kita tidak perlu report-report lagi untuk mencari berita-berita atau mengandalkan news rumor dan seterusnya. ; Karena basic principle dari technical analysis sudah menggambarkan bahwa pergerakan arah harga itu sebenarnya sudah muncul di chart kita. ; Tinggal kita melihat dan membacanya saja bagaimana. ; Yang permulaan kita bicara bahwa market action discount everything nanti saya akan membuktikan bahwa news seperti non-farm payroll dan seterusnya itu ternyata sudah digambarkan oleh market. ; Sebelum news itu berlangsung. ; Ada BOM misalnya. ; BOM seringkali menjadi turning point untuk IHSG. ; Jadi pada saat ada BOM saham-saham Indonesia itu akan pada saat itu berada di area-area resistan penting dan berada pada support-support penting. ; Dan disanalah akan mulai terjadi. ; Terjadinya turning point. ; Dimana turning point-turning point inilah yang akan kita gunakan untuk trading dengan strategi reversal. ; Reversal itu pembalikan arah. ; Yang lebih simple adalah setiap peta pergerakan arah harga yang ada di chart ini mirip seperti denyut jantung manusia. ; Jadi ada naik turun, naik turun ya. ; Seperti denyut jantung dengan Anda bisa membaca apa yang terjadi disini. ; Maka Anda bisa melihat apa yang akan terjadi nanti di chart ini. ; Di depan karena ini adalah merupakan denyut nadi daripada market itu sendiri. ; Kalau Anda bisa melihatnya dan Anda bisa menginterprestasikannya. ; Maka Anda akan tahu selanjutnya ini saham BBR ini mau kemana sih. ; Tendensinya akan kemana. ; Ini sangat penting sekali. ; Jadi salah satu kunci sukses Anda harus bisa melihat dan membaca tendensi arah pergerakannya kemana. ; Which is nanti kita akan mempelajari di chapter 2 bagaimana sih caranya untuk melihat pergerakan arah. ; Sebelum kita mempelajari itu kita sudah tahu bahwa history juga repeat itself. ; Maka pola-pola yang terjadi di sebelum-sebelumnya misalnya dia ada pola tertentu pola A. ; Itu nanti kita percaya bahwa pola A itu akan terjadi lagi. ; Kalau pola A itu bisa menghasilkan bullish trend. ; Maka nantinya juga akan terjadi lagi bullish trend seperti itu ya. ; Ini adalah konsep dasar technical analysis. ; Dan pola-pola yang sering muncul itu Anda harus ketahui nanti ya pola-polanya apa. ; Dan itu merupakan pola standard daripada pergerakan harga. ; Itu pola standard dari price action analysis yang pastinya akan sangat membantu Anda nantinya. ; Oke. ; Dan sekarang kita akan mulai jenis chart. ; Di dalam gambar ini Anda melihat bakang-bakang ini. ; Ini adalah bar chart. ; Dan pada saat kita klik view kemudian kita price chart style. ; Di sini ada candlestick ya. ; Di mana candlestick ini bisa diganti warnanya. ; Dan pada saat Anda ganti warna itu kurang lebih warnanya jadi. ; Ini kebetulan kita set menjadi hitam putih ya. ; Nah kita bisa lihat di tools preference ya. ; Tools kemudian ada pilih preference. ; Up candlestick mungkin kita kasih hijau. ; Kemudian down candlestick kita kasih merah. ; Nah langsung akan terlihat berwarna-warni. ; Ada sisi negatifnya. ; Biasanya kalau kita menggunakan candlestick kita akan terpengaruh dengan warna. ; Dan itu menjadi seperti psychological impact ya. ; Tetapi. ; Positifnya candlestick ini memberikan makna. ; Jadi ada pola-pola candlestick yang ekornya panjang. ; Yang ekornya panjang ke bawah, yang ekornya panjang ke atas. ; Atau yang full seperti ini. ; Ini artinya apa? ; Itu ada makna-makna tertentu yang bisa kita manfaatkan. ; Di mana tokoh candlestick Steve Neeson di dalam bukunya candlestick ya. ; Dia mengajarkan berbagai macam jenis pattern yang ada di candlestick. ; Tetapi. ; Untuk saat ini mari kita lihat. ; Candlestick ini sebagai pengetahuan terlebih dahulu bahwa ini ada jenis cat yang seperti ini. ; Candlestick. ; Kemudian ada bar chart tadi dan saat ini kita coba line. ; Ya ini dalam bentuk garis biasa. ; Line ini hanya fokus kepada closing price-nya saja. ; Jadi kalau setiap Anda melihat setiap ujung-ujung dari sini. ; Ini berarti dia sesuai dengan closing price-nya saja ya. ; Closing price saja dia tidak ada high, low dan seterusnya. ; Sekarang kita akan lihat gambar daripada ilustrasi. ; Bar chart dan candle. ; Ya. ; Nah. ; Pada saat kita melihat bar chart itu selalu dimulai dari sebuah tiang. ; Atau batang. ; Satu batang saja. ; Dan itu mewakili range pergerakan harga pada periode tertentu. ; Di mana satu bar ini periodenya berapa lama? ; Itulah tergantung time frame. ; Anda bisa setting satu bar itu terdiri dari satu hari. ; Atau satu bar itu terdiri dari satu minggu. ; Atau satu jam dan seterusnya. ; Ya. ; Dan. ; Untuk kali ini. ; Kita akan melihat yang merah dulu. ; Artinya bar merah. ; Anda akan fokus melihat dari sisi kiri terlebih dahulu. ; Ada garis mendatar di sebelah kiri. ; Ini artinya harga open. ; Jadi harga open itu selalu di sebelah kiri. ; Untuk bar chart. ; Dan harga close itu selalu sebelah kanan. ; Pada saat harga open. ; Dan closenya di bawah harga open. ; Atau pada saat intraday. ; Harga running sekarang. ; Berada di bawah harga open. ; Maka bar itu akan menjadi merah. ; Artinya kekuatan bearish itu lebih kuat. ; Dan akan menekan pergerakan harga. ; Sementara yang di atasnya adalah titik high. ; Dan paling bawah ini adalah titik low. ; Ini adalah harga tertinggi di hari itu. ; Kemudian ini harga terendah di hari itu. ; Kemudian yang di sini. ; Ini harga terendah di hari itu. ; Dan harga tertinggi di hari itu. ; Kemudian ini open. ; Dan close. ; Karena closenya lebih tinggi daripada open. ; Maka dikatakan ini adalah. ; Kekuatan. ; Kekuatan. ; Oke. ; Kemudian. ; Kalau kita melihat lagi. ; Candlestick. ; Bedanya apa? ; Kalau candlestick. ; Ini dibuat oleh Munahesa Homa. ; Seorang kedagang di Jepang. ; Pada abad ke-16. ; Lebih. ; Di sini sama. ; Dimulai dari low dan high. ; Ini mencatat pergerakan harga pada hari itu. ; Open itu di bawah. ; Dan close itu di atas. ; Maka dia menjadi warnanya hijau. ; Sedangkan kalau Anda melihat candle yang merah. ; Itu artinya pembukaan di atas. ; Dan kemudian harga last. ; Atau saat ini. ; Harga running itu di bawah harga open. ; Dan penutupan itu di bawah. ; Di bawah harga open itu menjadi merah. ; Dan itu sangat bervariasi. ; Nanti. ; Yang namanya bar. ; Itu juga bisa. ; Berubah ya. ; Misalnya. ; Dia. ; Jadi tinggi sekali. ; Misalnya. ; Waktu open. ; Mungkin dia di. ; Di sini opennya. ; Oke. ; Ini bisa terjadi ya. ; Open di sebelah kiri. ; Lalu dia sempat naik dulu ke atas. ; Kemudian dia tutupnya mungkin di sini. ; Gitu. ; Jadi ini sangat beres sekali. ; Karena dia sempat naik ke atas. ; Lalu dia turun. ; Melampaui harga open. ; Tutupnya di bawah. ; Atau. ; Ada juga yang kebalikannya. ; Opennya mungkin di atas. ; Kemudian di tengah-tengah dia dibawa turun ke bawah. ; Waktu akhir penutupan dia. ; Naik ke atas. ; Nah ini sangat buli sekali. ; Artinya market bisa langsung ke Bali ya. ; Ekornya ke bawah. ; Nah ini. ; Merupakan variasi-variasi. ; Daripada. ; Eee. ; Pola-pola candlestick atau bar. ; Tapi yang perlu anda ketahui saat ini. ; Adalah bagaimana sih cara. ; Membaca tahap awal. ; Karena ini sangat dasar sekali. ; Nah. ; Maka di dalam kasus ini. ; Anda bisa lihat. ; Setiap kali barnya itu. ; Open di kiri. ; Kemudian tutupnya di atas. ; Dia akan warna hijau. ; Semakin banyak hijau. ; Berarti semakin. ; Baik marketnya. ; Ya. ; Kalau kita lihat di Manli. ; Ini secara trend warna. ; Kita sekarang ini sedang hijau-hijau terus. ; Artinya apa? ; Penutupan. ; Sama. ; Open. ; Closing itu lebih tinggi. ; Mari kalau kita lihat harga open. ; Ini harga open bulanan. ; Ini cat bulanan ya. ; Berarti 1 bar. ; Itu bulanan. ; Harga opennya kita tandain terus. ; Berarti. ; Ini adalah harga open. ; Harga open yang tidak boleh di. ; Sentuh. ; Di mana. ; Di sini ada harga open. ; Yang berkumpul cukup banyak. ; Di sini ya. ; Ini akan menjadi. ; Support. ; Yang kuat. ; Ya. ; Karena ini adalah harga open. ; Yang kumpul terus di situ. ; Di sini ya. ; Itu akan menjadi area-area yang penting sekali. ; Untuk kita perhatikan. ; Di mana dia tidak boleh sebenarnya tutup di bawah. ; Ini. ; Karena harga opennya di sini. ; Begitu dia tutup di sini. ; Maka. ; Dia mengalahkan. ; Beberapa candle yang ada di area ini ya. ; Karena ini merupakan harga open ya. ; Oke. ; Ini ada harga open. ; Di sini juga ada harga open ya. ; Ini kebetulan harga close di sini. ; Kita pakai 2 open ini. ; Ya. ; Saya zoom dekat. ; Anda bisa lihat. ; Yang di kiri itu selalu harga open. ; Yang di kanan adalah selalu harga close. ; Sehingga. ; Itulah candlenya menjadi hijau. ; Artinya. ; Secara bulanan. ; Saham BBR ini masih memiliki kekuatan. ; Atau memiliki demand untuk bisa naik lagi. ; Ya. ; Ini merupakan satu gambar rancang. ; Bagaimana kalau kita melihatnya dengan candlestick. ; Juga sama. ; Open di bawah. ; Lalu dia tutupnya di atas. ; Ini juga sama. ; Open di bawah dan di atas. ; Ada tendensi untuk dia melanjutkan penguatan. ; Nah. ; Pada saat nanti kita masuk di dalam pembahasan. ; Bagaimana. ; How to predict the next trend. ; Kita akan membahas tentang secara keseluruhan trend ini bergerak di dalam pola apa sih gitu ya. ; Ini apa yang bisa kita lihat dari sini. ; Dan sebelum kita masuk ke chapter 2. ; Nanti saya akan gambarkan struktur pergerakan harga. ; Sekarang kita sudah tahu apa bedanya candlestick dan bar chart. ; Bentuknya seperti apa. ; Kalau di kiri itu open. ; Kalau di kanan itu close. ; Ya. ; Dan Anda juga sudah tahu prinsip dasar technical analysis. ; History liquid itself. ; Kemudian market action discount everything. ; Artinya apa yang terjadi di sini sudah menggambarkan informasi terkini. ; Dan mostly berita-berita itu sudah price in ya. ; Artinya price in itu berita yang akan muncul misalnya akan ada kebijakan A gitu. ; Nah kebijakan A itu sudah digambarkan dengan pola-pola yang akan terjadi. ; Kalaupun misalnya kebijakan tersebut dianggap akan merugikan. ; Biasanya sebelumnya. ; Sebelum berita itu muncul akan muncul pola-pola yang akan membuat harga saham atau harga commodity atau forex itu turun misalnya. ; Dalam minggu ini ini muncul pola ya. ; Muncul pola kalau kita sambungkan ini disebut pola rising wage misalnya. ; Di dalam chart pattern. ; Maka kita bisa expect dalam ini ada pattern bearish. ; Maka berita yang akan muncul ini kurang menguntungkan untuk saham BBRI. ; Dan ternyata benar dropnya cukup jauh ya. ; Jadi pasti di sini waktu dia drop. ; Ini sudah pasti ada news yang kurang menguntungkan. ; Dan ini harus kita bisa hindari. ; Jadi ingat kalau bar cap atau candlestick itu terdiri dari open, high, low, dan close. ; Sehingga Anda bisa melihat open dimana, close nya dimana. ; Kalau besok itu harga cenderung lebih rendah dari open kemarin. ; Ada kemungkinan selling pressure itu bisa lebih menguasai pasar hari itu. ; Jadi itu cara membacakannya. ; Setiap batang grafik ini gimana. ; Anda ingat-ingat ilustrasinya sudah kita berikan. ; Ilustrasinya kurang lebih seperti ini ya. ; Kalau hijau itu open selalu di bawah. ; Dan kemudian kalau merah itu open nya selalu di atas dan close nya di bawah. ; History debate itself kita sudah tahu ada pengulangan. ; Pattern-pattern yang ada di sini kalau ada rising wage itu turun. ; Nanti ada rising wage lagi juga akan turun. ; Kemudian itu prinsip ya. ; Jadi kita harus percaya terlebih dahulu bahwa. ; History itu akan debate itself. ; Kalau di BRI ada rising wage itu turun. ; Berarti nanti pada saatnya terjadi rising wage lagi dia akan turun. ; Contohnya ini rising wage yang lebih besar misalnya. ; Ini big rising wage. ; Turunnya dalam. ; Ternyata ada rising wage lagi dia turun lagi. ; Nanti ada rising wage lagi turun. ; Sehingga kita bisa mengantisipasi. ; Itu salah satu benefit dari price action analysis. ; Melihat karakter pergerakan harganya akhirnya Anda akan melihat. ; Ternyata history debate itself itu kayak begitu. ; Kemudian. ; Kita tahu bahwa market itu bergerak di dalam trend. ; Trending. ; Nah dasar dari trending itu konsepnya seperti bola. ; Kalau Anda melihat orang melempar bola. ; Menggelindingkan bola. ; Bola tersebut akan terus bergelinding. ; Cuma Anda bayangkan Anda ambil bola Anda gelindingkan saat ini. ; Itu akan terus menggelinding sampai kehabisan terangnya karena bergesekan dengan udara. ; Atau dia menghantam sebuah tembok gitu ya. ; Menghantam sebuah tembok. ; Berhenti. ; Karena ada gravitasi. ; Ada gesekan udara. ; Trend itu seperti itu. ; Dia akan cenderung up trend. ; Atau down trend. ; Dia bergerak di dalam satu arah trend. ; Sampai nanti ada kekuatan atau gaya tertentu. ; Supply and demand yang tidak balance yang mematahkan trend tersebut. ; Dan kemudian harga itu berhenti. ; Dia sudah tidak naik lagi. ; Jadi kasusnya dalam tahun 2004 sampai sekarang. ; Dimulai ada patahan besar di 2008. ; 2008 sampai sekarang. ; Ini bisa kita lihat bahwa saham BRI itu tidak pernah masuk di dalam trend bearish. ; Tidak pernah ya. ; Dan kalau Anda lihat di sini support-supportnya selalu lebih tinggi. ; Atau kaki-kakinya ya. ; Ini kita bicara kaki saja. ; Ini selalu lebih tinggi dan kita tidak melihat adanya pelemahan-pelemahan ekstrim yang di bawah ini. ; Artinya secara keseluruhan trend ini bergerak bullish. ; Dan roda digelindingkan itu arahnya 45 derajat ke atas. ; Dan ini akan terus tetap akan naik. ; Karena kekuatan motornya ini masih akan terus memimpin pergerakan harga. ; Ini terus naik. ; Anda bisa melihat ini seperti pesawat yang sudah take off dan terus akan naik. ; Sehingga secara long term kalau Anda lihat dari harga 2010. ; Kita lihat 2010 saja misalnya. ; Itu harganya sekitar 2010 itu BRI di Rp3.650 dan sekarang 6 tahun kemudian ya harga di Rp11.900. ; Artinya kalau in the long run Anda hope ini saham BRI. ; Saya percaya bahwa angka Rp20.000 ini akan kena. ; Ya you believe it or not harga angka Rp20.000 ini akan kembali tersentuh untuk saham ini. ; Ya. ; Nah ini yang kita harus ketahui. ; Bahwa ; Setiap kali kita melakukan trading kita harus melihat arah besarnya terlebih dahulu. ; Dan setelah kita melihat arah besar terlebih dahulu. ; Kita tahu bahwa tendensi ya tendensius harga itu bergerak dalam kondisi tendensius. ; Dia akan terus naik sampai targetnya. ; Sampai kemudian supply lebih besar. ; Atau dia akan terus turun sampai targetnya. ; Misalnya Anda akan melihat saham taksi. ; Dia memiliki kecenderungan. ; Untuk turun terus. ; Dari monthly chartnya. ; Drop terus. ; Nah seperti ini kita tidak boleh lagi membeli saham-saham seperti ini. ; Karena apa? ; Ini memiliki kecenderungan untuk turun dan sekarang belum ada satu indikasi kuat untuk dia kembali naik. ; Ya itu dua bedanya. ; Kemudian Anda akan mengenal tentang primary trend, secondary trend dan minor trend. ; Apa sih itu? ; Primary, secondary ya. ; Saat ini Anda sedang melihat primary trend, secondary trend dan minor trend. ; Jadi sebenarnya di dalam pergerakan harga yang terlihatnya ribet sekali itu sebenarnya simpel. ; Yang muncul pada pergerakan harga itu hanya ada beberapa gerakan. ; Kita akan mulai terlebih dahulu dari gerakan dasar. ; Ya hanya akan ada pergerakan simpel. ; Yang pertama pergerakan harga itu seperti ini. ; Yang kedua pergerakan harga itu seperti ini. ; Yang ketiga ini ada lanjutan. ; Setelah dia bergerak seperti ini. ; Muncullah pola lanjutan. ; Pola lanjutannya begini. ; Dan setelah dia bergerak dalam kondisi ini. ; Nah muncul seperti ini. ; Dan kemudian pola yang kelima. ; Ini pola yang sangat-sangat dasar di mana pemula harus bisa melihatnya. ; Oke. ; Berikutnya adalah sideways. ; Sehingga ini kita beli nomor satu. ; Ini dua. ; Ini tiga. ; Ini empat. ; Dan ini lima. ; Ini yang saya sebut pola canggul. ; Setiap pergerakan harga apapun itu marketnya. ; Dia akan membentuk ini. ; Kalau dia bullish dia akan membentuk nomor satu. ; Dan kemudian lanjut ke tiga. ; Kalau dia bearish dia akan membentuk nomor dua. ; Dan lanjut ke empat. ; Pada saat dia supply and demand sama. ; Ya supply-demand itu supply itu adalah permintaan. ; Dan demand itu supply itu apa? ; Demand permintaan. ; Supply itu penawaran ya. ; Pada saat dia equal. ; Atau sama kuat. ; Maka yang nomor lima yang akan terjadi. ; Dan strukturnya seperti apa? ; Seperti ini. ; Badan canggul itu kita sebut primary trend. ; Dan kepala canggul kita sebut secondary trend. ; Tugas anda sebagai seorang trader anda harus mengidentifikasi saat ini harga itu bergerak di badan canggul atau kepala canggul. ; Badan canggulnya menghadap ke bawah atau menghadap ke atas? ; Kalau badan canggulnya menghadap ke atas. ; Maka itu adalah bullish. ; Dan anda mencari secondary trend kepala canggul untuk masuk. ; Karena apa kita tahu setelah itu akan ada gerakan nomor tiga. ; Zigzag ke atas. ; Dan dalam kondisi ini kita tahu bahwa setelah turun ini akan naik lalu akan menurun ke bawah. ; Sehingga kita tidak boleh melakukan buy di sini justru anda mencari short selling. ; Pertanyaannya pada saat anda trading di gold. ; Di gold atau di forex atau di futures ini merupakan market yang bisa trading dua arah. ; Bisa buy dan sell bersamaan. ; Kalau di saham anda hanya boleh buy dulu baru sell. ; Kalau di futures market anda bisa melakukan posisi sell terlebih dahulu baru nanti buy. ; Itu namanya short selling. ; Bolehkah saya melakukan short selling di secondary trendnya? ; Atau bolehkah saya melakukan buy di secondary trend yang menghadap ke atas? ; Ingat ya. ; Kalau buy idealnya kita akan buy di sini. ; Waktu dia naik. ; Kalau sell. ; Kita sell waktu dia turun begini. ; Badan canggulnya. ; Tetapi seringkali orang menjadi kontrarian. ; Dia akan melakukan sell pada saat kepala canggulnya terjadi. ; Dan dia akan melakukan buy pada saat kepala canggulnya terjadi. ; Ini kontrarian. ; Kalau sudah kontrarian seperti ini. ; Ini akan berbahaya sekali. ; Dan mostly hanya orang-orang tertentu yang mereka memang siap atas resikonya untuk menjadi counter trend. ; Kalau saya pribadi. ; Saya akan lebih cenderung buy pada saat badan canggulnya. ; Pertanyaannya. ; Saya bagaimana cara bisa masuk buy-nya? ; Saya bisa masuk buy dengan cara pada saat ini diturunkan. ; Kecil-kecil. ; Anda akan melihat di dalam ini akan ada riak-riak. ; Dan riak-riak inilah yang akan kita lakukan entry. ; Jadi Anda menggunakan minor trend yang ada di dalam badan canggul dan minor trend yang ada di secondary. ; Minor trend yang ada di dalam badan canggul primary dan minor trend yang ada di secondary untuk entry. ; Nah ini yang harus kita bisa lihat di dalam pergerakan harga. ; Mari kita coba di dalam saham BBRI misalnya ya. ; Kemudian kita mau melihat di dalam BBRI ini bagaimana sih minor dan major trend-nya. ; Untuk lebih gampangnya saya menggunakan bar chart supaya lebih enak dilihat. ; Dan kemudian kita coba menggambarkan di paint. ; Anda bisa berlatih seperti ini. ; Anda bisa ikuti saya. ; Cara menariknya Anda harus mengkonekkan titik tertinggi, titik terendah. ; Titik tertinggi, titik terendah. ; Nah di sini kita latihan. ; Apakah perlu kita menarik titik yang ini? ; Maka saya akan berikan gambaran terlebih dahulu. ; Anggap saja ini titik terendah dan ini titik tertinggi. ; Kita tarik. ; Pada saat kita menarik primary trend kemudian kita menarik secondary trend. ; Kemudian kita menarik primary trend, secondary trend. ; Kemudian kita menarik primary trend dan saya menarik secondary trend. ; Lalu primary trend. ; Ini adalah primary dan secondary. ; Mari kita kasih gambar kalau yang, karena dia kakinya lebih tinggi ya. ; Ini kakinya selalu lebih tinggi. ; Kepala campur tidak lebih rendah daripada badannya. ; Ini primary. ; Ini secondary. ; Kepala campur tidak lebih rendah. ; Ini primary. ; Ini secondary. ; Ini primary. ; Ini secondary. ; Ini primary. ; Kemudian selanjutnya secondary. ; Nah yang disebut minor trend pada saat Anda menarik garis Anda menyisakan satu riak-riak. ; Satu level. ; Kita sebutnya ini derajat. ; Derajat berikutnya ini ada di dalam sini. ; Saya berikan garis yang agak tipis. ; Mungkin warnanya biru ya. ; Jadi di sini ini ada satu derajat. ; Nah, lebih kecil. ; Artinya apa? Ada riak-riak. ; Ini ada badan campur, ada kepala campur lagi di sini. ; Ini yang kita sebut dengan minor trend. ; Jadi pada saat kita menarik garis, kita expect akan terjadi minor trend-nya. ; Dan di minor trend inilah kita akan menentukan posisi kita. ; Jadi pada saat kita menarik garis harus ada di dalamnya setidaknya riak-riak. ; Sehingga yang kecil-kecil ini tidak perlu kita tarik-tarik sebagai yang utama. ; Karena yang kecil-kecil itulah yang disebut dengan minor trend. ; Minor trend seperti gambaran yang ada di sini. ; Nah, salah satu benefit untuk Anda mengukur. ; Ini kita melakukan coding market ya. ; Jadi mengurutkan adalah seperti ini. ; Pada saat kita melihat apa yang akan terjadi di depan. ; Karena kita percaya bahwa history repeat itself. ; Dan kita percaya bahwa market move in trend. ; Maka saya akan menggunakan forecasting terlebih dahulu. ; Perhatikan. ; Saya akan berikan warna biru di sini. ; Ini primary. ; Ini secondary. ; Kemudian, ya. ; Ini berikutnya. ; Apakah saya akan menarik garisnya langsung ke atas. ; Ya, langsung ke atas. ; Atau saya tarik yang kecil-kecil. ; Kita lihat. ; Di dalam setiap kali kita menarik garis. ; Harus ada isi perutnya. ; Maka dalam kasus ini. ; Saya akan tarik ini ke sini. ; Karena di dalamnya ada isi perutnya. ; Saya akan tarik ini ke sini. ; Karena di dalamnya ini. ; Karena ini penurunan cukup besar ya. ; Hampir imbang di dalam ini. ; Lalu saya tarik ini ke sini. ; Ya. ; Lalu saya tarik ini ke sini. ; Karena ini primary-nya. ; Ini secondary-nya ya. ; Di dalamnya ada anak lagi ya. ; Jadi fungsi untuk kita menarik itu supaya kita tahu. ; Di dalam ini sudah ada anak, betul? ; Betul ya. ; Sudah ada isi anaknya kan. ; Nah. ; Selebihnya kita sekarang mengurutkan. ; Kalau kita melihat tadi pola pergerakan. ; Setelah pembentuk cangkul. ; Berikutnya adalah kenaikan. ; Maka besar peluang. ; Setelah ada pergerakan di sini. ; Berikutnya adalah. ; Dia mencoba untuk seperti ini. ; Dan di dalam tarikan ini. ; Kita percaya bahwa akan muncul cangkul. ; Minor trend-nya. ; Oleh karena itu. ; Di area inilah. ; Kecil-kecil ini pada saat dia turun. ; Kita akan mencari posisi buy. ; Ya. ; Jadi ingat. ; Ini kita sudah meng-connect-kan. ; Mari kita sedikit latihan. ; Kalau kita connect-kan yang ada di sini. ; Saya akan connect-kan ini. ; Kenapa? ; Karena di dalamnya ini ada react-nya. ; Kemudian saya turunkan di sini. ; Saya naikkan di sini. ; Kemudian saya turunkan lagi di sini. ; Karena di dalamnya sudah ada swing low kecil. ; Ya. ; Apa itu swing low? ; Sebentar kita akan bahas. ; Dan inilah. ; Waktu kita sambungkan. ; Karena di dalamnya ada minor trend-nya.
+
+==================================================
+TIMESTAMPS:
+
+[01:33 - 01:38]
+Welcome, traders. Sekarang kita akan masuk di dalam pembahasan basic technical analysis methodology.
+
+[01:38 - 01:42]
+Di dalam astronaci, kita mengenal four dimensional analysis.
+
+[01:42 - 01:46]
+Yang pertama adalah seringkali orang bertanya, apakah astronaci ini menggunakan fundamental?
+
+[01:47 - 01:48]
+Apakah hanya technical saja?
+
+[01:48 - 01:53]
+Maka inilah saatnya untuk Anda mengetahui bagaimana sebenarnya astronaci ini bekerja.
+
+[01:53 - 02:01]
+Yang pertama, kita menggunakan satu konsep di mana market itu harus dianalisa dari empat dimensi.
+
+[02:02 - 02:04]
+Dimensi yang pertama adalah why.
+
+[02:05 - 02:08]
+Why kita harus investasi di salah satu market?
+
+[02:08 - 02:15]
+Misalnya, apakah kita investasi di market Indonesia, Amerika, mungkin Anda ke Hong Kong market, atau ke Thailand market.
+
+[02:16 - 02:19]
+Jadi, why ini akan menjawab di mana kita mengalokasikan dana.
+
+[02:19 - 02:23]
+Apakah di gold, apakah di bond, apakah di stocks, atau di forex?
+
+[02:23 - 02:26]
+Kita menggunakan makroekonomi untuk menjawab pertanyaan ini.
+
+[02:26 - 02:28]
+Itu adalah dimensi yang pertama.
+
+[02:28 - 02:31]
+Kemudian dimensi yang kedua adalah what to buy.
+
+[02:31 - 02:32]
+Apa yang harus kita beli?
+
+[02:33 - 02:38]
+Katakan kita sudah memilih saham, kemudian mungkin kita sudah memilih currency, tapi apa yang akan kita beli?
+
+[02:38 - 02:42]
+Apakah saham konsumer? Apakah sektoralnya batu bara, misalnya?
+
+[02:42 - 02:45]
+Dan kalaupun sudah membeli saham batu bara, apa yang harus kita beli?
+
+[02:46 - 02:48]
+Kalaupun kita membeli mata uang, apa yang akan kita beli?
+
+[02:48 - 02:54]
+Apakah ponsterling Jepang Yen, ataukah mungkin Anda beli Euro USD, dan seterusnya?
+
+[02:54 - 02:58]
+Kita menggunakan fundamental analysis untuk micro analysis.
+
+[02:59 - 03:01]
+Jadi, mikroekonominya mungkin kalau di saham.
+
+[03:01 - 03:05]
+Kita nanti akan mempelajari tentang valuation, dan seterusnya.
+
+[03:05 - 03:09]
+Itu adalah what to buy dengan menggunakan fundamental analysis.
+
+[03:09 - 03:14]
+Elemen atau dimensi yang ketiga, kita menggunakan where, menjawab pertanyaan,
+
+[03:14 - 03:16]
+di mana sih kalau kita mau beli, di harga berapa?
+
+[03:16 - 03:21]
+Ini adalah ilmu technical analysis yang kita fokuskan kepada price action analysis.
+
+[03:22 - 03:29]
+Price action analysis di sini merupakan sebuah ilmu yang memprediksi grafik karakternya bagaimana.
+
+[03:29 - 03:31]
+Karena technical analysis itu sangat luas.
+
+[03:31 - 03:34]
+Ada modern, ada classic, ada yang menggunakan indikator,
+
+[03:34 - 03:38]
+ada yang bahkan mungkin hanya cuma chart saja, atau yang kita sebut dengan naked chart.
+
+[03:38 - 03:45]
+Aliran dari astronaci yang kita perkenalkan adalah bagaimana Anda membuat sebuah prediksi,
+
+[03:45 - 03:50]
+atau melihat pergerakan arah harga dengan menggunakan naked chart.
+
+[03:51 - 03:55]
+Classic technical analysis dalam hal ini fokus kepada price action analysis.
+
+[03:56 - 04:00]
+Kemudian yang terakhir, tentang when, di mana when ini akan membahas,
+
+[04:00 - 04:04]
+mengenai time, kapan Anda masuknya.
+
+[04:04 - 04:09]
+Jadi itu adalah empat elemen, dan yang akan kita fokuskan di dalam home study workshop kali ini adalah where,
+
+[04:10 - 04:15]
+di mana kita akan mempelajari tentang bagaimana price action analysis itu bekerja.
+
+[04:15 - 04:21]
+Di dalam mempelajari price action analysis, maka Anda harus mengerti prinsip-prinsip dasar daripada technical analysis.
+
+[04:21 - 04:23]
+Apa saja prinsip dasarnya?
+
+[04:23 - 04:27]
+Kalau orang berkata bahwa kenapa sih saya harus pakai technical analysis, kenapa harus membaca grafik?
+
+[04:27 - 04:29]
+Karena grafik ini sama dengan seperti,
+
+[04:30 - 04:34]
+Anda seorang dokter jantung, lalu Anda ingin melihat denyut nadi daripada pasien Anda,
+
+[04:34 - 04:42]
+maka kita menggunakan konsep teknik untuk melihat dengan EKG ya, electronic cardiograph ya.
+
+[04:42 - 04:47]
+Jadi kita memasang alat-alat dan denyut jantungnya terlihat itu seperti grafik,
+
+[04:47 - 04:55]
+dan itu bisa dilihat dengan jelas bahwa apakah jantung daripada pasien ini bermasalah atau tidak, oke.
+
+[04:55 - 05:00]
+Nah dari sinilah kita juga melihat apakah jantung market ini sekarang sedang mengarah ke buli,
+
+[05:00 - 05:05]
+atau mengarah ke beris, ya dengan begini, apabila market sedang mengarah ke beris,
+
+[05:05 - 05:12]
+Anda bisa melihatnya dengan lebih jelas melalui chart, karena chart itu melambangkan supply and demand secara langsung.
+
+[05:13 - 05:17]
+Mungkin Anda berkata, saya bisa menggunakan rumor atau news dan seterusnya,
+
+[05:17 - 05:22]
+tetapi ingat, dengan teori diffusion news information, artinya pada saat news itu sudah sampai di media,
+
+[05:22 - 05:26]
+dan Anda sudah menerimanya, maka bisa disimpulkan bahwa sebenarnya news itu sudah expired.
+
+[05:27 - 05:30]
+Dan news yang expired tersebut, adalah efektif.
+
+[05:30 - 05:35]
+Mereka tidak merek daripada adanya insider trading, mereka sudah take action terlebih dahulu,
+
+[05:35 - 05:41]
+dan kemudian mereka baru menyebarkan news itu keluaran, maka yang Anda dapatkan adalah sisa-sisanya.
+
+[05:41 - 05:46]
+Oleh karena itu, yang paling real time sebenarnya adalah the graphic itself.
+
+[05:47 - 05:50]
+Nah, di dalam technical analysis, Anda mengenal prinsip-prinsip dasar,
+
+[05:51 - 05:55]
+dan ada 3 prinsip dasar yang penting sekali, di mana ini nanti secara aplikasi akan saya tunjukkan.
+
+[05:55 - 06:00]
+Yang pertama adalah bahwa market itu bergerak di dalam trend, market moves in trend.
+
+[06:00 - 06:01]
+Ini filosofi dasar.
+
+[06:01 - 06:05]
+Anda harus percaya bahwa yang namanya pergerakan harga, kalau bullish, itu ada bullish.
+
+[06:05 - 06:08]
+Ya, benar-benar dia bergerak dengan trend bullish, dia naik ke atas,
+
+[06:08 - 06:14]
+dan juga pergerakan harga itu bisa bergerak dengan kondisi bearish, atau dia turun ke bawah, atau sideways sama sekali.
+
+[06:15 - 06:20]
+Ini harus menjadi satu perhatian khusus, di mana kita benar-benar melihat bahwa
+
+[06:20 - 06:29]
+kalau memang trend itu ada arahnya, bullish atau bearish, maka yang harus kita lakukan saat ini adalah kita menunggangi trend tersebut.
+
+[06:29 - 06:34]
+Kita harus memprediksi, melihat bagaimana caranya trend itu bullish dan bagaimana caranya trend itu bearish.
+
+[06:34 - 06:41]
+Dengan begitu, Anda benar-benar bisa menikmati keuntungan yang besar dan mulai terhindar dari kesalahan-kesalahan yang seringkali dilakukan.
+
+[06:41 - 06:44]
+Market lagi bearish, Anda buy. Market lagi bullish, Anda sell short.
+
+[06:45 - 06:46]
+Akhirnya, loss semuanya.
+
+[06:46 - 06:52]
+Oleh karena itu, prinsip dasar bahwa kita harus follow the trend, karena aturan pertama adalah market moves in trend.
+
+[06:53 - 06:59]
+Ini harus benar-benar menjadi satu konsep dasar yang penting, yang harus Anda sepakati bahwa saya tidak akan sembarang,
+
+[06:59 - 07:01]
+masuk ke market sebelum saya tahu trendnya.
+
+[07:01 - 07:08]
+Berarti trend analysis, nanti kita akan lihat secara aplikasi satu persatu bagaimana cara kita menarik garisnya, ini harus Anda latih setiap hari.
+
+[07:08 - 07:11]
+Kemudian yang kedua, history repeats itself.
+
+[07:12 - 07:21]
+Di sini dikatakan kalau history repeats itself, artinya bahwa pola-pola yang terjadi di market itu akan selalu berulang.
+
+[07:21 - 07:29]
+Kenapa berulang? Karena kesalahan-kesalahan dari trader itu selalu berulang, karena manusia selalu memiliki satu tendensius untuk melakukan kesalahan yang sama.
+
+[07:29 - 07:31]
+Dan kesalahan yang sama inilah yang kita gunakan.
+
+[07:32 - 07:35]
+Dimana kesalahan yang sama tersebut adalah fear and greed.
+
+[07:35 - 07:39]
+Seseorang akan mengalami fear, ketakutan sendiri kalau sahamnya merah atau posisinya loss.
+
+[07:39 - 07:44]
+Atau dia akan sangat euphoria, dia tertawa, terbakbak kalau posisinya sedang untung banyak.
+
+[07:45 - 07:46]
+Dan ini yang menjadi masalah.
+
+[07:46 - 07:50]
+Terus-menerus akhirnya membentuk sebuah pola dan pola ini berulang,
+
+[07:50 - 07:55]
+kita bisa melihat apa yang akan terjadi dari market bahwa ada kemiripan.
+
+[07:55 - 07:59]
+Sehingga kita percaya bahwa trend, di dalam trend itu nanti ada pola-pola yang berulang.
+
+[07:59 - 08:04]
+Ada pattern-pattern tertentu, mungkin Anda mengenal seperti head and shoulder, double top, double bottom, mungkin Anda pernah dengar.
+
+[08:04 - 08:06]
+Kalau Anda tidak pernah dengar, jangan mengkhawatir.
+
+[08:06 - 08:08]
+Nanti di chapter berikutnya kita akan membahas itu.
+
+[08:08 - 08:11]
+Yang ketiga, market action discount everything.
+
+[08:12 - 08:18]
+Artinya, dalam kondisi market yang seringkali dipengaruhi oleh news dan seterusnya,
+
+[08:18 - 08:20]
+Anda mungkin tidak perlu bingung terhadap news.
+
+[08:20 - 08:26]
+Karena news-news atau laporan keuangan dan seterusnya memang tetap harus kita perhatikan, ya harus kita perhatikan.
+
+[08:27 - 08:28]
+Tetapi, pada saat kita trading,
+
+[08:29 - 08:34]
+yang paling real time, yang paling cepat informasinya, itu adalah grafik itu sendiri.
+
+[08:34 - 08:37]
+Karena kalau Anda melihat grafik itu bergerak, tick by tick,
+
+[08:37 - 08:42]
+itu sebenarnya merupakan aksi daripada pelaku pasar yang sedang melakukan klik.
+
+[08:42 - 08:46]
+Dan coba Anda bayangkan, kalau mereka bisa melakukan klik,
+
+[08:46 - 08:51]
+itu pasti didasari oleh rasa ingin untuk mengeksekusi.
+
+[08:51 - 08:56]
+Rasa ingin untuk mengeksekusi, makanya mereka akhirnya langsung mengeksekusi.
+
+[08:56 - 08:58]
+Dan kita bisa melihat apa sih yang sebenarnya ada di dalam pikiran mereka.
+
+[08:58 - 09:00]
+Dan kita bisa merespon.
+
+[09:00 - 09:04]
+Jadi, tiga dasar ini yang nanti akan kita coba antahkan dalam bentuk chart.
+
+[09:04 - 09:07]
+Lalu, chart itu sendiri ada beberapa jenis.
+
+[09:07 - 09:08]
+Ada yang pertama, bar chart.
+
+[09:08 - 09:09]
+Ada kemudian line chart.
+
+[09:10 - 09:11]
+Dan ada candlestick.
+
+[09:11 - 09:13]
+Di mana masing-masing memiliki perbedaan.
+
+[09:14 - 09:17]
+Prinsipnya kalau line chart, dia hanya deal dengan close price.
+
+[09:17 - 09:21]
+Kalau candlestick, dia akan ada open, high, low, dan close.
+
+[09:21 - 09:25]
+Dan kalau bar chart juga sama, ada open, high, low, dan close.
+
+[09:26 - 09:27]
+Nah.
+
+[09:27 - 09:30]
+Di dalam mempelajari price action analysis,
+
+[09:30 - 09:34]
+nanti kita juga mempelajari tentang primary, secondary, dan minor trend.
+
+[09:35 - 09:39]
+Primary kita sebut sebagai arah gerak trend yang paling utama.
+
+[09:40 - 09:42]
+Analoginya adalah seperti sebuah cangkul.
+
+[09:43 - 09:46]
+Di dalam basic technical analysis method,
+
+[09:46 - 09:50]
+Anda harus tahu bahwa ada lima formasi dasar pola harga.
+
+[09:51 - 09:52]
+Bentuknya adalah seperti cangkul.
+
+[09:52 - 09:55]
+Kemudian cangkul ini akhirnya menjadi mirror.
+
+[09:55 - 09:56]
+Seperti yang Anda bisa lihat.
+
+[09:56 - 09:58]
+Di sebelah, di layar ini.
+
+[09:58 - 10:01]
+Dari cangkul kemudian menjadi mirror.
+
+[10:01 - 10:03]
+Dan pada akhirnya dari mirror ini,
+
+[10:03 - 10:07]
+Anda bisa melihat bahwa panjang daripada pergerakan harga yang awal.
+
+[10:07 - 10:08]
+Kita berikan nama AB.
+
+[10:08 - 10:09]
+Itu akan sama dengan CD.
+
+[10:09 - 10:12]
+Ini yang akan menjadi perhatian kita.
+
+[10:12 - 10:14]
+Jadi cangkul pun ada bullish cangkul seperti ini.
+
+[10:15 - 10:18]
+Dan kemudian bearish cangkul seperti ini.
+
+[10:18 - 10:24]
+Pada akhirnya ini akan berkembang menjadi mirror bullish dan mirror bearish.
+
+[10:24 - 10:28]
+Lalu juga ada gambar di mana supply and demand ini sama.
+
+[10:29 - 10:30]
+Itu yang kita sebut dengan sideways.
+
+[10:30 - 10:32]
+Dan sideways itu cenderung bergerak mendatar.
+
+[10:33 - 10:37]
+Dan pola sideways seperti ini akan sangat sulit untuk kita tradingkan.
+
+[10:37 - 10:40]
+Karena Anda akan terjebak di dalam satu pergerakan yang flat-flat saja.
+
+[10:41 - 10:46]
+Dan tidak memiliki sebuah kepastian kegerakan harga.
+
+[10:46 - 10:50]
+Tetapi Anda harus ingat bahwa pada saat trend sideways ini sudah selesai.
+
+[10:50 - 10:52]
+Akan kembali diikuti dengan
+
+[10:53 - 10:56]
+ledakan harga di mana trend akan kembali muncul.
+
+[10:57 - 11:02]
+Oleh karena itu setiap kali kita trading kita perlu sekali untuk memperhatikan arah trend yang mau kemana.
+
+[11:02 - 11:06]
+Lalu kemudian kita juga melihat dari bentuk candlesticknya untuk entry.
+
+[11:06 - 11:12]
+Karena candlestick ini akan merepresentasikan bagaimana kita bisa masuk ke market dan melalui apa.
+
+[11:12 - 11:15]
+Itu yang akan sangat membantu Anda di dalam trading.
+
+[11:15 - 11:20]
+Jadi price action analysis setelah kita tahu prinsipnya lalu kita melihat chart.
+
+[11:20 - 11:22]
+Saya mengajarkan Anda bagaimana melihat satu demi satu.
+
+[11:23 - 11:26]
+Lalu kita akan mulai melihat arah trend.
+
+[11:26 - 11:31]
+Karena di dalam melihat chart fokus utama yang harus Anda lakukan adalah Anda tanyakan pada diri sendiri.
+
+[11:32 - 11:34]
+Kemanakah arah trend setelah ini?
+
+[11:34 - 11:36]
+Ini akan menjadi fokus utama.
+
+[11:36 - 11:39]
+Apakah dia akan naik kencang? Apakah dia akan turun kencang?
+
+[11:39 - 11:43]
+Fokus utama adalah apabila sekarang adalah hari yang terakhir.
+
+[11:43 - 11:47]
+Dan besok ini masih kosong layar chartnya di sebelah kanan dari chart itu.
+
+[11:48 - 11:51]
+Kemana pergerakan harga ini akan berjalan?
+
+[11:51 - 11:55]
+Ini akan menjadi salah satu fokus kita yang paling utama di dalam aktivitas kita.
+
+[11:55 - 12:03]
+Karena kita akan melihat terus apakah pergerakan harga ini akan berlanjut bullish atau bearish.
+
+[12:04 - 12:10]
+So kita akan mulai dan Anda akan melihat aplikasi daripada teori basic technical analysis method.
+
+[12:16 - 12:21]
+Saat ini kita akan memulai aplikasi mengenai basic technical analysis method.
+
+[12:22 - 12:26]
+Sebelumnya Anda sudah mengenal tentang prinsip-prinsip dasar technical analysis.
+
+[12:26 - 12:30]
+Anda juga sudah mengerti pentingnya menggunakan technical analysis.
+
+[12:31 - 12:35]
+Yang mana saya lebih senang menyebutnya price action analysis.
+
+[12:35 - 12:37]
+Karena technical analysis ini sangat luas.
+
+[12:37 - 12:41]
+Kita membagi menjadi modern dan kita juga membagi menjadi classic.
+
+[12:41 - 12:44]
+Alirannya cukup sporadis.
+
+[12:44 - 12:50]
+Artinya banyak orang yang menggunakan technical analysis tetapi konsep dasarnya sangat bervariasi.
+
+[12:51 - 12:56]
+Sehingga technical analysis antara modern dan classic ini kita mesti pisahkan terlebih dahulu.
+
+[12:56 - 13:03]
+Dan kemudian pada saat kita berbicara mengenai menganalisa peta pergerakan harga yang ada di masa depan.
+
+[13:03 - 13:07]
+Saya lebih cenderung menggunakan price action analysis.
+
+[13:08 - 13:12]
+Saat ini saya akan menunjukkan pada Anda tentang jenis-jenis chart.
+
+[13:12 - 13:15]
+Kemudian ada bar chart, ada candlestick.
+
+[13:15 - 13:19]
+Kemudian prinsip dasar technical analysis yang diaplikasikan.
+
+[13:19 - 13:24]
+Di dalam menggambarkan technical analysis Anda harus memiliki software.
+
+[13:24 - 13:29]
+Yang mana software ini akan sangat menentukan kesuksesan Anda.
+
+[13:29 - 13:33]
+Di mana untuk saham saya biasanya standardnya menggunakan Amibroker.
+
+[13:33 - 13:38]
+Dan kemudian untuk futures market kita sudah disediakan metatrader.
+
+[13:39 - 13:46]
+Dan disinilah kita akan pelan-pelan belajar bagaimana sih cara menggunakan grafik ini dan fokusnya apa.
+
+[13:46 - 13:54]
+Seperti kita ketahui bahwa technical analysis itu memprediksi pergerakan harga berdasarkan human value.
+
+[13:54 - 13:56]
+Human psychology atau crowd psychology.
+
+[13:56 - 14:00]
+Supply and demand yang diejawabkan dalam bentuk grafis.
+
+[14:00 - 14:04]
+Dan kemudian dari sini Anda bisa melihat kedepannya ini kurang lebih harga akan kemana.
+
+[14:05 - 14:12]
+Jadi kita harus memfokuskan diri bahwa pada saat kita sudah masuk di dalam technical analysis khususnya price action analysis.
+
+[14:13 - 14:16]
+Anda harus fokus mencari harga yang akan terjadi di masa depan.
+
+[14:16 - 14:24]
+Oleh karena itu kalau Anda lihat di layar gambar ini memiliki ruang gerak yang sangat sempit.
+
+[14:24 - 14:25]
+Hanya segini.
+
+[14:25 - 14:32]
+Ini merupakan salah satu kesalahan umum yang dilakukan oleh para chartist di Indonesia maupun di dunia ataupun di Asia.
+
+[14:32 - 14:34]
+Di international intinya.
+
+[14:34 - 14:42]
+Pada saat mereka membuat gambaran arah peta pergerakan harga mereka cenderung tidak memberikan ruang di sebelah kanan.
+
+[14:43 - 14:45]
+Dan mereka cenderung fokus pada apa yang ada di kiri.
+
+[14:45 - 14:48]
+Apalagi belum lagi mereka menggunakan indikator yang begitu banyak.
+
+[14:49 - 14:51]
+Ini merupakan kesalahan-kesalahan fatal yang seringkali dilakukan.
+
+[14:52 - 14:53]
+Oleh karena itu yang harus Anda lakukan saat ini.
+
+[14:53 - 14:58]
+Karena kita fokus untuk membahas apa yang akan terjadi di depan.
+
+[14:58 - 15:02]
+Oleh karena itu Anda harus fokus untuk melihat yang di sebelah kanan.
+
+[15:02 - 15:06]
+Jadi saya seringkali selalu mengingatkan ya.
+
+[15:06 - 15:11]
+Baik kepada murid-murid di CAT program ataupun siapapun yang sedang belajar chartist bersama Sronaci.
+
+[15:12 - 15:18]
+Bahwa di dalam kita membuat analisa selalu berikan ruang yang cukup banyak di sebelah kanan.
+
+[15:18 - 15:21]
+Karena tugas Anda bukan bercerita tentang masa lalu.
+
+[15:21 - 15:23]
+Tetapi tugas Anda menceritakan tentang apa.
+
+[15:23 - 15:25]
+Apa yang akan terjadi berikutnya.
+
+[15:25 - 15:28]
+Sehingga di area sebelah kanan ini harus kosong.
+
+[15:28 - 15:31]
+Kalau di Amibroker Anda bisa tekan tombol N ya.
+
+[15:32 - 15:33]
+N akhir ya.
+
+[15:33 - 15:35]
+Di sebelah home biasanya di keyboard Anda.
+
+[15:35 - 15:40]
+Ini akan otomatis gerak dan disinilah Anda akan mulai membuat sebuah analisa.
+
+[15:40 - 15:44]
+Dan di dalam menggambar di grafik ini ada beberapa time frame.
+
+[15:44 - 15:49]
+Ada monthly, kemudian ada weekly, kemudian ada daily, ada hourly.
+
+[15:49 - 15:52]
+Bahkan kalau di futures mulai dari monthly sampai ke...
+
+[15:53 - 15:55]
+One minute chart ya.
+
+[15:55 - 16:00]
+Nah ini nanti di chapter-chapter selanjutnya kita akan membahas bagaimana menggunakan multiple time frame ini.
+
+[16:00 - 16:07]
+Tetapi untuk saat ini saya perlu memberi satu informasi bahwa time frame yang ideal, yang standard itu selalu daily.
+
+[16:07 - 16:10]
+Karena market itu dibentuknya day per day.
+
+[16:11 - 16:17]
+So kita akan mulai bahwa technical analysis itu disebut price action discount everything.
+
+[16:18 - 16:21]
+Kalau price action discount everything artinya semua...
+
+[16:23 - 16:34]
+Hal-hal yang akan terjadi, news, laporan keuangan, kemudian ada natural calamity seperti bom, tsunami dan seterusnya itu sebenarnya sudah dibaca oleh market.
+
+[16:34 - 16:43]
+Sehingga kalau sudah dibaca oleh market selanjutnya adalah Anda tinggal memprediksi pergerakan harga atau pola apa yang saat ini sedang terbentuk.
+
+[16:43 - 16:51]
+Dan kemudian pada saat itu Anda akan melihat ternyata sebelum bahkan sebelum munculnya news ya.
+
+[16:51 - 16:52]
+Sebelum munculnya news.
+
+[16:52 - 16:55]
+Anda akan melihat bahwa pola itu sebenarnya sudah terbentuk.
+
+[16:55 - 17:04]
+Pola-pola yang sudah terbentuk itulah yang akan kita prediksi sehingga akan menggambarkan satu peta ya apa yang akan terjadi di depan.
+
+[17:04 - 17:10]
+Sehingga kita tidak perlu report-report lagi untuk mencari berita-berita atau mengandalkan news rumor dan seterusnya.
+
+[17:10 - 17:20]
+Karena basic principle dari technical analysis sudah menggambarkan bahwa pergerakan arah harga itu sebenarnya sudah muncul di chart kita.
+
+[17:20 - 17:22]
+Tinggal kita melihat dan membacanya saja bagaimana.
+
+[17:24 - 17:34]
+Yang permulaan kita bicara bahwa market action discount everything nanti saya akan membuktikan bahwa news seperti non-farm payroll dan seterusnya itu ternyata sudah digambarkan oleh market.
+
+[17:36 - 17:37]
+Sebelum news itu berlangsung.
+
+[17:37 - 17:38]
+Ada BOM misalnya.
+
+[17:39 - 17:41]
+BOM seringkali menjadi turning point untuk IHSG.
+
+[17:42 - 17:49]
+Jadi pada saat ada BOM saham-saham Indonesia itu akan pada saat itu berada di area-area resistan penting dan berada pada support-support penting.
+
+[17:49 - 17:52]
+Dan disanalah akan mulai terjadi.
+
+[17:52 - 17:53]
+Terjadinya turning point.
+
+[17:54 - 18:00]
+Dimana turning point-turning point inilah yang akan kita gunakan untuk trading dengan strategi reversal.
+
+[18:01 - 18:03]
+Reversal itu pembalikan arah.
+
+[18:03 - 18:11]
+Yang lebih simple adalah setiap peta pergerakan arah harga yang ada di chart ini mirip seperti denyut jantung manusia.
+
+[18:12 - 18:14]
+Jadi ada naik turun, naik turun ya.
+
+[18:14 - 18:17]
+Seperti denyut jantung dengan Anda bisa membaca apa yang terjadi disini.
+
+[18:18 - 18:22]
+Maka Anda bisa melihat apa yang akan terjadi nanti di chart ini.
+
+[18:22 - 18:28]
+Di depan karena ini adalah merupakan denyut nadi daripada market itu sendiri.
+
+[18:28 - 18:32]
+Kalau Anda bisa melihatnya dan Anda bisa menginterprestasikannya.
+
+[18:32 - 18:36]
+Maka Anda akan tahu selanjutnya ini saham BBR ini mau kemana sih.
+
+[18:37 - 18:38]
+Tendensinya akan kemana.
+
+[18:38 - 18:39]
+Ini sangat penting sekali.
+
+[18:39 - 18:45]
+Jadi salah satu kunci sukses Anda harus bisa melihat dan membaca tendensi arah pergerakannya kemana.
+
+[18:46 - 18:52]
+Which is nanti kita akan mempelajari di chapter 2 bagaimana sih caranya untuk melihat pergerakan arah.
+
+[18:52 - 18:56]
+Sebelum kita mempelajari itu kita sudah tahu bahwa history juga repeat itself.
+
+[18:57 - 19:02]
+Maka pola-pola yang terjadi di sebelum-sebelumnya misalnya dia ada pola tertentu pola A.
+
+[19:02 - 19:04]
+Itu nanti kita percaya bahwa pola A itu akan terjadi lagi.
+
+[19:04 - 19:08]
+Kalau pola A itu bisa menghasilkan bullish trend.
+
+[19:08 - 19:13]
+Maka nantinya juga akan terjadi lagi bullish trend seperti itu ya.
+
+[19:13 - 19:16]
+Ini adalah konsep dasar technical analysis.
+
+[19:16 - 19:21]
+Dan pola-pola yang sering muncul itu Anda harus ketahui nanti ya pola-polanya apa.
+
+[19:21 - 19:25]
+Dan itu merupakan pola standard daripada pergerakan harga.
+
+[19:25 - 19:30]
+Itu pola standard dari price action analysis yang pastinya akan sangat membantu Anda nantinya.
+
+[19:31 - 19:31]
+Oke.
+
+[19:32 - 19:34]
+Dan sekarang kita akan mulai jenis chart.
+
+[19:35 - 19:37]
+Di dalam gambar ini Anda melihat bakang-bakang ini.
+
+[19:37 - 19:38]
+Ini adalah bar chart.
+
+[19:39 - 19:42]
+Dan pada saat kita klik view kemudian kita price chart style.
+
+[19:43 - 19:44]
+Di sini ada candlestick ya.
+
+[19:44 - 19:47]
+Di mana candlestick ini bisa diganti warnanya.
+
+[19:49 - 19:52]
+Dan pada saat Anda ganti warna itu kurang lebih warnanya jadi.
+
+[19:53 - 19:56]
+Ini kebetulan kita set menjadi hitam putih ya.
+
+[19:56 - 19:58]
+Nah kita bisa lihat di tools preference ya.
+
+[19:59 - 20:01]
+Tools kemudian ada pilih preference.
+
+[20:02 - 20:05]
+Up candlestick mungkin kita kasih hijau.
+
+[20:05 - 20:07]
+Kemudian down candlestick kita kasih merah.
+
+[20:08 - 20:11]
+Nah langsung akan terlihat berwarna-warni.
+
+[20:11 - 20:12]
+Ada sisi negatifnya.
+
+[20:12 - 20:16]
+Biasanya kalau kita menggunakan candlestick kita akan terpengaruh dengan warna.
+
+[20:16 - 20:19]
+Dan itu menjadi seperti psychological impact ya.
+
+[20:20 - 20:20]
+Tetapi.
+
+[20:22 - 20:25]
+Positifnya candlestick ini memberikan makna.
+
+[20:25 - 20:28]
+Jadi ada pola-pola candlestick yang ekornya panjang.
+
+[20:28 - 20:30]
+Yang ekornya panjang ke bawah, yang ekornya panjang ke atas.
+
+[20:30 - 20:32]
+Atau yang full seperti ini.
+
+[20:32 - 20:33]
+Ini artinya apa?
+
+[20:33 - 20:37]
+Itu ada makna-makna tertentu yang bisa kita manfaatkan.
+
+[20:38 - 20:42]
+Di mana tokoh candlestick Steve Neeson di dalam bukunya candlestick ya.
+
+[20:43 - 20:46]
+Dia mengajarkan berbagai macam jenis pattern yang ada di candlestick.
+
+[20:47 - 20:47]
+Tetapi.
+
+[20:47 - 20:49]
+Untuk saat ini mari kita lihat.
+
+[20:49 - 20:54]
+Candlestick ini sebagai pengetahuan terlebih dahulu bahwa ini ada jenis cat yang seperti ini.
+
+[20:54 - 20:54]
+Candlestick.
+
+[20:54 - 20:57]
+Kemudian ada bar chart tadi dan saat ini kita coba line.
+
+[20:58 - 20:59]
+Ya ini dalam bentuk garis biasa.
+
+[21:00 - 21:03]
+Line ini hanya fokus kepada closing price-nya saja.
+
+[21:03 - 21:06]
+Jadi kalau setiap Anda melihat setiap ujung-ujung dari sini.
+
+[21:06 - 21:11]
+Ini berarti dia sesuai dengan closing price-nya saja ya.
+
+[21:11 - 21:16]
+Closing price saja dia tidak ada high, low dan seterusnya.
+
+[21:16 - 21:19]
+Sekarang kita akan lihat gambar daripada ilustrasi.
+
+[21:19 - 21:21]
+Bar chart dan candle.
+
+[21:21 - 21:22]
+Ya.
+
+[21:22 - 21:23]
+Nah.
+
+[21:24 - 21:28]
+Pada saat kita melihat bar chart itu selalu dimulai dari sebuah tiang.
+
+[21:28 - 21:29]
+Atau batang.
+
+[21:29 - 21:30]
+Satu batang saja.
+
+[21:30 - 21:34]
+Dan itu mewakili range pergerakan harga pada periode tertentu.
+
+[21:34 - 21:36]
+Di mana satu bar ini periodenya berapa lama?
+
+[21:36 - 21:37]
+Itulah tergantung time frame.
+
+[21:38 - 21:41]
+Anda bisa setting satu bar itu terdiri dari satu hari.
+
+[21:41 - 21:44]
+Atau satu bar itu terdiri dari satu minggu.
+
+[21:44 - 21:45]
+Atau satu jam dan seterusnya.
+
+[21:46 - 21:46]
+Ya.
+
+[21:46 - 21:47]
+Dan.
+
+[21:48 - 21:49]
+Untuk kali ini.
+
+[21:49 - 21:51]
+Kita akan melihat yang merah dulu.
+
+[21:51 - 21:52]
+Artinya bar merah.
+
+[21:52 - 21:56]
+Anda akan fokus melihat dari sisi kiri terlebih dahulu.
+
+[21:56 - 21:59]
+Ada garis mendatar di sebelah kiri.
+
+[21:59 - 22:01]
+Ini artinya harga open.
+
+[22:01 - 22:04]
+Jadi harga open itu selalu di sebelah kiri.
+
+[22:04 - 22:05]
+Untuk bar chart.
+
+[22:05 - 22:07]
+Dan harga close itu selalu sebelah kanan.
+
+[22:07 - 22:09]
+Pada saat harga open.
+
+[22:09 - 22:12]
+Dan closenya di bawah harga open.
+
+[22:12 - 22:13]
+Atau pada saat intraday.
+
+[22:13 - 22:15]
+Harga running sekarang.
+
+[22:15 - 22:17]
+Berada di bawah harga open.
+
+[22:17 - 22:19]
+Maka bar itu akan menjadi merah.
+
+[22:19 - 22:21]
+Artinya kekuatan bearish itu lebih kuat.
+
+[22:21 - 22:23]
+Dan akan menekan pergerakan harga.
+
+[22:24 - 22:26]
+Sementara yang di atasnya adalah titik high.
+
+[22:27 - 22:29]
+Dan paling bawah ini adalah titik low.
+
+[22:29 - 22:31]
+Ini adalah harga tertinggi di hari itu.
+
+[22:32 - 22:34]
+Kemudian ini harga terendah di hari itu.
+
+[22:35 - 22:36]
+Kemudian yang di sini.
+
+[22:36 - 22:38]
+Ini harga terendah di hari itu.
+
+[22:38 - 22:40]
+Dan harga tertinggi di hari itu.
+
+[22:40 - 22:41]
+Kemudian ini open.
+
+[22:41 - 22:42]
+Dan close.
+
+[22:42 - 22:44]
+Karena closenya lebih tinggi daripada open.
+
+[22:44 - 22:46]
+Maka dikatakan ini adalah.
+
+[22:47 - 22:47]
+Kekuatan.
+
+[22:48 - 22:49]
+Kekuatan.
+
+[22:50 - 22:50]
+Oke.
+
+[22:52 - 22:52]
+Kemudian.
+
+[22:52 - 22:54]
+Kalau kita melihat lagi.
+
+[22:54 - 22:55]
+Candlestick.
+
+[22:55 - 22:56]
+Bedanya apa?
+
+[22:56 - 22:57]
+Kalau candlestick.
+
+[22:57 - 22:59]
+Ini dibuat oleh Munahesa Homa.
+
+[23:00 - 23:02]
+Seorang kedagang di Jepang.
+
+[23:02 - 23:03]
+Pada abad ke-16.
+
+[23:03 - 23:04]
+Lebih.
+
+[23:05 - 23:06]
+Di sini sama.
+
+[23:06 - 23:08]
+Dimulai dari low dan high.
+
+[23:08 - 23:11]
+Ini mencatat pergerakan harga pada hari itu.
+
+[23:12 - 23:13]
+Open itu di bawah.
+
+[23:13 - 23:14]
+Dan close itu di atas.
+
+[23:14 - 23:15]
+Maka dia menjadi warnanya hijau.
+
+[23:15 - 23:17]
+Sedangkan kalau Anda melihat candle yang merah.
+
+[23:17 - 23:19]
+Itu artinya pembukaan di atas.
+
+[23:19 - 23:20]
+Dan kemudian harga last.
+
+[23:20 - 23:20]
+Atau saat ini.
+
+[23:20 - 23:22]
+Harga running itu di bawah harga open.
+
+[23:22 - 23:25]
+Dan penutupan itu di bawah.
+
+[23:25 - 23:27]
+Di bawah harga open itu menjadi merah.
+
+[23:27 - 23:29]
+Dan itu sangat bervariasi.
+
+[23:29 - 23:29]
+Nanti.
+
+[23:29 - 23:30]
+Yang namanya bar.
+
+[23:31 - 23:31]
+Itu juga bisa.
+
+[23:32 - 23:33]
+Berubah ya.
+
+[23:33 - 23:33]
+Misalnya.
+
+[23:33 - 23:34]
+Dia.
+
+[23:35 - 23:35]
+Jadi tinggi sekali.
+
+[23:36 - 23:36]
+Misalnya.
+
+[23:36 - 23:37]
+Waktu open.
+
+[23:37 - 23:38]
+Mungkin dia di.
+
+[23:38 - 23:39]
+Di sini opennya.
+
+[23:40 - 23:40]
+Oke.
+
+[23:42 - 23:43]
+Ini bisa terjadi ya.
+
+[23:43 - 23:44]
+Open di sebelah kiri.
+
+[23:44 - 23:45]
+Lalu dia sempat naik dulu ke atas.
+
+[23:47 - 23:49]
+Kemudian dia tutupnya mungkin di sini.
+
+[23:49 - 23:49]
+Gitu.
+
+[23:50 - 23:52]
+Jadi ini sangat beres sekali.
+
+[23:52 - 23:53]
+Karena dia sempat naik ke atas.
+
+[23:53 - 23:54]
+Lalu dia turun.
+
+[23:55 - 23:57]
+Melampaui harga open.
+
+[23:57 - 23:58]
+Tutupnya di bawah.
+
+[23:58 - 23:58]
+Atau.
+
+[23:58 - 24:00]
+Ada juga yang kebalikannya.
+
+[24:00 - 24:01]
+Opennya mungkin di atas.
+
+[24:02 - 24:04]
+Kemudian di tengah-tengah dia dibawa turun ke bawah.
+
+[24:04 - 24:06]
+Waktu akhir penutupan dia.
+
+[24:06 - 24:07]
+Naik ke atas.
+
+[24:07 - 24:08]
+Nah ini sangat buli sekali.
+
+[24:08 - 24:10]
+Artinya market bisa langsung ke Bali ya.
+
+[24:10 - 24:11]
+Ekornya ke bawah.
+
+[24:11 - 24:11]
+Nah ini.
+
+[24:12 - 24:13]
+Merupakan variasi-variasi.
+
+[24:14 - 24:14]
+Daripada.
+
+[24:15 - 24:15]
+Eee.
+
+[24:15 - 24:17]
+Pola-pola candlestick atau bar.
+
+[24:17 - 24:19]
+Tapi yang perlu anda ketahui saat ini.
+
+[24:19 - 24:20]
+Adalah bagaimana sih cara.
+
+[24:21 - 24:22]
+Membaca tahap awal.
+
+[24:22 - 24:24]
+Karena ini sangat dasar sekali.
+
+[24:24 - 24:25]
+Nah.
+
+[24:25 - 24:27]
+Maka di dalam kasus ini.
+
+[24:27 - 24:28]
+Anda bisa lihat.
+
+[24:28 - 24:29]
+Setiap kali barnya itu.
+
+[24:30 - 24:31]
+Open di kiri.
+
+[24:32 - 24:33]
+Kemudian tutupnya di atas.
+
+[24:33 - 24:34]
+Dia akan warna hijau.
+
+[24:34 - 24:35]
+Semakin banyak hijau.
+
+[24:35 - 24:36]
+Berarti semakin.
+
+[24:36 - 24:37]
+Baik marketnya.
+
+[24:37 - 24:37]
+Ya.
+
+[24:37 - 24:38]
+Kalau kita lihat di Manli.
+
+[24:39 - 24:41]
+Ini secara trend warna.
+
+[24:41 - 24:43]
+Kita sekarang ini sedang hijau-hijau terus.
+
+[24:43 - 24:44]
+Artinya apa?
+
+[24:44 - 24:45]
+Penutupan.
+
+[24:45 - 24:46]
+Sama.
+
+[24:47 - 24:47]
+Open.
+
+[24:47 - 24:49]
+Closing itu lebih tinggi.
+
+[24:49 - 24:50]
+Mari kalau kita lihat harga open.
+
+[24:50 - 24:51]
+Ini harga open bulanan.
+
+[24:51 - 24:52]
+Ini cat bulanan ya.
+
+[24:52 - 24:53]
+Berarti 1 bar.
+
+[24:54 - 24:54]
+Itu bulanan.
+
+[24:54 - 24:56]
+Harga opennya kita tandain terus.
+
+[24:56 - 24:56]
+Berarti.
+
+[24:57 - 24:59]
+Ini adalah harga open.
+
+[24:59 - 25:00]
+Harga open yang tidak boleh di.
+
+[25:02 - 25:02]
+Sentuh.
+
+[25:02 - 25:03]
+Di mana.
+
+[25:03 - 25:05]
+Di sini ada harga open.
+
+[25:05 - 25:06]
+Yang berkumpul cukup banyak.
+
+[25:06 - 25:07]
+Di sini ya.
+
+[25:07 - 25:08]
+Ini akan menjadi.
+
+[25:09 - 25:09]
+Support.
+
+[25:10 - 25:10]
+Yang kuat.
+
+[25:10 - 25:10]
+Ya.
+
+[25:11 - 25:12]
+Karena ini adalah harga open.
+
+[25:12 - 25:13]
+Yang kumpul terus di situ.
+
+[25:13 - 25:14]
+Di sini ya.
+
+[25:14 - 25:16]
+Itu akan menjadi area-area yang penting sekali.
+
+[25:16 - 25:17]
+Untuk kita perhatikan.
+
+[25:17 - 25:19]
+Di mana dia tidak boleh sebenarnya tutup di bawah.
+
+[25:19 - 25:19]
+Ini.
+
+[25:20 - 25:21]
+Karena harga opennya di sini.
+
+[25:21 - 25:22]
+Begitu dia tutup di sini.
+
+[25:22 - 25:23]
+Maka.
+
+[25:23 - 25:24]
+Dia mengalahkan.
+
+[25:24 - 25:27]
+Beberapa candle yang ada di area ini ya.
+
+[25:27 - 25:28]
+Karena ini merupakan harga open ya.
+
+[25:30 - 25:30]
+Oke.
+
+[25:30 - 25:31]
+Ini ada harga open.
+
+[25:31 - 25:32]
+Di sini juga ada harga open ya.
+
+[25:33 - 25:34]
+Ini kebetulan harga close di sini.
+
+[25:34 - 25:35]
+Kita pakai 2 open ini.
+
+[25:36 - 25:36]
+Ya.
+
+[25:36 - 25:37]
+Saya zoom dekat.
+
+[25:37 - 25:38]
+Anda bisa lihat.
+
+[25:38 - 25:40]
+Yang di kiri itu selalu harga open.
+
+[25:40 - 25:42]
+Yang di kanan adalah selalu harga close.
+
+[25:42 - 25:43]
+Sehingga.
+
+[25:43 - 25:44]
+Itulah candlenya menjadi hijau.
+
+[25:45 - 25:45]
+Artinya.
+
+[25:45 - 25:46]
+Secara bulanan.
+
+[25:47 - 25:51]
+Saham BBR ini masih memiliki kekuatan.
+
+[25:51 - 25:53]
+Atau memiliki demand untuk bisa naik lagi.
+
+[25:54 - 25:54]
+Ya.
+
+[25:54 - 25:56]
+Ini merupakan satu gambar rancang.
+
+[25:56 - 25:58]
+Bagaimana kalau kita melihatnya dengan candlestick.
+
+[25:58 - 25:59]
+Juga sama.
+
+[25:59 - 26:00]
+Open di bawah.
+
+[26:00 - 26:03]
+Lalu dia tutupnya di atas.
+
+[26:03 - 26:04]
+Ini juga sama.
+
+[26:04 - 26:05]
+Open di bawah dan di atas.
+
+[26:05 - 26:09]
+Ada tendensi untuk dia melanjutkan penguatan.
+
+[26:09 - 26:09]
+Nah.
+
+[26:09 - 26:11]
+Pada saat nanti kita masuk di dalam pembahasan.
+
+[26:11 - 26:12]
+Bagaimana.
+
+[26:12 - 26:14]
+How to predict the next trend.
+
+[26:14 - 26:19]
+Kita akan membahas tentang secara keseluruhan trend ini bergerak di dalam pola apa sih gitu ya.
+
+[26:20 - 26:23]
+Ini apa yang bisa kita lihat dari sini.
+
+[26:24 - 26:27]
+Dan sebelum kita masuk ke chapter 2.
+
+[26:27 - 26:29]
+Nanti saya akan gambarkan struktur pergerakan harga.
+
+[26:30 - 26:34]
+Sekarang kita sudah tahu apa bedanya candlestick dan bar chart.
+
+[26:34 - 26:35]
+Bentuknya seperti apa.
+
+[26:35 - 26:38]
+Kalau di kiri itu open.
+
+[26:38 - 26:40]
+Kalau di kanan itu close.
+
+[26:40 - 26:41]
+Ya.
+
+[26:41 - 26:44]
+Dan Anda juga sudah tahu prinsip dasar technical analysis.
+
+[26:44 - 26:46]
+History liquid itself.
+
+[26:47 - 26:49]
+Kemudian market action discount everything.
+
+[26:50 - 26:53]
+Artinya apa yang terjadi di sini sudah menggambarkan informasi terkini.
+
+[26:53 - 26:56]
+Dan mostly berita-berita itu sudah price in ya.
+
+[26:56 - 27:02]
+Artinya price in itu berita yang akan muncul misalnya akan ada kebijakan A gitu.
+
+[27:02 - 27:05]
+Nah kebijakan A itu sudah digambarkan dengan pola-pola yang akan terjadi.
+
+[27:06 - 27:09]
+Kalaupun misalnya kebijakan tersebut dianggap akan merugikan.
+
+[27:09 - 27:10]
+Biasanya sebelumnya.
+
+[27:10 - 27:17]
+Sebelum berita itu muncul akan muncul pola-pola yang akan membuat harga saham atau harga commodity atau forex itu turun misalnya.
+
+[27:18 - 27:20]
+Dalam minggu ini ini muncul pola ya.
+
+[27:20 - 27:24]
+Muncul pola kalau kita sambungkan ini disebut pola rising wage misalnya.
+
+[27:24 - 27:25]
+Di dalam chart pattern.
+
+[27:26 - 27:29]
+Maka kita bisa expect dalam ini ada pattern bearish.
+
+[27:29 - 27:33]
+Maka berita yang akan muncul ini kurang menguntungkan untuk saham BBRI.
+
+[27:33 - 27:36]
+Dan ternyata benar dropnya cukup jauh ya.
+
+[27:36 - 27:39]
+Jadi pasti di sini waktu dia drop.
+
+[27:39 - 27:43]
+Ini sudah pasti ada news yang kurang menguntungkan.
+
+[27:43 - 27:48]
+Dan ini harus kita bisa hindari.
+
+[27:48 - 27:54]
+Jadi ingat kalau bar cap atau candlestick itu terdiri dari open, high, low, dan close.
+
+[27:54 - 27:58]
+Sehingga Anda bisa melihat open dimana, close nya dimana.
+
+[27:58 - 28:01]
+Kalau besok itu harga cenderung lebih rendah dari open kemarin.
+
+[28:02 - 28:07]
+Ada kemungkinan selling pressure itu bisa lebih menguasai pasar hari itu.
+
+[28:07 - 28:08]
+Jadi itu cara membacakannya.
+
+[28:08 - 28:10]
+Setiap batang grafik ini gimana.
+
+[28:11 - 28:13]
+Anda ingat-ingat ilustrasinya sudah kita berikan.
+
+[28:14 - 28:16]
+Ilustrasinya kurang lebih seperti ini ya.
+
+[28:17 - 28:19]
+Kalau hijau itu open selalu di bawah.
+
+[28:19 - 28:25]
+Dan kemudian kalau merah itu open nya selalu di atas dan close nya di bawah.
+
+[28:25 - 28:28]
+History debate itself kita sudah tahu ada pengulangan.
+
+[28:28 - 28:31]
+Pattern-pattern yang ada di sini kalau ada rising wage itu turun.
+
+[28:31 - 28:33]
+Nanti ada rising wage lagi juga akan turun.
+
+[28:34 - 28:35]
+Kemudian itu prinsip ya.
+
+[28:35 - 28:38]
+Jadi kita harus percaya terlebih dahulu bahwa.
+
+[28:38 - 28:40]
+History itu akan debate itself.
+
+[28:40 - 28:42]
+Kalau di BRI ada rising wage itu turun.
+
+[28:42 - 28:45]
+Berarti nanti pada saatnya terjadi rising wage lagi dia akan turun.
+
+[28:45 - 28:47]
+Contohnya ini rising wage yang lebih besar misalnya.
+
+[28:48 - 28:49]
+Ini big rising wage.
+
+[28:50 - 28:50]
+Turunnya dalam.
+
+[28:50 - 28:52]
+Ternyata ada rising wage lagi dia turun lagi.
+
+[28:52 - 28:54]
+Nanti ada rising wage lagi turun.
+
+[28:54 - 28:55]
+Sehingga kita bisa mengantisipasi.
+
+[28:56 - 28:58]
+Itu salah satu benefit dari price action analysis.
+
+[28:59 - 29:03]
+Melihat karakter pergerakan harganya akhirnya Anda akan melihat.
+
+[29:04 - 29:06]
+Ternyata history debate itself itu kayak begitu.
+
+[29:07 - 29:07]
+Kemudian.
+
+[29:08 - 29:14]
+Kita tahu bahwa market itu bergerak di dalam trend.
+
+[29:15 - 29:16]
+Trending.
+
+[29:16 - 29:19]
+Nah dasar dari trending itu konsepnya seperti bola.
+
+[29:19 - 29:21]
+Kalau Anda melihat orang melempar bola.
+
+[29:21 - 29:22]
+Menggelindingkan bola.
+
+[29:23 - 29:25]
+Bola tersebut akan terus bergelinding.
+
+[29:25 - 29:28]
+Cuma Anda bayangkan Anda ambil bola Anda gelindingkan saat ini.
+
+[29:28 - 29:32]
+Itu akan terus menggelinding sampai kehabisan terangnya karena bergesekan dengan udara.
+
+[29:33 - 29:35]
+Atau dia menghantam sebuah tembok gitu ya.
+
+[29:36 - 29:37]
+Menghantam sebuah tembok.
+
+[29:37 - 29:38]
+Berhenti.
+
+[29:38 - 29:39]
+Karena ada gravitasi.
+
+[29:39 - 29:42]
+Ada gesekan udara.
+
+[29:42 - 29:43]
+Trend itu seperti itu.
+
+[29:43 - 29:45]
+Dia akan cenderung up trend.
+
+[29:45 - 29:46]
+Atau down trend.
+
+[29:46 - 29:48]
+Dia bergerak di dalam satu arah trend.
+
+[29:48 - 29:53]
+Sampai nanti ada kekuatan atau gaya tertentu.
+
+[29:53 - 29:57]
+Supply and demand yang tidak balance yang mematahkan trend tersebut.
+
+[29:57 - 29:59]
+Dan kemudian harga itu berhenti.
+
+[29:59 - 30:00]
+Dia sudah tidak naik lagi.
+
+[30:00 - 30:05]
+Jadi kasusnya dalam tahun 2004 sampai sekarang.
+
+[30:05 - 30:07]
+Dimulai ada patahan besar di 2008.
+
+[30:07 - 30:09]
+2008 sampai sekarang.
+
+[30:09 - 30:15]
+Ini bisa kita lihat bahwa saham BRI itu tidak pernah masuk di dalam trend bearish.
+
+[30:15 - 30:16]
+Tidak pernah ya.
+
+[30:16 - 30:21]
+Dan kalau Anda lihat di sini support-supportnya selalu lebih tinggi.
+
+[30:21 - 30:22]
+Atau kaki-kakinya ya.
+
+[30:22 - 30:23]
+Ini kita bicara kaki saja.
+
+[30:23 - 30:28]
+Ini selalu lebih tinggi dan kita tidak melihat adanya pelemahan-pelemahan ekstrim yang di bawah ini.
+
+[30:28 - 30:33]
+Artinya secara keseluruhan trend ini bergerak bullish.
+
+[30:33 - 30:37]
+Dan roda digelindingkan itu arahnya 45 derajat ke atas.
+
+[30:37 - 30:38]
+Dan ini akan terus tetap akan naik.
+
+[30:38 - 30:43]
+Karena kekuatan motornya ini masih akan terus memimpin pergerakan harga.
+
+[30:44 - 30:45]
+Ini terus naik.
+
+[30:46 - 30:51]
+Anda bisa melihat ini seperti pesawat yang sudah take off dan terus akan naik.
+
+[30:51 - 30:54]
+Sehingga secara long term kalau Anda lihat dari harga 2010.
+
+[30:55 - 30:56]
+Kita lihat 2010 saja misalnya.
+
+[30:56 - 31:06]
+Itu harganya sekitar 2010 itu BRI di Rp3.650 dan sekarang 6 tahun kemudian ya harga di Rp11.900.
+
+[31:06 - 31:09]
+Artinya kalau in the long run Anda hope ini saham BRI.
+
+[31:09 - 31:12]
+Saya percaya bahwa angka Rp20.000 ini akan kena.
+
+[31:13 - 31:19]
+Ya you believe it or not harga angka Rp20.000 ini akan kembali tersentuh untuk saham ini.
+
+[31:20 - 31:20]
+Ya.
+
+[31:21 - 31:24]
+Nah ini yang kita harus ketahui.
+
+[31:25 - 31:25]
+Bahwa
+
+[31:27 - 31:32]
+Setiap kali kita melakukan trading kita harus melihat arah besarnya terlebih dahulu.
+
+[31:32 - 31:35]
+Dan setelah kita melihat arah besar terlebih dahulu.
+
+[31:36 - 31:42]
+Kita tahu bahwa tendensi ya tendensius harga itu bergerak dalam kondisi tendensius.
+
+[31:42 - 31:45]
+Dia akan terus naik sampai targetnya.
+
+[31:45 - 31:47]
+Sampai kemudian supply lebih besar.
+
+[31:47 - 31:50]
+Atau dia akan terus turun sampai targetnya.
+
+[31:50 - 31:52]
+Misalnya Anda akan melihat saham taksi.
+
+[31:53 - 31:55]
+Dia memiliki kecenderungan.
+
+[31:55 - 31:56]
+Untuk turun terus.
+
+[31:56 - 31:57]
+Dari monthly chartnya.
+
+[31:58 - 31:58]
+Drop terus.
+
+[31:59 - 32:01]
+Nah seperti ini kita tidak boleh lagi membeli saham-saham seperti ini.
+
+[32:01 - 32:01]
+Karena apa?
+
+[32:02 - 32:09]
+Ini memiliki kecenderungan untuk turun dan sekarang belum ada satu indikasi kuat untuk dia kembali naik.
+
+[32:09 - 32:10]
+Ya itu dua bedanya.
+
+[32:12 - 32:17]
+Kemudian Anda akan mengenal tentang primary trend, secondary trend dan minor trend.
+
+[32:17 - 32:17]
+Apa sih itu?
+
+[32:17 - 32:19]
+Primary, secondary ya.
+
+[32:20 - 32:25]
+Saat ini Anda sedang melihat primary trend, secondary trend dan minor trend.
+
+[32:25 - 32:32]
+Jadi sebenarnya di dalam pergerakan harga yang terlihatnya ribet sekali itu sebenarnya simpel.
+
+[32:32 - 32:37]
+Yang muncul pada pergerakan harga itu hanya ada beberapa gerakan.
+
+[32:37 - 32:40]
+Kita akan mulai terlebih dahulu dari gerakan dasar.
+
+[32:40 - 32:42]
+Ya hanya akan ada pergerakan simpel.
+
+[32:42 - 32:45]
+Yang pertama pergerakan harga itu seperti ini.
+
+[32:45 - 32:48]
+Yang kedua pergerakan harga itu seperti ini.
+
+[32:49 - 32:51]
+Yang ketiga ini ada lanjutan.
+
+[32:51 - 32:53]
+Setelah dia bergerak seperti ini.
+
+[32:54 - 32:56]
+Muncullah pola lanjutan.
+
+[32:56 - 32:58]
+Pola lanjutannya begini.
+
+[32:58 - 33:02]
+Dan setelah dia bergerak dalam kondisi ini.
+
+[33:04 - 33:06]
+Nah muncul seperti ini.
+
+[33:06 - 33:11]
+Dan kemudian pola yang kelima.
+
+[33:12 - 33:16]
+Ini pola yang sangat-sangat dasar di mana pemula harus bisa melihatnya.
+
+[33:17 - 33:18]
+Oke.
+
+[33:20 - 33:21]
+Berikutnya adalah sideways.
+
+[33:22 - 33:25]
+Sehingga ini kita beli nomor satu.
+
+[33:25 - 33:26]
+Ini dua.
+
+[33:26 - 33:26]
+Ini tiga.
+
+[33:27 - 33:28]
+Ini empat.
+
+[33:28 - 33:28]
+Dan ini lima.
+
+[33:28 - 33:30]
+Ini yang saya sebut pola canggul.
+
+[33:32 - 33:34]
+Setiap pergerakan harga apapun itu marketnya.
+
+[33:34 - 33:35]
+Dia akan membentuk ini.
+
+[33:36 - 33:37]
+Kalau dia bullish dia akan membentuk nomor satu.
+
+[33:37 - 33:39]
+Dan kemudian lanjut ke tiga.
+
+[33:39 - 33:41]
+Kalau dia bearish dia akan membentuk nomor dua.
+
+[33:41 - 33:42]
+Dan lanjut ke empat.
+
+[33:42 - 33:44]
+Pada saat dia supply and demand sama.
+
+[33:44 - 33:47]
+Ya supply-demand itu supply itu adalah permintaan.
+
+[33:47 - 33:49]
+Dan demand itu supply itu apa?
+
+[33:50 - 33:51]
+Demand permintaan.
+
+[33:51 - 33:52]
+Supply itu penawaran ya.
+
+[33:52 - 33:55]
+Pada saat dia equal.
+
+[33:55 - 33:57]
+Atau sama kuat.
+
+[33:57 - 34:00]
+Maka yang nomor lima yang akan terjadi.
+
+[34:00 - 34:02]
+Dan strukturnya seperti apa?
+
+[34:02 - 34:03]
+Seperti ini.
+
+[34:03 - 34:06]
+Badan canggul itu kita sebut primary trend.
+
+[34:06 - 34:08]
+Dan kepala canggul kita sebut secondary trend.
+
+[34:09 - 34:16]
+Tugas anda sebagai seorang trader anda harus mengidentifikasi saat ini harga itu bergerak di badan canggul atau kepala canggul.
+
+[34:16 - 34:19]
+Badan canggulnya menghadap ke bawah atau menghadap ke atas?
+
+[34:20 - 34:23]
+Kalau badan canggulnya menghadap ke atas.
+
+[34:23 - 34:24]
+Maka itu adalah bullish.
+
+[34:24 - 34:28]
+Dan anda mencari secondary trend kepala canggul untuk masuk.
+
+[34:28 - 34:31]
+Karena apa kita tahu setelah itu akan ada gerakan nomor tiga.
+
+[34:31 - 34:32]
+Zigzag ke atas.
+
+[34:33 - 34:40]
+Dan dalam kondisi ini kita tahu bahwa setelah turun ini akan naik lalu akan menurun ke bawah.
+
+[34:40 - 34:46]
+Sehingga kita tidak boleh melakukan buy di sini justru anda mencari short selling.
+
+[34:46 - 34:48]
+Pertanyaannya pada saat anda trading di gold.
+
+[34:49 - 34:54]
+Di gold atau di forex atau di futures ini merupakan market yang bisa trading dua arah.
+
+[34:54 - 34:56]
+Bisa buy dan sell bersamaan.
+
+[34:56 - 34:58]
+Kalau di saham anda hanya boleh buy dulu baru sell.
+
+[34:58 - 35:08]
+Kalau di futures market anda bisa melakukan posisi sell terlebih dahulu baru nanti buy.
+
+[35:08 - 35:09]
+Itu namanya short selling.
+
+[35:10 - 35:13]
+Bolehkah saya melakukan short selling di secondary trendnya?
+
+[35:13 - 35:16]
+Atau bolehkah saya melakukan buy di secondary trend yang menghadap ke atas?
+
+[35:17 - 35:17]
+Ingat ya.
+
+[35:17 - 35:20]
+Kalau buy idealnya kita akan buy di sini.
+
+[35:20 - 35:21]
+Waktu dia naik.
+
+[35:22 - 35:22]
+Kalau sell.
+
+[35:22 - 35:24]
+Kita sell waktu dia turun begini.
+
+[35:24 - 35:25]
+Badan canggulnya.
+
+[35:25 - 35:27]
+Tetapi seringkali orang menjadi kontrarian.
+
+[35:28 - 35:31]
+Dia akan melakukan sell pada saat kepala canggulnya terjadi.
+
+[35:32 - 35:34]
+Dan dia akan melakukan buy pada saat kepala canggulnya terjadi.
+
+[35:34 - 35:36]
+Ini kontrarian.
+
+[35:36 - 35:38]
+Kalau sudah kontrarian seperti ini.
+
+[35:38 - 35:40]
+Ini akan berbahaya sekali.
+
+[35:40 - 35:46]
+Dan mostly hanya orang-orang tertentu yang mereka memang siap atas resikonya untuk menjadi counter trend.
+
+[35:46 - 35:47]
+Kalau saya pribadi.
+
+[35:47 - 35:51]
+Saya akan lebih cenderung buy pada saat badan canggulnya.
+
+[35:52 - 35:53]
+Pertanyaannya.
+
+[35:53 - 35:55]
+Saya bagaimana cara bisa masuk buy-nya?
+
+[35:55 - 36:05]
+Saya bisa masuk buy dengan cara pada saat ini diturunkan.
+
+[36:05 - 36:06]
+Kecil-kecil.
+
+[36:06 - 36:08]
+Anda akan melihat di dalam ini akan ada riak-riak.
+
+[36:09 - 36:14]
+Dan riak-riak inilah yang akan kita lakukan entry.
+
+[36:15 - 36:20]
+Jadi Anda menggunakan minor trend yang ada di dalam badan canggul dan minor trend yang ada di secondary.
+
+[36:20 - 36:25]
+Minor trend yang ada di dalam badan canggul primary dan minor trend yang ada di secondary untuk entry.
+
+[36:26 - 36:30]
+Nah ini yang harus kita bisa lihat di dalam pergerakan harga.
+
+[36:30 - 36:36]
+Mari kita coba di dalam saham BBRI misalnya ya.
+
+[36:37 - 36:43]
+Kemudian kita mau melihat di dalam BBRI ini bagaimana sih minor dan major trend-nya.
+
+[36:43 - 36:48]
+Untuk lebih gampangnya saya menggunakan bar chart supaya lebih enak dilihat.
+
+[36:48 - 36:53]
+Dan kemudian kita coba menggambarkan di paint.
+
+[36:54 - 36:56]
+Anda bisa berlatih seperti ini.
+
+[36:56 - 36:57]
+Anda bisa ikuti saya.
+
+[36:58 - 37:03]
+Cara menariknya Anda harus mengkonekkan titik tertinggi, titik terendah.
+
+[37:03 - 37:05]
+Titik tertinggi, titik terendah.
+
+[37:05 - 37:06]
+Nah di sini kita latihan.
+
+[37:07 - 37:09]
+Apakah perlu kita menarik titik yang ini?
+
+[37:10 - 37:12]
+Maka saya akan berikan gambaran terlebih dahulu.
+
+[37:13 - 37:15]
+Anggap saja ini titik terendah dan ini titik tertinggi.
+
+[37:15 - 37:16]
+Kita tarik.
+
+[37:16 - 37:21]
+Pada saat kita menarik primary trend kemudian kita menarik secondary trend.
+
+[37:23 - 37:28]
+Kemudian kita menarik primary trend, secondary trend.
+
+[37:29 - 37:33]
+Kemudian kita menarik primary trend dan saya menarik secondary trend.
+
+[37:33 - 37:35]
+Lalu primary trend.
+
+[37:36 - 37:38]
+Ini adalah primary dan secondary.
+
+[37:38 - 37:42]
+Mari kita kasih gambar kalau yang, karena dia kakinya lebih tinggi ya.
+
+[37:42 - 37:44]
+Ini kakinya selalu lebih tinggi.
+
+[37:44 - 37:47]
+Kepala campur tidak lebih rendah daripada badannya.
+
+[37:47 - 37:47]
+Ini primary.
+
+[37:47 - 37:48]
+Ini secondary.
+
+[37:48 - 37:50]
+Kepala campur tidak lebih rendah.
+
+[37:50 - 37:50]
+Ini primary.
+
+[37:51 - 37:51]
+Ini secondary.
+
+[37:51 - 37:52]
+Ini primary.
+
+[37:52 - 37:53]
+Ini secondary.
+
+[37:53 - 37:54]
+Ini primary.
+
+[37:55 - 37:56]
+Kemudian selanjutnya secondary.
+
+[37:57 - 38:03]
+Nah yang disebut minor trend pada saat Anda menarik garis Anda menyisakan satu riak-riak.
+
+[38:03 - 38:04]
+Satu level.
+
+[38:04 - 38:06]
+Kita sebutnya ini derajat.
+
+[38:06 - 38:08]
+Derajat berikutnya ini ada di dalam sini.
+
+[38:09 - 38:12]
+Saya berikan garis yang agak tipis.
+
+[38:13 - 38:14]
+Mungkin warnanya biru ya.
+
+[38:16 - 38:18]
+Jadi di sini ini ada satu derajat.
+
+[38:20 - 38:22]
+Nah, lebih kecil.
+
+[38:23 - 38:24]
+Artinya apa? Ada riak-riak.
+
+[38:24 - 38:27]
+Ini ada badan campur, ada kepala campur lagi di sini.
+
+[38:28 - 38:30]
+Ini yang kita sebut dengan minor trend.
+
+[38:30 - 38:35]
+Jadi pada saat kita menarik garis, kita expect akan terjadi minor trend-nya.
+
+[38:37 - 38:40]
+Dan di minor trend inilah kita akan menentukan posisi kita.
+
+[38:42 - 38:46]
+Jadi pada saat kita menarik garis harus ada di dalamnya setidaknya riak-riak.
+
+[38:46 - 38:49]
+Sehingga yang kecil-kecil ini tidak perlu kita tarik-tarik sebagai yang utama.
+
+[38:49 - 38:53]
+Karena yang kecil-kecil itulah yang disebut dengan minor trend.
+
+[38:53 - 38:57]
+Minor trend seperti gambaran yang ada di sini.
+
+[38:58 - 39:01]
+Nah, salah satu benefit untuk Anda mengukur.
+
+[39:01 - 39:03]
+Ini kita melakukan coding market ya.
+
+[39:03 - 39:06]
+Jadi mengurutkan adalah seperti ini.
+
+[39:06 - 39:09]
+Pada saat kita melihat apa yang akan terjadi di depan.
+
+[39:10 - 39:12]
+Karena kita percaya bahwa history repeat itself.
+
+[39:12 - 39:15]
+Dan kita percaya bahwa market move in trend.
+
+[39:17 - 39:22]
+Maka saya akan menggunakan forecasting terlebih dahulu.
+
+[39:22 - 39:22]
+Perhatikan.
+
+[39:23 - 39:25]
+Saya akan berikan warna biru di sini.
+
+[39:25 - 39:26]
+Ini primary.
+
+[39:27 - 39:28]
+Ini secondary.
+
+[39:29 - 39:30]
+Kemudian, ya.
+
+[39:32 - 39:33]
+Ini berikutnya.
+
+[39:33 - 39:38]
+Apakah saya akan menarik garisnya langsung ke atas.
+
+[39:39 - 39:41]
+Ya, langsung ke atas.
+
+[39:41 - 39:43]
+Atau saya tarik yang kecil-kecil.
+
+[39:43 - 39:44]
+Kita lihat.
+
+[39:44 - 39:46]
+Di dalam setiap kali kita menarik garis.
+
+[39:47 - 39:49]
+Harus ada isi perutnya.
+
+[39:49 - 39:51]
+Maka dalam kasus ini.
+
+[39:51 - 39:52]
+Saya akan tarik ini ke sini.
+
+[39:53 - 39:54]
+Karena di dalamnya ada isi perutnya.
+
+[39:54 - 39:55]
+Saya akan tarik ini ke sini.
+
+[39:56 - 39:58]
+Karena di dalamnya ini.
+
+[39:58 - 40:00]
+Karena ini penurunan cukup besar ya.
+
+[40:00 - 40:01]
+Hampir imbang di dalam ini.
+
+[40:02 - 40:03]
+Lalu saya tarik ini ke sini.
+
+[40:04 - 40:04]
+Ya.
+
+[40:05 - 40:06]
+Lalu saya tarik ini ke sini.
+
+[40:06 - 40:07]
+Karena ini primary-nya.
+
+[40:08 - 40:09]
+Ini secondary-nya ya.
+
+[40:09 - 40:10]
+Di dalamnya ada anak lagi ya.
+
+[40:10 - 40:13]
+Jadi fungsi untuk kita menarik itu supaya kita tahu.
+
+[40:13 - 40:15]
+Di dalam ini sudah ada anak, betul?
+
+[40:15 - 40:16]
+Betul ya.
+
+[40:16 - 40:17]
+Sudah ada isi anaknya kan.
+
+[40:17 - 40:18]
+Nah.
+
+[40:19 - 40:21]
+Selebihnya kita sekarang mengurutkan.
+
+[40:21 - 40:24]
+Kalau kita melihat tadi pola pergerakan.
+
+[40:24 - 40:25]
+Setelah pembentuk cangkul.
+
+[40:26 - 40:27]
+Berikutnya adalah kenaikan.
+
+[40:27 - 40:29]
+Maka besar peluang.
+
+[40:29 - 40:31]
+Setelah ada pergerakan di sini.
+
+[40:32 - 40:33]
+Berikutnya adalah.
+
+[40:33 - 40:34]
+Dia mencoba untuk seperti ini.
+
+[40:35 - 40:36]
+Dan di dalam tarikan ini.
+
+[40:36 - 40:40]
+Kita percaya bahwa akan muncul cangkul.
+
+[40:41 - 40:42]
+Minor trend-nya.
+
+[40:45 - 40:45]
+Oleh karena itu.
+
+[40:46 - 40:46]
+Di area inilah.
+
+[40:47 - 40:49]
+Kecil-kecil ini pada saat dia turun.
+
+[40:49 - 40:51]
+Kita akan mencari posisi buy.
+
+[40:51 - 40:52]
+Ya.
+
+[40:52 - 40:53]
+Jadi ingat.
+
+[40:53 - 40:54]
+Ini kita sudah meng-connect-kan.
+
+[40:54 - 40:55]
+Mari kita sedikit latihan.
+
+[40:56 - 40:58]
+Kalau kita connect-kan yang ada di sini.
+
+[40:58 - 40:59]
+Saya akan connect-kan ini.
+
+[40:59 - 40:59]
+Kenapa?
+
+[40:59 - 41:00]
+Karena di dalamnya ini ada react-nya.
+
+[41:01 - 41:03]
+Kemudian saya turunkan di sini.
+
+[41:03 - 41:04]
+Saya naikkan di sini.
+
+[41:05 - 41:06]
+Kemudian saya turunkan lagi di sini.
+
+[41:06 - 41:08]
+Karena di dalamnya sudah ada swing low kecil.
+
+[41:08 - 41:09]
+Ya.
+
+[41:09 - 41:10]
+Apa itu swing low?
+
+[41:10 - 41:11]
+Sebentar kita akan bahas.
+
+[41:12 - 41:13]
+Dan inilah.
+
+[41:13 - 41:15]
+Waktu kita sambungkan.
+
+[41:15 - 41:16]
+Karena di dalamnya ada minor trend-nya.
+

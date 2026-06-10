@@ -1,0 +1,2716 @@
+Source: 10 Skill Ini Lebih Penting dari Belajar AI (2026)(MP3_160K).mp3
+Language Mode: Indonesian
+Detected: id (100.0%)
+Transcribed: 2026-02-12 14:20:00
+==================================================
+Transkrip lengkap (tidak diringkas)
+
+William:
+Yakin cuma dengan install CGPT doang bikin masa depan lo aman? Coba pikir lagi. 80% proyek itu gagal karena problemnya tidak didefine dengan baik. Menurut Inc. (2021), tulisan yang jelek dan tidak ada struktur menghabiskan 400 miliar dolar setahun. Jadi, zaman sekarang speed power-nya bukan dengan install CGPT, tapi mengakuisisi skill-skill yang timeless, yang tanpa kenal waktu selalu diputuhkan.
+
+Apa aja? Kita bahas langsung. Saya William, content creator dan entrepreneur yang bikin platform yang namanya belajar CGPT. Saya udah puluhan tahun berkarir dan saya bisa kasih tau kalau itu come and go. Mungkin sekarang ada CGPT, mungkin nanti ada yang lain gitu. Tapi yang udah pasti itu skill-skill timeless yang kita harus pelajarin supaya kita tetap bisa survive. Contohnya apa? Di video kali ini, kita bakal bahas 10 skill yang harus dipelajarin. Dan ini bukan hack, jadi belajar skill ini cukup lama, betul expertise, dan nggak semua orang bisa pelajarin ini. Tapi kalau kita bisa, kita bakal lebih—lebih bisa berhasil dibanding orang lain. Jadi, subscribe dan langsung ke daginya.
+
+1. Problem framing
+
+Jadi, cara kita melihat masalah. Contoh: gimana caranya AI bisa ningkatin penjualan kita? Nah, itu cara melihat masalah yang sangat abstrak dan jelek, karena kita nggak tahu bahkan apa yang bisa ditingkatkan di penjualan. Apa yang harus ditingkatkan? Orang yang baik bakal reframe cara melihat masalahnya menjadi misalnya cart abandonment—orang yang memasukkan produk ke keranjang tapi nggak checkout—itu ditingkatkan. Misalnya cart abandonment tinggi, 70%—harusnya di bawah sekian. Gimana caranya kita bisa memanfaatkan AI untuk menurunkan cart abandonment itu tanpa punya budget yang gede? Nah, itu cara kita melihat problem dengan lebih spesifik dan lebih gampang juga untuk dimengerti sama AI.
+
+Di RII (rapid iterative improvement) kita gampang banget nanya CGPT kayak, “tolong dong bikin ini, tolong dong bikin ini,” tapi jawaban itu bakal tergantung dari pertanyaan yang tepat, bukan yang bagus. Kalau kita nggak bisa ngelihat problemnya dengan lebih clear dan nge-breakdown problemnya dengan lebih clear, maka kita nggak bakal dapet jawaban yang tepat. Sepinter apapun AI-nya, kalau pertanyaan kita jelek, cara kita ngelihat problem itu jelek, AI-nya nggak bakal bisa bantuin.
+
+Cara latih problem framing: setiap kali kita dapat brief—misalnya bos bilang “customer nggak happy nih”—kita harus cari tahu apa maksud “nggak happy” itu. Kalau nggak dapet clue, cari data. “Nggak happy” itu apakah survei yang menunjukkan tren menurun, misalnya dari 70% ke 60%? Kita harus tahu exactly. Customer nggak happy itu apa? Apakah ada satu orang komplain dan dianggap semuanya komplain? Setiap problem juga punya constraint: berapa lama mau solve (3 bulan? 2 bulan? 30 hari?), budgetnya berapa, dan suksesnya diukur bagaimana—apa objektif utamanya? Dengan itu kita bisa tentukan indikator apakah solusi berhasil.
+
+Praktik sederhana: setiap kali ketemu problem, jelaskan dalam 3 poin: (1) problem ini apa, (2) constraint-nya apa, (3) objektif/KPI-nya apa. Latih ini terus. Mau AI bagus atau jelek, kita tetap bisa kasih solusi yang lebih oke dibanding orang lain karena kita melihat problem lebih detail. Banyak orang datang dengan problem yang cuma “ini kayak gini” tanpa dipikirin lebih dalam. Itu problem framing.
+
+2. Writing dan storytelling
+
+Skill kedua: career writing dan storytelling. Di era AI, kita masih perlu nulis — bahkan lebih perlu dari sebelumnya. Kalau kita minta AI nulis sesuatu tapi kita nggak tahu apa yang pengen ditulis atau nggak biasa nulis, kita nggak bisa menilai hasilnya. Kuncinya: bisa menceritakan cerita. Skill menulis nempel di kita untuk bisa menilai seperti apa tulisan baik, seperti apa tulisan jelek, seperti apa cerita yang baik, dan kapan memakai struktur tertentu.
+
+Contoh: nulis email. Banyak yang minta “tulisin, bantu tulis email” lalu langsung copy-paste dari AI tanpa membaca. Itu masalah: ada yang menulis penuh jargon supaya kelihatan pinter, tapi ujungnya orang nggak ngerti. Ingat prinsip DIGO—Garbage In, Garbage Out. Kalau input jelek, output juga jelek. Untuk artikel atau skrip, ada anatomi: hook, konteks, solusi, summary. Kita harus tahu kenapa tiap bagian ada di sana dan bisa memodifikasinya sesuai kebutuhan.
+
+Latihan: nulis sendiri dan banyak membaca. Banyak orang cuma copy-paste hasil AI tanpa baca. Storytelling juga penting: AI bisa bikin script bagus, tapi penyampaian (delivery) tetap bergantung pada kita: tone, language, body. Script terbaik tetap jelek kalau penyampaiannya buruk. Jadi nulis dan storytelling tetap terpenting.
+
+3. Data literasi
+
+Skill ketiga: literasi data. Bukan teknikal (SQL, rumus) melainkan kemampuan upper-level: tahu cara membaca data, menginterpretasikan sesuai interpretasi yang umum, dan mengambil keputusan berdasarkan data bukan feeling. Saya suka marahin tim kalau bilang “kayaknya gini-gini deh” tanpa data. Banyak yang pakai interpretasi data yang salah.
+
+Contoh: ditanya “produk apa yang paling laku minggu ini?” Jangan jawab berdasarkan feeling. Lihat datanya—apakah produk Y 20% lebih tinggi dari X minggu ini? Siapa yang benar? Orang yang data-literate bisa menyajikan analisis yang jelas. Literasi data meliputi tahu di mana cari data, cara bacanya, apa arti tabel, dan interpretasi yang benar.
+
+Latihan: sering membaca data—tidak sekadar melihat naik/turun, tapi pikir dua-tiga langkah ke depan. SQL tidak perlu ditakuti; jangan cuma mau Excel. Jika data jutaan baris, harus ke database. Kita mungkin bukan data scientist, tapi cukup literate untuk tahu insight apa yang dibutuhkan dan minta AI bantu bikin query SQL dengan prompt yang tepat—AI perlu tahu struktur data. Jadi belajarlah dasar SQL dan bagaimana menyusun data agar tidak overwhelmed.
+
+4. Experiment design
+
+Skill keempat: desain eksperimen. Zaman sekarang tren cepat berubah; brand, marketing channel, trend sosial berubah cepat. Kekuatan karir adalah kemampuan manuver ketidakpastian melalui eksperimen: desain eksperimen yang baik, ukur hasil, dan iterasi cepat. Banyak perusahaan menjalankan ribuan eksperimen (contoh: Amazon 2011 >12.000 eksperimen/tahun) untuk meningkatkan conversion rate.
+
+Flow eksperimen: buat hipotesis, tentukan metrik yang diukur, jalankan tes, pelajari hasil, buat hipotesis baru, dan ulang. Contoh sederhana: coba berikan kupon ke segmen 10 pelanggan dengan pembelian tertinggi, lihat responsnya, pelajari kenapa pasar tidak merespons, dan iterasi. Indikator skill: berapa eksperimen diluncurkan sebulan, dan apakah ada alasan & learning di baliknya. Orang yang accountable dan rutin eksperimen sangat dicari.
+
+5. Sistem dan proses desain (SOP → automation)
+
+Skill kelima: desain sistem dan proses—mengubah SOP jadi automation. Automation tidak bisa dilakukan sembarangan; harus ada SOP yang jelas dan dokumentasi langkah-langkah agar hasil automation reliable. Tidak semua hal harus di-automate; identifikasi yang tepat.
+
+Contoh: running ads ambil email & nomor telepon, data ditarik manual lalu dicek dan dipair ke database. Proses multi-step seperti ini harus diubah ke alur yang reliable—mungkin perlu Python untuk VLOOKUP dan pembersihan format sebelum sinkronisasi ke sistem. Buat SOP, latih tim, sehingga proses menjadi cepat (mis. 5 menit). Automation fokus pada tugas yang repetitif dan painful. Tentukan kapan manual lebih baik daripada automate.
+
+6. Scripting dan penggunaan API
+
+Skill keenam: kemampuan membuat script dan memahami API. Bukan untuk jadi engineer full-stack, tapi cukup agar bisa mengotomasi tugas, menghubungkan aplikasi, dan bekerja lebih produktif. Contoh: punya ratusan file yang harus di-rename—AI bilang harus pakai Python karena file terlalu banyak untuk di-upload ke ChatGPT. Dengan script sederhana, pekerjaan yang semula 2–3 jam bisa selesai 5 menit.
+
+Dengan kemampuan scripting + API, kita bisa menghubungkan aplikasi eksternal (website, app) dan menjalankan proses otomatis. Tujuan: jadi lebih produktif; bukan jadi IT pro. Banyak hal bisa dibimbing ChatGPT step-by-step untuk membuat script. Jadi bagi non-technical pun tidak terlalu menakutkan—ambil spektrum kecil yang relevan: scripting ringan dan pemahaman cara kerja API.
+
+7. Product / UX sense (taste)
+
+Skill ketujuh: product sense atau UX sense—taste desain dan pengalaman pengguna. Di era AI, bikin produk berbasis code jadi lebih mudah, tetapi produk yang bagus memerlukan pengemudi yang punya taste. Tanpa panduan, AI akan membuat desain random dan tidak konsisten. Product sense berarti merancang produk yang orang mau gunakan dan beli.
+
+Skill ini menggabungkan taste, referensi, dan kemampuan ngobrol dengan customer—mengerti pain point mereka. Di tech, orang dengan kombinasi product sense dan kemampuan teknis/visual itu langka. Di era AI orang harus semakin generalis: desainer harus kode sedikit, developer harus ngerti desain. Product sense membantu menentukan target, plate & bahan (analogi chef), serta bagaimana menyajikannya sehingga menarik pengguna.
+
+8. Overall design, sales, dan negotiation
+
+Skill kedelapan: kemampuan merancang penawaran, proposal, jualan, dan negosiasi. Ini melibatkan sensitivitas yang sulit diajarkan sepenuhnya. Banyak komponen tak terlihat: apakah klien perfeksionis, apa yang sebenarnya mereka butuhkan, siapa pesaing mereka, bagaimana history negosiasi mereka. Penawaran bukan sekadar angka—angle, framing, dan pitch sangat penting.
+
+Contoh: tawarkan jasa pembuatan website. Ada yang cuma tawarkan pembuatan website; ada yang menawarkan website yang bisa mendatangkan omzet X per bulan—dua tawaran berbeda dengan value proposition berbeda. AI bisa bantu membuat draft, tapi pengalaman nyata dalam sales dan negosiasi menentukan hasil. Skill ini bisa dilatih lewat simulasi dengan AI, tapi tetap butuh feedback dunia nyata.
+
+9. Audience building
+
+Skill kesembilan: membangun audiens. Berguna untuk brand dan content creator. Konten akan terbagi dua: (1) konten yang auto-generated pakai AI dan (2) konten authentic yang sifatnya personal dan bernilai oleh manusia. Keduanya mempunyai peluang; jika ingin authentic, munculkan wajah dan personal branding—orang percaya pada persona. Media terbagi menjadi owned vs rented: owned = media yang kita kontrol (contoh: WhatsApp group, email newsletter, community sendiri), rented = platform pihak ketiga (YouTube, Instagram).
+
+Strategi: punya keduanya—owned & rented. Owned media memberi kontrol penuh atas reach kita; rented media membantu skala cepat. Untuk audience building, pastikan punya saluran owned agar tidak tergantung algoritma platform pihak ketiga.
+
+10. Decision making di ketidakpastian
+
+Skill kesepuluh: kemampuan mengambil keputusan dalam keadaan tidak pasti. Zaman AI berubah cepat, pasar tidak stabil; kemampuan pengambilan keputusan yang baik berguna. Gunakan framework seperti expected value thinking, checklist pro & cons, skenario probabilistik, dan mitigasi risiko. AI bisa membantu dengan analisis, tapi keputusan akhir tetap dari manusia.
+
+Proses praktis: tulis masalah, opsi A/B/C/D, tentukan constraint/kriteria, tentukan objektif (mis. cepat kaya, bahagia, dekat keluarga), analisis pro & cons tiap opsi, buat mitigasi risiko, tentukan indikator kegagalan (kapan keluar dari opsi ini). Gabungkan dalam table untuk memudahkan pemilihan. Skill ini compounding: semakin sering menggunakan framework, semakin mudah adaptasi di situasi tak stabil.
+
+Contoh pribadi: ketika kondisi pasar tidak bagus, salah satu keputusan William adalah membangun personal branding lalu monetisasi melalui kontak sesuai personal branding—strategi yang lebih durable daripada mengejar karir yang tidak pasti. Decision making yang baik menggabungkan framework untuk problem solving dan pengamatan.
+
+Rekap akhir (daftar 10 skill)
+
+1. Problem framing
+
+2. Writing dan storytelling
+
+3. Data literasi
+
+4. Experiment design
+
+5. Sistem dan proses desain (SOP → automation)
+
+6. Scripting dan penggunaan API
+
+7. Product / UX sense
+
+8. Overall design, sales, dan negotiation
+
+9. Audience building (owned & rented media)
+
+10. Decision making di ketidakpastian
+
+Skill-skill ini bersifat timeless. Jika kita punya banyak dari kesepuluh skill ini, kita akan lebih gampang survive dan unggul, baik di era AI maupun bukan. Pilih satu skill untuk diasah terus-menerus. Orang yang berhasil biasanya minimal punya satu dari 10 ini—semakin banyak, semakin besar peluang bertahan.
+
+Informasi tambahan: William menutup dengan mengajak menonton lebih lanjut, menyebut platform belajar CGPT (belajargpt.com) untuk belajar AI lebih lanjut, dan mengucapkan terima kasih serta sampai jumpa di video berikutnya.
+"
+
+
+Yakin cuma dengan install CGPT doang bikin masa depan lo aman? ; Coba pikir lagi. ; 80% proyek itu gagal karena problemnya tidak didefine dengan baik. ; Menurut Inc. 2021, tulisan yang jelek dan tidak ada struktur menghabiskan 400 bilion dolar setahun. ; Jadi, zaman sekarang speed powernya bukan dengan install CGPT, ; tapi mengakuisisi skill-skill yang timeless, yang tanpa kenal waktu selalu diputuhkan. ; Apa aja? Kita bahas langsung. ; Saya William, content creator dan entrepreneur yang bikin platform yang namanya belajar CGPT. ; Saya udah puluhan tahun berkarir dan saya bisa kasih tau kalau itu come and go. ; Mungkin sekarang ada CGPT, mungkin nanti ada yang lain gitu. ; Tapi yang udah pasti itu skill-skill timeless yang kita harus pelajarin supaya kita tetap bisa survive. ; Contohnya apa? ; Di video kali ini, kita bakal bahas 10 skill yang harus dipelajarin. ; Dan ini bukan hack, jadi belajar skill ini cukup lama, betul expertise, dan nggak semua orang bisa pelajarin ini. ; Tapi kalau kita bisa, kita bakal lebih. ; Lebih bisa berhasil dibanding orang lain. ; Jadi, subscribe dan langsung ke daginya. ; Yang pertama namanya problem framing. ; Jadi, cara kita melihat masalah. ; Contoh ya, gimana caranya AI bisa ningkatin penjualan kita? ; Nah, itu cara melihat masalah yang sangat-sangat abstrak dan jelek. ; Karena kita nggak tau bahkan apa yang bisa ditingkatkan dengan penjualan. ; Apa yang harus ditingkatkan? ; Orang yang baik bakal reframe cara melihat masalahnya menjadi misalnya card abandonment kita ; atau misalnya orang yang memasukkan keranjangnya, produknya, itu tingkatkan. ; Tinggi, 70%, misalnya. Harusnya di bawahnya. ; Gimana caranya kita bisa memanfaatkan AI untuk menurunkan card abandonment itu tanpa punya budget yang gede? ; Nah, itu cara kita melihat problem dengan lebih spesifik dan lebih gampang juga untuk dimengerti sama AI. ; Di RII, kita gampang banget sebenarnya nanya CGPT kayak, tolong dong bikin ini, tolong dong bikin ini, tolong dong bikin ini, gitu. ; Tapi jawaban itu bakal tergantung dari pertanyaan yang tepat, bukan yang bagus. ; Kalau kita nggak bisa ngelihat problemnya dengan lebih clear dan nge-breakdown problemnya dengan lebih clear, ; maka kita nggak bakal dapet jawaban yang tepat. ; Dan yang bagus juga, sepinter apapun AI-nya, kalau pertanyaan kita jelek, cara kita ngelihat problem itu jelek, ; AI-nya nggak bakal bisa bantuin. ; Jadi caranya gimana? ; Buat kita belajar problem framing, setiap kali kita dapet sebuah brief, ; contoh misalnya, bos bilang, customer nggak happy nih. ; Nah, nggak happy itu apa maksudnya? ; Kita harus cari tahu. ; Kalau kita nggak dapet clue, kita cari tahu datanya. ; Apa maksudnya? ; Nggak happy itu apakah survei yang mengatakan turun trendnya, misalnya dari 60% dari 70%. ; Kita harus cari tahu dulu itu. ; AI nggak bisa membaca pikiran semua orang dan tahu langsung. ; Dan kita harus tahu exactly. ; Customer nggak happy itu maksudnya apa? ; Apakah ada satu orang komplain dan dianggap semuanya komplain atau apa? ; Setiap problem itu juga punya constraint. ; Jadi misalnya kita bilang, ini kalau kita mau solve ini, mau berapa lama? ; 3 bulan? 2 bulan? 30 hari? ; Atau misalnya, apa nih constraint lain? ; Budgetnya sebesar apa sih? ; Jadi kalau kita bilang kayak, tolong tingkatin penjualan. ; Budgetnya berapa dulu? ; Kita harus tahu dulu. ; Kalau budgetnya unlimited, ya baik dia pelan-pelan dengan budget sejuta sebulan. ; Dan suksesnya itu kayak gimana? ; Apa sih objektif utamanya? ; Jadi kita bisa tentuin objektif utamanya itu jadi indikator, ; apa yang kita lakuin ini sudah berhasil. ; Minimal dari sisi output yang diinginkan. ; Contoh misalnya kalau bikin plan untuk peningkatan penjualan. ; Apa sih outputnya? ; Apakah outputnya adalah penjualan meningkat? ; Atau misalnya, plan-nya adalah outputnya itu plan marketingnya? ; Atau outputnya adalah brief ke manager salesnya? ; Atau apa? ; Kita harus tahu kayak scope yang bisa kita bantu itu sampai mana. ; Jadi ini bagian dari kita problem framing. ; Cara mengerti ini gimana? ; Sering-sering nemu problem, ; setiap kali nemu problem, ; kita harus bisa menjelaskan itu jadi 3 poin. ; Yang pertama adalah, problem ini itu apa? ; Yang kedua, ; kita harus tahu dulu constraint-nya apa? ; Terus yang ketiga, ; kita masukin objektifnya atau KPI-nya itu apa? ; Jadi kalau kita latih ini terus, ; mau AI yang bagus, ; mau AI yang jelek, ; kita tetap bisa kasih solution yang lebih oke dibanding orang lain. ; Karena kita tuh ngeliat problem-nya dengan lebih detail. ; Banyak orang yang datang dengan problem yang cuma kayak, ; oh ini kayak gini nih, ; ini kayak gini nih, ; tanpa dipikirin dengan lebih dalam. ; Jadi ini namanya problem framing. ; Skill kedua, ; career, ; writing, ; dan storytelling. ; Ini skill yang mungkin kita sering bahas ya di channel ini. ; Emang di era AI kita masih perlu nulis? ; Jawabannya, ; secara mengagetkan, ; masih sangat perlu. ; Bahkan lebih perlu dari sebelumnya. ; Kalau kita minta AI nulis sesuatu, ; tapi kita nggak tahu apa yang pengen ditulis, ; atau kita nggak biasa nulis, ; kita cuma ngeliat doang. ; Bahkan kita nggak mau baca apa yang ditulis, ; udah pasti harus nilai. ; Apalagi kalau misalnya kayak, ; AI-nya nggak tahu setahun nulis kita gimana, ; segala macam gitu. ; Kuncinya apa? ; Kita harus tahu dulu, ; kalau kita biasa nulis, ; bisa menceritakan cerita. ; Maka ini skill yang bakal nempel di kita ; untuk bisa ngasih tahu, ; seperti apa tulisan baik, ; seperti apa tulisan yang jelek, ; seperti apa cerita baik, ; seperti apa, ; ceritanya jelek, ; kalau di part storytelling. ; Contoh misalnya kita lagi nulis email, ; terus kayak orang lain ngeliat, ; baca, ; terus kayak, ; ini apaan ya? ; Ini orang kok nulisnya kayak AI ya? ; Kayak nggak clear gitu, ; apa yang pengen disampaikan. ; Karena kita mungkin cuma nulis prompnya, ; kayak tulisin, ; bantu tulis email gitu. ; Udah. ; Atau juga ada mungkin tipikal orang yang ; senangnya tuh masukin jargon-jargon, ; supaya kelihatan pinter. ; Padahal ujung-ujungnya orang nggak ngerti, ; dia ngomong apa. ; Nah, ini-ini tipikal-tipikal yang ; penulisannya, ; atau tulisannya, ; itu tidak clear, ; apa maksudnya. ; Kita harus ingat, ; kalau ada istilah yang namanya DIGO, ; Garbage In, ; Garbage Out. ; Kalau misalnya yang kita masukin inputnya ; itu jelek, ; outputnya juga bakal jelek gitu. ; Contoh misalnya, ; kalau kita mau nulis sebuah artikel, ; atau misalnya sebuah skrip, ; kita semua mungkin udah tahu, ; kalau anatomi skrip ini, ; misalnya ada hook-nya, ; terus ada konteksnya, ; terus ada solutions-nya, ; terus ada summary-nya, ; misalnya. ; Nah, semua ini, ; kita perlu ngerti kenapa dia ada di sana. ; Jadi, kita jangan jadi orang yang ; cuma dikasih rumus, ; terus kita nggak bisa utang-atik. ; Jadi, kita harus tahu sesuai kebutuhan, ; kapan kita pakai art, ; kapan kita pakai B, ; kapan kita pakai semuanya, gitu. ; Dan ini dilatih dengan apa? ; Kalau saya, ; biasanya dilatih dengan nulis juga sendiri. ; Latihan nulis juga. ; Jadi, kita tahu. ; Dan latihan baca sebenarnya. ; Ini, surprisingly ya, ; banyak banget orang yang ; ngomong sama CGPT, ; atau ngeliat hasil kerjaan CGPT, ; itu nggak dibaca hasilnya. ; Cuma di-copy paste doang. ; Berharap orang lain ya, bacaannya. ; Orang lain juga pake airboll bacaan. ; Jadi, nggak ada yang bener nih. ; Dan kalau misalnya, ; kayak kita ngasih kerjaan sifatnya rough, ; saya sering banget, ; beberapa kali, ; saya revisi kerjaan yang sifatnya sangat rough. ; Itu bakal saya marah, ; ini lu nggak baca nih, ; brief-nya apa. ; Atau bahkan ini nggak dibiasa nih. ; Cuma bener-bener di-copy paste dari AI doang. ; Saya bakal bilang, ; kayak ini gue juga bisa ngeliatin kayak gini. ; Lu gue gantiin sama AI juga, ; kalau lu cuma bisa kayak gini doang. ; Jadi, kita ngomong bagian nulisnya ya. ; Storytelling itu juga bagian yang paling penting sekarang. ; Karena semua AI, ; itu bisa diminta untuk nulis story yang bagus. ; Tapi, cara untuk menyampaikan cerita, ; itu kan tergantung dari kita sebagai orang yang deliver-nya. ; Jadi, walaupun kita punya script terbagus di dunia, ; script kalau misalnya komedi paling bagus di dunia, ; dibikin sama AI. ; Tapi, kalau kita nggak bisa deliver-nya, ; sama aja bohong. ; Contoh misalnya kayak gini. ; Cuma sekarang AI udah bisa bikin script apapun buat orang, ; tapi kalau orang nggak bisa ngomongnya sama era, ; ya jelek hasilnya. ; Itu nggak bagus. ; Misalnya kayak di latin, ; tool-tool AI, ; tapi dengan bahasa-bahasa yang sangat kompleks, ; yang orang nggak ngerti. ; Bagian dari kita bisa menjelaskan sesuatu yang sangat simpel, ; itu sangat dibutuhkan di AI. ; Karena di era AI, ; semua orang udah dianggap bisa bikin text yang bagus, ; artikan bagus. ; Udah bisa misalnya bikin presentasi yang oke. ; Tapi menyampaikannya tetap butuh orang dong. ; Tetap butuh pembawaan kita, ; tone, language, body, segala macem gitu. ; Dan itu tuh ya kecuali kita jadi robot ya, ; nggak bisa digantiin gitu. ; Jadi, nulis dan storytelling itu skill terpenting. ; Oke, ketiga. ; Ini skill yang relevan juga nih di era AI. ; Namanya data literasi. ; Literasi data. ; Jadi bukan teknis ya, ; kayak ngerti SQL, ; ngerti rumu, segala macem. ; Enggak. ; Tapi lebih yang mungkin upper level-nya. ; Kita sering denger kan, ; kalau kita mau ngambil keputusan harus data-driven. ; Harus sesuai data, datanya mana. ; Apa yang mau lihat, jangan pakai asumsi gitu. ; Saya suka marahin tim saya kalau kayak, ; kayaknya gini-gini deh, datanya mana gitu. ; Jangan ngomong sesuai feeling, tapi harus ada datanya. ; Tapi nggak bisa orang itu data-driven, ; kalau dia bahkan nggak tahu literasi datanya. ; Maksudnya apa literasi data tuh? ; Literasi data tuh adalah tahu cara membaca data, ; menginterpretasikan data sesuai dengan interpretasi yang dianggap umum. ; Karena banyak juga orang yang bohong, ; pakai interpretasi data. ; Jadi contoh misalnya ada meeting nih, ; terus kita ditanya, ; produk apa yang paling laku minggu ini ya? ; Terus ada orang yang jawab, ; oke produknya produk X deh, ; karena ordernya lagi rame nih minggu ini. ; Nah, itu contoh A, ini ada orang contoh B. ; Actually, produk Y yang lebih laku. ; 20% lebih tinggi daripada produk X minggu ini, ; dari data seharusnya kita lihat di minggu ini. ; B, ngasih data yang lebih clear, ; bukan berdasarkan feeling doang. ; Dan feeling itu nggak bakal kepake di data-driven decision, ; tapi si B-nya juga bisa ngampilin ; analisanya langsung. ; Karena dia ngerti misalnya kayak literasi data itu dalam artian, ; kita tahu cara nyari datanya di mana, ; cara ngebacanya apa, ; table ini maksudnya apa, gitu. ; Jadi nggak susah buat tahu gimana caranya kita bisa baca data ; dan interpretasi datanya, ; kalau kita tahu semua datanya itu maksudnya apa. ; Cara paling gampang adalah untuk melatih data literasi, ; itu harus sering-sering membaca data. ; Tapi bukan cuma ngelihat doang kayak, ; oh ini bagus, ini naik, ini turun, gitu. ; Tapi kita coba deeper, ; dua step, tiga step ahead. ; Jadi di zaman AI, kayaknya bagian-bagian kayak bikin rumus, ; atau misalnya kayak bikin query ber-SQL, ; itu mungkin lebih gampang. ; Atau mungkin someday bakal di-automate. ; Tapi tetap harus ada orang yang ngebaca, kan, ; insight-insight-nya apa, ; sesuai dengan problem yang dibutuhkan. ; Kalau saya, saya bakal coba untuk mengerti dari, ; kalau orangnya orang data, ya. ; Nah, itu dari sisi bisnis. ; Sebenarnya data yang dibutuhin itu apa sih? ; Insight yang dibutuhin itu apa sih? ; Supaya bisa dicari lebih dalam. ; Misalnya kayak, oke, marketing channel yang paling bagus itu apa? ; Apa definisi marketing channel yang bagus? ; Apakah dari sales? Apakah dari traffic? ; Apakah dari conversion rate? ; Gimana cara kita nyarinya? ; Misalnya kayak Instagram ads itu bawah 56, ; persen traffic nih. ; Tapi bagus nggak sih hasilnya, gitu? ; Kita bisa nggak sih bikinnya jadi achievement, ; atau jangan-jangan ini bukan achievement? ; Apa cara kita buat tahu kita semakin bagus data literasinya? ; Kalau ada pertanyaan, kita bisa makin cepat jawabnya. ; Contoh misalnya, biasanya kita jawab satu query, ; satu pertanyaan itu 15 nits. ; Misalnya sekarang jadi 12 nits. ; Artinya kita makin cepat makin ngerti dengan struktur datanya, ; mungkin lebih paham nilai, ; lalu juga cara nyari yang gimana, gitu. ; Terus, ini yang paling penting, ya. ; Ini pelajaran saya pas dulu saya pernah kerja di e-commerce. ; Jangan pernah takut untuk nyentuh data yang persisnya SQL. ; Jangan cuma mau, ; maunya di Excel doang. ; Karena SQL itu nggak susah itu sebenarnya. ; Asal kita cukup literate dengan datanya. ; Kita bisa bikin query SQL itu pakai CGPT sekarang. ; Tapi CGPT-nya perlu diajarin gimana caranya ; dia bisa tahu struktur datanya. ; Itu part dimana kita harus data literate, bilangnya. ; Jadi kita tahu cara baca datanya gimana. ; Supaya kita bisa jelasin prompt-nya CGPT, ; nanti bikinin query-nya. ; Tapi jangan takut. ; Query itu sekarang nggak sesusah itu. ; Karena kalau misalnya teman-teman bekerja dengan data ; yang mungkin cuma 10.000-20.000, ya oke lah. ; Pakai Excel. ; Tapi kalau datanya jutaan row-nya, ; itu udah pasti masuk ke database. ; Dan kita nggak perlu se-advanced data scientist ; atau data analis yang bisa ngotak-ngotik. ; Kita cuma perlu ngambil dari jutaan data itu, ; data yang kita betulkan yang mana, ; kita bikin dalam format table yang bisa kita bikin, ; terus pindahin ke Excel nanti ujung-ujungnya. ; Itu step awal yang paling simpel. ; Supaya kita bisa kasarnya kayak tidak overwhelm ; dengan data yang terlalu banyak. ; Jadi kita seklusikan. ; Skill keempat namanya Experiment Design. ; Jadi sekarang RAN itu udah cepet. ; Mungkin bisa digang terlalu cepet. ; Brand muncul terus. ; Marketing channel muncul terus. ; Trend muncul terus. ; Apa yang hari ini bagus, ; besok mungkin bisa jelek. ; Jadi kekuatan sebuah karir ; itu adalah bisa manuver ketidakpastian ini. ; Karena apapun bisa berubah dengan cepet. ; Contoh, misalnya kayak kita ngomongin trend sosmed, ; post itu tiap hari berubah. ; Lagu yang lagi ngetrend tiap hari berubah. ; Jadi kita harus punya cara atau struktur ; buat bisa bereksperimen ; dan tahu result-nya itu lebih bagus dari sebelumnya. ; Dan ini rahasia banyak perusahaan. ; Mereka pasti ngelakuin banyak sekali. ; Sampai mereka nemu sebuah formula yang cocok buat mereka. ; Kayak Amazon pada zamannya di tahun 2011-an. ; Itu ngelakuin lebih dari 12.000 eksperimen dalam setahun. ; Tujuan ini buat apa? ; Buat naikin conversion rate websitenya ; dan bisa ningkatin omset perusahaan. ; Jadi kayak kita hidup di zaman ; dimana buat sesuatu itu sangat gampang sekarang. ; Biasanya kita mau bikin post sosmed ; atau kita mau bikin post video ; atau kita mau bikin gambar, thumbnail, segala macem gitu. ; Homepage. ; Itu mungkin dalam hitungan hari. ; Atau hitungan jam. ; Bahkan hitungan menit itu udah beres. ; Tapi value-nya bukan di sana. ; Value-nya bukan di cepet-cepetan. ; Tapi di eksperimentasi yang cepet. ; Dan bisa ngukur. ; Ini balik lagi ke data literasi juga ya. ; Cuma di bagian eksperimen desain ini ; gimana caranya kita bisa mendesain eksperimen ; yang bisa ngasih objektif yang sesuai dengan yang kita pengen. ; Jadi sebenarnya flow-nya adalah hipotesis. ; Terus kita keluarin ke matrix apa yang mau diukur. ; Terus kita tes. ; Terus kita belajar lagi. ; Terus kita keluarin lagi hipotesisnya apa. ; Terus kita ukur. ; Terus kita tes. ; Terus kita belajar. ; Apa nih kira-kira yang bisa kita pelajari. ; Nah flow seperti ini yang harus dipertahankan. ; Supaya dia bisa tetap muter loh. ; Misalnya contoh. ; Oh penjual lagi dulu nih. ; Kita bisa gak eksperimen kasih kupon 10 pesan. ; Oke kita kasih kupon 10 pesan. ; Dites dulu nih. ; Jangan kasih ke semua orang. ; Kasihlah ke misalnya 10 pesan aja dari market yang kita punya ; yang pembeliannya paling tinggi gitu. ; Kira-kira mereka ngerespon gak? ; Kalau enggak oke apa yang dipajangin lagi. ; Kenapa market kita tidak sesuai atau tidak ngerespon dengan diskon. ; Jadi hal-hal seperti itu kita harus tetap eksperimenin. ; Apa yang bisa jadi indikator ; kalau kita punya skill eksperimen desain. ; Itu kita bisa track berapa eksperimen yang kita runcurkan dalam sebulan. ; Dan kalau kita bisa dilahsin alasan dibaliknya. ; Learningnya apa segala macam. ; Itu tuh bakal jadi skill yang sangat-sangat berharga. ; Karena skillnya itu jarang. ; Kebanyakan orang yang udah kerja atau mengadakan AI itu kerjanya kayak ; intinya agak males ya. ; Pengennya repetitif. ; Pengennya ngerjain apapun yang dikasih tau sama AI atau sama bosnya. ; Jadi gak ada akuntabilitas. ; Dimana sekarang orang yang punya akuntabilitas atau bisa accountable dengan kerjaannya. ; Dengan ngelakuin eksperimen yang banyak tuh. ; Sangat-sangat akan dicari. ; Skill ke lima. ; Sistem dan proses desain. ; Jadi mengubah SOP jadi automation. ; Maksudnya gimana? ; Kita kan suka ngomong ya. ; AI bisa apa sih? ; Bisa buat automation. ; Bisa buat ini, bisa buat ini. ; Ujung-ujungnya automation, automation, automation. ; Tapi seberapa banyak sih pusat yang sedang ngelakuin automation. ; Dan bener-bener ngerti apa yang mereka automation-in. ; Karena automation itu gak bisa terjadi langsung. ; Gak semua hal bisa di automation-in. ; Dan hal yang bisa di automation-in biasanya harus punya SOP-nya dulu. ; Supaya tau step by step-nya seperti apa. ; Untuk mengontrol. ; Supaya hasil automation-in bagus. ; Gak bisa cuman kayak, oh ini automate, automate, automate, automate. ; Gak jadi apa-apa. ; Karena dia harus tau dulu apakah semua hal itu perlu di automate. ; Dan kalau iya, apakah sudah ada dokumentasinya. ; Dan ini tuh tipe kerjaan yang lumayan banyak ya. ; Jadi pas saya dulu kerja juga banyak kerjaan yang sifatnya kayak gini. ; Misalnya kita waktu itu saya running ads. ; Dari meta running ads buat sifatnya form. ; Buat dapetin data email sama nomor HP. ; Email sama nomor HP ini nanti ditarik manual. ; Terus dia itu gak bisa di sync langsung ke sistem. ; Jadi dia harus ditarik manual. ; Terus harus dicek dulu nih email sama nomor HP ini. ; Kalau kita mau kontak ada gak sih di database gedenya. ; Jadi saya punya database gede. ; Terus saya pair dengan 2 phone number sama email nih ada di file-nya. ; Udah beres nih dilihat. ; Oke ada misalnya dari 100 database baru. ; 60 udah ada nih. ; 40 yang baru. ; Oke 40 ini baru bisa di kontak. ; Itu pun harus kita benerin dulu. ; Format-formatnya supaya standar semua. ; Itu kan ada beberapa step tuh ya. ; Nah dibanding ngerjain satu-satu. ; Dan itu butuh misalnya kayak bisa 2 jam, 3 jam. ; Saya pakai AI. ; Tapi pakai AI-nya pun enggak. ; Serta-merta kayak kita upload beres gitu. ; Enggak. ; Karena itu berhubungan dengan sifatnya multi-step. ; Nah kalau multi-step kita perlu ubah itu ke format yang lebih reliable. ; Kalau saya waktu itu pakai Phyton. ; Kenapa? ; Karena setiap kali kita upload. ; Upload ke CGPT atau apapun. ; Database utamanya ini terlalu gede. ; Isinya jutaan row. ; CGPT gak bisa terima kayak gitu. ; Jadi harus ada script Phyton yang bisa kayak ngelakuin VLOOKUP lah ya. ; Secara cepet. ; Karena Excel pun gak kuat. ; Nah ini jadi caranya adalah waktu itu pakai Phyton. ; Digabungin terus baru kelihatan kira-kira stepnya. ; Nah step ini harus saya bikin SOP-nya. ; Karena gak bisa diajakin langsung. ; SOP-nya baru diajakin ke tim saya. ; Terus setiap tim saya bisa ngerjain sendiri. ; Ataupun saya ngerjain sendiri juga bisa. ; Karena udah bikin streamnya paling dikerjain cuma 5 menit. ; Jadi ini tuh analoginya kayak mungkin balik zaman dulu. ; Semua orang punya kemampuan untuk bikin mesin gitu. ; Bisa trash cooker. ; Bisa apa-apa gitu. ; Apa yang kita bakal bikin mesinnya. ; Adalah mesin yang kerjaannya tuh painful dan repetitif. ; Misalnya masak nasi dulu. ; Masak nasi dulu harus pakai tungku. ; Kita masukin air. ; Dikutuk-kutuk-kutuk sampai jadi. ; Ribet. ; Bikinlah mesinnya. ; Nah automation juga sama. ; Kita harus identifikasi dulu. ; Gak semua hal harus di-automate. ; Mungkin ada hal-hal yang lebih gampang kita kerjain manual dibanding di-automate. ; Atau hal-hal yang lebih bagus kita kerjain manual dibanding di-automate. ; Jadi kita harus bener-bener tau kapan kita perlu automate. ; Nomor 6. ; Ini masih nyambung sedikit sama yang tadi di-automate. ; Tapi buat temen-temen disini yang non-technical. ; Ataupun technical. ; Kemampuan untuk bikin script dan menggunakan API itu bakal sangat kepake kedepannya. ; Kita gak perlu sepintar orang-orang IT ya. ; Yang bisa bikin aplikasi segala macam gitu. ; Tapi goalnya adalah kita mengerti bikin script kayak dari phyton gitu. ; Dan tau cara menggunakan API. ; Supaya kita bisa menghubungkan beberapa aplikasi langsung. ; Goalnya apa? ; Contoh misalnya saya punya cache sendiri nih. ; Saya punya waktu itu mungkin sekitar 300 file. ; Kalau gak salah. ; Yang harus di rename. ; Harus satu. ; Capek doh kalau harus di rename harus satu. ; Saya coba ke chat GPT. ; Saya tanya kira-kira nih gimana caranya ya. ; Supaya lebih cepet ya. ; Saya upload pun gak bisa ke chat GPT. ; Karena file-nya kebanyakan. ; Jadi dia saranan. ; Ini gak bisa nih di-upload kayak gini. ; Harus pake phyton. ; Oke. ; Yaudah pake phyton deh. ; Gue gak ngerti tapi. ; Bantuin dong. ; Bantuin lah bikin script-nya gimana segala macam gitu. ; Jalan. ; Beres gitu. ; Dan script ini tuh jadinya kayak lumayan legend. ; Jadi dipake sama orang-orang gitu. ; Karena tadinya saya cuma bikin dalam waktu mungkin bikin script-nya udah lama ya. ; Karena hop-trip protective. ; Tapi setelah dibikin langsung jadi yaudah beres gitu. ; Tapi kemampuan buat bikin script ini jadi sangat mahal. ; Karena saya jadinya bisa ngelakuin kerjaan yang mungkin saya klaimin dikerjain 2-3 jam. ; Tapi cuma 5 menit beres. ; Jadinya saya punya waktu luang lebih banyak. ; Dan bisa bantu orang lain juga bikin script. ; Tapi bikin script ini gak susah gitu. ; Karena kita cuma perlu minta chat GPT aja untuk guide ke kita step by step. ; Kalau API bedanya adalah script ini cuma buat mungkin berkaitan dengan apapun yang ada di laptop kita aja. ; API ini dia bisa berhubungan dengan aplikasi di luar. ; Kayak website yang hidup, aplikasi dan sebagainya. ; Nah kita bakal punya kemampuan lebih bagus kalau kita bisa ngerti cara kita berhubungan dengan API. ; Goalnya again bukan menjadi orang IT. ; Tapi menjadi lebih produktif karena kita tahu teknologinya ada di luar sana. ; Dan itu tidak se-intimidate itu. ; Karena kita bisa pakai chat GPT. ; Banyak hal yang saya sampaikan hari ini bakal terdengar sangat-sangat mengintimidasi buat orang-orang yang non-tech. ; Tapi percaya lah ini tuh lumayan gampang kok. ; Dibanding yang bener-bener ngerti banget. ; Karena kita tuh cuma ngambil satu spektrum kecil gitu yang buat kita pelajarin. ; Di kelas ini kita gak belajar seluruh IT. ; Kita cuma belajar scripting dan ngerti API. ; Buat apa? ; Objektifnya ya bikin script simple yang bisa bikin kerjaan kita lebih gampang. ; Oke skill ke 7. ; Ini agak susah menjelaskannya. ; Tapi namanya product atau UX sense. ; Atau taste. ; UX to user experience. ; Di jaman AI, bikin produk yang basisnya code tuh bakal sangat-sangat gampang. ; Kayak saya bikin pada GPT tuh saya coding sendiri dari nol. ; Semuanya. ; Tapi AI tuh bisa bantu kalau pengemudinya itu punya taste design dan taste produknya oke. ; Dia mau bikin produknya seperti apa? ; Karena kalau kita hit enter terus dan kita gak punya panduannya. ; Dia bakal bikin suka-suka dia aja. ; Gak ada patokan, gak ada desainnya. ; Dan bakal jadi ke aplikasi yang sangat random. ; Yang kita mungkin bisa lihat kayak banyak banget aplikasi sekarang yang desainnya gak ada. ; Gak konsisten segala macemnya. ; Itu mungkin karena AI semua gitu. ; Product sense tuh juga bikin sesuatu yang orang pengen. ; Bikin sesuatu yang orang pengen beli. ; Banyak orang itu kayak mungkin agak FOMO dengan oh pengen bikin aplikasi, pengen bikin ini. ; Saya dulu pas jaman kerja di agency banyak banget inquiry bilang kayak kita mau bikin aplikasi nih. ; Buat apa gitu? ; Emang ada yang bakal install aplikasinya? ; Belum tentu dong. ; Kalau kita ngerti cara kita buat mengoptimasi produk yang mau dibikin. ; Ataupun desain cara user experience nya. ; Kita bisa punya peluang lebih tinggi. ; Untuk survive. ; Terutama kalau di bagian industry aspect ya. ; Karena di tech tuh orang yang seperti itu jarang. ; Biasanya tuh kebagiannya cuman kebagian yang technical doang. ; Atau yang bagian yang desainnya doang. ; Tapi kalau di era AI saya bayangin semua orang tuh bakal lebih generalis gitu. ; Desain mungkin orang desain mungkin bisa juga code dikit-dikit dong. ; Sekarang udah banyak kejadiannya orang desain disuruh coding. ; Orang yang coding pun disuruh ngerti desain. ; Jadi tinggal masalah waktu aja nih siapa yang ketemu tangga-tangga. ; Jadi skill ini terpakai bukan cuma buat kerja. ; Bayangin punya skill desain yang bagus tuh kayak kita jadi chef yang bagus. ; Jadi kita punya plate nya dan bahan-bahannya kita mau bikin apa nih. ; Kita bikinnya tuh enggak ya tinggal ngomong doang. ; Eh gue mau bikin ini, bawa ini, ini, ini. ; Sama AI nya. ; Tapi kita tetap harus tentuin kan kira-kira plate ini mau di siapa. ; Ini mau di siapa. ; Ini mau di siapa. ; Bahannya dari mana segala macam gitu. ; Skill ini menggambungkan bukan cuma taste kita juga. ; Referensi kita harus banyak. ; Tapi kita juga harus bisa ngobrol ke customer. ; Menjadi orang produk. ; Ngerti pain point mereka apa. ; Mereka butuhnya apa gitu. ; Jadi. ; Ini skill yang mungkin bisa dibilang agak beyond. ; Dari kita cuma pakai AI doang. ; Dan ini skillnya enggak bisa kita semua pakai AI. ; Jadi enggak bisa kayak ada pertanyaan. ; Bisa enggak nih customer nya pakai AI juga ya. ; Enggak bisa gitu. ; Lapan. ; Namanya overall design dan sales. ; Overall design ini maksudnya kita bikin penawaran. ; Proposal lah. ; Untuk jual dan nego. ; Ini tuh skill yang enggak bisa diajarin. ; Kebanyakan stay smart. ; Contoh misalnya kita tahu nih oh perusahaan ini butuh vendor. ; Terus kita nego. ; Kita mau tawarnya kita nego. ; Itu kita harus pakai enggak bisa. ; Tapi apakah AI bisa sebagus tuh bikin. ; Ada banyak komponen-komponen yang tidak terlihat. ; Contoh misalnya kita harus tahu nih kira-kira orangnya penyedih atau enggak. ; Atau kita harus tahu dulu kayak orang lain tuh butuhnya apa. ; Dan mereka udah pernah dapat penawaran dari siapa aja. ; Cara kita nego mau kayak gimana. ; Cara kita mau tawarnya gimana. ; Pitchingnya mau gimana. ; Ini nih hal-hal yang sifatnya kayak penting. ; Untuk posisi sales. ; Dan cara kita nge-reframenya. ; Kayak misalnya kita jual produk yang sifatnya. ; Sifatnya edukasi. ; Tadi kita bilang ini oh edukasi karyawan gitu. ; Terus kita reframe dikit konsumennya. ; Mungkin bisa lebih bagus gitu. ; Nah sensitivitas seperti ini. ; Itu harus didapatin dengan mungkin ngobrol. ; Tahu konsumennya butuhannya apaan. ; Segala macam. ; Tapi ini skillnya tidak bisa digantiin sama AI. ; Jadi ini mungkin good news ya buat orang-orang sales. ; Karena ini tipikal skill yang sangat didatangi sama orang-orang sales. ; Tapi menurut saya semua orang bisa belajar ini. ; Karena kita bisa ngelakuin simulasi sebenarnya dengan AI. ; Cuma kita tetap perlu tahu dan feedback dunia nyatanya seperti apa. ; Maksudnya feedback dari customer-nya gitu. ; Feedback dari sales-nya seperti apa. ; Persening goal seperti apa. ; Itu tuh sesuatu yang nggak bisa digantiin. ; Experience-nya dengan kita ngobrol sama CGPD doang. ; Contoh misalnya orang ada. ; Kita tahu yang ada brand butuh website. ; Ada orang datang. ; Oke gua bakal desain website lu. ; Fee-nya 5 juta. ; Insya-tuh bilang gua bakal bikin website yang bisa datangin lu omset sebulan 50 juta. ; Fee gua cuma 20 juta aja. ; Sekali dong depan. ; Lu mau beli nggak? ; Nah itu kan beda tuh. ; Insya-tuh nawarin jasa kayak website. ; Insya-tuh nawarin jasa sales. ; Itu kan offer design-nya beda gitu. ; Cara dia membuat penawaran itu beda. ; Angle-nya beda. ; Terus nego-nya seperti apa segala macam. ; Itu sesuatu yang nggak bisa nih AI. ; Emang harus orang biasa. ; Sembilan. ; Skill yang nggak bakal digantiin sama AI. ; Dan skill yang sangat dibutuhkan. ; Audience building. ; Jadi ini kepake buat brand. ; Buat content creator. ; Kalau di KSH content creator. ; Zaman sekarang tuh kebagi dua. ; Konten tuh bakal sangat kebagi dua menurut saya. ; Konten yang sifatnya AI banget. ; Yang kayak auto-generated semua pakai AI segala macam gitu. ; Sama konten yang generic. ; Yang bener-bener orang dibayarnya. ; Dia udah streaming kayak dia bikin video kayak dia bikin video. ; Orang tau siapa dia segala macam gitu. ; Jadi kayak bakal kebagi dua seperti ini. ; Tinggal mau pilih yang mana. ; Kita bisa bikin audience di dua-duanya. ; Dan kayaknya semakin bagus AI semakin bagus juga. ; Hasil kualitas yang pake AI ini. ; Tapi nggak berarti yang authentic ini juga jelek. ; Jadi ini peluang buat temen-temen yang pengen set hasil. ; Bikin konten segala macam tuh bisa jadi jalur utama juga. ; Yang mungkin munculin muka ya. ; Kalau mau full AI juga bisa. ; Tapi saya sebenernya nggak terlalu tau exactly competitionnya secara kenceng apa. ; Karena kalau kita pake faceless. ; Yang nggak ada muka. ; Terus competitionnya seluruh orang dunia. ; Karena bulu-bulu juga banyak sendiri. ; Kayak bikin konten yang nggak ada mukanya. ; Buat dapetin adsense. ; Nanti kayak dijual barang segala macam. ; Dibikin funnelnya gitu. ; Jadi peluang kita mungkin kalau saya nggak sayang lebih banyak ada di munculin muka. ; Karena kita bisa bikin konten yang authentic. ; Dan orang percaya sama kita. ; Dan di sini penting buat kita tau media itu ada dua jenisnya. ; Ada yang owned. ; Ada yang rented. ; Owned tuh maksudnya adalah media yang kita owned sendiri. ; Algoritma yang kita owned sendiri. ; Rented itu adalah kita numpang. ; Contoh saya bikin Youtube nih. ; Ini hitungannya numpang. ; Rented kenapa? ; Karena saya nggak punya akses. ; Buat kayak eh yang subscribe di gue tuh 70 ribu loh. ; Semua orang harusnya nonton video gue. ; Kok nggak ada yang nonton ya? ; Nggak bisa. ; Karena mewah. ; Kita nggak bayar nih. ; Saya nggak bayar ke Youtube. ; Kayak kasih dong ke semua orang yang nonton video saya. ; Nggak bisa. ; Owned media itu kita bisa control. ; Contohnya apa owned media? ; WhatsApp group. ; Email newsletter. ; Tapi misalnya di startup saya di belajar GPT kita punya community sendiri gitu. ; Kita bikin sendiri. ; Itu owned media tuh. ; Siapapun yang mau bikin ya nggak bisa. ; Karena itu punya saya sendiri. ; Jadi buat teman-teman yang pengen coba audience building pastiin punya dua. ; Pastiin punya dua. ; Punya rendered media. ; Karena itu cara kita buat lebih cepet naiknya. ; Pastiin juga punya owned media. ; Dimana kita bisa control penuh reach kita ke audience. ; Terakhir. ; Skill paling penting adalah skill bisa mengambil keputusan dalam keadaan yang tidak pasti. ; Keadaan yang tidak stabil. ; Ini skill loh. ; Kita lagi hidup di zaman dimana AI tuh selalu cepet berkembang ya. ; Dan kita nggak tau jual market tuh bakal seperti apa. ; Bisa ngebut banget. ; Bisa pelan banget. ; Bisa berubahnya banget gitu. ; Banyak tool-tool yang bisa kita pakai untuk mengambil keputusan decision making yang lebih oke. ; Kayak misalnya expected value thinking. ; Dimana kita memperkirakan skenario-skenarionya berdasarkan probabilitas yang terjadi. ; Atau kita bikin checklist pro and consnya. ; Kalau gini gimana. ; Kalau gini gimana. ; Nah skill-skill seperti ini tuh kita bisa minta bantuan AI sih. ; Tapi dengan pengamalan saya pengambilan keputusannya langsung dari kita yang bikin. ; Nggak bisa kita mimpin AI eh. ; Bikinin dong. ; Bantuin dong. ; Nggak bisa itu. ; Dan di sini kalau kita punya framework bisa mengambil keputusan yang bagus. ; Kita bisa lebih bertahan lebih lama. ; Dan kita bisa pakai itu terus-menerus. ; Skill ini sifatnya compounding. ; Karena semakin sering kita menggunakan framework yang kita pakai untuk problem solving. ; Di keadaan yang tidak stabil. ; Semakin gampang juga untuk kita adaptasi di keadaan yang tidak stabil. ; Contoh misalnya kayak sekarang kondisi lagi nggak bagus kayak gini. ; Kita harus tahu nih kira-kira dimana tempat dimana kita bisa mencari uang dengan lebih terprediksi gitu. ; Kalau di case saya adalah saya pilih oke. ; Saya ngeliat trend seperti ini. ; Problem solving saya saya udah ngeliat segala macem. ; Yang paling make sense buat saya adalah saya bangun personal branding. ; Terus saya menjual kontak yang sesuai dengan. ; Personal branding saya. ; Itu kayaknya lebih durable dibanding mencari karir sekarang. ; Dan saya nggak rugi apapun. ; Kalaupun ini personal brandingnya nggak berhasil. ; Saya bisa tetap bisa kerja dengan value yang lebih oke. ; Nah itu terus semua thinking processnya tuh decision makingnya tuh pakai framework yang saya tahu. ; Caranya gimana? ; Kalau saya biasanya kayak saya bakal tulis dulu problemnya. ; Yang kita hadapin sekarang itu apa. ; Terus opsi-opsi yang kita punya itu apa. ; Opsi A, opsi B, opsi C, opsi D. ; Ini cara simple problem solvingnya. ; Terus kita mau tahu nih. ; Kita punya constraint atau kriteria nggak. ; Kita mau apa ujungnya. ; Objektifnya kita mau apa. ; Kita mau optimize misalnya cepat kaya. ; Atau kita mau happy. ; Atau kita mau dekat keluarga. ; Atau mau apa. ; Value kita tuh apa. ; Terus pro and cons-nya apa sih setiap keputusan gitu. ; Jadi kita masukin semua datanya. ; Terus kayak kita kasih tahu juga kalau misalnya ini beresiko. ; Risk mitigation-nya apa. ; Cara kita untuk memitigasi risikonya tuh apa. ; Terus kita harus tahu juga kayak accept scenario-nya. ; Jadi kalau kita pilih opsi A terus nggak berhasil. ; Apa nih indikatornya kalau kita bisa keluar terus kita pilih opsi lain. ; Nah semua ini digabungin jadi satu table gitu. ; Terus kita tinggal pilih kita mau yang mana gitu. ; Jadi ini cara yang mungkin bisa dibantu dengan CGPT. ; Tapi tetep kita harus punya sense lah. ; Kayak oh ini kayaknya nggak kayak gini deh. ; Ini kayaknya kayak gini deh. ; Kita mau kayak gini deh. ; Jadi kita kayak punya asisten buat bantuin. ; Cuman ini skill yang compounding. ; Dan mungkin kalau kita sering ngelakuin kayak saya sekarang. ; Saya kadang-kadang nggak perlu CGPT. ; Karena saya bisa membaikkan scenario sendiri di otak saya. ; Walaupun lebih gampang untuk kita tuangin di CGPT. ; Jadi kurang lebih gitu recap-nya 10 skill. ; Yang pertama problem framing. ; Yang kedua writing sama storytelling. ; Yang ketiga data learning. ; Yang ketiga literasi. ; Yang keempat experiment design. ; Yang kelima automation. ; Yang keenam scripting dan API. ; Yang ketujuh product UX. ; Yang kedelapan design over sales dan negotiation. ; Yang kesembilan audience building. ; Yang kesepuluh decision making. ; Nah skill ini 10 skill ini skill yang bakal timeless. ; Temen-temen kalau punya semua skill ini. ; Pasti di jaman hidup mau ada AI mau nggak ada AI. ; Ada AI lebih bagus lagi. ; Kita pasti tetep bisa lebih tinggi lagi kualitasnya. ; Tapi ini 10 skill yang sangat sangat sangat kepake. ; Dan pilih satu asah terus-menerus gitu. ; Semua orang yang berhasil dan saya perhatiin itu selalu punya skill ini. ; Sedikit banyak. ; Satu dari 10 ini pasti ada minimal. ; Semakin banyak skill yang kita punya semakin bagus. ; Artinya kita semakin gampang survive. ; Thank you udah nonton. ; Temen-temen yang komik banget sampai keunjung ini buat nonton. ; Kalau mau belajar AI sama saya coba cek belajargpt.com. ; Disana saya banyak banget bagi-bagiin tips-tips saya untuk belajar AI. ; Dan saya sendiri yang ngajar. ; Jadi sampai ketemu di kelas. ; Kurang lebih gitu. ; Sampai ketemu di video-video selanjutnya. ; Bye-bye.
+
+==================================================
+TIMESTAMPS:
+
+[00:00 - 00:03]
+Yakin cuma dengan install CGPT doang bikin masa depan lo aman?
+
+[00:03 - 00:04]
+Coba pikir lagi.
+
+[00:04 - 00:08]
+80% proyek itu gagal karena problemnya tidak didefine dengan baik.
+
+[00:08 - 00:15]
+Menurut Inc. 2021, tulisan yang jelek dan tidak ada struktur menghabiskan 400 bilion dolar setahun.
+
+[00:15 - 00:19]
+Jadi, zaman sekarang speed powernya bukan dengan install CGPT,
+
+[00:19 - 00:25]
+tapi mengakuisisi skill-skill yang timeless, yang tanpa kenal waktu selalu diputuhkan.
+
+[00:25 - 00:26]
+Apa aja? Kita bahas langsung.
+
+[00:26 - 00:31]
+Saya William, content creator dan entrepreneur yang bikin platform yang namanya belajar CGPT.
+
+[00:31 - 00:35]
+Saya udah puluhan tahun berkarir dan saya bisa kasih tau kalau itu come and go.
+
+[00:35 - 00:38]
+Mungkin sekarang ada CGPT, mungkin nanti ada yang lain gitu.
+
+[00:38 - 00:43]
+Tapi yang udah pasti itu skill-skill timeless yang kita harus pelajarin supaya kita tetap bisa survive.
+
+[00:43 - 00:44]
+Contohnya apa?
+
+[00:44 - 00:48]
+Di video kali ini, kita bakal bahas 10 skill yang harus dipelajarin.
+
+[00:48 - 00:54]
+Dan ini bukan hack, jadi belajar skill ini cukup lama, betul expertise, dan nggak semua orang bisa pelajarin ini.
+
+[00:54 - 00:56]
+Tapi kalau kita bisa, kita bakal lebih.
+
+[00:56 - 00:57]
+Lebih bisa berhasil dibanding orang lain.
+
+[00:57 - 00:59]
+Jadi, subscribe dan langsung ke daginya.
+
+[01:02 - 01:05]
+Yang pertama namanya problem framing.
+
+[01:05 - 01:07]
+Jadi, cara kita melihat masalah.
+
+[01:07 - 01:10]
+Contoh ya, gimana caranya AI bisa ningkatin penjualan kita?
+
+[01:10 - 01:14]
+Nah, itu cara melihat masalah yang sangat-sangat abstrak dan jelek.
+
+[01:14 - 01:17]
+Karena kita nggak tau bahkan apa yang bisa ditingkatkan dengan penjualan.
+
+[01:17 - 01:18]
+Apa yang harus ditingkatkan?
+
+[01:19 - 01:24]
+Orang yang baik bakal reframe cara melihat masalahnya menjadi misalnya card abandonment kita
+
+[01:24 - 01:29]
+atau misalnya orang yang memasukkan keranjangnya, produknya, itu tingkatkan.
+
+[01:29 - 01:31]
+Tinggi, 70%, misalnya. Harusnya di bawahnya.
+
+[01:31 - 01:37]
+Gimana caranya kita bisa memanfaatkan AI untuk menurunkan card abandonment itu tanpa punya budget yang gede?
+
+[01:38 - 01:43]
+Nah, itu cara kita melihat problem dengan lebih spesifik dan lebih gampang juga untuk dimengerti sama AI.
+
+[01:43 - 01:48]
+Di RII, kita gampang banget sebenarnya nanya CGPT kayak, tolong dong bikin ini, tolong dong bikin ini, tolong dong bikin ini, gitu.
+
+[01:48 - 01:52]
+Tapi jawaban itu bakal tergantung dari pertanyaan yang tepat, bukan yang bagus.
+
+[01:52 - 01:57]
+Kalau kita nggak bisa ngelihat problemnya dengan lebih clear dan nge-breakdown problemnya dengan lebih clear,
+
+[01:57 - 01:59]
+maka kita nggak bakal dapet jawaban yang tepat.
+
+[01:59 - 02:03]
+Dan yang bagus juga, sepinter apapun AI-nya, kalau pertanyaan kita jelek, cara kita ngelihat problem itu jelek,
+
+[02:04 - 02:05]
+AI-nya nggak bakal bisa bantuin.
+
+[02:05 - 02:06]
+Jadi caranya gimana?
+
+[02:06 - 02:09]
+Buat kita belajar problem framing, setiap kali kita dapet sebuah brief,
+
+[02:10 - 02:12]
+contoh misalnya, bos bilang, customer nggak happy nih.
+
+[02:12 - 02:13]
+Nah, nggak happy itu apa maksudnya?
+
+[02:14 - 02:14]
+Kita harus cari tahu.
+
+[02:14 - 02:16]
+Kalau kita nggak dapet clue, kita cari tahu datanya.
+
+[02:16 - 02:17]
+Apa maksudnya?
+
+[02:17 - 02:22]
+Nggak happy itu apakah survei yang mengatakan turun trendnya, misalnya dari 60% dari 70%.
+
+[02:22 - 02:24]
+Kita harus cari tahu dulu itu.
+
+[02:24 - 02:26]
+AI nggak bisa membaca pikiran semua orang dan tahu langsung.
+
+[02:26 - 02:28]
+Dan kita harus tahu exactly.
+
+[02:29 - 02:30]
+Customer nggak happy itu maksudnya apa?
+
+[02:30 - 02:33]
+Apakah ada satu orang komplain dan dianggap semuanya komplain atau apa?
+
+[02:33 - 02:35]
+Setiap problem itu juga punya constraint.
+
+[02:35 - 02:38]
+Jadi misalnya kita bilang, ini kalau kita mau solve ini, mau berapa lama?
+
+[02:38 - 02:40]
+3 bulan? 2 bulan? 30 hari?
+
+[02:40 - 02:42]
+Atau misalnya, apa nih constraint lain?
+
+[02:42 - 02:43]
+Budgetnya sebesar apa sih?
+
+[02:43 - 02:46]
+Jadi kalau kita bilang kayak, tolong tingkatin penjualan.
+
+[02:46 - 02:47]
+Budgetnya berapa dulu?
+
+[02:47 - 02:48]
+Kita harus tahu dulu.
+
+[02:48 - 02:51]
+Kalau budgetnya unlimited, ya baik dia pelan-pelan dengan budget sejuta sebulan.
+
+[02:51 - 02:53]
+Dan suksesnya itu kayak gimana?
+
+[02:53 - 02:55]
+Apa sih objektif utamanya?
+
+[02:55 - 02:58]
+Jadi kita bisa tentuin objektif utamanya itu jadi indikator,
+
+[02:59 - 03:00]
+apa yang kita lakuin ini sudah berhasil.
+
+[03:00 - 03:02]
+Minimal dari sisi output yang diinginkan.
+
+[03:02 - 03:05]
+Contoh misalnya kalau bikin plan untuk peningkatan penjualan.
+
+[03:05 - 03:06]
+Apa sih outputnya?
+
+[03:06 - 03:08]
+Apakah outputnya adalah penjualan meningkat?
+
+[03:08 - 03:11]
+Atau misalnya, plan-nya adalah outputnya itu plan marketingnya?
+
+[03:11 - 03:13]
+Atau outputnya adalah brief ke manager salesnya?
+
+[03:14 - 03:14]
+Atau apa?
+
+[03:14 - 03:17]
+Kita harus tahu kayak scope yang bisa kita bantu itu sampai mana.
+
+[03:18 - 03:20]
+Jadi ini bagian dari kita problem framing.
+
+[03:20 - 03:21]
+Cara mengerti ini gimana?
+
+[03:21 - 03:22]
+Sering-sering nemu problem,
+
+[03:23 - 03:23]
+setiap kali nemu problem,
+
+[03:24 - 03:26]
+kita harus bisa menjelaskan itu jadi 3 poin.
+
+[03:26 - 03:28]
+Yang pertama adalah, problem ini itu apa?
+
+[03:28 - 03:28]
+Yang kedua,
+
+[03:29 - 03:30]
+kita harus tahu dulu constraint-nya apa?
+
+[03:30 - 03:31]
+Terus yang ketiga,
+
+[03:31 - 03:33]
+kita masukin objektifnya atau KPI-nya itu apa?
+
+[03:33 - 03:35]
+Jadi kalau kita latih ini terus,
+
+[03:35 - 03:36]
+mau AI yang bagus,
+
+[03:36 - 03:37]
+mau AI yang jelek,
+
+[03:37 - 03:40]
+kita tetap bisa kasih solution yang lebih oke dibanding orang lain.
+
+[03:41 - 03:43]
+Karena kita tuh ngeliat problem-nya dengan lebih detail.
+
+[03:43 - 03:45]
+Banyak orang yang datang dengan problem yang cuma kayak,
+
+[03:45 - 03:46]
+oh ini kayak gini nih,
+
+[03:46 - 03:46]
+ini kayak gini nih,
+
+[03:47 - 03:48]
+tanpa dipikirin dengan lebih dalam.
+
+[03:48 - 03:50]
+Jadi ini namanya problem framing.
+
+[03:50 - 03:51]
+Skill kedua,
+
+[03:51 - 03:51]
+career,
+
+[03:51 - 03:52]
+writing,
+
+[03:52 - 03:52]
+dan storytelling.
+
+[03:53 - 03:55]
+Ini skill yang mungkin kita sering bahas ya di channel ini.
+
+[03:55 - 03:57]
+Emang di era AI kita masih perlu nulis?
+
+[03:58 - 03:58]
+Jawabannya,
+
+[03:58 - 03:59]
+secara mengagetkan,
+
+[03:59 - 04:00]
+masih sangat perlu.
+
+[04:00 - 04:02]
+Bahkan lebih perlu dari sebelumnya.
+
+[04:02 - 04:04]
+Kalau kita minta AI nulis sesuatu,
+
+[04:04 - 04:06]
+tapi kita nggak tahu apa yang pengen ditulis,
+
+[04:06 - 04:07]
+atau kita nggak biasa nulis,
+
+[04:07 - 04:08]
+kita cuma ngeliat doang.
+
+[04:08 - 04:10]
+Bahkan kita nggak mau baca apa yang ditulis,
+
+[04:11 - 04:11]
+udah pasti harus nilai.
+
+[04:11 - 04:12]
+Apalagi kalau misalnya kayak,
+
+[04:13 - 04:14]
+AI-nya nggak tahu setahun nulis kita gimana,
+
+[04:14 - 04:15]
+segala macam gitu.
+
+[04:15 - 04:16]
+Kuncinya apa?
+
+[04:16 - 04:17]
+Kita harus tahu dulu,
+
+[04:17 - 04:18]
+kalau kita biasa nulis,
+
+[04:18 - 04:19]
+bisa menceritakan cerita.
+
+[04:19 - 04:22]
+Maka ini skill yang bakal nempel di kita
+
+[04:22 - 04:23]
+untuk bisa ngasih tahu,
+
+[04:24 - 04:25]
+seperti apa tulisan baik,
+
+[04:25 - 04:26]
+seperti apa tulisan yang jelek,
+
+[04:26 - 04:27]
+seperti apa cerita baik,
+
+[04:27 - 04:28]
+seperti apa,
+
+[04:28 - 04:29]
+ceritanya jelek,
+
+[04:29 - 04:30]
+kalau di part storytelling.
+
+[04:30 - 04:31]
+Contoh misalnya kita lagi nulis email,
+
+[04:31 - 04:33]
+terus kayak orang lain ngeliat,
+
+[04:33 - 04:33]
+baca,
+
+[04:33 - 04:33]
+terus kayak,
+
+[04:33 - 04:34]
+ini apaan ya?
+
+[04:34 - 04:36]
+Ini orang kok nulisnya kayak AI ya?
+
+[04:36 - 04:37]
+Kayak nggak clear gitu,
+
+[04:37 - 04:38]
+apa yang pengen disampaikan.
+
+[04:38 - 04:40]
+Karena kita mungkin cuma nulis prompnya,
+
+[04:40 - 04:40]
+kayak tulisin,
+
+[04:40 - 04:41]
+bantu tulis email gitu.
+
+[04:42 - 04:42]
+Udah.
+
+[04:42 - 04:44]
+Atau juga ada mungkin tipikal orang yang
+
+[04:44 - 04:46]
+senangnya tuh masukin jargon-jargon,
+
+[04:46 - 04:47]
+supaya kelihatan pinter.
+
+[04:47 - 04:49]
+Padahal ujung-ujungnya orang nggak ngerti,
+
+[04:49 - 04:49]
+dia ngomong apa.
+
+[04:49 - 04:51]
+Nah, ini-ini tipikal-tipikal yang
+
+[04:51 - 04:52]
+penulisannya,
+
+[04:52 - 04:53]
+atau tulisannya,
+
+[04:53 - 04:54]
+itu tidak clear,
+
+[04:54 - 04:55]
+apa maksudnya.
+
+[04:58 - 04:59]
+Kita harus ingat,
+
+[04:59 - 05:01]
+kalau ada istilah yang namanya DIGO,
+
+[05:01 - 05:02]
+Garbage In,
+
+[05:02 - 05:03]
+Garbage Out.
+
+[05:03 - 05:05]
+Kalau misalnya yang kita masukin inputnya
+
+[05:05 - 05:05]
+itu jelek,
+
+[05:05 - 05:06]
+outputnya juga bakal jelek gitu.
+
+[05:06 - 05:07]
+Contoh misalnya,
+
+[05:07 - 05:08]
+kalau kita mau nulis sebuah artikel,
+
+[05:08 - 05:09]
+atau misalnya sebuah skrip,
+
+[05:10 - 05:11]
+kita semua mungkin udah tahu,
+
+[05:11 - 05:13]
+kalau anatomi skrip ini,
+
+[05:13 - 05:13]
+misalnya ada hook-nya,
+
+[05:14 - 05:15]
+terus ada konteksnya,
+
+[05:15 - 05:16]
+terus ada solutions-nya,
+
+[05:16 - 05:18]
+terus ada summary-nya,
+
+[05:18 - 05:18]
+misalnya.
+
+[05:18 - 05:19]
+Nah, semua ini,
+
+[05:19 - 05:21]
+kita perlu ngerti kenapa dia ada di sana.
+
+[05:22 - 05:23]
+Jadi, kita jangan jadi orang yang
+
+[05:23 - 05:24]
+cuma dikasih rumus,
+
+[05:24 - 05:25]
+terus kita nggak bisa utang-atik.
+
+[05:25 - 05:26]
+Jadi, kita harus tahu sesuai kebutuhan,
+
+[05:27 - 05:27]
+kapan kita pakai art,
+
+[05:27 - 05:28]
+kapan kita pakai B,
+
+[05:28 - 05:30]
+kapan kita pakai semuanya, gitu.
+
+[05:30 - 05:31]
+Dan ini dilatih dengan apa?
+
+[05:31 - 05:32]
+Kalau saya,
+
+[05:32 - 05:33]
+biasanya dilatih dengan nulis juga sendiri.
+
+[05:34 - 05:34]
+Latihan nulis juga.
+
+[05:34 - 05:35]
+Jadi, kita tahu.
+
+[05:35 - 05:36]
+Dan latihan baca sebenarnya.
+
+[05:36 - 05:38]
+Ini, surprisingly ya,
+
+[05:38 - 05:39]
+banyak banget orang yang
+
+[05:39 - 05:40]
+ngomong sama CGPT,
+
+[05:40 - 05:42]
+atau ngeliat hasil kerjaan CGPT,
+
+[05:42 - 05:43]
+itu nggak dibaca hasilnya.
+
+[05:43 - 05:44]
+Cuma di-copy paste doang.
+
+[05:44 - 05:46]
+Berharap orang lain ya, bacaannya.
+
+[05:46 - 05:47]
+Orang lain juga pake airboll bacaan.
+
+[05:47 - 05:48]
+Jadi, nggak ada yang bener nih.
+
+[05:48 - 05:49]
+Dan kalau misalnya,
+
+[05:49 - 05:51]
+kayak kita ngasih kerjaan sifatnya rough,
+
+[05:51 - 05:52]
+saya sering banget,
+
+[05:52 - 05:53]
+beberapa kali,
+
+[05:53 - 05:56]
+saya revisi kerjaan yang sifatnya sangat rough.
+
+[05:56 - 05:56]
+Itu bakal saya marah,
+
+[05:56 - 05:58]
+ini lu nggak baca nih,
+
+[05:58 - 05:58]
+brief-nya apa.
+
+[05:59 - 06:00]
+Atau bahkan ini nggak dibiasa nih.
+
+[06:00 - 06:02]
+Cuma bener-bener di-copy paste dari AI doang.
+
+[06:02 - 06:03]
+Saya bakal bilang,
+
+[06:03 - 06:04]
+kayak ini gue juga bisa ngeliatin kayak gini.
+
+[06:04 - 06:06]
+Lu gue gantiin sama AI juga,
+
+[06:06 - 06:07]
+kalau lu cuma bisa kayak gini doang.
+
+[06:07 - 06:09]
+Jadi, kita ngomong bagian nulisnya ya.
+
+[06:09 - 06:11]
+Storytelling itu juga bagian yang paling penting sekarang.
+
+[06:12 - 06:13]
+Karena semua AI,
+
+[06:13 - 06:15]
+itu bisa diminta untuk nulis story yang bagus.
+
+[06:15 - 06:17]
+Tapi, cara untuk menyampaikan cerita,
+
+[06:17 - 06:20]
+itu kan tergantung dari kita sebagai orang yang deliver-nya.
+
+[06:20 - 06:22]
+Jadi, walaupun kita punya script terbagus di dunia,
+
+[06:22 - 06:25]
+script kalau misalnya komedi paling bagus di dunia,
+
+[06:25 - 06:25]
+dibikin sama AI.
+
+[06:25 - 06:27]
+Tapi, kalau kita nggak bisa deliver-nya,
+
+[06:27 - 06:27]
+sama aja bohong.
+
+[06:28 - 06:28]
+Contoh misalnya kayak gini.
+
+[06:28 - 06:31]
+Cuma sekarang AI udah bisa bikin script apapun buat orang,
+
+[06:31 - 06:33]
+tapi kalau orang nggak bisa ngomongnya sama era,
+
+[06:33 - 06:34]
+ya jelek hasilnya.
+
+[06:34 - 06:35]
+Itu nggak bagus.
+
+[06:35 - 06:36]
+Misalnya kayak di latin,
+
+[06:36 - 06:37]
+tool-tool AI,
+
+[06:37 - 06:39]
+tapi dengan bahasa-bahasa yang sangat kompleks,
+
+[06:39 - 06:40]
+yang orang nggak ngerti.
+
+[06:40 - 06:43]
+Bagian dari kita bisa menjelaskan sesuatu yang sangat simpel,
+
+[06:43 - 06:44]
+itu sangat dibutuhkan di AI.
+
+[06:45 - 06:46]
+Karena di era AI,
+
+[06:46 - 06:49]
+semua orang udah dianggap bisa bikin text yang bagus,
+
+[06:49 - 06:49]
+artikan bagus.
+
+[06:50 - 06:52]
+Udah bisa misalnya bikin presentasi yang oke.
+
+[06:52 - 06:55]
+Tapi menyampaikannya tetap butuh orang dong.
+
+[06:55 - 06:57]
+Tetap butuh pembawaan kita,
+
+[06:58 - 07:00]
+tone, language, body, segala macem gitu.
+
+[07:00 - 07:02]
+Dan itu tuh ya kecuali kita jadi robot ya,
+
+[07:02 - 07:04]
+nggak bisa digantiin gitu.
+
+[07:04 - 07:07]
+Jadi, nulis dan storytelling itu skill terpenting.
+
+[07:07 - 07:09]
+Oke, ketiga.
+
+[07:09 - 07:11]
+Ini skill yang relevan juga nih di era AI.
+
+[07:11 - 07:12]
+Namanya data literasi.
+
+[07:12 - 07:13]
+Literasi data.
+
+[07:13 - 07:14]
+Jadi bukan teknis ya,
+
+[07:14 - 07:16]
+kayak ngerti SQL,
+
+[07:17 - 07:18]
+ngerti rumu, segala macem.
+
+[07:18 - 07:19]
+Enggak.
+
+[07:19 - 07:21]
+Tapi lebih yang mungkin upper level-nya.
+
+[07:21 - 07:22]
+Kita sering denger kan,
+
+[07:22 - 07:24]
+kalau kita mau ngambil keputusan harus data-driven.
+
+[07:24 - 07:26]
+Harus sesuai data, datanya mana.
+
+[07:26 - 07:28]
+Apa yang mau lihat, jangan pakai asumsi gitu.
+
+[07:28 - 07:30]
+Saya suka marahin tim saya kalau kayak,
+
+[07:31 - 07:33]
+kayaknya gini-gini deh, datanya mana gitu.
+
+[07:33 - 07:36]
+Jangan ngomong sesuai feeling, tapi harus ada datanya.
+
+[07:36 - 07:38]
+Tapi nggak bisa orang itu data-driven,
+
+[07:38 - 07:40]
+kalau dia bahkan nggak tahu literasi datanya.
+
+[07:40 - 07:41]
+Maksudnya apa literasi data tuh?
+
+[07:41 - 07:44]
+Literasi data tuh adalah tahu cara membaca data,
+
+[07:45 - 07:50]
+menginterpretasikan data sesuai dengan interpretasi yang dianggap umum.
+
+[07:50 - 07:52]
+Karena banyak juga orang yang bohong,
+
+[07:52 - 07:53]
+pakai interpretasi data.
+
+[07:53 - 07:55]
+Jadi contoh misalnya ada meeting nih,
+
+[07:55 - 07:55]
+terus kita ditanya,
+
+[07:55 - 07:57]
+produk apa yang paling laku minggu ini ya?
+
+[07:58 - 07:59]
+Terus ada orang yang jawab,
+
+[07:59 - 08:00]
+oke produknya produk X deh,
+
+[08:00 - 08:02]
+karena ordernya lagi rame nih minggu ini.
+
+[08:02 - 08:05]
+Nah, itu contoh A, ini ada orang contoh B.
+
+[08:05 - 08:07]
+Actually, produk Y yang lebih laku.
+
+[08:07 - 08:10]
+20% lebih tinggi daripada produk X minggu ini,
+
+[08:10 - 08:12]
+dari data seharusnya kita lihat di minggu ini.
+
+[08:12 - 08:14]
+B, ngasih data yang lebih clear,
+
+[08:14 - 08:16]
+bukan berdasarkan feeling doang.
+
+[08:16 - 08:19]
+Dan feeling itu nggak bakal kepake di data-driven decision,
+
+[08:19 - 08:21]
+tapi si B-nya juga bisa ngampilin
+
+[08:22 - 08:22]
+analisanya langsung.
+
+[08:22 - 08:25]
+Karena dia ngerti misalnya kayak literasi data itu dalam artian,
+
+[08:25 - 08:27]
+kita tahu cara nyari datanya di mana,
+
+[08:27 - 08:28]
+cara ngebacanya apa,
+
+[08:29 - 08:30]
+table ini maksudnya apa, gitu.
+
+[08:30 - 08:33]
+Jadi nggak susah buat tahu gimana caranya kita bisa baca data
+
+[08:33 - 08:34]
+dan interpretasi datanya,
+
+[08:34 - 08:37]
+kalau kita tahu semua datanya itu maksudnya apa.
+
+[08:37 - 08:40]
+Cara paling gampang adalah untuk melatih data literasi,
+
+[08:40 - 08:41]
+itu harus sering-sering membaca data.
+
+[08:42 - 08:43]
+Tapi bukan cuma ngelihat doang kayak,
+
+[08:43 - 08:45]
+oh ini bagus, ini naik, ini turun, gitu.
+
+[08:45 - 08:46]
+Tapi kita coba deeper,
+
+[08:47 - 08:48]
+dua step, tiga step ahead.
+
+[08:48 - 08:51]
+Jadi di zaman AI, kayaknya bagian-bagian kayak bikin rumus,
+
+[08:52 - 08:54]
+atau misalnya kayak bikin query ber-SQL,
+
+[08:54 - 08:55]
+itu mungkin lebih gampang.
+
+[08:55 - 08:57]
+Atau mungkin someday bakal di-automate.
+
+[08:57 - 08:59]
+Tapi tetap harus ada orang yang ngebaca, kan,
+
+[08:59 - 09:00]
+insight-insight-nya apa,
+
+[09:00 - 09:01]
+sesuai dengan problem yang dibutuhkan.
+
+[09:02 - 09:04]
+Kalau saya, saya bakal coba untuk mengerti dari,
+
+[09:04 - 09:06]
+kalau orangnya orang data, ya.
+
+[09:06 - 09:07]
+Nah, itu dari sisi bisnis.
+
+[09:07 - 09:08]
+Sebenarnya data yang dibutuhin itu apa sih?
+
+[09:08 - 09:10]
+Insight yang dibutuhin itu apa sih?
+
+[09:10 - 09:11]
+Supaya bisa dicari lebih dalam.
+
+[09:11 - 09:14]
+Misalnya kayak, oke, marketing channel yang paling bagus itu apa?
+
+[09:14 - 09:16]
+Apa definisi marketing channel yang bagus?
+
+[09:16 - 09:17]
+Apakah dari sales? Apakah dari traffic?
+
+[09:17 - 09:18]
+Apakah dari conversion rate?
+
+[09:18 - 09:19]
+Gimana cara kita nyarinya?
+
+[09:19 - 09:21]
+Misalnya kayak Instagram ads itu bawah 56,
+
+[09:22 - 09:22]
+persen traffic nih.
+
+[09:22 - 09:24]
+Tapi bagus nggak sih hasilnya, gitu?
+
+[09:24 - 09:26]
+Kita bisa nggak sih bikinnya jadi achievement,
+
+[09:26 - 09:27]
+atau jangan-jangan ini bukan achievement?
+
+[09:27 - 09:31]
+Apa cara kita buat tahu kita semakin bagus data literasinya?
+
+[09:31 - 09:33]
+Kalau ada pertanyaan, kita bisa makin cepat jawabnya.
+
+[09:33 - 09:35]
+Contoh misalnya, biasanya kita jawab satu query,
+
+[09:35 - 09:37]
+satu pertanyaan itu 15 nits.
+
+[09:37 - 09:38]
+Misalnya sekarang jadi 12 nits.
+
+[09:38 - 09:41]
+Artinya kita makin cepat makin ngerti dengan struktur datanya,
+
+[09:41 - 09:42]
+mungkin lebih paham nilai,
+
+[09:43 - 09:44]
+lalu juga cara nyari yang gimana, gitu.
+
+[09:44 - 09:45]
+Terus, ini yang paling penting, ya.
+
+[09:45 - 09:48]
+Ini pelajaran saya pas dulu saya pernah kerja di e-commerce.
+
+[09:48 - 09:50]
+Jangan pernah takut untuk nyentuh data yang persisnya SQL.
+
+[09:51 - 09:52]
+Jangan cuma mau,
+
+[09:52 - 09:53]
+maunya di Excel doang.
+
+[09:53 - 09:55]
+Karena SQL itu nggak susah itu sebenarnya.
+
+[09:55 - 09:57]
+Asal kita cukup literate dengan datanya.
+
+[09:58 - 10:01]
+Kita bisa bikin query SQL itu pakai CGPT sekarang.
+
+[10:01 - 10:04]
+Tapi CGPT-nya perlu diajarin gimana caranya
+
+[10:04 - 10:06]
+dia bisa tahu struktur datanya.
+
+[10:06 - 10:09]
+Itu part dimana kita harus data literate, bilangnya.
+
+[10:09 - 10:11]
+Jadi kita tahu cara baca datanya gimana.
+
+[10:11 - 10:13]
+Supaya kita bisa jelasin prompt-nya CGPT,
+
+[10:13 - 10:14]
+nanti bikinin query-nya.
+
+[10:14 - 10:15]
+Tapi jangan takut.
+
+[10:15 - 10:17]
+Query itu sekarang nggak sesusah itu.
+
+[10:17 - 10:19]
+Karena kalau misalnya teman-teman bekerja dengan data
+
+[10:19 - 10:21]
+yang mungkin cuma 10.000-20.000, ya oke lah.
+
+[10:21 - 10:21]
+Pakai Excel.
+
+[10:21 - 10:23]
+Tapi kalau datanya jutaan row-nya,
+
+[10:23 - 10:24]
+itu udah pasti masuk ke database.
+
+[10:25 - 10:27]
+Dan kita nggak perlu se-advanced data scientist
+
+[10:27 - 10:29]
+atau data analis yang bisa ngotak-ngotik.
+
+[10:30 - 10:32]
+Kita cuma perlu ngambil dari jutaan data itu,
+
+[10:32 - 10:33]
+data yang kita betulkan yang mana,
+
+[10:34 - 10:36]
+kita bikin dalam format table yang bisa kita bikin,
+
+[10:36 - 10:37]
+terus pindahin ke Excel nanti ujung-ujungnya.
+
+[10:38 - 10:40]
+Itu step awal yang paling simpel.
+
+[10:40 - 10:43]
+Supaya kita bisa kasarnya kayak tidak overwhelm
+
+[10:43 - 10:44]
+dengan data yang terlalu banyak.
+
+[10:44 - 10:45]
+Jadi kita seklusikan.
+
+[10:45 - 10:47]
+Skill keempat namanya Experiment Design.
+
+[10:48 - 10:49]
+Jadi sekarang RAN itu udah cepet.
+
+[10:50 - 10:51]
+Mungkin bisa digang terlalu cepet.
+
+[10:51 - 10:52]
+Brand muncul terus.
+
+[10:52 - 10:53]
+Marketing channel muncul terus.
+
+[10:54 - 10:54]
+Trend muncul terus.
+
+[10:55 - 10:56]
+Apa yang hari ini bagus,
+
+[10:56 - 10:57]
+besok mungkin bisa jelek.
+
+[10:57 - 10:59]
+Jadi kekuatan sebuah karir
+
+[10:59 - 11:03]
+itu adalah bisa manuver ketidakpastian ini.
+
+[11:03 - 11:05]
+Karena apapun bisa berubah dengan cepet.
+
+[11:05 - 11:07]
+Contoh, misalnya kayak kita ngomongin trend sosmed,
+
+[11:07 - 11:08]
+post itu tiap hari berubah.
+
+[11:08 - 11:10]
+Lagu yang lagi ngetrend tiap hari berubah.
+
+[11:10 - 11:13]
+Jadi kita harus punya cara atau struktur
+
+[11:13 - 11:14]
+buat bisa bereksperimen
+
+[11:14 - 11:18]
+dan tahu result-nya itu lebih bagus dari sebelumnya.
+
+[11:18 - 11:20]
+Dan ini rahasia banyak perusahaan.
+
+[11:20 - 11:21]
+Mereka pasti ngelakuin banyak sekali.
+
+[11:21 - 11:24]
+Sampai mereka nemu sebuah formula yang cocok buat mereka.
+
+[11:24 - 11:28]
+Kayak Amazon pada zamannya di tahun 2011-an.
+
+[11:28 - 11:31]
+Itu ngelakuin lebih dari 12.000 eksperimen dalam setahun.
+
+[11:32 - 11:32]
+Tujuan ini buat apa?
+
+[11:32 - 11:34]
+Buat naikin conversion rate websitenya
+
+[11:34 - 11:37]
+dan bisa ningkatin omset perusahaan.
+
+[11:37 - 11:39]
+Jadi kayak kita hidup di zaman
+
+[11:39 - 11:41]
+dimana buat sesuatu itu sangat gampang sekarang.
+
+[11:41 - 11:43]
+Biasanya kita mau bikin post sosmed
+
+[11:43 - 11:45]
+atau kita mau bikin post video
+
+[11:45 - 11:48]
+atau kita mau bikin gambar, thumbnail, segala macem gitu.
+
+[11:48 - 11:49]
+Homepage.
+
+[11:49 - 11:50]
+Itu mungkin dalam hitungan hari.
+
+[11:51 - 11:51]
+Atau hitungan jam.
+
+[11:52 - 11:53]
+Bahkan hitungan menit itu udah beres.
+
+[11:53 - 11:55]
+Tapi value-nya bukan di sana.
+
+[11:55 - 11:56]
+Value-nya bukan di cepet-cepetan.
+
+[11:57 - 11:59]
+Tapi di eksperimentasi yang cepet.
+
+[11:59 - 12:00]
+Dan bisa ngukur.
+
+[12:00 - 12:02]
+Ini balik lagi ke data literasi juga ya.
+
+[12:02 - 12:04]
+Cuma di bagian eksperimen desain ini
+
+[12:04 - 12:06]
+gimana caranya kita bisa mendesain eksperimen
+
+[12:06 - 12:09]
+yang bisa ngasih objektif yang sesuai dengan yang kita pengen.
+
+[12:09 - 12:11]
+Jadi sebenarnya flow-nya adalah hipotesis.
+
+[12:11 - 12:14]
+Terus kita keluarin ke matrix apa yang mau diukur.
+
+[12:14 - 12:15]
+Terus kita tes.
+
+[12:15 - 12:16]
+Terus kita belajar lagi.
+
+[12:16 - 12:18]
+Terus kita keluarin lagi hipotesisnya apa.
+
+[12:18 - 12:19]
+Terus kita ukur.
+
+[12:19 - 12:19]
+Terus kita tes.
+
+[12:19 - 12:20]
+Terus kita belajar.
+
+[12:20 - 12:22]
+Apa nih kira-kira yang bisa kita pelajari.
+
+[12:22 - 12:24]
+Nah flow seperti ini yang harus dipertahankan.
+
+[12:24 - 12:26]
+Supaya dia bisa tetap muter loh.
+
+[12:26 - 12:26]
+Misalnya contoh.
+
+[12:27 - 12:28]
+Oh penjual lagi dulu nih.
+
+[12:28 - 12:31]
+Kita bisa gak eksperimen kasih kupon 10 pesan.
+
+[12:31 - 12:32]
+Oke kita kasih kupon 10 pesan.
+
+[12:32 - 12:33]
+Dites dulu nih.
+
+[12:33 - 12:34]
+Jangan kasih ke semua orang.
+
+[12:34 - 12:37]
+Kasihlah ke misalnya 10 pesan aja dari market yang kita punya
+
+[12:37 - 12:39]
+yang pembeliannya paling tinggi gitu.
+
+[12:39 - 12:40]
+Kira-kira mereka ngerespon gak?
+
+[12:40 - 12:42]
+Kalau enggak oke apa yang dipajangin lagi.
+
+[12:42 - 12:46]
+Kenapa market kita tidak sesuai atau tidak ngerespon dengan diskon.
+
+[12:46 - 12:48]
+Jadi hal-hal seperti itu kita harus tetap eksperimenin.
+
+[12:48 - 12:50]
+Apa yang bisa jadi indikator
+
+[12:50 - 12:52]
+kalau kita punya skill eksperimen desain.
+
+[12:52 - 12:55]
+Itu kita bisa track berapa eksperimen yang kita runcurkan dalam sebulan.
+
+[12:55 - 12:57]
+Dan kalau kita bisa dilahsin alasan dibaliknya.
+
+[12:57 - 12:59]
+Learningnya apa segala macam.
+
+[12:59 - 13:01]
+Itu tuh bakal jadi skill yang sangat-sangat berharga.
+
+[13:01 - 13:02]
+Karena skillnya itu jarang.
+
+[13:02 - 13:06]
+Kebanyakan orang yang udah kerja atau mengadakan AI itu kerjanya kayak
+
+[13:06 - 13:07]
+intinya agak males ya.
+
+[13:07 - 13:08]
+Pengennya repetitif.
+
+[13:08 - 13:11]
+Pengennya ngerjain apapun yang dikasih tau sama AI atau sama bosnya.
+
+[13:11 - 13:13]
+Jadi gak ada akuntabilitas.
+
+[13:13 - 13:18]
+Dimana sekarang orang yang punya akuntabilitas atau bisa accountable dengan kerjaannya.
+
+[13:18 - 13:19]
+Dengan ngelakuin eksperimen yang banyak tuh.
+
+[13:19 - 13:21]
+Sangat-sangat akan dicari.
+
+[13:21 - 13:22]
+Skill ke lima.
+
+[13:22 - 13:24]
+Sistem dan proses desain.
+
+[13:24 - 13:26]
+Jadi mengubah SOP jadi automation.
+
+[13:26 - 13:27]
+Maksudnya gimana?
+
+[13:27 - 13:29]
+Kita kan suka ngomong ya.
+
+[13:29 - 13:30]
+AI bisa apa sih?
+
+[13:30 - 13:31]
+Bisa buat automation.
+
+[13:31 - 13:32]
+Bisa buat ini, bisa buat ini.
+
+[13:32 - 13:34]
+Ujung-ujungnya automation, automation, automation.
+
+[13:34 - 13:36]
+Tapi seberapa banyak sih pusat yang sedang ngelakuin automation.
+
+[13:36 - 13:38]
+Dan bener-bener ngerti apa yang mereka automation-in.
+
+[13:38 - 13:41]
+Karena automation itu gak bisa terjadi langsung.
+
+[13:41 - 13:42]
+Gak semua hal bisa di automation-in.
+
+[13:42 - 13:46]
+Dan hal yang bisa di automation-in biasanya harus punya SOP-nya dulu.
+
+[13:46 - 13:48]
+Supaya tau step by step-nya seperti apa.
+
+[13:48 - 13:49]
+Untuk mengontrol.
+
+[13:49 - 13:51]
+Supaya hasil automation-in bagus.
+
+[13:52 - 13:54]
+Gak bisa cuman kayak, oh ini automate, automate, automate, automate.
+
+[13:54 - 13:55]
+Gak jadi apa-apa.
+
+[13:55 - 13:58]
+Karena dia harus tau dulu apakah semua hal itu perlu di automate.
+
+[13:58 - 14:01]
+Dan kalau iya, apakah sudah ada dokumentasinya.
+
+[14:01 - 14:04]
+Dan ini tuh tipe kerjaan yang lumayan banyak ya.
+
+[14:04 - 14:07]
+Jadi pas saya dulu kerja juga banyak kerjaan yang sifatnya kayak gini.
+
+[14:07 - 14:09]
+Misalnya kita waktu itu saya running ads.
+
+[14:09 - 14:12]
+Dari meta running ads buat sifatnya form.
+
+[14:12 - 14:14]
+Buat dapetin data email sama nomor HP.
+
+[14:14 - 14:16]
+Email sama nomor HP ini nanti ditarik manual.
+
+[14:16 - 14:18]
+Terus dia itu gak bisa di sync langsung ke sistem.
+
+[14:18 - 14:19]
+Jadi dia harus ditarik manual.
+
+[14:19 - 14:22]
+Terus harus dicek dulu nih email sama nomor HP ini.
+
+[14:22 - 14:25]
+Kalau kita mau kontak ada gak sih di database gedenya.
+
+[14:25 - 14:26]
+Jadi saya punya database gede.
+
+[14:26 - 14:31]
+Terus saya pair dengan 2 phone number sama email nih ada di file-nya.
+
+[14:31 - 14:32]
+Udah beres nih dilihat.
+
+[14:32 - 14:34]
+Oke ada misalnya dari 100 database baru.
+
+[14:35 - 14:36]
+60 udah ada nih.
+
+[14:36 - 14:36]
+40 yang baru.
+
+[14:36 - 14:38]
+Oke 40 ini baru bisa di kontak.
+
+[14:38 - 14:39]
+Itu pun harus kita benerin dulu.
+
+[14:40 - 14:41]
+Format-formatnya supaya standar semua.
+
+[14:41 - 14:42]
+Itu kan ada beberapa step tuh ya.
+
+[14:43 - 14:44]
+Nah dibanding ngerjain satu-satu.
+
+[14:44 - 14:47]
+Dan itu butuh misalnya kayak bisa 2 jam, 3 jam.
+
+[14:47 - 14:47]
+Saya pakai AI.
+
+[14:47 - 14:49]
+Tapi pakai AI-nya pun enggak.
+
+[14:49 - 14:51]
+Serta-merta kayak kita upload beres gitu.
+
+[14:51 - 14:52]
+Enggak.
+
+[14:52 - 14:54]
+Karena itu berhubungan dengan sifatnya multi-step.
+
+[14:54 - 14:58]
+Nah kalau multi-step kita perlu ubah itu ke format yang lebih reliable.
+
+[14:58 - 14:59]
+Kalau saya waktu itu pakai Phyton.
+
+[14:59 - 15:00]
+Kenapa?
+
+[15:00 - 15:01]
+Karena setiap kali kita upload.
+
+[15:01 - 15:03]
+Upload ke CGPT atau apapun.
+
+[15:04 - 15:05]
+Database utamanya ini terlalu gede.
+
+[15:05 - 15:06]
+Isinya jutaan row.
+
+[15:06 - 15:08]
+CGPT gak bisa terima kayak gitu.
+
+[15:08 - 15:11]
+Jadi harus ada script Phyton yang bisa kayak ngelakuin VLOOKUP lah ya.
+
+[15:11 - 15:12]
+Secara cepet.
+
+[15:12 - 15:13]
+Karena Excel pun gak kuat.
+
+[15:14 - 15:16]
+Nah ini jadi caranya adalah waktu itu pakai Phyton.
+
+[15:16 - 15:19]
+Digabungin terus baru kelihatan kira-kira stepnya.
+
+[15:19 - 15:21]
+Nah step ini harus saya bikin SOP-nya.
+
+[15:22 - 15:23]
+Karena gak bisa diajakin langsung.
+
+[15:23 - 15:25]
+SOP-nya baru diajakin ke tim saya.
+
+[15:25 - 15:26]
+Terus setiap tim saya bisa ngerjain sendiri.
+
+[15:27 - 15:28]
+Ataupun saya ngerjain sendiri juga bisa.
+
+[15:28 - 15:31]
+Karena udah bikin streamnya paling dikerjain cuma 5 menit.
+
+[15:31 - 15:34]
+Jadi ini tuh analoginya kayak mungkin balik zaman dulu.
+
+[15:34 - 15:36]
+Semua orang punya kemampuan untuk bikin mesin gitu.
+
+[15:36 - 15:37]
+Bisa trash cooker.
+
+[15:37 - 15:38]
+Bisa apa-apa gitu.
+
+[15:38 - 15:40]
+Apa yang kita bakal bikin mesinnya.
+
+[15:40 - 15:43]
+Adalah mesin yang kerjaannya tuh painful dan repetitif.
+
+[15:43 - 15:44]
+Misalnya masak nasi dulu.
+
+[15:44 - 15:46]
+Masak nasi dulu harus pakai tungku.
+
+[15:46 - 15:47]
+Kita masukin air.
+
+[15:47 - 15:48]
+Dikutuk-kutuk-kutuk sampai jadi.
+
+[15:48 - 15:49]
+Ribet.
+
+[15:49 - 15:50]
+Bikinlah mesinnya.
+
+[15:50 - 15:51]
+Nah automation juga sama.
+
+[15:51 - 15:52]
+Kita harus identifikasi dulu.
+
+[15:52 - 15:54]
+Gak semua hal harus di-automate.
+
+[15:54 - 15:57]
+Mungkin ada hal-hal yang lebih gampang kita kerjain manual dibanding di-automate.
+
+[15:57 - 16:00]
+Atau hal-hal yang lebih bagus kita kerjain manual dibanding di-automate.
+
+[16:00 - 16:02]
+Jadi kita harus bener-bener tau kapan kita perlu automate.
+
+[16:02 - 16:03]
+Nomor 6.
+
+[16:03 - 16:05]
+Ini masih nyambung sedikit sama yang tadi di-automate.
+
+[16:05 - 16:07]
+Tapi buat temen-temen disini yang non-technical.
+
+[16:07 - 16:08]
+Ataupun technical.
+
+[16:09 - 16:14]
+Kemampuan untuk bikin script dan menggunakan API itu bakal sangat kepake kedepannya.
+
+[16:14 - 16:16]
+Kita gak perlu sepintar orang-orang IT ya.
+
+[16:16 - 16:18]
+Yang bisa bikin aplikasi segala macam gitu.
+
+[16:18 - 16:22]
+Tapi goalnya adalah kita mengerti bikin script kayak dari phyton gitu.
+
+[16:22 - 16:24]
+Dan tau cara menggunakan API.
+
+[16:24 - 16:26]
+Supaya kita bisa menghubungkan beberapa aplikasi langsung.
+
+[16:26 - 16:27]
+Goalnya apa?
+
+[16:27 - 16:29]
+Contoh misalnya saya punya cache sendiri nih.
+
+[16:29 - 16:32]
+Saya punya waktu itu mungkin sekitar 300 file.
+
+[16:33 - 16:33]
+Kalau gak salah.
+
+[16:33 - 16:34]
+Yang harus di rename.
+
+[16:34 - 16:35]
+Harus satu.
+
+[16:35 - 16:36]
+Capek doh kalau harus di rename harus satu.
+
+[16:37 - 16:38]
+Saya coba ke chat GPT.
+
+[16:38 - 16:40]
+Saya tanya kira-kira nih gimana caranya ya.
+
+[16:40 - 16:40]
+Supaya lebih cepet ya.
+
+[16:41 - 16:42]
+Saya upload pun gak bisa ke chat GPT.
+
+[16:42 - 16:43]
+Karena file-nya kebanyakan.
+
+[16:43 - 16:44]
+Jadi dia saranan.
+
+[16:44 - 16:46]
+Ini gak bisa nih di-upload kayak gini.
+
+[16:46 - 16:47]
+Harus pake phyton.
+
+[16:48 - 16:48]
+Oke.
+
+[16:48 - 16:49]
+Yaudah pake phyton deh.
+
+[16:49 - 16:50]
+Gue gak ngerti tapi.
+
+[16:50 - 16:50]
+Bantuin dong.
+
+[16:50 - 16:53]
+Bantuin lah bikin script-nya gimana segala macam gitu.
+
+[16:53 - 16:54]
+Jalan.
+
+[16:54 - 16:54]
+Beres gitu.
+
+[16:54 - 16:57]
+Dan script ini tuh jadinya kayak lumayan legend.
+
+[16:57 - 16:59]
+Jadi dipake sama orang-orang gitu.
+
+[16:59 - 17:02]
+Karena tadinya saya cuma bikin dalam waktu mungkin bikin script-nya udah lama ya.
+
+[17:02 - 17:03]
+Karena hop-trip protective.
+
+[17:03 - 17:06]
+Tapi setelah dibikin langsung jadi yaudah beres gitu.
+
+[17:07 - 17:09]
+Tapi kemampuan buat bikin script ini jadi sangat mahal.
+
+[17:09 - 17:13]
+Karena saya jadinya bisa ngelakuin kerjaan yang mungkin saya klaimin dikerjain 2-3 jam.
+
+[17:13 - 17:14]
+Tapi cuma 5 menit beres.
+
+[17:14 - 17:16]
+Jadinya saya punya waktu luang lebih banyak.
+
+[17:16 - 17:18]
+Dan bisa bantu orang lain juga bikin script.
+
+[17:18 - 17:20]
+Tapi bikin script ini gak susah gitu.
+
+[17:20 - 17:24]
+Karena kita cuma perlu minta chat GPT aja untuk guide ke kita step by step.
+
+[17:24 - 17:29]
+Kalau API bedanya adalah script ini cuma buat mungkin berkaitan dengan apapun yang ada di laptop kita aja.
+
+[17:29 - 17:33]
+API ini dia bisa berhubungan dengan aplikasi di luar.
+
+[17:33 - 17:35]
+Kayak website yang hidup, aplikasi dan sebagainya.
+
+[17:35 - 17:40]
+Nah kita bakal punya kemampuan lebih bagus kalau kita bisa ngerti cara kita berhubungan dengan API.
+
+[17:41 - 17:43]
+Goalnya again bukan menjadi orang IT.
+
+[17:43 - 17:46]
+Tapi menjadi lebih produktif karena kita tahu teknologinya ada di luar sana.
+
+[17:46 - 17:49]
+Dan itu tidak se-intimidate itu.
+
+[17:49 - 17:50]
+Karena kita bisa pakai chat GPT.
+
+[17:50 - 17:55]
+Banyak hal yang saya sampaikan hari ini bakal terdengar sangat-sangat mengintimidasi buat orang-orang yang non-tech.
+
+[17:55 - 17:57]
+Tapi percaya lah ini tuh lumayan gampang kok.
+
+[17:57 - 17:59]
+Dibanding yang bener-bener ngerti banget.
+
+[17:59 - 18:02]
+Karena kita tuh cuma ngambil satu spektrum kecil gitu yang buat kita pelajarin.
+
+[18:02 - 18:04]
+Di kelas ini kita gak belajar seluruh IT.
+
+[18:04 - 18:06]
+Kita cuma belajar scripting dan ngerti API.
+
+[18:07 - 18:07]
+Buat apa?
+
+[18:07 - 18:11]
+Objektifnya ya bikin script simple yang bisa bikin kerjaan kita lebih gampang.
+
+[18:12 - 18:12]
+Oke skill ke 7.
+
+[18:13 - 18:14]
+Ini agak susah menjelaskannya.
+
+[18:14 - 18:16]
+Tapi namanya product atau UX sense.
+
+[18:16 - 18:17]
+Atau taste.
+
+[18:17 - 18:18]
+UX to user experience.
+
+[18:19 - 18:23]
+Di jaman AI, bikin produk yang basisnya code tuh bakal sangat-sangat gampang.
+
+[18:23 - 18:26]
+Kayak saya bikin pada GPT tuh saya coding sendiri dari nol.
+
+[18:26 - 18:26]
+Semuanya.
+
+[18:26 - 18:32]
+Tapi AI tuh bisa bantu kalau pengemudinya itu punya taste design dan taste produknya oke.
+
+[18:32 - 18:33]
+Dia mau bikin produknya seperti apa?
+
+[18:33 - 18:37]
+Karena kalau kita hit enter terus dan kita gak punya panduannya.
+
+[18:37 - 18:38]
+Dia bakal bikin suka-suka dia aja.
+
+[18:39 - 18:40]
+Gak ada patokan, gak ada desainnya.
+
+[18:41 - 18:42]
+Dan bakal jadi ke aplikasi yang sangat random.
+
+[18:43 - 18:46]
+Yang kita mungkin bisa lihat kayak banyak banget aplikasi sekarang yang desainnya gak ada.
+
+[18:46 - 18:47]
+Gak konsisten segala macemnya.
+
+[18:47 - 18:49]
+Itu mungkin karena AI semua gitu.
+
+[18:49 - 18:52]
+Product sense tuh juga bikin sesuatu yang orang pengen.
+
+[18:52 - 18:53]
+Bikin sesuatu yang orang pengen beli.
+
+[18:53 - 18:59]
+Banyak orang itu kayak mungkin agak FOMO dengan oh pengen bikin aplikasi, pengen bikin ini.
+
+[18:59 - 19:04]
+Saya dulu pas jaman kerja di agency banyak banget inquiry bilang kayak kita mau bikin aplikasi nih.
+
+[19:04 - 19:05]
+Buat apa gitu?
+
+[19:05 - 19:06]
+Emang ada yang bakal install aplikasinya?
+
+[19:06 - 19:07]
+Belum tentu dong.
+
+[19:07 - 19:11]
+Kalau kita ngerti cara kita buat mengoptimasi produk yang mau dibikin.
+
+[19:11 - 19:14]
+Ataupun desain cara user experience nya.
+
+[19:14 - 19:16]
+Kita bisa punya peluang lebih tinggi.
+
+[19:16 - 19:17]
+Untuk survive.
+
+[19:17 - 19:20]
+Terutama kalau di bagian industry aspect ya.
+
+[19:20 - 19:23]
+Karena di tech tuh orang yang seperti itu jarang.
+
+[19:23 - 19:26]
+Biasanya tuh kebagiannya cuman kebagian yang technical doang.
+
+[19:26 - 19:28]
+Atau yang bagian yang desainnya doang.
+
+[19:28 - 19:32]
+Tapi kalau di era AI saya bayangin semua orang tuh bakal lebih generalis gitu.
+
+[19:32 - 19:35]
+Desain mungkin orang desain mungkin bisa juga code dikit-dikit dong.
+
+[19:35 - 19:38]
+Sekarang udah banyak kejadiannya orang desain disuruh coding.
+
+[19:38 - 19:41]
+Orang yang coding pun disuruh ngerti desain.
+
+[19:41 - 19:44]
+Jadi tinggal masalah waktu aja nih siapa yang ketemu tangga-tangga.
+
+[19:44 - 19:46]
+Jadi skill ini terpakai bukan cuma buat kerja.
+
+[19:46 - 19:50]
+Bayangin punya skill desain yang bagus tuh kayak kita jadi chef yang bagus.
+
+[19:50 - 19:54]
+Jadi kita punya plate nya dan bahan-bahannya kita mau bikin apa nih.
+
+[19:54 - 19:56]
+Kita bikinnya tuh enggak ya tinggal ngomong doang.
+
+[19:56 - 19:57]
+Eh gue mau bikin ini, bawa ini, ini, ini.
+
+[19:57 - 19:58]
+Sama AI nya.
+
+[19:58 - 20:01]
+Tapi kita tetap harus tentuin kan kira-kira plate ini mau di siapa.
+
+[20:01 - 20:02]
+Ini mau di siapa.
+
+[20:02 - 20:03]
+Ini mau di siapa.
+
+[20:03 - 20:05]
+Bahannya dari mana segala macam gitu.
+
+[20:05 - 20:07]
+Skill ini menggambungkan bukan cuma taste kita juga.
+
+[20:08 - 20:09]
+Referensi kita harus banyak.
+
+[20:09 - 20:11]
+Tapi kita juga harus bisa ngobrol ke customer.
+
+[20:11 - 20:12]
+Menjadi orang produk.
+
+[20:13 - 20:14]
+Ngerti pain point mereka apa.
+
+[20:14 - 20:15]
+Mereka butuhnya apa gitu.
+
+[20:16 - 20:16]
+Jadi.
+
+[20:16 - 20:18]
+Ini skill yang mungkin bisa dibilang agak beyond.
+
+[20:18 - 20:20]
+Dari kita cuma pakai AI doang.
+
+[20:20 - 20:22]
+Dan ini skillnya enggak bisa kita semua pakai AI.
+
+[20:22 - 20:24]
+Jadi enggak bisa kayak ada pertanyaan.
+
+[20:24 - 20:26]
+Bisa enggak nih customer nya pakai AI juga ya.
+
+[20:26 - 20:27]
+Enggak bisa gitu.
+
+[20:27 - 20:27]
+Lapan.
+
+[20:27 - 20:29]
+Namanya overall design dan sales.
+
+[20:29 - 20:32]
+Overall design ini maksudnya kita bikin penawaran.
+
+[20:32 - 20:33]
+Proposal lah.
+
+[20:33 - 20:35]
+Untuk jual dan nego.
+
+[20:35 - 20:37]
+Ini tuh skill yang enggak bisa diajarin.
+
+[20:37 - 20:39]
+Kebanyakan stay smart.
+
+[20:39 - 20:42]
+Contoh misalnya kita tahu nih oh perusahaan ini butuh vendor.
+
+[20:42 - 20:43]
+Terus kita nego.
+
+[20:43 - 20:44]
+Kita mau tawarnya kita nego.
+
+[20:44 - 20:46]
+Itu kita harus pakai enggak bisa.
+
+[20:46 - 20:48]
+Tapi apakah AI bisa sebagus tuh bikin.
+
+[20:48 - 20:50]
+Ada banyak komponen-komponen yang tidak terlihat.
+
+[20:50 - 20:53]
+Contoh misalnya kita harus tahu nih kira-kira orangnya penyedih atau enggak.
+
+[20:53 - 20:56]
+Atau kita harus tahu dulu kayak orang lain tuh butuhnya apa.
+
+[20:57 - 20:59]
+Dan mereka udah pernah dapat penawaran dari siapa aja.
+
+[20:59 - 21:00]
+Cara kita nego mau kayak gimana.
+
+[21:00 - 21:02]
+Cara kita mau tawarnya gimana.
+
+[21:02 - 21:03]
+Pitchingnya mau gimana.
+
+[21:03 - 21:05]
+Ini nih hal-hal yang sifatnya kayak penting.
+
+[21:05 - 21:06]
+Untuk posisi sales.
+
+[21:06 - 21:08]
+Dan cara kita nge-reframenya.
+
+[21:08 - 21:10]
+Kayak misalnya kita jual produk yang sifatnya.
+
+[21:10 - 21:11]
+Sifatnya edukasi.
+
+[21:11 - 21:13]
+Tadi kita bilang ini oh edukasi karyawan gitu.
+
+[21:13 - 21:15]
+Terus kita reframe dikit konsumennya.
+
+[21:15 - 21:16]
+Mungkin bisa lebih bagus gitu.
+
+[21:16 - 21:18]
+Nah sensitivitas seperti ini.
+
+[21:18 - 21:20]
+Itu harus didapatin dengan mungkin ngobrol.
+
+[21:20 - 21:22]
+Tahu konsumennya butuhannya apaan.
+
+[21:22 - 21:23]
+Segala macam.
+
+[21:23 - 21:25]
+Tapi ini skillnya tidak bisa digantiin sama AI.
+
+[21:25 - 21:27]
+Jadi ini mungkin good news ya buat orang-orang sales.
+
+[21:27 - 21:31]
+Karena ini tipikal skill yang sangat didatangi sama orang-orang sales.
+
+[21:31 - 21:33]
+Tapi menurut saya semua orang bisa belajar ini.
+
+[21:33 - 21:35]
+Karena kita bisa ngelakuin simulasi sebenarnya dengan AI.
+
+[21:35 - 21:39]
+Cuma kita tetap perlu tahu dan feedback dunia nyatanya seperti apa.
+
+[21:39 - 21:41]
+Maksudnya feedback dari customer-nya gitu.
+
+[21:41 - 21:42]
+Feedback dari sales-nya seperti apa.
+
+[21:43 - 21:44]
+Persening goal seperti apa.
+
+[21:44 - 21:45]
+Itu tuh sesuatu yang nggak bisa digantiin.
+
+[21:45 - 21:48]
+Experience-nya dengan kita ngobrol sama CGPD doang.
+
+[21:48 - 21:50]
+Contoh misalnya orang ada.
+
+[21:50 - 21:52]
+Kita tahu yang ada brand butuh website.
+
+[21:52 - 21:53]
+Ada orang datang.
+
+[21:53 - 21:54]
+Oke gua bakal desain website lu.
+
+[21:55 - 21:56]
+Fee-nya 5 juta.
+
+[21:56 - 22:01]
+Insya-tuh bilang gua bakal bikin website yang bisa datangin lu omset sebulan 50 juta.
+
+[22:01 - 22:02]
+Fee gua cuma 20 juta aja.
+
+[22:02 - 22:03]
+Sekali dong depan.
+
+[22:03 - 22:04]
+Lu mau beli nggak?
+
+[22:04 - 22:05]
+Nah itu kan beda tuh.
+
+[22:05 - 22:07]
+Insya-tuh nawarin jasa kayak website.
+
+[22:08 - 22:09]
+Insya-tuh nawarin jasa sales.
+
+[22:09 - 22:11]
+Itu kan offer design-nya beda gitu.
+
+[22:11 - 22:13]
+Cara dia membuat penawaran itu beda.
+
+[22:13 - 22:14]
+Angle-nya beda.
+
+[22:14 - 22:15]
+Terus nego-nya seperti apa segala macam.
+
+[22:16 - 22:18]
+Itu sesuatu yang nggak bisa nih AI.
+
+[22:18 - 22:19]
+Emang harus orang biasa.
+
+[22:19 - 22:20]
+Sembilan.
+
+[22:20 - 22:21]
+Skill yang nggak bakal digantiin sama AI.
+
+[22:21 - 22:23]
+Dan skill yang sangat dibutuhkan.
+
+[22:23 - 22:24]
+Audience building.
+
+[22:24 - 22:25]
+Jadi ini kepake buat brand.
+
+[22:25 - 22:26]
+Buat content creator.
+
+[22:27 - 22:28]
+Kalau di KSH content creator.
+
+[22:28 - 22:30]
+Zaman sekarang tuh kebagi dua.
+
+[22:30 - 22:32]
+Konten tuh bakal sangat kebagi dua menurut saya.
+
+[22:32 - 22:34]
+Konten yang sifatnya AI banget.
+
+[22:34 - 22:37]
+Yang kayak auto-generated semua pakai AI segala macam gitu.
+
+[22:37 - 22:38]
+Sama konten yang generic.
+
+[22:39 - 22:40]
+Yang bener-bener orang dibayarnya.
+
+[22:40 - 22:43]
+Dia udah streaming kayak dia bikin video kayak dia bikin video.
+
+[22:44 - 22:45]
+Orang tau siapa dia segala macam gitu.
+
+[22:46 - 22:47]
+Jadi kayak bakal kebagi dua seperti ini.
+
+[22:47 - 22:48]
+Tinggal mau pilih yang mana.
+
+[22:49 - 22:50]
+Kita bisa bikin audience di dua-duanya.
+
+[22:50 - 22:53]
+Dan kayaknya semakin bagus AI semakin bagus juga.
+
+[22:53 - 22:55]
+Hasil kualitas yang pake AI ini.
+
+[22:55 - 22:57]
+Tapi nggak berarti yang authentic ini juga jelek.
+
+[22:57 - 23:00]
+Jadi ini peluang buat temen-temen yang pengen set hasil.
+
+[23:00 - 23:03]
+Bikin konten segala macam tuh bisa jadi jalur utama juga.
+
+[23:04 - 23:05]
+Yang mungkin munculin muka ya.
+
+[23:05 - 23:07]
+Kalau mau full AI juga bisa.
+
+[23:07 - 23:11]
+Tapi saya sebenernya nggak terlalu tau exactly competitionnya secara kenceng apa.
+
+[23:11 - 23:12]
+Karena kalau kita pake faceless.
+
+[23:13 - 23:13]
+Yang nggak ada muka.
+
+[23:14 - 23:15]
+Terus competitionnya seluruh orang dunia.
+
+[23:15 - 23:17]
+Karena bulu-bulu juga banyak sendiri.
+
+[23:17 - 23:18]
+Kayak bikin konten yang nggak ada mukanya.
+
+[23:19 - 23:19]
+Buat dapetin adsense.
+
+[23:20 - 23:21]
+Nanti kayak dijual barang segala macam.
+
+[23:21 - 23:22]
+Dibikin funnelnya gitu.
+
+[23:23 - 23:26]
+Jadi peluang kita mungkin kalau saya nggak sayang lebih banyak ada di munculin muka.
+
+[23:26 - 23:28]
+Karena kita bisa bikin konten yang authentic.
+
+[23:28 - 23:29]
+Dan orang percaya sama kita.
+
+[23:29 - 23:32]
+Dan di sini penting buat kita tau media itu ada dua jenisnya.
+
+[23:32 - 23:33]
+Ada yang owned.
+
+[23:33 - 23:33]
+Ada yang rented.
+
+[23:34 - 23:36]
+Owned tuh maksudnya adalah media yang kita owned sendiri.
+
+[23:36 - 23:37]
+Algoritma yang kita owned sendiri.
+
+[23:38 - 23:39]
+Rented itu adalah kita numpang.
+
+[23:39 - 23:40]
+Contoh saya bikin Youtube nih.
+
+[23:40 - 23:41]
+Ini hitungannya numpang.
+
+[23:41 - 23:42]
+Rented kenapa?
+
+[23:42 - 23:43]
+Karena saya nggak punya akses.
+
+[23:44 - 23:46]
+Buat kayak eh yang subscribe di gue tuh 70 ribu loh.
+
+[23:46 - 23:48]
+Semua orang harusnya nonton video gue.
+
+[23:48 - 23:49]
+Kok nggak ada yang nonton ya?
+
+[23:49 - 23:49]
+Nggak bisa.
+
+[23:49 - 23:50]
+Karena mewah.
+
+[23:50 - 23:51]
+Kita nggak bayar nih.
+
+[23:51 - 23:52]
+Saya nggak bayar ke Youtube.
+
+[23:52 - 23:54]
+Kayak kasih dong ke semua orang yang nonton video saya.
+
+[23:54 - 23:54]
+Nggak bisa.
+
+[23:55 - 23:57]
+Owned media itu kita bisa control.
+
+[23:57 - 23:58]
+Contohnya apa owned media?
+
+[23:58 - 23:59]
+WhatsApp group.
+
+[23:59 - 24:00]
+Email newsletter.
+
+[24:00 - 24:05]
+Tapi misalnya di startup saya di belajar GPT kita punya community sendiri gitu.
+
+[24:05 - 24:05]
+Kita bikin sendiri.
+
+[24:06 - 24:07]
+Itu owned media tuh.
+
+[24:07 - 24:09]
+Siapapun yang mau bikin ya nggak bisa.
+
+[24:09 - 24:10]
+Karena itu punya saya sendiri.
+
+[24:10 - 24:13]
+Jadi buat teman-teman yang pengen coba audience building pastiin punya dua.
+
+[24:13 - 24:14]
+Pastiin punya dua.
+
+[24:14 - 24:15]
+Punya rendered media.
+
+[24:15 - 24:17]
+Karena itu cara kita buat lebih cepet naiknya.
+
+[24:17 - 24:18]
+Pastiin juga punya owned media.
+
+[24:18 - 24:22]
+Dimana kita bisa control penuh reach kita ke audience.
+
+[24:22 - 24:23]
+Terakhir.
+
+[24:23 - 24:28]
+Skill paling penting adalah skill bisa mengambil keputusan dalam keadaan yang tidak pasti.
+
+[24:28 - 24:29]
+Keadaan yang tidak stabil.
+
+[24:29 - 24:30]
+Ini skill loh.
+
+[24:30 - 24:34]
+Kita lagi hidup di zaman dimana AI tuh selalu cepet berkembang ya.
+
+[24:34 - 24:36]
+Dan kita nggak tau jual market tuh bakal seperti apa.
+
+[24:36 - 24:37]
+Bisa ngebut banget.
+
+[24:37 - 24:38]
+Bisa pelan banget.
+
+[24:38 - 24:39]
+Bisa berubahnya banget gitu.
+
+[24:39 - 24:44]
+Banyak tool-tool yang bisa kita pakai untuk mengambil keputusan decision making yang lebih oke.
+
+[24:44 - 24:46]
+Kayak misalnya expected value thinking.
+
+[24:46 - 24:51]
+Dimana kita memperkirakan skenario-skenarionya berdasarkan probabilitas yang terjadi.
+
+[24:51 - 24:54]
+Atau kita bikin checklist pro and consnya.
+
+[24:54 - 24:55]
+Kalau gini gimana.
+
+[24:55 - 24:55]
+Kalau gini gimana.
+
+[24:56 - 24:59]
+Nah skill-skill seperti ini tuh kita bisa minta bantuan AI sih.
+
+[24:59 - 25:02]
+Tapi dengan pengamalan saya pengambilan keputusannya langsung dari kita yang bikin.
+
+[25:02 - 25:04]
+Nggak bisa kita mimpin AI eh.
+
+[25:04 - 25:04]
+Bikinin dong.
+
+[25:04 - 25:05]
+Bantuin dong.
+
+[25:05 - 25:05]
+Nggak bisa itu.
+
+[25:05 - 25:09]
+Dan di sini kalau kita punya framework bisa mengambil keputusan yang bagus.
+
+[25:09 - 25:11]
+Kita bisa lebih bertahan lebih lama.
+
+[25:11 - 25:12]
+Dan kita bisa pakai itu terus-menerus.
+
+[25:12 - 25:14]
+Skill ini sifatnya compounding.
+
+[25:14 - 25:18]
+Karena semakin sering kita menggunakan framework yang kita pakai untuk problem solving.
+
+[25:18 - 25:19]
+Di keadaan yang tidak stabil.
+
+[25:20 - 25:22]
+Semakin gampang juga untuk kita adaptasi di keadaan yang tidak stabil.
+
+[25:23 - 25:25]
+Contoh misalnya kayak sekarang kondisi lagi nggak bagus kayak gini.
+
+[25:26 - 25:32]
+Kita harus tahu nih kira-kira dimana tempat dimana kita bisa mencari uang dengan lebih terprediksi gitu.
+
+[25:32 - 25:33]
+Kalau di case saya adalah saya pilih oke.
+
+[25:34 - 25:35]
+Saya ngeliat trend seperti ini.
+
+[25:35 - 25:38]
+Problem solving saya saya udah ngeliat segala macem.
+
+[25:38 - 25:40]
+Yang paling make sense buat saya adalah saya bangun personal branding.
+
+[25:41 - 25:42]
+Terus saya menjual kontak yang sesuai dengan.
+
+[25:42 - 25:43]
+Personal branding saya.
+
+[25:44 - 25:46]
+Itu kayaknya lebih durable dibanding mencari karir sekarang.
+
+[25:47 - 25:48]
+Dan saya nggak rugi apapun.
+
+[25:48 - 25:50]
+Kalaupun ini personal brandingnya nggak berhasil.
+
+[25:50 - 25:53]
+Saya bisa tetap bisa kerja dengan value yang lebih oke.
+
+[25:53 - 25:57]
+Nah itu terus semua thinking processnya tuh decision makingnya tuh pakai framework yang saya tahu.
+
+[25:57 - 25:57]
+Caranya gimana?
+
+[25:58 - 26:00]
+Kalau saya biasanya kayak saya bakal tulis dulu problemnya.
+
+[26:00 - 26:01]
+Yang kita hadapin sekarang itu apa.
+
+[26:01 - 26:03]
+Terus opsi-opsi yang kita punya itu apa.
+
+[26:03 - 26:06]
+Opsi A, opsi B, opsi C, opsi D.
+
+[26:06 - 26:07]
+Ini cara simple problem solvingnya.
+
+[26:07 - 26:08]
+Terus kita mau tahu nih.
+
+[26:08 - 26:10]
+Kita punya constraint atau kriteria nggak.
+
+[26:10 - 26:12]
+Kita mau apa ujungnya.
+
+[26:12 - 26:13]
+Objektifnya kita mau apa.
+
+[26:13 - 26:15]
+Kita mau optimize misalnya cepat kaya.
+
+[26:15 - 26:16]
+Atau kita mau happy.
+
+[26:16 - 26:18]
+Atau kita mau dekat keluarga.
+
+[26:18 - 26:18]
+Atau mau apa.
+
+[26:18 - 26:19]
+Value kita tuh apa.
+
+[26:19 - 26:22]
+Terus pro and cons-nya apa sih setiap keputusan gitu.
+
+[26:22 - 26:23]
+Jadi kita masukin semua datanya.
+
+[26:24 - 26:27]
+Terus kayak kita kasih tahu juga kalau misalnya ini beresiko.
+
+[26:27 - 26:28]
+Risk mitigation-nya apa.
+
+[26:28 - 26:30]
+Cara kita untuk memitigasi risikonya tuh apa.
+
+[26:30 - 26:32]
+Terus kita harus tahu juga kayak accept scenario-nya.
+
+[26:33 - 26:35]
+Jadi kalau kita pilih opsi A terus nggak berhasil.
+
+[26:35 - 26:38]
+Apa nih indikatornya kalau kita bisa keluar terus kita pilih opsi lain.
+
+[26:38 - 26:41]
+Nah semua ini digabungin jadi satu table gitu.
+
+[26:42 - 26:44]
+Terus kita tinggal pilih kita mau yang mana gitu.
+
+[26:44 - 26:47]
+Jadi ini cara yang mungkin bisa dibantu dengan CGPT.
+
+[26:47 - 26:49]
+Tapi tetep kita harus punya sense lah.
+
+[26:49 - 26:50]
+Kayak oh ini kayaknya nggak kayak gini deh.
+
+[26:50 - 26:51]
+Ini kayaknya kayak gini deh.
+
+[26:51 - 26:52]
+Kita mau kayak gini deh.
+
+[26:52 - 26:54]
+Jadi kita kayak punya asisten buat bantuin.
+
+[26:54 - 26:55]
+Cuman ini skill yang compounding.
+
+[26:55 - 26:58]
+Dan mungkin kalau kita sering ngelakuin kayak saya sekarang.
+
+[26:58 - 26:59]
+Saya kadang-kadang nggak perlu CGPT.
+
+[26:59 - 27:02]
+Karena saya bisa membaikkan scenario sendiri di otak saya.
+
+[27:02 - 27:04]
+Walaupun lebih gampang untuk kita tuangin di CGPT.
+
+[27:05 - 27:07]
+Jadi kurang lebih gitu recap-nya 10 skill.
+
+[27:07 - 27:08]
+Yang pertama problem framing.
+
+[27:08 - 27:10]
+Yang kedua writing sama storytelling.
+
+[27:11 - 27:12]
+Yang ketiga data learning.
+
+[27:12 - 27:12]
+Yang ketiga literasi.
+
+[27:12 - 27:14]
+Yang keempat experiment design.
+
+[27:14 - 27:15]
+Yang kelima automation.
+
+[27:15 - 27:17]
+Yang keenam scripting dan API.
+
+[27:17 - 27:18]
+Yang ketujuh product UX.
+
+[27:19 - 27:21]
+Yang kedelapan design over sales dan negotiation.
+
+[27:21 - 27:23]
+Yang kesembilan audience building.
+
+[27:23 - 27:25]
+Yang kesepuluh decision making.
+
+[27:25 - 27:29]
+Nah skill ini 10 skill ini skill yang bakal timeless.
+
+[27:29 - 27:31]
+Temen-temen kalau punya semua skill ini.
+
+[27:31 - 27:34]
+Pasti di jaman hidup mau ada AI mau nggak ada AI.
+
+[27:34 - 27:35]
+Ada AI lebih bagus lagi.
+
+[27:35 - 27:38]
+Kita pasti tetep bisa lebih tinggi lagi kualitasnya.
+
+[27:38 - 27:40]
+Tapi ini 10 skill yang sangat sangat sangat kepake.
+
+[27:40 - 27:43]
+Dan pilih satu asah terus-menerus gitu.
+
+[27:43 - 27:46]
+Semua orang yang berhasil dan saya perhatiin itu selalu punya skill ini.
+
+[27:46 - 27:47]
+Sedikit banyak.
+
+[27:47 - 27:49]
+Satu dari 10 ini pasti ada minimal.
+
+[27:49 - 27:51]
+Semakin banyak skill yang kita punya semakin bagus.
+
+[27:51 - 27:53]
+Artinya kita semakin gampang survive.
+
+[27:53 - 27:54]
+Thank you udah nonton.
+
+[27:54 - 27:56]
+Temen-temen yang komik banget sampai keunjung ini buat nonton.
+
+[27:56 - 27:59]
+Kalau mau belajar AI sama saya coba cek belajargpt.com.
+
+[27:59 - 28:03]
+Disana saya banyak banget bagi-bagiin tips-tips saya untuk belajar AI.
+
+[28:04 - 28:05]
+Dan saya sendiri yang ngajar.
+
+[28:05 - 28:06]
+Jadi sampai ketemu di kelas.
+
+[28:06 - 28:07]
+Kurang lebih gitu.
+
+[28:07 - 28:08]
+Sampai ketemu di video-video selanjutnya.
+
+[28:09 - 28:09]
+Bye-bye.
+

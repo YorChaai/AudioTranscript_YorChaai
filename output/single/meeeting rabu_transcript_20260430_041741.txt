@@ -1,0 +1,71 @@
+Source: meeeting rabu.mp3
+Language Mode: Indonesian
+Detected: id (100.0%)
+Transcribed: 2026-04-30 04:17:41
+==================================================
+
+Kita mulai dari settlement aja dulu ; Di settlement disini kan kita kan disini ada bagian list-listnya ya ; Contohnya dari singlenya itu ; Yang dari papa kan ada singlenya kan ; Pengeluaran sendiri aja ; Dimana itemnya cuma satuan aja ; Ini kenapa bisa empat ; Karena tadi disengajain ; Apa namanya informasi ditambahin gitu ; Jadinya tuh pendatanya sampai 3000 ; Ada bug gak di actionnya ; Intinya di single ini satu aja itemnya ; Ini gak bisa empat ; Disengajain tadi ; Lebih baik ini dulu ya
+
+==================================================
+TIMESTAMPS (SRT Format):
+
+1
+00:00:02,140 --> 00:00:03,919
+Kita mulai dari settlement aja dulu
+
+2
+00:00:03,919 --> 00:00:07,740
+Di settlement disini kan kita kan disini ada bagian list-listnya ya
+
+3
+00:00:07,740 --> 00:00:10,060
+Contohnya dari singlenya itu
+
+4
+00:00:10,060 --> 00:00:12,199
+Yang dari papa kan ada singlenya kan
+
+5
+00:00:12,199 --> 00:00:14,080
+Pengeluaran sendiri aja
+
+6
+00:00:14,080 --> 00:00:18,179
+Dimana itemnya cuma satuan aja
+
+7
+00:00:18,179 --> 00:00:25,910
+Ini kenapa bisa empat
+
+8
+00:00:25,910 --> 00:00:27,089
+Karena tadi disengajain
+
+9
+00:00:27,809 --> 00:00:30,230
+Apa namanya informasi ditambahin gitu
+
+10
+00:00:30,230 --> 00:00:32,130
+Jadinya tuh pendatanya sampai 3000
+
+11
+00:00:32,130 --> 00:00:33,490
+Ada bug gak di actionnya
+
+12
+00:00:33,850 --> 00:00:35,710
+Intinya di single ini satu aja itemnya
+
+13
+00:00:35,710 --> 00:00:37,329
+Ini gak bisa empat
+
+14
+00:00:37,329 --> 00:00:38,409
+Disengajain tadi
+
+15
+00:00:38,409 --> 00:00:40,340
+Lebih baik ini dulu ya
+

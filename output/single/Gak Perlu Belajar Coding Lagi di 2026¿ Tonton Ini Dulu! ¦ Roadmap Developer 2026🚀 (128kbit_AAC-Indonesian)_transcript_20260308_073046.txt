@@ -1,0 +1,2005 @@
+Source: Gak Perlu Belajar Coding Lagi di 2026¿ Tonton Ini Dulu! ¦ Roadmap Developer 2026🚀 (128kbit_AAC-Indonesian).m4a
+Language Mode: Indonesian
+Detected: id (100.0%)
+Transcribed: 2026-03-08 07:30:46
+
+Belajar
+====
+# Ringkasan isi teks
+
+Teks membahas kekhawatiran programmer terhadap perkembangan AI pada tahun 2026, perubahan peran developer di era AI, roadmap skill developer yang disarankan untuk bertahan, pentingnya fundamental programming, penggunaan AI sebagai alat bantu belajar, teknologi yang disarankan untuk dipelajari, teknik prompting AI, perubahan mindset developer, serta promosi layanan hosting Hostinger yang dapat digunakan sebagai laboratorium belajar infrastruktur web.
+
+---
+
+# Daftar topik yang dibahas
+
+1. Refleksi waktu dan perkembangan teknologi menuju tahun 2026
+2. Kekhawatiran programmer terhadap AI
+3. Dampak AI terhadap profesi programmer
+4. Kondisi programmer yang berpotensi tergantikan AI
+5. Pentingnya beradaptasi dengan perubahan teknologi
+6. Roadmap developer 2026
+7. Pentingnya memahami infrastruktur dan deployment aplikasi
+8. Rekomendasi menggunakan Hostinger sebagai laboratorium belajar
+9. Detail promo Hostinger New Year Sale
+10. Cara membeli hosting di Hostinger dengan kupon
+11. Poin roadmap 2026: fundamental programming
+12. Cara belajar fundamental di era AI
+13. Tips praktis menggunakan AI untuk belajar coding
+14. Pentingnya mental model dalam programming
+15. Teknologi yang disarankan untuk dipelajari di 2026
+16. Contoh project aplikasi yang direkomendasikan untuk latihan
+17. Skill penting di 2026: prompting AI
+18. Contoh prompting sederhana vs prompting tingkat lanjut
+19. Teknik prompt engineering
+20. Sumber belajar resmi prompt engineering
+21. Fitur planning mode pada tools AI coding
+22. Konsep optimasi token dalam penggunaan AI
+23. Evolusi mindset developer
+24. Konsep T-shape developer
+25. Konsep V-shape developer
+26. Perubahan batas antara frontend dan backend
+27. Permintaan industri terhadap developer
+28. Tiga skill manusia yang tidak dimiliki AI
+29. Persaingan developer di era AI
+30. Perdebatan coding manual vs AI
+31. Pesan motivasi belajar programming di era AI
+
+Terdapat **31 topik utama** yang teridentifikasi.
+
+---
+
+# Penjelasan detail untuk setiap topik
+
+---
+
+# Topik 1: Refleksi waktu dan perkembangan teknologi menuju tahun 2026
+
+Total informasi yang ditemukan pada topik ini: **5 poin**
+
+1. Bulan Januari 2026 disebut sudah berlalu dengan cepat.
+2. Tahun 2025 terasa berjalan sangat cepat.
+3. Percepatan waktu terasa lebih kuat pada bulan-bulan terakhir tahun 2025.
+4. Perkembangan teknologi digambarkan sangat cepat.
+5. Perkembangan teknologi terasa sangat intens dan mengejutkan.
+
+---
+
+# Topik 2: Kekhawatiran programmer terhadap AI
+
+Total informasi yang ditemukan pada topik ini: **9 poin**
+
+1. Banyak orang menanyakan tentang masa depan programmer di era AI.
+2. Kekhawatiran muncul sejak awal tahun 2026.
+3. Perkembangan AI dianggap semakin hebat sekaligus menakutkan.
+4. AI baru terus bermunculan hampir setiap hari.
+5. Muncul pertanyaan apakah programmer masih dibutuhkan.
+6. Banyak orang mempertanyakan apakah belajar programming masih layak.
+7. Orang mempertanyakan apakah belajar algoritma masih penting.
+8. Orang mempertanyakan apakah belajar struktur data masih relevan.
+9. Kekhawatiran ini terutama dirasakan oleh programmer pemula.
+
+---
+
+# Topik 3: Dampak AI terhadap profesi programmer
+
+Total informasi yang ditemukan pada topik ini: **6 poin**
+
+1. AI sekarang mampu menghasilkan kode dengan cepat.
+2. AI mampu menghasilkan gambar.
+3. AI mampu menghasilkan video.
+4. AI mampu membuat desain UI aplikasi.
+5. Banyak programmer senior semakin jarang melakukan review kode AI.
+6. Hal ini menimbulkan pertanyaan apakah profesi programmer akan punah.
+
+---
+
+# Topik 4: Kondisi programmer yang berpotensi tergantikan AI
+
+Total informasi yang ditemukan pada topik ini: **5 poin**
+
+1. Programmer yang hanya mengetik sintaks berisiko tergantikan AI.
+2. Programmer yang hanya menyalin kode dari tutorial berisiko tergantikan.
+3. Programmer yang hanya copy-paste dari Stack Overflow berisiko tergantikan.
+4. Programmer yang mengambil kode dari repository GitHub tanpa memahami isinya berisiko tergantikan.
+5. Programmer yang hanya membuat kode agar “sekadar berjalan” berisiko tergantikan.
+
+---
+
+# Topik 5: Pentingnya beradaptasi dengan perubahan teknologi
+
+Total informasi yang ditemukan pada topik ini: **4 poin**
+
+1. Programmer perlu berevolusi.
+2. Programmer perlu beradaptasi dengan perubahan teknologi.
+3. Programmer perlu mengubah mindset.
+4. Permintaan terhadap software engineer masih tinggi.
+
+---
+
+# Topik 6: Roadmap developer 2026
+
+Total informasi yang ditemukan pada topik ini: **3 poin**
+
+1. Roadmap developer tidak hanya berisi daftar teknologi.
+2. Roadmap juga mencakup mindset.
+3. Roadmap mencakup strategi dan skill bertahan di era AI.
+
+---
+
+# Topik 7: Pentingnya memahami infrastruktur dan deployment aplikasi
+
+Total informasi yang ditemukan pada topik ini: **7 poin**
+
+1. Developer tidak boleh hanya bisa menjalankan aplikasi di localhost.
+2. Developer harus memahami cara kerja internet.
+3. Developer harus memahami DNS.
+4. Developer harus memahami SSL.
+5. Developer harus memahami konfigurasi server.
+6. Developer harus memahami cara menangani request.
+7. Developer harus memahami cara menangani response dalam aplikasi nyata.
+
+---
+
+# Topik 8: Rekomendasi menggunakan Hostinger sebagai laboratorium belajar
+
+Total informasi yang ditemukan pada topik ini: **6 poin**
+
+1. Developer disarankan membuat laboratorium belajar sendiri.
+2. Laboratorium dapat berupa server nyata.
+3. Server dapat digunakan untuk eksperimen website secara langsung.
+4. Hostinger dapat digunakan sebagai tempat hosting website.
+5. Hostinger juga dapat digunakan sebagai sandbox belajar.
+6. Hostinger dapat digunakan untuk mempelajari fundamental website.
+
+---
+
+# Topik 9: Detail promo Hostinger New Year Sale
+
+Total informasi yang ditemukan pada topik ini: **4 poin**
+
+1. Hostinger mengadakan promo New Year's Sale.
+2. Diskon mencapai hingga 80%.
+3. Promo berlaku untuk layanan hosting.
+4. Ada tambahan diskon 15% khusus untuk audiens tertentu.
+
+---
+
+# Topik 10: Cara membeli hosting di Hostinger dengan kupon
+
+Total informasi yang ditemukan pada topik ini: **9 poin**
+
+1. Pengguna harus mengunjungi link khusus.
+2. Pengguna dapat mengklik link pada deskripsi video.
+3. Promo hanya aktif jika menggunakan link tersebut.
+4. Disarankan memilih paket minimal 1 tahun.
+5. Pengguna dapat memasukkan kode kupon saat checkout.
+6. Kode kupon yang digunakan adalah WPUHST15.
+7. Kode memberikan potongan tambahan 15%.
+8. Kode berlaku hingga 11 Maret 2026.
+9. Pengguna harus membuat akun baru dengan email yang belum pernah digunakan.
+
+---
+
+# Topik 11: Poin roadmap 2026: fundamental programming
+
+Total informasi yang ditemukan pada topik ini: **6 poin**
+
+1. Fundamental programming tetap penting.
+2. Beberapa orang menganggap belajar algoritma tidak perlu karena AI.
+3. Beberapa orang menganggap klien tidak peduli teknologi yang digunakan.
+4. Tanpa fundamental developer diibaratkan seperti pilot yang hanya menggunakan autopilot.
+5. Tanpa fundamental developer tidak mampu mengatasi masalah saat sistem bermasalah.
+6. Tanpa fundamental developer tidak dapat memahami keamanan kode.
+
+---
+
+# Topik 12: Cara belajar fundamental di era AI
+
+Total informasi yang ditemukan pada topik ini: **3 poin**
+
+1. Dulu belajar fundamental bisa memakan waktu 6 bulan sampai 1 tahun.
+2. Di era AI belajar fundamental perlu dipercepat.
+3. Target belajar fundamental dapat dipercepat menjadi 1-2 bulan.
+
+---
+
+# Topik 13: Tips praktis menggunakan AI untuk belajar coding
+
+Total informasi yang ditemukan pada topik ini: **7 poin**
+
+1. AI sebaiknya digunakan sebagai mentor pribadi.
+2. Jangan meminta AI menulis kode sejak awal.
+3. Minta AI menjelaskan konsep dengan analogi.
+4. Jangan langsung meminta solusi ketika error.
+5. Minta AI menjelaskan konsep yang salah dipahami.
+6. Gunakan AI untuk membuat soal latihan.
+7. Latihan recall membantu memperkuat pemahaman.
+
+---
+
+# Topik 14: Pentingnya mental model dalam programming
+
+Total informasi yang ditemukan pada topik ini: **4 poin**
+
+1. Developer perlu memiliki mental model yang kuat.
+2. Mental model membantu memahami sistem secara mendalam.
+3. Mental model membantu menggunakan tools AI dengan benar.
+4. AI hanya alat yang mempercepat pekerjaan.
+
+---
+
+# Topik 15: Teknologi yang disarankan untuk dipelajari di 2026
+
+Total informasi yang ditemukan pada topik ini: **7 poin**
+
+1. React masih menjadi teknologi utama frontend.
+2. React memiliki ekosistem JavaScript yang luas.
+3. Framework React yang disebut termasuk Next.js.
+4. Framework React yang disebut termasuk Remix.
+5. TanStack digunakan untuk manajemen data.
+6. React Native digunakan untuk membuat aplikasi mobile multiplatform.
+7. Laravel masih relevan di tahun 2026.
+
+---
+
+# Topik 16: Contoh project aplikasi latihan
+
+Total informasi yang ditemukan pada topik ini: **10 poin**
+
+1. Developer disarankan membuat aplikasi yang menyelesaikan masalah nyata.
+2. Aplikasi pertama adalah personal learning tracker.
+3. Aplikasi tersebut mencatat proses belajar harian.
+4. Aplikasi dapat menyimpan topik yang dipelajari.
+5. Aplikasi memiliki fitur challenge.
+6. AI memberikan latihan tambahan dari catatan belajar.
+7. Contoh kedua adalah aplikasi rekomendasi resep.
+8. Aplikasi dapat membaca bahan makanan dari foto.
+9. Aplikasi memberikan rekomendasi resep.
+10. Aplikasi dapat menampilkan informasi nutrisi seperti kalori dan protein.
+
+---
+
+# Topik 17: Skill penting di 2026: prompting AI
+
+Total informasi yang ditemukan pada topik ini: **4 poin**
+
+1. Prompting menjadi skill penting di tahun 2026.
+2. Prompting bukan sekadar memberi perintah sederhana.
+3. Prompting tingkat lanjut membutuhkan spesifikasi teknis.
+4. Prompting yang baik menghasilkan kode yang lebih optimal.
+
+---
+
+# Topik 18: Teknik prompt engineering
+
+Total informasi yang ditemukan pada topik ini: **3 poin**
+
+1. Chain of Thought meminta AI menjelaskan langkah berpikir.
+2. Few Shot Prompting memberikan contoh sebelum meminta hasil.
+3. Context Injection menentukan peran AI sebelum menjawab.
+
+---
+
+# Topik 19: Konsep optimasi token
+
+Total informasi yang ditemukan pada topik ini: **4 poin**
+
+1. Setiap instruksi ke AI menggunakan token.
+2. Token berhubungan dengan biaya penggunaan AI.
+3. Developer masa depan harus efisien menggunakan token.
+4. Prompt harus padat dan jelas.
+
+---
+
+# Topik 20: Evolusi mindset developer
+
+Total informasi yang ditemukan pada topik ini: **3 poin**
+
+1. Cara coding berubah di era AI.
+2. Cara industri melihat developer juga berubah.
+3. Developer perlu menyesuaikan mindset dengan perubahan ini.
+
+---
+
+# Topik 21: Konsep T-shape developer
+
+Total informasi yang ditemukan pada topik ini: **3 poin**
+
+1. T-shape developer memiliki pengetahuan luas di banyak bidang.
+2. T-shape developer memiliki satu keahlian yang sangat dalam.
+3. Model ini mulai kurang kompetitif di era AI.
+
+---
+
+# Topik 22: Konsep V-shape developer
+
+Total informasi yang ditemukan pada topik ini: **5 poin**
+
+1. V-shape developer memiliki dua keahlian utama.
+2. Kedua keahlian tersebut sama kuatnya.
+3. Kedua keahlian saling beririsan.
+4. Contoh kombinasi adalah frontend dan UI/UX.
+5. Contoh kombinasi lainnya adalah backend dan AI engineering.
+
+---
+
+# Topik 23: Perubahan batas antara frontend dan backend
+
+Total informasi yang ditemukan pada topik ini: **4 poin**
+
+1. Batas antara frontend dan backend semakin kabur.
+2. AI dapat membantu membuat database schema.
+3. AI dapat membantu membuat UI dengan cepat.
+4. AI mengurangi hambatan teknis antar bidang.
+
+---
+
+# Topik 24: Permintaan industri terhadap developer
+
+Total informasi yang ditemukan pada topik ini: **4 poin**
+
+1. Industri lebih mencari developer full-stack.
+2. Perusahaan ingin developer menyelesaikan masalah bisnis.
+3. Perusahaan ingin aplikasi menghasilkan nilai bisnis.
+4. Developer harus menjadi problem solver.
+
+---
+
+# Topik 25: Tiga skill manusia yang tidak dimiliki AI
+
+Total informasi yang ditemukan pada topik ini: **6 poin**
+
+1. Skill pertama adalah accountability.
+2. Developer bertanggung jawab atas aplikasi yang dibuat.
+3. AI tidak bertanggung jawab jika aplikasi gagal.
+4. Skill kedua adalah memahami konteks pengguna.
+5. Skill ketiga adalah kemampuan problem solving.
+6. Developer harus menentukan pertanyaan yang tepat untuk AI.
+
+---
+
+# Topik 26: Persaingan developer di era AI
+
+Total informasi yang ditemukan pada topik ini: **3 poin**
+
+1. Developer tidak akan kalah dari AI secara langsung.
+2. Developer bisa kalah dari programmer yang memanfaatkan AI lebih baik.
+3. Non-programmer juga mulai menggunakan AI.
+
+---
+
+# Topik 27: Perdebatan coding manual vs AI
+
+Total informasi yang ditemukan pada topik ini: **3 poin**
+
+1. Perdebatan antara vibe coding dan manual coding dianggap tidak relevan.
+2. Menggunakan AI untuk coding sudah menjadi standar.
+3. Perbedaan hasil tergantung kemampuan memberi instruksi kepada AI.
+
+---
+
+# Topik 28: Pesan akhir tentang belajar programming
+
+Total informasi yang ditemukan pada topik ini: **5 poin**
+
+1. AI adalah multiplier.
+2. Jika kemampuan dasar nol maka AI tidak memberi manfaat.
+3. Jika fundamental kuat AI mempercepat belajar.
+4. Developer harus membangun fondasi kuat lebih dulu.
+5. Pemahaman hari ini menentukan kemampuan menggunakan AI di masa depan.
+
+---
+
+# Informasi tambahan yang tersirat dalam teks
+
+1. AI sedang mengubah cara kerja industri software secara signifikan.
+2. Kemampuan memahami sistem lebih penting daripada sekadar menulis kode.
+3. Skill komunikasi dengan AI menjadi bagian dari pekerjaan developer.
+4. Developer masa depan harus menggabungkan kemampuan teknis dan bisnis.
+5. Infrastruktur dan deployment menjadi skill dasar baru bagi developer modern.
+6. AI meningkatkan produktivitas developer yang sudah memiliki dasar kuat.
+7. Developer yang tidak memahami fundamental akan semakin tertinggal di era AI.
+
+====
+
+==================================================
+
+Nggak kerasa ya teman-teman, bulan Januari 2026 udah lewat aja. ; Kayaknya 2025 itu cepet banget berlalunya ya, apalagi di bulan-bulan terakhir. ; Rasanya tuh kayak beuh, dar-dardor banget tuh sama perkembangan teknologinya. ; Tapi gimana nih, kabar resolusi coding kalian di tahun 2026 ini? ; Apakah masih on fire atau malah udah mulai kendor dikit? ; Mudah-mudahan semangat belajarnya masih terus menyala ya teman-teman. ; Meskipun kayaknya saya tahu nih, ada rasa semangat tapi campur aduk sama rasa was-was. ; Ada satu keresahan yang kayaknya kita lagi rasain bareng-bareng nih. ; Cukup banyak yang nanya ke saya kayak gini, ; Pak, baru sebulan nih di 2026, perkembangan AI makin keren sekaligus makin ngeri nih. ; Ada JetGPT, Gemini, Cloud Code, Cursor, Anti-Graffiti. ; Dan yang paling baru nih, ada Moldbot, evolusi dari Cloudbot yang lagi heboh-hebohnya nih sekarang. ; Ada tau nggak? ; Kenapa? Karena dia udah bisa otomasi hampir seluruh siklus kerja kita. ; Sekarang tuh rasanya kayak tiap bangun tidur, ada aja tools AI baru yang bikin kita kaget gitu. ; Nah, terus muncul nih pertanyaan besar di kepala kita. ; Kita sebagai programmer tuh masih bakalan kepake nggak sih? ; Masih wow? ; Worth it nggak sih kita capek-capek belajar programming, algoritma, struktur data? ; Padahal AI bisa ngerjain itu semua dalam sekejap mata. ; Jujur aja pertanyaan ini wajar banget buat muncul, teman-teman. ; Apalagi buat kita yang baru belajar. ; Tapi jangankan kalian, saya juga sempet mikir hal yang sama kok. ; Ini orang-orang tuh sebenernya masih butuh nggak sih tutorial atau pembelajaran dasar programming? ; Atau semuanya sekarang udah lewat AI aja? ; Terus dulu kita juga mikir nih, kreativitas tuh nggak bisa digantiin sama mesin. ; Eh, ternyata sekarang AI bisa generate gambar, video, bahkan UI aplikasi ; yang bagus banget. ; Nah, terus abis itu kita mikir lagi. ; Ah, nggak mungkin AI bisa bikin kode yang sempurna. ; Pasti tetap harus direview lagi sama programmernya. ; Eh, ternyata sekarang para programmer senior itu makin sedikit nge-review kode hasil dari AI. ; Nah, apakah ini adanya kiamat buat profesi programmer? ; Jawaban singkatnya, bisa iya. ; Kalau definisi programmer kalian tuh cuma tukang ketik sintaks kodingan aja. ; Kalau sebelumnya kalian cuma bisa copy-paste dari tutorial ; atau dari stack overflow tanpa paham isinya. ; Atau kalau kalian cuma comot-comot kode dari repo GitHub gitu ya, ; misalnya hanya supaya asal jalan aja. ; Maka siap-siap, peran kalian bakalan hilang digantiin sama AI. ; Nah, tapi jawabannya bakalan jadi tidak ; kalau kalian mau berevolusi, beradaptasi, dan ngubah mindset kalian. ; Karena faktanya, kebutuhan akan software engineer itu justru tetap tinggi saat ini. ; Cuma level permainannya aja, playing field-nya yang berubah drastis. ; Nah, makanya di video kali ini, kita bakalan bahas roadmap developer di 2020. ; Bukan cuma list teknologi atau bahasa penggambaran apa yang harus kalian pelajari, ; tapi lebih ke mindset, ; strategi, dan skill survival apa yang bakalan bikin kalian tuh jadi mahal gitu ya. ; Oke, tapi sebelum kita masuk ke materinya, ; saya mau bahas dulu satu hal yang cukup penting dulu, ; yaitu soal infrastruktur dan deployment aplikasi kalian. ; Karena punya skill mengenai dual itu juga cukup penting di saat ini ya. ; Kalau kalian mau bertahan, kalian tuh nggak bisa cuma jago di local host aja. ; Kalian harus paham mulai dari bagaimana internet itu bekerja, ; apa itu DNS, apa itu SSL, ; gimana cara config server, ; gimana cara handle request dan respond di dunia nyata. ; Nah, coba bangun laboratorium, ; atau lab kalian sendiri. ; Jangan cuma simulasi di kertas, ; tapi coba pakai server beneran buat kalian eksperimen. ; Kalian butuh tempat buat setup dan benerin website kalian secara live. ; Dan salah satu tempat buat mulainya adalah di Hostinger, teman-teman. ; Hostinger ini bukan cuma buat nge-host website klien aja, ; tapi juga bisa jadi sandbox atau lab buat belajar fundamental website. ; Kalian bisa oprek file manager secara langsung, ; bisa belajar bikin dan manage database secara real, ; bisa belajar setting DNS record dan email server juga. ; Dan kebetulan, saat ini Hostinger lagi ada pro, ; promo New Year's Sale. ; Diskonnya gila-gilaan, up to 80% untuk layanan hosting mereka. ; Jadi ini adalah waktu yang tepat buat kalian upgrade skill infrastruktur kalian. ; Dan bukan cuma itu, khusus buat kalian para pasukan Titikoma nih. ; Kalian bisa dapetin diskon tambahan lagi sebesar 15%. ; Caranya gampang aja, kalian tinggal kunjungi link khususnya di sini. ; Atau kalian bisa langsung klik aja link yang ada di deskripsi di video ini ya. ; Pastiin kliknya lewat link tersebut, karena promonya hanya aktif lewat link itu. ; Nah, karena di video ini kita butuh laboratorium buat belajar, ; langsung aja kita bakal... ; kalian cobain bikin produk hosting yang sesuai dengan kebutuhan kalian. ; Saran saya, kalian pilih paket dengan durasi minima 1 tahun atau 2 tahun lah. ; Supaya kerasa banget hematnya dan nggak ribet lagi untuk perpanjang bulanan. ; Untuk sekarang, saya cobakan pilih yang 1 tahun. ; Nah, pas di halaman check out, perhatiin nih. ; Di bagian pembayaran, klik tulisan punya kode kupon. ; Lalu masukin aja kode kupon sakti kita, yaitu WPUHST15. ; Ingat ya, kodenya WPUHST15 untuk dapetin potongan 15% ekstra. ; Dan kode ini hanya berlaku sampai 15%. ; 11 Maret 2026 nanti. ; Selanjutnya, ini langkah yang penting banget nih. ; Isi alamat email yang belum pernah kalian daftarin sebelumnya di Niagahoster atau Hostinger. ; Dan pastiin kalian bikin account-nya itu secara manual. ; Isi form-nya ya. ; Jangan login pake tombol Google atau Facebook biar datanya fresh. ; Setelah itu, tinggal pilih negaranya. ; Indonesia aja. ; Pilih metode pembayaran yang paling gampang buat kalian. ; Lalu lakukan pembayaran sesuai dengan harga promo yang udah di diskon tadi. ; Nanti kalau udah sukses, kalian bakalan dapet email konfirmasi dari Hostinger. ; Dan tinggal login aja ke account kalian. ; Lalu siap. ; Untuk setup server-nya. ; Ya, jadi sekali lagi jangan ragu buat pilih Hostinger sebagai partner infrastruktur kalian. ; Karena server-nya ini ada di seluruh dunia. ; Jadi aksesnya bakalan ngebut. ; Keamanannya juga canggih. ; Jadi kalian gak perlu takut soal security-nya. ; Dan kalau kalian udah punya web di tempat lain. ; Hostinger bisa kasih gratis migrasi dari website lama atau hosting lama ke Hostinger. ; Jadi yuk, segera klaim promo-nya sekarang juga. ; Mumpung masih ada promo New Year Sale dan ekstra diskon 15% sebelum harganya balik ke normal lagi. ; Nah, itu dia temen-temen ya. ; Kalau sudah berhasil belinya. ; Sekarang kita balik ke materi video. ; Poin pertama dalam roadmap 2026. ; Jangan skip fundamental. ; Tapi, pelajari dengan cepat. ; Ada yang bilang, ngapain pak belajar basic lagi, ngapain belajar algoritma? ; Kan tinggal suruh AI aja. ; Atau malah ada yang ngomong gini ke saya nih. ; Ah pak, klien itu gak perlu tahu aplikasinya dibuat pakai apa. ; Yang penting aplikasinya jalan. ; Nah, sebenarnya ini bisa jadi jebakan buat kalian para pemula nih di 2026 ini. ; Karena tanpa fundamental, kalian tuh ibaratnya pilot yang cuma tahu cara pencet tombol autopilot aja. ; Tapi gak tahu cara nerbangin pesawat secara manual. ; Kalau cuaca buruk, atau ada kendala di udara, gimana? ; Kalau AI-nya lagi halusinasi ngasih kode yang jadul misalnya, atau rentan celah keamanan, gimana? ; Kalian gak bakalan tahu harus ngapain berikutnya. ; Dan yang lebih parahnya, kalian gak tahu kalau kode kalian tuh gak aman. ; Tapi saya setuju nih, kalau cara belajarnya juga harus berubah. ; Kalau dulu, kalian belajar fundamental tuh butuh 6 bulan sampai setahun gitu ya. ; Sekarang di era AI, mau gak mau, kalian harus bisa speedrun dalam waktu 1 sampai 2 bulan. ; Kita manfaatin AI bukan sebagai joki, tapi jadiin mentor pribadi 24 jam. ; Pertanyaannya, ; nih, saya ada beberapa tips praktisnya. ; Yang pertama, jangan pernah minta AI bikinin kodenya di awal. ; Tapi kalian mulai dengan minta analogi. ; Contoh, daripada kalian tanya gimana cara pakai fetch API gitu ya misalnya. ; Lebih baik kalian tanya gini, misalnya jelasin konsep asinkronus di Javascript pakai analogi gitu. ; Ini bakalan bikin kalian paham kenapa kode itu ada, bukan cuma kodenya apa gitu. ; Yang kedua, kalau kode kalian error, ini nih godaan terbesarnya nih. ; Kalian copy paste errornya ke AI, AI kasih solusinya, selesai. ; Iya kan? Siapa coba yang kayak gitu? ; Stop, jangan lakuin itu. ; Itu gak akan bikin kalian pinter dan ngerti. ; Coba ubah promenya jadi gini. ; Misalnya gini, ini error log saya. ; Jangan kasih kodenya dulu, tapi kasih tau saya konsep mana yang saya salah pahami. ; Kayak misalnya. ; Dan di baris mana kemungkinan permasalahannya. ; Nanti AI bakalan ngarahin, dan kalian tetep yang jalanin tugasnya. ; Dengan cara ini, kalian jadi belajar cara membaca error log. ; Sebuah skill yang kayaknya makin langka di tahun 2026 ini. ; Tapi harganya makin mahal. ; Tips yang ketiga, minta AI buat ngetes kalian. ; Setelah kalian belajar satu bagian atau satu bab atau satu skill, ; atau satu topik lah gitu ya. ; Misalnya kalian lagi belajar metode array gitu. ; Coba bilang ke AI-nya. ; Saya baru belajar misalnya map, filter, reduce gitu ya. ; Coba kasih saya tiga tantangan logika sederhana buat ngetes pemahaman saya. ; Tapi jangan kasih jawabannya dulu. ; Nah misalnya gitu kalian mintanya. ; Ini nanti bakalan maksa otak kalian buat belajar dengan cara nge-recall ya. ; Memanggil kembali informasi, bukan cuma baca aja. ; Jadi intinya, kalian tetep butuh kuasain fundamental. ; Karena kalian butuh mental model yang kuat. ; Supaya nanti pas kalian pake tools-tools tingkat dewa kayak cloud, ; kursor, anti-gravity, bahkan si moldboard tadi. ; Kalian tuh tetep pilotnya. ; Kalian yang nentuin arah terbangnya. ; AI tuh cuma jadi mesin jetnya aja. ; Yang bakalan bikin kalian nyampe ke tempat tujuan 10 kali lebih cepat. ; Jangan sampai kalian cuma jadi penumpang yang pasrah gitu ya. ; Yang gatau pesawatnya mau dibawa kemana. ; Terserah AI-nya mau ngasih apa, kita pake. ; Jangan kayak gitu. ; Nah, kalo otak kalian udah siap dengan fundamental yang kuat, ; pertanyaannya sekarang adalah senjata apa yang harus kalian miliki di 2026? ; Karena jujur aja, pilihan teknologi itu kan sekarang makin spesial. ; Kalian jantelan semuanya karena banyak banget. ; Kalian pilih senjata yang paling tajem dan punya masa depan cerah di era AI ini. ; Nah, makanya di poin kedua di roadmap ini kita akan bahas 3 bahasa atau teknologi ; yang rasanya masih juaranya lah buat kalian pilih untuk kalian pelajari. ; Yang pertama adalah React dengan ekosistem Javascript-nya. ; Ini kayaknya masih jadi raja ya yang tidak tergoyahkan untuk aplikasi frontend kita. ; Di dalamnya ada framework yang kalian bisa pake seperti Next.js, ; Remix, ; TanStack untuk manajemen data, ; ada React Native untuk bikin multiplatform ya, ; bikin aplikasi mobile, ; gitu. ; Berikutnya ada Laravel. ; Buat yang bilang PHP udah mati, mungkin kalian mainnya kurang jauh. ; Di 2026, Laravel tuh makin keren. ; Karena ada Laravel Cloud yang bikin deployment jadi gampang banget. ; Ada Livewire 4, versi baru dari Livewire yang bikin aplikasi interaktif ; tanpa harus pindah-pindah ke kode Javascript. ; Dan yang paling baru nih, ada Laravel Boost. ; Integrasi AI resmi dari Laravel yang bisa bantu kita auto-generate testing ; sampai optimasi query database secara otomatis. ; Dan teknologi ketiga ada Python ya. ; Karena ini adalah bahasa ibunya lah. ; Kalau kalian mau bikin aplikasi AI, manipulasi dan visualisasi data, ; atau integrasi ke model AI yang lebih dalam, ; kalian bisa pake Python. ; Tapi inget, apapun bahasanya, ; kalian jangan cuma belajar teknologinya dan nontonin tutorialnya aja. ; Selalu praktek untuk bikin sesuatu dari apa yang udah kalian pelajari. ; Tipsnya, bikin aplikasi yang jadi solusi untuk diri kalian atau orang-orang di sekitar kalian. ; Dan manfaatin AI supaya aplikasi kalian makin keren. ; Jangan cuma bikin to-do list atau crude yang simple gitu ya. ; Itu udah pasaran lah. ; Misalnya gini, bikin aplikasi personal learning practice. ; Tracker. ; Aplikasi buat catat proses belajar kalian. ; Jadi, kalian catat nih apa yang udah kalian pelajari hari ini, ; terus masukin ke aplikasinya. ; Misalnya, belajar array di Javascript tadi. ; Terus nanti di dalamnya kalian kasih fitur challenge me. ; Tombol challenge me gitu ya. ; Jadi nanti bakalan ada AI yang baca catatan kalian, ; terus dia kasih tau referensi atau latihan tambahan, ; supaya kalian makin paham. ; Di sini nanti kalian nggak cuma belajar crude aja, ; tapi juga belajar integrasi API, ; terus juga cara ngelola data JSON. ; Atau contoh berikutnya, misalnya kalian bikin aplikasi yang bisa rekomendasi resep, ; berdasarkan bahan makanan di dapur atau kulkas kalian. ; Jadi tuh kalian tinggal foto bahan makanannya, ; atau bisa diketik secara manual gitu ya. ; Nanti aplikasi kalian akan otomatis kasih rekomendasi resep makanan, ; yang memungkinkan untuk dibuat pake bahan makanan yang tadi. ; Lengkap dengan estimasi waktu, kalorinya berapa, protein, lemak, karbo, berapa gitu ya. ; Jadi ini dua contoh project yang praktis, ; bisa kalian pake tiap hari. ; Dan yang paling penting, ini adalah barang jadi gitu ya, ; yang disukain sama recruiter atau klien karena solusinya nyata. ; Bukan cuma aplikasi pasaran, ; dari tutorial aja. ; Nah setelah kalian pegang senjatanya, entah itu React, Laravel, atau Python tadi, ; pertanyaan berikutnya adalah, ; gimana cara kalian merintah AI buat ngebantu kalian pake senjata itu? ; Disinilah kita bakal masuk ke skill yang paling krusial di 2026, ; yang bakalan jadi poin ketiga dari roadmap kita. ; Apa itu? Prompting. ; Banyak orang mikir prompting itu cuma sekedar nanya, nyuruh, atau bahkan mecut AI ya. ; Padahal promptingnya seorang senior engineer itu jauh beda temen-temen. ; Levelnya sama kita yang baru belajar. ; Kalau pemula kan biasanya cuma simple aja. ; Buatkan saya halaman login, gitu ya misalnya. ; Buatkan saya UI interface untuk website kedai kopi, misalnya gitu. ; Hasilnya, mungkin kadang terlihat bagus ya, ; tapi kalau kita perhatiin kodenya, kodenya standar gitu ya. ; Kadang gak aman, kadang gak optimal, ; atau bahkan gak cocok sama struktur project kalian. ; Tapi prompting yang bagus itu misalnya kayak gini, sedikit lebih detail. ; Misalnya buat modul login menggunakan NextAuth versi 5. ; Integrasikan dengan Prisma dan PostgreSQL. ; Terapkan proteksi CSRF. ; Gunakan Zod untuk validasi schema. ; Dan pastikan, ; kodenya mengikuti prinsip solid. ; Outputnya harus dalam TypeScript dengan strict type safety. ; Jadi kayak gitu ya, jauh lebih detail. ; Nah, kenapa seorang senior bisa sespecifik itu? ; Jawabannya, balik lagi ke part 1 tadi, fundamental. ; Karena mereka tahu batasan sistemnya. ; Mereka tahu celah keamanannya. ; Dan mereka tahu standar dan best practice di industri. ; Itu butuh jam terbang. ; Mereka tuh bukan cuma minta AI buat mikirin solusinya, ; tapi mereka ngarahin AI ke solusi yang udah ada di kepala mereka. ; Nah, ini ada beberapa tips teknik prompting praktis buat kalian ; yang mau naik level nih. ; Jadi kalian jangan cuma asal ketik perintah aja. ; Pelajari teknik yang namanya prompt engineering ; yang beneran dipakai sama profesional. ; Yang pertama, ada yang namanya chain of thought. ; Minta AI buat mikir selangkah demi selangkah. ; Misalnya, selesaikan masalah ini, ; tapi jabarkan dulu logika berpikirnya satu per satu ; sebelum kodenya ditulis. ; Tuh, ya. ; Yang kedua, ada yang namanya view shot prompting. ; Ini kita kasih contoh dulu. ; Misalnya, saya udah punya contoh code base. ; Kita cemplungin tuh ke AI-nya. ; Ini adalah code base standar saya. ; Sekarang, buatkan modul baru dengan gaya penulisan. ; Yang sama, misalnya gitu. ; Dan yang ketiga, ada yang namanya context injection. ; Kasih tahu AI siapa dia. ; Jadi, di awal kalian tulis dulu. ; Misalnya, bertindaklah sebagai senior DevOps ; yang sangat concern soal security. ; Baru kalian kasih prompt berikutnya. ; Nah, tips tambahan dari saya, ; cari sumber official untuk belajar prompting. ; Jangan cuma lihat tips dari sosmed aja, ya. ; Misalnya, kalian buka Anthropic Prompt Engineering Guide ; atau Open AI Cookbook, misalnya. ; Atau sekalian aja ikutin ; kursus prompt engineering langsung dari Google. ; Karena mereka semua ; punya ; panduan cara menggunakan AI mereka. ; Kita baca dan pelajari. ; Nah, atau bahkan, ; sekarang tools kayak cloud atau anti-gravity ; tuh udah punya fitur yang namanya planning mode. ; Ini keren banget, teman-teman. ; Jadi, sebelum kodenya di-generate atau ditulis, ; AI-AI ini biasanya ngasih draft rencana kerja mereka dulu. ; AI-nya bakalan bilang, ; saya akan buat file A, ; lalu modifikasi file B, ; lalu setup database C. ; Nah, disinilah fundamental kalian diuji. ; Kalau kalian nggak ngerti sistem, ; kalian paling cuma bilang, ; oke, setuju, gas, gitu ya. ; Langsung di-generate kodenya. ; Tapi kalau kalian udah ngerti, ; kalian tuh bisa interupsi. ; Kalian bisa arahin, ; eh, jangan pakai cara ini. ; Nanti bakalan ada bottleneck di database ; kalau usernya banyak. ; Pakai cara ini aja. ; Kita tetap jadi pilotnya. ; Semakin kuat pemahaman teknis kalian, ; semakin tajam instruksi kalian, ; dan semakin sempurna juga hasil kerja AI-nya. ; Dan ini nih, satu hal baru yang menarik ; yang harus kalian tahu juga. ; Di 2026 ini, ; kita nggak cuma ngomongin optimasi aplikasi ; supaya ringan atau cepet, ; tapi ada juga yang namanya optimasi token. ; Ingat ya, setiap instruksi yang kalian kirim ; dan setiap baris kode yang dihasilkan sama si AI, ; itu ada cost-nya. ; Ada bidangnya. ; Ada biayanya. ; Developer yang mahal di masa depan, ; itu adalah mereka yang bisa dapetin hasil maksimal ; dengan jumlah token seminimal mungkin. ; Jadi kalian belajar cara bikin prom yang padat, ; jelas, dan efektif. ; Bukan cuma soal teknis, ; tapi juga soal efisiensi biaya yang dikeluarin. ; Nah, ngomongin soal efisiensi kerja ; dan efisiensi token tadi, ; ujung-ujungnya, ; itu bakalan bermuara ke satu hal. ; Ada yang namanya evolusi mindset. ; Kenapa? ; Karena di 2026, ; bukan cuma cara ngoding kita yang berubah, ; tapi cara industri ngeliat peran kita ; sebagai developer juga ikutan geser. ; Kalian pernah nggak denger ; istilah T-shape developer? ; Jadi T-shape developer itu adalah developer yang ; tahu banyak hal, ; tapi cuma permukaannya aja. ; Tapi dia jago dalam satu hal secara mendalam. ; Seperti huruf T gitu ya. ; Ada atasnya, ; ada ke bawahnya. ; Nah, tapi jujur aja, ; dulu saya menyarankan agar mahasiswa-mahasiswa saya ; itu punya skill seperti itu. ; Developer yang T-shape. ; Jago dalam satu hal. ; Nah, tapi jujur aja, ; di era sekarang, ; model T-shape ini udah mulai berat buat bersaing. ; Kenapa? ; Karena AI udah bisa ngisi kekosongan di permukaan itu ; dengan sangat gampang. ; Jadi bagian atasnya itu udah bisa ; bisa diisi sama AI. ; Nah, makanya saran saya di 2026, ; jadilah seorang V-shape developer. ; Nah, apa bedanya? ; Kalau V-shape, ; kan tadinya kalian kalau huruf T itu cuma punya satu garis ya. ; Nah, sekarang kalau V-shape, ; kalian itu punya dua keahlian ; yang ujung-ujungnya nyambung. ; Sama kuatnya, ; yang nantinya beririsan atau nyambung gitu ya. ; Jadi nanti skill kalian itu menyatu ; membentuk huruf V begini. ; Misalnya, kalian jago front-end, ; tapi kalian jago juga UI UX. ; Jadi pas kalian minta AI untuk bikin komponen, ; kalian itu bukan cuma minta yang penting jalan, ; tapi kalian bisa ngarahin AI-nya ; buat bikin experience yang lebih seamless buat user. ; Karena UI UX-nya tahu. ; Atau kalian jago back-end nih, ; tapi kalian juga mendalami bidang AI engineering. ; Nah, jadi kalian tahu juga ; gimana caranya fine-tuning model AI ; biar aplikasi kalian itu punya otak ; yang lebih pinter dari kompetitor misalnya. ; Itu ya jadi V-shape developer. ; Nah, teman-teman nih, ; kalian sadar nggak kalau di 2026 ini, ; istilah kayak saya cuma orang front-end ; atau saya spesialis back-end, ; itu juga rasanya udah mulai kurang relevan, teman-teman. ; Kenapa? ; Karena dengan bantuan AI, ; batasan teknis tadi tuh jadi makin kabur gitu. ; Dulu orang front-end tuh takut pegang database ; karena ribet ngurusin query, pak. ; Sekarang, ada AI yang bisa bantuin ; bikin struktur atau schema database dalam hitungan detik. ; Dulu orang back-end tuh males ngurusin styling ; karena pusing sama CSS. ; Sekarang, AI udah bisa bikin UI cantik sekejap gitu ya. ; Artinya apa? ; Industri sekarang tuh nyari full-stack developer ; yang bisa handle dari hulu ke hilir atau end-to-end. ; Perusahaan tuh nggak lagi bayar kalian ; buat cuma ngetik function di satu bagian aplikasi aja. ; Mereka bayar kalian buat nyari. ; Mereka ngasih solusi bisnis. ; Mereka pengen tahu, ; bisa nggak nih aplikasi ini menghasilkan cuan gitu ya atau duit? ; Bisa nggak nih aplikasi nyelesain masalah dari user dengan tepat? ; Jadi, jangan batasi diri kalian dalam sebuah kotak front-end atau back-end lagi, ; tapi jadilah seorang problem solver ; yang pakai teknologi sebagai tools-nya atau alatnya. ; Kalian fokus pada bagaimana teknologi itu kalian racik, ; terus bisa ngasilin value buat bisnisnya, ; karena disitulah letak mahalnya seorang developer di tahun 2026 ini. ; Oke, jadi kesimpulannya apa nih, teman-teman? ; Roadmap 2026 itu ; bukan lagi tentang seberapa banyak bahasa pemegaman atau library ; atau framework yang kalian hafal, ; tapi tentang seberapa adaptif kalian menggunakan AI ; untuk memperkuat 3 skill yang AI itu nggak punya. ; Apa aja? ; Yang pertama, accountability atau tanggung jawab. ; Kalian bisa minta AI buat generate code, oke. ; Tapi kalau aplikasinya down atau datanya bocor ; atau ada yang nggak optimal, ; itu bukan salah AI, teman-teman. ; Tapi salah kalian. ; Tanggung jawabnya sudah sepenuhnya berpindah ke kalian, ya. ; Yang kedua, user context. ; AI itu nggak tahu kalau tombol yang dia bikin, gitu ya, ; misalnya kegedean buat layar HP. ; Atau misalnya flow-nya itu membingungkan buat user. ; AI itu nggak tahu. ; Kalian yang harus punya rasa ; apakah aplikasi ini beneran enak dipakai manusia apa enggak. ; Tetap butuh human touch-nya. ; Dan yang ketiga, problem solving logic. ; AI itu jago jawab pertanyaan. ; Tapi kalianlah yang harus tahu pertanyaan apa yang harus diajukan ; supaya masalah bisnis perusahaannya bisa selesai. ; Satu hal yang harus kalian tanamkan, ; jangan takut sama AI. ; Tapi waspada sama orang yang menggunakan AI. ; Kita pasti kasihan. ; Kalah kalau balapan lari sama AI. ; Itu udah jelas lah, ya. ; Tapi yang lebih ngeri, ; kita bakalan kalah sama sesama programmer yang manfaatin AI secara maksimal. ; Bahkan sekarang, banyak orang non-IT, ; orang marketing, orang desain, ; atau pemilik bisnis yang udah mulai bisa menguasai AI ; dan mengendalikan AI buat keperluan mereka. ; Kalau mereka aja bisa, ; masa kalian yang emang dunianya di sini malah ketinggalan? ; Dan please, di tahun 2026 ini, ; nggak usah ada lagi debat soal vibe coding versus manual coding. ; Debat itu udah basi. ; Kenapa? ; Karena kenyataannya, ; memang beginilah cara coding zaman sekarang. ; Manfaatin AI untuk maksimalin produktivitas, ; itu bukan sebuah kecurangan lagi. ; Sekarang, itu udah jadi standar bahkan. ; Yang bedain hasilnya, ; bukan siapa yang ngetik manual, ; tapi siapa yang paling ngerti ; apa yang diperintahkan ke AI-nya ; dan mengerti apa yang dihasilkan oleh AI-nya. ; Jadi pesan saya buat kalian, ; tetep aja semangat belajarnya, ; perkuat fundamentalnya jangan lupa. ; Ingat apa yang saya bilang tadi di awal, ya. ; Jangan buru-buru pengen pakai AI sebagai shortcut untuk skip belajar. ; AI itu multiplier. ; Atau pengali. ; Kalau kalian dasarnya nol, ; mau dikali sejuta pun, ; hasilnya tetep nol, teman-teman. ; Tapi kalau dasarnya kuat, ; AI itu bakalan jadi tools yang bikin kalian belajar dengan cepet banget. ; Sabar dulu, nikmatin prosesnya. ; Karena hal-hal yang seru dan menakjubkan ; udah nunggu kalian di ujung jalan nanti. ; Pastiin kalian punya fondasi yang kuat sekarang, ; supaya nanti kalian bisa mengendalikan AI-nya dengan jauh lebih cerdas. ; Percaya deh, pemahaman kalian hari ini, ; itu adalah yang bakalan bikin kalian jauh lebih unggul saat menggunakan AI besok. ; Make yourself worthy. ; Oke ya, jadi mungkin itu aja, teman-teman. ; Terima kasih banyak buat yang udah nonton videonya sampai habis. ; Mudah-mudahan roadmap 2026 ini bisa jadi arahan buat karir kalian ke depannya. ; Dan jangan lupa, sekali lagi saya ingatkan, ; kalian bisa manfaatin promo New Year Sale dari Hostinger tadi ya. ; Pakai kodenya WPUHST15 untuk dapetin diskon ekstra. ; Anggap aja ini investasi leher ke atas buat masa depan kalian. ; Kalau kalian suka video dengan tipe wawasan kayak gini, ; jangan lupa klik like dan tulis pendapat kalian di kolom komentar di bawah ya. ; Saya pamit. ; Tetap semangat belajarnya. ; Jangan menyerah. ; Share video ini ke teman-teman kalian yang lagi belajar coding juga. ; Sampai jumpa di video berikutnya. ; Dan seperti biasa, teman-teman, ; jangan lupa di tikung.
+
+==================================================
+TIMESTAMPS:
+
+[00:00 - 00:03]
+Nggak kerasa ya teman-teman, bulan Januari 2026 udah lewat aja.
+
+[00:03 - 00:08]
+Kayaknya 2025 itu cepet banget berlalunya ya, apalagi di bulan-bulan terakhir.
+
+[00:08 - 00:11]
+Rasanya tuh kayak beuh, dar-dardor banget tuh sama perkembangan teknologinya.
+
+[00:11 - 00:15]
+Tapi gimana nih, kabar resolusi coding kalian di tahun 2026 ini?
+
+[00:15 - 00:18]
+Apakah masih on fire atau malah udah mulai kendor dikit?
+
+[00:18 - 00:21]
+Mudah-mudahan semangat belajarnya masih terus menyala ya teman-teman.
+
+[00:21 - 00:26]
+Meskipun kayaknya saya tahu nih, ada rasa semangat tapi campur aduk sama rasa was-was.
+
+[00:26 - 00:29]
+Ada satu keresahan yang kayaknya kita lagi rasain bareng-bareng nih.
+
+[00:29 - 00:31]
+Cukup banyak yang nanya ke saya kayak gini,
+
+[00:31 - 00:36]
+Pak, baru sebulan nih di 2026, perkembangan AI makin keren sekaligus makin ngeri nih.
+
+[00:36 - 00:40]
+Ada JetGPT, Gemini, Cloud Code, Cursor, Anti-Graffiti.
+
+[00:40 - 00:44]
+Dan yang paling baru nih, ada Moldbot, evolusi dari Cloudbot yang lagi heboh-hebohnya nih sekarang.
+
+[00:45 - 00:45]
+Ada tau nggak?
+
+[00:45 - 00:49]
+Kenapa? Karena dia udah bisa otomasi hampir seluruh siklus kerja kita.
+
+[00:49 - 00:54]
+Sekarang tuh rasanya kayak tiap bangun tidur, ada aja tools AI baru yang bikin kita kaget gitu.
+
+[00:54 - 00:56]
+Nah, terus muncul nih pertanyaan besar di kepala kita.
+
+[00:56 - 00:59]
+Kita sebagai programmer tuh masih bakalan kepake nggak sih?
+
+[00:59 - 00:59]
+Masih wow?
+
+[00:59 - 01:03]
+Worth it nggak sih kita capek-capek belajar programming, algoritma, struktur data?
+
+[01:03 - 01:06]
+Padahal AI bisa ngerjain itu semua dalam sekejap mata.
+
+[01:06 - 01:09]
+Jujur aja pertanyaan ini wajar banget buat muncul, teman-teman.
+
+[01:09 - 01:11]
+Apalagi buat kita yang baru belajar.
+
+[01:11 - 01:14]
+Tapi jangankan kalian, saya juga sempet mikir hal yang sama kok.
+
+[01:14 - 01:18]
+Ini orang-orang tuh sebenernya masih butuh nggak sih tutorial atau pembelajaran dasar programming?
+
+[01:18 - 01:20]
+Atau semuanya sekarang udah lewat AI aja?
+
+[01:20 - 01:24]
+Terus dulu kita juga mikir nih, kreativitas tuh nggak bisa digantiin sama mesin.
+
+[01:24 - 01:29]
+Eh, ternyata sekarang AI bisa generate gambar, video, bahkan UI aplikasi
+
+[01:29 - 01:30]
+yang bagus banget.
+
+[01:30 - 01:31]
+Nah, terus abis itu kita mikir lagi.
+
+[01:31 - 01:34]
+Ah, nggak mungkin AI bisa bikin kode yang sempurna.
+
+[01:34 - 01:36]
+Pasti tetap harus direview lagi sama programmernya.
+
+[01:36 - 01:41]
+Eh, ternyata sekarang para programmer senior itu makin sedikit nge-review kode hasil dari AI.
+
+[01:42 - 01:44]
+Nah, apakah ini adanya kiamat buat profesi programmer?
+
+[01:44 - 01:46]
+Jawaban singkatnya, bisa iya.
+
+[01:46 - 01:50]
+Kalau definisi programmer kalian tuh cuma tukang ketik sintaks kodingan aja.
+
+[01:50 - 01:53]
+Kalau sebelumnya kalian cuma bisa copy-paste dari tutorial
+
+[01:53 - 01:55]
+atau dari stack overflow tanpa paham isinya.
+
+[01:55 - 01:58]
+Atau kalau kalian cuma comot-comot kode dari repo GitHub gitu ya,
+
+[01:58 - 02:00]
+misalnya hanya supaya asal jalan aja.
+
+[02:00 - 02:04]
+Maka siap-siap, peran kalian bakalan hilang digantiin sama AI.
+
+[02:04 - 02:06]
+Nah, tapi jawabannya bakalan jadi tidak
+
+[02:06 - 02:10]
+kalau kalian mau berevolusi, beradaptasi, dan ngubah mindset kalian.
+
+[02:10 - 02:14]
+Karena faktanya, kebutuhan akan software engineer itu justru tetap tinggi saat ini.
+
+[02:14 - 02:18]
+Cuma level permainannya aja, playing field-nya yang berubah drastis.
+
+[02:18 - 02:22]
+Nah, makanya di video kali ini, kita bakalan bahas roadmap developer di 2020.
+
+[02:23 - 02:26]
+Bukan cuma list teknologi atau bahasa penggambaran apa yang harus kalian pelajari,
+
+[02:26 - 02:28]
+tapi lebih ke mindset,
+
+[02:28 - 02:32]
+strategi, dan skill survival apa yang bakalan bikin kalian tuh jadi mahal gitu ya.
+
+[02:32 - 02:34]
+Oke, tapi sebelum kita masuk ke materinya,
+
+[02:34 - 02:36]
+saya mau bahas dulu satu hal yang cukup penting dulu,
+
+[02:36 - 02:39]
+yaitu soal infrastruktur dan deployment aplikasi kalian.
+
+[02:40 - 02:43]
+Karena punya skill mengenai dual itu juga cukup penting di saat ini ya.
+
+[02:43 - 02:46]
+Kalau kalian mau bertahan, kalian tuh nggak bisa cuma jago di local host aja.
+
+[02:46 - 02:49]
+Kalian harus paham mulai dari bagaimana internet itu bekerja,
+
+[02:49 - 02:52]
+apa itu DNS, apa itu SSL,
+
+[02:52 - 02:53]
+gimana cara config server,
+
+[02:53 - 02:56]
+gimana cara handle request dan respond di dunia nyata.
+
+[02:56 - 02:58]
+Nah, coba bangun laboratorium,
+
+[02:58 - 02:59]
+atau lab kalian sendiri.
+
+[02:59 - 03:00]
+Jangan cuma simulasi di kertas,
+
+[03:00 - 03:03]
+tapi coba pakai server beneran buat kalian eksperimen.
+
+[03:03 - 03:07]
+Kalian butuh tempat buat setup dan benerin website kalian secara live.
+
+[03:07 - 03:10]
+Dan salah satu tempat buat mulainya adalah di Hostinger, teman-teman.
+
+[03:10 - 03:13]
+Hostinger ini bukan cuma buat nge-host website klien aja,
+
+[03:13 - 03:17]
+tapi juga bisa jadi sandbox atau lab buat belajar fundamental website.
+
+[03:17 - 03:19]
+Kalian bisa oprek file manager secara langsung,
+
+[03:19 - 03:22]
+bisa belajar bikin dan manage database secara real,
+
+[03:22 - 03:25]
+bisa belajar setting DNS record dan email server juga.
+
+[03:25 - 03:28]
+Dan kebetulan, saat ini Hostinger lagi ada pro,
+
+[03:28 - 03:29]
+promo New Year's Sale.
+
+[03:29 - 03:32]
+Diskonnya gila-gilaan, up to 80% untuk layanan hosting mereka.
+
+[03:32 - 03:36]
+Jadi ini adalah waktu yang tepat buat kalian upgrade skill infrastruktur kalian.
+
+[03:36 - 03:39]
+Dan bukan cuma itu, khusus buat kalian para pasukan Titikoma nih.
+
+[03:39 - 03:42]
+Kalian bisa dapetin diskon tambahan lagi sebesar 15%.
+
+[03:42 - 03:45]
+Caranya gampang aja, kalian tinggal kunjungi link khususnya di sini.
+
+[03:46 - 03:49]
+Atau kalian bisa langsung klik aja link yang ada di deskripsi di video ini ya.
+
+[03:49 - 03:53]
+Pastiin kliknya lewat link tersebut, karena promonya hanya aktif lewat link itu.
+
+[03:54 - 03:56]
+Nah, karena di video ini kita butuh laboratorium buat belajar,
+
+[03:56 - 03:58]
+langsung aja kita bakal...
+
+[03:58 - 04:00]
+kalian cobain bikin produk hosting yang sesuai dengan kebutuhan kalian.
+
+[04:01 - 04:04]
+Saran saya, kalian pilih paket dengan durasi minima 1 tahun atau 2 tahun lah.
+
+[04:04 - 04:08]
+Supaya kerasa banget hematnya dan nggak ribet lagi untuk perpanjang bulanan.
+
+[04:08 - 04:10]
+Untuk sekarang, saya cobakan pilih yang 1 tahun.
+
+[04:10 - 04:12]
+Nah, pas di halaman check out, perhatiin nih.
+
+[04:12 - 04:16]
+Di bagian pembayaran, klik tulisan punya kode kupon.
+
+[04:16 - 04:20]
+Lalu masukin aja kode kupon sakti kita, yaitu WPUHST15.
+
+[04:21 - 04:26]
+Ingat ya, kodenya WPUHST15 untuk dapetin potongan 15% ekstra.
+
+[04:26 - 04:28]
+Dan kode ini hanya berlaku sampai 15%.
+
+[04:28 - 04:29]
+11 Maret 2026 nanti.
+
+[04:29 - 04:30]
+Selanjutnya, ini langkah yang penting banget nih.
+
+[04:30 - 04:35]
+Isi alamat email yang belum pernah kalian daftarin sebelumnya di Niagahoster atau Hostinger.
+
+[04:35 - 04:38]
+Dan pastiin kalian bikin account-nya itu secara manual.
+
+[04:38 - 04:39]
+Isi form-nya ya.
+
+[04:39 - 04:42]
+Jangan login pake tombol Google atau Facebook biar datanya fresh.
+
+[04:42 - 04:44]
+Setelah itu, tinggal pilih negaranya.
+
+[04:44 - 04:45]
+Indonesia aja.
+
+[04:45 - 04:47]
+Pilih metode pembayaran yang paling gampang buat kalian.
+
+[04:47 - 04:51]
+Lalu lakukan pembayaran sesuai dengan harga promo yang udah di diskon tadi.
+
+[04:51 - 04:54]
+Nanti kalau udah sukses, kalian bakalan dapet email konfirmasi dari Hostinger.
+
+[04:55 - 04:56]
+Dan tinggal login aja ke account kalian.
+
+[04:56 - 04:57]
+Lalu siap.
+
+[04:57 - 04:59]
+Untuk setup server-nya.
+
+[04:59 - 05:03]
+Ya, jadi sekali lagi jangan ragu buat pilih Hostinger sebagai partner infrastruktur kalian.
+
+[05:03 - 05:05]
+Karena server-nya ini ada di seluruh dunia.
+
+[05:05 - 05:06]
+Jadi aksesnya bakalan ngebut.
+
+[05:06 - 05:07]
+Keamanannya juga canggih.
+
+[05:07 - 05:09]
+Jadi kalian gak perlu takut soal security-nya.
+
+[05:09 - 05:11]
+Dan kalau kalian udah punya web di tempat lain.
+
+[05:11 - 05:16]
+Hostinger bisa kasih gratis migrasi dari website lama atau hosting lama ke Hostinger.
+
+[05:16 - 05:18]
+Jadi yuk, segera klaim promo-nya sekarang juga.
+
+[05:18 - 05:24]
+Mumpung masih ada promo New Year Sale dan ekstra diskon 15% sebelum harganya balik ke normal lagi.
+
+[05:24 - 05:24]
+Nah, itu dia temen-temen ya.
+
+[05:24 - 05:26]
+Kalau sudah berhasil belinya.
+
+[05:26 - 05:27]
+Sekarang kita balik ke materi video.
+
+[05:27 - 05:30]
+Poin pertama dalam roadmap 2026.
+
+[05:30 - 05:31]
+Jangan skip fundamental.
+
+[05:32 - 05:34]
+Tapi, pelajari dengan cepat.
+
+[05:34 - 05:37]
+Ada yang bilang, ngapain pak belajar basic lagi, ngapain belajar algoritma?
+
+[05:37 - 05:39]
+Kan tinggal suruh AI aja.
+
+[05:39 - 05:40]
+Atau malah ada yang ngomong gini ke saya nih.
+
+[05:40 - 05:43]
+Ah pak, klien itu gak perlu tahu aplikasinya dibuat pakai apa.
+
+[05:43 - 05:45]
+Yang penting aplikasinya jalan.
+
+[05:45 - 05:49]
+Nah, sebenarnya ini bisa jadi jebakan buat kalian para pemula nih di 2026 ini.
+
+[05:49 - 05:54]
+Karena tanpa fundamental, kalian tuh ibaratnya pilot yang cuma tahu cara pencet tombol autopilot aja.
+
+[05:54 - 05:57]
+Tapi gak tahu cara nerbangin pesawat secara manual.
+
+[05:57 - 05:59]
+Kalau cuaca buruk, atau ada kendala di udara, gimana?
+
+[05:59 - 06:04]
+Kalau AI-nya lagi halusinasi ngasih kode yang jadul misalnya, atau rentan celah keamanan, gimana?
+
+[06:04 - 06:06]
+Kalian gak bakalan tahu harus ngapain berikutnya.
+
+[06:06 - 06:09]
+Dan yang lebih parahnya, kalian gak tahu kalau kode kalian tuh gak aman.
+
+[06:09 - 06:12]
+Tapi saya setuju nih, kalau cara belajarnya juga harus berubah.
+
+[06:12 - 06:16]
+Kalau dulu, kalian belajar fundamental tuh butuh 6 bulan sampai setahun gitu ya.
+
+[06:16 - 06:21]
+Sekarang di era AI, mau gak mau, kalian harus bisa speedrun dalam waktu 1 sampai 2 bulan.
+
+[06:21 - 06:26]
+Kita manfaatin AI bukan sebagai joki, tapi jadiin mentor pribadi 24 jam.
+
+[06:26 - 06:26]
+Pertanyaannya,
+
+[06:27 - 06:30]
+nih, saya ada beberapa tips praktisnya.
+
+[06:30 - 06:33]
+Yang pertama, jangan pernah minta AI bikinin kodenya di awal.
+
+[06:33 - 06:35]
+Tapi kalian mulai dengan minta analogi.
+
+[06:35 - 06:39]
+Contoh, daripada kalian tanya gimana cara pakai fetch API gitu ya misalnya.
+
+[06:39 - 06:44]
+Lebih baik kalian tanya gini, misalnya jelasin konsep asinkronus di Javascript pakai analogi gitu.
+
+[06:44 - 06:48]
+Ini bakalan bikin kalian paham kenapa kode itu ada, bukan cuma kodenya apa gitu.
+
+[06:48 - 06:51]
+Yang kedua, kalau kode kalian error, ini nih godaan terbesarnya nih.
+
+[06:51 - 06:55]
+Kalian copy paste errornya ke AI, AI kasih solusinya, selesai.
+
+[06:55 - 06:56]
+Iya kan? Siapa coba yang kayak gitu?
+
+[06:56 - 06:57]
+Stop, jangan lakuin itu.
+
+[06:57 - 07:00]
+Itu gak akan bikin kalian pinter dan ngerti.
+
+[07:00 - 07:02]
+Coba ubah promenya jadi gini.
+
+[07:02 - 07:03]
+Misalnya gini, ini error log saya.
+
+[07:03 - 07:08]
+Jangan kasih kodenya dulu, tapi kasih tau saya konsep mana yang saya salah pahami.
+
+[07:08 - 07:08]
+Kayak misalnya.
+
+[07:09 - 07:11]
+Dan di baris mana kemungkinan permasalahannya.
+
+[07:11 - 07:14]
+Nanti AI bakalan ngarahin, dan kalian tetep yang jalanin tugasnya.
+
+[07:15 - 07:17]
+Dengan cara ini, kalian jadi belajar cara membaca error log.
+
+[07:17 - 07:20]
+Sebuah skill yang kayaknya makin langka di tahun 2026 ini.
+
+[07:21 - 07:22]
+Tapi harganya makin mahal.
+
+[07:22 - 07:25]
+Tips yang ketiga, minta AI buat ngetes kalian.
+
+[07:25 - 07:27]
+Setelah kalian belajar satu bagian atau satu bab atau satu skill,
+
+[07:27 - 07:28]
+atau satu topik lah gitu ya.
+
+[07:28 - 07:30]
+Misalnya kalian lagi belajar metode array gitu.
+
+[07:30 - 07:31]
+Coba bilang ke AI-nya.
+
+[07:32 - 07:35]
+Saya baru belajar misalnya map, filter, reduce gitu ya.
+
+[07:35 - 07:39]
+Coba kasih saya tiga tantangan logika sederhana buat ngetes pemahaman saya.
+
+[07:39 - 07:40]
+Tapi jangan kasih jawabannya dulu.
+
+[07:40 - 07:41]
+Nah misalnya gitu kalian mintanya.
+
+[07:42 - 07:46]
+Ini nanti bakalan maksa otak kalian buat belajar dengan cara nge-recall ya.
+
+[07:46 - 07:48]
+Memanggil kembali informasi, bukan cuma baca aja.
+
+[07:49 - 07:51]
+Jadi intinya, kalian tetep butuh kuasain fundamental.
+
+[07:51 - 07:53]
+Karena kalian butuh mental model yang kuat.
+
+[07:53 - 07:56]
+Supaya nanti pas kalian pake tools-tools tingkat dewa kayak cloud,
+
+[07:56 - 07:59]
+kursor, anti-gravity, bahkan si moldboard tadi.
+
+[07:59 - 08:01]
+Kalian tuh tetep pilotnya.
+
+[08:01 - 08:02]
+Kalian yang nentuin arah terbangnya.
+
+[08:02 - 08:04]
+AI tuh cuma jadi mesin jetnya aja.
+
+[08:04 - 08:08]
+Yang bakalan bikin kalian nyampe ke tempat tujuan 10 kali lebih cepat.
+
+[08:08 - 08:11]
+Jangan sampai kalian cuma jadi penumpang yang pasrah gitu ya.
+
+[08:11 - 08:13]
+Yang gatau pesawatnya mau dibawa kemana.
+
+[08:13 - 08:15]
+Terserah AI-nya mau ngasih apa, kita pake.
+
+[08:15 - 08:16]
+Jangan kayak gitu.
+
+[08:16 - 08:19]
+Nah, kalo otak kalian udah siap dengan fundamental yang kuat,
+
+[08:19 - 08:23]
+pertanyaannya sekarang adalah senjata apa yang harus kalian miliki di 2026?
+
+[08:24 - 08:26]
+Karena jujur aja, pilihan teknologi itu kan sekarang makin spesial.
+
+[08:26 - 08:28]
+Kalian jantelan semuanya karena banyak banget.
+
+[08:29 - 08:32]
+Kalian pilih senjata yang paling tajem dan punya masa depan cerah di era AI ini.
+
+[08:32 - 08:36]
+Nah, makanya di poin kedua di roadmap ini kita akan bahas 3 bahasa atau teknologi
+
+[08:36 - 08:40]
+yang rasanya masih juaranya lah buat kalian pilih untuk kalian pelajari.
+
+[08:40 - 08:43]
+Yang pertama adalah React dengan ekosistem Javascript-nya.
+
+[08:43 - 08:47]
+Ini kayaknya masih jadi raja ya yang tidak tergoyahkan untuk aplikasi frontend kita.
+
+[08:47 - 08:50]
+Di dalamnya ada framework yang kalian bisa pake seperti Next.js,
+
+[08:50 - 08:51]
+Remix,
+
+[08:51 - 08:53]
+TanStack untuk manajemen data,
+
+[08:53 - 08:55]
+ada React Native untuk bikin multiplatform ya,
+
+[08:55 - 08:56]
+bikin aplikasi mobile,
+
+[08:56 - 08:57]
+gitu.
+
+[08:57 - 08:58]
+Berikutnya ada Laravel.
+
+[08:58 - 09:01]
+Buat yang bilang PHP udah mati, mungkin kalian mainnya kurang jauh.
+
+[09:01 - 09:03]
+Di 2026, Laravel tuh makin keren.
+
+[09:04 - 09:06]
+Karena ada Laravel Cloud yang bikin deployment jadi gampang banget.
+
+[09:06 - 09:11]
+Ada Livewire 4, versi baru dari Livewire yang bikin aplikasi interaktif
+
+[09:11 - 09:13]
+tanpa harus pindah-pindah ke kode Javascript.
+
+[09:13 - 09:15]
+Dan yang paling baru nih, ada Laravel Boost.
+
+[09:15 - 09:19]
+Integrasi AI resmi dari Laravel yang bisa bantu kita auto-generate testing
+
+[09:19 - 09:22]
+sampai optimasi query database secara otomatis.
+
+[09:22 - 09:24]
+Dan teknologi ketiga ada Python ya.
+
+[09:24 - 09:26]
+Karena ini adalah bahasa ibunya lah.
+
+[09:26 - 09:30]
+Kalau kalian mau bikin aplikasi AI, manipulasi dan visualisasi data,
+
+[09:30 - 09:32]
+atau integrasi ke model AI yang lebih dalam,
+
+[09:33 - 09:33]
+kalian bisa pake Python.
+
+[09:34 - 09:35]
+Tapi inget, apapun bahasanya,
+
+[09:35 - 09:38]
+kalian jangan cuma belajar teknologinya dan nontonin tutorialnya aja.
+
+[09:39 - 09:42]
+Selalu praktek untuk bikin sesuatu dari apa yang udah kalian pelajari.
+
+[09:42 - 09:47]
+Tipsnya, bikin aplikasi yang jadi solusi untuk diri kalian atau orang-orang di sekitar kalian.
+
+[09:47 - 09:50]
+Dan manfaatin AI supaya aplikasi kalian makin keren.
+
+[09:50 - 09:53]
+Jangan cuma bikin to-do list atau crude yang simple gitu ya.
+
+[09:53 - 09:54]
+Itu udah pasaran lah.
+
+[09:54 - 09:56]
+Misalnya gini, bikin aplikasi personal learning practice.
+
+[09:56 - 09:57]
+Tracker.
+
+[09:57 - 09:59]
+Aplikasi buat catat proses belajar kalian.
+
+[09:59 - 10:02]
+Jadi, kalian catat nih apa yang udah kalian pelajari hari ini,
+
+[10:02 - 10:03]
+terus masukin ke aplikasinya.
+
+[10:03 - 10:05]
+Misalnya, belajar array di Javascript tadi.
+
+[10:05 - 10:08]
+Terus nanti di dalamnya kalian kasih fitur challenge me.
+
+[10:08 - 10:09]
+Tombol challenge me gitu ya.
+
+[10:09 - 10:12]
+Jadi nanti bakalan ada AI yang baca catatan kalian,
+
+[10:12 - 10:15]
+terus dia kasih tau referensi atau latihan tambahan,
+
+[10:15 - 10:16]
+supaya kalian makin paham.
+
+[10:16 - 10:18]
+Di sini nanti kalian nggak cuma belajar crude aja,
+
+[10:18 - 10:20]
+tapi juga belajar integrasi API,
+
+[10:20 - 10:22]
+terus juga cara ngelola data JSON.
+
+[10:22 - 10:26]
+Atau contoh berikutnya, misalnya kalian bikin aplikasi yang bisa rekomendasi resep,
+
+[10:26 - 10:29]
+berdasarkan bahan makanan di dapur atau kulkas kalian.
+
+[10:29 - 10:31]
+Jadi tuh kalian tinggal foto bahan makanannya,
+
+[10:31 - 10:33]
+atau bisa diketik secara manual gitu ya.
+
+[10:33 - 10:37]
+Nanti aplikasi kalian akan otomatis kasih rekomendasi resep makanan,
+
+[10:37 - 10:40]
+yang memungkinkan untuk dibuat pake bahan makanan yang tadi.
+
+[10:40 - 10:45]
+Lengkap dengan estimasi waktu, kalorinya berapa, protein, lemak, karbo, berapa gitu ya.
+
+[10:45 - 10:47]
+Jadi ini dua contoh project yang praktis,
+
+[10:47 - 10:48]
+bisa kalian pake tiap hari.
+
+[10:48 - 10:51]
+Dan yang paling penting, ini adalah barang jadi gitu ya,
+
+[10:51 - 10:55]
+yang disukain sama recruiter atau klien karena solusinya nyata.
+
+[10:55 - 10:56]
+Bukan cuma aplikasi pasaran,
+
+[10:56 - 10:57]
+dari tutorial aja.
+
+[10:57 - 11:02]
+Nah setelah kalian pegang senjatanya, entah itu React, Laravel, atau Python tadi,
+
+[11:02 - 11:03]
+pertanyaan berikutnya adalah,
+
+[11:03 - 11:07]
+gimana cara kalian merintah AI buat ngebantu kalian pake senjata itu?
+
+[11:07 - 11:10]
+Disinilah kita bakal masuk ke skill yang paling krusial di 2026,
+
+[11:10 - 11:12]
+yang bakalan jadi poin ketiga dari roadmap kita.
+
+[11:13 - 11:14]
+Apa itu? Prompting.
+
+[11:14 - 11:18]
+Banyak orang mikir prompting itu cuma sekedar nanya, nyuruh, atau bahkan mecut AI ya.
+
+[11:18 - 11:22]
+Padahal promptingnya seorang senior engineer itu jauh beda temen-temen.
+
+[11:22 - 11:23]
+Levelnya sama kita yang baru belajar.
+
+[11:24 - 11:25]
+Kalau pemula kan biasanya cuma simple aja.
+
+[11:25 - 11:28]
+Buatkan saya halaman login, gitu ya misalnya.
+
+[11:28 - 11:32]
+Buatkan saya UI interface untuk website kedai kopi, misalnya gitu.
+
+[11:32 - 11:34]
+Hasilnya, mungkin kadang terlihat bagus ya,
+
+[11:34 - 11:37]
+tapi kalau kita perhatiin kodenya, kodenya standar gitu ya.
+
+[11:37 - 11:39]
+Kadang gak aman, kadang gak optimal,
+
+[11:39 - 11:41]
+atau bahkan gak cocok sama struktur project kalian.
+
+[11:42 - 11:44]
+Tapi prompting yang bagus itu misalnya kayak gini, sedikit lebih detail.
+
+[11:45 - 11:47]
+Misalnya buat modul login menggunakan NextAuth versi 5.
+
+[11:47 - 11:50]
+Integrasikan dengan Prisma dan PostgreSQL.
+
+[11:50 - 11:52]
+Terapkan proteksi CSRF.
+
+[11:52 - 11:54]
+Gunakan Zod untuk validasi schema.
+
+[11:54 - 11:55]
+Dan pastikan,
+
+[11:55 - 11:57]
+kodenya mengikuti prinsip solid.
+
+[11:57 - 12:00]
+Outputnya harus dalam TypeScript dengan strict type safety.
+
+[12:00 - 12:02]
+Jadi kayak gitu ya, jauh lebih detail.
+
+[12:02 - 12:04]
+Nah, kenapa seorang senior bisa sespecifik itu?
+
+[12:04 - 12:07]
+Jawabannya, balik lagi ke part 1 tadi, fundamental.
+
+[12:07 - 12:09]
+Karena mereka tahu batasan sistemnya.
+
+[12:09 - 12:11]
+Mereka tahu celah keamanannya.
+
+[12:11 - 12:14]
+Dan mereka tahu standar dan best practice di industri.
+
+[12:14 - 12:15]
+Itu butuh jam terbang.
+
+[12:15 - 12:18]
+Mereka tuh bukan cuma minta AI buat mikirin solusinya,
+
+[12:18 - 12:21]
+tapi mereka ngarahin AI ke solusi yang udah ada di kepala mereka.
+
+[12:21 - 12:24]
+Nah, ini ada beberapa tips teknik prompting praktis buat kalian
+
+[12:24 - 12:25]
+yang mau naik level nih.
+
+[12:25 - 12:27]
+Jadi kalian jangan cuma asal ketik perintah aja.
+
+[12:27 - 12:29]
+Pelajari teknik yang namanya prompt engineering
+
+[12:29 - 12:31]
+yang beneran dipakai sama profesional.
+
+[12:31 - 12:34]
+Yang pertama, ada yang namanya chain of thought.
+
+[12:34 - 12:36]
+Minta AI buat mikir selangkah demi selangkah.
+
+[12:36 - 12:38]
+Misalnya, selesaikan masalah ini,
+
+[12:38 - 12:40]
+tapi jabarkan dulu logika berpikirnya satu per satu
+
+[12:40 - 12:42]
+sebelum kodenya ditulis.
+
+[12:42 - 12:43]
+Tuh, ya.
+
+[12:43 - 12:45]
+Yang kedua, ada yang namanya view shot prompting.
+
+[12:45 - 12:46]
+Ini kita kasih contoh dulu.
+
+[12:46 - 12:48]
+Misalnya, saya udah punya contoh code base.
+
+[12:49 - 12:50]
+Kita cemplungin tuh ke AI-nya.
+
+[12:50 - 12:51]
+Ini adalah code base standar saya.
+
+[12:52 - 12:54]
+Sekarang, buatkan modul baru dengan gaya penulisan.
+
+[12:54 - 12:55]
+Yang sama, misalnya gitu.
+
+[12:55 - 12:57]
+Dan yang ketiga, ada yang namanya context injection.
+
+[12:58 - 13:00]
+Kasih tahu AI siapa dia.
+
+[13:00 - 13:01]
+Jadi, di awal kalian tulis dulu.
+
+[13:01 - 13:04]
+Misalnya, bertindaklah sebagai senior DevOps
+
+[13:04 - 13:06]
+yang sangat concern soal security.
+
+[13:06 - 13:08]
+Baru kalian kasih prompt berikutnya.
+
+[13:08 - 13:09]
+Nah, tips tambahan dari saya,
+
+[13:09 - 13:12]
+cari sumber official untuk belajar prompting.
+
+[13:12 - 13:14]
+Jangan cuma lihat tips dari sosmed aja, ya.
+
+[13:14 - 13:17]
+Misalnya, kalian buka Anthropic Prompt Engineering Guide
+
+[13:17 - 13:19]
+atau Open AI Cookbook, misalnya.
+
+[13:19 - 13:20]
+Atau sekalian aja ikutin
+
+[13:20 - 13:22]
+kursus prompt engineering langsung dari Google.
+
+[13:22 - 13:23]
+Karena mereka semua
+
+[13:23 - 13:24]
+punya
+
+[13:24 - 13:26]
+panduan cara menggunakan AI mereka.
+
+[13:26 - 13:27]
+Kita baca dan pelajari.
+
+[13:27 - 13:28]
+Nah, atau bahkan,
+
+[13:28 - 13:30]
+sekarang tools kayak cloud atau anti-gravity
+
+[13:30 - 13:33]
+tuh udah punya fitur yang namanya planning mode.
+
+[13:33 - 13:34]
+Ini keren banget, teman-teman.
+
+[13:34 - 13:36]
+Jadi, sebelum kodenya di-generate atau ditulis,
+
+[13:36 - 13:39]
+AI-AI ini biasanya ngasih draft rencana kerja mereka dulu.
+
+[13:39 - 13:40]
+AI-nya bakalan bilang,
+
+[13:40 - 13:41]
+saya akan buat file A,
+
+[13:41 - 13:42]
+lalu modifikasi file B,
+
+[13:42 - 13:44]
+lalu setup database C.
+
+[13:44 - 13:46]
+Nah, disinilah fundamental kalian diuji.
+
+[13:46 - 13:47]
+Kalau kalian nggak ngerti sistem,
+
+[13:47 - 13:48]
+kalian paling cuma bilang,
+
+[13:48 - 13:50]
+oke, setuju, gas, gitu ya.
+
+[13:50 - 13:51]
+Langsung di-generate kodenya.
+
+[13:51 - 13:52]
+Tapi kalau kalian udah ngerti,
+
+[13:52 - 13:53]
+kalian tuh bisa interupsi.
+
+[13:53 - 13:54]
+Kalian bisa arahin,
+
+[13:54 - 13:55]
+eh, jangan pakai cara ini.
+
+[13:55 - 13:57]
+Nanti bakalan ada bottleneck di database
+
+[13:57 - 13:58]
+kalau usernya banyak.
+
+[13:59 - 14:00]
+Pakai cara ini aja.
+
+[14:00 - 14:01]
+Kita tetap jadi pilotnya.
+
+[14:01 - 14:03]
+Semakin kuat pemahaman teknis kalian,
+
+[14:03 - 14:05]
+semakin tajam instruksi kalian,
+
+[14:05 - 14:07]
+dan semakin sempurna juga hasil kerja AI-nya.
+
+[14:07 - 14:09]
+Dan ini nih, satu hal baru yang menarik
+
+[14:09 - 14:10]
+yang harus kalian tahu juga.
+
+[14:10 - 14:11]
+Di 2026 ini,
+
+[14:12 - 14:14]
+kita nggak cuma ngomongin optimasi aplikasi
+
+[14:14 - 14:15]
+supaya ringan atau cepet,
+
+[14:15 - 14:17]
+tapi ada juga yang namanya optimasi token.
+
+[14:18 - 14:20]
+Ingat ya, setiap instruksi yang kalian kirim
+
+[14:20 - 14:22]
+dan setiap baris kode yang dihasilkan sama si AI,
+
+[14:22 - 14:23]
+itu ada cost-nya.
+
+[14:23 - 14:23]
+Ada bidangnya.
+
+[14:23 - 14:24]
+Ada biayanya.
+
+[14:24 - 14:25]
+Developer yang mahal di masa depan,
+
+[14:25 - 14:28]
+itu adalah mereka yang bisa dapetin hasil maksimal
+
+[14:28 - 14:30]
+dengan jumlah token seminimal mungkin.
+
+[14:30 - 14:32]
+Jadi kalian belajar cara bikin prom yang padat,
+
+[14:32 - 14:33]
+jelas, dan efektif.
+
+[14:33 - 14:35]
+Bukan cuma soal teknis,
+
+[14:35 - 14:37]
+tapi juga soal efisiensi biaya yang dikeluarin.
+
+[14:37 - 14:39]
+Nah, ngomongin soal efisiensi kerja
+
+[14:39 - 14:40]
+dan efisiensi token tadi,
+
+[14:41 - 14:41]
+ujung-ujungnya,
+
+[14:41 - 14:43]
+itu bakalan bermuara ke satu hal.
+
+[14:43 - 14:45]
+Ada yang namanya evolusi mindset.
+
+[14:45 - 14:45]
+Kenapa?
+
+[14:46 - 14:47]
+Karena di 2026,
+
+[14:47 - 14:48]
+bukan cuma cara ngoding kita yang berubah,
+
+[14:48 - 14:50]
+tapi cara industri ngeliat peran kita
+
+[14:50 - 14:52]
+sebagai developer juga ikutan geser.
+
+[14:52 - 14:53]
+Kalian pernah nggak denger
+
+[14:53 - 14:55]
+istilah T-shape developer?
+
+[14:55 - 14:58]
+Jadi T-shape developer itu adalah developer yang
+
+[14:58 - 14:58]
+tahu banyak hal,
+
+[14:59 - 15:00]
+tapi cuma permukaannya aja.
+
+[15:00 - 15:03]
+Tapi dia jago dalam satu hal secara mendalam.
+
+[15:03 - 15:04]
+Seperti huruf T gitu ya.
+
+[15:04 - 15:04]
+Ada atasnya,
+
+[15:05 - 15:06]
+ada ke bawahnya.
+
+[15:06 - 15:07]
+Nah, tapi jujur aja,
+
+[15:07 - 15:09]
+dulu saya menyarankan agar mahasiswa-mahasiswa saya
+
+[15:09 - 15:11]
+itu punya skill seperti itu.
+
+[15:11 - 15:12]
+Developer yang T-shape.
+
+[15:12 - 15:13]
+Jago dalam satu hal.
+
+[15:13 - 15:14]
+Nah, tapi jujur aja,
+
+[15:14 - 15:15]
+di era sekarang,
+
+[15:15 - 15:17]
+model T-shape ini udah mulai berat buat bersaing.
+
+[15:18 - 15:18]
+Kenapa?
+
+[15:18 - 15:21]
+Karena AI udah bisa ngisi kekosongan di permukaan itu
+
+[15:21 - 15:22]
+dengan sangat gampang.
+
+[15:22 - 15:23]
+Jadi bagian atasnya itu udah bisa
+
+[15:23 - 15:24]
+bisa diisi sama AI.
+
+[15:24 - 15:26]
+Nah, makanya saran saya di 2026,
+
+[15:26 - 15:28]
+jadilah seorang V-shape developer.
+
+[15:29 - 15:29]
+Nah, apa bedanya?
+
+[15:29 - 15:30]
+Kalau V-shape,
+
+[15:30 - 15:33]
+kan tadinya kalian kalau huruf T itu cuma punya satu garis ya.
+
+[15:33 - 15:34]
+Nah, sekarang kalau V-shape,
+
+[15:34 - 15:36]
+kalian itu punya dua keahlian
+
+[15:36 - 15:37]
+yang ujung-ujungnya nyambung.
+
+[15:37 - 15:38]
+Sama kuatnya,
+
+[15:38 - 15:41]
+yang nantinya beririsan atau nyambung gitu ya.
+
+[15:41 - 15:43]
+Jadi nanti skill kalian itu menyatu
+
+[15:43 - 15:44]
+membentuk huruf V begini.
+
+[15:44 - 15:46]
+Misalnya, kalian jago front-end,
+
+[15:46 - 15:47]
+tapi kalian jago juga UI UX.
+
+[15:48 - 15:50]
+Jadi pas kalian minta AI untuk bikin komponen,
+
+[15:50 - 15:52]
+kalian itu bukan cuma minta yang penting jalan,
+
+[15:52 - 15:54]
+tapi kalian bisa ngarahin AI-nya
+
+[15:54 - 15:57]
+buat bikin experience yang lebih seamless buat user.
+
+[15:57 - 15:58]
+Karena UI UX-nya tahu.
+
+[15:58 - 15:59]
+Atau kalian jago back-end nih,
+
+[16:00 - 16:02]
+tapi kalian juga mendalami bidang AI engineering.
+
+[16:02 - 16:03]
+Nah, jadi kalian tahu juga
+
+[16:03 - 16:05]
+gimana caranya fine-tuning model AI
+
+[16:05 - 16:07]
+biar aplikasi kalian itu punya otak
+
+[16:07 - 16:09]
+yang lebih pinter dari kompetitor misalnya.
+
+[16:09 - 16:10]
+Itu ya jadi V-shape developer.
+
+[16:11 - 16:11]
+Nah, teman-teman nih,
+
+[16:11 - 16:13]
+kalian sadar nggak kalau di 2026 ini,
+
+[16:13 - 16:15]
+istilah kayak saya cuma orang front-end
+
+[16:15 - 16:17]
+atau saya spesialis back-end,
+
+[16:17 - 16:20]
+itu juga rasanya udah mulai kurang relevan, teman-teman.
+
+[16:20 - 16:20]
+Kenapa?
+
+[16:20 - 16:21]
+Karena dengan bantuan AI,
+
+[16:21 - 16:24]
+batasan teknis tadi tuh jadi makin kabur gitu.
+
+[16:24 - 16:26]
+Dulu orang front-end tuh takut pegang database
+
+[16:26 - 16:28]
+karena ribet ngurusin query, pak.
+
+[16:28 - 16:30]
+Sekarang, ada AI yang bisa bantuin
+
+[16:30 - 16:32]
+bikin struktur atau schema database dalam hitungan detik.
+
+[16:33 - 16:35]
+Dulu orang back-end tuh males ngurusin styling
+
+[16:35 - 16:36]
+karena pusing sama CSS.
+
+[16:36 - 16:40]
+Sekarang, AI udah bisa bikin UI cantik sekejap gitu ya.
+
+[16:40 - 16:40]
+Artinya apa?
+
+[16:41 - 16:43]
+Industri sekarang tuh nyari full-stack developer
+
+[16:43 - 16:46]
+yang bisa handle dari hulu ke hilir atau end-to-end.
+
+[16:46 - 16:47]
+Perusahaan tuh nggak lagi bayar kalian
+
+[16:47 - 16:50]
+buat cuma ngetik function di satu bagian aplikasi aja.
+
+[16:50 - 16:51]
+Mereka bayar kalian buat nyari.
+
+[16:51 - 16:52]
+Mereka ngasih solusi bisnis.
+
+[16:53 - 16:53]
+Mereka pengen tahu,
+
+[16:53 - 16:56]
+bisa nggak nih aplikasi ini menghasilkan cuan gitu ya atau duit?
+
+[16:56 - 16:59]
+Bisa nggak nih aplikasi nyelesain masalah dari user dengan tepat?
+
+[16:59 - 17:03]
+Jadi, jangan batasi diri kalian dalam sebuah kotak front-end atau back-end lagi,
+
+[17:03 - 17:06]
+tapi jadilah seorang problem solver
+
+[17:06 - 17:08]
+yang pakai teknologi sebagai tools-nya atau alatnya.
+
+[17:08 - 17:11]
+Kalian fokus pada bagaimana teknologi itu kalian racik,
+
+[17:11 - 17:14]
+terus bisa ngasilin value buat bisnisnya,
+
+[17:14 - 17:17]
+karena disitulah letak mahalnya seorang developer di tahun 2026 ini.
+
+[17:17 - 17:19]
+Oke, jadi kesimpulannya apa nih, teman-teman?
+
+[17:19 - 17:21]
+Roadmap 2026 itu
+
+[17:21 - 17:24]
+bukan lagi tentang seberapa banyak bahasa pemegaman atau library
+
+[17:24 - 17:26]
+atau framework yang kalian hafal,
+
+[17:26 - 17:29]
+tapi tentang seberapa adaptif kalian menggunakan AI
+
+[17:29 - 17:32]
+untuk memperkuat 3 skill yang AI itu nggak punya.
+
+[17:32 - 17:33]
+Apa aja?
+
+[17:33 - 17:36]
+Yang pertama, accountability atau tanggung jawab.
+
+[17:36 - 17:38]
+Kalian bisa minta AI buat generate code, oke.
+
+[17:38 - 17:41]
+Tapi kalau aplikasinya down atau datanya bocor
+
+[17:41 - 17:42]
+atau ada yang nggak optimal,
+
+[17:42 - 17:44]
+itu bukan salah AI, teman-teman.
+
+[17:44 - 17:45]
+Tapi salah kalian.
+
+[17:45 - 17:49]
+Tanggung jawabnya sudah sepenuhnya berpindah ke kalian, ya.
+
+[17:49 - 17:50]
+Yang kedua, user context.
+
+[17:50 - 17:53]
+AI itu nggak tahu kalau tombol yang dia bikin, gitu ya,
+
+[17:53 - 17:54]
+misalnya kegedean buat layar HP.
+
+[17:55 - 17:57]
+Atau misalnya flow-nya itu membingungkan buat user.
+
+[17:57 - 17:58]
+AI itu nggak tahu.
+
+[17:58 - 18:00]
+Kalian yang harus punya rasa
+
+[18:00 - 18:03]
+apakah aplikasi ini beneran enak dipakai manusia apa enggak.
+
+[18:03 - 18:04]
+Tetap butuh human touch-nya.
+
+[18:04 - 18:06]
+Dan yang ketiga, problem solving logic.
+
+[18:06 - 18:08]
+AI itu jago jawab pertanyaan.
+
+[18:08 - 18:11]
+Tapi kalianlah yang harus tahu pertanyaan apa yang harus diajukan
+
+[18:11 - 18:14]
+supaya masalah bisnis perusahaannya bisa selesai.
+
+[18:14 - 18:15]
+Satu hal yang harus kalian tanamkan,
+
+[18:15 - 18:17]
+jangan takut sama AI.
+
+[18:17 - 18:19]
+Tapi waspada sama orang yang menggunakan AI.
+
+[18:20 - 18:20]
+Kita pasti kasihan.
+
+[18:20 - 18:22]
+Kalah kalau balapan lari sama AI.
+
+[18:22 - 18:23]
+Itu udah jelas lah, ya.
+
+[18:23 - 18:24]
+Tapi yang lebih ngeri,
+
+[18:24 - 18:28]
+kita bakalan kalah sama sesama programmer yang manfaatin AI secara maksimal.
+
+[18:28 - 18:30]
+Bahkan sekarang, banyak orang non-IT,
+
+[18:30 - 18:32]
+orang marketing, orang desain,
+
+[18:32 - 18:36]
+atau pemilik bisnis yang udah mulai bisa menguasai AI
+
+[18:36 - 18:38]
+dan mengendalikan AI buat keperluan mereka.
+
+[18:38 - 18:39]
+Kalau mereka aja bisa,
+
+[18:39 - 18:42]
+masa kalian yang emang dunianya di sini malah ketinggalan?
+
+[18:42 - 18:44]
+Dan please, di tahun 2026 ini,
+
+[18:44 - 18:48]
+nggak usah ada lagi debat soal vibe coding versus manual coding.
+
+[18:48 - 18:49]
+Debat itu udah basi.
+
+[18:49 - 18:49]
+Kenapa?
+
+[18:49 - 18:50]
+Karena kenyataannya,
+
+[18:50 - 18:52]
+memang beginilah cara coding zaman sekarang.
+
+[18:53 - 18:55]
+Manfaatin AI untuk maksimalin produktivitas,
+
+[18:55 - 18:57]
+itu bukan sebuah kecurangan lagi.
+
+[18:57 - 18:59]
+Sekarang, itu udah jadi standar bahkan.
+
+[18:59 - 19:00]
+Yang bedain hasilnya,
+
+[19:00 - 19:01]
+bukan siapa yang ngetik manual,
+
+[19:01 - 19:03]
+tapi siapa yang paling ngerti
+
+[19:03 - 19:04]
+apa yang diperintahkan ke AI-nya
+
+[19:04 - 19:07]
+dan mengerti apa yang dihasilkan oleh AI-nya.
+
+[19:07 - 19:08]
+Jadi pesan saya buat kalian,
+
+[19:09 - 19:10]
+tetep aja semangat belajarnya,
+
+[19:10 - 19:12]
+perkuat fundamentalnya jangan lupa.
+
+[19:12 - 19:14]
+Ingat apa yang saya bilang tadi di awal, ya.
+
+[19:14 - 19:18]
+Jangan buru-buru pengen pakai AI sebagai shortcut untuk skip belajar.
+
+[19:18 - 19:19]
+AI itu multiplier.
+
+[19:19 - 19:20]
+Atau pengali.
+
+[19:20 - 19:21]
+Kalau kalian dasarnya nol,
+
+[19:21 - 19:23]
+mau dikali sejuta pun,
+
+[19:23 - 19:24]
+hasilnya tetep nol, teman-teman.
+
+[19:25 - 19:26]
+Tapi kalau dasarnya kuat,
+
+[19:26 - 19:30]
+AI itu bakalan jadi tools yang bikin kalian belajar dengan cepet banget.
+
+[19:30 - 19:32]
+Sabar dulu, nikmatin prosesnya.
+
+[19:32 - 19:34]
+Karena hal-hal yang seru dan menakjubkan
+
+[19:34 - 19:36]
+udah nunggu kalian di ujung jalan nanti.
+
+[19:36 - 19:38]
+Pastiin kalian punya fondasi yang kuat sekarang,
+
+[19:38 - 19:42]
+supaya nanti kalian bisa mengendalikan AI-nya dengan jauh lebih cerdas.
+
+[19:42 - 19:44]
+Percaya deh, pemahaman kalian hari ini,
+
+[19:44 - 19:48]
+itu adalah yang bakalan bikin kalian jauh lebih unggul saat menggunakan AI besok.
+
+[19:48 - 19:50]
+Make yourself worthy.
+
+[19:50 - 19:51]
+Oke ya, jadi mungkin itu aja, teman-teman.
+
+[19:51 - 19:54]
+Terima kasih banyak buat yang udah nonton videonya sampai habis.
+
+[19:54 - 19:58]
+Mudah-mudahan roadmap 2026 ini bisa jadi arahan buat karir kalian ke depannya.
+
+[19:58 - 20:00]
+Dan jangan lupa, sekali lagi saya ingatkan,
+
+[20:00 - 20:03]
+kalian bisa manfaatin promo New Year Sale dari Hostinger tadi ya.
+
+[20:03 - 20:07]
+Pakai kodenya WPUHST15 untuk dapetin diskon ekstra.
+
+[20:07 - 20:11]
+Anggap aja ini investasi leher ke atas buat masa depan kalian.
+
+[20:11 - 20:13]
+Kalau kalian suka video dengan tipe wawasan kayak gini,
+
+[20:13 - 20:17]
+jangan lupa klik like dan tulis pendapat kalian di kolom komentar di bawah ya.
+
+[20:18 - 20:18]
+Saya pamit.
+
+[20:18 - 20:19]
+Tetap semangat belajarnya.
+
+[20:19 - 20:20]
+Jangan menyerah.
+
+[20:20 - 20:23]
+Share video ini ke teman-teman kalian yang lagi belajar coding juga.
+
+[20:23 - 20:25]
+Sampai jumpa di video berikutnya.
+
+[20:25 - 20:26]
+Dan seperti biasa, teman-teman,
+
+[20:26 - 20:28]
+jangan lupa di tikung.
+

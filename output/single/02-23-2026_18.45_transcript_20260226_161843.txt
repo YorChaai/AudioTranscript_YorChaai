@@ -1,0 +1,1004 @@
+Source: 02-23-2026_18.45.m4a
+Language Mode: Indonesian
+Detected: id (100.0%)
+Transcribed: 2026-02-26 16:18:43
+==================================================
+
+pajak itu kan pengeluaran, papa keluarin pajak ; bayar-bayar tulis, bayar pajak ; kan papa bayar dulu pajaknya di ; di kortek ; ya tapi itunya kolomnya beda ; karena kolomnya beda, jadi gak bisa digabungin ; jadinya tuh asal terpisahnya kayak gitu ; ya kan kalau kolomnya ; beda kan tinggal dia masukin ; kalau misalnya untuk pajak apa ; kalau misalnya pajak PPN ; di PPN nih nanti ; PPH 23, PPH 23 ; PPH 26, PPH 26 ; PPH 25, PPH 25 ; iya maksud dia tuh lebih kayak apa namanya ; udah sama aja ; tinggalkan nanti misalnya papa ; bayar pajak 30 juta ; misalnya anunya ; sudah papa bayar pajak kan papa tuh percatet ; pembayaran papa itu ; papa mau di satu patch aja ; pada satu patch aja berarti dia harus ; bikin dua fungsi disitu ; dua fitur, tapi kalau papa mau ; bikin patch yang beda ; kalau mau bikin patch yang beda, bikin patch yang beda ; bikin aja ; dia udah kepikir ; pasalnya dia udah mikir logika ; ini karena udah kolomnya beda ; kalau papa mau dijadiin satu patch ; berarti dia harus bikin satu patch, itu ada dua fitur ; untuk bapak mengisi, untuk bagian pengeluaran ; sama bagian pajak pengeluaran ; terus beda itu, karena kolomnya beda ; karena kolom beda itu ; nanti takutnya waktu bapak input-input ; terjadi bug sesuatu, karena dia pernah terjadi ; kayak gitu, nah itu harus ; dipisahin itu, nah papa ; mungkin bisa ; di dalam satu patch pengeluaran itu ; ada fitur untuk mengisi pajak pengeluaran ; sama pengeluaran aja ; nah, habis itu pajak untuk revenue tax-nya ; di patch beda, tapi kalau mau ; di satu patch ada ; tiga fitur disitu ; nah, cuma dia mikir kayaknya lebih enak beda ; karena yang untuk bagian revenue tax sama pajak pengeluaran itu ; seras papa sih ; dia mikirnya admin ; ada, apa ; untuk user-nya itu ada tiga ; yang mana staff sama orang luar di pusan papa ; sama manajer, yaitu bapak sendiri ; ehem ; bikin aja dulu ; apa input-innya, output-nya jadinya ; kemana ; iya ; nah ini untuk ; kalau diomongin ; apa belum tau ininya ; arahnya seperti apa ; nanti salah lagi ; sudah tuh gitu, yang papa tangkep A ; awalnya B ; nah, kan ; nggak jalan sih ; cuma ini untuk bagian excel-nya ; pusing dia, gimana saya bikinnya ; jadi lihat-lihat dulu ; jadi di pengeluaran ini papa ; terbagi ada expansion juga ; nah, cuma maksudnya bagian ini ; ini beda sendiri nih ; kan ada expansion satu ; di sini nggak ada expansion ; apa terusnya ; ini expansion nih ; expansion itu apa? ; pengeluaran kan, apa-apa kan ; expand ; ya, expand, nah ; nah ini tuh apa ini ; terus ini apa ini ; ini di luar expand sini ; ini apa ini berarti ; ini apa ini ; expansion, nggak gedein pak ; nah, ini kan pengeluaran ya ; ini nggak ada expansionnya ; expansion satu mulai dari satu ; bukan, ini ; kali ini ; kalau expansion tuh, expand tuh ; ini misalnya nih, nih ; nah nih ; expansion ini nama expansion ini ; jadi dia ada ; ada datuk ; maksud bapak ; kalau expenses itu tuh ; berapa pengeluaran-pengeluaran tuh jadi satu ; nanti ini nggak ; kalau misalnya disitu ; dia ini, dia langsung ini aja ; nggak ada expansion-expansion lagi ; expenses tuh pengeluaran ; contoh dari satu orang itu kan ; nggak, maksudnya ; ini sebenarnya kan misalnya ; kalau papa belanja ; sekali berangkat aja ; satu hari berangkat papa belanja ; ya ini expenses satu ini kan di sini ; bukan, kalau ini kan ; berapa berangkat misalnya seminggu ; seminggu tuh kan pasti ada pengeluaran setiap hari ini ; setiap hari-harinya ; nah, dari semua itu ditaruhin satu ini ; nah, dari dalam satu itu ; bukan expenses namanya ; expenses, expenses itu maksudnya pengeluaran aku ; daripada ini apa ; aku catat satu-satu ; satu kasih, satu kasih, satu kasih ; kan ribet itunya ; yuk paham ; yuk satu kotak ; nah, terus bagian ini apa ini ; ini di luar ini ; ini kayak sendiri-sendiri ini ; ini video ; bukan, ini juga ; ini kan sama juga ; ini bukan pengeluaran juga ininya ; pengeluaran juga ; cuman ini kan sekali-sekali jadi ; misalnya papa beli kue ; dah bayar, sudah selesai ; ada notanya ; kasih ; kalau papa kumpul-kumpulin ini jadi sepuluh ini ; jadi papa taruh di sini expenses kan ; papa kumpulin ; nanti kan sepuluhnya itu papa minta duitnya semua ; sama aja sebenarnya ; nah, nanti yang itu nggak ; jadi orang itu nggak perlu lagi bikin ; yang namanya collecting expenses itu lagi ; semua expenses namanya tuh ; cuman yang dibawa itu kayak di-collecting gitu loh ; collecting dia dulu ; simpernya dulu ; nah, dan simpernya adalah ini apa ; selama satu hari ini apa ; seminggu ; empat hari atau sebulan ; nah, terus di-settlenya jadi satu ; tapi sebenarnya nanti kalau misalnya di ini apa di ; pake software tuh ; dia harus input satu-satu semuanya ; kan sama aja dengan yang di atas itu ; input satu-satu ; cuman kan kalau misalnya dia ini apa input satu-satu kan papa nggak tau ; pengeluaran apa ; papa kalau misalnya expenses tuh maunya tuh ; sebelum dia ini tuh dia udah ngasih tau dulu ; ini pengeluaran waktu aku pergi job ; nah, untuk pengeluaran pergi job ini ada ; A, B, C, D, E, F, G, H, D ; nah itu ; jadi itu beda-beda tuh ; ada untuk sewa mobil ; ada untuk bayar hotel ; ada untuk beli makanan ; ada untuk bayar tol ; nah itu kan itu kan di-settle semua ; tapi kalau di atas itu langsung satu-satu aja tuh ininya ; sendiri-sendiri kan ya ; jadi kalau bapak beli kayak apa cuman sendiri aja ; beli kursi misalnya empat biji ; kan satu expense aja cuman ; ya, jadi intinya tuh kalau yang bawah ini ; kalau bapak tuh kayak lagi ada kursi ; ada kegiatan kayak gitu ; kegiatannya ada beli apa aja ; untuk expansion ; bukan di bawahnya ; kalau yang atasnya itu ; di bawahnya itu tuh bisa jadi misalnya ; ada project ; project misalnya pergi job itu kan satu project ; itu kegiatan kan berarti kan ; nah itu kan harus diukur untuk pembiayaan itu ; ya, dia paham ; nah bagian atas itu belinya itu kayak di luar kegiatan ; jadi kalau bapak beli kursi langsung harus itu aja ; bagian atas itu ; kalau mau lebih detil-detil lagi tuh ; yang bagian atas itu tuh di charge ke office ; kalau yang bawah itu di charge ke office ; ke ini kalau ini apa ke budget operasi gitu loh ; nah kan tambah ribet lagi nanti ; bapak jelasin sama Dio ; ya itu harus dikasih tau ya kayak gitu ; ya itu memang ; nanti cuma yang macam itu ; tapi kenapa nggak perlu lihat macam itu dulu ; ya udah informasi itu penting tuh ; dan perusahaan yang gede-gede banget ; kalau bapak kerja di EP dulu kan dipisahin ; ini budgetnya office ; ini budgetnya operasi ; operasi di charge ke operasi ; emang bapak perusahaannya sudah sebesar apa ; sampai harus dipilah-pilah sampai segituan dunia ; kan nggak ; nggak masalahnya tuh nggak rapi ; kalau bapak ngomong ini ya bagainya ; tapi di atas tuh nggak dikasih tau apa-apa ; jadi kan bingung juga orang-orang liatnya ; tapi bapak ngasih tau kayak gitu ya ; jadi dipaham jadinya ; kan kalau di pengeluaran pendidikan ; nanti ada pengeluaran tidak langsung ; pengeluaran langsung ; pengeluaran ini ; itu kan tergantung sama jenis ; itunya di kantor pajaknya apa itu ; kan yang awal lihat deraca gitu kan ; ada ditulis apa itu ; kan cuma pengeluaran tidak langsung ; pengeluaran langsung ; pengeluaran yang berhubungan dengan ini ; itu gitu aja cuman ; nah itu kan kumpulan dari itu semua ; yang mana yang disebut pembayaran langsung ; pembayaran langsung misalnya gaji ; ini kalau yang tidak langsung misalnya ; kebiayaan untuk pembuatan barang ; itu untuk tool ; beli ini apa rental tool ; kebiayaan tidak langsung ; eh aku ngapain tadi ; bikin dulu bentuknya ada ; nanti kita ini ; baru warnanya ; mau dibentuknya seperti apa ; yang penting datanya ; ini apa yang dimasukinnya ; bisa ditahan sampai berapa lama ; karena kan ini tahun 2026 ; nanti tahun depan tahun 2027 ini ; tahun 2026 sudah hilang ; tahun 2027 tahun 2028 ; datanya sampai berapa tahun misalnya ; kalau bisa ; papa nggak ada backup-an emangnya ; kan dia tulisnya disitu semua ; tapi saran dia ya ; sebagai seorang IT ; mau apapun itu ; kita nggak tahu apa yang terjadi gitu ; google dia aja dia backup-in juga gitu ; kalau seandainya ada masalah papa ; kalau papa nggak backup-in ; papa sama aja kayak kominfo loh ; itu bah kejadian yang paling parah tuh ; data data data apa data pegawai ; eh data republik hilang semua ; nggak ada backup-annya ; kacau itu ; dia sering ngelihat ; wah gila kacau ; buat kominfo lagi kan ; yah ; hehehe ; hehehe ; tetep ada gitu ; walaupun sekuritinya udah ada ; backup-an tetep ada gitu ; WA kan papa juga ada backup-an tuh ; WA walaupun kesannya ; papa hilang semua tuh ; ada backup-an di google ; ya gitu ; padahal nggak ada yang bisa menjamin juga ; hacker hebat aja ; google aja bisa dihack google ; gimana ; cuma mereka ada ; cuma mereka ada backup-annya itu ; tambah ini namanya ; nah surat lagi ; damai sepuluh nih ; ke masjid ya ke rumah pak ; sepi nggak ; hehehe ; ramai kemarin capek banget ; hehehe ; hehehe ; di belakang juga ; juga di cempitan lagi ; mas rakyat terakhir dia masih ; masih kayak rakyat awal ; kalau di bawah di dalam kan ; nggak ada berjemputan ; stres banget dia semua ; jujur kemarin tuh ; doga banget dia ; sholat awal awal ; maksudnya tuh ada perempuan juga nih ; juga nggak bisa di atas lagi ; ini kan di bawah di dalam ; namanya di atas ; di bawah di dalam dingin ; di atas ; ya udah seminggu lagi dah ; tumpah loh lima rakatnya sholat ; lima apa lima kali sholat ya ; orangnya gemuk lagi sebelah dia ; aduh kata dia ; hehehe ; mama yang paham itu ; warnanya coklat gak ; warna yang coklat rusak
+
+==================================================
+TIMESTAMPS:
+
+[00:00 - 00:02]
+pajak itu kan pengeluaran, papa keluarin pajak
+
+[00:02 - 00:04]
+bayar-bayar tulis, bayar pajak
+
+[00:04 - 00:05]
+kan papa bayar dulu pajaknya di
+
+[00:05 - 00:07]
+di kortek
+
+[00:07 - 00:09]
+ya tapi itunya kolomnya beda
+
+[00:09 - 00:12]
+karena kolomnya beda, jadi gak bisa digabungin
+
+[00:12 - 00:14]
+jadinya tuh asal terpisahnya kayak gitu
+
+[00:14 - 00:16]
+ya kan kalau kolomnya
+
+[00:16 - 00:18]
+beda kan tinggal dia masukin
+
+[00:18 - 00:19]
+kalau misalnya untuk pajak apa
+
+[00:19 - 00:21]
+kalau misalnya pajak PPN
+
+[00:21 - 00:23]
+di PPN nih nanti
+
+[00:23 - 00:26]
+PPH 23, PPH 23
+
+[00:26 - 00:28]
+PPH 26, PPH 26
+
+[00:28 - 00:30]
+PPH 25, PPH 25
+
+[00:31 - 00:34]
+iya maksud dia tuh lebih kayak apa namanya
+
+[00:34 - 00:35]
+udah sama aja
+
+[00:35 - 00:37]
+tinggalkan nanti misalnya papa
+
+[00:37 - 00:40]
+bayar pajak 30 juta
+
+[00:40 - 00:41]
+misalnya anunya
+
+[00:41 - 00:43]
+sudah papa bayar pajak kan papa tuh percatet
+
+[00:43 - 00:44]
+pembayaran papa itu
+
+[00:44 - 00:46]
+papa mau di satu patch aja
+
+[00:47 - 00:49]
+pada satu patch aja berarti dia harus
+
+[00:49 - 00:50]
+bikin dua fungsi disitu
+
+[00:50 - 00:53]
+dua fitur, tapi kalau papa mau
+
+[00:53 - 00:55]
+bikin patch yang beda
+
+[00:55 - 00:57]
+kalau mau bikin patch yang beda, bikin patch yang beda
+
+[00:57 - 00:57]
+bikin aja
+
+[00:57 - 00:59]
+dia udah kepikir
+
+[01:03 - 01:05]
+pasalnya dia udah mikir logika
+
+[01:05 - 01:06]
+ini karena udah kolomnya beda
+
+[01:06 - 01:08]
+kalau papa mau dijadiin satu patch
+
+[01:08 - 01:11]
+berarti dia harus bikin satu patch, itu ada dua fitur
+
+[01:11 - 01:13]
+untuk bapak mengisi, untuk bagian pengeluaran
+
+[01:13 - 01:15]
+sama bagian pajak pengeluaran
+
+[01:15 - 01:17]
+terus beda itu, karena kolomnya beda
+
+[01:17 - 01:19]
+karena kolom beda itu
+
+[01:19 - 01:21]
+nanti takutnya waktu bapak input-input
+
+[01:21 - 01:23]
+terjadi bug sesuatu, karena dia pernah terjadi
+
+[01:23 - 01:25]
+kayak gitu, nah itu harus
+
+[01:25 - 01:26]
+dipisahin itu, nah papa
+
+[01:27 - 01:28]
+mungkin bisa
+
+[01:28 - 01:31]
+di dalam satu patch pengeluaran itu
+
+[01:31 - 01:33]
+ada fitur untuk mengisi pajak pengeluaran
+
+[01:33 - 01:34]
+sama pengeluaran aja
+
+[01:34 - 01:37]
+nah, habis itu pajak untuk revenue tax-nya
+
+[01:37 - 01:39]
+di patch beda, tapi kalau mau
+
+[01:39 - 01:40]
+di satu patch ada
+
+[01:41 - 01:43]
+tiga fitur disitu
+
+[01:43 - 01:45]
+nah, cuma dia mikir kayaknya lebih enak beda
+
+[01:45 - 01:48]
+karena yang untuk bagian revenue tax sama pajak pengeluaran itu
+
+[01:49 - 01:50]
+seras papa sih
+
+[01:50 - 01:51]
+dia mikirnya admin
+
+[01:51 - 01:52]
+ada, apa
+
+[01:52 - 01:54]
+untuk user-nya itu ada tiga
+
+[01:54 - 01:57]
+yang mana staff sama orang luar di pusan papa
+
+[01:57 - 02:00]
+sama manajer, yaitu bapak sendiri
+
+[02:01 - 02:02]
+ehem
+
+[02:03 - 02:04]
+bikin aja dulu
+
+[02:04 - 02:07]
+apa input-innya, output-nya jadinya
+
+[02:07 - 02:08]
+kemana
+
+[02:09 - 02:10]
+iya
+
+[02:10 - 02:12]
+nah ini untuk
+
+[02:12 - 02:14]
+kalau diomongin
+
+[02:14 - 02:16]
+apa belum tau ininya
+
+[02:18 - 02:19]
+arahnya seperti apa
+
+[02:19 - 02:20]
+nanti salah lagi
+
+[02:20 - 02:22]
+sudah tuh gitu, yang papa tangkep A
+
+[02:22 - 02:24]
+awalnya B
+
+[02:24 - 02:26]
+nah, kan
+
+[02:30 - 02:31]
+nggak jalan sih
+
+[02:31 - 02:34]
+cuma ini untuk bagian excel-nya
+
+[02:34 - 02:36]
+pusing dia, gimana saya bikinnya
+
+[02:36 - 02:37]
+jadi lihat-lihat dulu
+
+[02:37 - 02:44]
+jadi di pengeluaran ini papa
+
+[02:44 - 02:46]
+terbagi ada expansion juga
+
+[02:46 - 02:48]
+nah, cuma maksudnya bagian ini
+
+[02:48 - 02:49]
+ini beda sendiri nih
+
+[02:49 - 02:51]
+kan ada expansion satu
+
+[02:51 - 02:53]
+di sini nggak ada expansion
+
+[02:53 - 02:54]
+apa terusnya
+
+[02:54 - 02:57]
+ini expansion nih
+
+[02:57 - 02:58]
+expansion itu apa?
+
+[02:59 - 03:00]
+pengeluaran kan, apa-apa kan
+
+[03:02 - 03:03]
+expand
+
+[03:03 - 03:04]
+ya, expand, nah
+
+[03:04 - 03:06]
+nah ini tuh apa ini
+
+[03:06 - 03:07]
+terus ini apa ini
+
+[03:07 - 03:09]
+ini di luar expand sini
+
+[03:10 - 03:11]
+ini apa ini berarti
+
+[03:12 - 03:13]
+ini apa ini
+
+[03:13 - 03:15]
+expansion, nggak gedein pak
+
+[03:16 - 03:18]
+nah, ini kan pengeluaran ya
+
+[03:18 - 03:19]
+ini nggak ada expansionnya
+
+[03:19 - 03:21]
+expansion satu mulai dari satu
+
+[03:21 - 03:21]
+bukan, ini
+
+[03:21 - 03:23]
+kali ini
+
+[03:23 - 03:25]
+kalau expansion tuh, expand tuh
+
+[03:26 - 03:28]
+ini misalnya nih, nih
+
+[03:28 - 03:28]
+nah nih
+
+[03:29 - 03:32]
+expansion ini nama expansion ini
+
+[03:32 - 03:32]
+jadi dia ada
+
+[03:32 - 03:34]
+ada datuk
+
+[03:34 - 03:35]
+maksud bapak
+
+[03:35 - 03:37]
+kalau expenses itu tuh
+
+[03:38 - 03:40]
+berapa pengeluaran-pengeluaran tuh jadi satu
+
+[03:40 - 03:41]
+nanti ini nggak
+
+[03:41 - 03:42]
+kalau misalnya disitu
+
+[03:42 - 03:44]
+dia ini, dia langsung ini aja
+
+[03:44 - 03:45]
+nggak ada expansion-expansion lagi
+
+[03:45 - 03:47]
+expenses tuh pengeluaran
+
+[03:48 - 03:50]
+contoh dari satu orang itu kan
+
+[03:50 - 03:51]
+nggak, maksudnya
+
+[03:51 - 03:53]
+ini sebenarnya kan misalnya
+
+[03:53 - 03:55]
+kalau papa belanja
+
+[03:57 - 03:58]
+sekali berangkat aja
+
+[03:58 - 04:00]
+satu hari berangkat papa belanja
+
+[04:00 - 04:02]
+ya ini expenses satu ini kan di sini
+
+[04:02 - 04:03]
+bukan, kalau ini kan
+
+[04:05 - 04:07]
+berapa berangkat misalnya seminggu
+
+[04:07 - 04:09]
+seminggu tuh kan pasti ada pengeluaran setiap hari ini
+
+[04:09 - 04:10]
+setiap hari-harinya
+
+[04:10 - 04:12]
+nah, dari semua itu ditaruhin satu ini
+
+[04:12 - 04:13]
+nah, dari dalam satu itu
+
+[04:13 - 04:14]
+bukan expenses namanya
+
+[04:14 - 04:17]
+expenses, expenses itu maksudnya pengeluaran aku
+
+[04:17 - 04:19]
+daripada ini apa
+
+[04:19 - 04:20]
+aku catat satu-satu
+
+[04:20 - 04:23]
+satu kasih, satu kasih, satu kasih
+
+[04:23 - 04:24]
+kan ribet itunya
+
+[04:24 - 04:25]
+yuk paham
+
+[04:25 - 04:27]
+yuk satu kotak
+
+[04:27 - 04:28]
+nah, terus bagian ini apa ini
+
+[04:29 - 04:30]
+ini di luar ini
+
+[04:30 - 04:32]
+ini kayak sendiri-sendiri ini
+
+[04:32 - 04:32]
+ini video
+
+[04:32 - 04:34]
+bukan, ini juga
+
+[04:34 - 04:35]
+ini kan sama juga
+
+[04:35 - 04:37]
+ini bukan pengeluaran juga ininya
+
+[04:38 - 04:39]
+pengeluaran juga
+
+[04:39 - 04:41]
+cuman ini kan sekali-sekali jadi
+
+[04:41 - 04:43]
+misalnya papa beli kue
+
+[04:43 - 04:45]
+dah bayar, sudah selesai
+
+[04:45 - 04:46]
+ada notanya
+
+[04:46 - 04:47]
+kasih
+
+[04:47 - 04:50]
+kalau papa kumpul-kumpulin ini jadi sepuluh ini
+
+[04:50 - 04:52]
+jadi papa taruh di sini expenses kan
+
+[04:52 - 04:53]
+papa kumpulin
+
+[04:53 - 04:55]
+nanti kan sepuluhnya itu papa minta duitnya semua
+
+[04:56 - 04:58]
+sama aja sebenarnya
+
+[04:59 - 05:01]
+nah, nanti yang itu nggak
+
+[05:01 - 05:03]
+jadi orang itu nggak perlu lagi bikin
+
+[05:03 - 05:06]
+yang namanya collecting expenses itu lagi
+
+[05:06 - 05:08]
+semua expenses namanya tuh
+
+[05:10 - 05:13]
+cuman yang dibawa itu kayak di-collecting gitu loh
+
+[05:13 - 05:14]
+collecting dia dulu
+
+[05:14 - 05:16]
+simpernya dulu
+
+[05:16 - 05:19]
+nah, dan simpernya adalah ini apa
+
+[05:19 - 05:21]
+selama satu hari ini apa
+
+[05:21 - 05:21]
+seminggu
+
+[05:21 - 05:24]
+empat hari atau sebulan
+
+[05:24 - 05:26]
+nah, terus di-settlenya jadi satu
+
+[05:27 - 05:30]
+tapi sebenarnya nanti kalau misalnya di ini apa di
+
+[05:31 - 05:32]
+pake software tuh
+
+[05:32 - 05:34]
+dia harus input satu-satu semuanya
+
+[05:35 - 05:37]
+kan sama aja dengan yang di atas itu
+
+[05:38 - 05:39]
+input satu-satu
+
+[05:43 - 05:47]
+cuman kan kalau misalnya dia ini apa input satu-satu kan papa nggak tau
+
+[05:47 - 05:48]
+pengeluaran apa
+
+[05:48 - 05:51]
+papa kalau misalnya expenses tuh maunya tuh
+
+[05:51 - 05:54]
+sebelum dia ini tuh dia udah ngasih tau dulu
+
+[05:55 - 05:57]
+ini pengeluaran waktu aku pergi job
+
+[05:58 - 06:00]
+nah, untuk pengeluaran pergi job ini ada
+
+[06:00 - 06:03]
+A, B, C, D, E, F, G, H, D
+
+[06:03 - 06:04]
+nah itu
+
+[06:04 - 06:06]
+jadi itu beda-beda tuh
+
+[06:06 - 06:08]
+ada untuk sewa mobil
+
+[06:09 - 06:11]
+ada untuk bayar hotel
+
+[06:11 - 06:13]
+ada untuk beli makanan
+
+[06:13 - 06:16]
+ada untuk bayar tol
+
+[06:16 - 06:18]
+nah itu kan itu kan di-settle semua
+
+[06:18 - 06:22]
+tapi kalau di atas itu langsung satu-satu aja tuh ininya
+
+[06:22 - 06:23]
+sendiri-sendiri kan ya
+
+[06:23 - 06:26]
+jadi kalau bapak beli kayak apa cuman sendiri aja
+
+[06:26 - 06:28]
+beli kursi misalnya empat biji
+
+[06:28 - 06:29]
+kan satu expense aja cuman
+
+[06:29 - 06:32]
+ya, jadi intinya tuh kalau yang bawah ini
+
+[06:32 - 06:33]
+kalau bapak tuh kayak lagi ada kursi
+
+[06:33 - 06:34]
+ada kegiatan kayak gitu
+
+[06:34 - 06:35]
+kegiatannya ada beli apa aja
+
+[06:35 - 06:36]
+untuk expansion
+
+[06:36 - 06:36]
+bukan di bawahnya
+
+[06:36 - 06:37]
+kalau yang atasnya itu
+
+[06:37 - 06:40]
+di bawahnya itu tuh bisa jadi misalnya
+
+[06:40 - 06:41]
+ada project
+
+[06:42 - 06:44]
+project misalnya pergi job itu kan satu project
+
+[06:45 - 06:46]
+itu kegiatan kan berarti kan
+
+[06:46 - 06:50]
+nah itu kan harus diukur untuk pembiayaan itu
+
+[06:50 - 06:50]
+ya, dia paham
+
+[06:50 - 06:53]
+nah bagian atas itu belinya itu kayak di luar kegiatan
+
+[06:53 - 06:55]
+jadi kalau bapak beli kursi langsung harus itu aja
+
+[06:56 - 06:57]
+bagian atas itu
+
+[06:57 - 06:59]
+kalau mau lebih detil-detil lagi tuh
+
+[06:59 - 07:01]
+yang bagian atas itu tuh di charge ke office
+
+[07:01 - 07:03]
+kalau yang bawah itu di charge ke office
+
+[07:03 - 07:07]
+ke ini kalau ini apa ke budget operasi gitu loh
+
+[07:07 - 07:09]
+nah kan tambah ribet lagi nanti
+
+[07:09 - 07:10]
+bapak jelasin sama Dio
+
+[07:10 - 07:11]
+ya itu harus dikasih tau ya kayak gitu
+
+[07:11 - 07:12]
+ya itu memang
+
+[07:12 - 07:14]
+nanti cuma yang macam itu
+
+[07:14 - 07:16]
+tapi kenapa nggak perlu lihat macam itu dulu
+
+[07:16 - 07:18]
+ya udah informasi itu penting tuh
+
+[07:18 - 07:19]
+dan perusahaan yang gede-gede banget
+
+[07:19 - 07:21]
+kalau bapak kerja di EP dulu kan dipisahin
+
+[07:21 - 07:23]
+ini budgetnya office
+
+[07:23 - 07:24]
+ini budgetnya operasi
+
+[07:25 - 07:27]
+operasi di charge ke operasi
+
+[07:27 - 07:29]
+emang bapak perusahaannya sudah sebesar apa
+
+[07:29 - 07:33]
+sampai harus dipilah-pilah sampai segituan dunia
+
+[07:33 - 07:33]
+kan nggak
+
+[07:33 - 07:35]
+nggak masalahnya tuh nggak rapi
+
+[07:35 - 07:36]
+kalau bapak ngomong ini ya bagainya
+
+[07:36 - 07:39]
+tapi di atas tuh nggak dikasih tau apa-apa
+
+[07:39 - 07:41]
+jadi kan bingung juga orang-orang liatnya
+
+[07:41 - 07:43]
+tapi bapak ngasih tau kayak gitu ya
+
+[07:43 - 07:44]
+jadi dipaham jadinya
+
+[07:44 - 07:45]
+kan kalau di pengeluaran pendidikan
+
+[07:45 - 07:47]
+nanti ada pengeluaran tidak langsung
+
+[07:47 - 07:48]
+pengeluaran langsung
+
+[07:49 - 07:49]
+pengeluaran ini
+
+[07:49 - 07:51]
+itu kan tergantung sama jenis
+
+[07:51 - 07:53]
+itunya di kantor pajaknya apa itu
+
+[07:53 - 07:55]
+kan yang awal lihat deraca gitu kan
+
+[07:55 - 07:56]
+ada ditulis apa itu
+
+[07:56 - 07:58]
+kan cuma pengeluaran tidak langsung
+
+[07:58 - 07:59]
+pengeluaran langsung
+
+[07:59 - 08:02]
+pengeluaran yang berhubungan dengan ini
+
+[08:02 - 08:03]
+itu gitu aja cuman
+
+[08:04 - 08:08]
+nah itu kan kumpulan dari itu semua
+
+[08:08 - 08:10]
+yang mana yang disebut pembayaran langsung
+
+[08:10 - 08:13]
+pembayaran langsung misalnya gaji
+
+[08:13 - 08:15]
+ini kalau yang tidak langsung misalnya
+
+[08:15 - 08:18]
+kebiayaan untuk pembuatan barang
+
+[08:18 - 08:19]
+itu untuk tool
+
+[08:20 - 08:23]
+beli ini apa rental tool
+
+[08:24 - 08:25]
+kebiayaan tidak langsung
+
+[08:25 - 08:27]
+eh aku ngapain tadi
+
+[08:38 - 08:39]
+bikin dulu bentuknya ada
+
+[08:39 - 08:41]
+nanti kita ini
+
+[08:41 - 08:42]
+baru warnanya
+
+[08:42 - 08:44]
+mau dibentuknya seperti apa
+
+[08:44 - 08:53]
+yang penting datanya
+
+[08:53 - 08:55]
+ini apa yang dimasukinnya
+
+[08:55 - 08:57]
+bisa ditahan sampai berapa lama
+
+[08:57 - 08:59]
+karena kan ini tahun 2026
+
+[08:59 - 09:01]
+nanti tahun depan tahun 2027 ini
+
+[09:01 - 09:03]
+tahun 2026 sudah hilang
+
+[09:05 - 09:07]
+tahun 2027 tahun 2028
+
+[09:07 - 09:09]
+datanya sampai berapa tahun misalnya
+
+[09:09 - 09:10]
+kalau bisa
+
+[09:10 - 09:11]
+papa nggak ada backup-an emangnya
+
+[09:12 - 09:14]
+kan dia tulisnya disitu semua
+
+[09:14 - 09:17]
+tapi saran dia ya
+
+[09:17 - 09:18]
+sebagai seorang IT
+
+[09:18 - 09:19]
+mau apapun itu
+
+[09:19 - 09:21]
+kita nggak tahu apa yang terjadi gitu
+
+[09:22 - 09:24]
+google dia aja dia backup-in juga gitu
+
+[09:24 - 09:26]
+kalau seandainya ada masalah papa
+
+[09:27 - 09:28]
+kalau papa nggak backup-in
+
+[09:28 - 09:29]
+papa sama aja kayak kominfo loh
+
+[09:29 - 09:31]
+itu bah kejadian yang paling parah tuh
+
+[09:31 - 09:34]
+data data data apa data pegawai
+
+[09:34 - 09:36]
+eh data republik hilang semua
+
+[09:36 - 09:37]
+nggak ada backup-annya
+
+[09:37 - 09:38]
+kacau itu
+
+[09:40 - 09:41]
+dia sering ngelihat
+
+[09:41 - 09:42]
+wah gila kacau
+
+[09:42 - 09:44]
+buat kominfo lagi kan
+
+[09:44 - 09:44]
+yah
+
+[09:45 - 09:45]
+hehehe
+
+[09:45 - 09:46]
+hehehe
+
+[09:47 - 09:48]
+tetep ada gitu
+
+[09:48 - 09:50]
+walaupun sekuritinya udah ada
+
+[09:50 - 09:52]
+backup-an tetep ada gitu
+
+[09:52 - 09:54]
+WA kan papa juga ada backup-an tuh
+
+[09:54 - 09:56]
+WA walaupun kesannya
+
+[09:56 - 09:57]
+papa hilang semua tuh
+
+[09:57 - 09:58]
+ada backup-an di google
+
+[09:59 - 10:00]
+ya gitu
+
+[10:03 - 10:05]
+padahal nggak ada yang bisa menjamin juga
+
+[10:05 - 10:06]
+hacker hebat aja
+
+[10:07 - 10:08]
+google aja bisa dihack google
+
+[10:09 - 10:09]
+gimana
+
+[10:11 - 10:12]
+cuma mereka ada
+
+[10:12 - 10:13]
+cuma mereka ada backup-annya itu
+
+[10:14 - 10:15]
+tambah ini namanya
+
+[10:16 - 10:17]
+nah surat lagi
+
+[10:19 - 10:20]
+damai sepuluh nih
+
+[10:21 - 10:23]
+ke masjid ya ke rumah pak
+
+[10:23 - 10:24]
+sepi nggak
+
+[10:24 - 10:25]
+hehehe
+
+[10:25 - 10:27]
+ramai kemarin capek banget
+
+[10:27 - 10:28]
+hehehe
+
+[10:28 - 10:28]
+hehehe
+
+[10:29 - 10:30]
+di belakang juga
+
+[10:30 - 10:32]
+juga di cempitan lagi
+
+[10:32 - 10:34]
+mas rakyat terakhir dia masih
+
+[10:34 - 10:36]
+masih kayak rakyat awal
+
+[10:36 - 10:37]
+kalau di bawah di dalam kan
+
+[10:37 - 10:39]
+nggak ada berjemputan
+
+[10:39 - 10:41]
+stres banget dia semua
+
+[10:41 - 10:43]
+jujur kemarin tuh
+
+[10:43 - 10:44]
+doga banget dia
+
+[10:44 - 10:45]
+sholat awal awal
+
+[10:49 - 10:51]
+maksudnya tuh ada perempuan juga nih
+
+[10:51 - 10:52]
+juga nggak bisa di atas lagi
+
+[10:52 - 10:54]
+ini kan di bawah di dalam
+
+[10:55 - 10:56]
+namanya di atas
+
+[10:56 - 11:00]
+di bawah di dalam dingin
+
+[11:00 - 11:01]
+di atas
+
+[11:01 - 11:05]
+ya udah seminggu lagi dah
+
+[11:05 - 11:16]
+tumpah loh lima rakatnya sholat
+
+[11:16 - 11:18]
+lima apa lima kali sholat ya
+
+[11:18 - 11:20]
+orangnya gemuk lagi sebelah dia
+
+[11:20 - 11:21]
+aduh kata dia
+
+[11:21 - 11:21]
+hehehe
+
+[11:21 - 11:29]
+mama yang paham itu
+
+[11:29 - 11:32]
+warnanya coklat gak
+
+[11:32 - 11:34]
+warna yang coklat rusak
+

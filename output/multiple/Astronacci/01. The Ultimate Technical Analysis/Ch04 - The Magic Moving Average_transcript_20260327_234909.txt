@@ -1,0 +1,2288 @@
+Source: Ch04 - The Magic Moving Average.mp3
+Language Mode: Indonesian
+Detected: id (100.0%)
+Transcribed: 2026-03-28 00:00:35
+==================================================
+
+The magic moving average ; Moving average merupakan sebuah indicator yang kita sering gunakan dan hampir di semua software trading ada ; Dari katanya moving average artinya pergerakan harga rata-rata ; Nah moving average ini seringkali membantu trader untuk menentukan tendensi pergerakan arah harga ; Dia tidak berbicara untuk memprediksi arah masa depan harga, tidak ; Tetapi moving average ini memberi tahu informasi pada kita bahwa harga rata-rata dalam sebuah periode itu kecenderungannya meningkat terus atau melemah terus ; Nah di dalam exponential moving average yang sering kita gunakan ; Jadi moving average sendiri ada beberapa jenis, ada exponential, ada weighted, ada simple moving average ; Tapi kita akan fokus pada exponential moving average ; Di dalam exponential moving average Anda akan mengetahui pergerakan harga dalam sebuah periode ; Katakan 21 hari itu tendensinya ke atas atau ke bawah ; Sehingga rumusan dari pada exponential moving average ini dipakai untuk memberikan sebuah gambaran yang jelas kepada investor ; Bahwa saham atau futures atau commodity apapun yang sedang mereka tradingkan itu ternyata bergerak naik dalam periode 20 hari terakhir ; Bukan 20 hari ke depan ; Moving average sendiri termasuk di dalam kategori indicator trend following ; Di mana kita tahu indicator itu ada 2, ada trend following ; Ada oscillator ; Dan kali ini Anda akan mempelajari indicator moving average sebagai trend following ; Yang pada akhirnya banyak orang menggunakan moving average untuk menciptakan indicator yang lain ; Sebagai contoh Anda akan mengenal adanya Bollinger band ; Di mana John Bollinger menggunakan moving average untuk middle line daripada Bollinger band ; Kemudian ada MACD ; Nah tapi yang akan kita gunakan saat ini adalah moving average yang single stand moving average ; Artinya Anda menggunakan satu indikator ; Yang akan kita apply pada chart seperti yang Anda lihat di gambar ini ; Sebagai contoh ada sebuah grafik dengan moving average ; Garis berwarna merah ini merupakan sebuah tendensi harga ; Jadi kalau Anda melihat sebuah chart dengan moving average dan pergerakan harganya ; Membentuk primary and secondary di atas moving average nya ; Maka itu yang disebut dengan bullish trend ; Anda bisa lihat di ilustrasi di samping saya ; Dan apabila Anda bisa memperhatikan bahwa harga bergerak di bawah moving average ; Itu artinya harga bergerak di bawah moving average ; Di dalam bearish trend ; Di dalam kita trading kita perlu mengetahui ; Sebenarnya saat ini harga cenderung kemana sih? ; Ke atas atau ke bawah? ; Kita melihat moving average ini seperti air laut ; Dan harga itu seperti ikannya ; Seperti ikan yang berenang di atas air ; Selama dia bisa terbang di atas air ; Maka trendnya kuat ; Maka kekuatannya cukup bagus ; Nah begitu juga pada saat harga di bawah moving average ; Berarti dia itu belum mampu keluar daripada airnya ; Jadi tenggelam di bawah ; Pada saat harga sudah terbang di atas airnya ; Sudah menembus moving average dari bawah ke atas ; Saya ulangi ; Menembus moving average dari bawah ke atas ; Maka di sana akan terlihat sebuah perubahan trend yang mungkin akan terjadi ; Peralian trend dari bullish ke bearish ; Atau bearish ke bullish ; Hanya akan terjadi pada saat kepala cangkul dan badan cangkulnya ; Itu semua bergerak di atas ; Jadi primary dan secondary ; Anda bisa lihat ilustrasi pergerakan di samping ini ; Primarynya bergerak di atas moving average ; Jadi mulai dari penembusan dari bawah ke atas ; Anda bisa lihat ; Bawah ke atas tembus ; Kemudian dari atas ini dia koreksi ; Dia harus mengalami koreksi ; Membentuk kepala cangkul ; Dan kemudian dia tidak masuk lagi di dalam moving average-nya ; Lalu bergerak ke atas ; Demikian juga pada saat bearish ; Pada saat bearish dia masuk ke dalam moving average-nya ; Kemudian dia rebound sedikit ; Tetapi reboundnya tidak lebih jauh daripada moving average-nya ; Kemudian dia turun kembali ; Ini yang kita sebut bearish trend ; Ditandakan dengan exponential moving average-nya ; Berikutnya ; Di dalam menggunakan moving average ; Banyak orang menggunakan 2 moving average ; 3 moving average ; Bahkan ada yang sampai rainbow strategy banyak sekali ; Tetapi astronasi tidak menggunakan yang seperti itu ; Moving average yang kita gunakan biasanya hanya 3 ; Yang pertama adalah kita menggunakan moving average ; Untuk dynamic support atau resistance ; Dan yang kedua adalah kita menggunakan moving average ; Untuk menentukan tendensi arah harga ; Indicator atau moving average ini memiliki parameter ; Dan parameter yang akan sering kita gunakan ; Menggunakan angka-angka fibonacci ; Dalam kasus-kasus tertentu saya menggunakan parameter 13 ; Kemudian 21 ; Which is itu angka fibonacci ; Tetapi pada umumnya ; Saya menggunakan 21, 34, dan 90 ; Karena ini merupakan area moving average ; Yang menginterprestasikan sebuah primary and secondary yang fair ; Jadi di dalam pergerakan harga ; Misalnya dia sekarang bermain di atas moving average 21, 34 ; Artinya dia sedang bergerak dalam kondisi bullish ; Pada saat harga turun ke dalam kondisi bullish ; Dia akan turun di bawah moving average 34 ; Dia akan turun di bawah level tersebut ; Dan menyentuh exponential moving average 90 ; Jadi kita tahu bahwa area 21, 34, 90 ini memiliki keterkaitan ; Yang akan saya tunjukkan nanti di aplikasi ; Kemudian banyak orang menggunakan moving average ini ; Menggunakan crossover ; Dimana itu merupakan misleading ; Jadi kurang tepat ; Apabila Anda melihat moving average that cross ; Cross dari atas ke bawah ; Misalnya 21 crossing 34 ; Dan kemudian ; Langsung tiba-tiba Anda berpikir bahwa ini bearish ; Lalu Anda sell ; Tidak seperti itu ; Crossover moving average memberikan pertanda ; Memberikan pertanda ; Bahwa tendensi arah harga akan masuk di dalam bullish ; Tetapi leading indicatornya tetap harga ; Di dalam indicator kita akan mengenal dua bagian ; Yang pertama adalah leading indicator ; Yang kedua adalah lagging indicator ; Dengan lagging indicator ; Yakni salah satunya adalah moving average ; Justru karena keterlambatan dia ; Kita bisa mencari harga yang lebih tinggi ; Kita bisa melihat bahwa pergerakan harga itu tidak semudah itu berubah arah ; Bahwa pergerakan harga itu memiliki ; Satu pola yang dibangun secara lama ; Memiliki satu tendensius ; Dan apabila dia bullish ; Dia tidak gampang berubah bullishnya ; Ini yang harus kita tahu ; Jadi selama harga bergerak di atas moving average nya ; Maka kita bisa berasumsi bahwa trend bullish itu tetap akan ada di sana ; Selama harga berada di bawah moving average ; Dan belum membuktikan bahwa adanya pembalikan arah itu terjadi ; Tidak akan berubah arahnya ; Tidak perlu kita khawatir bahwa harga ini akan berbalik arah ; Maka kebanyakan trader itu menggunakan moving average ; Dengan konsep yang benar ; Dia bisa menyaring atau memfilter pergerakan harga dengan lebih objektif ; Dan pada akhirnya profit yang maksimal ; Kenapa? ; Karena dia stay in the trend ; Mereka akhirnya tidak melawan arah trend ; Karena mengikuti direction daripada arah moving average nya ; Salah satu kelemahan dari moving average adalah ; Pada saat trend sideways ; Dia tidak bisa membaca dan dia cenderung akan bergerak ; Di tengah-tengah saja ; Jadi moving average ini ada di tengah-tengah ; Dan kita tidak menggunakan moving average pada saat trend sideways ; Sehingga pada saat hanya dalam trending ; 45 degree up atau down ; Membentuk primary dan secondary ; Hanya itulah kita menggunakan moving average ; Dan kita akan belajar lebih lanjut di application ; Selamat datang kembali di ultimate trading workshop ; Kali ini kita akan mulai mempelajari mengenai ; The magic of moving average ; Yang akan membahas lebih ke aplikasi ; Dan bagaimana cara set up moving average ; Lalu apa saja yang harus dilakukan ; Untuk trading dengan menggunakan moving average ; Setelah kita pelajari sebelumnya ; Tentang teori dari moving average ; Bagaimana mendevelop dan apa sih konsep dari moving average ; Sekarang saya akan menunjukkan ; Langkah-langkah dari penggunaan moving average itu ; Dengan kita menggunakan moving average ; Maka Anda benar-benar akan bisa memiliki ; Satu perspektif yang lebih mudah ; Sebelumnya di chapter 1 chapter 2 ; Kita sudah mempelajari bagaimana cara ; Menentukan arah trend melihat masa depan ; Yang akan terjadi ; Dan Anda sudah mempelajari primary and secondary trend ; Dan seterusnya ; Nah ini adalah alat bantu yang bisa Anda lakukan ; Untuk memprediksi arah harga ; Karena Anda pasti akan membutuhkan ini ; Dimana Anda juga sudah melihat ; Mengenai support resistance ; Klasik yang sebelumnya ; Sudah kita bahas ; Dan saat ini ; Saya akan mengajarkan ; Apabila harga bergerak di dalam kondisi ; 45 derajat up ; Dan 45 derajat down ; Seperti ini ya ; Dia down terus seperti ini ; Maka ; Kalau awalnya kita hanya menggunakan ; Klasik support ; Kita hanya akan menunggu di bawah ; Dan mungkin kita menunggu di atas ; Tetapi bagaimana untuk mengcapture ; Minor-minor trend ; Karena di setiap minor trend ; Kita tahu bahwa ; Kenaikan dan penurunan harga ini ; Ini selalu mengandung ; Kalau kita bilang secondary reaction ; Ini ada selalu mengandung ; Secondary reaction seperti ini ; Pertanyaannya bagaimana kita bisa ; Mengcapture secondary reaction ini ; Untuk ; Satu ; Mengetahui target resistance ; Terdekat sebagai profit target ; Yang kedua ; Bagaimana caranya kita mengetahui ; Posisi kita untuk entry ; Menggunakan strategi ini ; Kalau kita tahu bahwa primary-nya adalah down ; Secondary up ; Maka kita akan mencari posisi sell ; Ya ; Posisi down seperti ini kita sudah menikmati ; Kita bukan lagi mencari posisi sell di sini ; Kemudian waktu dia up seperti ini ; Kita juga melihat ; Bagaimana apakah kita bisa mencapai posisi sell di sini? ; Tentunya itu akan sangat diuntungkan ; Apabila anda mengenal sebuah metode ; Yang disebut dengan ; Dynamic support resistance ; Menggunakan exponential moving average ; Sebelumnya kita sudah membahas ; Tentang exponential moving average ; Nah sekarang ; Saya memberikan satu ilustrasi ; Sebelum kita masuk ke contoh yang real ; Bahwa pada saat harga bergerak ; Membentuk primary dan secondary ; Secara kasat mata kita melihat bahwa ; Ini memiliki satu tendensi bergerak ; Ke arah atas ya ; Bergerak ke arah atas ; Dan ; Kalau kita menggunakan trendline ; Dimana nanti kita akan menggunakan trendline ; Untuk menghubungkan kaki-kakinya ini ; Untuk mendapatkan direction ; Maka moving average itu adalah dynamic trendline ; Yang akan mengikuti ; Ya ; Lalu berapa saja yang harus kita set? ; Moving average yang akan kita gunakan ; Disesuaikan dengan kondisi market ; Karena tiap market berbeda ; Tetapi kita akan menggunakan exponential moving average ; Mulai dari ; Untuk stocks ya ; 21 kemudian 34 ; Kurang lebih di level tersebut ya ; Kemudian anda stand by ; Exponential moving average 90 ; Karena ini merupakan sebuah target ; Pencapaian harga ; Setelah harga itu melampaui ; Moving average 34 ; Biasanya akan mengejar ke 30 ; Kalau marketnya koreksinya kecil-kecil ; Koreksi itu berarti secondary reactionnya ; Tidak begitu besar ; Maka sometimes saya akan menggunakan 13 kemudian 26 ; Ya ; Kenapa 26? ; Karena ini adalah 2 kali dari 13 ; Kenapa 2134? ; Karena itu adalah angka-angka dari Fibonacci ; Very simple ; Jadi moving average ini ; Dia tidak akan mungkin muncul sebelum harga muncul ; Sehingga dia tidak akan mendahului ; Dia akan selalu bersama ; Dan moving average yang akan kita gunakan ; Katakan anda menggunakan 2 moving average ; Mungkin kita berikan warna yang lain ya ; Beri warna kuning misalnya ; Nah ; Konsep daripada moving average disini ; Kita bisa melihat ; Arah pergerakan market ; Jadi yang pertama salah satu benefit ; Yang ada disini adalah ; Arah ; Pergerakan harga ; Arah pergerakan harga ; Kemudian yang kedua dia adalah ; Kita akan melihat ; Dynamic ; Support atau resistance ; Jadi salah satu keunggulan ; Dengan menggunakan moving average tersebut ; Anda akan mengetahui arah pergerakan harga ; Terus kemudian anda mengetahui ; Dynamic support resistance ; Dynamic kenapa dikatakan dynamic ; Karena kita tahu bahwa kita dalam kondisi yang ; 45 derajat naik seperti ini ; 45 derajat itu maksudnya naik begini ya ; Kemiringannya ya kalau ; Kalau ini segitiga siku-siku kan ; Sudut kemiringannya itu 45 derajat ; Artinya trendnya benar-benar sedang berjalan ; Kita tahu bahwa disini ada ; Area support dan resistance ; Dan dalam anda melihat ini ; Kita bisa perhatikan sekali ; Bahwa kita tidak mungkin membeli di ; Support kalau harga disini karena supportnya di bawah ; Lantas bagaimana saya perlu referensi ; Support yang selalu mengikuti ; Maka itulah yang disebut dengan ; Dynamic support resistance yang ; Kita bahas juga di money magnet trading ; Strategy kita percaya bahwa area yang ; Ada disini ini area yang bermagnet ; Memiliki energi yang ; Untuk bisa menyedot harga ; Masuk ke dalam dan kemudian mementalkannya ; Lagi keluar sehingga ini ; Bisa menjadi satu referensi ; Tendensi trend ; Karena trend itu kita bisa melihat ; Moving average nya ini arahnya menghadap ke atas ; Dan harga berada di atas ; Berarti secara keseluruhan trend ini bullish ; Anda jangan berpikir bahwa nanti ; Dia bisa berbalik arah turun misalnya ; Ya memang bisa tetapi ingat hukum Newton ; Pelajaran pertama bahwa trend yang sedang berjalan ; Itu akan cenderung ; Berjalan seperti itu ; Sehingga dalam kasus seperti ini ; Kita percaya bahwa ; Kenaikan ini ; Masih akan terus valid sampai dia memang membuktikan ; Dan harga itu bergerak di bawah ; Kalau moving average seperti itu membentuk primary dan secondary ; Di bawahnya ; Tapi selama dia di atas ; Kita berani mengambil spekulasi ; Bahwa ini lebih baik ; Akan lanjut ke atas ketimbang dia turun ke bawah ; Ya so karena itu ; Kita akan bahas ; Bagaimana sih aplikasinya ; Kita untuk melakukan pembelian ; Dalam kasus bullish ; Dengan menggunakan strategi ; Dynamic support ; Kemudian moving average tadi menunjukkan arah harga ya ; Nah kelemahan moving average ; Itu adalah apabila ; Kondisi berada sideways dan harga itu ; Bergerak ; Di tengah-tengah moving average ; Maka kita tidak gunakan lagi moving average nya ; Nanti kita akan melihat contohnya ; Nah ini adalah contoh saya trading gold ; Posisi sedang floating $1700 ; Not bad ; Kita akan set up terlebih dahulu moving average ; Di indicator panel kita masukkan moving average ; Set kesini ; Lalu kita akan ; MA method nya exponential ; Yang pertama saya akan berikan 21 ; Kita bisa tebalkan ; Lalu kita set kesini ; Kemudian kita taruh lagi ; Moving average ; Dan kita taruh ; 34 ; Kenapa harus 2 karena itu range ; Kemudian saya ; Taruh yang terakhir adalah ; 90 karena 90 ini merupakan ; Extended target ; Jadi pada saat harga itu ; Ditutup diatasnya 34 ; Dan dia tidak mau reject tidak mau turun ; Itu artinya dia akan terus ; Lanjut sampai ke 90 ; Dan kemudian akan reverse anda waspada nanti disitu ; Pada saat ini harga turun kebawah ; Kemudian dia membentuk false break ; Ini saya sudah memutuskan bahwa saya ; Akan melakukan pembelian ; Dengan target price kurang lebih disini ; Makanya kalau anda lihat moving average nya ; Saya kurang lebih akan berdekatan dengan target ; Profit saya ; Ya di dalam ; H1 nya ini kelihatan ada critical point ; Cikal bakal ; Harmonic pattern dan kemudian ini naik ; Nah di H1 lebih jelas nih ; Bahwa kenaikan kali ini akan menyentuh ; MA 90 nya dan kemudian dia ; Setelah menyentuh itu dia akan turun ; Ya ; Jadi moving average selain ; Kita gunakan untuk ; Awal mula menentukan entry ; Awal mula menentukan entry ; Ya dalam hal ini entry salnya dimana ; Pada saat dia kembali ; Ke moving average nya lalu dia ; Turun kebawah maka ; Setelah dia kena ke atas seperti ini ; Dia akan turun kembali kebawah nah ; Dalam kasus ini kita harus bisa ; Mempredik bahwa ini ; Kepala canggulnya ; Bukan lagi menjadi kepala canggul tapi akan naik ke atas ; Dari mana dari price action ; Jadi di dalam course yang lain nanti ; Anda akan mempelajari mengenai bagaimana ; Caranya kita ; Menggunakan teknik ; Price action yang lebih advance ; Untuk menentukan bahwa ini kepala canggulnya sudah ; Tidak bisa turun lagi ; Sudah tidak bisa turun lagi dan akan ; Cenderung berbalik ke atas nah kalau begitu kan ; Saya berani buy kalau saya sudah buy ; Maka saya akan set target price nya di atas ini ; Lantas ; Kalau aplikasi yang paling gampang adalah ; Anda melihat tentang ; Dynamic resistance ini kita tahu ; Harga terus turun kebawah ; Ya anda perhatikan anda cari area ; Dimana dia mengalami ; Sebuah konsolidasi ; Area dimana dia mengalami konsolidasi ; Kemudian harga break ; Lalu pada saat dia sudah break ; Perhatikan ; Dia membentuk primary dan secondary ; Setelah dia sudah break ; Dia membentuk primary sebagai break nya ; Lalu membentuk secondary dan lihat ; Setiap kali dia membentuk secondary ; Dia mendekati area moving average nya ; Bahkan menempel ; Lalu dibanting lagi ke bawah ; Lalu dia akan naik lagi ke atas ; Lalu dibanting lagi ke bawah ; Ini berarti kita menggunakan ; Teknik untuk entry ; Jadi entry nya dimana kita tahu ; Ini bakal jadi bearish ; Lalu untuk entry nya ini bisa di time frame yang lebih kecil ; Saya melihat bahwa ; Moving average nya sudah di bawah ; Menghadap ke bawah ; Harga sudah lewat ; Kemudian harga masuk ke area moving average nya ; Lalu membentuk reversal ; Lalu saya sell ; Atau setidaknya anda bisa membuat analisa ; Yang cukup akurat dengan begitu ; Ini konsolidasi disini ; Demikian juga disini ; Setelah harga naik ; Kesini reverse tapi ; Reverse nya tidak signifikan ; Kenapa karena ada pertanda ; Waktu dia reverse disini dia mau coba turun ; Tetapi dia gagal turun ini berarti dia mau naik ; Naikannya akan cukup tinggi ; Mencapai 90 ; Kalau katakan pun anda mencoba sell disini ; Anda mungkin bisa cut loss sekali ; Dan reverse to buy ; Dengan target price MA90 ; Dan kemudian kalau kita tarik garisnya ; Kita tahu bahwa target price ; Berikutnya adalah di tengah-tengah ; Itu karena mengambil ; Titik tengah daripada ; Bottom bawah ; Dan kita tahu classic support ; Ada di bawah 1306 ; Maka setelah mencapai MA tersebut ; Turun dan anda melihat profit taking sudah done ; Dan ; Saya deposit 2000 dollar ; Dengan metode yang serupa ya ; Total keuntungan saya sudah ; Withdraw 390.000 dollar totalnya ; Dan kalau anda lihat ; Keseluruhan yang hari ini ; Saya dapatkan adalah ; Saya berhasil take profit di 1318 ; Itu tepat di MA30 dan mendapatkan ; 2000 dollar ; Ya ; Dan ini adalah cara yang luar biasa ; Seperti yang anda ketahui ; Benar-benar dia terkena di MA90 ; Kemudian setelah ini ; Kita expect akan turun lagi ; Dan kemudian akan kembali naik ke atas ; Karena itulah polanya ; Setelah primary kemudian secondary ; Dan penurunan itu kurang lebih 65 pips ; Ya tadi kita lihat ; Jadi MA90 akan menjadi dynamic resistance ; Yang benar-benar bisa diandalkan ; Dalam kasus kali ini ; Ya ; Dan ini yang kita harus perhatikan ; Sebagai seorang trader anda mencari ; Benar-benar pada saat dynamic ; Support resistance itu bisa kita gunakan ; Dan moving average yang crossing ; Seperti ini juga ; Bisa menjadi sebuah referensi ; Bahwa pada saat dia crossing itu artinya ; Trend bearish baru sedang berjalan ; Pembentukan kepala canggul dan badan canggulnya ; Berada di bawah moving average ; Ya crossing disini bukan berarti ; Anda boleh melakukan sell langsung ; Tetapi hanya merupakan sebuah ; Indikasi bahwa trend itu sudah berbalik arah ; Dan itulah saatnya primary dan secondary ; Trend berubah directionnya ; Ya dari yang awalnya di atas kemudian sekarang ; Trend bearish primary di bawah ; Kemudian dia naik lagi ke atas ; Menjadi kepala canggul dan kemudian dia ; Nantinya akan turun lagi ke bawah ; Ya demikian juga disini ; Pada saat dia mencapai level ; Exponential disana ; Ya kemudian dia turun ; Ke tengah seperti yang saya gambarkan ; Itu akan menjadi area yang ; Baik ya ; Sekarang kita melihat di saham BBTN ya ; Kita akan coba ; Mengaplikasikan ; Indikator moving average ; Exponential ya ; Kita tidak melakukan double click karena ; Akan susah disitu kalau di bawahnya kita ; Dragging kemudian kita langsung masukkan ; MA21 ; Dan mungkin kita akan ganti warnanya menjadi merah ; Kemudian stylenya kita berikan ; Tick ya ; Dan selalu ingat ; Menjadi logaritmik untuk aritmatik ; Untuk skillnya ; Jadi sharp skill ini harus logaritmik ; Kita sudah ; Apply ; Exponential moving average 21 ; Kita bisa lihat secara keseluruhan ; Pergerakan harganya bagaimana ; Harga bergerak di atas ; Exponential moving average 21 ; Dan ini adalah akumulasi ; Yang ada disitu ; Dan setelah akumulasi break kita bisa gunakan ; Area dynamic support ini ; Untuk melakukan trading ; Dan kita akan pasang lagi ; Exponential 34 ; Sebagai batas bawahnya dan ; Kita bisa lihat harga setelah konsolidasi ; Dia keluar ; Kemudian kita pasang lagi ; Yang MA90 ; Untuk set up keseluruhan ; Kita kasih warna hitam ; Setelah dari akumulasi tadi harga keluar ; Dan kalau kita lihat sekarang ; Harga turun ke bawah dan membentuk ekor ; Disitu kalau dia close di bawah 34 ; Dia akan turun ke 90 ; Itu menjadi area targetnya ; Jadi kita tahu targetnya ; Tapi kita tahu bahwa sekarang dia terhenti di ; Level tersebut maka idealnya ; Dia akan melanjutkan penguatannya ; Itu merupakan rule of thumbnya ; Setelah dia mencapai level tersebut ; Kita percaya bahwa selanjutnya ; Dia akan naik ke atas ; Itu adalah aturan main ; Daripada dynamic support ; Kita akan coba di BBRI ; Atau ICBP ; Kita zoom ; Dan anda lihat ; Area dynamic supportnya ; Sudah dikenakan dan pada saat itu ; Langsung terjadi pembalikan arah ; Demikian juga pada area ini harga ; Membentuk canggul-canggul kecil ; Dan kita melihat ada ; Konsolidasi disana ; Area konsolidasi tersebut ; Menjadi titik pin point dimana ; Terjadinya rally kembali dan kita bisa ; Menggunakan ; Area dynamic support ; Untuk trading dimana harga ; Kemudian masuk ke area moving average nya ; Lalu akan di muntahkan lagi ; Keluar ; Dan ini adalah strategi yang baik untuk kita bisa ; Mengetahui ; Dimana ke si kepala canggulnya akan berhenti ; Nah weekly nya kita akan melihat ; Dari major time frame ; Kita menggunakan exponential ; Moving average ini ; Untuk melihat direction dan ; Di daily nya kita menggunakan ; Exponential untuk menentukan target beli ; By our weakness nya dimana ; Pada area ini saya mencoba ; Menggambarkan ; Kepala canggul dan badan canggul ; Kita urutkan satu persatu ; Dan kita tahu bahwa setelah ; Terbentuk ; Badan dan kepala seperti sebelumnya ; Akan terbentuk lagi kepala canggul ; Dan badan canggul yang ; Saat ini terbentuk ; Itu disebabkan karena ; Reaksi ; Dari kepala canggul sebelumnya ; Dan kepala canggul sebelumnya berakhir pada ; Dynamic support ; Dan kenaikan itu bisa kita gunakan ; Classic resistance pada 10200 kurang lebih ; Saya zoom ; Dimana trend bullish ; Tetap berlangsung dan ; ABCD akan ; Berlanjut dengan target price 10200 ; Kita tahu pada saat dia turun ; Mencapai area harmonic support ; Dan itu trend bullish akan berlanjut ; Trend bullish berlanjut kemudian dia ; Akan mencapai ; Puncak yang ada di atas sebagai ; Classic resistance nya ; Ini yang sangat penting sekali ; Untuk kita pelajari bahwa ; Untuk mengetahui ABCD ; B tersebut akan berada di posisi ; Dynamic support nya ; Di area moving average ; Ini akan menjadi fokus kita ; Dalam perjalanan kali ini ; Dalam menggunakan moving average ; Titik bottom yang ; Saya berikan kotak ; Itu adalah exactly ; Yang muncul di dalam chart ; Real demikian juga dalam ; Kondisi bearish ; Ini kondisi bearish ; Area yang ada kebawah kalau sekarang ; Ini adalah bullish area yang tadi saya kotakan ; Di ilustrasi itu ; Berada di bottom bottom yang ; Terlihat di gambar ini ; Kemudian kalau anda perhatikan ; Kita akan mencoba saham yang lain ; Misalnya atau di IHSG ; Kita coba di IHSG ; Nah dari sini kita bisa melihat ; IHSG pun juga respect ; Terhadap area exponential ; Moving average ; Sebagai dynamic support ; Dan resistance nya ; Khususnya saat ini kita berbicara dynamic support ; Seperti yang anda ketahui bahwa ; Index terpental ; Di area garis hitam ; Gimana garis hitam 5135 itu adalah ; Area moving average ; Setelah harga turun menembus 34 ; Dia kena di exponential 90 ; Kemudian dia mantul lagi ke atas ; Ini merupakan area yang sangat penting ; Pada saat turun mungkin anda kaget ya ; Dimana dia harus ; Berhenti setelah turun ; Lalu kemudian dia naik kembali ke atas ; Anda bisa tahu bahwa kenaikan itu akan ; Kembali masuk ke area konsolidasinya ; Dan ; Area sideways itu menjadi akumulasi ; Kemudian mulai turun ; Dan pada saat dia mencapai ; Posisi 5315 ; Dia harus membuat kepala canggul kembali ; Harusnya ; Itu merupakan serangkaian ; Routine yang bisa kita gunakan pada saat ; Anda menggunakan dynamic support ; Dan resistance kita melihat hubungannya ; Antara MA34 begitu dia close dibawah situ ; Harga turun ke area berwarna hitam ; Lalu dia akan recover naik lagi ke atas ; Di dalam kita trading ; Kita akan mencoba ; Memetakan harga trend bullish ; Dan bearish nya ; Dan untuk menentukan area ; Dimana sih dia akan ; Terhenti kepala canggulnya kita ; Akan menggunakan metode seperti ini ; Dimana harga akan ; Naik kemudian dia turun ; Menyentuh kemudian naik kembali ke atas ; Pertanyaan berikutnya bagaimana ; Cara entry nya itu nanti akan kita ; Bahas di ; Jenis candlestick untuk kita trading ; Itu nanti bagaimana ada harami ada engulfing ; Dan seterusnya jadi make sure cap ; Anda sudah bisa di set seperti ini ; Anda menggunakan moving average 2133 ; Dan 90 itu adalah ; Standard dari arda astronaci ; Kemudian anda bisa menggunakannya sebagai ; Dynamic support resistance anda juga mengetahui ; Setelah 34 ini ditembus dan ditutup ; Lalu di extend maka anda ; Buy on weakness di MA90 nya ; Dan anda juga bisa ; Meyakinkan diri ; Bahwa canggul itu ; Kepalanya masuk di area moving average nya tersebut ; Dan akan dilanjutkan dengan ; ABCD oke demikian ; Aplikasi dari pada moving average sukses selalu ; Anda harus banyak berlatih dan kita akan bertemu ; Di chapter selanjutnya untuk membahas ; Bagaimana candlestick bisa kita gunakan ; Untuk trigger entry
+
+==================================================
+TIMESTAMPS:
+
+[00:02 - 00:23]
+The magic moving average
+
+[00:23 - 00:31]
+Moving average merupakan sebuah indicator yang kita sering gunakan dan hampir di semua software trading ada
+
+[00:31 - 00:35]
+Dari katanya moving average artinya pergerakan harga rata-rata
+
+[00:35 - 00:42]
+Nah moving average ini seringkali membantu trader untuk menentukan tendensi pergerakan arah harga
+
+[00:42 - 00:45]
+Dia tidak berbicara untuk memprediksi arah masa depan harga, tidak
+
+[00:45 - 00:54]
+Tetapi moving average ini memberi tahu informasi pada kita bahwa harga rata-rata dalam sebuah periode itu kecenderungannya meningkat terus atau melemah terus
+
+[00:54 - 01:00]
+Nah di dalam exponential moving average yang sering kita gunakan
+
+[01:00 - 01:05]
+Jadi moving average sendiri ada beberapa jenis, ada exponential, ada weighted, ada simple moving average
+
+[01:05 - 01:08]
+Tapi kita akan fokus pada exponential moving average
+
+[01:08 - 01:14]
+Di dalam exponential moving average Anda akan mengetahui pergerakan harga dalam sebuah periode
+
+[01:14 - 01:20]
+Katakan 21 hari itu tendensinya ke atas atau ke bawah
+
+[01:21 - 01:28]
+Sehingga rumusan dari pada exponential moving average ini dipakai untuk memberikan sebuah gambaran yang jelas kepada investor
+
+[01:28 - 01:36]
+Bahwa saham atau futures atau commodity apapun yang sedang mereka tradingkan itu ternyata bergerak naik dalam periode 20 hari terakhir
+
+[01:36 - 01:37]
+Bukan 20 hari ke depan
+
+[01:38 - 01:41]
+Moving average sendiri termasuk di dalam kategori indicator trend following
+
+[01:41 - 01:44]
+Di mana kita tahu indicator itu ada 2, ada trend following
+
+[01:44 - 01:45]
+Ada oscillator
+
+[01:45 - 01:50]
+Dan kali ini Anda akan mempelajari indicator moving average sebagai trend following
+
+[01:50 - 01:55]
+Yang pada akhirnya banyak orang menggunakan moving average untuk menciptakan indicator yang lain
+
+[01:55 - 01:58]
+Sebagai contoh Anda akan mengenal adanya Bollinger band
+
+[01:58 - 02:04]
+Di mana John Bollinger menggunakan moving average untuk middle line daripada Bollinger band
+
+[02:04 - 02:05]
+Kemudian ada MACD
+
+[02:06 - 02:12]
+Nah tapi yang akan kita gunakan saat ini adalah moving average yang single stand moving average
+
+[02:12 - 02:14]
+Artinya Anda menggunakan satu indikator
+
+[02:14 - 02:18]
+Yang akan kita apply pada chart seperti yang Anda lihat di gambar ini
+
+[02:18 - 02:20]
+Sebagai contoh ada sebuah grafik dengan moving average
+
+[02:20 - 02:25]
+Garis berwarna merah ini merupakan sebuah tendensi harga
+
+[02:25 - 02:30]
+Jadi kalau Anda melihat sebuah chart dengan moving average dan pergerakan harganya
+
+[02:30 - 02:33]
+Membentuk primary and secondary di atas moving average nya
+
+[02:33 - 02:35]
+Maka itu yang disebut dengan bullish trend
+
+[02:35 - 02:38]
+Anda bisa lihat di ilustrasi di samping saya
+
+[02:38 - 02:43]
+Dan apabila Anda bisa memperhatikan bahwa harga bergerak di bawah moving average
+
+[02:43 - 02:44]
+Itu artinya harga bergerak di bawah moving average
+
+[02:44 - 02:45]
+Di dalam bearish trend
+
+[02:45 - 02:48]
+Di dalam kita trading kita perlu mengetahui
+
+[02:48 - 02:50]
+Sebenarnya saat ini harga cenderung kemana sih?
+
+[02:50 - 02:51]
+Ke atas atau ke bawah?
+
+[02:51 - 02:54]
+Kita melihat moving average ini seperti air laut
+
+[02:54 - 02:56]
+Dan harga itu seperti ikannya
+
+[02:56 - 02:59]
+Seperti ikan yang berenang di atas air
+
+[02:59 - 03:01]
+Selama dia bisa terbang di atas air
+
+[03:01 - 03:03]
+Maka trendnya kuat
+
+[03:03 - 03:04]
+Maka kekuatannya cukup bagus
+
+[03:04 - 03:09]
+Nah begitu juga pada saat harga di bawah moving average
+
+[03:09 - 03:12]
+Berarti dia itu belum mampu keluar daripada airnya
+
+[03:12 - 03:13]
+Jadi tenggelam di bawah
+
+[03:13 - 03:14]
+Pada saat harga sudah terbang di atas airnya
+
+[03:14 - 03:17]
+Sudah menembus moving average dari bawah ke atas
+
+[03:17 - 03:18]
+Saya ulangi
+
+[03:18 - 03:20]
+Menembus moving average dari bawah ke atas
+
+[03:20 - 03:25]
+Maka di sana akan terlihat sebuah perubahan trend yang mungkin akan terjadi
+
+[03:26 - 03:28]
+Peralian trend dari bullish ke bearish
+
+[03:28 - 03:29]
+Atau bearish ke bullish
+
+[03:29 - 03:33]
+Hanya akan terjadi pada saat kepala cangkul dan badan cangkulnya
+
+[03:33 - 03:34]
+Itu semua bergerak di atas
+
+[03:34 - 03:36]
+Jadi primary dan secondary
+
+[03:36 - 03:38]
+Anda bisa lihat ilustrasi pergerakan di samping ini
+
+[03:38 - 03:41]
+Primarynya bergerak di atas moving average
+
+[03:41 - 03:44]
+Jadi mulai dari penembusan dari bawah ke atas
+
+[03:44 - 03:45]
+Anda bisa lihat
+
+[03:45 - 03:46]
+Bawah ke atas tembus
+
+[03:46 - 03:49]
+Kemudian dari atas ini dia koreksi
+
+[03:49 - 03:50]
+Dia harus mengalami koreksi
+
+[03:50 - 03:52]
+Membentuk kepala cangkul
+
+[03:52 - 03:55]
+Dan kemudian dia tidak masuk lagi di dalam moving average-nya
+
+[03:55 - 03:56]
+Lalu bergerak ke atas
+
+[03:56 - 03:58]
+Demikian juga pada saat bearish
+
+[03:59 - 04:02]
+Pada saat bearish dia masuk ke dalam moving average-nya
+
+[04:02 - 04:04]
+Kemudian dia rebound sedikit
+
+[04:04 - 04:07]
+Tetapi reboundnya tidak lebih jauh daripada moving average-nya
+
+[04:07 - 04:08]
+Kemudian dia turun kembali
+
+[04:08 - 04:11]
+Ini yang kita sebut bearish trend
+
+[04:11 - 04:13]
+Ditandakan dengan exponential moving average-nya
+
+[04:13 - 04:14]
+Berikutnya
+
+[04:14 - 04:15]
+Di dalam menggunakan moving average
+
+[04:15 - 04:18]
+Banyak orang menggunakan 2 moving average
+
+[04:18 - 04:19]
+3 moving average
+
+[04:19 - 04:22]
+Bahkan ada yang sampai rainbow strategy banyak sekali
+
+[04:22 - 04:24]
+Tetapi astronasi tidak menggunakan yang seperti itu
+
+[04:24 - 04:26]
+Moving average yang kita gunakan biasanya hanya 3
+
+[04:26 - 04:28]
+Yang pertama adalah kita menggunakan moving average
+
+[04:28 - 04:31]
+Untuk dynamic support atau resistance
+
+[04:31 - 04:34]
+Dan yang kedua adalah kita menggunakan moving average
+
+[04:34 - 04:37]
+Untuk menentukan tendensi arah harga
+
+[04:37 - 04:40]
+Indicator atau moving average ini memiliki parameter
+
+[04:40 - 04:42]
+Dan parameter yang akan sering kita gunakan
+
+[04:42 - 04:44]
+Menggunakan angka-angka fibonacci
+
+[04:44 - 04:48]
+Dalam kasus-kasus tertentu saya menggunakan parameter 13
+
+[04:48 - 04:49]
+Kemudian 21
+
+[04:49 - 04:50]
+Which is itu angka fibonacci
+
+[04:50 - 04:52]
+Tetapi pada umumnya
+
+[04:52 - 04:56]
+Saya menggunakan 21, 34, dan 90
+
+[04:56 - 04:58]
+Karena ini merupakan area moving average
+
+[04:58 - 05:03]
+Yang menginterprestasikan sebuah primary and secondary yang fair
+
+[05:03 - 05:05]
+Jadi di dalam pergerakan harga
+
+[05:05 - 05:09]
+Misalnya dia sekarang bermain di atas moving average 21, 34
+
+[05:09 - 05:11]
+Artinya dia sedang bergerak dalam kondisi bullish
+
+[05:11 - 05:14]
+Pada saat harga turun ke dalam kondisi bullish
+
+[05:14 - 05:15]
+Dia akan turun di bawah moving average 34
+
+[05:15 - 05:19]
+Dia akan turun di bawah level tersebut
+
+[05:19 - 05:22]
+Dan menyentuh exponential moving average 90
+
+[05:22 - 05:27]
+Jadi kita tahu bahwa area 21, 34, 90 ini memiliki keterkaitan
+
+[05:27 - 05:29]
+Yang akan saya tunjukkan nanti di aplikasi
+
+[05:29 - 05:33]
+Kemudian banyak orang menggunakan moving average ini
+
+[05:33 - 05:34]
+Menggunakan crossover
+
+[05:34 - 05:35]
+Dimana itu merupakan misleading
+
+[05:35 - 05:37]
+Jadi kurang tepat
+
+[05:37 - 05:39]
+Apabila Anda melihat moving average that cross
+
+[05:39 - 05:40]
+Cross dari atas ke bawah
+
+[05:40 - 05:42]
+Misalnya 21 crossing 34
+
+[05:42 - 05:44]
+Dan kemudian
+
+[05:44 - 05:46]
+Langsung tiba-tiba Anda berpikir bahwa ini bearish
+
+[05:46 - 05:47]
+Lalu Anda sell
+
+[05:47 - 05:48]
+Tidak seperti itu
+
+[05:48 - 05:51]
+Crossover moving average memberikan pertanda
+
+[05:51 - 05:52]
+Memberikan pertanda
+
+[05:52 - 05:56]
+Bahwa tendensi arah harga akan masuk di dalam bullish
+
+[05:56 - 05:59]
+Tetapi leading indicatornya tetap harga
+
+[05:59 - 06:02]
+Di dalam indicator kita akan mengenal dua bagian
+
+[06:02 - 06:04]
+Yang pertama adalah leading indicator
+
+[06:04 - 06:07]
+Yang kedua adalah lagging indicator
+
+[06:07 - 06:09]
+Dengan lagging indicator
+
+[06:09 - 06:11]
+Yakni salah satunya adalah moving average
+
+[06:11 - 06:13]
+Justru karena keterlambatan dia
+
+[06:13 - 06:14]
+Kita bisa mencari harga yang lebih tinggi
+
+[06:14 - 06:18]
+Kita bisa melihat bahwa pergerakan harga itu tidak semudah itu berubah arah
+
+[06:18 - 06:20]
+Bahwa pergerakan harga itu memiliki
+
+[06:21 - 06:24]
+Satu pola yang dibangun secara lama
+
+[06:24 - 06:25]
+Memiliki satu tendensius
+
+[06:25 - 06:27]
+Dan apabila dia bullish
+
+[06:27 - 06:28]
+Dia tidak gampang berubah bullishnya
+
+[06:28 - 06:29]
+Ini yang harus kita tahu
+
+[06:29 - 06:32]
+Jadi selama harga bergerak di atas moving average nya
+
+[06:32 - 06:36]
+Maka kita bisa berasumsi bahwa trend bullish itu tetap akan ada di sana
+
+[06:36 - 06:39]
+Selama harga berada di bawah moving average
+
+[06:39 - 06:43]
+Dan belum membuktikan bahwa adanya pembalikan arah itu terjadi
+
+[06:43 - 06:44]
+Tidak akan berubah arahnya
+
+[06:44 - 06:47]
+Tidak perlu kita khawatir bahwa harga ini akan berbalik arah
+
+[06:47 - 06:50]
+Maka kebanyakan trader itu menggunakan moving average
+
+[06:50 - 06:51]
+Dengan konsep yang benar
+
+[06:51 - 06:56]
+Dia bisa menyaring atau memfilter pergerakan harga dengan lebih objektif
+
+[06:56 - 06:57]
+Dan pada akhirnya profit yang maksimal
+
+[06:57 - 06:57]
+Kenapa?
+
+[06:57 - 06:59]
+Karena dia stay in the trend
+
+[06:59 - 07:01]
+Mereka akhirnya tidak melawan arah trend
+
+[07:01 - 07:04]
+Karena mengikuti direction daripada arah moving average nya
+
+[07:04 - 07:06]
+Salah satu kelemahan dari moving average adalah
+
+[07:06 - 07:08]
+Pada saat trend sideways
+
+[07:08 - 07:11]
+Dia tidak bisa membaca dan dia cenderung akan bergerak
+
+[07:11 - 07:13]
+Di tengah-tengah saja
+
+[07:13 - 07:14]
+Jadi moving average ini ada di tengah-tengah
+
+[07:14 - 07:18]
+Dan kita tidak menggunakan moving average pada saat trend sideways
+
+[07:18 - 07:22]
+Sehingga pada saat hanya dalam trending
+
+[07:22 - 07:24]
+45 degree up atau down
+
+[07:24 - 07:25]
+Membentuk primary dan secondary
+
+[07:25 - 07:28]
+Hanya itulah kita menggunakan moving average
+
+[07:28 - 07:30]
+Dan kita akan belajar lebih lanjut di application
+
+[07:30 - 07:39]
+Selamat datang kembali di ultimate trading workshop
+
+[07:39 - 07:42]
+Kali ini kita akan mulai mempelajari mengenai
+
+[07:42 - 07:45]
+The magic of moving average
+
+[07:45 - 07:47]
+Yang akan membahas lebih ke aplikasi
+
+[07:47 - 07:49]
+Dan bagaimana cara set up moving average
+
+[07:49 - 07:52]
+Lalu apa saja yang harus dilakukan
+
+[07:52 - 07:54]
+Untuk trading dengan menggunakan moving average
+
+[07:54 - 07:56]
+Setelah kita pelajari sebelumnya
+
+[07:56 - 07:58]
+Tentang teori dari moving average
+
+[07:58 - 08:01]
+Bagaimana mendevelop dan apa sih konsep dari moving average
+
+[08:01 - 08:02]
+Sekarang saya akan menunjukkan
+
+[08:02 - 08:06]
+Langkah-langkah dari penggunaan moving average itu
+
+[08:06 - 08:08]
+Dengan kita menggunakan moving average
+
+[08:08 - 08:11]
+Maka Anda benar-benar akan bisa memiliki
+
+[08:11 - 08:13]
+Satu perspektif yang lebih mudah
+
+[08:13 - 08:15]
+Sebelumnya di chapter 1 chapter 2
+
+[08:15 - 08:17]
+Kita sudah mempelajari bagaimana cara
+
+[08:17 - 08:19]
+Menentukan arah trend melihat masa depan
+
+[08:19 - 08:20]
+Yang akan terjadi
+
+[08:20 - 08:24]
+Dan Anda sudah mempelajari primary and secondary trend
+
+[08:24 - 08:24]
+Dan seterusnya
+
+[08:24 - 08:27]
+Nah ini adalah alat bantu yang bisa Anda lakukan
+
+[08:27 - 08:29]
+Untuk memprediksi arah harga
+
+[08:29 - 08:31]
+Karena Anda pasti akan membutuhkan ini
+
+[08:32 - 08:34]
+Dimana Anda juga sudah melihat
+
+[08:34 - 08:36]
+Mengenai support resistance
+
+[08:36 - 08:38]
+Klasik yang sebelumnya
+
+[08:38 - 08:40]
+Sudah kita bahas
+
+[08:40 - 08:41]
+Dan saat ini
+
+[08:41 - 08:42]
+Saya akan mengajarkan
+
+[08:42 - 08:45]
+Apabila harga bergerak di dalam kondisi
+
+[08:45 - 08:47]
+45 derajat up
+
+[08:47 - 08:48]
+Dan 45 derajat down
+
+[08:49 - 08:50]
+Seperti ini ya
+
+[08:50 - 08:51]
+Dia down terus seperti ini
+
+[08:51 - 08:52]
+Maka
+
+[08:52 - 08:54]
+Kalau awalnya kita hanya menggunakan
+
+[08:54 - 08:55]
+Klasik support
+
+[08:55 - 08:57]
+Kita hanya akan menunggu di bawah
+
+[08:57 - 08:58]
+Dan mungkin kita menunggu di atas
+
+[08:58 - 09:00]
+Tetapi bagaimana untuk mengcapture
+
+[09:00 - 09:02]
+Minor-minor trend
+
+[09:02 - 09:04]
+Karena di setiap minor trend
+
+[09:04 - 09:04]
+Kita tahu bahwa
+
+[09:04 - 09:07]
+Kenaikan dan penurunan harga ini
+
+[09:07 - 09:08]
+Ini selalu mengandung
+
+[09:09 - 09:12]
+Kalau kita bilang secondary reaction
+
+[09:12 - 09:14]
+Ini ada selalu mengandung
+
+[09:14 - 09:16]
+Secondary reaction seperti ini
+
+[09:17 - 09:18]
+Pertanyaannya bagaimana kita bisa
+
+[09:18 - 09:20]
+Mengcapture secondary reaction ini
+
+[09:20 - 09:21]
+Untuk
+
+[09:21 - 09:22]
+Satu
+
+[09:22 - 09:24]
+Mengetahui target resistance
+
+[09:24 - 09:26]
+Terdekat sebagai profit target
+
+[09:26 - 09:26]
+Yang kedua
+
+[09:27 - 09:29]
+Bagaimana caranya kita mengetahui
+
+[09:29 - 09:31]
+Posisi kita untuk entry
+
+[09:31 - 09:32]
+Menggunakan strategi ini
+
+[09:32 - 09:34]
+Kalau kita tahu bahwa primary-nya adalah down
+
+[09:34 - 09:34]
+Secondary up
+
+[09:35 - 09:36]
+Maka kita akan mencari posisi sell
+
+[09:36 - 09:37]
+Ya
+
+[09:37 - 09:40]
+Posisi down seperti ini kita sudah menikmati
+
+[09:40 - 09:42]
+Kita bukan lagi mencari posisi sell di sini
+
+[09:43 - 09:45]
+Kemudian waktu dia up seperti ini
+
+[09:45 - 09:46]
+Kita juga melihat
+
+[09:46 - 09:48]
+Bagaimana apakah kita bisa mencapai posisi sell di sini?
+
+[09:50 - 09:52]
+Tentunya itu akan sangat diuntungkan
+
+[09:52 - 09:54]
+Apabila anda mengenal sebuah metode
+
+[09:54 - 09:55]
+Yang disebut dengan
+
+[09:55 - 09:56]
+Dynamic support resistance
+
+[09:56 - 09:59]
+Menggunakan exponential moving average
+
+[09:59 - 10:01]
+Sebelumnya kita sudah membahas
+
+[10:01 - 10:03]
+Tentang exponential moving average
+
+[10:03 - 10:04]
+Nah sekarang
+
+[10:04 - 10:06]
+Saya memberikan satu ilustrasi
+
+[10:06 - 10:08]
+Sebelum kita masuk ke contoh yang real
+
+[10:08 - 10:10]
+Bahwa pada saat harga bergerak
+
+[10:10 - 10:12]
+Membentuk primary dan secondary
+
+[10:12 - 10:14]
+Secara kasat mata kita melihat bahwa
+
+[10:14 - 10:16]
+Ini memiliki satu tendensi bergerak
+
+[10:16 - 10:18]
+Ke arah atas ya
+
+[10:18 - 10:20]
+Bergerak ke arah atas
+
+[10:20 - 10:21]
+Dan
+
+[10:21 - 10:25]
+Kalau kita menggunakan trendline
+
+[10:25 - 10:27]
+Dimana nanti kita akan menggunakan trendline
+
+[10:27 - 10:29]
+Untuk menghubungkan kaki-kakinya ini
+
+[10:29 - 10:31]
+Untuk mendapatkan direction
+
+[10:31 - 10:34]
+Maka moving average itu adalah dynamic trendline
+
+[10:34 - 10:35]
+Yang akan mengikuti
+
+[10:35 - 10:36]
+Ya
+
+[10:36 - 10:38]
+Lalu berapa saja yang harus kita set?
+
+[10:38 - 10:41]
+Moving average yang akan kita gunakan
+
+[10:41 - 10:43]
+Disesuaikan dengan kondisi market
+
+[10:43 - 10:44]
+Karena tiap market berbeda
+
+[10:44 - 10:48]
+Tetapi kita akan menggunakan exponential moving average
+
+[10:48 - 10:49]
+Mulai dari
+
+[10:50 - 10:51]
+Untuk stocks ya
+
+[10:51 - 10:52]
+21 kemudian 34
+
+[10:52 - 10:55]
+Kurang lebih di level tersebut ya
+
+[10:55 - 10:56]
+Kemudian anda stand by
+
+[10:56 - 10:58]
+Exponential moving average 90
+
+[10:58 - 11:01]
+Karena ini merupakan sebuah target
+
+[11:02 - 11:03]
+Pencapaian harga
+
+[11:04 - 11:06]
+Setelah harga itu melampaui
+
+[11:06 - 11:06]
+Moving average 34
+
+[11:06 - 11:08]
+Biasanya akan mengejar ke 30
+
+[11:08 - 11:11]
+Kalau marketnya koreksinya kecil-kecil
+
+[11:11 - 11:13]
+Koreksi itu berarti secondary reactionnya
+
+[11:13 - 11:14]
+Tidak begitu besar
+
+[11:14 - 11:18]
+Maka sometimes saya akan menggunakan 13 kemudian 26
+
+[11:18 - 11:19]
+Ya
+
+[11:20 - 11:20]
+Kenapa 26?
+
+[11:21 - 11:22]
+Karena ini adalah 2 kali dari 13
+
+[11:22 - 11:24]
+Kenapa 2134?
+
+[11:24 - 11:26]
+Karena itu adalah angka-angka dari Fibonacci
+
+[11:26 - 11:26]
+Very simple
+
+[11:28 - 11:30]
+Jadi moving average ini
+
+[11:30 - 11:33]
+Dia tidak akan mungkin muncul sebelum harga muncul
+
+[11:33 - 11:34]
+Sehingga dia tidak akan mendahului
+
+[11:34 - 11:37]
+Dia akan selalu bersama
+
+[11:37 - 11:40]
+Dan moving average yang akan kita gunakan
+
+[11:40 - 11:42]
+Katakan anda menggunakan 2 moving average
+
+[11:42 - 11:44]
+Mungkin kita berikan warna yang lain ya
+
+[11:44 - 11:45]
+Beri warna kuning misalnya
+
+[11:47 - 11:47]
+Nah
+
+[11:47 - 11:49]
+Konsep daripada moving average disini
+
+[11:49 - 11:50]
+Kita bisa melihat
+
+[11:51 - 11:52]
+Arah pergerakan market
+
+[11:52 - 11:54]
+Jadi yang pertama salah satu benefit
+
+[11:55 - 11:56]
+Yang ada disini adalah
+
+[11:57 - 11:58]
+Arah
+
+[11:59 - 12:01]
+Pergerakan harga
+
+[12:01 - 12:03]
+Arah pergerakan harga
+
+[12:03 - 12:04]
+Kemudian yang kedua dia adalah
+
+[12:04 - 12:06]
+Kita akan melihat
+
+[12:07 - 12:08]
+Dynamic
+
+[12:09 - 12:10]
+Support atau resistance
+
+[12:10 - 12:13]
+Jadi salah satu keunggulan
+
+[12:13 - 12:15]
+Dengan menggunakan moving average tersebut
+
+[12:15 - 12:17]
+Anda akan mengetahui arah pergerakan harga
+
+[12:17 - 12:18]
+Terus kemudian anda mengetahui
+
+[12:18 - 12:19]
+Dynamic support resistance
+
+[12:19 - 12:22]
+Dynamic kenapa dikatakan dynamic
+
+[12:22 - 12:25]
+Karena kita tahu bahwa kita dalam kondisi yang
+
+[12:25 - 12:26]
+45 derajat naik seperti ini
+
+[12:26 - 12:28]
+45 derajat itu maksudnya naik begini ya
+
+[12:28 - 12:30]
+Kemiringannya ya kalau
+
+[12:30 - 12:32]
+Kalau ini segitiga siku-siku kan
+
+[12:32 - 12:34]
+Sudut kemiringannya itu 45 derajat
+
+[12:34 - 12:36]
+Artinya trendnya benar-benar sedang berjalan
+
+[12:36 - 12:38]
+Kita tahu bahwa disini ada
+
+[12:38 - 12:40]
+Area support dan resistance
+
+[12:41 - 12:43]
+Dan dalam anda melihat ini
+
+[12:43 - 12:45]
+Kita bisa perhatikan sekali
+
+[12:45 - 12:47]
+Bahwa kita tidak mungkin membeli di
+
+[12:47 - 12:49]
+Support kalau harga disini karena supportnya di bawah
+
+[12:49 - 12:51]
+Lantas bagaimana saya perlu referensi
+
+[12:51 - 12:52]
+Support yang selalu mengikuti
+
+[12:52 - 12:54]
+Maka itulah yang disebut dengan
+
+[12:55 - 12:56]
+Dynamic support resistance yang
+
+[12:56 - 12:58]
+Kita bahas juga di money magnet trading
+
+[12:58 - 13:00]
+Strategy kita percaya bahwa area yang
+
+[13:00 - 13:03]
+Ada disini ini area yang bermagnet
+
+[13:03 - 13:05]
+Memiliki energi yang
+
+[13:05 - 13:07]
+Untuk bisa menyedot harga
+
+[13:07 - 13:08]
+Masuk ke dalam dan kemudian mementalkannya
+
+[13:08 - 13:10]
+Lagi keluar sehingga ini
+
+[13:10 - 13:12]
+Bisa menjadi satu referensi
+
+[13:13 - 13:14]
+Tendensi trend
+
+[13:15 - 13:16]
+Karena trend itu kita bisa melihat
+
+[13:16 - 13:19]
+Moving average nya ini arahnya menghadap ke atas
+
+[13:19 - 13:20]
+Dan harga berada di atas
+
+[13:20 - 13:22]
+Berarti secara keseluruhan trend ini bullish
+
+[13:22 - 13:24]
+Anda jangan berpikir bahwa nanti
+
+[13:24 - 13:26]
+Dia bisa berbalik arah turun misalnya
+
+[13:26 - 13:28]
+Ya memang bisa tetapi ingat hukum Newton
+
+[13:28 - 13:31]
+Pelajaran pertama bahwa trend yang sedang berjalan
+
+[13:31 - 13:32]
+Itu akan cenderung
+
+[13:32 - 13:33]
+Berjalan seperti itu
+
+[13:35 - 13:37]
+Sehingga dalam kasus seperti ini
+
+[13:37 - 13:38]
+Kita percaya bahwa
+
+[13:40 - 13:40]
+Kenaikan ini
+
+[13:40 - 13:42]
+Masih akan terus valid sampai dia memang membuktikan
+
+[13:42 - 13:45]
+Dan harga itu bergerak di bawah
+
+[13:45 - 13:47]
+Kalau moving average seperti itu membentuk primary dan secondary
+
+[13:47 - 13:48]
+Di bawahnya
+
+[13:48 - 13:49]
+Tapi selama dia di atas
+
+[13:49 - 13:53]
+Kita berani mengambil spekulasi
+
+[13:53 - 13:54]
+Bahwa ini lebih baik
+
+[13:54 - 13:56]
+Akan lanjut ke atas ketimbang dia turun ke bawah
+
+[13:56 - 13:59]
+Ya so karena itu
+
+[13:59 - 14:00]
+Kita akan bahas
+
+[14:00 - 14:03]
+Bagaimana sih aplikasinya
+
+[14:03 - 14:04]
+Kita untuk melakukan pembelian
+
+[14:04 - 14:06]
+Dalam kasus bullish
+
+[14:07 - 14:08]
+Dengan menggunakan strategi
+
+[14:08 - 14:09]
+Dynamic support
+
+[14:10 - 14:13]
+Kemudian moving average tadi menunjukkan arah harga ya
+
+[14:13 - 14:14]
+Nah kelemahan moving average
+
+[14:15 - 14:16]
+Itu adalah apabila
+
+[14:16 - 14:18]
+Kondisi berada sideways dan harga itu
+
+[14:20 - 14:20]
+Bergerak
+
+[14:20 - 14:21]
+Di tengah-tengah moving average
+
+[14:21 - 14:23]
+Maka kita tidak gunakan lagi moving average nya
+
+[14:23 - 14:25]
+Nanti kita akan melihat contohnya
+
+[14:25 - 14:28]
+Nah ini adalah contoh saya trading gold
+
+[14:28 - 14:30]
+Posisi sedang floating $1700
+
+[14:30 - 14:31]
+Not bad
+
+[14:31 - 14:34]
+Kita akan set up terlebih dahulu moving average
+
+[14:34 - 14:36]
+Di indicator panel kita masukkan moving average
+
+[14:36 - 14:37]
+Set kesini
+
+[14:38 - 14:40]
+Lalu kita akan
+
+[14:40 - 14:41]
+MA method nya exponential
+
+[14:41 - 14:43]
+Yang pertama saya akan berikan 21
+
+[14:45 - 14:45]
+Kita bisa tebalkan
+
+[14:46 - 14:48]
+Lalu kita set kesini
+
+[14:49 - 14:51]
+Kemudian kita taruh lagi
+
+[14:51 - 14:51]
+Moving average
+
+[14:53 - 14:54]
+Dan kita taruh
+
+[14:54 - 14:55]
+34
+
+[14:57 - 14:59]
+Kenapa harus 2 karena itu range
+
+[15:00 - 15:01]
+Kemudian saya
+
+[15:01 - 15:02]
+Taruh yang terakhir adalah
+
+[15:02 - 15:04]
+90 karena 90 ini merupakan
+
+[15:05 - 15:06]
+Extended target
+
+[15:06 - 15:09]
+Jadi pada saat harga itu
+
+[15:09 - 15:11]
+Ditutup diatasnya 34
+
+[15:11 - 15:13]
+Dan dia tidak mau reject tidak mau turun
+
+[15:13 - 15:14]
+Itu artinya dia akan terus
+
+[15:15 - 15:16]
+Lanjut sampai ke 90
+
+[15:16 - 15:18]
+Dan kemudian akan reverse anda waspada nanti disitu
+
+[15:18 - 15:21]
+Pada saat ini harga turun kebawah
+
+[15:21 - 15:22]
+Kemudian dia membentuk false break
+
+[15:22 - 15:25]
+Ini saya sudah memutuskan bahwa saya
+
+[15:25 - 15:26]
+Akan melakukan pembelian
+
+[15:27 - 15:28]
+Dengan target price kurang lebih disini
+
+[15:28 - 15:30]
+Makanya kalau anda lihat moving average nya
+
+[15:30 - 15:32]
+Saya kurang lebih akan berdekatan dengan target
+
+[15:33 - 15:33]
+Profit saya
+
+[15:34 - 15:36]
+Ya di dalam
+
+[15:36 - 15:38]
+H1 nya ini kelihatan ada critical point
+
+[15:39 - 15:40]
+Cikal bakal
+
+[15:40 - 15:43]
+Harmonic pattern dan kemudian ini naik
+
+[15:43 - 15:44]
+Nah di H1 lebih jelas nih
+
+[15:45 - 15:46]
+Bahwa kenaikan kali ini akan menyentuh
+
+[15:46 - 15:48]
+MA 90 nya dan kemudian dia
+
+[15:48 - 15:50]
+Setelah menyentuh itu dia akan turun
+
+[15:51 - 15:52]
+Ya
+
+[15:53 - 15:54]
+Jadi moving average selain
+
+[15:54 - 15:56]
+Kita gunakan untuk
+
+[15:57 - 15:58]
+Awal mula menentukan entry
+
+[15:58 - 16:00]
+Awal mula menentukan entry
+
+[16:00 - 16:03]
+Ya dalam hal ini entry salnya dimana
+
+[16:03 - 16:05]
+Pada saat dia kembali
+
+[16:05 - 16:06]
+Ke moving average nya lalu dia
+
+[16:06 - 16:08]
+Turun kebawah maka
+
+[16:08 - 16:10]
+Setelah dia kena ke atas seperti ini
+
+[16:10 - 16:12]
+Dia akan turun kembali kebawah nah
+
+[16:12 - 16:14]
+Dalam kasus ini kita harus bisa
+
+[16:15 - 16:16]
+Mempredik bahwa ini
+
+[16:16 - 16:18]
+Kepala canggulnya
+
+[16:18 - 16:20]
+Bukan lagi menjadi kepala canggul tapi akan naik ke atas
+
+[16:20 - 16:22]
+Dari mana dari price action
+
+[16:22 - 16:24]
+Jadi di dalam course yang lain nanti
+
+[16:24 - 16:26]
+Anda akan mempelajari mengenai bagaimana
+
+[16:27 - 16:28]
+Caranya kita
+
+[16:28 - 16:30]
+Menggunakan teknik
+
+[16:30 - 16:32]
+Price action yang lebih advance
+
+[16:32 - 16:34]
+Untuk menentukan bahwa ini kepala canggulnya sudah
+
+[16:34 - 16:35]
+Tidak bisa turun lagi
+
+[16:36 - 16:38]
+Sudah tidak bisa turun lagi dan akan
+
+[16:38 - 16:40]
+Cenderung berbalik ke atas nah kalau begitu kan
+
+[16:40 - 16:42]
+Saya berani buy kalau saya sudah buy
+
+[16:42 - 16:45]
+Maka saya akan set target price nya di atas ini
+
+[16:45 - 16:46]
+Lantas
+
+[16:46 - 16:48]
+Kalau aplikasi yang paling gampang adalah
+
+[16:48 - 16:50]
+Anda melihat tentang
+
+[16:50 - 16:52]
+Dynamic resistance ini kita tahu
+
+[16:52 - 16:54]
+Harga terus turun kebawah
+
+[16:54 - 16:56]
+Ya anda perhatikan anda cari area
+
+[16:56 - 16:58]
+Dimana dia mengalami
+
+[16:58 - 16:59]
+Sebuah konsolidasi
+
+[17:00 - 17:02]
+Area dimana dia mengalami konsolidasi
+
+[17:02 - 17:03]
+Kemudian harga break
+
+[17:04 - 17:06]
+Lalu pada saat dia sudah break
+
+[17:07 - 17:08]
+Perhatikan
+
+[17:08 - 17:10]
+Dia membentuk primary dan secondary
+
+[17:10 - 17:11]
+Setelah dia sudah break
+
+[17:12 - 17:14]
+Dia membentuk primary sebagai break nya
+
+[17:14 - 17:15]
+Lalu membentuk secondary dan lihat
+
+[17:15 - 17:17]
+Setiap kali dia membentuk secondary
+
+[17:17 - 17:23]
+Dia mendekati area moving average nya
+
+[17:23 - 17:24]
+Bahkan menempel
+
+[17:24 - 17:26]
+Lalu dibanting lagi ke bawah
+
+[17:27 - 17:29]
+Lalu dia akan naik lagi ke atas
+
+[17:29 - 17:30]
+Lalu dibanting lagi ke bawah
+
+[17:30 - 17:32]
+Ini berarti kita menggunakan
+
+[17:32 - 17:34]
+Teknik untuk entry
+
+[17:34 - 17:36]
+Jadi entry nya dimana kita tahu
+
+[17:36 - 17:37]
+Ini bakal jadi bearish
+
+[17:37 - 17:40]
+Lalu untuk entry nya ini bisa di time frame yang lebih kecil
+
+[17:40 - 17:42]
+Saya melihat bahwa
+
+[17:42 - 17:44]
+Moving average nya sudah di bawah
+
+[17:44 - 17:45]
+Menghadap ke bawah
+
+[17:46 - 17:47]
+Harga sudah lewat
+
+[17:48 - 17:50]
+Kemudian harga masuk ke area moving average nya
+
+[17:50 - 17:52]
+Lalu membentuk reversal
+
+[17:52 - 17:54]
+Lalu saya sell
+
+[17:54 - 17:56]
+Atau setidaknya anda bisa membuat analisa
+
+[17:56 - 17:57]
+Yang cukup akurat dengan begitu
+
+[17:57 - 17:59]
+Ini konsolidasi disini
+
+[18:00 - 18:01]
+Demikian juga disini
+
+[18:02 - 18:03]
+Setelah harga naik
+
+[18:04 - 18:06]
+Kesini reverse tapi
+
+[18:06 - 18:08]
+Reverse nya tidak signifikan
+
+[18:08 - 18:09]
+Kenapa karena ada pertanda
+
+[18:09 - 18:12]
+Waktu dia reverse disini dia mau coba turun
+
+[18:12 - 18:14]
+Tetapi dia gagal turun ini berarti dia mau naik
+
+[18:14 - 18:15]
+Naikannya akan cukup tinggi
+
+[18:16 - 18:16]
+Mencapai 90
+
+[18:16 - 18:19]
+Kalau katakan pun anda mencoba sell disini
+
+[18:20 - 18:21]
+Anda mungkin bisa cut loss sekali
+
+[18:21 - 18:23]
+Dan reverse to buy
+
+[18:23 - 18:25]
+Dengan target price MA90
+
+[18:26 - 18:28]
+Dan kemudian kalau kita tarik garisnya
+
+[18:28 - 18:30]
+Kita tahu bahwa target price
+
+[18:30 - 18:31]
+Berikutnya adalah di tengah-tengah
+
+[18:32 - 18:34]
+Itu karena mengambil
+
+[18:34 - 18:35]
+Titik tengah daripada
+
+[18:36 - 18:37]
+Bottom bawah
+
+[18:38 - 18:40]
+Dan kita tahu classic support
+
+[18:40 - 18:42]
+Ada di bawah 1306
+
+[18:43 - 18:46]
+Maka setelah mencapai MA tersebut
+
+[18:46 - 18:48]
+Turun dan anda melihat profit taking sudah done
+
+[18:48 - 18:49]
+Dan
+
+[18:51 - 18:53]
+Saya deposit 2000 dollar
+
+[18:53 - 18:55]
+Dengan metode yang serupa ya
+
+[18:55 - 18:59]
+Total keuntungan saya sudah
+
+[18:59 - 19:01]
+Withdraw 390.000 dollar totalnya
+
+[19:01 - 19:02]
+Dan kalau anda lihat
+
+[19:03 - 19:05]
+Keseluruhan yang hari ini
+
+[19:05 - 19:05]
+Saya dapatkan adalah
+
+[19:05 - 19:08]
+Saya berhasil take profit di 1318
+
+[19:08 - 19:10]
+Itu tepat di MA30 dan mendapatkan
+
+[19:12 - 19:13]
+2000 dollar
+
+[19:13 - 19:14]
+Ya
+
+[19:15 - 19:17]
+Dan ini adalah cara yang luar biasa
+
+[19:17 - 19:18]
+Seperti yang anda ketahui
+
+[19:18 - 19:21]
+Benar-benar dia terkena di MA90
+
+[19:22 - 19:24]
+Kemudian setelah ini
+
+[19:24 - 19:25]
+Kita expect akan turun lagi
+
+[19:25 - 19:27]
+Dan kemudian akan kembali naik ke atas
+
+[19:27 - 19:28]
+Karena itulah polanya
+
+[19:28 - 19:30]
+Setelah primary kemudian secondary
+
+[19:30 - 19:32]
+Dan penurunan itu kurang lebih 65 pips
+
+[19:32 - 19:33]
+Ya tadi kita lihat
+
+[19:33 - 19:36]
+Jadi MA90 akan menjadi dynamic resistance
+
+[19:36 - 19:39]
+Yang benar-benar bisa diandalkan
+
+[19:39 - 19:41]
+Dalam kasus kali ini
+
+[19:41 - 19:41]
+Ya
+
+[19:42 - 19:44]
+Dan ini yang kita harus perhatikan
+
+[19:45 - 19:46]
+Sebagai seorang trader anda mencari
+
+[19:46 - 19:48]
+Benar-benar pada saat dynamic
+
+[19:48 - 19:51]
+Support resistance itu bisa kita gunakan
+
+[19:51 - 19:52]
+Dan moving average yang crossing
+
+[19:52 - 19:54]
+Seperti ini juga
+
+[19:55 - 19:56]
+Bisa menjadi sebuah referensi
+
+[19:56 - 19:58]
+Bahwa pada saat dia crossing itu artinya
+
+[19:58 - 19:59]
+Trend bearish baru sedang berjalan
+
+[19:59 - 20:02]
+Pembentukan kepala canggul dan badan canggulnya
+
+[20:02 - 20:03]
+Berada di bawah moving average
+
+[20:04 - 20:06]
+Ya crossing disini bukan berarti
+
+[20:06 - 20:08]
+Anda boleh melakukan sell langsung
+
+[20:08 - 20:10]
+Tetapi hanya merupakan sebuah
+
+[20:10 - 20:12]
+Indikasi bahwa trend itu sudah berbalik arah
+
+[20:12 - 20:14]
+Dan itulah saatnya primary dan secondary
+
+[20:15 - 20:17]
+Trend berubah directionnya
+
+[20:17 - 20:18]
+Ya dari yang awalnya di atas kemudian sekarang
+
+[20:18 - 20:20]
+Trend bearish primary di bawah
+
+[20:20 - 20:22]
+Kemudian dia naik lagi ke atas
+
+[20:22 - 20:24]
+Menjadi kepala canggul dan kemudian dia
+
+[20:25 - 20:27]
+Nantinya akan turun lagi ke bawah
+
+[20:27 - 20:29]
+Ya demikian juga disini
+
+[20:29 - 20:30]
+Pada saat dia mencapai level
+
+[20:30 - 20:32]
+Exponential disana
+
+[20:32 - 20:35]
+Ya kemudian dia turun
+
+[20:35 - 20:36]
+Ke tengah seperti yang saya gambarkan
+
+[20:36 - 20:39]
+Itu akan menjadi area yang
+
+[20:39 - 20:40]
+Baik ya
+
+[20:40 - 20:43]
+Sekarang kita melihat di saham BBTN ya
+
+[20:43 - 20:44]
+Kita akan coba
+
+[20:45 - 20:46]
+Mengaplikasikan
+
+[20:47 - 20:49]
+Indikator moving average
+
+[20:50 - 20:52]
+Exponential ya
+
+[20:53 - 20:56]
+Kita tidak melakukan double click karena
+
+[20:56 - 20:58]
+Akan susah disitu kalau di bawahnya kita
+
+[20:58 - 21:00]
+Dragging kemudian kita langsung masukkan
+
+[21:00 - 21:01]
+MA21
+
+[21:02 - 21:04]
+Dan mungkin kita akan ganti warnanya menjadi merah
+
+[21:04 - 21:06]
+Kemudian stylenya kita berikan
+
+[21:06 - 21:06]
+Tick ya
+
+[21:08 - 21:09]
+Dan selalu ingat
+
+[21:09 - 21:12]
+Menjadi logaritmik untuk aritmatik
+
+[21:12 - 21:13]
+Untuk skillnya
+
+[21:13 - 21:15]
+Jadi sharp skill ini harus logaritmik
+
+[21:17 - 21:18]
+Kita sudah
+
+[21:18 - 21:18]
+Apply
+
+[21:20 - 21:21]
+Exponential moving average 21
+
+[21:21 - 21:23]
+Kita bisa lihat secara keseluruhan
+
+[21:23 - 21:25]
+Pergerakan harganya bagaimana
+
+[21:26 - 21:27]
+Harga bergerak di atas
+
+[21:27 - 21:28]
+Exponential moving average 21
+
+[21:28 - 21:32]
+Dan ini adalah akumulasi
+
+[21:32 - 21:33]
+Yang ada disitu
+
+[21:33 - 21:35]
+Dan setelah akumulasi break kita bisa gunakan
+
+[21:37 - 21:38]
+Area dynamic support ini
+
+[21:38 - 21:40]
+Untuk melakukan trading
+
+[21:40 - 21:41]
+Dan kita akan pasang lagi
+
+[21:42 - 21:43]
+Exponential 34
+
+[21:44 - 21:46]
+Sebagai batas bawahnya dan
+
+[21:46 - 21:48]
+Kita bisa lihat harga setelah konsolidasi
+
+[21:48 - 21:48]
+Dia keluar
+
+[21:50 - 21:52]
+Kemudian kita pasang lagi
+
+[21:52 - 21:53]
+Yang MA90
+
+[21:54 - 21:56]
+Untuk set up keseluruhan
+
+[21:56 - 21:57]
+Kita kasih warna hitam
+
+[21:58 - 22:00]
+Setelah dari akumulasi tadi harga keluar
+
+[22:00 - 22:01]
+Dan kalau kita lihat sekarang
+
+[22:02 - 22:04]
+Harga turun ke bawah dan membentuk ekor
+
+[22:04 - 22:06]
+Disitu kalau dia close di bawah 34
+
+[22:06 - 22:07]
+Dia akan turun ke 90
+
+[22:08 - 22:09]
+Itu menjadi area targetnya
+
+[22:09 - 22:10]
+Jadi kita tahu targetnya
+
+[22:10 - 22:14]
+Tapi kita tahu bahwa sekarang dia terhenti di
+
+[22:14 - 22:15]
+Level tersebut maka idealnya
+
+[22:16 - 22:18]
+Dia akan melanjutkan penguatannya
+
+[22:18 - 22:20]
+Itu merupakan rule of thumbnya
+
+[22:20 - 22:22]
+Setelah dia mencapai level tersebut
+
+[22:22 - 22:24]
+Kita percaya bahwa selanjutnya
+
+[22:24 - 22:25]
+Dia akan naik ke atas
+
+[22:26 - 22:28]
+Itu adalah aturan main
+
+[22:28 - 22:30]
+Daripada dynamic support
+
+[22:30 - 22:32]
+Kita akan coba di BBRI
+
+[22:32 - 22:34]
+Atau ICBP
+
+[22:34 - 22:36]
+Kita zoom
+
+[22:36 - 22:37]
+Dan anda lihat
+
+[22:38 - 22:40]
+Area dynamic supportnya
+
+[22:40 - 22:42]
+Sudah dikenakan dan pada saat itu
+
+[22:42 - 22:44]
+Langsung terjadi pembalikan arah
+
+[22:44 - 22:46]
+Demikian juga pada area ini harga
+
+[22:46 - 22:47]
+Membentuk canggul-canggul kecil
+
+[22:48 - 22:50]
+Dan kita melihat ada
+
+[22:52 - 22:53]
+Konsolidasi disana
+
+[22:54 - 22:56]
+Area konsolidasi tersebut
+
+[22:56 - 22:58]
+Menjadi titik pin point dimana
+
+[22:58 - 23:00]
+Terjadinya rally kembali dan kita bisa
+
+[23:00 - 23:00]
+Menggunakan
+
+[23:02 - 23:04]
+Area dynamic support
+
+[23:04 - 23:06]
+Untuk trading dimana harga
+
+[23:06 - 23:08]
+Kemudian masuk ke area moving average nya
+
+[23:08 - 23:10]
+Lalu akan di muntahkan lagi
+
+[23:10 - 23:10]
+Keluar
+
+[23:10 - 23:14]
+Dan ini adalah strategi yang baik untuk kita bisa
+
+[23:14 - 23:15]
+Mengetahui
+
+[23:16 - 23:18]
+Dimana ke si kepala canggulnya akan berhenti
+
+[23:18 - 23:20]
+Nah weekly nya kita akan melihat
+
+[23:20 - 23:21]
+Dari major time frame
+
+[23:21 - 23:23]
+Kita menggunakan exponential
+
+[23:24 - 23:26]
+Moving average ini
+
+[23:26 - 23:28]
+Untuk melihat direction dan
+
+[23:28 - 23:29]
+Di daily nya kita menggunakan
+
+[23:29 - 23:32]
+Exponential untuk menentukan target beli
+
+[23:32 - 23:33]
+By our weakness nya dimana
+
+[23:34 - 23:36]
+Pada area ini saya mencoba
+
+[23:36 - 23:37]
+Menggambarkan
+
+[23:38 - 23:40]
+Kepala canggul dan badan canggul
+
+[23:40 - 23:41]
+Kita urutkan satu persatu
+
+[23:41 - 23:44]
+Dan kita tahu bahwa setelah
+
+[23:44 - 23:44]
+Terbentuk
+
+[23:44 - 23:47]
+Badan dan kepala seperti sebelumnya
+
+[23:47 - 23:50]
+Akan terbentuk lagi kepala canggul
+
+[23:50 - 23:52]
+Dan badan canggul yang
+
+[23:53 - 23:54]
+Saat ini terbentuk
+
+[23:54 - 23:56]
+Itu disebabkan karena
+
+[23:56 - 23:57]
+Reaksi
+
+[23:57 - 23:59]
+Dari kepala canggul sebelumnya
+
+[23:59 - 24:01]
+Dan kepala canggul sebelumnya berakhir pada
+
+[24:02 - 24:03]
+Dynamic support
+
+[24:03 - 24:05]
+Dan kenaikan itu bisa kita gunakan
+
+[24:05 - 24:08]
+Classic resistance pada 10200 kurang lebih
+
+[24:08 - 24:09]
+Saya zoom
+
+[24:10 - 24:12]
+Dimana trend bullish
+
+[24:12 - 24:13]
+Tetap berlangsung dan
+
+[24:14 - 24:15]
+ABCD akan
+
+[24:16 - 24:17]
+Berlanjut dengan target price 10200
+
+[24:18 - 24:19]
+Kita tahu pada saat dia turun
+
+[24:20 - 24:21]
+Mencapai area harmonic support
+
+[24:22 - 24:24]
+Dan itu trend bullish akan berlanjut
+
+[24:24 - 24:26]
+Trend bullish berlanjut kemudian dia
+
+[24:26 - 24:28]
+Akan mencapai
+
+[24:28 - 24:30]
+Puncak yang ada di atas sebagai
+
+[24:30 - 24:32]
+Classic resistance nya
+
+[24:32 - 24:34]
+Ini yang sangat penting sekali
+
+[24:34 - 24:36]
+Untuk kita pelajari bahwa
+
+[24:36 - 24:37]
+Untuk mengetahui ABCD
+
+[24:37 - 24:40]
+B tersebut akan berada di posisi
+
+[24:41 - 24:43]
+Dynamic support nya
+
+[24:43 - 24:44]
+Di area moving average
+
+[24:44 - 24:45]
+Ini akan menjadi fokus kita
+
+[24:45 - 24:48]
+Dalam perjalanan kali ini
+
+[24:48 - 24:50]
+Dalam menggunakan moving average
+
+[24:50 - 24:52]
+Titik bottom yang
+
+[24:52 - 24:53]
+Saya berikan kotak
+
+[24:54 - 24:55]
+Itu adalah exactly
+
+[24:56 - 24:58]
+Yang muncul di dalam chart
+
+[24:58 - 25:00]
+Real demikian juga dalam
+
+[25:00 - 25:02]
+Kondisi bearish
+
+[25:03 - 25:04]
+Ini kondisi bearish
+
+[25:04 - 25:06]
+Area yang ada kebawah kalau sekarang
+
+[25:06 - 25:08]
+Ini adalah bullish area yang tadi saya kotakan
+
+[25:08 - 25:09]
+Di ilustrasi itu
+
+[25:09 - 25:11]
+Berada di bottom bottom yang
+
+[25:11 - 25:12]
+Terlihat di gambar ini
+
+[25:14 - 25:16]
+Kemudian kalau anda perhatikan
+
+[25:16 - 25:17]
+Kita akan mencoba saham yang lain
+
+[25:17 - 25:19]
+Misalnya atau di IHSG
+
+[25:19 - 25:20]
+Kita coba di IHSG
+
+[25:22 - 25:24]
+Nah dari sini kita bisa melihat
+
+[25:24 - 25:26]
+IHSG pun juga respect
+
+[25:26 - 25:27]
+Terhadap area exponential
+
+[25:28 - 25:29]
+Moving average
+
+[25:29 - 25:30]
+Sebagai dynamic support
+
+[25:30 - 25:33]
+Dan resistance nya
+
+[25:33 - 25:35]
+Khususnya saat ini kita berbicara dynamic support
+
+[25:35 - 25:37]
+Seperti yang anda ketahui bahwa
+
+[25:37 - 25:39]
+Index terpental
+
+[25:39 - 25:41]
+Di area garis hitam
+
+[25:41 - 25:44]
+Gimana garis hitam 5135 itu adalah
+
+[25:44 - 25:45]
+Area moving average
+
+[25:45 - 25:47]
+Setelah harga turun menembus 34
+
+[25:48 - 25:50]
+Dia kena di exponential 90
+
+[25:50 - 25:52]
+Kemudian dia mantul lagi ke atas
+
+[25:52 - 25:54]
+Ini merupakan area yang sangat penting
+
+[25:54 - 25:56]
+Pada saat turun mungkin anda kaget ya
+
+[25:56 - 25:57]
+Dimana dia harus
+
+[25:58 - 26:00]
+Berhenti setelah turun
+
+[26:00 - 26:01]
+Lalu kemudian dia naik kembali ke atas
+
+[26:01 - 26:03]
+Anda bisa tahu bahwa kenaikan itu akan
+
+[26:03 - 26:06]
+Kembali masuk ke area konsolidasinya
+
+[26:06 - 26:06]
+Dan
+
+[26:07 - 26:10]
+Area sideways itu menjadi akumulasi
+
+[26:10 - 26:11]
+Kemudian mulai turun
+
+[26:11 - 26:13]
+Dan pada saat dia mencapai
+
+[26:13 - 26:14]
+Posisi 5315
+
+[26:14 - 26:17]
+Dia harus membuat kepala canggul kembali
+
+[26:17 - 26:17]
+Harusnya
+
+[26:19 - 26:21]
+Itu merupakan serangkaian
+
+[26:21 - 26:23]
+Routine yang bisa kita gunakan pada saat
+
+[26:23 - 26:25]
+Anda menggunakan dynamic support
+
+[26:25 - 26:26]
+Dan resistance kita melihat hubungannya
+
+[26:26 - 26:29]
+Antara MA34 begitu dia close dibawah situ
+
+[26:29 - 26:31]
+Harga turun ke area berwarna hitam
+
+[26:31 - 26:33]
+Lalu dia akan recover naik lagi ke atas
+
+[26:33 - 26:35]
+Di dalam kita trading
+
+[26:35 - 26:37]
+Kita akan mencoba
+
+[26:37 - 26:39]
+Memetakan harga trend bullish
+
+[26:39 - 26:40]
+Dan bearish nya
+
+[26:41 - 26:43]
+Dan untuk menentukan area
+
+[26:43 - 26:44]
+Dimana sih dia akan
+
+[26:45 - 26:46]
+Terhenti kepala canggulnya kita
+
+[26:47 - 26:49]
+Akan menggunakan metode seperti ini
+
+[26:49 - 26:51]
+Dimana harga akan
+
+[26:51 - 26:53]
+Naik kemudian dia turun
+
+[26:53 - 26:55]
+Menyentuh kemudian naik kembali ke atas
+
+[26:55 - 26:57]
+Pertanyaan berikutnya bagaimana
+
+[26:57 - 26:59]
+Cara entry nya itu nanti akan kita
+
+[26:59 - 27:00]
+Bahas di
+
+[27:01 - 27:03]
+Jenis candlestick untuk kita trading
+
+[27:03 - 27:05]
+Itu nanti bagaimana ada harami ada engulfing
+
+[27:05 - 27:07]
+Dan seterusnya jadi make sure cap
+
+[27:07 - 27:09]
+Anda sudah bisa di set seperti ini
+
+[27:09 - 27:11]
+Anda menggunakan moving average 2133
+
+[27:11 - 27:13]
+Dan 90 itu adalah
+
+[27:13 - 27:14]
+Standard dari arda astronaci
+
+[27:15 - 27:17]
+Kemudian anda bisa menggunakannya sebagai
+
+[27:17 - 27:19]
+Dynamic support resistance anda juga mengetahui
+
+[27:19 - 27:21]
+Setelah 34 ini ditembus dan ditutup
+
+[27:21 - 27:23]
+Lalu di extend maka anda
+
+[27:23 - 27:25]
+Buy on weakness di MA90 nya
+
+[27:25 - 27:27]
+Dan anda juga bisa
+
+[27:28 - 27:29]
+Meyakinkan diri
+
+[27:29 - 27:31]
+Bahwa canggul itu
+
+[27:31 - 27:33]
+Kepalanya masuk di area moving average nya tersebut
+
+[27:33 - 27:35]
+Dan akan dilanjutkan dengan
+
+[27:35 - 27:37]
+ABCD oke demikian
+
+[27:37 - 27:39]
+Aplikasi dari pada moving average sukses selalu
+
+[27:39 - 27:41]
+Anda harus banyak berlatih dan kita akan bertemu
+
+[27:41 - 27:43]
+Di chapter selanjutnya untuk membahas
+
+[27:43 - 27:45]
+Bagaimana candlestick bisa kita gunakan
+
+[27:45 - 27:46]
+Untuk trigger entry
+

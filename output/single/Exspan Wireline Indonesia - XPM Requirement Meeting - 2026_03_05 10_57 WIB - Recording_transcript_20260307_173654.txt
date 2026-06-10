@@ -1,0 +1,3190 @@
+Source: Exspan Wireline Indonesia - XPM Requirement Meeting - 2026_03_05 10_57 WIB - Recording.mp4
+Language Mode: Indonesian
+Detected: id (100.0%)
+Transcribed: 2026-03-07 17:36:54
+==================================================
+
+# Ringkasan isi teks
+
+Percakapan meeting antara perwakilan Expansville Wireline Indonesia dan tim aktivasi Makari Expans (dihadiri oleh Sahira sebagai fasilitator) membahas kebutuhan implementasi dan konfigurasi fitur pengelolaan pengeluaran karyawan (reimbursement, cash advance, business trip) pada produk Mekari Expense, alur persetujuan, batasan kebijakan (policy limitation), kategori klaim dan subkategori, role pengguna, integrasi data/ekspor (CSV), jadwal proyek, activation assistance, training, proses bulk upload database karyawan, serta pertanyaan teknis dan operasional dari pihak klien.
+
+# Daftar topik yang dibahas
+
+1. Pembukaan meeting dan perkenalan fasilitator.
+2. Akses dokumentasi dan share screen.
+3. Pertanyaan awal terkait kebutuhan perusahaan (reimbursement vs cash advance).
+4. Penjelasan alur reimbursement umum.
+5. Penjelasan alur cash advance dan business policy (business repolicy / business trip).
+6. Contoh kategori klaim (office supplies, client meeting, medical, dsb.).
+7. Pengaturan akses kategori (accessible to all employee / divisi tertentu).
+8. Policy limitation: amount, frekuensi, limit per transaksi, scope (organization/branch/employee).
+9. Contoh pengaturan limit dan perilaku sistem terhadap beberapa pengajuan.
+10. Scheduler / auto disbursement (wallet Mekari, biaya per transaksi, frekuensi disbursement).
+11. Perbedaan pengiriman manual vs auto disbursement.
+12. Workflow approval (approval line, one-upper, backup approver, multiple approval levels).
+13. Role pengguna dan fungsinya (super admin, admin, finance user, procurement, accountant, card admin).
+14. Virtual corporate card dan mekanisme penggunaannya.
+15. Pengaturan business policy per job level / job grade (transportasi, akomodasi, per-diem).
+16. Perbedaan MyClaims vs MyTrip (fitur dan fields).
+17. Pilihan booking option (by self) dan pengisian itinerary (destinasi, tanggal, transport).
+18. Detail transportasi (airlines, bus, online transport seperti Gojek), akomodasi (hotel), dan limit per day / per transaction.
+19. Mekanisme pengajuan trip: submit, approval, ability to edit approved amounts with reason.
+20. Proses settlement report setelah cash advance (upload bukti/resi, refund jika tidak terpakai).
+21. Handling evidence (upload receipt / resi) terutama pada trip / cash advance.
+22. Perbedaan praktik antara business trip (itinerary) dan reimbursement (straightforward klaim).
+23. Pengisian klaim per subkategori (transport, akomodasi, makan, BBM, parkir, dsb.).
+24. Kemampuan membuat custom claim subcategories dan custom fields (additional details).
+25. Ekspor data / CSV default dan keterbatasan custom reporting (time range, status).
+26. Kebutuhan pelaporan pajak dan kemungkinan add-on/Mekari Office untuk custom report (biaya tambahan).
+27. Penetapan URD (user requirement document) sebagai landasan setup dan timeline project.
+28. Activation assistance: durasi 1 bulan setelah tanggal handover; SLA respons person-in-charge; cara menghubungi support (live chat, email).
+29. Estimasi durasi setup: 1–2 minggu bergantung kompleksitas; kemungkinan 1 minggu untuk skenario tidak kompleks.
+30. Rencana training (1 sesi admin + user atau digabung), go-live dan masa activation system satu minggu setelah training.
+31. Persyaratan dan format database karyawan untuk bulk upload (kolom A–F wajib; first name + last name; email unik; employee code unik; bank code & account jika auto-disbursement).
+32. Mekanisme invitation email dari Mekari untuk akses pengguna.
+33. Pertanyaan klien tentang tampilan laporan yang dipisah per kategori di Excel dan jawaban tentang keterbatasan default CSV.
+34. Opsi solusi manual (VLOOKUP di Excel) dan opsi berbayar (Mekari Office / add-ons) untuk custom report; estimasi harga add-on disebutkan.
+35. Penutup meeting: pengiriman URD, recording, contoh Excel, dan instruksi tindak lanjut.
+
+Terdapat **35 topik utama** yang teridentifikasi.
+
+# Penjelasan detail untuk setiap topik
+
+---
+
+Topik 1: Pembukaan meeting dan perkenalan fasilitator
+Total informasi yang ditemukan pada topik ini: 4 poin
+
+1. Meeting dibuka dengan salam "Selamat siang" kepada peserta.
+2. Fasilitator memperkenalkan diri sebagai Sahira dari tim aktivasi Makari Expans. Sahira
+3. Audiens berasal dari Expansville Wireline Indonesia.
+4. Tujuan meeting adalah requirement meeting terkait kebutuhan perusahaan pada sistem Makari Expans.
+
+---
+
+Topik 2: Akses dokumentasi dan share screen
+Total informasi yang ditemukan pada topik ini: 3 poin
+
+1. Sahira menyebutkan bahwa dokumentasi telah dibagikan via invitation.
+2. Sahira melakukan share screen dan menanyakan apakah screen terlihat oleh peserta.
+3. Peserta mengonfirmasi bahwa share screen terlihat.
+
+---
+
+Topik 3: Pertanyaan awal terkait kebutuhan perusahaan (reimbursement vs cash advance)
+Total informasi yang ditemukan pada topik ini: 6 poin
+
+1. Sahira meminta peserta menjelaskan kebutuhan terkait Makari Expans, misalnya alur reimbursement dan cash advance.
+2. Pertanyaan diajukan tentang frekuensi cash expense di perusahaan.
+3. Respon menyatakan bahwa cash expense jarang terjadi.
+4. Respon menyatakan reimbursement expenses sering terjadi.
+5. Sahira menanyakan alur reimbursement current (request -> approval -> evidence).
+6. Diskusi menegaskan perlunya fungsi cash advance walaupun jarang digunakan.
+
+---
+
+Topik 4: Penjelasan alur reimbursement umum
+Total informasi yang ditemukan pada topik ini: 8 poin
+
+1. Alur reimbursement: karyawan request kemudian ada approval.
+2. Karyawan mengisi expense form yang mencantumkan kategori pengeluaran.
+3. Contoh item reimbursement: tiket pesawat, hotel, transportasi, meal, dan pengeluaran lain yang masuk kategori "lain-lain".
+4. Karyawan harus mengirimkan bukti (bill/receipt) yang di-scan atau di-upload sebagai evidence.
+5. Bukti dicopy/diupload untuk keperluan audit di masa depan.
+6. Jika tiket dipesan oleh karyawan sendiri, klaim tiket tetap bisa diajukan sebagai reimbursement.
+7. Reimbursement dapat diisi per subkategori (transportasi, akomodasi, makan, dsb.).
+8. Reimbursement dianggap lebih straightforward dibanding business trip.
+
+---
+
+Topik 5: Penjelasan alur cash advance dan business policy (business repolicy / business trip)
+Total informasi yang ditemukan pada topik ini: 11 poin
+
+1. Terdapat dua skema: reimbursement (klaim setelah perjalanan) dan business policy (business repolicy) yang memungkinkan cash advance sebelum perjalanan.
+2. Business policy memungkinkan karyawan meng-input itinerary dan meminta cash advance sebelum trip.
+3. Cash advance pernah dan kadang digunakan oleh beberapa karyawan.
+4. Meski belakangan gaya praktis adalah “bear sendiri dulu lalu reimburse”, perusahaan tetap membutuhkan fungsi cash advance.
+5. Business policy dapat disesuaikan dengan kebutuhan perusahaan.
+6. Pada business trip, karyawan meng-input trip name, purpose of trip, destinasi, tanggal, dan booking option (mis. by self).
+7. Jika menggunakan cash advance, karyawan berkewajiban untuk membuat settlement report setelah perjalanan.
+8. Penggunaan cash advance yang tidak habis harus direfund kembali ke perusahaan.
+9. Cash advance bersifat real-time jika auto disbursement diaktifkan (langsung dikirim setelah approval).
+10. Jika tidak menggunakan auto disbursement, pengiriman dana dilakukan manual oleh perusahaan setelah mark as disbursed.
+11. Business trip memiliki fields dan alur yang lebih spesifik dibanding reimbursement (itinerary, transport arrangement, accommodation, dsb.).
+
+---
+
+Topik 6: Contoh kategori klaim (office supplies, client meeting, medical, dsb.)
+Total informasi yang ditemukan pada topik ini: 10 poin
+
+1. Contoh kategori: office supplies.
+2. Untuk setiap kategori terdapat deskripsi yang menjelaskan apakah kategori tersebut bisa klaim reimbursement saja, cash advance saja, atau keduanya (all).
+3. Field 'category name' digunakan untuk menentukan kebijakan klaim.
+4. Contoh lain kategori: client meeting (disebut khusus untuk reimbursement).
+5. Pada client meeting status/no-limit dapat diatur sebagai no limit (klaim berdasarkan bill).
+6. Contoh kategori: medical.
+7. Untuk medical terdapat subkategori seperti doctor, medicine, transport.
+8. Untuk medical policy limitation sifatnya in total (total klaim medical memiliki limit agregat).
+9. Subkategori medical tidak bisa diberi limit terpisah per sub-item; limit diatur total untuk seluruh subkategori.
+10. Contoh lain penggunaan kategori: event 6 jam dengan subkategori tertentu (mis. BBM, makan, parkir).
+
+---
+
+Topik 7: Pengaturan akses kategori (accessible to all employee / divisi tertentu)
+Total informasi yang ditemukan pada topik ini: 4 poin
+
+1. Ada opsi checkbox "accessible to all employee" yang menentukan apakah semua karyawan dapat request kategori tersebut.
+2. Jika tidak semua, description dapat diisi untuk membatasi akses ke divisi tertentu (mis. marketing).
+3. Jika diatur spesifik, hanya divisi yang disebutkan dapat request kategori tersebut.
+4. Pengaturan akses per kategori dapat diubah pada konfigurasi policy.
+
+---
+
+Topik 8: Policy limitation: amount, frekuensi, limit per transaksi, scope (organization/branch/employee)
+Total informasi yang ditemukan pada topik ini: 9 poin
+
+1. Policy limitation mengatur limit amount untuk kategori klaim.
+2. Limit dapat diatur berdasarkan scope: per organization, per branch, atau per employee.
+3. Frekuensi limit dapat diatur per week, per month, atau per year.
+4. Contoh setting: limit 1 juta per organization.
+5. Limit per transaction mengatur nilai maksimum per pengajuan (mis. 200 ribu per pengajuan).
+6. Seorang karyawan dengan limit 1 juta tetap bisa mengajukan beberapa kali sampai mencapai total limit (mis. 200k + 200k + ...).
+7. Untuk category medical, policy limitation bersifat total (total klaim medical tidak terpisah per doctor/medicine/transport).
+8. Jika karyawan mengajukan melebihi limit per day, sistem akan menandai request amount exceed the limit per day.
+9. Keputusan untuk menyetujui pengajuan melebihi limit tergantung approval line.
+
+---
+
+Topik 9: Contoh pengaturan limit dan perilaku sistem terhadap beberapa pengajuan
+Total informasi yang ditemukan pada topik ini: 4 poin
+
+1. Contoh: limit per organisasi 1 juta per bulan; limit per transaksi 200 ribu.
+2. Karyawan dapat mengajukan berkali-kali (200k setiap kali) hingga total 1 juta.
+3. Jika pengajuan total sesuai dengan total yang diajukan, status bisa berubah menjadi "complete" setelah approve dan settlement.
+4. Jika ada perbedaan antara amount request dan amount approved, admin/approval dapat mengubah approved amount dan menambahkan reason.
+
+---
+
+Topik 10: Scheduler / auto disbursement (wallet Mekari, biaya per transaksi, frekuensi disbursement)
+Total informasi yang ditemukan pada topik ini: 10 poin
+
+1. Mekari Expense memiliki fitur scheduler yang mengatur pengiriman dana dari perusahaan ke karyawan. Mekari Expense
+2. Auto disbursement menggunakan wallet Mekari Expense; perusahaan harus top-up wallet terlebih dahulu.
+3. Jika auto disbursement digunakan, pengiriman dana tidak perlu transfer manual lagi.
+4. Jika tidak menggunakan auto disbursement, perusahaan harus transfer manual dan menandai (mark as disburse) secara manual di sistem.
+5. Auto disbursement dikenakan biaya Rp 2.500 per transaksi.
+6. Scheduler dapat diatur frekuensinya: daily, weekly, monthly untuk reimbursement.
+7. Untuk cash advance sifatnya lebih real-time (dikirim langsung setelah approval bila auto disbursement aktif).
+8. Jika perusahaan tidak ingin memanfaatkan fitur tertentu, fitur tersebut bisa di-strip/tidak diaktifkan.
+9. Team sales (Bu Eki) sudah menginformasikan biaya/nilai auto disbursement kepada klien.
+10. Wallet Mekari wajib di-top-up agar karyawan dapat request jika auto disbursement digunakan.
+
+---
+
+Topik 11: Perbedaan pengiriman manual vs auto disbursement
+Total informasi yang ditemukan pada topik ini: 4 poin
+
+1. Auto disbursement mengotomatisasi pengiriman dana ke rekening karyawan setelah approval.
+2. Penggunaan auto disbursement menghilangkan kebutuhan transfer manual oleh finance.
+3. Jika auto disbursement tidak dipakai, finance harus men-transfer secara manual dan menandai disbursement di sistem.
+4. Penggunaan auto disbursement menimbulkan biaya per transaksi (Rp 2.500).
+
+---
+
+Topik 12: Workflow approval (approval line, one-upper, backup approver, multiple approval levels)
+Total informasi yang ditemukan pada topik ini: 11 poin
+
+1. Mekari Expense memungkinkan pengaturan approval per category name atau satu approval untuk semua kategori.
+2. Approval dapat disusun menjadi approval 1, approval 2, approval 3 (multi-level).
+3. One-upper approval line dapat diatur sebagai approval pertama (atasan langsung).
+4. Approval berikutnya dapat diarahkan ke atasan dari atasan langsung (one-upper of one-upper).
+5. Approval 3 dapat diarahkan langsung ke orang tertentu (mis. Pak Anevil). Pak Anevil
+6. Sistem mendukung backup approver: nama-nama approver tambahan dipisah dengan koma; salah satu dari mereka yang approve maka akan lanjut ke approval selanjutnya.
+7. Contoh backup approver: Pak Andi dan Bu Jen muncul sebagai alternative approver (salah satunya approve cukup). Pak Andi Bu Jen
+8. Approval line dapat melakukan approve, reject, atau view request.
+9. Approver dapat mengubah nominal pengajuan saat review dan harus mengisikan reason jika melakukan perubahan.
+10. Setelah approval, status dapat berubah menjadi "waiting cash advance" atau "waiting disbursement" tergantung konfigurasi.
+11. Setelah pengiriman dana manual oleh finance, harus dilakukan mark as disbursed di Mekari Expense.
+
+---
+
+Topik 13: Role pengguna dan fungsinya (super admin, admin, finance user, procurement, accountant, card admin)
+Total informasi yang ditemukan pada topik ini: 12 poin
+
+1. Terdapat role "super admin" yang dapat mengakses semua fitur (dari admin sampai card admin).
+2. Role "admin" fokus pada reimbursement, cash advance, dan business trip.
+3. Role "finance user" dan "finance admin" berkaitan dengan fungsi keuangan (bisa di-ignore jika perusahaan tidak memakai fitur purchasing).
+4. Role "procurement/purchasing" relevan jika fitur purchasing diaktifkan.
+5. Role "accountant" berhubungan dengan fitur jurnal integration (integrasi ke Mekari Jurnal).
+6. Integrasi jurnal memerlukan langganan ke Mekari Jurnal.
+7. Role "card admin" berfokus pada pembuatan/generasi virtual corporate card.
+8. Virtual corporate card dapat digunakan untuk transaksi online di merchant seperti Shopee, Tokopedia.
+9. Untuk menggunakan virtual corporate card, perusahaan harus allocate (mengisi) dana pada virtual card tersebut.
+10. Tidak ada limitasi jumlah orang yang dapat ditetapkan sebagai card admin atau super admin; nama, employee ID, dan role bisa di-input.
+11. Jika perusahaan tidak menggunakan fitur purchasing, beberapa role terkait purchasing dapat diabaikan.
+12. Penentuan dan input role dilakukan pada konfigurasi akun.
+
+---
+
+Topik 14: Virtual corporate card dan mekanisme penggunaannya
+Total informasi yang ditemukan pada topik ini: 4 poin
+
+1. Virtual corporate card disediakan sebagai fitur untuk transaksi online (merchant e-commerce).
+2. Virtual card mirip debit card virtual yang digunakan untuk pembelian online.
+3. Perusahaan perlu mengalokasikan dana ke virtual card sebelum digunakan.
+4. Pembuatan dan pengelolaan virtual card dilakukan oleh role card admin.
+
+---
+
+Topik 15: Pengaturan business policy per job level / job grade (transportasi, akomodasi, per-diem)
+Total informasi yang ditemukan pada topik ini: 6 poin
+
+1. Business repolicy memungkinkan pengaturan kebijakan perjalanan dinas berdasarkan job level atau job grade.
+2. Kategori nama untuk business policy dapat mencakup transportasi, akomodasi, atau per-diem.
+3. Pilihan jenis transportasi dapat di-list sehingga muncul saat karyawan request trip.
+4. Akomodasi memungkinkan pengaturan hotel, check-in date, durasi malam (contoh: 4 malam).
+5. Per-diem (perdim) diatur untuk kebutuhan selain transportasi dan akomodasi (mis. uang makan atau entertainment).
+6. Per-diem dapat diatur nilai per day (contoh: 40 ribu per day).
+
+---
+
+Topik 16: Perbedaan MyClaims vs MyTrip (fitur dan fields)
+Total informasi yang ditemukan pada topik ini: 6 poin
+
+1. Mekari Expans (produk) memiliki modul MyClaims dan MyTrip. Makari Expans
+2. MyTrip digunakan untuk pengajuan trip yang lebih spesifik (trip-name, purpose of trip, destinasi, tanggal).
+3. MyTrip mendukung pengaturan booking option (by self) dan menampilkan opsi transportasi/akomodasi tergantung kategori.
+4. MyClaims lebih fokus pada klaim/reimbursement yang lebih straightforward.
+5. MyTrip menampilkan itinerary dan detail yang berdampak pada transport arrangement dan accommodation arrangement.
+6. CSV/export untuk business trip menyajikan data umum seperti siapa yang request, destinasi, trip date, dan approval.
+
+---
+
+Topik 17: Pilihan booking option (by self) dan pengisian itinerary (destinasi, tanggal, transport)
+Total informasi yang ditemukan pada topik ini: 5 poin
+
+1. Pada MyTrip karyawan dapat memilih booking option "by self" ketika mereka memesan sendiri.
+2. Karyawan mengisi destinasi tujuan dan tanggal dari–sampai.
+3. Opsi transportation arrangement muncul sesuai pengaturan kategori (Airlines, Bus, online transport).
+4. Sistem mendukung pengisian round-trip.
+5. Jika transportasi online seperti Gojek dipakai, opsi tersebut harus di-input pada konfigurasi agar muncul.
+
+---
+
+Topik 18: Detail transportasi (airlines, bus, online transport seperti Gojek), akomodasi (hotel), dan limit per day / per transaction
+Total informasi yang ditemukan pada topik ini: 6 poin
+
+1. Pilihan transportasi dapat mencakup Airlines, Bus (BIS), dan online transportation (mis. Gojek).
+2. Jika akun tidak diatur untuk suatu metode (mis. Gojek), opsi tersebut tidak muncul sampai di-input ke konfigurasi.
+3. Akomodasi mencakup pengisian hotel dan check-in/check-out date.
+4. Untuk akomodasi dan transport, dapat diberi limitation berupa amount per day atau per transaction.
+5. Jika pengajuan melebihi limit per day, sistem menampilkan notifikasi request amount exceed the limit per day.
+6. Pengaturan limit ini akan mempengaruhi behavior saat approval.
+
+---
+
+Topik 19: Mekanisme pengajuan trip: submit, approval, ability to edit approved amounts with reason
+Total informasi yang ditemukan pada topik ini: 6 poin
+
+1. Setelah form trip diisi (trip name, purpose, itinerary), karyawan klik submit.
+2. Submit membuat entry business trip yang akan masuk ke approval flow.
+3. Approver dapat melihat request dan melakukan approve, reject, atau view.
+4. Approver dapat mengubah nominal item pengajuan saat review dan harus menambahkan alasan perubahan.
+5. Setelah approve, status bisa berubah menjadi waiting cash advance jika menggunakan cash advance.
+6. Sistem menampilkan status pengajuan dan history approval pada trip.
+
+---
+
+Topik 20: Proses settlement report setelah cash advance (upload bukti/resi, refund jika tidak terpakai)
+Total informasi yang ditemukan pada topik ini: 8 poin
+
+1. Jika karyawan menerima cash advance, mereka wajib mengisi settlement report setelah perjalanan.
+2. Settlement report mengharuskan upload bukti/resi pengeluaran.
+3. Sistem dapat menghitung sisa/lebih penggunaan cash advance dan menandai apakah perlu refund ke company.
+4. Jika penggunaan sama dengan jumlah cash advance, status laporan berpindah menjadi "complete" setelah approve.
+5. Jika karyawan melakukan pengeluaran tambahan dengan uang pribadi selama trip, mereka dapat mengajukan reimbursement untuk pengeluaran itu.
+6. Bukti upload berfungsi untuk verifikasi dan audit.
+7. Jika cash advance tidak dipakai sama sekali, karyawan harus melakukan refund sesuai sisa.
+8. Approval setelah settlement dapat merubah status menjadi complete atau menunggu disbursement tergantung kondisinya.
+
+---
+
+Topik 21: Handling evidence (upload receipt / resi) terutama pada trip / cash advance
+Total informasi yang ditemukan pada topik ini: 4 poin
+
+1. Upload resi/receipt diwajibkan terutama untuk klaim reimbursement dan settlement cash advance.
+2. Upload dilakukan pada field attachment di form klaim atau pada report settlement.
+3. Banyak upload diperlukan untuk trip karena banyak item yang perlu dibuktikan.
+4. Evidence di-upload agar dapat diperiksa dan menjadi dasar auditing.
+
+---
+
+Topik 22: Perbedaan praktik antara business trip (itinerary) dan reimbursement (straightforward klaim)
+Total informasi yang ditemukan pada topik ini: 5 poin
+
+1. Business trip memerlukan itinerary, tanggal, transport arrangement, dan lebih banyak rincian.
+2. Reimbursement cukup berupa klaim per kategori dengan attachment bukti.
+3. Business trip cocok untuk perjalanan terencana yang membutuhkan cash advance.
+4. Reimbursement cocok untuk pengeluaran yang sifatnya tidak terencana.
+5. Perusahaan dapat memilih untuk hanya menggunakan reimbursement dan cash advance tanpa memaksimalkan fitur business trip jika perjalanan terencana jarang terjadi.
+
+---
+
+Topik 23: Pengisian klaim per subkategori (transport, akomodasi, makan, BBM, parkir, dsb.)
+Total informasi yang ditemukan pada topik ini: 6 poin
+
+1. Klaim bisa di-breakdown per subkategori seperti transport, akomodasi, makan, BBM, parkir.
+2. System menyediakan UI untuk menambah item (add item) pada claim.
+3. Untuk setiap item, karyawan memasukkan nominal, vendor, description, dan attachment.
+4. Subkategori muncul di sebelah kanan saat kategori utama memiliki subkategori.
+5. Pengguna dapat membuat klaim per item sesuai kebijakan perusahaan.
+6. Jika kategori tidak memiliki subkategori, klaim tampil sebagai satu item tunggal.
+
+---
+
+Topik 24: Kemampuan membuat custom claim subcategories dan custom fields (additional details)
+Total informasi yang ditemukan pada topik ini: 8 poin
+
+1. Sistem Mekari Expense menyediakan fitur custom field di bagian setting. Mekari Expense
+2. Admin dapat membuat custom field (contoh: trip name) dengan nama field dan deskripsi.
+3. Field visibility dapat diatur untuk muncul di reimbursement request, cash advance request, atau keduanya.
+4. Ada pilihan field type seperti paragraph atau short text (short text sekitar 60 karakter).
+5. Custom field dapat dibuat required sehingga submit tidak bisa dilanjutkan jika belum diisi.
+6. Custom field dapat diset untuk muncul di filter saat tarik data.
+7. Custom field tidak menghilangkan field wajib default, melainkan menambah informasi tambahan.
+8. Admin dapat menambahkan additional details sesuai kebutuhan URD dan konfigurasi.
+
+---
+
+Topik 25: Ekspor data / CSV default dan keterbatasan custom reporting (time range, status)
+Total informasi yang ditemukan pada topik ini: 8 poin
+
+1. Mekari Expense menyediakan export CSV dengan format default tertentu. Mekari Expense
+2. CSV default menyertakan informasi umum seperti siapa request, destinasi, trip date, approval status, dan cash advance.
+3. Penarikan data (export) dapat di-filter berdasarkan time range dan status.
+4. Sistem tidak mendukung custom report arbitrary secara default (tidak bisa langsung membuat tabel Excel terpisah per kategori tanpa tambahan).
+5. Untuk kebutuhan pelaporan pajak, export default bisa digunakan untuk mengetahui jumlah komponen transport/akomodasi per periode.
+6. Jika klien membutuhkan summary kategori per tahun, Mekari Expense mungkin tidak menyediakan fitur custom tersebut out-of-the-box.
+7. Solusi manual yang disarankan: gunakan Excel (VLOOKUP) untuk merapikan data export menjadi summary yang diinginkan.
+8. Alternatif: gunakan Mekari Office (add-on berbayar) untuk fitur custom reporting.
+
+---
+
+Topik 26: Kebutuhan pelaporan pajak dan kemungkinan add-on/Mekari Office untuk custom report (biaya tambahan)
+Total informasi yang ditemukan pada topik ini: 6 poin
+
+1. Tujuan export data termasuk kebutuhan pelaporan tahunan pajak (mis. jumlah transport dari 1 Jan–31 Dec).
+2. Mekari Expense default tidak menyediakan custom aggregations per kategori yang kompleks.
+3. Mekari Office/dll dapat dihubungkan untuk menyediakan custom report.
+4. Custom report sifatnya berbayar (add-on).
+5. Estimasi biaya custom report disebutkan sekitar 10–20 juta (perkiraan; konteks: harga per bulan disebutkan 10 juta).
+6. Untuk informasi pricing dan opsi, klien disarankan kontak tim sales.
+
+---
+
+Topik 27: Penetapan URD (user requirement document) sebagai landasan setup dan timeline project
+Total informasi yang ditemukan pada topik ini: 6 poin
+
+1. URD akan menjadi landasan dasar untuk initial setup akun perusahaan di Mekari Expense.
+2. Setelah URD diisi dan dikembalikan, Sahira akan cek dan konfirmasi beberapa hal sebelum setup.
+3. URD akan ditandatangani sebelum penyetingan dilanjutkan.
+4. URD dan recording meeting akan dikirimkan setelah meeting selesai.
+5. Bulk upload template akan dikirim menyusul bersama recording.
+6. Klien diminta menginformasikan ketika URD dan input selesai agar tim dapat memproses lebih cepat.
+
+---
+
+Topik 28: Activation assistance: durasi 1 bulan setelah tanggal handover; SLA respons person-in-charge; cara menghubungi support (live chat, email)
+Total informasi yang ditemukan pada topik ini: 8 poin
+
+1. Team activation memberikan activation assistance selama 1 bulan setelah tanggal handover/awal langganan.
+2. Tanggal handover merupakan tanggal dimulainya langganan Mekari Expense.
+3. Setelah masa activation assistance berakhir, klien dapat menghubungi customer support via live chat di website Mekari Expense. Mekari Expense
+4. Tersedia email support (dituliskan sebagai supportstripashartatmacari.com — catatan: format teks asli mengindikasikan alamat email support).
+5. Sahira bisa dihubungi langsung jika ada isu, namun respons bisa terlambat jika ia sedang meeting. Sahira
+6. Sahira menjamin usahanya merespons dalam jangka waktu 1x24 jam (SLA pribadi yang diupayakan).
+7. Live chat biasanya memberikan respon lebih cepat daripada menunggu balasan dari Sahira.
+8. Klien diminta maklum jika ada possible late response dari Sahira selama meeting.
+
+---
+
+Topik 29: Estimasi durasi setup: 1–2 minggu bergantung kompleksitas; kemungkinan 1 minggu untuk skenario tidak kompleks
+Total informasi yang ditemukan pada topik ini: 4 poin
+
+1. Estimasi setup diperkirakan 1–2 minggu tergantung kompleksitas perusahaan dan kebijakan.
+2. Jika konfigurasi tidak terlalu kompleks, setup bisa diselesaikan kira-kira dalam 1 minggu.
+3. Kecepatan setup bergantung pada seberapa cepat klien mengembalikan URD dan data yang diperlukan.
+4. Setelah setup, akan dilaksanakan sesi training sebelum go-live.
+
+---
+
+Topik 30: Rencana training (1 sesi admin + user atau digabung), go-live dan masa activation system satu minggu setelah training
+Total informasi yang ditemukan pada topik ini: 5 poin
+
+1. Training akan dilakukan sebanyak 1 kali untuk admin dan user, namun bisa digabung atau dipisah sesi.
+2. Training ditujukan untuk admin dan user (pengguna sistem).
+3. Setelah training selesai, akan ada masa activation system.
+4. Masa activation system dimulai setelah training dan dinyatakan live satu minggu setelah training.
+5. Setelah go-live, tim akan memonitor dan mendukung selama periode activation assistance 1 bulan.
+
+---
+
+Topik 31: Persyaratan dan format database karyawan untuk bulk upload (kolom A–F wajib; first name + last name; email unik; employee code unik; bank code & account jika auto-disbursement)
+Total informasi yang ditemukan pada topik ini: 10 poin
+
+1. Semua karyawan yang akan mengakses Mekari Expense harus diberikan akses melalui database employee. Mekari Expense
+2. Template bulk upload memiliki kolom A sampai F yang bersifat wajib.
+3. Employee name harus terbagi menjadi first name dan last name (dua bagian).
+4. Jika perusahaan hanya memiliki satu nama karyawan, boleh mengulangi nama pada field first/last name.
+5. Employee code disesuaikan dengan employee code di perusahaan.
+6. Phone number wajib diisi.
+7. Email karyawan digunakan sebagai akses login; email harus benar dan unik.
+8. Employee code dan employee email bersifat unik dan tidak dapat diubah kemudian hari; jika terjadi salah input harus invite ulang dengan kombinasi berbeda.
+9. Jika perusahaan menggunakan auto-disbursement, perlu mengisi bank code dan bank account number di database.
+10. Setelah upload, sistem akan mengirimkan email invitation dari Mekari ke karyawan untuk membuat akun/password.
+
+---
+
+Topik 32: Mekanisme invitation email dari Mekari untuk akses pengguna
+Total informasi yang ditemukan pada topik ini: 3 poin
+
+1. Mekari akan mengirim email invitation ke setiap employee email yang diupload. Mekari Expense
+2. Email invitation digunakan karyawan untuk membuat credential dan mulai mengakses sistem.
+3. Klien diminta memastikan employee email sudah benar sebelum bulk upload karena email bersifat unik.
+
+---
+
+Topik 33: Pertanyaan klien tentang tampilan laporan yang dipisah per kategori di Excel dan jawaban tentang keterbatasan default CSV
+Total informasi yang ditemukan pada topik ini: 6 poin
+
+1. Klien menanyakan apakah export bisa langsung berbentuk tabel Excel dengan kolom per kategori (hotel, makan, dsb.).
+2. Dijelaskan bahwa default CSV Mekari Expense belum menyediakan custom layout tabel per kategori seperti yang diminta.
+3. Penarikan data default memungkinkan memilih time range dan status saja.
+4. Untuk membuat output yang terpisah per kategori, disarankan menggunakan Excel manual (VLOOKUP).
+5. Jika klien membutuhkan custom report secara otomatis, kemungkinan perlu add-on Mekari Office atau jasa custom report berbayar.
+6. Contoh Excel/CSV dan sample output akan dikirimkan oleh Sahira setelah meeting.
+
+---
+
+Topik 34: Opsi solusi manual (VLOOKUP di Excel) dan opsi berbayar (Mekari Office / add-ons) untuk custom report; estimasi harga add-on disebutkan
+Total informasi yang ditemukan pada topik ini: 6 poin
+
+1. Solusi gratis: export CSV default lalu manipulasi di Excel menggunakan VLOOKUP untuk membuat summary per kategori.
+2. Solusi berbayar: gunakan Mekari Office atau add-on custom reporting yang dapat diintegrasikan dengan Mekari Expense.
+3. Mekari Office memungkinkan custom report tetapi berbayar.
+4. Estimasi biaya custom report disebutkan sekitar 10–20 juta (perkiraan, kontekstual: disebut "10 sampai 20" dan diklarifikasi sebagai juta).
+5. Biaya biasanya bulanan untuk layanan custom report.
+6. Klien diarahkan untuk menghubungi tim sales untuk konfirmasi pricing dan paket.
+
+---
+
+Topik 35: Penutup meeting: pengiriman URD, recording, contoh Excel, dan instruksi tindak lanjut
+Total informasi yang ditemukan pada topik ini: 6 poin
+
+1. Sahira akan mengirim URD kepada klien setelah meeting dan setelah proses recording selesai.
+2. Bulk upload template dan contoh Excel akan dikirimkan menyusul.
+3. Klien diminta menginformasikan kembali ketika URD dan data sudah diisi agar Sahira dapat cek dan percepat proses setup.
+4. Meeting ditutup setelah konfirmasi semua pihak tidak ada pertanyaan lanjutan.
+5. Sahira mengucapkan terima kasih dan menutup meeting dengan salam.
+6. Peserta memberi salam penutup (Selamat siang).
+
+---
+
+# Informasi tambahan yang tersirat dalam teks
+
+1. Perusahaan klien saat ini lebih sering menggunakan reimbursement daripada business trip terencana.
+2. Perusahaan ingin opsi cash advance walau frekuensi penggunaannya rendah.
+3. Klien memerlukan fleksibilitas konfigurasi kebijakan expense sesuai kebutuhan divisi.
+4. Klien menginginkan kemampuan pelaporan yang lebih granular untuk keperluan pajak dan akuntansi, sehingga mempertimbangkan add-on berbayar.
+5. Mekari Expense mendesain sistem dengan default export yang umum dan mengandalkan custom field / add-on untuk kebutuhan khusus. Mekari Expense
+6. Proses implementasi bergantung pada kolaborasi aktif dari pihak klien (pengembalian URD, pengisian database karyawan).
+7. Terdapat biaya operasional tambahan jika menggunakan fitur auto disbursement (per transaksi).
+8. Mekari menyediakan integrasi dengan Mekari Jurnal untuk akuntansi jika perusahaan berlangganan produk tersebut.
+9. Tim aktivasi menyediakan layanan setup, training, dan support awal selama periode activation assistance. Sahira
+
+---
+
+Catatan: semua poin di atas dibuat sebagai fakta terpisah sesuai instruksi — setiap poin mewakili satu informasi tunggal yang diekstrak dari teks meeting.
+
+
+==================================================
+==================================================
+
+Oke, baik. Selamat siang rekan-rekan dari Expansville Wireline Indonesia. ; Perkenalkan kembali, saya Sahira dari tim aktivasi Makari Expans. ; Hari ini kita dijadwalkan untuk requirement meeting-nya terkait dengan kebutuhan ; dari perusahaannya di Makari Expans-nya. ; Nah, mungkin rekan-rekan sekalian sudah bisa akses ya terkait dengan documentation ; yang saya bantu share via invitation-nya. ; Ya, yang saya bantu share screen mungkin sudah terlihatkah di tempat rekan-rekan sekalian? ; Ya, sudah Mbak. ; Sudah terlihat ya rekan-rekan sekalian. ; Jadi mungkin sebelum saya jelaskan untuk cara pengisiannya, ; boleh sedikit diceritakan kah Bapak terkait dengan kebutuhannya di Makari Expans seperti apa? ; Misalkan ada kebutuhan reimbursement, cash advance itu flow-nya juga seperti apa saat ini ; yang berjalan di perusahaannya? ; Apa nih Pak Nevi? ; Cash expense sih kayaknya jarang ya Mbak ya? ; Tapi kadang-kadang perlu juga, tapi hampir nggak pernah selama ini. ; Yang ada ini reimbursement, reimbursement expenses. ; Sampai sering. ; Iya, suaranya terdengar jelas Pak. ; Baik, ini kalau misalkan untuk reimbursement expense ini biasanya dari karyawan ; flow-nya seperti apa Pak? ; Karyawannya request, kemudian ada approval. ; Lainnya kak Pak? ; Ya, dia bikin semacam, dia bikin ini apa, expensive form, ada form expenses-nya. ; Jadi misalnya trip ke luar kota gitu ya, untuk pekerjaan. ; Jadi tiket, pesawat, terus hotel, terus transportation, terus meal, ; terus juga pengeluaran-pengeluaran lain yang mungkin nggak ada di dalam tabel itu. ; Itu kita masukin di lain-lain gitu lho. ; Oke, jadi karyawannya request, nanti ada approval lainnya itu langsung dari Pak Nevi sendiri ; atau nanti dari rekan-rekannya Pak, dari tim finance? ; Nanti dia kirim ke saya, nanti saya yang approve gitu lho. ; Tapi nanti mereka juga copykan ini apa, evidence-nya. ; Jadi, bil-bil misalnya tiket pesawat, pembelian tiket pesawatnya di mana, nilainya berapa. ; Kan ada bil-nya itu biasanya kalau traploka atau hotel kan. ; Kalau makanan. ; Nanti mereka, ini apa, saya coba minta di-scan aja. ; Karena kan saya perlu datanya nanti untuk, kalau nanti satu saat kita mau bikin audit gitu kan ya. ; Jadi saya cukup, saya rasa cukup copy-nya aja gitu lho. ; I see, oke Pak. ; Oke, biasanya kalau karyawannya request, Pak, itu untuk tiket pesawat selama dia perjalanan dari situ, ; yang memesankan tiketnya itu dari perusahaan atau dari karyawannya sendiri? ; Ini, karyawannya yang, karyawannya sendiri saja. ; Oke, saat perjalanan dari situ, karyawannya bisa mintakan cash advance nggak, Pak, sebelum dia perjalanan? ; Bisa juga, sebelumnya pernah kadang-kadang sih mereka minta cash advance. ; Tapi, belakangan ini, kayaknya ini apa, pada, ini apa, bear sendiri dulu, terus nanti baru di-expand. ; Tapi perlu punya fungsi itu, Pak. ; Perlu punya fungsi itu. ; Oh, tapi perlu untuk fungsi yang cash advance ini ya, Pak ya, sebelum perjalanan dinas? ; Perlu, perlu. ; Oke, baik. Terima kasih Pak Neville dan juga Pak Alang di atas konfirmasinya. ; Jadi, sebetulnya kalau di Mekari Action sendiri, kita tadi untuk use case perusahaannya ya, Pak ya, ; itu kan biasanya karyawan melakukan perjalanan dinas, kemudian nantinya dia menyertakan evidence ya, ; saat dia perjalanan dinas gitu ya, mau request apa aja gitu ya. ; Nah, di sini sebetulnya kita punya dua skema, Pak. ; Yang pertama itu reimbursement. ; Jadi, karyawannya perjalanan dinas dulu, nanti dia baru reimburse ke perusahaan. ; Uang-uang yang memang dia gunakan selama perjalanan dinas. ; Atau yang kedua, kita juga ada di sini business repolicy. ; Jadi, business repolicy sendiri. ; Sebentar, saya bantu. ; Oke, di sini kita juga ada business repolicy, Pak. ; Jadi, kalau business policy, sifatnya si karyawan sebelum perjalanan dinas itu, dia request dulu ke perusahaan. ; Dia inputkan itinerary-nya, dia mau ke mana, kemudian berapa hari. ; Dan dia bisa mintakan cash advance terlebih dahulu di business repolicy ini. ; Nah, ini mungkin nanti bisa disesuaikan kembali ya, Pak ya, dengan kebutuhan perusahaannya. ; Mungkin untuk cara pengisiannya sendiri, di sini untuk yang poin satu, ; itu merupakan untuk yang reimbursement dan cash advance ya, rekan-rekan sekalian. ; Untuk kategori name ini, nanti bisa di-inputkan untuk kebijakan yang karyawannya bisa request ke perusahaan. ; Contohnya, di sini mungkin saya punya contohnya. ; Contohnya, di sini mungkin saya punya contohnya. ; Contohnya, di sini mungkin saya punya contohnya. ; Nah, di sini nanti bisa di-inputkan office supplies. ; Dan ini untuk description-nya, ini untuk mendeskripsikan apakah si karyawan ini untuk kategori office supplies ini, ; dia bisa request untuk reimbursement aja, atau untuk cash advance juga. ; Seperti itu. ; Kalau misalkan untuk reimbursement, bisa di-inputkan reimbursementnya seperti yang di poin nomor dua ini. ; Tapi kalau misalkan dia, untuk keduanya, Bapak Ibu bisa inputkan all seperti ini. ; Jadi, nanti saya settingnya office supplies. ; Ini di-inputkan untuk si karyawannya bisa request untuk reimbursement dan juga cash advance-nya. ; Seperti itu. ; Kemudian di sini untuk accessible to all employee, ini berhubungan dengan apakah semua karyawan di perusahaannya ini ; bisa request untuk office supplies ini atau enggak. ; Kalau misalkan memang bisa semuanya, ini bisa di-checklist aja ya, rekan-rekan sekalian di bagian sini. ; Ini menandakan semua karyawan bisa request, tapi kalau misalkan mau spesifik, ; oke saya mau office supplies ini yang bisa request cuma divisi tertentu aja. ; Nah ini mungkin nanti bisa di-inputkan di bagian description juga ya, ; ini untuk karyawan yang bisa request dari divisi apa. ; Misalkan disini divisi marketing, nanti bisa di-inputkan di bagian sini. ; Nanti saya settingnya berarti untuk office supplies yang bisa akses cuma divisi marketing aja. ; Di luar divisi marketing dia enggak bisa request sama sekali. ; Seperti itu. ; Selanjutnya di sini ada policy limitation. ; Policy limitation ini adalah limitasi yang diberikan oleh perusahaan ke karyawan. ; Si karyawannya bisa request berapa, itu diatur ya di bagian policy limitation ini. ; Di sini kita bisa atur per amount-nya, misalkan di sini 1 juta. ; Kemudian di sini kita bisa atur per organization, branch atau employee. ; Nah di sini Bapak-Ibu bisa mengatur ya, oke saya mau by organization, ; berarti satu organisasi itu dia punya limit 1 juta per bulannya. ; Ini frekuensinya kita bisa atur dari perusahaan. ; Per week, per month, atau per year. ; Seperti itu. ; Selanjutnya di sini limit per transaksi. ; Limit per transaksi ini limit per pengajuan. ; Jadi kalau rekan-rekan mau atur, oke saya mau atur dia per bulannya punya limit 1 juta. ; Tapi per pengajuannya saya atur si karyawan cuma bisa request 200 ribu. ; Ini bisa diatur di limit per transaction-nya. ; Pun si karyawan ini karena dia punya limit 1 juta ya dia bisa request berkali-kali ya. ; 200 ribu, 200 ribu, 200 ribu. ; Mencapai limit 1 juta. ; Gitu. ; Oke ini untuk contoh kategori name yang pertama. ; Selanjutnya di sini kita punya kategori name yang lain. ; Contohnya ada client meeting. ; Ini khusus untuk reimbursement ya. ; Selanjutnya di sini statusnya ataupun limitation-nya ini no limit. ; Berarti si karyawan bisa mengajukan based on bills-nya. ; Gitu. ; Ini diatur no limit. ; Selanjutnya yang ketiga itu ada medical. ; Nah medical ini adalah, ; satu kategori name di mana ekspektasinya si karyawan itu ketika dia request sekali untuk medical, ; dia bisa nge-list down atau nge-break down. ; Dia butuh dokternya berapa, ; medicine-nya berapa, nominal-nya, dan transport-nya berapa. ; Seperti itu. ; Ini kita bisa atur per amount-nya juga ya. ; Rekan-rekan sekalian di policy limitation. ; Namun yang saya bantu infokan untuk claim kategori dengan sub-kategori doctor, medicine, transport ini, ; untuk policy limitation-nya itu sifatnya in total. ; Jadi untuk medical, dia punya limit, misalkan rekan-rekan sekalian punya limitnya, kita atur di sini 1 juta. ; Berarti pengajuan dia, dia semuanya in total 1 juta. ; Nggak bisa kita atur per doctor-nya berapa, medicine-nya berapa, transport-nya berapa. ; Seperti itu. ; Nah mungkin tadi sesuai dengan use case dari perusahaannya, ; ini untuk yang trip request ataupun perjalanan indasnya, ini bisa di-utilize dari di dua, ; kebijakan nih Pak, ini tergantung dari perusahaannya lagi ya Pak ya. ; Mau di reimbursement aturnya dengan sub-kategori atau bisa di business policy. ; Tapi ini mungkin untuk limitation-nya, kalau di reimbursement dia sifatnya in total ya Pak ya, limit per amount-nya. ; Sampai di sini mungkin rekan-rekan sekalian untuk poin 1 ada yang ditanyakan sebelum saya lanjutkan kembali ; untuk jelaskan poin-poin selanjutnya. ; Sudah cukup jelas Mbak. ; Sudah cukup. ; Sudah cukup jelas ya. ; Oke. ; Nah ini untuk policy limitation-nya, kemudian mungkin untuk poin nomor 2, ini saya akan bantu jelaskan. ; Jadi di Mekari Expense ini kita punya scheduler. ; Scheduler ini berkaitan dengan pengiriman dana dari perusahaan ke karyawan. ; Nah ini bergantung pada fitur auto disbursement Mekari Expense-nya. ; Jadi di Mekari Expense ini kita punya fitur auto disbursement Pak. ; Semua transaksi di Mekari. ; Mekari Expense nanti akan menggunakan wallet-nya Mekari Expense. ; Jadi sifatnya perusahaannya harus top-up dulu ke wallet-nya Mekari Expense, ; baru karyawannya bisa request. ; Nanti request-nya dari sisi karyawan akan menggunakan dana di wallet-nya tersebut. ; Nggak pakai yang ini juga nggak apa-apa kan Mbak? ; Iya, sebenarnya ini kalau nggak mau di-utilize nggak masalah Pak. ; Jadi nanti bisa di-strip aja. ; Cuman mungkin yang membedakan adalah... ; Ketika kalau misalkan Bapak-Bapak pakai auto disbursement kan udah otomatis ya Pak ya, ; pengiriman dana Bapak nggak perlu transfer manual lagi ke rekening karyawannya. ; Kalau misalkan Bapak nggak gunakan, ; berarti nanti Bapak harus transfer manual lagi ke rekening karyawannya. ; Jadi karyawannya cuma request aja di Mekari Expense, ; Bapak harus mark as disburse secara manual di Mekari Expense-nya ; dan pengiriman dana-nya juga manual gitu sih Pak. ; Ya, masih bisa seperti itu Mbak. ; Oke, mungkin yang saya invokan juga disini, ; auto disbursement-nya ini akan dikenakan ya Pak ya, ; 2.500 per transaksi. ; Mungkin udah di-invokan juga oleh team sales-nya ya Pak ya, Bu Eki. ; Iya. ; Nah, untuk schedule ini sendiri, ; dia akan berlaku untuk reimbursment-nya. ; Dia sifatnya ada daily, weekly, dan juga monthly. ; Kalau cash heaven sifatnya lebih real time. ; Once dia udah di-approve, langsung dikirimkan dana-nya ; kalau gunakan auto disbursement Mekari Expense-nya. ; Nah, ini kalau misalkan... ; Pak, jadi mau di-utilize Pak, ini bisa di-strip aja ya Pak ya? ; Untuk di bagian scheduler-nya. ; Selanjutnya disini untuk poin nomor tiga, ; ini terkait dengan workflow atau siapa saja karyawan ; yang bisa review dan juga approve pengajuan dari sisi karyawannya. ; Gitu. ; Nah, ini contohnya kita ada beberapa contoh. ; Ada category name. ; Ini Bapak rekan-rekan sekalian bisa bedakan per category name. ; Jadi, misalkan mau dibedakan per masing-masing category name approval lainnya, ; ini bisa di-inputkan per category name disini. ; Tapi kalau mau langsung untuk semua kategori, ; approval-nya cuma satu aja ya, ke Pak Anevil contohnya, ; itu langsung di-inputkan aja namanya, di approval 1, 2, ataupun 3-nya. ; Gitu. ; Nah, disini mungkin rekan-rekan sekalian mempertanyakan ya ; terkait dengan one-upper approval line. ; Jadi, kalau di Mekari Expense ini, kita bisa atur ketika karyawannya request, ; itu bisa diatur approval pertama itu di one-upper approval line. ; Atau atasan langsungnya. ; Seperti ini. ; Nah, kalau to approval adalah atasan dari si atasan langsung ini ya Bapak Ibu sekalian. ; Nah, kalau untuk approval 3-nya ini, langsung ke orangnya. ; Jadi, kalau misalkan saat ini langsung ke Pak Anevil saja, ; ini bisa langsung di-inputkan saja namanya Pak Anevil di sini ya. ; Seperti ini. ; Bisa di-inputkan nama lengkapnya. ; Nah, untuk selanjutnya disini kita untuk approval kedua ada tanda komanya nih. ; Nah, untuk tanda koma ini, ini menandakan bahwa ada backup approver. ; Jadi, misalkan ada karyawannya request client meetingnya, ; ini atasan langsungnya sudah approve, ; nanti untuk approval keduanya dia akan muncul di Pak Andi dan juga Bu Jen. ; Salah satunya sudah approve, baru pindah ke approval ketiga. ; Seperti itu. ; Nanti mungkin bisa di-inputkan kalau misalkan memang ada backup approvernya dari Pak Nefri lah, ; bisa di-koma saja, di-inputkan untuk namanya. ; Ini untuk claims workflow-nya, ada yang ditanyakan sebelum saya lanjutkan kembali? ; Sudah jelas. ; Sudah jelas, saya lanjutkan ke bagian role-nya ya. ; Kalau untuk role ini, ini berkaitan dengan karyawan yang diberikan role istimewa di Mekari Expense-nya. ; Kalau kita ada beberapa, di sini kalau untuk super admin, dia bisa akses semua fitur ya, ; dari role admin sampai card admin-nya. ; Selanjutnya kalau role admin, dia fokusnya hanya di reimbursement, cash advance, dan juga business trip-nya. ; Untuk finance user, finance admin, dan procurement purchasing, ; ini sebetulnya bisa di-ignore saja karena ini kebetulan dari perusahaan ya, ; tidak utilize untuk yang fitur purchasing-nya ya, rekan-rekan sekalian. ; Jadi ini lebih berfokus ke fitur purchasing-nya, ; dari mulai program purchase invoice sampai akhirnya bisa pengubahan workflow di menu purchasing-nya. ; Kalau accountant, ini untuk fitur jurnal integration ya, ; kalau rekan-rekan sekalian. ; Maka ini berlangganan juga perusahaannya di Mekari Jurnal, ; ini bisa diintegrasi ke Mekari Jurnal-nya. ; Kalau untuk card admin, dia fokusnya untuk pembuatan ataupun generate virtual corporate card-nya. ; Kalau virtual corporate card kami ini, seperti debit card atau... ; Langsung pesan go-card aja langsung dari rumahmu, ke situ langsung trip langsung ke bandara, ; jadi enggak, nah ini lagi... ; Eh mbak, sorry Pak, Pak Nevis lagi mute, lagi ngobrol sama... ; Ya, oke. ; Udah mbak, lanjut mbak. ; Oke, baik. ; Jadi sebetulnya kalau role ini, card admin itu untuk virtual corporate card ini bisa kita di-utilize ; kalau misalkan rekan-rekan sekalian ada kebutuhan untuk transaksi online ya, ; di merchant atau di Shopee, Tokopedia, itu bisa gunakan virtual corporate card kami. ; Nanti sifatnya Bapak harus allocate dana dulu ke virtual corporate card-nya. ; Itu untuk di bagian role-nya, dari kita enggak ada limitasi ya Pak, ; untuk role yang jadi card admin ataupun super admin-nya ada berapa, ; nanti bisa di-inputkan aja nama, employee ID dan juga role-nya di bagian sini. ; Oke, untuk selanjutnya di poin nomor 5 kita ada business repolicy. ; Business repolicy ini adalah untuk kebijakan perjalanan dinas ya. ; Nah, biasanya kita bisa atur per job level ataupun per job grade-nya. ; Nah, di sini Bapak-Ibu sekalian bisa inputkan untuk kategori name-nya ; based on transportasi, akomodasi ataupun per-deme-nya. ; Jadi kalau misalkan transportasi ini, nanti si karyawannya bisa... ; bisa pilihkan jenis transportasinya apa aja, mungkin bisa di-listed-nya di bagian sini. ; Karena ini akan mempengaruhi ketika si karyawannya request perjalanan dinas. ; Mungkin agak lebih tergambar, saya bantu contohkan juga ya, ; di Mekarexpan-nya seperti apa. ; Oke, jadi kalau di Mekarexpan sendiri, nanti ada MyClaims dan juga MyTrip ya. ; Perbedaannya dari MyClaims dan juga MyTrip, kalau di MyTrip ini, ; nanti karyawannya itu lebih... ; pengajuan dari request trip-nya ini, ; lebih spesifik, Pak. ; Dia inputkan untuk trip-name-nya, kemudian di sini purpose of trip-nya ya. ; Dia purpose of trip-nya ini mau untuk apa. ; Nanti, tadi kan sifatnya dia booking sendiri ya, Pak ya. ; Kalau untuk akomodasi dan juga transportasinya. ; Mungkin nanti bisa dipilihkan booking option-nya by self. ; Nah, di sini nanti dia inputkan destinasinya mau ke mana. ; Dengan tanggal dari tanggal berapa. ; Nah, transportasi arrangement, ; predation arrangement dan juga case sentence ini akan dipengaruhi oleh kategori-nya yang Bapak inputkan di bagian sini. ; Kalau untuk transportasi, pilihan transportasinya akan muncul ; Airlines, BIS dan juga transportasional ketika Bapak udah inputkan untuk jenis transportasi di bagian sini. ; Gitu. ; Bagian sini nanti bisa di inputkan ya, kalau misalkan ada limitnya di sini akan muncul. ; Misalkan dia dari Jakarta kebalik papan ya. ; Ini kita bisa... ; Gojek-gojek nggak ada ya, Mbak ya? ; Kalau gojek bisa, Pak. ; Pak, nanti bisa di inputkan di bagian sini sih, Pak. ; Ini kebetulan kalau di akun saya memang nggak diatur untuk yang gojek. ; Tapi kalau Bapak emang ada kebijakan untuk gojek, bisa di inputkan gojek di sini. ; Oh, gitu. Oke. ; Nah, di sini nanti misalkan online transportation ya, kayak gojek, nanti bisa di inputkan juga di bagian sini, Pak. ; Ini untuk mendetailkan aja sih, Pak, itinerary dari perjalanan dinasnya dia, dia mau pakai. ; Transportasinya apa. ; Ini kalau misalkan ada round trip-nya, boleh di inputkan juga. ; Selanjutnya, akomodasi. ; Nah, akomodasi kalau dia ada menginapkah, ini bisa di inputkan juga di hotelnya. ; Nah, di sini kalau ada limitation-nya ya, di sini Bapak bisa inputkan limitation-nya. ; Kita bisa per day atau per transaction. ; Ini kalau misalkan ada, dia akan muncul, Pak, di sini. ; Limit amount-nya. ; Nah, di sini bisa di inputkan untuk check-in date-nya. ; Oke, saya mau tanggal 5, misalkan sampai di tanggal, tadi tanggal 9 ya. ; Nah, ini bisa di inputkan 4 malam. ; Kemudian di sini ada cash advance. ; Nah, cash advance ini karena karyawannya tadi... ; Ini kan dia mesen tiket hotel dan juga online transportation-nya kan sendiri ya, Pak ya. ; Nah, dia bisa mintakan di cash advance ini, Pak. ; Oke. ; Nah, siapa yang... ; Ini itu tapi kayak yang udah terencana gitu, Mbak ya? ; Iya. ; Ini dia misalnya yang udah terencana sih, Pak, di awal. ; Tapi nanti kalau misalkan sekiranya... ; Ini kan rencananya seperti ini ya, Pak ya. ; Pasti kalau dia udah mintakan cash advance, dia bertanggung jawaban ya, Pak ya. ; Apakah dia gunakan semua atau enggak. ; Nanti si karyawannya bisa inputkan. ; Juga bertanggung jawabannya di Makare Expense. ; Pun karyawannya setelah perjalanan dinas, dia juga bisa... ; Ini, Pak, bisa untuk reimburse juga ke perusahaan ; kalau ternyata dia pakai uang pribadi setelah perjalanan dinasnya. ; Nah, di sini kita ada perdim juga. ; Biasanya kalau perdim itu di luar dari transportasi dan akomodasi ya, Pak ya. ; Kayak seperti uang makan ataupun uang entertainment, ; itu bisa diatur di bagian perdimnya. ; Ini misalkan dia mintakan 10. ; Induration-nya bisa di-inputkan ya, 40 ribu. ; Nah, sebenarnya kalau di perjalanan dinas ini, karyawannya bisa request melebihi limitnya ya, Pak ya. ; Tapi di sini akan muncul request amount exceed the limit per day-nya, 10 ribu. ; Nah, ini tergantung dari approval line-nya, mau setuju atau enggak, ; dari pengajuan si karyawan ini. ; Oke. ; Oke, nanti seperti ini. ; Kemudian nanti kalau sudah selesai, kita bisa klik submit ya di bagian sini. ; Oh, sorry. Ini purpose of trip-nya belum di-inputkan. ; Kita bisa inputkan di sini, klik submit. ; Once sudah di-klik submit, oh, sorry, trip name-nya bisa inputkan. ; Kalau sudah di-klik submit, dia di sini akan muncul ya untuk business trip-nya. ; Nah, di sini akan muncul juga dia butuh approval dari siapa. ; Si karyawan di sini juga bisa lihat ya, oh, saya nanti terhadapnya seperti ini dengan case attention ada di sini. ; Ini tergantung dari approval-annya, mau setuju atau tidak, ; dia pengajuan ke perjalanan dinas-nya. ; Bagian trip. ; Nah, di sini kalau sebagai approval line, ini dia bisa bantu approve, reject, ; ataupun kita bisa view juga request-nya. ; Kalau view, ini rekan-rekan sekalian bisa ganti nominal-nya. ; Kalau enggak setuju ya, misalkan oke, dia transportation, 20 ribu. ; Kalau kita enggak setuju ini 20 ribu, kita bisa langsung ubah aja sebagai approval line. ; Saya setujunya cuma 10 ribu aja. ; Ini bisa di-inputkan reason-nya ya. ; Ya, kenapa diganti. ; Kalau sudah selesai, ini langsung berubah ya, request amount-nya 20 ribu, approve amount-nya 10 ribu. ; Ini bisa langsung kita approve pengajuannya. ; Nanti kalau sudah selesai pengajuannya sudah di-approve, di sini statusnya akan waiting cash advance. ; Tadi karena enggak gunakan auto disbursement, Bapak, ; nah ini dari sisi finance ataupun yang PIC-nya ya, ketika dia sudah mengirimkan dana-nya, ; itu harus di-mark as disbursement secara manual di Mekari Expense ya. ; Di bagian sini. ; Untuk bukti dari transfer and payment-nya. ; Oke. ; Kalau sudah selesai seperti ini, nanti dari sisi karyawan yang akan mewajibkan untuk awaiting report ; ataupun dia harus submit settlement report-nya. ; Karena setelah perjalanan dinas, dia minta cash advance di awal, ; wajib untuk inputkan settlement report-nya ya. ; Nah, di sini bisa di-submit report. ; Nah, si karyawan ya harus mempertahankan jawaban yang dia sudah mintakan di awal. ; Oke, untuk yang Rp10.000, ini sudah digunakan semua atau enggak? ; Rp40.000 juga digunakan semua atau enggak? ; Atau setelahnya nyetek dia ada online expense-nya yang dia gunakan pakai uang sendiri, ; ini bisa di-inputkan juga di bagian sini. ; Kalau evident-nya di mana ditaruh, Mbak? ; Iya, di sini, Pak. ; Nah, ini kan ada Rp5.000 ya, Pak ya. ; Di sini kan kita harus upload resif-nya. ; Oh, di situ. ; Jadi, kalau misalkan yang cash advance, sorry, ; kalau di bagian trip ini, memang ini agak cukup banyak untuk upload-upload-nya ya, Pak ya. ; Karena kan kita juga perlu evidence juga setelah dia mintakan cash advance-nya. ; Kalau dari saya, kita klik save. ; Di sini nanti akan muncul ya. ; Ternyata dia harus refund ke company-nya ada Rp45.000. ; Nah, di sini digunakan semua atau enggak? ; Kalau enggak digunakan sama sekali, berarti harus di-refund-kan ke company. ; Dan di sini kalau misalkan ternyata, oh, sama pejainnya, ; kemarin saya ada gunakan uang sendiri nih untuk transportasi gitu ya. ; Karena ini kan di luar dari rencana awal. ; Kita butuh bis, misalkan, di sini. ; Ini bisa di-input-kan untuk amount request per day-nya. ; Kalau misalkan di-input-kan seperti ini, ; ini vendor-nya harus di-input-kan ya. ; Dan description-nya. ; Baru di-upload resif-nya juga. ; Untuk upload resif, bisa di-klik save di bagian sini. ; Nah, ini, ; nah, tampilannya seperti ini. ; Ini kan karena dia udah ada refund ke company-nya Rp45.000, ; kemudian dia juga mintakan ; antan ekspresinya Rp45.000 ya, ; Bapak-Ibu sekalian. ; Nah, ini kalau seperti ini, berarti langsung dikurangkan langsung. ; Oke, di sini, nah, statusnya akan awaiting review. ; Ini once si approval line-nya udah bantu review. ; Oke, di sini awaiting review. ; Kita bisa view report-nya. ; Nah, ini karena dia totalnya ini sama ya. ; Kita bantu approve. ; Waktu sudah dibantu approve, karena totalnya sama, ; dia statusnya akan langsung berpindah komplit. ; Jadi, dianggap, oke, ini uang yang dia mintakan sama, ; yang perlu dibalikan ke company sama yang dia mintakan kan sama. ; Jadi, nggak perlu di-disburse lagi ke employee-nya. ; Statusnya sekali komplit seperti ini. ; Gitu. ; Nah, kurang lebih kalau misalkan perbedaan dari ; pengajuan bisnis trip atau kebijakan bisnis trip ; dan juga reimbursement di Mekarefnya seperti itu. ; Pak, kalau misalkan bisnis trip, dia lebih spesifik ya, ; itinerary-nya seperti apa, mau dari tanggal berapa sampai tanggal berapa, ; dan transportasinya nanti mau menggunakan apa. ; Gitu. ; Kalau reimbursement kan sifatnya lebih straightforward. ; Kalau misalkan reimbursement, dia sifatnya lebih straightforward, Pak. ; Nah, di sini reimbursement. ; Nah, di sini dia inputkan, Pak, untuk klaim kategorinya. ; Kalau Bapak gunakan per masing-masing, ; berarti Bapak inputkan per masing-masingnya, ; seperti office, ; kemudian ini inputnya per amount, vendor, dan juga attachment-nya. ; Sementara sekarang sih hanya reimbursement saja sih, ; yang lain kita nggak ada. ; Ya, soalnya kita tuh, ; misalkan di luar kota gitu nggak tentu, Pak. ; Jadi nggak bisa ditentuin. ; Hanya pakai satu, hanya reimbursement saja. ; Fungsi reimbursement. ; Oke, jadi kalau misalkan reimbursement, ; ini mungkin kalau contohnya seperti ini ya, Pak ya. ; Kalau misalkan Bapak mau, ; mau sifatnya ini, ; kalau reimbursement berarti kan setelah perjalanan indah segitu ya, ; dia baru inputkan vendor-nya ataupun transportasinya. ; Bapak kalau mau gunakan per masing-masing tadi, ; kayak transportasi sendiri, akomodasi sendiri, ; berarti karyawannya berarti di-inputkan sendiri-sendiri ya, Pak ya, ; untuk klaim kategorinya. ; Atau Bapak bisa pilihkan juga yang subkategori, ; dari seperti yang saya infokan. ; Nanti dia bisa inputkan nih, Pak, ; oke, kita butuh kemarin pakai parkir, ; kemudian pakai BBM, dan juga makannya, nominalnya berapa. ; Nah, ini di-inputkan juga per attachment-nya ya, ; lebih-lebih seperti ini. ; Nah, kita butuh BBM juga, ini nominalnya di sini di-inputkan. ; Itu kategori yang klaim kategori itu berarti event 6 jam ini, ; terus coba buka add item tadi. ; Add item? ; Nah, event 6 jam ini subkategorinya cuma yang itu aja? ; Iya, di tiga tadi, Pak. ; Oh. ; Oh, itu bisa bikin sendiri? ; Bisa, bisa bikin sendiri. ; Karena ini yang, kalau misalkan yang event 6 jam ini, ; contohnya yang ini, Pak, yang medical. ; Jadi, Bapak bisa inputkan aja, ini sesuai dengan kebijakan-kebijakanannya ya. ; Nanti... ; Yang kategori itu, yang event 6 jam itu yang kategori name, ; description tadi, parkir, BBM itu. ; Oh, enggak, Pak. ; Jadi, misalkan kategori name itu yang medical, Pak, ; klaim kategori medical, ; subkategorinya ini yang doctor, medicine, dan transport. ; Oh, iya. ; Kalau yang description, ; description ini lebih bersifat untuk pendescription, ya. ; Ini untuk kategori namenya, ; si karyawannya bisa request reimbursement aja, ; atau bisa cash acceptance juga. ; Itu. ; Iya, iya. ; Kalau lebih seperti itu. ; Nanti bisa di-inputkan untuk list down-nya, ; di-inputkan juga, ; ini kalau ada additional details ini untuk Bapak, ; kalau misalkan ada feel tambahan, ya, ; ini bisa di-utilize juga di maka expense, ; bisa di-click-click submit. ; Nah, ini lebih... ; Saya khawatir, Pak, nanti ketika sudah di-approve, ; langsung dikirimkan dana-nya. ; Itu. ; Waiting approval, nanti di-review, ya, ; oleh misal contohnya dari Pak Anevil yang bantu review, ; sudah sesuai, misalkan nominalnya kita sudah cek juga, ; resifnya sudah sesuai. ; Ini bisa kita langsung approve. ; Nah, sudah di-approve seperti ini, ; di sini akan waiting disbursement, ya, Pak, ya, statusnya. ; Bapak, kalau dari Pak Akbar, ; kalau misalkan sudah kirimkan dana-nya, ; nanti bisa kita... ; Bantu mark as disbursed di maka expense-nya. ; Bukti bahwa ada, sudah selesai ini pengiriman dana-nya. ; Tuh. ; Kurang lebih seperti itu, Pak, ; kalau untuk flow reimbursement, ya, ; dengan subkategori tadi. ; Itu bisa disesuaikan lagi dengan kebutuhan perusahaannya. ; Oke. ; Oke, jadi berarti fokusnya ini penggunaannya lebih ke yang policy claims-nya, Pak, ya? ; Untuk policy business trip dan workflow-nya, ; berarti nggak mau utilize dulu, ya, Pak, ya? ; Iya, sih, karena jarang... ; Ter-planning itu jarang, Mbak. ; Jadi setelah diajakkan perjalanan baru dia tahu, ya, ; mau gunakannya, transportasinya apa, ; terus uangnya berapa yang dia pakai, gitu ya, Pak, ya? ; Jadi yang kita pakai nanti hanya yang cash advance sama reimbursement saja. ; Iya, di sini ya, Pak, ya, yang di poin satu saja. ; Iya. ; Sama boleh tahu nggak, Mbak? ; Boleh. ; Kayak, apa namanya? ; Anti-HCL akhirnya buat, misalkan, buat... ; Apa? ; Pembukuan, gitu. ; Mau lihat kategori-kategorinya itu nanti terpisah-pisah apa nggak? ; Misalkan, kayak transportasi-transportasi sendiri, ; makan-makan sendiri, apa-apa sendiri, gitu loh. ; Di Excel buat akhirnya, gitu. ; Ada nggak? ; Kalau mungkin lebih sibatnya yang... ; CSV, ya, Pak, ya? ; Iya. ; Oke. ; Nah, ini yang saya bantu Syahsi sudah terlihat, ya, Pak? ; Iya, iya. ; Oh, iya. ; Kurang lebih kalau misalkan Bapak inputkannya itu per masing-masing subkategori, ; dia tampilannya kayak gini, Pak. ; Sorry, per claim kategori, ini tampilannya akan seperti ini. ; Claim kategorinya cuma satu. ; Oh, dia berarti misalkan transportasi-transportasi sendiri, ya? ; Iya, betul. ; Tapi ini kalau dalam catatan Bapak nggak gunakan yang auto... ; Sorry, nggak gunakan yang subkategori, ya, Pak, ya? ; Hmm. ; Kalau Bapak gunakan yang subkategori, sebentar saya cari dulu. ; Di sini ada contohnya atau tidak? ; Soalnya di... ; Oh, ini, Pak. ; Contohnya, Pak. ; Yang even 6 jamnya, nih, Pak. ; Nah, ini kan ada even 6 jam, ya, Pak, ya? ; Ini untuk... ; Saya bantu. ; Untuk... ; Ini ada claims kategori dan claims subkategorinya, Pak, di sini. ; Kalau misalkan dia ternyata dia punya breakdown atau pull list down, ; dia claim kategorinya muncul, dan juga di sini muncul juga, Pak, ; untuk claim subkategorinya sebelah kanan. ; Oh, terpisah, ya? ; Iya, terpisah seperti ini. ; Nah, di sini juga muncul yang contohnya yang even 6 jamnya tadi. ; Nah, even 6 jam, nih, kalau misalkan dia ada beberapa, dia muncul, Pak, di sini. ; Nah, ini BBM makan, total nominalnya berapa. ; Oke, oke. ; Ini boleh dikirim nggak, Pak, buat contoh? ; Biar tahu kategori. ; Ini mau apa aja, soalnya biar di... ; Nanti itu mau dipisah-pisah, emang, kategorinya. ; Pak, nggak bisa ini langsung gini, ini apa, ya? ; Misalnya, ini kan ada kolom, nih, A, B, C, D, E, F, misalnya, kan. ; Satu, ini apa, reimbursement, gitu, ya, reimbursement. ; Terus nama ininya, kategori, apa, tripnya apa, gitu, ya. ; Nah, terus nanti... ; Ini apa, di kanannya itu, misalnya, hotel, kolom I, makan, kolom J, gitu, Mbak, ininya. ; Tabelnya begitu bisa nggak, ya? ; Oh, belum bisa, Pak. Ini emang kita by default seperti ini, sih, Pak. ; Kalau trip itu kayak gimana? Coba lihat, Mbak. ; Kalau yang trip, kalau yang trip, laporan yang tripnya gimana? ; Oke, kalau untuk yang trip, mungkin saya ganti akun dulu, ya, Pak, untuk tarik datanya. ; Karena sebetulnya kalau untuk penarikan data itu akan dikirim... ; Mungkin, kan, ke email dari yang bantu klik datanya, Pak. ; Tapi mulit aja, maksudnya, biar ada pembukaan. ; Bentar, ya, Pak. ; Yang saya bantu share-nya sudah terlihat di tempat rekan-rekan sekalian. ; Sudah kelihatan, ya, Pak, ya. ; Jadi, sebetulnya kalau misalkan yang bisnis trip, kurang lebih untuk CSV-nya seperti ini, Pak. ; Bisnis tripnya kemana, kemudian di sini ada request... ; Kasa advance-nya. ; Nanti saya bentuk. ; CSV-nya ini bisa diatur, kita hanya mau ekstrak data tertentu saja, enggak? ; Belum bisa, Pak. Ini kita by default seperti ini. ; Cuma yang bisa di-ekstrak data tertentu itu cuma based on ini saja, Pak. ; Time range sama statusnya. ; Ini kepentingannya sebenarnya lebih ke untuk ini, sih, pelaporan tahunan pajak. ; Jadi, dari expense itu, komponen transport dari 1 Januari sampai 31 Desember jumlahnya berapa? ; Akomodasi berapa? ; Kayak gitu, sih. ; Ya, tapi kalau misalkan dari Mekar Express memang by default sediakannya seperti ini, Pak. ; Justru kalau misalkan di bisnis trip justru ini lebih general, sih, Pak. ; Jadi, dia siapa yang request, destinasi-nya kemana, trip date-nya kemana, dan di sini langsung approval-nya. ; Kalau reimbursement itu dikasih nama, bisa enggak? ; Reimbursement dikasih nama seperti apa, Pak? ; Misal, coba kita buka reimbursement juga. ; Yang apa, aplikasinya? ; Coba buka. ; Itu maksud titis yang nama orang yang nge-claim atau gimana? ; Enggak, nama. Jadi, bukan claim kategori. ; Misalkan nama trip-nya itu. ; Maksudnya, Pak Lembang, tanggal segini-segini, gitu, misalkan. Bisa enggak? ; Kalau claim kategorinya kita, untuk field-nya, ini kita by default seperti ini, Pak. ; Tapi nanti kalau misalkan Bapak memang ada additional details. ; Bukan, kayak additional details ini isinya apa, nih? ; Ini sebenarnya custom field yang bisa Bapak create, sih, Pak. ; Di Mekar Express-nya. ; Nah, itu. Jadi, maksudnya itu nanti dia ini nama apa, ya? Nama trip-nya, gitu. ; Boleh. Nanti bisa di-inputkan. ; Jadi, Bapak kalau misalkan mau ada kebutuhan additional details. ; Tapi ini tidak menghilangkan field yang wajib di sini, ya, Pak, ya? ; Cuma ini nambahin aja. ; Ya, betul. ; Nah, ini juga bisa supposedly muncul juga nanti pada saat Bapak tarik data, nih, di bagian reimbursement ini. ; Ya, betul. Kayak gitu sih enak, sih. ; Bisa, Pak, kalau seperti itu. ; Mungkin kalau memang ada kebutuhan seperti itu, nanti Bapak bisa tambahkan juga di keterangan, ya, di URD-nya. ; Supaya saya bisa setup-nya sesuai dengan URD-nya, ini bisa di-inputkan di bawah sini aja, Pak. ; Field yang mau ditambahkan. ; Jadi, sesimpel kayak tadi yang trip itu, sih. Trip itu kan ada namanya, ya. Trip apa, gitu. ; Iya, nanti Bapak bisa inputkan aja, Pak, di sini misalkan trip name-nya. ; Jadi, nanti saya tambahkan field yang trip name. ; Iya, atau enggak judul, ya, gitu, Pak. ; Iya. ; Jadul. Tapi dia, karena di additional details, ya, Pak, ya, custom field, dia sifatnya di bawah, ya, Pak, ya, bukan di atas. ; Iya, iya, enggak apa-apa. ; Jadi, seperti ini aja, gitu. ; Kalau field-nya itu, ini namanya apa, misalnya, trip Palembang, gitu, ya, maksudnya, gitu, ya. Palembang, gitu, anunya, ya, Mbak. ; Enggak, dia bisa diketik, gitu, Pak. ; Ini bisa diubah, sih, Pak. Mungkin saya contohkan juga, ya, contoh pembuatan dari custom field di Makarexpan seperti apa. ; Sorry, di bagian setting. ; Ini kita ada custom field. ; Kita bisa inputkan, create custom field di Makarexpan-nya. ; Ini bisa di-inputkan, ya, custom field name-nya ini apa, misalkan trip name, ya. ; Nah, ini untuk description-nya bisa di-inputkan. ; Field visibility-nya ini bisa dipilihkan, ya, Pak, ya. ; Bapak mau aturnya trip name ini munculnya di mana? ; Di reimbursement request, cash advance request, bisa di-inputkan. ; Nah, di sini field type-nya juga, Bapak. ; Bapak bisa pilihkan, mau paragraph atau short text, ya. ; Short text, ya. ; Short text, berarti kan cuma 60, ya, Pak, ya, caption-nya. ; Nah, ini bisa di-inputkan. ; Iya, preview-nya seperti ini. ; Nanti ini bisa di-require field-nya juga. ; Kalau misalkan mau show in filter juga bisa. ; Nah, ini bisa require ketika dia enggak inputkan trip name, ini enggak bisa lanjut. ; Enggak bisa di-submit. ; Nah, kita klik save, ya, Pak, ya. ; Apa abang telpon calling, kalau abang bisa? ; Apa abang telpon calling, itunya? ; Ya, tapi kalau abang telpon bisa. ; Om Nevi, ini ya. ; Iya. ; Sebentar, ini saya bahas. ; Ini sepertinya udah ada yang menggunakan, ya, Pak, ya. ; Ya, ya, udah. ; Berarti seperti ini, ya, Pak. ; Ya, seperti itu. ; Lalu seperti itu, Pak, nanti bisa di-inputkan aja untuk trip name-nya, ya, di bagian sini kalau misalkan ada custom field-nya. ; Oke. ; Kurang lebih kalau untuk penjelasan dari policy claim sampai ke bagian role-nya, ini sudah saya jelaskan. ; Kalau misalkan yang business trip, mau ada yang ditanyakan terlebih dahulu, Pak? ; Ada, sih. ; Kalau cash advance-nya coba, Mbak, boleh lihat bagaimana workflow-nya? ; Cash advance workflow-nya, ya, Pak, ya, pengajuan-nya. ; Ya. ; Kalau cash advance lebih panjang, ya, Pak, ya, kalau business trip, kalau misalkan ada reimbursement, kan, dia request aja. ; Kemudian nanti di-reimbursed. ; Kalau misalkan cash advance, dia butuh settlement. ; Nah, contohnya yang ini apa, ya, cash advance-nya ada di sini. ; Nggak, dari upload-nya coba, Pak, biar kemarin itu soalnya yang Pak Hanif, Pak Alan nggak ikut waktu sama Mbak Eti-nya. ; Oh, I see. ; Jadi kalau misalkan dari upload-nya, sama aja, Pak, dengan yang tadi. ; Jadi dia pilihkan dulu untuk claim kategorinya, ya, di sini. ; Oh, sama, ya. ; Ya, udah. ; Cuma yang membedakan, paling ini, Pak. ; Field yang wajib di-inputkan. ; Tadi, kan, kalau di reimbursement, dia wajib input attachment, ya, Pak, ya. ; Tapi kalau di cash advance, yang wajib itu description-nya yang wajib di-inputkan. ; Karena biasanya, kan, belum ada realisasinya, jadi belum ada buktinya. ; Kalau cash advance, gitu. ; Orang lebih sama, sih, Pak, kayak gini. ; Ya, ya, ya, udah. ; Jadi lanjut aja, Mbak, ke dokumen-nya. ; Oke, saya lanjutkan lagi ke bagian dokumen-nya, ya, Pak, ya. ; Kurang lebih kalau misalkan nanti mau fokusnya di bagian reimbursement, ; reimbursement dan cash advance. ; Untuk business trip-nya bisa dikosongkan aja, ya, Pak, atau dibiarkan aja seperti ini. ; Seperti itu. ; Nah, kemudian untuk selanjutnya, ini ada batasan-batasan, ya. ; Jadi, untuk URD ini akan saya jadikan landasan dasar, ya, ; untuk yang akan initial setup yang akan saya lakukan di akunnya perusahaan. ; Nah, untuk press aktifasinya nanti akan disuaikan dengan project timeline-nya. ; Untuk team activation sendiri, kita akan memberikan activation assistance ; selama satu bulan, ya, setelah tanggal handover. ; Tanggal handover ini nantinya jadi... ; Nantikan sebagai tanggal dimulai berlangganan Macari Expense-nya, Pak. ; Gitu. ; Selanjutnya, untuk masa activation assistance-nya, kalau udah berakhir, ; Bapak kalau ada pertanyaan atau penyelesaian, ; kalau ada isu, Bapak bisa hubungi customer support kami via live chat-nya. ; Ini ada di website-nya Macari Expense, ya, di tanda headphone ini. ; Atau bisa menghubungi juga email supportstripashartatmacari.com. ; Bapak juga bisa hubungi saya, Pak, kalau misalkan memang ada isu, ya. ; Nah, ini mohon dimaklumkan. ; Ini kalau misalkan saya agak late respon dalam menjawab, ; karena saya juga ada, terutama kalau sedang meeting seperti ini, ya, Pak, ya. ; Karena kan fokus di meeting-nya, seperti itu. ; Tapi untuk SLA-nya, saya garanti untuk 1x24 jam, ; saya usahakan akan pasti akan jawab, seperti itu. ; Tapi kalau lebih, yang lebih cepat untuk responnya bisa ke live chat. ; Gitu. ; Oke, untuk selanjutnya, mungkin saya jelaskan terkait dengan project timeline-nya, ya. ; Jadi, sebetulnya kalau untuk project timeline, ; seperti ini, jadi requirement meeting kita sudah laksanakan hari ini, ya. ; Ini nanti akan saya bantu sesuaikan kembali. ; Untuk user requirement documents, nantinya kalau sudah diinputkan ; ataupun didirisikan oleh Pak Akbar, nanti bisa dikembalikan ke saya, ya, Pak, ya. ; Untuk saya bantu cek dan juga saya bantu konfirmasi juga beberapa hal ; sebelum saya lakukan penyetingan di akunnya. ; Nanti kalau sudah selesai, bisa kita tanda tangan dulu untuk URD-nya. ; Selanjutnya nanti saya bantu setup, ya, kurang lebih 1-2 minggu. ; Ini tergantung dengan kompleksitas perusahaan, kebijakan perusahaannya, ya, Pak, ya. ; Kalau kayak yang kita sudah jabarkan tadi, kira-kira seminggu bisa? ; Kurang lebih kalau misalkan nggak terlalu kompleks dan nggak terlalu banyak, bisa sih, Pak, seminggu. ; Nggak terlalu kompleks sih sebenarnya. ; Kalau misalkan seminggu bisa, Pak. ; Nanti tergantung juga dengan Bapak kembalikan lagi ke saya-nya di kapan, gitu, ya, Pak, ya. ; Supaya saya bantu cek juga. ; Supaya bantu cepat juga memproses ke bagian setup-nya, gitu. ; Oke. ; Selanjutnya, setelah... ; Setelah saya setup, saya akan laksanakan training-nya, Pak. ; Nah, training itu ada 1 kali, ya, Pak, ya, untuk training admin dan juga training usernya, gitu. ; Oke, sebenarnya training admin dan training user bisa disatukan atau bisa dibedakan juga bisa sesinya. ; Gitu. ; Selanjutnya, baru kita mulai training. ; Setelah training, akan ada masa activation system, ya, Pak, ya. ; 1 minggu setelah training itu ditandakan bahwa perusahaannya sudah mulai berlangganan makari expense, ya, Pak. ; Jadi akan saya go live-kan dan kita mulai untuk activation system. ; Gitu. ; Nah, di sini bisa di-input-kan, ya, Pak, ya, untuk nantinya jadi PhD representatif yang akan tanda tangan dokumen-nya. ; Iya. ; Sama yang selanjutnya, Pak, mungkin saya bantu heads up juga terkait dengan database karyawan, ya. ; Jadi memang semua karyawan yang nantinya akan coba akses makari expense itu, Pak, harus diberikan akses, Pak, di makari expense-nya. ; Ini mungkin bisa dibuka database karyawan yang akan akses makari expense-nya, ya, Pak. ; Ini untuk kolom A sampai kolom F ini sifatnya wajib. ; Sama tadi, kan, Bapak kalau misalkan mau gunakan auto-disbursement bisa input-kan juga bank code dan juga bank account number-nya di sini. ; Gitu. ; Oke. ; Lebih seperti itu. ; Kalau untuk database employee-nya ada yang ditanyakan, Pak? ; Enggak, sih. ; Oh. ; Mungkin saya bantu info juga di bagian employee name-nya, Pak, ya. ; Jadi kalau misalkan di makari expense, ini employee name-nya ini wajib 2... ; Ya. ; Nama, ya, Pak. ; Jadi first name dan juga last name. ; Jadi gak bisa 1 first name aja. ; Gitu. ; Kalau cuma 1 nama diulang 2 kali boleh gak? ; Enggak apa-apa, Pak, kalau gitu. ; Nanti employee code-nya ini disesuaikan dengan employee code di perusahaannya aja, ya, Pak, ya. ; Sama phone number-nya. ; Oke. ; Nanti untuk email, untuk karyawannya sendiri akan aksesnya lewat email, Pak. ; Nanti akan dikirimkan email invitation dari Makari ke karyawannya untuk buatkan paham. ; Gitu. ; Mohon dipastikan untuk employee email dan juga employee code-nya sudah betul, ya, Pak, ya. ; Karena kalau untuk employee email dan employee code itu kita sifatnya unik. ; Jadi gak bisa diganti lagi di kemudian hari. ; Paling kalau misalkan memang ada pergantian atau ada salah typo untuk penginputannya, ; bisa di-invite dengan employee code dan juga employee email yang berbeda. ; Gitu, Pak. ; Oke. ; Oke. ; Dari perusahaannya ada yang ditanyakan kembali, Kak, Bapak-Ibu sekalian, ; untuk pengisian URD-nya sendiri? ; Sudah jelas. ; Sudah cukup jelas. ; Pak Akbar sudah cukup jelasnya, Pak, ya? ; Sudah, sudah. ; Oke. ; Untuk dokumen URD-nya nanti akan saya bantu kirimkan setelah meeting, ya, Pak, ya. ; Setelah proses recording-nya ini juga sudah selesai dikirimkan. ; Gitu. ; Nanti dari... ; Untuk URD-nya, ya, Pak, ya? ; URD-nya, ya, Pak, ya? ; Iya. ; URD-nya Bapak sudah bisa coba mulai buka. ; Kemudian yang bulk upload-nya nanti akan saya bantu kirimkan menyusul, ya, Pak, ya, ; bersama dengan recording hari ini. ; Iya. ; Gitu. ; Oke, baik. ; Mungkin nanti kalau Bapak sudah selesai inputkan, boleh di-info ke saya, Pak, ya, ; supaya saya bisa bantu cek juga. ; Oke. ; Sebelum kita proses ke penelitian tanganannya. ; Oke. ; Oke. ; Baik, kalau misalkan dari rekan-rekan sekalian belum ada yang ditanyakan kembali ; untuk meeting kali ini... ; Pak, ini bisa diisi dari handphone, ya? ; Apanya, Pak, ininya? ; Datanya nanti kalau misalnya mau claim atau segala macam atau mau approval segala macam. ; Mau request, ya, Pak, ya? ; Bisa, Pak. ; Nanti bisa request dari handphone. ; Tapi kalau untuk settingannya sendiri, Pak, kayak workflow ataupun kebijakannya, ; itu diatur lewat website, ya, Pak, ya, di laptopnya. ; Gitu. ; Ya, yang claim sama ini saja bisa dilihat HP, kan? ; Kalau request ataupun approval bisa lewat handphone. ; Sama mungkin notifikasinya itu nanti kita sifatnya enggak ada inputnya, ya, ; jadi app-based notification, ya, Pak, ya? ; Jadi notifikasinya via email, biasanya. ; Ini bentuknya aplikasi atau apa kalau di HP? ; Aplikasi, Pak. ; Macari Expense. ; Ya, oke. ; Tuh. ; Mungkin dari Pak Neville sudah cukup jelas, Pak. ; Mungkin ada yang ditanyakan kembali? ; Ya, nanti sambil jalan, lah. ; Aku masih bingung. ; Oke, baik, Pak. ; Mungkin nanti kalau misalkan sudah selesai penyetingannya, mungkin sudah tidak lebih bingung, ya, Pak, ya? ; Karena sudah jadi akunnya. ; Oke. ; Oke, baik. ; Tadi itu saja, ya. ; Masih agak bingung itu, maksud saya itu datanya, data untuk kita pakai sebagai base untuk laporan pajaknya itu enggak bisa dibuat dalam tabel gitu anunya, ya? ; Iya, Pak. ; Kita belum bisa custom report juga sih, Pak, gitu. ; Jadi memang sesuai default-nya, gunakan yang ada di sini, Pak, gitu. ; Bisa sih nanti, Om, di apa namanya? ; Vlookup, Vlookup, bisa sih? ; Bisa. ; Mungkin penggunaannya secara... ; Menggunakan manual yang Vlookup itu, ya, Pak, ya? ; Iya. ; Pengennya sih kalau misalnya bisa keluar summary dari kategori A, B, C, D di jumlah setahun berapa, gitu. ; Kalau dari si Makkari Express belum ada sih, Pak. ; Tapi kalau misalkan memang Bapak mau ada custom report seperti itu, ; kemungkinan perlu ada add-ons lagi ataupun dari Makkari Office. ; Pak, jadi dia sifatnya custom report-nya, gitu. ; Ya, kalau misalnya ada produk lain apa, ya? ; Maksudnya ada produk lain, ya? ; Ada, Makkari Office, Pak, kalau misalkan mau custom report-nya. ; Tapi itu akan berbayar, ya, Pak, ya? ; Ya, Makkari Office itu berarti sudah termasuk expensing juga, ya? ; Nanti sifatnya dia akan bisa dihubungin, Kak, dengan expense ini. ; Cuma nantinya memang itu custom report. ; Dan dia ada biaya belangan yang berbayar lagi, gitu, Pak. ; Setahunan atau bulanan? ; Dia sifatnya biasanya bulanan, sih, Pak. ; Yang paling basic berapa? ; Kurang lebih 10, sih, Pak, 10 sampai 20 biasanya. ; 10 sampai 20 maksudnya berapa? ; 10 sampai 20 juta, Pak, kalau misalkan untuk custom report-nya. ; Per bulan? ; Sepuluh, sih, per bulan, Pak. ; Mungkin nanti kalau misalkan memang bapak tertarik, boleh ditanyakan lagi ke tim sales-nya, Pak. ; Oke. ; Gitu, supaya nanti bisa diinfokan pricing-nya seperti apa, ya, Pak. ; Oke. ; Oke, dari Pak Akbar, Pak Neffril, dan Pak Alan, ; masih ada yang ditanyakan kembali atau bisa kita cukupkan, Pak, untuk meeting-nya? ; Dari aku sudah cukup, sih. ; Pak Akbar sudah cukup, ya? ; Ya. ; Oke, baik. ; Mungkin untuk meeting kali ini saya cukupkan, ya, Bapak-Ibu sekalian. ; Ini saya bantu cukupkan. ; Nanti untuk dokumennya yang belum saya kirimkan akan saya bantu kirimkan setelah recording meeting-nya ini sudah selesai. ; Sama ini, Pak, contoh transaksi ini, ya. ; Contoh apa namanya? ; Yang Excel yang ini, nih. ; Contoh Excel yang ini apa, ya? ; Nanti akan saya bantu kirimkan juga contohnya. ; Oke, baik. ; Terima kasih atas waktunya, Pak Akbar, Pak Neffril, dan juga Pak Alan. ; Selamat beraktivitas kembali. ; Selamat siang. ; Selamat siang. ; Siang.
+
+==================================================
+TIMESTAMPS:
+
+[00:00 - 00:05]
+Oke, baik. Selamat siang rekan-rekan dari Expansville Wireline Indonesia.
+
+[00:05 - 00:09]
+Perkenalkan kembali, saya Sahira dari tim aktivasi Makari Expans.
+
+[00:09 - 00:13]
+Hari ini kita dijadwalkan untuk requirement meeting-nya terkait dengan kebutuhan
+
+[00:13 - 00:15]
+dari perusahaannya di Makari Expans-nya.
+
+[00:16 - 00:22]
+Nah, mungkin rekan-rekan sekalian sudah bisa akses ya terkait dengan documentation
+
+[00:22 - 00:25]
+yang saya bantu share via invitation-nya.
+
+[00:27 - 00:32]
+Ya, yang saya bantu share screen mungkin sudah terlihatkah di tempat rekan-rekan sekalian?
+
+[00:33 - 00:34]
+Ya, sudah Mbak.
+
+[00:35 - 00:37]
+Sudah terlihat ya rekan-rekan sekalian.
+
+[00:37 - 00:41]
+Jadi mungkin sebelum saya jelaskan untuk cara pengisiannya,
+
+[00:41 - 00:46]
+boleh sedikit diceritakan kah Bapak terkait dengan kebutuhannya di Makari Expans seperti apa?
+
+[00:47 - 00:52]
+Misalkan ada kebutuhan reimbursement, cash advance itu flow-nya juga seperti apa saat ini
+
+[00:52 - 00:53]
+yang berjalan di perusahaannya?
+
+[00:57 - 00:58]
+Apa nih Pak Nevi?
+
+[01:00 - 01:03]
+Cash expense sih kayaknya jarang ya Mbak ya?
+
+[01:04 - 01:08]
+Tapi kadang-kadang perlu juga, tapi hampir nggak pernah selama ini.
+
+[01:09 - 01:14]
+Yang ada ini reimbursement, reimbursement expenses.
+
+[01:15 - 01:16]
+Sampai sering.
+
+[01:22 - 01:25]
+Iya, suaranya terdengar jelas Pak.
+
+[01:25 - 01:30]
+Baik, ini kalau misalkan untuk reimbursement expense ini biasanya dari karyawan
+
+[01:30 - 01:31]
+flow-nya seperti apa Pak?
+
+[01:32 - 01:33]
+Karyawannya request, kemudian ada approval.
+
+[01:34 - 01:34]
+Lainnya kak Pak?
+
+[01:35 - 01:41]
+Ya, dia bikin semacam, dia bikin ini apa, expensive form, ada form expenses-nya.
+
+[01:41 - 01:49]
+Jadi misalnya trip ke luar kota gitu ya, untuk pekerjaan.
+
+[01:49 - 01:56]
+Jadi tiket, pesawat, terus hotel, terus transportation, terus meal,
+
+[01:57 - 02:02]
+terus juga pengeluaran-pengeluaran lain yang mungkin nggak ada di dalam tabel itu.
+
+[02:04 - 02:05]
+Itu kita masukin di lain-lain gitu lho.
+
+[02:07 - 02:12]
+Oke, jadi karyawannya request, nanti ada approval lainnya itu langsung dari Pak Nevi sendiri
+
+[02:12 - 02:15]
+atau nanti dari rekan-rekannya Pak, dari tim finance?
+
+[02:16 - 02:19]
+Nanti dia kirim ke saya, nanti saya yang approve gitu lho.
+
+[02:19 - 02:23]
+Tapi nanti mereka juga copykan ini apa, evidence-nya.
+
+[02:23 - 02:30]
+Jadi, bil-bil misalnya tiket pesawat, pembelian tiket pesawatnya di mana, nilainya berapa.
+
+[02:30 - 02:33]
+Kan ada bil-nya itu biasanya kalau traploka atau hotel kan.
+
+[02:34 - 02:34]
+Kalau makanan.
+
+[02:35 - 02:38]
+Nanti mereka, ini apa, saya coba minta di-scan aja.
+
+[02:39 - 02:45]
+Karena kan saya perlu datanya nanti untuk, kalau nanti satu saat kita mau bikin audit gitu kan ya.
+
+[02:45 - 02:48]
+Jadi saya cukup, saya rasa cukup copy-nya aja gitu lho.
+
+[02:49 - 02:51]
+I see, oke Pak.
+
+[02:51 - 02:57]
+Oke, biasanya kalau karyawannya request, Pak, itu untuk tiket pesawat selama dia perjalanan dari situ,
+
+[02:58 - 03:03]
+yang memesankan tiketnya itu dari perusahaan atau dari karyawannya sendiri?
+
+[03:04 - 03:07]
+Ini, karyawannya yang, karyawannya sendiri saja.
+
+[03:08 - 03:16]
+Oke, saat perjalanan dari situ, karyawannya bisa mintakan cash advance nggak, Pak, sebelum dia perjalanan?
+
+[03:16 - 03:19]
+Bisa juga, sebelumnya pernah kadang-kadang sih mereka minta cash advance.
+
+[03:19 - 03:28]
+Tapi, belakangan ini, kayaknya ini apa, pada, ini apa, bear sendiri dulu, terus nanti baru di-expand.
+
+[03:29 - 03:31]
+Tapi perlu punya fungsi itu, Pak.
+
+[03:32 - 03:33]
+Perlu punya fungsi itu.
+
+[03:34 - 03:37]
+Oh, tapi perlu untuk fungsi yang cash advance ini ya, Pak ya, sebelum perjalanan dinas?
+
+[03:37 - 03:38]
+Perlu, perlu.
+
+[03:38 - 03:43]
+Oke, baik. Terima kasih Pak Neville dan juga Pak Alang di atas konfirmasinya.
+
+[03:43 - 03:49]
+Jadi, sebetulnya kalau di Mekari Action sendiri, kita tadi untuk use case perusahaannya ya, Pak ya,
+
+[03:49 - 03:55]
+itu kan biasanya karyawan melakukan perjalanan dinas, kemudian nantinya dia menyertakan evidence ya,
+
+[03:55 - 03:59]
+saat dia perjalanan dinas gitu ya, mau request apa aja gitu ya.
+
+[03:59 - 04:02]
+Nah, di sini sebetulnya kita punya dua skema, Pak.
+
+[04:02 - 04:03]
+Yang pertama itu reimbursement.
+
+[04:04 - 04:08]
+Jadi, karyawannya perjalanan dinas dulu, nanti dia baru reimburse ke perusahaan.
+
+[04:08 - 04:11]
+Uang-uang yang memang dia gunakan selama perjalanan dinas.
+
+[04:11 - 04:14]
+Atau yang kedua, kita juga ada di sini business repolicy.
+
+[04:15 - 04:16]
+Jadi, business repolicy sendiri.
+
+[04:17 - 04:18]
+Sebentar, saya bantu.
+
+[04:21 - 04:24]
+Oke, di sini kita juga ada business repolicy, Pak.
+
+[04:24 - 04:31]
+Jadi, kalau business policy, sifatnya si karyawan sebelum perjalanan dinas itu, dia request dulu ke perusahaan.
+
+[04:31 - 04:36]
+Dia inputkan itinerary-nya, dia mau ke mana, kemudian berapa hari.
+
+[04:36 - 04:41]
+Dan dia bisa mintakan cash advance terlebih dahulu di business repolicy ini.
+
+[04:41 - 04:45]
+Nah, ini mungkin nanti bisa disesuaikan kembali ya, Pak ya, dengan kebutuhan perusahaannya.
+
+[04:49 - 04:53]
+Mungkin untuk cara pengisiannya sendiri, di sini untuk yang poin satu,
+
+[04:53 - 04:58]
+itu merupakan untuk yang reimbursement dan cash advance ya, rekan-rekan sekalian.
+
+[04:58 - 05:05]
+Untuk kategori name ini, nanti bisa di-inputkan untuk kebijakan yang karyawannya bisa request ke perusahaan.
+
+[05:06 - 05:07]
+Contohnya, di sini mungkin saya punya contohnya.
+
+[05:07 - 05:08]
+Contohnya, di sini mungkin saya punya contohnya.
+
+[05:08 - 05:08]
+Contohnya, di sini mungkin saya punya contohnya.
+
+[05:09 - 05:11]
+Nah, di sini nanti bisa di-inputkan office supplies.
+
+[05:12 - 05:19]
+Dan ini untuk description-nya, ini untuk mendeskripsikan apakah si karyawan ini untuk kategori office supplies ini,
+
+[05:19 - 05:23]
+dia bisa request untuk reimbursement aja, atau untuk cash advance juga.
+
+[05:25 - 05:25]
+Seperti itu.
+
+[05:25 - 05:30]
+Kalau misalkan untuk reimbursement, bisa di-inputkan reimbursementnya seperti yang di poin nomor dua ini.
+
+[05:30 - 05:35]
+Tapi kalau misalkan dia, untuk keduanya, Bapak Ibu bisa inputkan all seperti ini.
+
+[05:35 - 05:37]
+Jadi, nanti saya settingnya office supplies.
+
+[05:38 - 05:42]
+Ini di-inputkan untuk si karyawannya bisa request untuk reimbursement dan juga cash advance-nya.
+
+[05:44 - 05:44]
+Seperti itu.
+
+[05:46 - 05:53]
+Kemudian di sini untuk accessible to all employee, ini berhubungan dengan apakah semua karyawan di perusahaannya ini
+
+[05:53 - 05:56]
+bisa request untuk office supplies ini atau enggak.
+
+[05:56 - 06:02]
+Kalau misalkan memang bisa semuanya, ini bisa di-checklist aja ya, rekan-rekan sekalian di bagian sini.
+
+[06:02 - 06:06]
+Ini menandakan semua karyawan bisa request, tapi kalau misalkan mau spesifik,
+
+[06:06 - 06:11]
+oke saya mau office supplies ini yang bisa request cuma divisi tertentu aja.
+
+[06:12 - 06:15]
+Nah ini mungkin nanti bisa di-inputkan di bagian description juga ya,
+
+[06:15 - 06:22]
+ini untuk karyawan yang bisa request dari divisi apa.
+
+[06:23 - 06:28]
+Misalkan disini divisi marketing, nanti bisa di-inputkan di bagian sini.
+
+[06:28 - 06:32]
+Nanti saya settingnya berarti untuk office supplies yang bisa akses cuma divisi marketing aja.
+
+[06:33 - 06:35]
+Di luar divisi marketing dia enggak bisa request sama sekali.
+
+[06:37 - 06:38]
+Seperti itu.
+
+[06:38 - 06:40]
+Selanjutnya di sini ada policy limitation.
+
+[06:41 - 06:45]
+Policy limitation ini adalah limitasi yang diberikan oleh perusahaan ke karyawan.
+
+[06:45 - 06:49]
+Si karyawannya bisa request berapa, itu diatur ya di bagian policy limitation ini.
+
+[06:49 - 06:53]
+Di sini kita bisa atur per amount-nya, misalkan di sini 1 juta.
+
+[06:53 - 06:57]
+Kemudian di sini kita bisa atur per organization, branch atau employee.
+
+[06:57 - 07:01]
+Nah di sini Bapak-Ibu bisa mengatur ya, oke saya mau by organization,
+
+[07:01 - 07:06]
+berarti satu organisasi itu dia punya limit 1 juta per bulannya.
+
+[07:06 - 07:08]
+Ini frekuensinya kita bisa atur dari perusahaan.
+
+[07:08 - 07:09]
+Per week, per month, atau per year.
+
+[07:12 - 07:12]
+Seperti itu.
+
+[07:14 - 07:16]
+Selanjutnya di sini limit per transaksi.
+
+[07:16 - 07:18]
+Limit per transaksi ini limit per pengajuan.
+
+[07:18 - 07:23]
+Jadi kalau rekan-rekan mau atur, oke saya mau atur dia per bulannya punya limit 1 juta.
+
+[07:23 - 07:28]
+Tapi per pengajuannya saya atur si karyawan cuma bisa request 200 ribu.
+
+[07:29 - 07:32]
+Ini bisa diatur di limit per transaction-nya.
+
+[07:33 - 07:37]
+Pun si karyawan ini karena dia punya limit 1 juta ya dia bisa request berkali-kali ya.
+
+[07:37 - 07:39]
+200 ribu, 200 ribu, 200 ribu.
+
+[07:39 - 07:41]
+Mencapai limit 1 juta.
+
+[07:42 - 07:42]
+Gitu.
+
+[07:43 - 07:47]
+Oke ini untuk contoh kategori name yang pertama.
+
+[07:48 - 07:51]
+Selanjutnya di sini kita punya kategori name yang lain.
+
+[07:51 - 07:52]
+Contohnya ada client meeting.
+
+[07:52 - 07:54]
+Ini khusus untuk reimbursement ya.
+
+[07:54 - 07:57]
+Selanjutnya di sini statusnya ataupun limitation-nya ini no limit.
+
+[07:58 - 08:01]
+Berarti si karyawan bisa mengajukan based on bills-nya.
+
+[08:02 - 08:03]
+Gitu.
+
+[08:03 - 08:04]
+Ini diatur no limit.
+
+[08:04 - 08:07]
+Selanjutnya yang ketiga itu ada medical.
+
+[08:07 - 08:08]
+Nah medical ini adalah,
+
+[08:11 - 08:16]
+satu kategori name di mana ekspektasinya si karyawan itu ketika dia request sekali untuk medical,
+
+[08:16 - 08:18]
+dia bisa nge-list down atau nge-break down.
+
+[08:18 - 08:20]
+Dia butuh dokternya berapa,
+
+[08:21 - 08:24]
+medicine-nya berapa, nominal-nya, dan transport-nya berapa.
+
+[08:25 - 08:26]
+Seperti itu.
+
+[08:27 - 08:29]
+Ini kita bisa atur per amount-nya juga ya.
+
+[08:29 - 08:31]
+Rekan-rekan sekalian di policy limitation.
+
+[08:32 - 08:39]
+Namun yang saya bantu infokan untuk claim kategori dengan sub-kategori doctor, medicine, transport ini,
+
+[08:39 - 08:42]
+untuk policy limitation-nya itu sifatnya in total.
+
+[08:42 - 08:48]
+Jadi untuk medical, dia punya limit, misalkan rekan-rekan sekalian punya limitnya, kita atur di sini 1 juta.
+
+[08:48 - 08:52]
+Berarti pengajuan dia, dia semuanya in total 1 juta.
+
+[08:52 - 08:56]
+Nggak bisa kita atur per doctor-nya berapa, medicine-nya berapa, transport-nya berapa.
+
+[08:57 - 08:58]
+Seperti itu.
+
+[08:58 - 09:00]
+Nah mungkin tadi sesuai dengan use case dari perusahaannya,
+
+[09:01 - 09:08]
+ini untuk yang trip request ataupun perjalanan indasnya, ini bisa di-utilize dari di dua,
+
+[09:10 - 09:14]
+kebijakan nih Pak, ini tergantung dari perusahaannya lagi ya Pak ya.
+
+[09:14 - 09:18]
+Mau di reimbursement aturnya dengan sub-kategori atau bisa di business policy.
+
+[09:20 - 09:27]
+Tapi ini mungkin untuk limitation-nya, kalau di reimbursement dia sifatnya in total ya Pak ya, limit per amount-nya.
+
+[09:28 - 09:34]
+Sampai di sini mungkin rekan-rekan sekalian untuk poin 1 ada yang ditanyakan sebelum saya lanjutkan kembali
+
+[09:34 - 09:35]
+untuk jelaskan poin-poin selanjutnya.
+
+[09:37 - 09:38]
+Sudah cukup jelas Mbak.
+
+[09:39 - 09:39]
+Sudah cukup.
+
+[09:39 - 09:40]
+Sudah cukup jelas ya.
+
+[09:41 - 09:42]
+Oke.
+
+[09:42 - 09:48]
+Nah ini untuk policy limitation-nya, kemudian mungkin untuk poin nomor 2, ini saya akan bantu jelaskan.
+
+[09:48 - 09:51]
+Jadi di Mekari Expense ini kita punya scheduler.
+
+[09:51 - 09:55]
+Scheduler ini berkaitan dengan pengiriman dana dari perusahaan ke karyawan.
+
+[09:56 - 10:04]
+Nah ini bergantung pada fitur auto disbursement Mekari Expense-nya.
+
+[10:04 - 10:07]
+Jadi di Mekari Expense ini kita punya fitur auto disbursement Pak.
+
+[10:08 - 10:09]
+Semua transaksi di Mekari.
+
+[10:09 - 10:13]
+Mekari Expense nanti akan menggunakan wallet-nya Mekari Expense.
+
+[10:13 - 10:17]
+Jadi sifatnya perusahaannya harus top-up dulu ke wallet-nya Mekari Expense,
+
+[10:17 - 10:19]
+baru karyawannya bisa request.
+
+[10:22 - 10:26]
+Nanti request-nya dari sisi karyawan akan menggunakan dana di wallet-nya tersebut.
+
+[10:28 - 10:30]
+Nggak pakai yang ini juga nggak apa-apa kan Mbak?
+
+[10:32 - 10:36]
+Iya, sebenarnya ini kalau nggak mau di-utilize nggak masalah Pak.
+
+[10:36 - 10:37]
+Jadi nanti bisa di-strip aja.
+
+[10:37 - 10:39]
+Cuman mungkin yang membedakan adalah...
+
+[10:39 - 10:44]
+Ketika kalau misalkan Bapak-Bapak pakai auto disbursement kan udah otomatis ya Pak ya,
+
+[10:44 - 10:48]
+pengiriman dana Bapak nggak perlu transfer manual lagi ke rekening karyawannya.
+
+[10:48 - 10:50]
+Kalau misalkan Bapak nggak gunakan,
+
+[10:50 - 10:54]
+berarti nanti Bapak harus transfer manual lagi ke rekening karyawannya.
+
+[10:55 - 10:58]
+Jadi karyawannya cuma request aja di Mekari Expense,
+
+[10:58 - 11:02]
+Bapak harus mark as disburse secara manual di Mekari Expense-nya
+
+[11:02 - 11:04]
+dan pengiriman dana-nya juga manual gitu sih Pak.
+
+[11:06 - 11:08]
+Ya, masih bisa seperti itu Mbak.
+
+[11:08 - 11:10]
+Oke, mungkin yang saya invokan juga disini,
+
+[11:10 - 11:13]
+auto disbursement-nya ini akan dikenakan ya Pak ya,
+
+[11:13 - 11:14]
+2.500 per transaksi.
+
+[11:14 - 11:19]
+Mungkin udah di-invokan juga oleh team sales-nya ya Pak ya, Bu Eki.
+
+[11:19 - 11:20]
+Iya.
+
+[11:21 - 11:23]
+Nah, untuk schedule ini sendiri,
+
+[11:23 - 11:25]
+dia akan berlaku untuk reimbursment-nya.
+
+[11:25 - 11:29]
+Dia sifatnya ada daily, weekly, dan juga monthly.
+
+[11:31 - 11:33]
+Kalau cash heaven sifatnya lebih real time.
+
+[11:33 - 11:36]
+Once dia udah di-approve, langsung dikirimkan dana-nya
+
+[11:36 - 11:38]
+kalau gunakan auto disbursement Mekari Expense-nya.
+
+[11:39 - 11:40]
+Nah, ini kalau misalkan...
+
+[11:40 - 11:43]
+Pak, jadi mau di-utilize Pak, ini bisa di-strip aja ya Pak ya?
+
+[11:44 - 11:46]
+Untuk di bagian scheduler-nya.
+
+[11:48 - 11:49]
+Selanjutnya disini untuk poin nomor tiga,
+
+[11:49 - 11:53]
+ini terkait dengan workflow atau siapa saja karyawan
+
+[11:53 - 11:57]
+yang bisa review dan juga approve pengajuan dari sisi karyawannya.
+
+[11:57 - 11:57]
+Gitu.
+
+[11:58 - 12:01]
+Nah, ini contohnya kita ada beberapa contoh.
+
+[12:01 - 12:02]
+Ada category name.
+
+[12:02 - 12:07]
+Ini Bapak rekan-rekan sekalian bisa bedakan per category name.
+
+[12:07 - 12:10]
+Jadi, misalkan mau dibedakan per masing-masing category name approval lainnya,
+
+[12:10 - 12:12]
+ini bisa di-inputkan per category name disini.
+
+[12:13 - 12:17]
+Tapi kalau mau langsung untuk semua kategori,
+
+[12:17 - 12:20]
+approval-nya cuma satu aja ya, ke Pak Anevil contohnya,
+
+[12:20 - 12:24]
+itu langsung di-inputkan aja namanya, di approval 1, 2, ataupun 3-nya.
+
+[12:25 - 12:25]
+Gitu.
+
+[12:25 - 12:30]
+Nah, disini mungkin rekan-rekan sekalian mempertanyakan ya
+
+[12:30 - 12:32]
+terkait dengan one-upper approval line.
+
+[12:32 - 12:36]
+Jadi, kalau di Mekari Expense ini, kita bisa atur ketika karyawannya request,
+
+[12:36 - 12:40]
+itu bisa diatur approval pertama itu di one-upper approval line.
+
+[12:40 - 12:42]
+Atau atasan langsungnya.
+
+[12:44 - 12:44]
+Seperti ini.
+
+[12:45 - 12:49]
+Nah, kalau to approval adalah atasan dari si atasan langsung ini ya Bapak Ibu sekalian.
+
+[12:49 - 12:52]
+Nah, kalau untuk approval 3-nya ini, langsung ke orangnya.
+
+[12:53 - 12:56]
+Jadi, kalau misalkan saat ini langsung ke Pak Anevil saja,
+
+[12:56 - 12:59]
+ini bisa langsung di-inputkan saja namanya Pak Anevil di sini ya.
+
+[13:03 - 13:07]
+Seperti ini.
+
+[13:08 - 13:09]
+Bisa di-inputkan nama lengkapnya.
+
+[13:10 - 13:15]
+Nah, untuk selanjutnya disini kita untuk approval kedua ada tanda komanya nih.
+
+[13:15 - 13:19]
+Nah, untuk tanda koma ini, ini menandakan bahwa ada backup approver.
+
+[13:19 - 13:23]
+Jadi, misalkan ada karyawannya request client meetingnya,
+
+[13:23 - 13:24]
+ini atasan langsungnya sudah approve,
+
+[13:25 - 13:29]
+nanti untuk approval keduanya dia akan muncul di Pak Andi dan juga Bu Jen.
+
+[13:29 - 13:32]
+Salah satunya sudah approve, baru pindah ke approval ketiga.
+
+[13:33 - 13:34]
+Seperti itu.
+
+[13:34 - 13:39]
+Nanti mungkin bisa di-inputkan kalau misalkan memang ada backup approvernya dari Pak Nefri lah,
+
+[13:39 - 13:42]
+bisa di-koma saja, di-inputkan untuk namanya.
+
+[13:42 - 13:50]
+Ini untuk claims workflow-nya, ada yang ditanyakan sebelum saya lanjutkan kembali?
+
+[13:52 - 13:53]
+Sudah jelas.
+
+[13:53 - 13:56]
+Sudah jelas, saya lanjutkan ke bagian role-nya ya.
+
+[13:56 - 14:02]
+Kalau untuk role ini, ini berkaitan dengan karyawan yang diberikan role istimewa di Mekari Expense-nya.
+
+[14:03 - 14:08]
+Kalau kita ada beberapa, di sini kalau untuk super admin, dia bisa akses semua fitur ya,
+
+[14:08 - 14:09]
+dari role admin sampai card admin-nya.
+
+[14:10 - 14:15]
+Selanjutnya kalau role admin, dia fokusnya hanya di reimbursement, cash advance, dan juga business trip-nya.
+
+[14:18 - 14:21]
+Untuk finance user, finance admin, dan procurement purchasing,
+
+[14:21 - 14:26]
+ini sebetulnya bisa di-ignore saja karena ini kebetulan dari perusahaan ya,
+
+[14:26 - 14:31]
+tidak utilize untuk yang fitur purchasing-nya ya, rekan-rekan sekalian.
+
+[14:31 - 14:34]
+Jadi ini lebih berfokus ke fitur purchasing-nya,
+
+[14:34 - 14:41]
+dari mulai program purchase invoice sampai akhirnya bisa pengubahan workflow di menu purchasing-nya.
+
+[14:43 - 14:47]
+Kalau accountant, ini untuk fitur jurnal integration ya,
+
+[14:47 - 14:49]
+kalau rekan-rekan sekalian.
+
+[14:49 - 14:51]
+Maka ini berlangganan juga perusahaannya di Mekari Jurnal,
+
+[14:51 - 14:53]
+ini bisa diintegrasi ke Mekari Jurnal-nya.
+
+[14:54 - 14:59]
+Kalau untuk card admin, dia fokusnya untuk pembuatan ataupun generate virtual corporate card-nya.
+
+[14:59 - 15:03]
+Kalau virtual corporate card kami ini, seperti debit card atau...
+
+[15:03 - 15:07]
+Langsung pesan go-card aja langsung dari rumahmu, ke situ langsung trip langsung ke bandara,
+
+[15:07 - 15:08]
+jadi enggak, nah ini lagi...
+
+[15:08 - 15:13]
+Eh mbak, sorry Pak, Pak Nevis lagi mute, lagi ngobrol sama...
+
+[15:13 - 15:14]
+Ya, oke.
+
+[15:15 - 15:17]
+Udah mbak, lanjut mbak.
+
+[15:17 - 15:18]
+Oke, baik.
+
+[15:19 - 15:24]
+Jadi sebetulnya kalau role ini, card admin itu untuk virtual corporate card ini bisa kita di-utilize
+
+[15:24 - 15:29]
+kalau misalkan rekan-rekan sekalian ada kebutuhan untuk transaksi online ya,
+
+[15:29 - 15:36]
+di merchant atau di Shopee, Tokopedia, itu bisa gunakan virtual corporate card kami.
+
+[15:36 - 15:40]
+Nanti sifatnya Bapak harus allocate dana dulu ke virtual corporate card-nya.
+
+[15:41 - 15:45]
+Itu untuk di bagian role-nya, dari kita enggak ada limitasi ya Pak,
+
+[15:45 - 15:48]
+untuk role yang jadi card admin ataupun super admin-nya ada berapa,
+
+[15:49 - 15:53]
+nanti bisa di-inputkan aja nama, employee ID dan juga role-nya di bagian sini.
+
+[15:55 - 15:58]
+Oke, untuk selanjutnya di poin nomor 5 kita ada business repolicy.
+
+[15:59 - 16:03]
+Business repolicy ini adalah untuk kebijakan perjalanan dinas ya.
+
+[16:03 - 16:07]
+Nah, biasanya kita bisa atur per job level ataupun per job grade-nya.
+
+[16:08 - 16:12]
+Nah, di sini Bapak-Ibu sekalian bisa inputkan untuk kategori name-nya
+
+[16:12 - 16:16]
+based on transportasi, akomodasi ataupun per-deme-nya.
+
+[16:16 - 16:20]
+Jadi kalau misalkan transportasi ini, nanti si karyawannya bisa...
+
+[16:20 - 16:26]
+bisa pilihkan jenis transportasinya apa aja, mungkin bisa di-listed-nya di bagian sini.
+
+[16:26 - 16:30]
+Karena ini akan mempengaruhi ketika si karyawannya request perjalanan dinas.
+
+[16:30 - 16:33]
+Mungkin agak lebih tergambar, saya bantu contohkan juga ya,
+
+[16:33 - 16:35]
+di Mekarexpan-nya seperti apa.
+
+[16:39 - 16:44]
+Oke, jadi kalau di Mekarexpan sendiri, nanti ada MyClaims dan juga MyTrip ya.
+
+[16:44 - 16:47]
+Perbedaannya dari MyClaims dan juga MyTrip, kalau di MyTrip ini,
+
+[16:48 - 16:50]
+nanti karyawannya itu lebih...
+
+[16:52 - 16:54]
+pengajuan dari request trip-nya ini,
+
+[16:54 - 16:55]
+lebih spesifik, Pak.
+
+[16:55 - 16:59]
+Dia inputkan untuk trip-name-nya, kemudian di sini purpose of trip-nya ya.
+
+[17:00 - 17:04]
+Dia purpose of trip-nya ini mau untuk apa.
+
+[17:04 - 17:07]
+Nanti, tadi kan sifatnya dia booking sendiri ya, Pak ya.
+
+[17:07 - 17:11]
+Kalau untuk akomodasi dan juga transportasinya.
+
+[17:12 - 17:14]
+Mungkin nanti bisa dipilihkan booking option-nya by self.
+
+[17:15 - 17:18]
+Nah, di sini nanti dia inputkan destinasinya mau ke mana.
+
+[17:19 - 17:21]
+Dengan tanggal dari tanggal berapa.
+
+[17:21 - 17:23]
+Nah, transportasi arrangement,
+
+[17:24 - 17:30]
+predation arrangement dan juga case sentence ini akan dipengaruhi oleh kategori-nya yang Bapak inputkan di bagian sini.
+
+[17:31 - 17:34]
+Kalau untuk transportasi, pilihan transportasinya akan muncul
+
+[17:34 - 17:41]
+Airlines, BIS dan juga transportasional ketika Bapak udah inputkan untuk jenis transportasi di bagian sini.
+
+[17:42 - 17:42]
+Gitu.
+
+[17:43 - 17:47]
+Bagian sini nanti bisa di inputkan ya, kalau misalkan ada limitnya di sini akan muncul.
+
+[17:47 - 17:50]
+Misalkan dia dari Jakarta kebalik papan ya.
+
+[17:50 - 17:51]
+Ini kita bisa...
+
+[17:51 - 17:52]
+Gojek-gojek nggak ada ya, Mbak ya?
+
+[17:52 - 17:54]
+Kalau gojek bisa, Pak.
+
+[17:54 - 17:56]
+Pak, nanti bisa di inputkan di bagian sini sih, Pak.
+
+[17:56 - 18:00]
+Ini kebetulan kalau di akun saya memang nggak diatur untuk yang gojek.
+
+[18:00 - 18:03]
+Tapi kalau Bapak emang ada kebijakan untuk gojek, bisa di inputkan gojek di sini.
+
+[18:04 - 18:05]
+Oh, gitu. Oke.
+
+[18:06 - 18:10]
+Nah, di sini nanti misalkan online transportation ya, kayak gojek, nanti bisa di inputkan juga di bagian sini, Pak.
+
+[18:11 - 18:15]
+Ini untuk mendetailkan aja sih, Pak, itinerary dari perjalanan dinasnya dia, dia mau pakai.
+
+[18:17 - 18:18]
+Transportasinya apa.
+
+[18:20 - 18:23]
+Ini kalau misalkan ada round trip-nya, boleh di inputkan juga.
+
+[18:24 - 18:25]
+Selanjutnya, akomodasi.
+
+[18:25 - 18:29]
+Nah, akomodasi kalau dia ada menginapkah, ini bisa di inputkan juga di hotelnya.
+
+[18:29 - 18:33]
+Nah, di sini kalau ada limitation-nya ya, di sini Bapak bisa inputkan limitation-nya.
+
+[18:33 - 18:35]
+Kita bisa per day atau per transaction.
+
+[18:36 - 18:39]
+Ini kalau misalkan ada, dia akan muncul, Pak, di sini.
+
+[18:39 - 18:40]
+Limit amount-nya.
+
+[18:43 - 18:45]
+Nah, di sini bisa di inputkan untuk check-in date-nya.
+
+[18:45 - 18:50]
+Oke, saya mau tanggal 5, misalkan sampai di tanggal, tadi tanggal 9 ya.
+
+[18:51 - 18:53]
+Nah, ini bisa di inputkan 4 malam.
+
+[18:53 - 18:55]
+Kemudian di sini ada cash advance.
+
+[18:55 - 18:57]
+Nah, cash advance ini karena karyawannya tadi...
+
+[18:57 - 19:02]
+Ini kan dia mesen tiket hotel dan juga online transportation-nya kan sendiri ya, Pak ya.
+
+[19:02 - 19:04]
+Nah, dia bisa mintakan di cash advance ini, Pak.
+
+[19:05 - 19:06]
+Oke.
+
+[19:06 - 19:07]
+Nah, siapa yang...
+
+[19:08 - 19:10]
+Ini itu tapi kayak yang udah terencana gitu, Mbak ya?
+
+[19:11 - 19:11]
+Iya.
+
+[19:12 - 19:15]
+Ini dia misalnya yang udah terencana sih, Pak, di awal.
+
+[19:15 - 19:18]
+Tapi nanti kalau misalkan sekiranya...
+
+[19:18 - 19:20]
+Ini kan rencananya seperti ini ya, Pak ya.
+
+[19:20 - 19:23]
+Pasti kalau dia udah mintakan cash advance, dia bertanggung jawaban ya, Pak ya.
+
+[19:23 - 19:25]
+Apakah dia gunakan semua atau enggak.
+
+[19:25 - 19:27]
+Nanti si karyawannya bisa inputkan.
+
+[19:27 - 19:29]
+Juga bertanggung jawabannya di Makare Expense.
+
+[19:30 - 19:33]
+Pun karyawannya setelah perjalanan dinas, dia juga bisa...
+
+[19:33 - 19:37]
+Ini, Pak, bisa untuk reimburse juga ke perusahaan
+
+[19:37 - 19:40]
+kalau ternyata dia pakai uang pribadi setelah perjalanan dinasnya.
+
+[19:41 - 19:43]
+Nah, di sini kita ada perdim juga.
+
+[19:43 - 19:47]
+Biasanya kalau perdim itu di luar dari transportasi dan akomodasi ya, Pak ya.
+
+[19:47 - 19:51]
+Kayak seperti uang makan ataupun uang entertainment,
+
+[19:51 - 19:53]
+itu bisa diatur di bagian perdimnya.
+
+[19:55 - 19:58]
+Ini misalkan dia mintakan 10.
+
+[19:59 - 20:02]
+Induration-nya bisa di-inputkan ya, 40 ribu.
+
+[20:02 - 20:06]
+Nah, sebenarnya kalau di perjalanan dinas ini, karyawannya bisa request melebihi limitnya ya, Pak ya.
+
+[20:06 - 20:10]
+Tapi di sini akan muncul request amount exceed the limit per day-nya, 10 ribu.
+
+[20:10 - 20:15]
+Nah, ini tergantung dari approval line-nya, mau setuju atau enggak,
+
+[20:15 - 20:16]
+dari pengajuan si karyawan ini.
+
+[20:20 - 20:20]
+Oke.
+
+[20:21 - 20:22]
+Oke, nanti seperti ini.
+
+[20:22 - 20:26]
+Kemudian nanti kalau sudah selesai, kita bisa klik submit ya di bagian sini.
+
+[20:29 - 20:31]
+Oh, sorry. Ini purpose of trip-nya belum di-inputkan.
+
+[20:33 - 20:35]
+Kita bisa inputkan di sini, klik submit.
+
+[20:35 - 20:44]
+Once sudah di-klik submit, oh, sorry, trip name-nya bisa inputkan.
+
+[20:47 - 20:52]
+Kalau sudah di-klik submit, dia di sini akan muncul ya untuk business trip-nya.
+
+[20:53 - 20:56]
+Nah, di sini akan muncul juga dia butuh approval dari siapa.
+
+[20:57 - 21:03]
+Si karyawan di sini juga bisa lihat ya, oh, saya nanti terhadapnya seperti ini dengan case attention ada di sini.
+
+[21:03 - 21:07]
+Ini tergantung dari approval-annya, mau setuju atau tidak,
+
+[21:07 - 21:09]
+dia pengajuan ke perjalanan dinas-nya.
+
+[21:13 - 21:14]
+Bagian trip.
+
+[21:15 - 21:19]
+Nah, di sini kalau sebagai approval line, ini dia bisa bantu approve, reject,
+
+[21:19 - 21:21]
+ataupun kita bisa view juga request-nya.
+
+[21:21 - 21:26]
+Kalau view, ini rekan-rekan sekalian bisa ganti nominal-nya.
+
+[21:26 - 21:29]
+Kalau enggak setuju ya, misalkan oke, dia transportation, 20 ribu.
+
+[21:30 - 21:34]
+Kalau kita enggak setuju ini 20 ribu, kita bisa langsung ubah aja sebagai approval line.
+
+[21:34 - 21:37]
+Saya setujunya cuma 10 ribu aja.
+
+[21:41 - 21:43]
+Ini bisa di-inputkan reason-nya ya.
+
+[21:43 - 21:45]
+Ya, kenapa diganti.
+
+[21:45 - 21:51]
+Kalau sudah selesai, ini langsung berubah ya, request amount-nya 20 ribu, approve amount-nya 10 ribu.
+
+[21:51 - 21:54]
+Ini bisa langsung kita approve pengajuannya.
+
+[21:54 - 22:00]
+Nanti kalau sudah selesai pengajuannya sudah di-approve, di sini statusnya akan waiting cash advance.
+
+[22:00 - 22:03]
+Tadi karena enggak gunakan auto disbursement, Bapak,
+
+[22:03 - 22:09]
+nah ini dari sisi finance ataupun yang PIC-nya ya, ketika dia sudah mengirimkan dana-nya,
+
+[22:09 - 22:13]
+itu harus di-mark as disbursement secara manual di Mekari Expense ya.
+
+[22:13 - 22:14]
+Di bagian sini.
+
+[22:17 - 22:19]
+Untuk bukti dari transfer and payment-nya.
+
+[22:20 - 22:21]
+Oke.
+
+[22:21 - 22:27]
+Kalau sudah selesai seperti ini, nanti dari sisi karyawan yang akan mewajibkan untuk awaiting report
+
+[22:27 - 22:29]
+ataupun dia harus submit settlement report-nya.
+
+[22:30 - 22:33]
+Karena setelah perjalanan dinas, dia minta cash advance di awal,
+
+[22:33 - 22:38]
+wajib untuk inputkan settlement report-nya ya.
+
+[22:38 - 22:40]
+Nah, di sini bisa di-submit report.
+
+[22:41 - 22:45]
+Nah, si karyawan ya harus mempertahankan jawaban yang dia sudah mintakan di awal.
+
+[22:46 - 22:51]
+Oke, untuk yang Rp10.000, ini sudah digunakan semua atau enggak?
+
+[22:51 - 22:53]
+Rp40.000 juga digunakan semua atau enggak?
+
+[22:53 - 22:58]
+Atau setelahnya nyetek dia ada online expense-nya yang dia gunakan pakai uang sendiri,
+
+[22:58 - 22:59]
+ini bisa di-inputkan juga di bagian sini.
+
+[23:06 - 23:08]
+Kalau evident-nya di mana ditaruh, Mbak?
+
+[23:08 - 23:09]
+Iya, di sini, Pak.
+
+[23:10 - 23:11]
+Nah, ini kan ada Rp5.000 ya, Pak ya.
+
+[23:12 - 23:13]
+Di sini kan kita harus upload resif-nya.
+
+[23:14 - 23:15]
+Oh, di situ.
+
+[23:15 - 23:18]
+Jadi, kalau misalkan yang cash advance, sorry,
+
+[23:19 - 23:26]
+kalau di bagian trip ini, memang ini agak cukup banyak untuk upload-upload-nya ya, Pak ya.
+
+[23:26 - 23:32]
+Karena kan kita juga perlu evidence juga setelah dia mintakan cash advance-nya.
+
+[23:35 - 23:36]
+Kalau dari saya, kita klik save.
+
+[23:40 - 23:42]
+Di sini nanti akan muncul ya.
+
+[23:42 - 23:46]
+Ternyata dia harus refund ke company-nya ada Rp45.000.
+
+[23:46 - 23:48]
+Nah, di sini digunakan semua atau enggak?
+
+[23:48 - 23:51]
+Kalau enggak digunakan sama sekali, berarti harus di-refund-kan ke company.
+
+[23:51 - 23:54]
+Dan di sini kalau misalkan ternyata, oh, sama pejainnya,
+
+[23:54 - 23:58]
+kemarin saya ada gunakan uang sendiri nih untuk transportasi gitu ya.
+
+[23:58 - 24:00]
+Karena ini kan di luar dari rencana awal.
+
+[24:01 - 24:03]
+Kita butuh bis, misalkan, di sini.
+
+[24:05 - 24:09]
+Ini bisa di-input-kan untuk amount request per day-nya.
+
+[24:11 - 24:13]
+Kalau misalkan di-input-kan seperti ini,
+
+[24:23 - 24:24]
+ini vendor-nya harus di-input-kan ya.
+
+[24:26 - 24:28]
+Dan description-nya.
+
+[24:29 - 24:31]
+Baru di-upload resif-nya juga.
+
+[24:34 - 24:36]
+Untuk upload resif, bisa di-klik save di bagian sini.
+
+[24:37 - 24:38]
+Nah, ini,
+
+[24:38 - 24:39]
+nah, tampilannya seperti ini.
+
+[24:39 - 24:43]
+Ini kan karena dia udah ada refund ke company-nya Rp45.000,
+
+[24:44 - 24:45]
+kemudian dia juga mintakan
+
+[24:46 - 24:48]
+antan ekspresinya Rp45.000 ya,
+
+[24:48 - 24:49]
+Bapak-Ibu sekalian.
+
+[24:49 - 24:52]
+Nah, ini kalau seperti ini, berarti langsung dikurangkan langsung.
+
+[24:54 - 24:57]
+Oke, di sini, nah, statusnya akan awaiting review.
+
+[24:57 - 25:01]
+Ini once si approval line-nya udah bantu review.
+
+[25:04 - 25:06]
+Oke, di sini awaiting review.
+
+[25:06 - 25:08]
+Kita bisa view report-nya.
+
+[25:08 - 25:13]
+Nah, ini karena dia totalnya ini sama ya.
+
+[25:13 - 25:15]
+Kita bantu approve.
+
+[25:15 - 25:17]
+Waktu sudah dibantu approve, karena totalnya sama,
+
+[25:18 - 25:20]
+dia statusnya akan langsung berpindah komplit.
+
+[25:20 - 25:24]
+Jadi, dianggap, oke, ini uang yang dia mintakan sama,
+
+[25:24 - 25:27]
+yang perlu dibalikan ke company sama yang dia mintakan kan sama.
+
+[25:28 - 25:32]
+Jadi, nggak perlu di-disburse lagi ke employee-nya.
+
+[25:32 - 25:34]
+Statusnya sekali komplit seperti ini.
+
+[25:34 - 25:35]
+Gitu.
+
+[25:35 - 25:38]
+Nah, kurang lebih kalau misalkan perbedaan dari
+
+[25:40 - 25:42]
+pengajuan bisnis trip atau kebijakan bisnis trip
+
+[25:42 - 25:44]
+dan juga reimbursement di Mekarefnya seperti itu.
+
+[25:45 - 25:48]
+Pak, kalau misalkan bisnis trip, dia lebih spesifik ya,
+
+[25:48 - 25:52]
+itinerary-nya seperti apa, mau dari tanggal berapa sampai tanggal berapa,
+
+[25:52 - 25:54]
+dan transportasinya nanti mau menggunakan apa.
+
+[25:54 - 25:55]
+Gitu.
+
+[25:55 - 25:58]
+Kalau reimbursement kan sifatnya lebih straightforward.
+
+[26:00 - 26:03]
+Kalau misalkan reimbursement, dia sifatnya lebih straightforward, Pak.
+
+[26:03 - 26:04]
+Nah, di sini reimbursement.
+
+[26:06 - 26:08]
+Nah, di sini dia inputkan, Pak, untuk klaim kategorinya.
+
+[26:09 - 26:12]
+Kalau Bapak gunakan per masing-masing,
+
+[26:12 - 26:13]
+berarti Bapak inputkan per masing-masingnya,
+
+[26:13 - 26:14]
+seperti office,
+
+[26:15 - 26:19]
+kemudian ini inputnya per amount, vendor, dan juga attachment-nya.
+
+[26:20 - 26:22]
+Sementara sekarang sih hanya reimbursement saja sih,
+
+[26:22 - 26:23]
+yang lain kita nggak ada.
+
+[26:24 - 26:25]
+Ya, soalnya kita tuh,
+
+[26:26 - 26:29]
+misalkan di luar kota gitu nggak tentu, Pak.
+
+[26:29 - 26:30]
+Jadi nggak bisa ditentuin.
+
+[26:32 - 26:35]
+Hanya pakai satu, hanya reimbursement saja.
+
+[26:35 - 26:36]
+Fungsi reimbursement.
+
+[26:36 - 26:39]
+Oke, jadi kalau misalkan reimbursement,
+
+[26:39 - 26:42]
+ini mungkin kalau contohnya seperti ini ya, Pak ya.
+
+[26:42 - 26:44]
+Kalau misalkan Bapak mau,
+
+[26:45 - 26:46]
+mau sifatnya ini,
+
+[26:47 - 26:49]
+kalau reimbursement berarti kan setelah perjalanan indah segitu ya,
+
+[26:49 - 26:52]
+dia baru inputkan vendor-nya ataupun transportasinya.
+
+[26:52 - 26:55]
+Bapak kalau mau gunakan per masing-masing tadi,
+
+[26:55 - 26:57]
+kayak transportasi sendiri, akomodasi sendiri,
+
+[26:58 - 27:00]
+berarti karyawannya berarti di-inputkan sendiri-sendiri ya, Pak ya,
+
+[27:01 - 27:01]
+untuk klaim kategorinya.
+
+[27:02 - 27:04]
+Atau Bapak bisa pilihkan juga yang subkategori,
+
+[27:05 - 27:06]
+dari seperti yang saya infokan.
+
+[27:06 - 27:07]
+Nanti dia bisa inputkan nih, Pak,
+
+[27:08 - 27:10]
+oke, kita butuh kemarin pakai parkir,
+
+[27:10 - 27:14]
+kemudian pakai BBM, dan juga makannya, nominalnya berapa.
+
+[27:18 - 27:22]
+Nah, ini di-inputkan juga per attachment-nya ya,
+
+[27:22 - 27:28]
+lebih-lebih seperti ini.
+
+[27:30 - 27:35]
+Nah, kita butuh BBM juga, ini nominalnya di sini di-inputkan.
+
+[27:40 - 27:44]
+Itu kategori yang klaim kategori itu berarti event 6 jam ini,
+
+[27:46 - 27:47]
+terus coba buka add item tadi.
+
+[27:48 - 27:48]
+Add item?
+
+[27:49 - 27:52]
+Nah, event 6 jam ini subkategorinya cuma yang itu aja?
+
+[27:53 - 27:54]
+Iya, di tiga tadi, Pak.
+
+[27:55 - 27:55]
+Oh.
+
+[27:55 - 27:58]
+Oh, itu bisa bikin sendiri?
+
+[27:58 - 27:59]
+Bisa, bisa bikin sendiri.
+
+[27:59 - 28:02]
+Karena ini yang, kalau misalkan yang event 6 jam ini,
+
+[28:02 - 28:04]
+contohnya yang ini, Pak, yang medical.
+
+[28:05 - 28:08]
+Jadi, Bapak bisa inputkan aja, ini sesuai dengan kebijakan-kebijakanannya ya.
+
+[28:08 - 28:09]
+Nanti...
+
+[28:09 - 28:12]
+Yang kategori itu, yang event 6 jam itu yang kategori name,
+
+[28:12 - 28:14]
+description tadi, parkir, BBM itu.
+
+[28:15 - 28:16]
+Oh, enggak, Pak.
+
+[28:16 - 28:18]
+Jadi, misalkan kategori name itu yang medical, Pak,
+
+[28:18 - 28:19]
+klaim kategori medical,
+
+[28:20 - 28:22]
+subkategorinya ini yang doctor, medicine, dan transport.
+
+[28:23 - 28:24]
+Oh, iya.
+
+[28:24 - 28:25]
+Kalau yang description,
+
+[28:25 - 28:29]
+description ini lebih bersifat untuk pendescription, ya.
+
+[28:29 - 28:30]
+Ini untuk kategori namenya,
+
+[28:30 - 28:33]
+si karyawannya bisa request reimbursement aja,
+
+[28:33 - 28:34]
+atau bisa cash acceptance juga.
+
+[28:34 - 28:35]
+Itu.
+
+[28:35 - 28:35]
+Iya, iya.
+
+[28:38 - 28:39]
+Kalau lebih seperti itu.
+
+[28:39 - 28:41]
+Nanti bisa di-inputkan untuk list down-nya,
+
+[28:42 - 28:43]
+di-inputkan juga,
+
+[28:43 - 28:46]
+ini kalau ada additional details ini untuk Bapak,
+
+[28:46 - 28:47]
+kalau misalkan ada feel tambahan, ya,
+
+[28:47 - 28:49]
+ini bisa di-utilize juga di maka expense,
+
+[28:49 - 28:51]
+bisa di-click-click submit.
+
+[28:51 - 28:52]
+Nah, ini lebih...
+
+[28:52 - 28:55]
+Saya khawatir, Pak, nanti ketika sudah di-approve,
+
+[28:55 - 28:56]
+langsung dikirimkan dana-nya.
+
+[28:57 - 28:57]
+Itu.
+
+[28:58 - 29:00]
+Waiting approval, nanti di-review, ya,
+
+[29:01 - 29:03]
+oleh misal contohnya dari Pak Anevil yang bantu review,
+
+[29:04 - 29:07]
+sudah sesuai, misalkan nominalnya kita sudah cek juga,
+
+[29:08 - 29:09]
+resifnya sudah sesuai.
+
+[29:10 - 29:12]
+Ini bisa kita langsung approve.
+
+[29:12 - 29:14]
+Nah, sudah di-approve seperti ini,
+
+[29:15 - 29:18]
+di sini akan waiting disbursement, ya, Pak, ya, statusnya.
+
+[29:18 - 29:21]
+Bapak, kalau dari Pak Akbar,
+
+[29:21 - 29:23]
+kalau misalkan sudah kirimkan dana-nya,
+
+[29:23 - 29:24]
+nanti bisa kita...
+
+[29:25 - 29:27]
+Bantu mark as disbursed di maka expense-nya.
+
+[29:28 - 29:30]
+Bukti bahwa ada, sudah selesai ini pengiriman dana-nya.
+
+[29:31 - 29:31]
+Tuh.
+
+[29:32 - 29:33]
+Kurang lebih seperti itu, Pak,
+
+[29:34 - 29:35]
+kalau untuk flow reimbursement, ya,
+
+[29:35 - 29:36]
+dengan subkategori tadi.
+
+[29:37 - 29:39]
+Itu bisa disesuaikan lagi dengan kebutuhan perusahaannya.
+
+[29:41 - 29:41]
+Oke.
+
+[29:42 - 29:47]
+Oke, jadi berarti fokusnya ini penggunaannya lebih ke yang policy claims-nya, Pak, ya?
+
+[29:47 - 29:49]
+Untuk policy business trip dan workflow-nya,
+
+[29:49 - 29:51]
+berarti nggak mau utilize dulu, ya, Pak, ya?
+
+[29:52 - 29:54]
+Iya, sih, karena jarang...
+
+[29:55 - 29:56]
+Ter-planning itu jarang, Mbak.
+
+[29:57 - 30:01]
+Jadi setelah diajakkan perjalanan baru dia tahu, ya,
+
+[30:01 - 30:04]
+mau gunakannya, transportasinya apa,
+
+[30:04 - 30:06]
+terus uangnya berapa yang dia pakai, gitu ya, Pak, ya?
+
+[30:07 - 30:12]
+Jadi yang kita pakai nanti hanya yang cash advance sama reimbursement saja.
+
+[30:13 - 30:15]
+Iya, di sini ya, Pak, ya, yang di poin satu saja.
+
+[30:16 - 30:16]
+Iya.
+
+[30:16 - 30:18]
+Sama boleh tahu nggak, Mbak?
+
+[30:18 - 30:18]
+Boleh.
+
+[30:18 - 30:19]
+Kayak, apa namanya?
+
+[30:20 - 30:23]
+Anti-HCL akhirnya buat, misalkan, buat...
+
+[30:24 - 30:24]
+Apa?
+
+[30:25 - 30:26]
+Pembukuan, gitu.
+
+[30:26 - 30:31]
+Mau lihat kategori-kategorinya itu nanti terpisah-pisah apa nggak?
+
+[30:33 - 30:36]
+Misalkan, kayak transportasi-transportasi sendiri,
+
+[30:37 - 30:40]
+makan-makan sendiri, apa-apa sendiri, gitu loh.
+
+[30:40 - 30:43]
+Di Excel buat akhirnya, gitu.
+
+[30:44 - 30:44]
+Ada nggak?
+
+[30:45 - 30:48]
+Kalau mungkin lebih sibatnya yang...
+
+[30:50 - 30:52]
+CSV, ya, Pak, ya?
+
+[30:52 - 30:52]
+Iya.
+
+[30:53 - 30:54]
+Oke.
+
+[30:55 - 30:58]
+Nah, ini yang saya bantu Syahsi sudah terlihat, ya, Pak?
+
+[30:59 - 31:00]
+Iya, iya.
+
+[31:00 - 31:00]
+Oh, iya.
+
+[31:00 - 31:05]
+Kurang lebih kalau misalkan Bapak inputkannya itu per masing-masing subkategori,
+
+[31:05 - 31:06]
+dia tampilannya kayak gini, Pak.
+
+[31:07 - 31:10]
+Sorry, per claim kategori, ini tampilannya akan seperti ini.
+
+[31:10 - 31:11]
+Claim kategorinya cuma satu.
+
+[31:13 - 31:17]
+Oh, dia berarti misalkan transportasi-transportasi sendiri, ya?
+
+[31:18 - 31:19]
+Iya, betul.
+
+[31:19 - 31:22]
+Tapi ini kalau dalam catatan Bapak nggak gunakan yang auto...
+
+[31:23 - 31:25]
+Sorry, nggak gunakan yang subkategori, ya, Pak, ya?
+
+[31:25 - 31:26]
+Hmm.
+
+[31:27 - 31:30]
+Kalau Bapak gunakan yang subkategori, sebentar saya cari dulu.
+
+[31:30 - 31:32]
+Di sini ada contohnya atau tidak?
+
+[31:34 - 31:35]
+Soalnya di...
+
+[31:35 - 31:35]
+Oh, ini, Pak.
+
+[31:36 - 31:37]
+Contohnya, Pak.
+
+[31:37 - 31:39]
+Yang even 6 jamnya, nih, Pak.
+
+[31:39 - 31:41]
+Nah, ini kan ada even 6 jam, ya, Pak, ya?
+
+[31:41 - 31:42]
+Ini untuk...
+
+[31:45 - 31:46]
+Saya bantu.
+
+[31:47 - 31:48]
+Untuk...
+
+[31:54 - 31:57]
+Ini ada claims kategori dan claims subkategorinya, Pak, di sini.
+
+[31:59 - 32:03]
+Kalau misalkan dia ternyata dia punya breakdown atau pull list down,
+
+[32:03 - 32:08]
+dia claim kategorinya muncul, dan juga di sini muncul juga, Pak,
+
+[32:08 - 32:10]
+untuk claim subkategorinya sebelah kanan.
+
+[32:10 - 32:11]
+Oh, terpisah, ya?
+
+[32:11 - 32:13]
+Iya, terpisah seperti ini.
+
+[32:14 - 32:17]
+Nah, di sini juga muncul yang contohnya yang even 6 jamnya tadi.
+
+[32:17 - 32:21]
+Nah, even 6 jam, nih, kalau misalkan dia ada beberapa, dia muncul, Pak, di sini.
+
+[32:22 - 32:26]
+Nah, ini BBM makan, total nominalnya berapa.
+
+[32:27 - 32:28]
+Oke, oke.
+
+[32:29 - 32:31]
+Ini boleh dikirim nggak, Pak, buat contoh?
+
+[32:32 - 32:33]
+Biar tahu kategori.
+
+[32:33 - 32:35]
+Ini mau apa aja, soalnya biar di...
+
+[32:37 - 32:39]
+Nanti itu mau dipisah-pisah, emang, kategorinya.
+
+[32:41 - 32:45]
+Pak, nggak bisa ini langsung gini, ini apa, ya?
+
+[32:45 - 32:49]
+Misalnya, ini kan ada kolom, nih, A, B, C, D, E, F, misalnya, kan.
+
+[32:49 - 32:53]
+Satu, ini apa, reimbursement, gitu, ya, reimbursement.
+
+[32:53 - 33:01]
+Terus nama ininya, kategori, apa, tripnya apa, gitu, ya.
+
+[33:01 - 33:02]
+Nah, terus nanti...
+
+[33:03 - 33:12]
+Ini apa, di kanannya itu, misalnya, hotel, kolom I, makan, kolom J, gitu, Mbak, ininya.
+
+[33:13 - 33:14]
+Tabelnya begitu bisa nggak, ya?
+
+[33:15 - 33:18]
+Oh, belum bisa, Pak. Ini emang kita by default seperti ini, sih, Pak.
+
+[33:20 - 33:22]
+Kalau trip itu kayak gimana? Coba lihat, Mbak.
+
+[33:22 - 33:26]
+Kalau yang trip, kalau yang trip, laporan yang tripnya gimana?
+
+[33:27 - 33:31]
+Oke, kalau untuk yang trip, mungkin saya ganti akun dulu, ya, Pak, untuk tarik datanya.
+
+[33:34 - 33:37]
+Karena sebetulnya kalau untuk penarikan data itu akan dikirim...
+
+[33:37 - 33:41]
+Mungkin, kan, ke email dari yang bantu klik datanya, Pak.
+
+[33:45 - 33:48]
+Tapi mulit aja, maksudnya, biar ada pembukaan.
+
+[33:48 - 33:48]
+Bentar, ya, Pak.
+
+[35:21 - 35:24]
+Yang saya bantu share-nya sudah terlihat di tempat rekan-rekan sekalian.
+
+[35:28 - 35:29]
+Sudah kelihatan, ya, Pak, ya.
+
+[35:29 - 35:35]
+Jadi, sebetulnya kalau misalkan yang bisnis trip, kurang lebih untuk CSV-nya seperti ini, Pak.
+
+[35:36 - 35:40]
+Bisnis tripnya kemana, kemudian di sini ada request...
+
+[35:41 - 35:42]
+Kasa advance-nya.
+
+[35:43 - 35:44]
+Nanti saya bentuk.
+
+[35:57 - 36:04]
+CSV-nya ini bisa diatur, kita hanya mau ekstrak data tertentu saja, enggak?
+
+[36:05 - 36:08]
+Belum bisa, Pak. Ini kita by default seperti ini.
+
+[36:08 - 36:15]
+Cuma yang bisa di-ekstrak data tertentu itu cuma based on ini saja, Pak.
+
+[36:15 - 36:17]
+Time range sama statusnya.
+
+[36:19 - 36:23]
+Ini kepentingannya sebenarnya lebih ke untuk ini, sih, pelaporan tahunan pajak.
+
+[36:23 - 36:30]
+Jadi, dari expense itu, komponen transport dari 1 Januari sampai 31 Desember jumlahnya berapa?
+
+[36:32 - 36:34]
+Akomodasi berapa?
+
+[36:34 - 36:34]
+Kayak gitu, sih.
+
+[36:36 - 36:41]
+Ya, tapi kalau misalkan dari Mekar Express memang by default sediakannya seperti ini, Pak.
+
+[36:42 - 36:48]
+Justru kalau misalkan di bisnis trip justru ini lebih general, sih, Pak.
+
+[36:48 - 36:55]
+Jadi, dia siapa yang request, destinasi-nya kemana, trip date-nya kemana, dan di sini langsung approval-nya.
+
+[36:57 - 36:59]
+Kalau reimbursement itu dikasih nama, bisa enggak?
+
+[37:00 - 37:02]
+Reimbursement dikasih nama seperti apa, Pak?
+
+[37:03 - 37:05]
+Misal, coba kita buka reimbursement juga.
+
+[37:05 - 37:07]
+Yang apa, aplikasinya?
+
+[37:08 - 37:09]
+Coba buka.
+
+[37:17 - 37:20]
+Itu maksud titis yang nama orang yang nge-claim atau gimana?
+
+[37:20 - 37:23]
+Enggak, nama. Jadi, bukan claim kategori.
+
+[37:23 - 37:25]
+Misalkan nama trip-nya itu.
+
+[37:25 - 37:27]
+Maksudnya, Pak Lembang, tanggal segini-segini, gitu, misalkan. Bisa enggak?
+
+[37:28 - 37:33]
+Kalau claim kategorinya kita, untuk field-nya, ini kita by default seperti ini, Pak.
+
+[37:34 - 37:37]
+Tapi nanti kalau misalkan Bapak memang ada additional details.
+
+[37:38 - 37:42]
+Bukan, kayak additional details ini isinya apa, nih?
+
+[37:42 - 37:46]
+Ini sebenarnya custom field yang bisa Bapak create, sih, Pak.
+
+[37:46 - 37:48]
+Di Mekar Express-nya.
+
+[37:48 - 37:53]
+Nah, itu. Jadi, maksudnya itu nanti dia ini nama apa, ya? Nama trip-nya, gitu.
+
+[37:53 - 37:55]
+Boleh. Nanti bisa di-inputkan.
+
+[37:55 - 37:58]
+Jadi, Bapak kalau misalkan mau ada kebutuhan additional details.
+
+[37:59 - 38:03]
+Tapi ini tidak menghilangkan field yang wajib di sini, ya, Pak, ya?
+
+[38:03 - 38:04]
+Cuma ini nambahin aja.
+
+[38:04 - 38:05]
+Ya, betul.
+
+[38:06 - 38:11]
+Nah, ini juga bisa supposedly muncul juga nanti pada saat Bapak tarik data, nih, di bagian reimbursement ini.
+
+[38:12 - 38:14]
+Ya, betul. Kayak gitu sih enak, sih.
+
+[38:16 - 38:17]
+Bisa, Pak, kalau seperti itu.
+
+[38:17 - 38:24]
+Mungkin kalau memang ada kebutuhan seperti itu, nanti Bapak bisa tambahkan juga di keterangan, ya, di URD-nya.
+
+[38:24 - 38:30]
+Supaya saya bisa setup-nya sesuai dengan URD-nya, ini bisa di-inputkan di bawah sini aja, Pak.
+
+[38:31 - 38:32]
+Field yang mau ditambahkan.
+
+[38:37 - 38:42]
+Jadi, sesimpel kayak tadi yang trip itu, sih. Trip itu kan ada namanya, ya. Trip apa, gitu.
+
+[38:43 - 38:46]
+Iya, nanti Bapak bisa inputkan aja, Pak, di sini misalkan trip name-nya.
+
+[38:47 - 38:51]
+Jadi, nanti saya tambahkan field yang trip name.
+
+[38:51 - 38:53]
+Iya, atau enggak judul, ya, gitu, Pak.
+
+[38:53 - 38:54]
+Iya.
+
+[38:54 - 39:00]
+Jadul. Tapi dia, karena di additional details, ya, Pak, ya, custom field, dia sifatnya di bawah, ya, Pak, ya, bukan di atas.
+
+[39:00 - 39:01]
+Iya, iya, enggak apa-apa.
+
+[39:01 - 39:03]
+Jadi, seperti ini aja, gitu.
+
+[39:05 - 39:11]
+Kalau field-nya itu, ini namanya apa, misalnya, trip Palembang, gitu, ya, maksudnya, gitu, ya. Palembang, gitu, anunya, ya, Mbak.
+
+[39:12 - 39:13]
+Enggak, dia bisa diketik, gitu, Pak.
+
+[39:13 - 39:20]
+Ini bisa diubah, sih, Pak. Mungkin saya contohkan juga, ya, contoh pembuatan dari custom field di Makarexpan seperti apa.
+
+[39:22 - 39:24]
+Sorry, di bagian setting.
+
+[39:26 - 39:28]
+Ini kita ada custom field.
+
+[39:30 - 39:34]
+Kita bisa inputkan, create custom field di Makarexpan-nya.
+
+[39:35 - 39:39]
+Ini bisa di-inputkan, ya, custom field name-nya ini apa, misalkan trip name, ya.
+
+[39:40 - 39:43]
+Nah, ini untuk description-nya bisa di-inputkan.
+
+[39:43 - 39:45]
+Field visibility-nya ini bisa dipilihkan, ya, Pak, ya.
+
+[39:45 - 39:48]
+Bapak mau aturnya trip name ini munculnya di mana?
+
+[39:48 - 39:52]
+Di reimbursement request, cash advance request, bisa di-inputkan.
+
+[39:53 - 39:55]
+Nah, di sini field type-nya juga, Bapak.
+
+[39:55 - 39:58]
+Bapak bisa pilihkan, mau paragraph atau short text, ya.
+
+[39:59 - 39:59]
+Short text, ya.
+
+[40:00 - 40:02]
+Short text, berarti kan cuma 60, ya, Pak, ya, caption-nya.
+
+[40:02 - 40:03]
+Nah, ini bisa di-inputkan.
+
+[40:03 - 40:05]
+Iya, preview-nya seperti ini.
+
+[40:06 - 40:08]
+Nanti ini bisa di-require field-nya juga.
+
+[40:09 - 40:11]
+Kalau misalkan mau show in filter juga bisa.
+
+[40:12 - 40:16]
+Nah, ini bisa require ketika dia enggak inputkan trip name, ini enggak bisa lanjut.
+
+[40:16 - 40:17]
+Enggak bisa di-submit.
+
+[40:17 - 40:19]
+Nah, kita klik save, ya, Pak, ya.
+
+[40:20 - 40:23]
+Apa abang telpon calling, kalau abang bisa?
+
+[40:25 - 40:27]
+Apa abang telpon calling, itunya?
+
+[40:27 - 40:28]
+Ya, tapi kalau abang telpon bisa.
+
+[40:30 - 40:32]
+Om Nevi, ini ya.
+
+[40:33 - 40:33]
+Iya.
+
+[40:35 - 40:36]
+Sebentar, ini saya bahas.
+
+[40:36 - 40:38]
+Ini sepertinya udah ada yang menggunakan, ya, Pak, ya.
+
+[40:43 - 40:45]
+Ya, ya, udah.
+
+[40:45 - 40:46]
+Berarti seperti ini, ya, Pak.
+
+[40:46 - 40:47]
+Ya, seperti itu.
+
+[40:51 - 40:58]
+Lalu seperti itu, Pak, nanti bisa di-inputkan aja untuk trip name-nya, ya, di bagian sini kalau misalkan ada custom field-nya.
+
+[41:00 - 41:00]
+Oke.
+
+[41:02 - 41:10]
+Kurang lebih kalau untuk penjelasan dari policy claim sampai ke bagian role-nya, ini sudah saya jelaskan.
+
+[41:10 - 41:13]
+Kalau misalkan yang business trip, mau ada yang ditanyakan terlebih dahulu, Pak?
+
+[41:17 - 41:17]
+Ada, sih.
+
+[41:18 - 41:22]
+Kalau cash advance-nya coba, Mbak, boleh lihat bagaimana workflow-nya?
+
+[41:23 - 41:26]
+Cash advance workflow-nya, ya, Pak, ya, pengajuan-nya.
+
+[41:26 - 41:26]
+Ya.
+
+[41:27 - 41:32]
+Kalau cash advance lebih panjang, ya, Pak, ya, kalau business trip, kalau misalkan ada reimbursement, kan, dia request aja.
+
+[41:33 - 41:35]
+Kemudian nanti di-reimbursed.
+
+[41:35 - 41:39]
+Kalau misalkan cash advance, dia butuh settlement.
+
+[41:39 - 41:42]
+Nah, contohnya yang ini apa, ya, cash advance-nya ada di sini.
+
+[41:43 - 41:49]
+Nggak, dari upload-nya coba, Pak, biar kemarin itu soalnya yang Pak Hanif, Pak Alan nggak ikut waktu sama Mbak Eti-nya.
+
+[41:50 - 41:51]
+Oh, I see.
+
+[41:51 - 41:54]
+Jadi kalau misalkan dari upload-nya, sama aja, Pak, dengan yang tadi.
+
+[41:54 - 41:58]
+Jadi dia pilihkan dulu untuk claim kategorinya, ya, di sini.
+
+[41:58 - 41:59]
+Oh, sama, ya.
+
+[41:59 - 42:00]
+Ya, udah.
+
+[42:00 - 42:02]
+Cuma yang membedakan, paling ini, Pak.
+
+[42:02 - 42:04]
+Field yang wajib di-inputkan.
+
+[42:04 - 42:07]
+Tadi, kan, kalau di reimbursement, dia wajib input attachment, ya, Pak, ya.
+
+[42:08 - 42:11]
+Tapi kalau di cash advance, yang wajib itu description-nya yang wajib di-inputkan.
+
+[42:12 - 42:15]
+Karena biasanya, kan, belum ada realisasinya, jadi belum ada buktinya.
+
+[42:15 - 42:17]
+Kalau cash advance, gitu.
+
+[42:17 - 42:19]
+Orang lebih sama, sih, Pak, kayak gini.
+
+[42:19 - 42:20]
+Ya, ya, ya, udah.
+
+[42:23 - 42:26]
+Jadi lanjut aja, Mbak, ke dokumen-nya.
+
+[42:26 - 42:29]
+Oke, saya lanjutkan lagi ke bagian dokumen-nya, ya, Pak, ya.
+
+[42:30 - 42:34]
+Kurang lebih kalau misalkan nanti mau fokusnya di bagian reimbursement,
+
+[42:34 - 42:35]
+reimbursement dan cash advance.
+
+[42:35 - 42:39]
+Untuk business trip-nya bisa dikosongkan aja, ya, Pak, atau dibiarkan aja seperti ini.
+
+[42:40 - 42:40]
+Seperti itu.
+
+[42:40 - 42:44]
+Nah, kemudian untuk selanjutnya, ini ada batasan-batasan, ya.
+
+[42:44 - 42:47]
+Jadi, untuk URD ini akan saya jadikan landasan dasar, ya,
+
+[42:47 - 42:51]
+untuk yang akan initial setup yang akan saya lakukan di akunnya perusahaan.
+
+[42:51 - 42:55]
+Nah, untuk press aktifasinya nanti akan disuaikan dengan project timeline-nya.
+
+[42:56 - 42:59]
+Untuk team activation sendiri, kita akan memberikan activation assistance
+
+[42:59 - 43:02]
+selama satu bulan, ya, setelah tanggal handover.
+
+[43:02 - 43:04]
+Tanggal handover ini nantinya jadi...
+
+[43:04 - 43:08]
+Nantikan sebagai tanggal dimulai berlangganan Macari Expense-nya, Pak.
+
+[43:09 - 43:10]
+Gitu.
+
+[43:11 - 43:14]
+Selanjutnya, untuk masa activation assistance-nya, kalau udah berakhir,
+
+[43:14 - 43:16]
+Bapak kalau ada pertanyaan atau penyelesaian,
+
+[43:16 - 43:20]
+kalau ada isu, Bapak bisa hubungi customer support kami via live chat-nya.
+
+[43:20 - 43:23]
+Ini ada di website-nya Macari Expense, ya, di tanda headphone ini.
+
+[43:24 - 43:29]
+Atau bisa menghubungi juga email supportstripashartatmacari.com.
+
+[43:29 - 43:33]
+Bapak juga bisa hubungi saya, Pak, kalau misalkan memang ada isu, ya.
+
+[43:33 - 43:34]
+Nah, ini mohon dimaklumkan.
+
+[43:34 - 43:37]
+Ini kalau misalkan saya agak late respon dalam menjawab,
+
+[43:37 - 43:41]
+karena saya juga ada, terutama kalau sedang meeting seperti ini, ya, Pak, ya.
+
+[43:41 - 43:44]
+Karena kan fokus di meeting-nya, seperti itu.
+
+[43:44 - 43:49]
+Tapi untuk SLA-nya, saya garanti untuk 1x24 jam,
+
+[43:49 - 43:52]
+saya usahakan akan pasti akan jawab, seperti itu.
+
+[43:52 - 43:55]
+Tapi kalau lebih, yang lebih cepat untuk responnya bisa ke live chat.
+
+[43:57 - 43:57]
+Gitu.
+
+[43:58 - 44:02]
+Oke, untuk selanjutnya, mungkin saya jelaskan terkait dengan project timeline-nya, ya.
+
+[44:02 - 44:04]
+Jadi, sebetulnya kalau untuk project timeline,
+
+[44:04 - 44:07]
+seperti ini, jadi requirement meeting kita sudah laksanakan hari ini, ya.
+
+[44:08 - 44:10]
+Ini nanti akan saya bantu sesuaikan kembali.
+
+[44:11 - 44:14]
+Untuk user requirement documents, nantinya kalau sudah diinputkan
+
+[44:14 - 44:20]
+ataupun didirisikan oleh Pak Akbar, nanti bisa dikembalikan ke saya, ya, Pak, ya.
+
+[44:20 - 44:23]
+Untuk saya bantu cek dan juga saya bantu konfirmasi juga beberapa hal
+
+[44:23 - 44:26]
+sebelum saya lakukan penyetingan di akunnya.
+
+[44:26 - 44:30]
+Nanti kalau sudah selesai, bisa kita tanda tangan dulu untuk URD-nya.
+
+[44:31 - 44:34]
+Selanjutnya nanti saya bantu setup, ya, kurang lebih 1-2 minggu.
+
+[44:34 - 44:38]
+Ini tergantung dengan kompleksitas perusahaan, kebijakan perusahaannya, ya, Pak, ya.
+
+[44:39 - 44:43]
+Kalau kayak yang kita sudah jabarkan tadi, kira-kira seminggu bisa?
+
+[44:44 - 44:48]
+Kurang lebih kalau misalkan nggak terlalu kompleks dan nggak terlalu banyak, bisa sih, Pak, seminggu.
+
+[44:48 - 44:49]
+Nggak terlalu kompleks sih sebenarnya.
+
+[44:50 - 44:51]
+Kalau misalkan seminggu bisa, Pak.
+
+[44:51 - 44:56]
+Nanti tergantung juga dengan Bapak kembalikan lagi ke saya-nya di kapan, gitu, ya, Pak, ya.
+
+[44:57 - 44:58]
+Supaya saya bantu cek juga.
+
+[44:58 - 45:02]
+Supaya bantu cepat juga memproses ke bagian setup-nya, gitu.
+
+[45:02 - 45:02]
+Oke.
+
+[45:03 - 45:04]
+Selanjutnya, setelah...
+
+[45:04 - 45:06]
+Setelah saya setup, saya akan laksanakan training-nya, Pak.
+
+[45:06 - 45:12]
+Nah, training itu ada 1 kali, ya, Pak, ya, untuk training admin dan juga training usernya, gitu.
+
+[45:13 - 45:18]
+Oke, sebenarnya training admin dan training user bisa disatukan atau bisa dibedakan juga bisa sesinya.
+
+[45:19 - 45:19]
+Gitu.
+
+[45:20 - 45:22]
+Selanjutnya, baru kita mulai training.
+
+[45:22 - 45:25]
+Setelah training, akan ada masa activation system, ya, Pak, ya.
+
+[45:25 - 45:31]
+1 minggu setelah training itu ditandakan bahwa perusahaannya sudah mulai berlangganan makari expense, ya, Pak.
+
+[45:31 - 45:34]
+Jadi akan saya go live-kan dan kita mulai untuk activation system.
+
+[45:35 - 45:35]
+Gitu.
+
+[45:36 - 45:42]
+Nah, di sini bisa di-input-kan, ya, Pak, ya, untuk nantinya jadi PhD representatif yang akan tanda tangan dokumen-nya.
+
+[45:44 - 45:45]
+Iya.
+
+[45:46 - 45:54]
+Sama yang selanjutnya, Pak, mungkin saya bantu heads up juga terkait dengan database karyawan, ya.
+
+[45:54 - 46:01]
+Jadi memang semua karyawan yang nantinya akan coba akses makari expense itu, Pak, harus diberikan akses, Pak, di makari expense-nya.
+
+[46:01 - 46:05]
+Ini mungkin bisa dibuka database karyawan yang akan akses makari expense-nya, ya, Pak.
+
+[46:06 - 46:10]
+Ini untuk kolom A sampai kolom F ini sifatnya wajib.
+
+[46:10 - 46:19]
+Sama tadi, kan, Bapak kalau misalkan mau gunakan auto-disbursement bisa input-kan juga bank code dan juga bank account number-nya di sini.
+
+[46:19 - 46:20]
+Gitu.
+
+[46:23 - 46:24]
+Oke.
+
+[46:24 - 46:25]
+Lebih seperti itu.
+
+[46:25 - 46:27]
+Kalau untuk database employee-nya ada yang ditanyakan, Pak?
+
+[46:28 - 46:28]
+Enggak, sih.
+
+[46:29 - 46:29]
+Oh.
+
+[46:30 - 46:33]
+Mungkin saya bantu info juga di bagian employee name-nya, Pak, ya.
+
+[46:33 - 46:38]
+Jadi kalau misalkan di makari expense, ini employee name-nya ini wajib 2...
+
+[46:38 - 46:38]
+Ya.
+
+[46:38 - 46:39]
+Nama, ya, Pak.
+
+[46:39 - 46:40]
+Jadi first name dan juga last name.
+
+[46:41 - 46:43]
+Jadi gak bisa 1 first name aja.
+
+[46:43 - 46:44]
+Gitu.
+
+[46:45 - 46:49]
+Kalau cuma 1 nama diulang 2 kali boleh gak?
+
+[46:49 - 46:50]
+Enggak apa-apa, Pak, kalau gitu.
+
+[46:53 - 46:58]
+Nanti employee code-nya ini disesuaikan dengan employee code di perusahaannya aja, ya, Pak, ya.
+
+[46:58 - 46:59]
+Sama phone number-nya.
+
+[47:01 - 47:02]
+Oke.
+
+[47:03 - 47:07]
+Nanti untuk email, untuk karyawannya sendiri akan aksesnya lewat email, Pak.
+
+[47:07 - 47:12]
+Nanti akan dikirimkan email invitation dari Makari ke karyawannya untuk buatkan paham.
+
+[47:13 - 47:13]
+Gitu.
+
+[47:14 - 47:20]
+Mohon dipastikan untuk employee email dan juga employee code-nya sudah betul, ya, Pak, ya.
+
+[47:20 - 47:25]
+Karena kalau untuk employee email dan employee code itu kita sifatnya unik.
+
+[47:25 - 47:27]
+Jadi gak bisa diganti lagi di kemudian hari.
+
+[47:27 - 47:32]
+Paling kalau misalkan memang ada pergantian atau ada salah typo untuk penginputannya,
+
+[47:33 - 47:38]
+bisa di-invite dengan employee code dan juga employee email yang berbeda.
+
+[47:38 - 47:38]
+Gitu, Pak.
+
+[47:40 - 47:40]
+Oke.
+
+[47:42 - 47:42]
+Oke.
+
+[47:42 - 47:46]
+Dari perusahaannya ada yang ditanyakan kembali, Kak, Bapak-Ibu sekalian,
+
+[47:46 - 47:48]
+untuk pengisian URD-nya sendiri?
+
+[47:51 - 47:52]
+Sudah jelas.
+
+[47:53 - 47:54]
+Sudah cukup jelas.
+
+[47:54 - 47:55]
+Pak Akbar sudah cukup jelasnya, Pak, ya?
+
+[47:55 - 47:56]
+Sudah, sudah.
+
+[47:56 - 47:57]
+Oke.
+
+[47:58 - 48:02]
+Untuk dokumen URD-nya nanti akan saya bantu kirimkan setelah meeting, ya, Pak, ya.
+
+[48:02 - 48:07]
+Setelah proses recording-nya ini juga sudah selesai dikirimkan.
+
+[48:07 - 48:08]
+Gitu.
+
+[48:09 - 48:09]
+Nanti dari...
+
+[48:12 - 48:13]
+Untuk URD-nya, ya, Pak, ya?
+
+[48:13 - 48:14]
+URD-nya, ya, Pak, ya?
+
+[48:15 - 48:15]
+Iya.
+
+[48:15 - 48:17]
+URD-nya Bapak sudah bisa coba mulai buka.
+
+[48:18 - 48:22]
+Kemudian yang bulk upload-nya nanti akan saya bantu kirimkan menyusul, ya, Pak, ya,
+
+[48:22 - 48:23]
+bersama dengan recording hari ini.
+
+[48:24 - 48:24]
+Iya.
+
+[48:24 - 48:25]
+Gitu.
+
+[48:25 - 48:26]
+Oke, baik.
+
+[48:26 - 48:30]
+Mungkin nanti kalau Bapak sudah selesai inputkan, boleh di-info ke saya, Pak, ya,
+
+[48:30 - 48:32]
+supaya saya bisa bantu cek juga.
+
+[48:32 - 48:32]
+Oke.
+
+[48:33 - 48:35]
+Sebelum kita proses ke penelitian tanganannya.
+
+[48:36 - 48:36]
+Oke.
+
+[48:37 - 48:37]
+Oke.
+
+[48:38 - 48:41]
+Baik, kalau misalkan dari rekan-rekan sekalian belum ada yang ditanyakan kembali
+
+[48:41 - 48:42]
+untuk meeting kali ini...
+
+[48:42 - 48:44]
+Pak, ini bisa diisi dari handphone, ya?
+
+[48:45 - 48:46]
+Apanya, Pak, ininya?
+
+[48:47 - 48:51]
+Datanya nanti kalau misalnya mau claim atau segala macam atau mau approval segala macam.
+
+[48:51 - 48:52]
+Mau request, ya, Pak, ya?
+
+[48:52 - 48:53]
+Bisa, Pak.
+
+[48:53 - 48:54]
+Nanti bisa request dari handphone.
+
+[48:54 - 49:00]
+Tapi kalau untuk settingannya sendiri, Pak, kayak workflow ataupun kebijakannya,
+
+[49:00 - 49:02]
+itu diatur lewat website, ya, Pak, ya, di laptopnya.
+
+[49:02 - 49:03]
+Gitu.
+
+[49:03 - 49:06]
+Ya, yang claim sama ini saja bisa dilihat HP, kan?
+
+[49:06 - 49:09]
+Kalau request ataupun approval bisa lewat handphone.
+
+[49:09 - 49:14]
+Sama mungkin notifikasinya itu nanti kita sifatnya enggak ada inputnya, ya,
+
+[49:14 - 49:16]
+jadi app-based notification, ya, Pak, ya?
+
+[49:16 - 49:18]
+Jadi notifikasinya via email, biasanya.
+
+[49:19 - 49:21]
+Ini bentuknya aplikasi atau apa kalau di HP?
+
+[49:22 - 49:22]
+Aplikasi, Pak.
+
+[49:22 - 49:23]
+Macari Expense.
+
+[49:23 - 49:24]
+Ya, oke.
+
+[49:28 - 49:28]
+Tuh.
+
+[49:29 - 49:31]
+Mungkin dari Pak Neville sudah cukup jelas, Pak.
+
+[49:31 - 49:32]
+Mungkin ada yang ditanyakan kembali?
+
+[49:33 - 49:34]
+Ya, nanti sambil jalan, lah.
+
+[49:35 - 49:36]
+Aku masih bingung.
+
+[49:36 - 49:37]
+Oke, baik, Pak.
+
+[49:37 - 49:41]
+Mungkin nanti kalau misalkan sudah selesai penyetingannya, mungkin sudah tidak lebih bingung, ya, Pak, ya?
+
+[49:41 - 49:43]
+Karena sudah jadi akunnya.
+
+[49:44 - 49:44]
+Oke.
+
+[49:45 - 49:46]
+Oke, baik.
+
+[49:46 - 49:47]
+Tadi itu saja, ya.
+
+[49:47 - 49:59]
+Masih agak bingung itu, maksud saya itu datanya, data untuk kita pakai sebagai base untuk laporan pajaknya itu enggak bisa dibuat dalam tabel gitu anunya, ya?
+
+[50:00 - 50:01]
+Iya, Pak.
+
+[50:01 - 50:04]
+Kita belum bisa custom report juga sih, Pak, gitu.
+
+[50:04 - 50:08]
+Jadi memang sesuai default-nya, gunakan yang ada di sini, Pak, gitu.
+
+[50:09 - 50:11]
+Bisa sih nanti, Om, di apa namanya?
+
+[50:11 - 50:13]
+Vlookup, Vlookup, bisa sih?
+
+[50:13 - 50:14]
+Bisa.
+
+[50:14 - 50:15]
+Mungkin penggunaannya secara...
+
+[50:16 - 50:19]
+Menggunakan manual yang Vlookup itu, ya, Pak, ya?
+
+[50:19 - 50:19]
+Iya.
+
+[50:20 - 50:28]
+Pengennya sih kalau misalnya bisa keluar summary dari kategori A, B, C, D di jumlah setahun berapa, gitu.
+
+[50:30 - 50:33]
+Kalau dari si Makkari Express belum ada sih, Pak.
+
+[50:33 - 50:38]
+Tapi kalau misalkan memang Bapak mau ada custom report seperti itu,
+
+[50:39 - 50:45]
+kemungkinan perlu ada add-ons lagi ataupun dari Makkari Office.
+
+[50:45 - 50:48]
+Pak, jadi dia sifatnya custom report-nya, gitu.
+
+[50:48 - 50:50]
+Ya, kalau misalnya ada produk lain apa, ya?
+
+[50:51 - 50:52]
+Maksudnya ada produk lain, ya?
+
+[50:53 - 50:56]
+Ada, Makkari Office, Pak, kalau misalkan mau custom report-nya.
+
+[50:56 - 50:58]
+Tapi itu akan berbayar, ya, Pak, ya?
+
+[50:59 - 51:06]
+Ya, Makkari Office itu berarti sudah termasuk expensing juga, ya?
+
+[51:07 - 51:11]
+Nanti sifatnya dia akan bisa dihubungin, Kak, dengan expense ini.
+
+[51:11 - 51:14]
+Cuma nantinya memang itu custom report.
+
+[51:15 - 51:19]
+Dan dia ada biaya belangan yang berbayar lagi, gitu, Pak.
+
+[51:20 - 51:22]
+Setahunan atau bulanan?
+
+[51:23 - 51:26]
+Dia sifatnya biasanya bulanan, sih, Pak.
+
+[51:27 - 51:29]
+Yang paling basic berapa?
+
+[51:30 - 51:35]
+Kurang lebih 10, sih, Pak, 10 sampai 20 biasanya.
+
+[51:36 - 51:38]
+10 sampai 20 maksudnya berapa?
+
+[51:38 - 51:42]
+10 sampai 20 juta, Pak, kalau misalkan untuk custom report-nya.
+
+[51:42 - 51:43]
+Per bulan?
+
+[51:44 - 51:45]
+Sepuluh, sih, per bulan, Pak.
+
+[51:45 - 51:49]
+Mungkin nanti kalau misalkan memang bapak tertarik, boleh ditanyakan lagi ke tim sales-nya, Pak.
+
+[51:50 - 51:51]
+Oke.
+
+[51:51 - 51:54]
+Gitu, supaya nanti bisa diinfokan pricing-nya seperti apa, ya, Pak.
+
+[51:55 - 51:56]
+Oke.
+
+[51:59 - 52:02]
+Oke, dari Pak Akbar, Pak Neffril, dan Pak Alan,
+
+[52:03 - 52:07]
+masih ada yang ditanyakan kembali atau bisa kita cukupkan, Pak, untuk meeting-nya?
+
+[52:08 - 52:10]
+Dari aku sudah cukup, sih.
+
+[52:10 - 52:12]
+Pak Akbar sudah cukup, ya?
+
+[52:12 - 52:13]
+Ya.
+
+[52:13 - 52:14]
+Oke, baik.
+
+[52:14 - 52:17]
+Mungkin untuk meeting kali ini saya cukupkan, ya, Bapak-Ibu sekalian.
+
+[52:17 - 52:19]
+Ini saya bantu cukupkan.
+
+[52:19 - 52:26]
+Nanti untuk dokumennya yang belum saya kirimkan akan saya bantu kirimkan setelah recording meeting-nya ini sudah selesai.
+
+[52:27 - 52:29]
+Sama ini, Pak, contoh transaksi ini, ya.
+
+[52:29 - 52:30]
+Contoh apa namanya?
+
+[52:30 - 52:32]
+Yang Excel yang ini, nih.
+
+[52:32 - 52:34]
+Contoh Excel yang ini apa, ya?
+
+[52:34 - 52:36]
+Nanti akan saya bantu kirimkan juga contohnya.
+
+[52:37 - 52:38]
+Oke, baik.
+
+[52:38 - 52:41]
+Terima kasih atas waktunya, Pak Akbar, Pak Neffril, dan juga Pak Alan.
+
+[52:42 - 52:44]
+Selamat beraktivitas kembali.
+
+[52:44 - 52:45]
+Selamat siang.
+
+[52:45 - 52:46]
+Selamat siang.
+
+[52:47 - 52:48]
+Siang.
+

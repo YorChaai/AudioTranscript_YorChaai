@@ -1,0 +1,1928 @@
+Source: Tutorial Draft Immortal.m4a
+Language Mode: Indonesian
+Detected: id (100.0%)
+Transcribed: 2026-02-17 20:00:26
+
+==================================================
+Ringkasan lengkap ilmu draft & komposisi (dari teks kamu) - semua poin penting tanpa disingkat
+Catatan: saya menuliskan setiap hero yang disebut sekali sebagai referensi agar kamu bisa klik/cek cepat. Setelah itu nama hero dipakai biasa. Jika ada ejaan yang tampak typo di teks asli, saya pertahankan sesuai sumbermu.
+MPL
+1) Konsep dasar draft - apa tujuan fase ban & pick
+* Fase ban: tujuan tunggal - kurangi jumlah hero OP (overpowered) yang tersedia untuk lawan sehingga timmu punya lebih banyak jatah hero OP daripada lawan.
+* Fase pick: pilih hero sesuai team composition (team comp) yang sudah kamu tentukan sebelum draft selesai.
+* Draft bukan sekadar ambil hero terbaik; draft adalah soal mengontrol jatah hero OP + fleksibilitas + counter.
+2) Aturan praktis ban (logika "berapa OP yang lepas")
+* Di meta biasanya ada ~3 hero OP yang berbahaya.
+* Jika kamu dapat first pick: usahakan setelah ban tersisa 1 hero OP lepas ? tim first pick unggul karena dapat 1 OP.
+o Cara praktis: ban 2 hero OP (bukan 3).
+* Jika kamu dapat pick kedua: usahakan setelah ban tersisa 3 hero OP lepas ? pick kedua jadi unggul karena mereka akan mendapat 2 OP sementara tim pertama cuma 1.
+o Cara praktis: ban 1 hero OP atau sesuaikan sehingga 3 tersisa.
+* Interpretasi hasil:
+o 1 OP tersisa ? advantage tim first pick.
+o 2 OP tersisa ? netral.
+o 3 OP tersisa ? advantage tim pick kedua.
+* Jika tidak ban OP: ban hero yang meng-counter hero yang mau kamu pakai.
+3) Prioritas pick (urutan ideal setelah ban)
+Prioritas saat pick setelah fase ban:
+1. Hero OP (ambil jika tersedia).
+2. Hero fleksibel (bisa isi >1 posisi).
+3. Hero yang meng-counter hero lawan.
+4. Hero tahan badan / inisiasi / tank (frontline / inisiator).
+5. Damage dealer (core tim).
+6. Inisiator / utility (jika belum ada).
+Gunakan urutan ini untuk memilih jika ada beberapa opsi.
+4) Konsep penting: team comp vs win condition (wincon)
+* Team comp = susunan peran (mis. jungler assassin vs jungler tank; roamer heal vs roamer tank).
+* Wincon (win condition) = kondisi konkret supaya tim menang (mis. "kill backline lawan tiap war" atau "cicil sampai eksekusi").
+* Draft dan pick harus align: pilih hero yang masuk team comp dan mendukung wincon.
+
+5) Empat pola komposisi inti (komposisi, tujuan, kondisi menang, counter & tips)
+A. Komposisi Dive
+* Susunan utama: XP yang bisa lompat ke backline, jungler assassin (mobilitas tinggi), mid mobilitas tinggi, roam/initiator yang bisa follow jump, MM lincah.
+* Contoh hero yang disebut: Proveus, X-Borg, Yu Zhong, Baxia, Fanny, Lancelot, Selena, Kagura, Valentina, Matilda, Kalea, Chou, Roger, Cloud, Irithel.
+* Wincon: tiap war, habisi damage dealer lawan (backline) lebih dulu.
+* Counter alami: hero yang bisa gagalkan inisiasi (disengager, control besar).
+* Tips eksekusi: koordinasi target, jangan buang semua cooldown ke satu target; one-by-one execution.
+B. Komposisi Poke
+* Susunan utama: 3 hero cicil/jarak jauh (poke), 1 eksekutor, 1 tank/disengager.
+* Contoh hero: Novaria, Xavier, Zetian, Batrix, Layla, Ixia, Diggie, Martis, Leomord, Roger, Karina, Hylos, Ruby, Fredrin, Barats, Akai, Lolita, Grock, Belerick.
+* Wincon: sebelum war dimulai, lawan terlalu tipis darahnya - lalu eksekutor masuk dan menghabisi.
+* Kelemahan: mudah di-counter oleh vision/rotate/flank di rank tinggi.
+* Tips: hero cicil harus punya spam skill jarak jauh; disiplin mana/positioning.
+C. Komposisi Front-to-Back
+* Susunan utama: front line kuat (initiator + sustain + disengager) + back line berisi 2 damage dealer konsisten (tipe damage berbeda: fisik + magic).
+* Contoh hero backline/mage/MM: Kimmy, Cecilion, dan Xavier (telah disebut). MM: semua MM kecuali Leslie.
+* Frontline contoh: Gloo, Yu Zhong (sudah disebut), Chou (sudah), Fredrin (sudah), Uranus, Barats (sudah), Tigreal, Kalea, Lolita (beberapa sudah disebut).
+* Wincon: back line kamu harus menghabisi front line lawan; front line mu harus zoning back line lawan sehingga mereka tidak ikut war.
+* Kenapa MPL sering serang tank? Karena tim front-to-back sering menarget tank untuk membuka zoning; setelah tank hilang, backline lawan lebih mudah kena.
+* Kelemahan: sangat tergantung pada MM/mage; jika core terculik, tim kehilangan sumber damage ? mudah di-split push.
+D. Komposisi Hyper Carry
+* Susunan utama: satu hero dijadikan "bintang" (hyper carry) dengan scaling gold tinggi; roamer selalu bantu hyper carry; hero lain harus mandiri.
+* Contoh hyper carry: Freya, Nathan, Cloud (sudah), Ling (sudah), Yi Sun Shin, Lancelot (sudah).
+* Wincon: hyper carry harus kaya (gold & item). Kalau miskin ? tim kalah; kalau kaya ? bisa gendong cepat.
+* Risiko: overreliance pada satu pemain; target priority lawan akan fokus nge-gank hyper.
+
+6) Contoh strategi ban umum (praktis)
+* Ban OP langsung jika timmu butuh advantage tertentu.
+* Jika OP tidak diban, ban counter terhadap hero yang mau kamu pick.
+o Contoh-contoh dari teks: kalau mau main Freya ? ban Valir; mau main (Link/Ling?) ? ban Min Sitar; mau main Obsidia ? ban Cloud.
+* Prioritaskan ban yang:
+o Mengurangi jatah OP lawan.
+o Mengamankan hero yang jadi core plan timmu (lindungi combo kamu).
+o Memotong sinergi lawan.
+7) Urutan pick dan contoh walkthrough (dari contoh kamu)
+* Analisa ban lawan (mis. lawan ban Nathan, Wanwan, Lancelot).
+* Tentukan komposisi: contoh kamu ? dive (butuh XP dan roamer lompat, jungler assassin, mid + gold lincah).
+* Ban untuk menutupi kelemahan komposisi ? ban Diggie & Bane (mengurangi counter inisiasi & clutch heal/escape).
+* Prioritas pick: Baxia (OP + fleksibel) ? lawan pick X-Borg & Kalea (X-Borg counter Baxia) ? pindahkan Baxia ke roam/sesuai role ? pick Ling sebagai jungler counter X-Borg ? pick Poveus (XP lompat) ? pick Harith (gold lincah) + Valentina (mid lincah).
+* Hasil: komposisi dive lawan comp front-to-back.
+8) Adaptasi untuk party: solo / duo / trio / party 5
+* Party 3 (trio mid): mainkan trio mid (mid, jungler, roamer) - mereka mengontrol rotasi. Pastikan trio ini sinkron dengan komposisi yang diinginkan.
+* Duo + Trio / Duo + Duo + Solo: ikuti arahan party yang lebih besar (trio) tapi sesuaikan pick kamu untuk melengkapi (role/tipe damage/frontline/backline).
+* Duo (roamer + gold laner): perhatikan tipe damage. Jika tim sudah ada 2 fisik ? pick gold laner magic untuk seimbangkan.
+* Solo: turunkan ekspektasi. Prinsip minimal:
+o Satu tim harus punya front line dan back line.
+o Harus ada physical & magic damage.
+o Harus ada hero early-game & late-game.
+o Harus ada inisiasi & counter-inisiasi.
+* Jika lawan party 3, lebih baik ikuti komposisi yang mereka rencanakan atau pilih hero yang paling fleksibel untuk mengisi gap.
+9) Sinergi duo & trio penting (praktis)
+* Roamer + Gold laner: sinkronkan tipe damage dan kemampuan untuk "set-up" atau "cover" kelemahan. Contoh: Freya (no mobility) + Diggie (immunity/CC) ? sinergi kuat.
+* Mid + Jungler: ideal bila saling melengkapi kebutuhan farming dan pressure. Jangan gabungkan dua hero yang sama-sama butuh farm tinggi.
+o Jika jungler butuh farm (Ling, Yi Sun, Xin, Joy) ? jangan pick mid yang juga butuh farm (Cecilion, Cyclops, Lunox).
+o Jika magi mid butuh farm ? pick jungler yang bisa pressure mid lawan.
+* Jungler + Roamer: bisa berbagi sinergi jika keduanya berperan sama (mis. roaming gank cepat vs protecting).
+10) Berapa banyak hero yang harus dikuasai per role (dari teks)
+Prinsip: kuasai minimal 3 hero berbeda tipe untuk tiap role utama yang kamu mainkan, supaya fleksibel dalam draft.
+Contoh rekomendasi dari teks:
+* Roamer: 1 roamer tank inisiasi (Tigreal), 1 roamer tank dive (Chou), 1 roamer support (Angela). Tigreal Angela
+* Jungler: 1 jungler tank (Fredrin), 1 assassin magic (Joy), 1 assassin fisik (Hayabusa). Fredrin Joy Hayabusa
+* XP lane: 1 sustain (Ruby), 1 damage (Benedetta), 1 tank (Gloo). Ruby Benedetta Gloo
+* Gold lane: 1 late-game core (Cloud), 1 lane bully (Granger), 1 magic gold laner (Harith). Granger Harith
+* Mid lane: 1 late-game mage (Cecilion), 1 burst mage (Valentina), 1 utility mage (Faramis). Faramis Cecilion Valentina
+Inti: kuasai 3 hero per role (minimal), tapi hafal semua skill & pasif seluruh hero untuk countering.
+11) Praktik drafting & checklist (urutan tindakan saat draft)
+1. Sebelum draft dimulai: tim sudah sepakat 1 komposisi utama + 1 fallback.
+2. Ban phase 1: ban OP sesuai strategi (ikuti logika 1/2/3 OP lepas).
+3. Pick 1 (atau pick tim kamu): ambil OP/fleksibel sesuai prioritas.
+4. Observe lawan: deteksi counter & fleksibilitas lawan.
+5. Ban phase 2: ban hero yang mengganggu plan (counter utama lawan).
+6. Pick lanjutan: isi role kritikal (jungler/roamer/Xp/gold/mid) mengikuti prioritas.
+7. Jika solo: pilih hero paling fleksibel yang menutup kelemahan tim.
+8. Final check: pastikan ada front-line, back-line, satu sumber physical & magic, inisiasi, dan disengage.
+12) Eksekusi in-game terkait komposisi (praktis)
+* Dive: selalu koordinasi target; CC prioritas; jaga timing jump & follow-up.
+* Poke: jaga jarak; spam safe poke; jangan tumpuk cooldown saat war.
+* Front-to-back: front line harus zoning; backline fokus clear frontline lawan; jangan overextend untuk kill cepat.
+* Hyper carry: farm prioritas; roamer & support selalu cover hyper; ward/vision untuk mencegah gank.
+13) Kesalahan terbesar yang wajib dihindari (ditekankan di teks)
+* Ikutan mekanis draft MPL tanpa adaptasi: MPL melakukan ban/pick bergantian dan sering sudah tahu lawan jauh-jauh hari ? taktik itu bukan langsung bisa ditiru oleh solo/duo publik.
+* Mengandalkan satu hero tanpa backup (hyper carry risk).
+* Tidak memahami wincon: punya komposisi tapi tidak tahu bagaimana timmu harus menang.
+* Pick egois: memilih hero yang tidak sesuai komposisi atau tak menutup kebutuhan tim.
+* Underestimating counter picks & vision - terutama melawan poke di rank tinggi.
+14) Contoh-contoh hero & peran (kompilasi dari teks; referensi cepat)
+* Dive: Proveus, X-Borg, Yu Zhong, Baxia, Fanny, Lancelot, Selena, Kagura, Valentina, Matilda, Kalea, Chou, Roger, Cloud, Irithel.
+* Poke: Novaria, Xavier, Zetian, Batrix, Layla, Ixia, Diggie, Martis, Leomord, Roger, Karina, Hylos, Ruby, Fredrin, Barats, Akai, Lolita, Grock, Belerick.
+* Front-to-back: Gloo, Yu Zhong, Chou, Fredrin, Uranus, Barats, Tigreal, Kalea, Lolita, MM/Mage (Kimmy, Cecilion, Xavier).
+* Hyper carry examples: Freya, Nathan, Cloud, Ling, Yi Sun Shin, Lancelot.
+* Role mastery set (ringkas): roamer (Tigreal, Chou, Angela), jungle (Fredrin, Joy, Hayabusa), xp (Ruby, Benedetta, Gloo), gold (Cloud, Granger, Harith), mid (Cecilion, Valentina, Faramis).
+(nama-nama di atas diambil langsung dari teksmu - jika kamu mau, saya bisa verifikasi ejaan resmi hero atau menyesuaikan rekomendasi berdasarkan meta terbaru, tapi itu akan butuh cek patch/meta saat ini.)
+15) Actionable takeaway singkat (apa yang harus kamu praktikkan besok main)
+1. Sebelum mulai rank: tim sepakat 1 komposisi utama + fallback.
+2. Di fase ban: pakai logika 1/2/3 OP lepas sesuai pick order (first vs second pick).
+3. Pick pertama: ambil OP/fleksibel.
+4. Selalu pastikan: front-line + back-line + satu sumber physical & magic + inisiasi & disengage.
+5. Kuasai 3 hero per role yang kamu mainkan + hafal skill/pasif hero populer untuk counter.
+6. Jangan copy MPL mentah-mentah - MPL punya info lawan & komposisi latihan jangka panjang.
+
+Kalau kamu mau, saya bisa:
+* Buat template checklist draft yang bisa kamu buka saat draft (format teks singkat 6 langkah).
+* Atau susun pool 3-5 hero per role untuk kamu latih (sesuai preferensi), beserta alasan kenapa tiap hero dipilih.
+Pilih salah satu dan saya langsung buatkan tanpa tanya lagi.
+
+
+==================================================
+==================================================
+
+Ini adalah semua hero di Mobile Legends ; Tapi dari 130 hero dan hampir 270 triliun kombinasi hero yang bisa dimainkan ; Ada 4 pola draft yang akan bikin kamu cepat naik rank ; Masalahnya itu aja gak cukup ; Karena gua udah pelajari semua hero untuk jawab pertanyaan-pertanyaan ; Seperti hero apa yang harus di ban ; Cara draft untuk player solo ; Sinergi-sinergi untuk party duo ; Trio hingga party 5 ; Urutan pick yang benar ; Sampai berapa banyak hero yang perlu kamu kuasai ; Dan siapa aja untuk setiap role ; Namun ada satu kesalahan terbesar yang wajib kamu hindari dulu ; Yaitu mengikuti draft MPL ; MPL kan ban dan pick ganti-gantian ; Satu ronde ban, satu ronde pick ; Terus lanjut satu ronde ban dan satu ronde pick lagi ; Istilahnya draft ban ; Sementara kita itu ban dulu ; Dan setelah itu ban ; Dari aturan aja udah beda ; Apalagi tim MPL itu sudah tau lawan mereka dari jauh hari ; Karena itu mereka akan ban atau pick hero tertentu sesuai lawannya ; Kayak kalau lawan Favian ; Tim MPL akan ban Fanny ; Meskipun kamu harus hati-hati untuk ikutin draft MPL ; Ada 2 komposisi tim yang sering dipakai tim MPL ; Dan akan kita bahas nanti ; Itu adalah hal pertama ; Yang wajib kamu ikuti draft MPL ; Dan yang wajib kamu pahami ; Karena draft adalah fase sebelum permainan dimulai ; Dimana kita melakukan 2 hal ; Ban untuk melarang semua orang memakai hero tertentu ; Dan pick untuk memilih hero yang akan kita gunakan ; Tapi untuk bisa ban dan pick dengan benar ; Kamu harus paham konsep team comp dan win comp ; Team comp atau team composition berarti ; Komposisi tim kamu terdiri dari apa aja ; Jungler tank atau jungler assassin ; Atau jungler tank atau jungler assassin ; Roamer heal atau roamer tank ; Dan masih banyak lagi ; Masalahnya tim comp itu gak cukup ; Karena setiap tim comp punya winconnya masing-masing ; Wincon atau win condition adalah kondisi yang harus terpenuhi ; Agar tim kamu bisa menang ; Kayak gimana cara open warnya ; Apa saja tugas setiap role pada saat war ; Sampai hal aneh seperti kenapa tim MPL ini ; Malah fokus nyerang tank ; Bukan core lawan ; Bukan core lawan ; Pastikan kamu paham dua hal ini ; Karena akan sangat berguna ; Saat kita belajar cara pick hero ; Tapi sebelum itu ; Kamu harus tahu cara ban hero dulu ; Fase ban itu terdiri dari ; Tiga ban pertama ; Buka bannya ; Dua ban terakhir ; Lalu buka bannya lagi ; Untungnya ; Tujuan dari fase ban itu cuma satu ; Yaitu bikin hero OP yang kamu punya ; Lebih banyak dari lawan ; Gini cara maksimalinnya ; Di satu meta hero OP itu biasanya ada tiga ; Kalau kamu dapat first pick ; Hero OP yang lepas setelah fase ban itu harus satu ; Karena kalau lebih dari satu ; Lawan akan dapat jatah hero OP ; Yang bisa aja lebih banyak dari kamu ; Jadi kalau kamu dapat first pick ; Ban dua hero OP aja ; Jangan ketiganya ; Tapi kalau kamu dapat pick kedua ; Hero OP yang lepas setelah ban itu harus tiga ; Biar saat lainnya kamu bisa dapet hero OP yang lebih banyak dari kamu ; Biar gampang lihat simulasi ini ; Kalau hero OP yang lepas ada satu ; Tim yang dapat first pick akan unggul ; Karena dia punya hero OP ; Sementara lawannya enggak ; Kalau yang lepas ada dua ; Kondisinya netral karena kamu dan lawan ; Dapat jatah yang sama ; Namun kalau yang lepas ada tiga ; Tim yang pick kedua akan unggul ; Karena mereka punya dua hero OP ; Sementara tim lain cuma pick dua hero OP ; Punya satu ; Konsep ini penting banget ; Biar kamu tahu ; Kapan harus ban hero OP ; Atau hero biasa ; Kalau gitu ; Di saat kamu enggak ban hero OP ; Hero apa yang harus kamu ban? ; Jawabannya adalah hero yang merupakan ; Counter hero yang mau kamu pakai ; Seperti kalau mau main Freya ; Ban Valir ; Kalau mau main Link ; Ban Min Sitar ; Atau kalau mau main Obsidia ; Ban Cloud ; Strategi ban yang sudah kita bahas tadi ; Itu kuat ; Namun kalau mau main Link ; Namun ban kamu akan sia-sia ; Kalau kamu salah pick hero ; Jadi untuk pick hero dengan benar ; Kamu harus paham komposisi tim ; Dan kondisi menangnya ; Kita akan mulai dengan komposisi dive ; Yang terdiri dari ; XP laner yang bisa lompat ke backline lawan ; Seperti Proveus ; X-Borg dan Yu Zhong ; Jungler Assassin atau yang bisa lompat ; Seperti Baxia, Fanny dan Lancelot ; Mid laner dengan mobilitas tinggi ; Seperti Selena, Kagura dan Valentina ; Roman dan Zed ; Yang bisa lompat ; Seperti Matilda, Kalea dan Chou ; Serta MM lincah ; Seperti Roger, Cloud dan Irithel ; Mereka bertujuan untuk masuk ke backline lawan ; Saat war ; Dan menghabisi damage dealer lawan ; Jadi kondisi menangnya ; Adalah setiap kali war ; Damage dealer lawan harus habis duluan ; Saking kuatnya ; Komposisi ini sering dipakai tim MPL ; Sayangnya ; Mereka bisa di counter oleh hero-hero ; Yang bisa menggagalkan ; Inisiasi ; Makanya ; Kamu harus ban hero-hero ; Seperti DG, Valir dan Akai ; Ingat ya ; Saat main komposisi dive ; Kalian harus kompak ; Buat prioritas target ; Dan habisin satu per satu ; Jangan pakai terlalu banyak skill ; Ke satu target ; Pakai secukupnya aja ; Biar bisa incar target selanjutnya ; Tapi bang ; Ini tidak berlaku buat player solo ; Tenang aja ; Gue akan kasih tau ; Cara adaptasikan ini ; Untuk party trio ; Duo ; Bahkan solo ; Tapi sekarang ; Kamu harus paham ; Tiga lagi ; Kalau komposisi dive itu ; Mau masuk ke backline lawan ; Komposisi ini adalah kebalikannya ; Yaitu ; Komposisi poke ; Yang terdiri dari ; Tiga hero cicil ; Satu hero eksekutor ; Dan satu hero TB ; Yang bisa menggagalkan ; Inisiasi lawan ; Istilahnya ; Adalah disengager ; XP dan jungle ; Bisa diisi hero cicil ; Eksekutor atau TB ; Sementara mid dan ; Godlane ; Cuma bisa diisi hero cicil ; Roamer cuma bisa diisi hero TB ; Atau cicil ; Mereka bertujuan ; Untuk cicil lawan dari jauh ; Saat darah lawan sedikit ; Eksekutor akan masuk ; Untuk habisi lawan ; Jadi kondisi menangnya ; Adalah darah lawan kamu ; Harus sisa sedikit ; Sebelum war dimulai ; Hati-hati ; Kalau lawan mau open war ; Hero TB kamu ; Harus gagalin inisiasinya ; Makanya hero cicil kamu ; Harus punya skill ; Yang bisa di spam ; Dan jaraknya jauh ; Di midlane ada ; Novaria ; Xavier ; Dan Zetian ; Di godlane ada ; Batrix ; Layla ; Dan Ixia ; Sementara di roam ; Ada Diggie ; Hero eksekutor kamu ; Harus punya skill ; Yang akan keriset ; Setelah habisin lawan ; Di XP ada ; Martis ; Di jungle ada ; Leomord ; Roger ; Dan Karina ; Sementara hero TB ; Disengager kamu ; Harus bisa gagalin ; Inisiasi lawan ; Di XP lane ; Ada Hylos ; Chou ; Dan Ruby ; Di jungle ada ; Fredrin ; Barats ; Dan Akai ; Di roam ada ; Lolita ; Grock ; Dan Belerick ; Komposisi poke ; Itu bagus banget ; Kalau rank kamu ; Di bawah mythic glory ; Karena tim lawan ; Tidak paham ; Cara counternya ; Tapi di rank yang lebih tinggi ; Lawan sudah ngerti ; Main vision ; Dan ngeflank ; Dan komposisi ini ; Akan kesulitan disana ; Jadi ; Kalau kamu mau komposisi ; Yang kuat di semua rank ; Kamu harus pakai komposisi front to back ; Karena ini ; Adalah yang paling sering digunakan ; Oleh semua kalangan ; Mulai dari publik ; Penjoki ; Sampai tim MPL ; Komposisi ini ; Dibagi menjadi dua ; Tim front line ; Dan tim back line ; Tim back line ; Berisi dua damage dealer konsisten ; Dengan tipe damage yang berbeda ; Ingat ya ; Damage dealer konsisten ; Bukan yang burst ; Di gold lane ; Ada semua MM ; Kecuali Leslie ; Di mid lane ; Ada semua mage DPS ; Seperti Kimmy ; Cecilion ; Dan Xavier ; Sementara tim front line ; Berisi satu initiator ; Satu hero sustain ; Dan satu disengager ; Posisinya bebas ; Di XP ; Ada Glue ; Yu Zhong ; Dan Chou ; Di jungle ; Ada Fredrin ; Uranus ; Dan Barats ; Di roam ; Ada Tigreal ; Kalea ; Dan Lolita ; Kondisi menang ; Untuk komposisi ini ; Adalah back line kamu ; Harus bisa habisin front line lawan ; Sementara front line kamu ; Harus bisa zoning back line lawan ; Biar mereka gak bisa ikut ; War ; Biasanya ; Yang zoning back line lawan ; Itu XP ; Atau roamer ; Yang punya banyak CC ; Kamu ingat klip tadi gak? ; Itulah alasan tim MPL ; Serang tank lawan ; Mereka sedang main ; Tim front to back ; Meskipun gampang dimainkan ; Komposisi front to back ; Itu terlalu mengandalkan ; MM ; Dan mage kamu ; Kalau mereka terculik ; Tim kamu gak akan bisa ngapa-ngapain ; Dan karena terlalu mengandalkan war ; Kamu bisa di split push ; Komposisi front to back ; Bisa bikin kamu menang ; Tapi ; Kalau kamu mau menangnya dengan cepat ; Kamu harus tahu komposisi ; Hyper carry ; Yang bertujuan untuk membuat ; Satu orang jadi bintang ; Yang akan gendong tim ; Hyper carry ini ; Bisa di gold lane ; Seperti Freya ; Nathan ; Dan Cloud ; Atau jungle ; Seperti Ling ; Yi Sun Shin ; Dan Lancelot ; Hati-hati ; Hero yang bisa dijadikan hyper carry ; Adalah hero yang punya DPS tinggi ; Bukan hero burst ; Yang cooldownnya lama ; Di komposisi ini ; Roamer akan selalu temenin hyper carry-nya ; Jadi hero-hero lain ; Harus bisa mandiri ; Kondisi menang dari komposisi ini ; Adalah hyper carry kamu harus kaya ; Kalau dia miskin gold ; Kamu pasti kalah ; Memang sih ; Kamu terlalu mengandalkan satu hero ; Tapi kalau sekalinya dia kaya ; Kamu bisa cepat menang gamenya ; Setiap tim kom ; Punya kelebihan ; Kekurangan ; Dan capaiannya ; Menangnya masing-masing ; Gak ada yang meng-counter satu sama lain ; Dan kemungkinan menangnya itu imbang ; Namun kita punya masalah baru ; Meskipun kamu paham komposisi tim ; Urutan kamu pick hero-nya saat draft ; Itu sepenting komposisinya sendiri ; Jadi ikutin panduan ini ; Setelah ban ; Kamu harus sudah tahu komposisi tim apa ; Yang mau kamu mainkan ; Jadi hero yang kamu pick ; Itu harus masuk ke komposisinya ; Untuk urutannya ; Ikuti prioritas ini ; Hero OP ; Lalu hero fleksibel ; Yang bisa mengisi lebih dari satu lane ; Seperti Baxia ; Yang bisa di roam dan jungle ; Serta Lunox ; Yang bisa di gold dan mid lane ; Terus ke hero yang meng-counter hero lawan ; Hero tahan badan ; Damage dealer ; Dan inisiator ; Ingat ya ; Itu adalah prioritas ; Biar gampang ; Lihat contoh ini ; Di fase ban ; Kita ban hero OP ; Seperti Fanny ; Wanwan ; Dan Yi Sun Shin ; Setelah lihat lawan yang ban Nathan ; Wanwan dan Lancelot ; Ada beberapa hero kuat yang lepas ; Seperti Bane ; Hayabusa ; Dan Angela ; Karena hero-hero front to back ; Seperti Nathan dan Wanwan di ban ; Gue memutuskan untuk main komposisi dive ; Yang perlu XP dan roamer yang bisa lompat ; Jungler assassin atau bisa lompat ; Serta mid dan gold laner lincah ; Jadi gue ban Diggie dan Bane ; Untuk membuat hero yang bisa lompat ; Menutupi kelemahan komposisi dive ; Di fase draft ; Gue lihat daftar prioritas ; Lalu pick Baxia ; Karena dia OP dan fleksibel ; Lawan pick X-Borg dan Kalea ; Karena lawan pick X-Borg ; Yang merupakan counter Baxia ; Baxia akan lebih bagus dimainkan ; Di roam sebagai roamer yang bisa lompat ; Selanjutnya kita kembali ke daftar prioritas ; Karena hero OP dan fleksibel ; Yang cocok dengan komposisi dive ; Sudah tidak ada ; Kita lanjut ke hero yang mengkawal ; Counter hero lawan ; Karena lawan pick X-Borg ; Kita bisa pick Ling ; Yang akan meng-counter X-Borg ; Sekaligus jadi jungler assassin kita ; Karena udah gak ada yang bisa di-counter ; Kita lanjut ke hero tahan badan ; Seperti Poveus ; Yang sekaligus jadi XP laner yang bisa lompat ; Setelah lawan lanjut pick ; Kita akan lanjut ke damage dealer ; Dengan Harith sebagai gold laner lincah ; Dan Valentina sebagai mid laner lincah ; Kita pick gold laner magic ; Karena damage physicalnya sudah berhasil ; Dari Ling dan Poveus ; Kalau diperhatikan ; Draft ini adalah komposisi dive ; Melawan komposisi front to back ; Tapi bang ini tidak berlaku buat player solo ; Udah-udah ayo kita bahas ; Sebagai party 3 ; Kamu harus memainkan trio mid ; Yaitu mid lane, jungler, dan roamer ; Karena mereka adalah penentu arah rotasi ; Draft untuk trio mid ; Masih mengikuti keempat komposisi tadi ; Masalahnya ; Kalau kamu main duo ; Kamu bisa dapat party duo tambah trio ; Duo tambah duo tambah solo ; Dan duo tambah 3 player solo ; Kalau kamu dapatnya duo tambah trio ; Ikuti arahan draft dari party 3 nya ; Dan sesuaikan dengan komposisi tim ; Yang ingin mereka mainkan ; Namun kalau kamu gak main bareng trio ; Kamu bisa memaksimalkan 3 sinergi ini ; Kita mulai dengan roamer dan gold laner ; Lihat tipe damage yang diperlukan ; Tiga player solo ; Kalau tim kamu sudah punya 2 hero fisikal ; Seperti link jungle ; Dan lapu-lapu xp ; Pick gold laner magic ; Seperti harith dan natan ; Namun kalau kamu yang main roam ; Lihat hero tebal di tim kamu ; Kalau belum ada tank ; Kamu wajib pick tank ; Kecuali kalau kamu mau main kombo tertentu ; Seperti freya digi ; Atau ixia digi ; Pastikan kalau roamer kamu ; Bisa menutupi kelemahan gold lanernya ; Contohnya ; Freya punya diperlukan ; Damage yang tinggi ; Dari early sampai late game ; Sayangnya skill dia itu ; Damage semua ; Gak ada mobility ; Jadi dia gampang di kite ; Dan sekalinya di slow ; Dia gak bisa ngapa-ngapain ; Untungnya digi bisa tutup kelemahan dia ; Karena ultinya ngasih imun cecek ; Dan skill 2 nya ; Memerangkap lawan ; Lawan gak akan bisa kabur dari freya ; Bahkan hal ini juga berlaku ; Dua arah ; Dimana gold lanernya ; Bisa menutupi kelemahan romernya ; Kayak franco ; Meskipun dia punya hook yang kuat banget ; Hooknya itu gampang dihindari lawan ; Jadi kalau gold lanernya ; Bisa cece lawan ; Seperti skill 2 nya mia ; Hooknya franco akan gampang kena ; Sinergi gold lane dan roamer itu kuat ; Tapi sinergi duo terkuat ; Adalah mid dan jungler ; Sebenarnya sinerginya itu ; Harus saling melengkapi juga ; Seperti gold laner dan roamer ; Namun ; Kamu juga harus memperhatikan ; Jenis junglernya ; Kalau junglernya perlu farming ; Seperti Ling, Yi Sun, Xin, dan Joy ; Jangan pick mid yang perlu farming ; Seperti Cecilion, Cyclops, dan Lunox ; Begitu juga sebaliknya ; Kalau maginya perlu farming ; Pick jungler yang bisa bantu ; Pressure mid lawan ; Seperti Ferdinand, Barats, dan Baxia ; Terakhir ; Ada sinergi jungler dan roamer ; Yang sinerginya sama ; Seperti mid dan jungler ; Tapi ; Kalau kamu main solo ; Ekspektasi kamu harus lebih rendah lagi ; Jadi ikuti prinsip-prinsip ini ; Satu tim harus punya front line dan back line ; Penghasil damage utama tim ; Harus ada yang fisikal dan magic damage ; Satu tim harus terdiri ; Dari hero early game dan late game ; Harus ada hero yang bisa inisiasi ; Dan menggagalkan inisiasi lawan ; Namun kalau kamu ketemu party 3 ; Ikuti komposisi tim ; Yang ingin mereka menangani tim ; Sampai sini kamu sudah paham cara draft ; Namun untuk bisa draft dengan baik ; Berapa sih hero yang harus kamu kuasai ; Dan siapa aja ; Kamu harus lihat ini ; Kalau kamu main roam ; Kamu harus bisa satu roamer tank inisiasi ; Seperti Tigreal ; Satu roamer tank dive ; Seperti Chou ; Dan satu roamer support ; Seperti Angela ; Kalau kamu main jungle ; Kamu harus bisa satu jungler tank ; Seperti Frendrin ; Dan satu jungler tank ; Satu assassin magic ; Seperti Joy ; Dan satu assassin fisikal ; Seperti Hayabusa ; Kalau kamu main XP lane ; Kamu harus bisa satu XP laner sustain ; Seperti Ruby ; Satu XP laner damage ; Seperti Benedetta ; Dan satu XP laner tank ; Seperti Gloo ; Kalau kamu main gold lane ; Kamu harus bisa satu gold laner late game ; Seperti Cloud ; Satu gold laner yang kuat di lane ; Seperti Granger ; Dan satu gold laner magic ; Seperti Harith ; Kalau kamu main di mid lane ; Kamu harus bisa satu mid laner late game ; Seperti Cecilion ; Satu mage burst ; Seperti Valentina ; Dan satu mage utility ; Seperti Faramis ; Tapi kamu wajib tahu semua skill dan pasif hero ; Biar kamu bisa counter game by lawan ; Video ini memakan waktu lama banget untuk dibuat ; Jadi join member biar dapat video lebih awal ; Dan kalau kamu suka sama video ini ; Kamu pasti suka juga sama video Monkey Pals ; Play yang satu ini
+
+==================================================
+TIMESTAMPS:
+
+[00:00 - 00:02]
+Ini adalah semua hero di Mobile Legends
+
+[00:02 - 00:10]
+Tapi dari 130 hero dan hampir 270 triliun kombinasi hero yang bisa dimainkan
+
+[00:10 - 00:14]
+Ada 4 pola draft yang akan bikin kamu cepat naik rank
+
+[00:14 - 00:16]
+Masalahnya itu aja gak cukup
+
+[00:16 - 00:21]
+Karena gua udah pelajari semua hero untuk jawab pertanyaan-pertanyaan
+
+[00:21 - 00:23]
+Seperti hero apa yang harus di ban
+
+[00:23 - 00:25]
+Cara draft untuk player solo
+
+[00:25 - 00:28]
+Sinergi-sinergi untuk party duo
+
+[00:28 - 00:30]
+Trio hingga party 5
+
+[00:30 - 00:31]
+Urutan pick yang benar
+
+[00:31 - 00:35]
+Sampai berapa banyak hero yang perlu kamu kuasai
+
+[00:35 - 00:37]
+Dan siapa aja untuk setiap role
+
+[00:37 - 00:42]
+Namun ada satu kesalahan terbesar yang wajib kamu hindari dulu
+
+[00:42 - 00:44]
+Yaitu mengikuti draft MPL
+
+[00:44 - 00:47]
+MPL kan ban dan pick ganti-gantian
+
+[00:47 - 00:50]
+Satu ronde ban, satu ronde pick
+
+[00:50 - 00:53]
+Terus lanjut satu ronde ban dan satu ronde pick lagi
+
+[00:53 - 00:55]
+Istilahnya draft ban
+
+[00:55 - 00:57]
+Sementara kita itu ban dulu
+
+[00:57 - 00:58]
+Dan setelah itu ban
+
+[00:58 - 01:02]
+Dari aturan aja udah beda
+
+[01:02 - 01:06]
+Apalagi tim MPL itu sudah tau lawan mereka dari jauh hari
+
+[01:06 - 01:11]
+Karena itu mereka akan ban atau pick hero tertentu sesuai lawannya
+
+[01:11 - 01:13]
+Kayak kalau lawan Favian
+
+[01:13 - 01:16]
+Tim MPL akan ban Fanny
+
+[01:16 - 01:20]
+Meskipun kamu harus hati-hati untuk ikutin draft MPL
+
+[01:20 - 01:23]
+Ada 2 komposisi tim yang sering dipakai tim MPL
+
+[01:23 - 01:25]
+Dan akan kita bahas nanti
+
+[01:25 - 01:27]
+Itu adalah hal pertama
+
+[01:27 - 01:28]
+Yang wajib kamu ikuti draft MPL
+
+[01:28 - 01:29]
+Dan yang wajib kamu pahami
+
+[01:29 - 01:32]
+Karena draft adalah fase sebelum permainan dimulai
+
+[01:32 - 01:34]
+Dimana kita melakukan 2 hal
+
+[01:34 - 01:38]
+Ban untuk melarang semua orang memakai hero tertentu
+
+[01:38 - 01:42]
+Dan pick untuk memilih hero yang akan kita gunakan
+
+[01:42 - 01:45]
+Tapi untuk bisa ban dan pick dengan benar
+
+[01:45 - 01:49]
+Kamu harus paham konsep team comp dan win comp
+
+[01:49 - 01:52]
+Team comp atau team composition berarti
+
+[01:52 - 01:55]
+Komposisi tim kamu terdiri dari apa aja
+
+[01:55 - 01:57]
+Jungler tank atau jungler assassin
+
+[01:57 - 01:58]
+Atau jungler tank atau jungler assassin
+
+[01:58 - 01:59]
+Roamer heal atau roamer tank
+
+[01:59 - 02:01]
+Dan masih banyak lagi
+
+[02:01 - 02:04]
+Masalahnya tim comp itu gak cukup
+
+[02:04 - 02:08]
+Karena setiap tim comp punya winconnya masing-masing
+
+[02:08 - 02:13]
+Wincon atau win condition adalah kondisi yang harus terpenuhi
+
+[02:13 - 02:15]
+Agar tim kamu bisa menang
+
+[02:15 - 02:17]
+Kayak gimana cara open warnya
+
+[02:17 - 02:20]
+Apa saja tugas setiap role pada saat war
+
+[02:20 - 02:24]
+Sampai hal aneh seperti kenapa tim MPL ini
+
+[02:24 - 02:25]
+Malah fokus nyerang tank
+
+[02:25 - 02:27]
+Bukan core lawan
+
+[02:27 - 02:28]
+Bukan core lawan
+
+[02:28 - 02:30]
+Pastikan kamu paham dua hal ini
+
+[02:30 - 02:31]
+Karena akan sangat berguna
+
+[02:31 - 02:34]
+Saat kita belajar cara pick hero
+
+[02:34 - 02:35]
+Tapi sebelum itu
+
+[02:35 - 02:38]
+Kamu harus tahu cara ban hero dulu
+
+[02:38 - 02:40]
+Fase ban itu terdiri dari
+
+[02:40 - 02:41]
+Tiga ban pertama
+
+[02:41 - 02:43]
+Buka bannya
+
+[02:43 - 02:44]
+Dua ban terakhir
+
+[02:44 - 02:46]
+Lalu buka bannya lagi
+
+[02:46 - 02:47]
+Untungnya
+
+[02:47 - 02:50]
+Tujuan dari fase ban itu cuma satu
+
+[02:50 - 02:53]
+Yaitu bikin hero OP yang kamu punya
+
+[02:53 - 02:55]
+Lebih banyak dari lawan
+
+[02:55 - 02:57]
+Gini cara maksimalinnya
+
+[02:58 - 03:01]
+Di satu meta hero OP itu biasanya ada tiga
+
+[03:01 - 03:03]
+Kalau kamu dapat first pick
+
+[03:03 - 03:06]
+Hero OP yang lepas setelah fase ban itu harus satu
+
+[03:07 - 03:09]
+Karena kalau lebih dari satu
+
+[03:09 - 03:11]
+Lawan akan dapat jatah hero OP
+
+[03:11 - 03:14]
+Yang bisa aja lebih banyak dari kamu
+
+[03:14 - 03:17]
+Jadi kalau kamu dapat first pick
+
+[03:17 - 03:19]
+Ban dua hero OP aja
+
+[03:19 - 03:20]
+Jangan ketiganya
+
+[03:21 - 03:23]
+Tapi kalau kamu dapat pick kedua
+
+[03:23 - 03:26]
+Hero OP yang lepas setelah ban itu harus tiga
+
+[03:26 - 03:28]
+Biar saat lainnya kamu bisa dapet hero OP yang lebih banyak dari kamu
+
+[03:31 - 03:34]
+Biar gampang lihat simulasi ini
+
+[03:34 - 03:36]
+Kalau hero OP yang lepas ada satu
+
+[03:36 - 03:39]
+Tim yang dapat first pick akan unggul
+
+[03:39 - 03:40]
+Karena dia punya hero OP
+
+[03:40 - 03:42]
+Sementara lawannya enggak
+
+[03:42 - 03:44]
+Kalau yang lepas ada dua
+
+[03:44 - 03:47]
+Kondisinya netral karena kamu dan lawan
+
+[03:47 - 03:48]
+Dapat jatah yang sama
+
+[03:48 - 03:51]
+Namun kalau yang lepas ada tiga
+
+[03:51 - 03:54]
+Tim yang pick kedua akan unggul
+
+[03:54 - 03:56]
+Karena mereka punya dua hero OP
+
+[03:56 - 03:58]
+Sementara tim lain cuma pick dua hero OP
+
+[03:58 - 03:58]
+Punya satu
+
+[03:58 - 04:00]
+Konsep ini penting banget
+
+[04:00 - 04:01]
+Biar kamu tahu
+
+[04:01 - 04:03]
+Kapan harus ban hero OP
+
+[04:03 - 04:04]
+Atau hero biasa
+
+[04:04 - 04:05]
+Kalau gitu
+
+[04:05 - 04:07]
+Di saat kamu enggak ban hero OP
+
+[04:07 - 04:09]
+Hero apa yang harus kamu ban?
+
+[04:10 - 04:12]
+Jawabannya adalah hero yang merupakan
+
+[04:12 - 04:14]
+Counter hero yang mau kamu pakai
+
+[04:14 - 04:17]
+Seperti kalau mau main Freya
+
+[04:17 - 04:18]
+Ban Valir
+
+[04:18 - 04:19]
+Kalau mau main Link
+
+[04:19 - 04:20]
+Ban Min Sitar
+
+[04:20 - 04:22]
+Atau kalau mau main Obsidia
+
+[04:22 - 04:23]
+Ban Cloud
+
+[04:23 - 04:26]
+Strategi ban yang sudah kita bahas tadi
+
+[04:26 - 04:27]
+Itu kuat
+
+[04:27 - 04:28]
+Namun kalau mau main Link
+
+[04:28 - 04:29]
+Namun ban kamu akan sia-sia
+
+[04:29 - 04:31]
+Kalau kamu salah pick hero
+
+[04:31 - 04:34]
+Jadi untuk pick hero dengan benar
+
+[04:34 - 04:36]
+Kamu harus paham komposisi tim
+
+[04:36 - 04:38]
+Dan kondisi menangnya
+
+[04:38 - 04:40]
+Kita akan mulai dengan komposisi dive
+
+[04:40 - 04:42]
+Yang terdiri dari
+
+[04:42 - 04:45]
+XP laner yang bisa lompat ke backline lawan
+
+[04:45 - 04:46]
+Seperti Proveus
+
+[04:46 - 04:47]
+X-Borg dan Yu Zhong
+
+[04:47 - 04:49]
+Jungler Assassin atau yang bisa lompat
+
+[04:49 - 04:52]
+Seperti Baxia, Fanny dan Lancelot
+
+[04:52 - 04:54]
+Mid laner dengan mobilitas tinggi
+
+[04:54 - 04:57]
+Seperti Selena, Kagura dan Valentina
+
+[04:57 - 04:58]
+Roman dan Zed
+
+[04:58 - 04:59]
+Yang bisa lompat
+
+[04:59 - 05:01]
+Seperti Matilda, Kalea dan Chou
+
+[05:01 - 05:03]
+Serta MM lincah
+
+[05:03 - 05:05]
+Seperti Roger, Cloud dan Irithel
+
+[05:05 - 05:08]
+Mereka bertujuan untuk masuk ke backline lawan
+
+[05:08 - 05:09]
+Saat war
+
+[05:09 - 05:11]
+Dan menghabisi damage dealer lawan
+
+[05:11 - 05:13]
+Jadi kondisi menangnya
+
+[05:13 - 05:15]
+Adalah setiap kali war
+
+[05:15 - 05:18]
+Damage dealer lawan harus habis duluan
+
+[05:18 - 05:19]
+Saking kuatnya
+
+[05:19 - 05:22]
+Komposisi ini sering dipakai tim MPL
+
+[05:22 - 05:23]
+Sayangnya
+
+[05:23 - 05:26]
+Mereka bisa di counter oleh hero-hero
+
+[05:26 - 05:28]
+Yang bisa menggagalkan
+
+[05:28 - 05:28]
+Inisiasi
+
+[05:28 - 05:29]
+Makanya
+
+[05:29 - 05:31]
+Kamu harus ban hero-hero
+
+[05:31 - 05:33]
+Seperti DG, Valir dan Akai
+
+[05:33 - 05:34]
+Ingat ya
+
+[05:34 - 05:36]
+Saat main komposisi dive
+
+[05:36 - 05:38]
+Kalian harus kompak
+
+[05:38 - 05:39]
+Buat prioritas target
+
+[05:39 - 05:41]
+Dan habisin satu per satu
+
+[05:41 - 05:43]
+Jangan pakai terlalu banyak skill
+
+[05:43 - 05:44]
+Ke satu target
+
+[05:44 - 05:46]
+Pakai secukupnya aja
+
+[05:46 - 05:48]
+Biar bisa incar target selanjutnya
+
+[05:48 - 05:50]
+Tapi bang
+
+[05:50 - 05:51]
+Ini tidak berlaku buat player solo
+
+[05:51 - 05:53]
+Tenang aja
+
+[05:53 - 05:54]
+Gue akan kasih tau
+
+[05:54 - 05:56]
+Cara adaptasikan ini
+
+[05:56 - 05:57]
+Untuk party trio
+
+[05:57 - 05:57]
+Duo
+
+[05:57 - 05:58]
+Bahkan solo
+
+[05:58 - 05:59]
+Tapi sekarang
+
+[05:59 - 06:01]
+Kamu harus paham
+
+[06:01 - 06:01]
+Tiga lagi
+
+[06:01 - 06:03]
+Kalau komposisi dive itu
+
+[06:03 - 06:05]
+Mau masuk ke backline lawan
+
+[06:05 - 06:08]
+Komposisi ini adalah kebalikannya
+
+[06:08 - 06:09]
+Yaitu
+
+[06:09 - 06:10]
+Komposisi poke
+
+[06:10 - 06:11]
+Yang terdiri dari
+
+[06:11 - 06:12]
+Tiga hero cicil
+
+[06:12 - 06:14]
+Satu hero eksekutor
+
+[06:14 - 06:15]
+Dan satu hero TB
+
+[06:15 - 06:17]
+Yang bisa menggagalkan
+
+[06:17 - 06:18]
+Inisiasi lawan
+
+[06:18 - 06:19]
+Istilahnya
+
+[06:19 - 06:21]
+Adalah disengager
+
+[06:21 - 06:22]
+XP dan jungle
+
+[06:22 - 06:24]
+Bisa diisi hero cicil
+
+[06:24 - 06:26]
+Eksekutor atau TB
+
+[06:26 - 06:27]
+Sementara mid dan
+
+[06:27 - 06:28]
+Godlane
+
+[06:28 - 06:30]
+Cuma bisa diisi hero cicil
+
+[06:30 - 06:32]
+Roamer cuma bisa diisi hero TB
+
+[06:32 - 06:33]
+Atau cicil
+
+[06:33 - 06:35]
+Mereka bertujuan
+
+[06:35 - 06:37]
+Untuk cicil lawan dari jauh
+
+[06:37 - 06:38]
+Saat darah lawan sedikit
+
+[06:38 - 06:40]
+Eksekutor akan masuk
+
+[06:40 - 06:41]
+Untuk habisi lawan
+
+[06:41 - 06:43]
+Jadi kondisi menangnya
+
+[06:43 - 06:45]
+Adalah darah lawan kamu
+
+[06:45 - 06:46]
+Harus sisa sedikit
+
+[06:46 - 06:48]
+Sebelum war dimulai
+
+[06:48 - 06:49]
+Hati-hati
+
+[06:49 - 06:51]
+Kalau lawan mau open war
+
+[06:51 - 06:52]
+Hero TB kamu
+
+[06:52 - 06:54]
+Harus gagalin inisiasinya
+
+[06:54 - 06:56]
+Makanya hero cicil kamu
+
+[06:56 - 06:57]
+Harus punya skill
+
+[06:57 - 06:58]
+Yang bisa di spam
+
+[06:58 - 06:59]
+Dan jaraknya jauh
+
+[06:59 - 07:01]
+Di midlane ada
+
+[07:01 - 07:01]
+Novaria
+
+[07:01 - 07:02]
+Xavier
+
+[07:02 - 07:03]
+Dan Zetian
+
+[07:03 - 07:04]
+Di godlane ada
+
+[07:04 - 07:04]
+Batrix
+
+[07:04 - 07:05]
+Layla
+
+[07:05 - 07:06]
+Dan Ixia
+
+[07:06 - 07:07]
+Sementara di roam
+
+[07:07 - 07:08]
+Ada Diggie
+
+[07:08 - 07:10]
+Hero eksekutor kamu
+
+[07:10 - 07:10]
+Harus punya skill
+
+[07:10 - 07:12]
+Yang akan keriset
+
+[07:12 - 07:13]
+Setelah habisin lawan
+
+[07:13 - 07:15]
+Di XP ada
+
+[07:15 - 07:15]
+Martis
+
+[07:15 - 07:16]
+Di jungle ada
+
+[07:16 - 07:17]
+Leomord
+
+[07:17 - 07:18]
+Roger
+
+[07:18 - 07:18]
+Dan Karina
+
+[07:18 - 07:20]
+Sementara hero TB
+
+[07:20 - 07:21]
+Disengager kamu
+
+[07:21 - 07:23]
+Harus bisa gagalin
+
+[07:23 - 07:24]
+Inisiasi lawan
+
+[07:24 - 07:25]
+Di XP lane
+
+[07:25 - 07:26]
+Ada Hylos
+
+[07:26 - 07:27]
+Chou
+
+[07:27 - 07:27]
+Dan Ruby
+
+[07:27 - 07:29]
+Di jungle ada
+
+[07:29 - 07:29]
+Fredrin
+
+[07:29 - 07:30]
+Barats
+
+[07:30 - 07:31]
+Dan Akai
+
+[07:31 - 07:32]
+Di roam ada
+
+[07:32 - 07:33]
+Lolita
+
+[07:33 - 07:33]
+Grock
+
+[07:33 - 07:34]
+Dan Belerick
+
+[07:34 - 07:35]
+Komposisi poke
+
+[07:35 - 07:36]
+Itu bagus banget
+
+[07:36 - 07:37]
+Kalau rank kamu
+
+[07:37 - 07:38]
+Di bawah mythic glory
+
+[07:38 - 07:40]
+Karena tim lawan
+
+[07:40 - 07:40]
+Tidak paham
+
+[07:40 - 07:41]
+Cara counternya
+
+[07:41 - 07:43]
+Tapi di rank yang lebih tinggi
+
+[07:43 - 07:45]
+Lawan sudah ngerti
+
+[07:45 - 07:45]
+Main vision
+
+[07:45 - 07:46]
+Dan ngeflank
+
+[07:46 - 07:47]
+Dan komposisi ini
+
+[07:47 - 07:49]
+Akan kesulitan disana
+
+[07:49 - 07:50]
+Jadi
+
+[07:50 - 07:51]
+Kalau kamu mau komposisi
+
+[07:51 - 07:53]
+Yang kuat di semua rank
+
+[07:53 - 07:56]
+Kamu harus pakai komposisi front to back
+
+[07:56 - 07:57]
+Karena ini
+
+[07:57 - 07:59]
+Adalah yang paling sering digunakan
+
+[07:59 - 08:00]
+Oleh semua kalangan
+
+[08:00 - 08:02]
+Mulai dari publik
+
+[08:02 - 08:03]
+Penjoki
+
+[08:03 - 08:04]
+Sampai tim MPL
+
+[08:04 - 08:05]
+Komposisi ini
+
+[08:05 - 08:07]
+Dibagi menjadi dua
+
+[08:07 - 08:08]
+Tim front line
+
+[08:08 - 08:09]
+Dan tim back line
+
+[08:09 - 08:10]
+Tim back line
+
+[08:10 - 08:12]
+Berisi dua damage dealer konsisten
+
+[08:12 - 08:15]
+Dengan tipe damage yang berbeda
+
+[08:15 - 08:16]
+Ingat ya
+
+[08:16 - 08:17]
+Damage dealer konsisten
+
+[08:17 - 08:19]
+Bukan yang burst
+
+[08:19 - 08:20]
+Di gold lane
+
+[08:20 - 08:21]
+Ada semua MM
+
+[08:21 - 08:21]
+Kecuali Leslie
+
+[08:21 - 08:22]
+Di mid lane
+
+[08:22 - 08:24]
+Ada semua mage DPS
+
+[08:24 - 08:25]
+Seperti Kimmy
+
+[08:25 - 08:26]
+Cecilion
+
+[08:26 - 08:27]
+Dan Xavier
+
+[08:27 - 08:28]
+Sementara tim front line
+
+[08:28 - 08:30]
+Berisi satu initiator
+
+[08:30 - 08:32]
+Satu hero sustain
+
+[08:32 - 08:33]
+Dan satu disengager
+
+[08:33 - 08:35]
+Posisinya bebas
+
+[08:35 - 08:35]
+Di XP
+
+[08:35 - 08:36]
+Ada Glue
+
+[08:36 - 08:37]
+Yu Zhong
+
+[08:37 - 08:38]
+Dan Chou
+
+[08:38 - 08:38]
+Di jungle
+
+[08:38 - 08:39]
+Ada Fredrin
+
+[08:39 - 08:40]
+Uranus
+
+[08:40 - 08:41]
+Dan Barats
+
+[08:41 - 08:42]
+Di roam
+
+[08:42 - 08:42]
+Ada Tigreal
+
+[08:42 - 08:43]
+Kalea
+
+[08:43 - 08:44]
+Dan Lolita
+
+[08:44 - 08:45]
+Kondisi menang
+
+[08:45 - 08:46]
+Untuk komposisi ini
+
+[08:46 - 08:48]
+Adalah back line kamu
+
+[08:48 - 08:50]
+Harus bisa habisin front line lawan
+
+[08:50 - 08:52]
+Sementara front line kamu
+
+[08:52 - 08:54]
+Harus bisa zoning back line lawan
+
+[08:54 - 08:56]
+Biar mereka gak bisa ikut
+
+[08:56 - 08:57]
+War
+
+[08:57 - 08:58]
+Biasanya
+
+[08:58 - 08:59]
+Yang zoning back line lawan
+
+[08:59 - 09:00]
+Itu XP
+
+[09:00 - 09:01]
+Atau roamer
+
+[09:01 - 09:02]
+Yang punya banyak CC
+
+[09:02 - 09:04]
+Kamu ingat klip tadi gak?
+
+[09:04 - 09:06]
+Itulah alasan tim MPL
+
+[09:06 - 09:08]
+Serang tank lawan
+
+[09:08 - 09:09]
+Mereka sedang main
+
+[09:09 - 09:10]
+Tim front to back
+
+[09:10 - 09:12]
+Meskipun gampang dimainkan
+
+[09:12 - 09:14]
+Komposisi front to back
+
+[09:14 - 09:15]
+Itu terlalu mengandalkan
+
+[09:15 - 09:16]
+MM
+
+[09:16 - 09:17]
+Dan mage kamu
+
+[09:17 - 09:19]
+Kalau mereka terculik
+
+[09:19 - 09:21]
+Tim kamu gak akan bisa ngapa-ngapain
+
+[09:21 - 09:24]
+Dan karena terlalu mengandalkan war
+
+[09:24 - 09:25]
+Kamu bisa di split push
+
+[09:25 - 09:26]
+Komposisi front to back
+
+[09:26 - 09:29]
+Bisa bikin kamu menang
+
+[09:29 - 09:29]
+Tapi
+
+[09:29 - 09:32]
+Kalau kamu mau menangnya dengan cepat
+
+[09:32 - 09:34]
+Kamu harus tahu komposisi
+
+[09:34 - 09:35]
+Hyper carry
+
+[09:35 - 09:37]
+Yang bertujuan untuk membuat
+
+[09:37 - 09:38]
+Satu orang jadi bintang
+
+[09:38 - 09:40]
+Yang akan gendong tim
+
+[09:40 - 09:41]
+Hyper carry ini
+
+[09:41 - 09:42]
+Bisa di gold lane
+
+[09:42 - 09:43]
+Seperti Freya
+
+[09:43 - 09:43]
+Nathan
+
+[09:43 - 09:44]
+Dan Cloud
+
+[09:44 - 09:45]
+Atau jungle
+
+[09:45 - 09:46]
+Seperti Ling
+
+[09:46 - 09:47]
+Yi Sun Shin
+
+[09:47 - 09:48]
+Dan Lancelot
+
+[09:48 - 09:49]
+Hati-hati
+
+[09:49 - 09:52]
+Hero yang bisa dijadikan hyper carry
+
+[09:52 - 09:55]
+Adalah hero yang punya DPS tinggi
+
+[09:55 - 09:56]
+Bukan hero burst
+
+[09:56 - 09:57]
+Yang cooldownnya lama
+
+[09:57 - 09:59]
+Di komposisi ini
+
+[09:59 - 10:02]
+Roamer akan selalu temenin hyper carry-nya
+
+[10:02 - 10:04]
+Jadi hero-hero lain
+
+[10:04 - 10:05]
+Harus bisa mandiri
+
+[10:05 - 10:08]
+Kondisi menang dari komposisi ini
+
+[10:08 - 10:11]
+Adalah hyper carry kamu harus kaya
+
+[10:11 - 10:13]
+Kalau dia miskin gold
+
+[10:13 - 10:14]
+Kamu pasti kalah
+
+[10:14 - 10:15]
+Memang sih
+
+[10:15 - 10:17]
+Kamu terlalu mengandalkan satu hero
+
+[10:17 - 10:20]
+Tapi kalau sekalinya dia kaya
+
+[10:20 - 10:22]
+Kamu bisa cepat menang gamenya
+
+[10:22 - 10:23]
+Setiap tim kom
+
+[10:23 - 10:25]
+Punya kelebihan
+
+[10:25 - 10:25]
+Kekurangan
+
+[10:25 - 10:26]
+Dan capaiannya
+
+[10:26 - 10:27]
+Menangnya masing-masing
+
+[10:27 - 10:30]
+Gak ada yang meng-counter satu sama lain
+
+[10:30 - 10:33]
+Dan kemungkinan menangnya itu imbang
+
+[10:33 - 10:36]
+Namun kita punya masalah baru
+
+[10:36 - 10:38]
+Meskipun kamu paham komposisi tim
+
+[10:38 - 10:41]
+Urutan kamu pick hero-nya saat draft
+
+[10:41 - 10:44]
+Itu sepenting komposisinya sendiri
+
+[10:44 - 10:46]
+Jadi ikutin panduan ini
+
+[10:46 - 10:47]
+Setelah ban
+
+[10:47 - 10:50]
+Kamu harus sudah tahu komposisi tim apa
+
+[10:50 - 10:51]
+Yang mau kamu mainkan
+
+[10:51 - 10:54]
+Jadi hero yang kamu pick
+
+[10:54 - 10:56]
+Itu harus masuk ke komposisinya
+
+[10:56 - 10:57]
+Untuk urutannya
+
+[10:57 - 10:59]
+Ikuti prioritas ini
+
+[10:59 - 11:00]
+Hero OP
+
+[11:00 - 11:02]
+Lalu hero fleksibel
+
+[11:02 - 11:04]
+Yang bisa mengisi lebih dari satu lane
+
+[11:04 - 11:05]
+Seperti Baxia
+
+[11:05 - 11:07]
+Yang bisa di roam dan jungle
+
+[11:07 - 11:08]
+Serta Lunox
+
+[11:08 - 11:10]
+Yang bisa di gold dan mid lane
+
+[11:10 - 11:13]
+Terus ke hero yang meng-counter hero lawan
+
+[11:13 - 11:15]
+Hero tahan badan
+
+[11:15 - 11:16]
+Damage dealer
+
+[11:16 - 11:18]
+Dan inisiator
+
+[11:18 - 11:19]
+Ingat ya
+
+[11:19 - 11:21]
+Itu adalah prioritas
+
+[11:21 - 11:22]
+Biar gampang
+
+[11:22 - 11:23]
+Lihat contoh ini
+
+[11:23 - 11:24]
+Di fase ban
+
+[11:24 - 11:26]
+Kita ban hero OP
+
+[11:26 - 11:26]
+Seperti Fanny
+
+[11:26 - 11:27]
+Wanwan
+
+[11:27 - 11:28]
+Dan Yi Sun Shin
+
+[11:28 - 11:31]
+Setelah lihat lawan yang ban Nathan
+
+[11:31 - 11:32]
+Wanwan dan Lancelot
+
+[11:32 - 11:35]
+Ada beberapa hero kuat yang lepas
+
+[11:35 - 11:36]
+Seperti Bane
+
+[11:36 - 11:36]
+Hayabusa
+
+[11:36 - 11:37]
+Dan Angela
+
+[11:37 - 11:39]
+Karena hero-hero front to back
+
+[11:39 - 11:41]
+Seperti Nathan dan Wanwan di ban
+
+[11:41 - 11:44]
+Gue memutuskan untuk main komposisi dive
+
+[11:44 - 11:48]
+Yang perlu XP dan roamer yang bisa lompat
+
+[11:48 - 11:50]
+Jungler assassin atau bisa lompat
+
+[11:50 - 11:52]
+Serta mid dan gold laner lincah
+
+[11:52 - 11:55]
+Jadi gue ban Diggie dan Bane
+
+[11:55 - 11:56]
+Untuk membuat hero yang bisa lompat
+
+[11:56 - 11:58]
+Menutupi kelemahan komposisi dive
+
+[11:58 - 11:59]
+Di fase draft
+
+[11:59 - 12:01]
+Gue lihat daftar prioritas
+
+[12:01 - 12:02]
+Lalu pick Baxia
+
+[12:02 - 12:04]
+Karena dia OP dan fleksibel
+
+[12:04 - 12:06]
+Lawan pick X-Borg dan Kalea
+
+[12:06 - 12:08]
+Karena lawan pick X-Borg
+
+[12:08 - 12:10]
+Yang merupakan counter Baxia
+
+[12:10 - 12:12]
+Baxia akan lebih bagus dimainkan
+
+[12:12 - 12:15]
+Di roam sebagai roamer yang bisa lompat
+
+[12:15 - 12:18]
+Selanjutnya kita kembali ke daftar prioritas
+
+[12:18 - 12:20]
+Karena hero OP dan fleksibel
+
+[12:20 - 12:22]
+Yang cocok dengan komposisi dive
+
+[12:22 - 12:23]
+Sudah tidak ada
+
+[12:23 - 12:26]
+Kita lanjut ke hero yang mengkawal
+
+[12:26 - 12:27]
+Counter hero lawan
+
+[12:27 - 12:28]
+Karena lawan pick X-Borg
+
+[12:28 - 12:30]
+Kita bisa pick Ling
+
+[12:30 - 12:31]
+Yang akan meng-counter X-Borg
+
+[12:31 - 12:34]
+Sekaligus jadi jungler assassin kita
+
+[12:34 - 12:36]
+Karena udah gak ada yang bisa di-counter
+
+[12:36 - 12:38]
+Kita lanjut ke hero tahan badan
+
+[12:38 - 12:39]
+Seperti Poveus
+
+[12:39 - 12:43]
+Yang sekaligus jadi XP laner yang bisa lompat
+
+[12:43 - 12:44]
+Setelah lawan lanjut pick
+
+[12:44 - 12:46]
+Kita akan lanjut ke damage dealer
+
+[12:46 - 12:49]
+Dengan Harith sebagai gold laner lincah
+
+[12:49 - 12:52]
+Dan Valentina sebagai mid laner lincah
+
+[12:52 - 12:54]
+Kita pick gold laner magic
+
+[12:54 - 12:56]
+Karena damage physicalnya sudah berhasil
+
+[12:56 - 12:57]
+Dari Ling dan Poveus
+
+[12:57 - 12:59]
+Kalau diperhatikan
+
+[12:59 - 13:01]
+Draft ini adalah komposisi dive
+
+[13:01 - 13:04]
+Melawan komposisi front to back
+
+[13:04 - 13:07]
+Tapi bang ini tidak berlaku buat player solo
+
+[13:07 - 13:09]
+Udah-udah ayo kita bahas
+
+[13:09 - 13:11]
+Sebagai party 3
+
+[13:11 - 13:13]
+Kamu harus memainkan trio mid
+
+[13:13 - 13:15]
+Yaitu mid lane, jungler, dan roamer
+
+[13:15 - 13:19]
+Karena mereka adalah penentu arah rotasi
+
+[13:19 - 13:20]
+Draft untuk trio mid
+
+[13:20 - 13:23]
+Masih mengikuti keempat komposisi tadi
+
+[13:23 - 13:24]
+Masalahnya
+
+[13:24 - 13:25]
+Kalau kamu main duo
+
+[13:26 - 13:28]
+Kamu bisa dapat party duo tambah trio
+
+[13:28 - 13:31]
+Duo tambah duo tambah solo
+
+[13:31 - 13:33]
+Dan duo tambah 3 player solo
+
+[13:33 - 13:36]
+Kalau kamu dapatnya duo tambah trio
+
+[13:36 - 13:39]
+Ikuti arahan draft dari party 3 nya
+
+[13:39 - 13:42]
+Dan sesuaikan dengan komposisi tim
+
+[13:42 - 13:43]
+Yang ingin mereka mainkan
+
+[13:44 - 13:46]
+Namun kalau kamu gak main bareng trio
+
+[13:46 - 13:50]
+Kamu bisa memaksimalkan 3 sinergi ini
+
+[13:50 - 13:53]
+Kita mulai dengan roamer dan gold laner
+
+[13:53 - 13:55]
+Lihat tipe damage yang diperlukan
+
+[13:55 - 13:56]
+Tiga player solo
+
+[13:56 - 13:59]
+Kalau tim kamu sudah punya 2 hero fisikal
+
+[13:59 - 14:00]
+Seperti link jungle
+
+[14:00 - 14:02]
+Dan lapu-lapu xp
+
+[14:02 - 14:03]
+Pick gold laner magic
+
+[14:03 - 14:05]
+Seperti harith dan natan
+
+[14:05 - 14:07]
+Namun kalau kamu yang main roam
+
+[14:07 - 14:10]
+Lihat hero tebal di tim kamu
+
+[14:10 - 14:11]
+Kalau belum ada tank
+
+[14:11 - 14:13]
+Kamu wajib pick tank
+
+[14:13 - 14:16]
+Kecuali kalau kamu mau main kombo tertentu
+
+[14:16 - 14:17]
+Seperti freya digi
+
+[14:17 - 14:19]
+Atau ixia digi
+
+[14:19 - 14:21]
+Pastikan kalau roamer kamu
+
+[14:21 - 14:23]
+Bisa menutupi kelemahan gold lanernya
+
+[14:23 - 14:25]
+Contohnya
+
+[14:25 - 14:26]
+Freya punya diperlukan
+
+[14:26 - 14:26]
+Damage yang tinggi
+
+[14:26 - 14:28]
+Dari early sampai late game
+
+[14:28 - 14:30]
+Sayangnya skill dia itu
+
+[14:30 - 14:31]
+Damage semua
+
+[14:31 - 14:32]
+Gak ada mobility
+
+[14:32 - 14:35]
+Jadi dia gampang di kite
+
+[14:35 - 14:36]
+Dan sekalinya di slow
+
+[14:36 - 14:38]
+Dia gak bisa ngapa-ngapain
+
+[14:38 - 14:42]
+Untungnya digi bisa tutup kelemahan dia
+
+[14:42 - 14:45]
+Karena ultinya ngasih imun cecek
+
+[14:45 - 14:46]
+Dan skill 2 nya
+
+[14:46 - 14:47]
+Memerangkap lawan
+
+[14:47 - 14:50]
+Lawan gak akan bisa kabur dari freya
+
+[14:50 - 14:53]
+Bahkan hal ini juga berlaku
+
+[14:53 - 14:53]
+Dua arah
+
+[14:53 - 14:55]
+Dimana gold lanernya
+
+[14:55 - 14:57]
+Bisa menutupi kelemahan romernya
+
+[14:57 - 14:59]
+Kayak franco
+
+[14:59 - 15:01]
+Meskipun dia punya hook yang kuat banget
+
+[15:01 - 15:04]
+Hooknya itu gampang dihindari lawan
+
+[15:04 - 15:05]
+Jadi kalau gold lanernya
+
+[15:05 - 15:07]
+Bisa cece lawan
+
+[15:07 - 15:09]
+Seperti skill 2 nya mia
+
+[15:09 - 15:11]
+Hooknya franco akan gampang kena
+
+[15:11 - 15:14]
+Sinergi gold lane dan roamer itu kuat
+
+[15:14 - 15:16]
+Tapi sinergi duo terkuat
+
+[15:16 - 15:18]
+Adalah mid dan jungler
+
+[15:18 - 15:20]
+Sebenarnya sinerginya itu
+
+[15:20 - 15:21]
+Harus saling melengkapi juga
+
+[15:21 - 15:23]
+Seperti gold laner dan roamer
+
+[15:23 - 15:24]
+Namun
+
+[15:24 - 15:26]
+Kamu juga harus memperhatikan
+
+[15:26 - 15:28]
+Jenis junglernya
+
+[15:28 - 15:29]
+Kalau junglernya perlu farming
+
+[15:29 - 15:32]
+Seperti Ling, Yi Sun, Xin, dan Joy
+
+[15:32 - 15:34]
+Jangan pick mid yang perlu farming
+
+[15:34 - 15:37]
+Seperti Cecilion, Cyclops, dan Lunox
+
+[15:37 - 15:39]
+Begitu juga sebaliknya
+
+[15:39 - 15:41]
+Kalau maginya perlu farming
+
+[15:41 - 15:43]
+Pick jungler yang bisa bantu
+
+[15:43 - 15:44]
+Pressure mid lawan
+
+[15:44 - 15:47]
+Seperti Ferdinand, Barats, dan Baxia
+
+[15:47 - 15:48]
+Terakhir
+
+[15:48 - 15:50]
+Ada sinergi jungler dan roamer
+
+[15:50 - 15:52]
+Yang sinerginya sama
+
+[15:52 - 15:54]
+Seperti mid dan jungler
+
+[15:54 - 15:54]
+Tapi
+
+[15:54 - 15:56]
+Kalau kamu main solo
+
+[15:56 - 15:59]
+Ekspektasi kamu harus lebih rendah lagi
+
+[15:59 - 16:02]
+Jadi ikuti prinsip-prinsip ini
+
+[16:02 - 16:05]
+Satu tim harus punya front line dan back line
+
+[16:05 - 16:07]
+Penghasil damage utama tim
+
+[16:07 - 16:09]
+Harus ada yang fisikal dan magic damage
+
+[16:09 - 16:11]
+Satu tim harus terdiri
+
+[16:11 - 16:13]
+Dari hero early game dan late game
+
+[16:13 - 16:16]
+Harus ada hero yang bisa inisiasi
+
+[16:16 - 16:19]
+Dan menggagalkan inisiasi lawan
+
+[16:19 - 16:21]
+Namun kalau kamu ketemu party 3
+
+[16:21 - 16:23]
+Ikuti komposisi tim
+
+[16:23 - 16:24]
+Yang ingin mereka menangani tim
+
+[16:24 - 16:28]
+Sampai sini kamu sudah paham cara draft
+
+[16:28 - 16:30]
+Namun untuk bisa draft dengan baik
+
+[16:30 - 16:34]
+Berapa sih hero yang harus kamu kuasai
+
+[16:34 - 16:35]
+Dan siapa aja
+
+[16:35 - 16:37]
+Kamu harus lihat ini
+
+[16:37 - 16:38]
+Kalau kamu main roam
+
+[16:38 - 16:42]
+Kamu harus bisa satu roamer tank inisiasi
+
+[16:42 - 16:42]
+Seperti Tigreal
+
+[16:42 - 16:44]
+Satu roamer tank dive
+
+[16:44 - 16:45]
+Seperti Chou
+
+[16:45 - 16:47]
+Dan satu roamer support
+
+[16:47 - 16:48]
+Seperti Angela
+
+[16:48 - 16:50]
+Kalau kamu main jungle
+
+[16:50 - 16:53]
+Kamu harus bisa satu jungler tank
+
+[16:53 - 16:54]
+Seperti Frendrin
+
+[16:54 - 16:54]
+Dan satu jungler tank
+
+[16:54 - 16:56]
+Satu assassin magic
+
+[16:56 - 16:57]
+Seperti Joy
+
+[16:57 - 16:59]
+Dan satu assassin fisikal
+
+[16:59 - 17:00]
+Seperti Hayabusa
+
+[17:00 - 17:02]
+Kalau kamu main XP lane
+
+[17:02 - 17:05]
+Kamu harus bisa satu XP laner sustain
+
+[17:05 - 17:06]
+Seperti Ruby
+
+[17:06 - 17:08]
+Satu XP laner damage
+
+[17:08 - 17:09]
+Seperti Benedetta
+
+[17:09 - 17:11]
+Dan satu XP laner tank
+
+[17:11 - 17:12]
+Seperti Gloo
+
+[17:12 - 17:14]
+Kalau kamu main gold lane
+
+[17:14 - 17:16]
+Kamu harus bisa satu gold laner late game
+
+[17:16 - 17:17]
+Seperti Cloud
+
+[17:17 - 17:20]
+Satu gold laner yang kuat di lane
+
+[17:20 - 17:21]
+Seperti Granger
+
+[17:21 - 17:23]
+Dan satu gold laner magic
+
+[17:23 - 17:24]
+Seperti Harith
+
+[17:24 - 17:26]
+Kalau kamu main di mid lane
+
+[17:26 - 17:28]
+Kamu harus bisa satu mid laner late game
+
+[17:28 - 17:30]
+Seperti Cecilion
+
+[17:30 - 17:31]
+Satu mage burst
+
+[17:31 - 17:32]
+Seperti Valentina
+
+[17:32 - 17:34]
+Dan satu mage utility
+
+[17:34 - 17:35]
+Seperti Faramis
+
+[17:35 - 17:39]
+Tapi kamu wajib tahu semua skill dan pasif hero
+
+[17:39 - 17:42]
+Biar kamu bisa counter game by lawan
+
+[17:42 - 17:45]
+Video ini memakan waktu lama banget untuk dibuat
+
+[17:45 - 17:49]
+Jadi join member biar dapat video lebih awal
+
+[17:49 - 17:51]
+Dan kalau kamu suka sama video ini
+
+[17:51 - 17:54]
+Kamu pasti suka juga sama video Monkey Pals
+
+[17:54 - 17:55]
+Play yang satu ini
+

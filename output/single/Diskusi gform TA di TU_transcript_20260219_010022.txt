@@ -1,0 +1,737 @@
+Source: Diskusi gform TA di TU.mp4
+Language Mode: Auto-detect (Mixed)
+Detected: id (96.7%)
+Transcribed: 2026-02-19 01:00:22
+==================================================
+Berikut rangkuman lengkap isi percakapan tersebut tanpa menghilangkan poin apa pun, disusun lebih terstruktur agar jelas konteks dan alurnya:
+
+
+---
+
+1. Tentang Record / File Lulusan (Bagian ke-9)
+
+Sudah dibuat file dari bagian “lulusan” (kemungkinan bagian ke-9 dalam sistem atau dokumen).
+
+Ditanyakan: skemanya seperti apa dan bagaimana bentuk aplikatifnya.
+
+File akan di-upload ke Google Drive.
+
+Ukuran file:
+
+Lebih dari 20 file.
+
+Total tidak sampai 1 GB (sekitar mendekati tapi tidak sampai 1 GB).
+
+
+Ditanyakan apakah tidak masalah jika ada beberapa file tambahan seperti:
+
+File Python (disebut “pythos”)
+
+File Face (kemungkinan terkait face recognition atau folder terpisah)
+
+
+File-file tersebut terpisah-pisah.
+
+Disarankan:
+
+Cukup yang relevan saja (misalnya “circle smart” saja bagian Python-nya).
+
+Semua file dikumpulkan dan di-zip sebelum di-upload.
+
+
+Konfirmasi akhir: semuanya di-zip saja.
+
+
+
+---
+
+2. Tentang Jurnal dan Hasil Compile
+
+Jurnal tidak perlu semuanya.
+
+Cukup pilih salah satu.
+
+Disepakati: pilih yang ketiga.
+
+Hasil compile boleh dimasukkan.
+
+Walaupun bukan hasil compile penuh, lebih ke arah bukti pengerjaan.
+
+Coding bisa:
+
+Ditampilkan di Word, atau
+
+Cukup lampirkan file coding-nya saja.
+
+
+Media pembelajaran tidak perlu semuanya.
+
+Lagi-lagi ditegaskan: pilih salah satu (yang ketiga).
+
+
+
+---
+
+3. Tentang SKPI
+
+Awalnya ada kesalahpahaman.
+
+Dikira SKPI itu hanya download PDF.
+
+Dijelaskan bahwa SKPI diambil dari sistem SIA (Sistem Informasi Akademik).
+
+Di dalam SIA ada bagian:
+
+“Pengalaman Mahasiswa”
+
+Di pojok kiri atas ada tombol “Tambah”
+
+
+Sertifikat yang sudah di-upload sebelumnya dimasukkan ke sana.
+
+Formatnya:
+
+Data diinput ke SIA.
+
+Setelah itu di-print (Print to PDF).
+
+PDF hasil print itulah yang di-upload.
+
+
+Yang di-upload bukan file sertifikat mentahnya saja, tetapi:
+
+List pengalaman yang sudah diinput di SIA.
+
+
+Perlu:
+
+Kategori diperjelas.
+
+Tahun dicantumkan dengan jelas.
+
+
+Ada perbedaan antara:
+
+SKPI
+
+CRT
+
+
+CRT:
+
+Bagian SKPI 10.
+
+Berisi file sertifikatnya.
+
+
+SKPI:
+
+Berisi daftar/list pengalaman.
+
+Sertifikat jadi dasar pengecekan.
+
+
+Dosen akan mengecek sertifikat sebagai dasar validasi.
+
+Ada kemungkinan hanya berupa teks list saja.
+
+
+
+---
+
+4. Verifikasi Data Mahasiswa
+
+Beberapa bagian yang ditanyakan:
+
+a. Dosen Pembimbing
+
+Yang dimaksud:
+
+Dosen Pembimbing Akademik, atau
+
+Dosen Pembimbing TA?
+
+
+Ada dua kolom lagi yang perlu diisi.
+
+
+b. Alamat Kerja
+
+Jika tidak bekerja:
+
+Isi strip (-).
+
+
+Jika bekerja:
+
+Isi alamat kerja.
+
+
+Jabatan diisi sesuai pekerjaan.
+
+Kalau tidak ada kerjaan, cukup strip.
+
+
+
+---
+
+5. Pengajuan TA
+
+Ada perbedaan durasi.
+
+Dijelaskan tidak masalah.
+
+Jika sudah ganti judul atau ada perubahan, tidak jadi masalah karena sudah diproses sebelumnya.
+
+Akan dicoba disusun dan dikirim ulang untuk dicek apakah sudah benar.
+
+
+
+---
+
+Inti Besar yang Sebenarnya Terjadi
+
+1. Sedang proses pengumpulan dan pengunggahan dokumen kelulusan.
+
+
+2. Banyak kebingungan teknis tentang:
+
+Format file.
+
+Apa yang harus di-upload.
+
+Apa yang cukup satu saja.
+
+Mana yang berupa file mentah, mana yang berupa PDF hasil sistem.
+
+
+
+3. SKPI bukan sekadar upload sertifikat, tapi:
+
+Input data ke SIA → print to PDF → upload hasilnya.
+
+
+
+4. File proyek (Python, dll.) cukup relevan saja dan dikompresi (ZIP).
+
+
+5. Beberapa bagian boleh diisi strip jika tidak relevan.
+
+
+6. Jurnal dan media pembelajaran tidak perlu semuanya, cukup satu contoh.
+
+
+
+
+---
+
+Jika dilihat dari cara bicaranya, terlihat:
+
+Ada kebingungan sistematis.
+
+Banyak konfirmasi berulang.
+
+Takut salah upload.
+
+Takut format tidak sesuai.
+
+Ingin memastikan semua aman sebelum submit.
+
+
+Kalau ingin, saya bisa bantu susun checklist final supaya tidak ada yang terlewat dan tidak bolak-balik revisi.
+
+==================================================
+di sini record ; lebih kayak ini mas saya udah bikin ; dari file ; liuran itu pak ; yang di bagian ke 9 ; nah itu tuh kayak gimana mas ya ; skemanya apa? ; aplikatif ; ya ada ; upload ke drive mas ; ada 1 giga lebih? ; lebih dari 20 ; berapa pak? ; gak nyampe 1 giga sih ; tapi untuk ; tapi gak apa-apa kan mas ; kalau seandainya masalnya tuh ada beberapa ; kayak filenya tuh kayak pythos ; kayak gitu-gitu ; itu buat bukti aja ; jadi mas nanti upload di drive mas ; di set ke situ ; oke ; tapi pythosnya ; bisa gak perlu di ; sama juga kayak ; ada face juga kayak gitu ; jadi saya filenya tuh terpisah-pisah kayak gitu ; makanya ; lmn-nya ya ; jadi itu aja ; circle smart saja yang python-nya atau apanya gitu ; oke ; di zip aja ; berarti ini berarti ; di zip ya ; baik ; berarti pertama-tama ada ; ini jurnal gak usah dulu ya ; jurnal ; itu pilih salah satu ; oh pilih salah satu ; itu salah satu ; berarti saya yang yang ketiga pak ya ; hasil kompelnya boleh ; tapi mas kan bukan kompel ya ; iya ; tapi lebih ke ; iya ; jadi kita nanti di zip aja ; oke ; berarti saya ; apa ; di zip aja ; di zip aja ; itu bilang bapak shortcut ya ; saya perlu kasih lihat ; di word-nya ada ; ada coding gitu ; ngasih file aja ya ; oke ; ini media pelajar ; pelajaran gak usah berarti pak ya ; itu salah satu aja ; yang ketiga ya ; oke oke makasih ; sekarang di bagian ini pak ; skpi ; saya pahamnya skpi itu ; ini kayak download pdf gitu pak ya ; bukan ; jadi gini ; ini ; mas lisia itu ada namanya pengalaman mahasiswa ; iya ; di sebelah kiri itu ; iya ; jadi mas lisia sesuai dengan satu sertifikat yang mas upload kemarin ; oke ; di upload tuh ; jadi bentuknya pdf nih ; eh word ; tuh satu buji ; masukin lisia ; itu di pengalaman mahasiswa itu diponjokkan atas ada tambah kelas ; itu mas lihat di ini ada pandangan pasal sidang ada cara masukinnya ; ditambah sampai 10 ; udah ; nanti bisa dicetak listnya ; cetak listnya ; print to pdf itu yang di upload ; ini yang untuk pdf alaman SIA ini kan pak ; he'eh ; jadi dari mas isi di SIA ; itu isi di SIA ; nanti bisa dicetak print to pdf ; nah itu yang di upload ; bukannya ada crt pak ya ; itu filenya ; itu filenya ; oh ; oh sertifikatnya ; interface yang ada di sianya ; oh ; betul ; berarti saya dibikin kayak ada kategorinya ; sama tahunnya lebih perjelas gitu ya ; itu contoh panggil sia di dalam pdf ini ya yah ; isinya kayak gini ; itu contohnya ; saya gak paham ; agak sedikit beda sama CRT berarti ; CRT ; CRT itu bagian SKPI 10 ; juga gitu ; itu file sertifikatnya ; ini listnya ; nanti saya ngecek sertifikatnya ; itu dasarnya ; soalnya itu ada ; text list juga soalnya ; tapi saya coba cek dulu ; oh itu tulisan doang ; oke ; sama ini ; di bagian ; verifikasi data mahasiswa itu ; disini bilangnya dosan pembimbing ya ; itu pembimbing akademi apa ; TA ; sama satu lagi ; ada berapa lagi nih ya ; oke ada dua lagi pak ; ini alamat kerja itu ; lebih ke universitas aja pak ya ; sama jabatannya mahasiswa ya ; kerja ; itu biasanya buat yang punya kerjaan ; kalau gak ada mas trip aja ; strip aja ya ; sama satu lagi nih mas ; yang bagian pengajuan TA ; apa? ; pengajuan TA ; durasi saya agak beda gitu ya ; oh gapapa ; oh itu gak sederhana sih itu ; oke ; pas lagi mas udah ganti udun ; saya ganti ; oke ; karena kan udah obat sih itu ; yaudah ; nanti saya coba bikin pak ya ; yang bagian luruan itu ; eh ; bukan ya SKPI itu nanti ; saya coba kasih ke mas ya ; kalau seandainya bener ya mas ya ; oke ; kasih mas ya ; kak ; makasih ya
+
+==================================================
+TIMESTAMPS:
+
+[00:00 - 00:00]
+di sini record
+
+[00:00 - 00:03]
+lebih kayak ini mas saya udah bikin
+
+[00:03 - 00:05]
+dari file
+
+[00:05 - 00:06]
+liuran itu pak
+
+[00:06 - 00:08]
+yang di bagian ke 9
+
+[00:08 - 00:10]
+nah itu tuh kayak gimana mas ya
+
+[00:10 - 00:11]
+skemanya apa?
+
+[00:12 - 00:13]
+aplikatif
+
+[00:13 - 00:14]
+ya ada
+
+[00:16 - 00:18]
+upload ke drive mas
+
+[00:18 - 00:20]
+ada 1 giga lebih?
+
+[00:21 - 00:22]
+lebih dari 20
+
+[00:22 - 00:23]
+berapa pak?
+
+[00:24 - 00:26]
+gak nyampe 1 giga sih
+
+[00:26 - 00:27]
+tapi untuk
+
+[00:29 - 00:35]
+tapi gak apa-apa kan mas
+
+[00:35 - 00:37]
+kalau seandainya masalnya tuh ada beberapa
+
+[00:37 - 00:39]
+kayak filenya tuh kayak pythos
+
+[00:39 - 00:40]
+kayak gitu-gitu
+
+[00:40 - 00:41]
+itu buat bukti aja
+
+[00:41 - 00:46]
+jadi mas nanti upload di drive mas
+
+[00:46 - 00:47]
+di set ke situ
+
+[00:47 - 00:48]
+oke
+
+[00:48 - 00:50]
+tapi pythosnya
+
+[00:51 - 00:52]
+bisa gak perlu di
+
+[00:54 - 00:55]
+sama juga kayak
+
+[00:55 - 00:57]
+ada face juga kayak gitu
+
+[00:57 - 01:00]
+jadi saya filenya tuh terpisah-pisah kayak gitu
+
+[01:00 - 01:00]
+makanya
+
+[01:01 - 01:02]
+lmn-nya ya
+
+[01:02 - 01:03]
+jadi itu aja
+
+[01:03 - 01:05]
+circle smart saja yang python-nya atau apanya gitu
+
+[01:05 - 01:06]
+oke
+
+[01:06 - 01:08]
+di zip aja
+
+[01:08 - 01:09]
+berarti ini berarti
+
+[01:09 - 01:10]
+di zip ya
+
+[01:10 - 01:11]
+baik
+
+[01:12 - 01:13]
+berarti pertama-tama ada
+
+[01:13 - 01:15]
+ini jurnal gak usah dulu ya
+
+[01:15 - 01:16]
+jurnal
+
+[01:16 - 01:17]
+itu pilih salah satu
+
+[01:17 - 01:18]
+oh pilih salah satu
+
+[01:19 - 01:20]
+itu salah satu
+
+[01:22 - 01:24]
+berarti saya yang yang ketiga pak ya
+
+[01:25 - 01:26]
+hasil kompelnya boleh
+
+[01:26 - 01:28]
+tapi mas kan bukan kompel ya
+
+[01:28 - 01:29]
+iya
+
+[01:29 - 01:29]
+tapi lebih ke
+
+[01:30 - 01:30]
+iya
+
+[01:30 - 01:32]
+jadi kita nanti di zip aja
+
+[01:32 - 01:33]
+oke
+
+[01:33 - 01:34]
+berarti saya
+
+[01:34 - 01:35]
+apa
+
+[01:35 - 01:35]
+di zip aja
+
+[01:35 - 01:36]
+di zip aja
+
+[01:36 - 01:38]
+itu bilang bapak shortcut ya
+
+[01:38 - 01:39]
+saya perlu kasih lihat
+
+[01:39 - 01:40]
+di word-nya ada
+
+[01:40 - 01:42]
+ada coding gitu
+
+[01:42 - 01:43]
+ngasih file aja ya
+
+[01:43 - 01:44]
+oke
+
+[01:44 - 01:46]
+ini media pelajar
+
+[01:46 - 01:47]
+pelajaran gak usah berarti pak ya
+
+[01:47 - 01:48]
+itu salah satu aja
+
+[01:48 - 01:49]
+yang ketiga ya
+
+[01:49 - 01:51]
+oke oke makasih
+
+[01:51 - 01:53]
+sekarang di bagian ini pak
+
+[01:53 - 01:54]
+skpi
+
+[01:54 - 01:56]
+saya pahamnya skpi itu
+
+[01:56 - 01:57]
+ini kayak download pdf gitu pak ya
+
+[01:58 - 01:59]
+bukan
+
+[01:59 - 01:59]
+jadi gini
+
+[01:59 - 02:00]
+ini
+
+[02:00 - 02:02]
+mas lisia itu ada namanya pengalaman mahasiswa
+
+[02:02 - 02:02]
+iya
+
+[02:02 - 02:03]
+di sebelah kiri itu
+
+[02:03 - 02:04]
+iya
+
+[02:04 - 02:07]
+jadi mas lisia sesuai dengan satu sertifikat yang mas upload kemarin
+
+[02:07 - 02:08]
+oke
+
+[02:08 - 02:09]
+di upload tuh
+
+[02:09 - 02:11]
+jadi bentuknya pdf nih
+
+[02:12 - 02:13]
+eh word
+
+[02:13 - 02:14]
+tuh satu buji
+
+[02:15 - 02:15]
+masukin lisia
+
+[02:15 - 02:18]
+itu di pengalaman mahasiswa itu diponjokkan atas ada tambah kelas
+
+[02:18 - 02:22]
+itu mas lihat di ini ada pandangan pasal sidang ada cara masukinnya
+
+[02:22 - 02:23]
+ditambah sampai 10
+
+[02:23 - 02:24]
+udah
+
+[02:25 - 02:26]
+nanti bisa dicetak listnya
+
+[02:26 - 02:28]
+cetak listnya
+
+[02:28 - 02:29]
+print to pdf itu yang di upload
+
+[02:29 - 02:32]
+ini yang untuk pdf alaman SIA ini kan pak
+
+[02:32 - 02:32]
+he'eh
+
+[02:33 - 02:34]
+jadi dari mas isi di SIA
+
+[02:35 - 02:36]
+itu isi di SIA
+
+[02:37 - 02:39]
+nanti bisa dicetak print to pdf
+
+[02:39 - 02:40]
+nah itu yang di upload
+
+[02:41 - 02:43]
+bukannya ada crt pak ya
+
+[02:43 - 02:45]
+itu filenya
+
+[02:45 - 02:45]
+itu filenya
+
+[02:46 - 02:46]
+oh
+
+[02:46 - 02:47]
+oh sertifikatnya
+
+[02:49 - 02:50]
+interface yang ada di sianya
+
+[02:51 - 02:51]
+oh
+
+[02:51 - 02:52]
+betul
+
+[02:52 - 02:55]
+berarti saya dibikin kayak ada kategorinya
+
+[02:56 - 02:58]
+sama tahunnya lebih perjelas gitu ya
+
+[02:58 - 02:59]
+itu contoh panggil sia di dalam pdf ini ya yah
+
+[02:59 - 03:00]
+isinya kayak gini
+
+[03:00 - 03:01]
+itu contohnya
+
+[03:01 - 03:05]
+saya gak paham
+
+[03:21 - 03:24]
+agak sedikit beda sama CRT berarti
+
+[03:25 - 03:26]
+CRT
+
+[03:26 - 03:28]
+CRT itu bagian SKPI 10
+
+[03:28 - 03:29]
+juga gitu
+
+[03:29 - 03:31]
+itu file sertifikatnya
+
+[03:31 - 03:32]
+ini listnya
+
+[03:35 - 03:38]
+nanti saya ngecek sertifikatnya
+
+[03:38 - 03:40]
+itu dasarnya
+
+[03:43 - 03:47]
+soalnya itu ada
+
+[03:47 - 03:49]
+text list juga soalnya
+
+[03:49 - 03:50]
+tapi saya coba cek dulu
+
+[03:50 - 03:55]
+oh itu tulisan doang
+
+[03:55 - 03:57]
+oke
+
+[04:01 - 04:03]
+sama ini
+
+[04:07 - 04:08]
+di bagian
+
+[04:10 - 04:11]
+verifikasi data mahasiswa itu
+
+[04:11 - 04:13]
+disini bilangnya dosan pembimbing ya
+
+[04:13 - 04:14]
+itu pembimbing akademi apa
+
+[04:14 - 04:15]
+TA
+
+[04:17 - 04:19]
+sama satu lagi
+
+[04:19 - 04:20]
+ada berapa lagi nih ya
+
+[04:22 - 04:23]
+oke ada dua lagi pak
+
+[04:23 - 04:25]
+ini alamat kerja itu
+
+[04:25 - 04:27]
+lebih ke universitas aja pak ya
+
+[04:27 - 04:29]
+sama jabatannya mahasiswa ya
+
+[04:29 - 04:29]
+kerja
+
+[04:29 - 04:32]
+itu biasanya buat yang punya kerjaan
+
+[04:32 - 04:34]
+kalau gak ada mas trip aja
+
+[04:34 - 04:34]
+strip aja ya
+
+[04:35 - 04:36]
+sama satu lagi nih mas
+
+[04:36 - 04:38]
+yang bagian pengajuan TA
+
+[04:40 - 04:41]
+apa?
+
+[04:41 - 04:42]
+pengajuan TA
+
+[04:42 - 04:45]
+durasi saya agak beda gitu ya
+
+[04:46 - 04:47]
+oh gapapa
+
+[04:47 - 04:48]
+oh itu gak sederhana sih itu
+
+[04:49 - 04:49]
+oke
+
+[04:49 - 04:51]
+pas lagi mas udah ganti udun
+
+[04:51 - 04:52]
+saya ganti
+
+[04:52 - 04:52]
+oke
+
+[04:52 - 04:53]
+karena kan udah obat sih itu
+
+[04:54 - 04:54]
+yaudah
+
+[04:54 - 04:56]
+nanti saya coba bikin pak ya
+
+[04:56 - 04:58]
+yang bagian luruan itu
+
+[04:58 - 04:58]
+eh
+
+[04:58 - 05:01]
+bukan ya SKPI itu nanti
+
+[05:01 - 05:02]
+saya coba kasih ke mas ya
+
+[05:02 - 05:03]
+kalau seandainya bener ya mas ya
+
+[05:03 - 05:04]
+oke
+
+[05:04 - 05:05]
+kasih mas ya
+
+[05:06 - 05:06]
+kak
+
+[05:07 - 05:07]
+makasih ya
+

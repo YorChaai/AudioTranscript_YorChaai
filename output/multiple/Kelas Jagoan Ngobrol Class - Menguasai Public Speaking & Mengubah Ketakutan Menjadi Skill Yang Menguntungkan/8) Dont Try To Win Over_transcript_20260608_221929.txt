@@ -1,0 +1,99 @@
+Source: 8) Dont Try To Win Over.mp3
+Language Mode: Indonesian
+Detected: id (100.0%)
+Transcribed: 2026-06-08 22:56:22
+==================================================
+
+Yang kedelapan, ngobrol itu bukan untuk memenangkan sesuatu. ; Memenangkan debat misalnya. ; Kamu ngerasa ketika bisa membuat dia terlihat bodoh, membuat dia kalah, ; kamu akan ngerasa jagoan. ; Wah, ketika menang debat, akhirnya kamu egonya terpoles. ; No, kalau kamu memang mau debat, silahkan ke klub debat. ; Silahkan saatnya, oke yuk kita diskusi ini yuk sampai debat. ; Boleh, silahkan. ; Tapi ketika ngobrol, sama ini debat, sama itu debat, sama ini debat, ; akhirnya akan membuat kamu jadi annoying. ; Kamu akan jadi pribadi yang tidak disukai orang. ; Orang jadi malas ngobrol sama kamu. ; Karena apa? ; Karena kamu ngedebat terus, kamu berusaha menjatuhkan orang yang kamu ajak ngobrol. ; And that's not a fucking cool idea. ; Kadang ketika aku ngerasa dia salah, aku, oh gitu, oke, oke, oke gitu. ; Jadi nggak harus selalu aku menunjukkan atau membuktikan bahwa aku benar. ; Kadang aku cukup, oh yaudah, oke. ; Oke gitu, hmm gitu ya bro ya. ; Oke, I see. ; Tidak berusaha mengalahkan, tidak berusaha menjatuhkan, tidak berusaha membuat dia bodoh ataupun salah. ; Itu.
+
+==================================================
+TIMESTAMPS (SRT Format):
+
+1
+00:00:00,000 --> 00:00:03,919
+Yang kedelapan, ngobrol itu bukan untuk memenangkan sesuatu.
+
+2
+00:00:04,160 --> 00:00:05,519
+Memenangkan debat misalnya.
+
+3
+00:00:05,519 --> 00:00:10,160
+Kamu ngerasa ketika bisa membuat dia terlihat bodoh, membuat dia kalah,
+
+4
+00:00:10,160 --> 00:00:11,560
+kamu akan ngerasa jagoan.
+
+5
+00:00:11,599 --> 00:00:15,000
+Wah, ketika menang debat, akhirnya kamu egonya terpoles.
+
+6
+00:00:15,080 --> 00:00:19,199
+No, kalau kamu memang mau debat, silahkan ke klub debat.
+
+7
+00:00:19,359 --> 00:00:22,280
+Silahkan saatnya, oke yuk kita diskusi ini yuk sampai debat.
+
+8
+00:00:22,300 --> 00:00:23,000
+Boleh, silahkan.
+
+9
+00:00:23,039 --> 00:00:27,140
+Tapi ketika ngobrol, sama ini debat, sama itu debat, sama ini debat,
+
+10
+00:00:27,140 --> 00:00:31,019
+akhirnya akan membuat kamu jadi annoying.
+
+11
+00:00:31,679 --> 00:00:34,219
+Kamu akan jadi pribadi yang tidak disukai orang.
+
+12
+00:00:34,420 --> 00:00:36,159
+Orang jadi malas ngobrol sama kamu.
+
+13
+00:00:36,259 --> 00:00:36,939
+Karena apa?
+
+14
+00:00:37,060 --> 00:00:41,799
+Karena kamu ngedebat terus, kamu berusaha menjatuhkan orang yang kamu ajak ngobrol.
+
+15
+00:00:41,899 --> 00:00:44,579
+And that's not a fucking cool idea.
+
+16
+00:00:44,960 --> 00:00:50,219
+Kadang ketika aku ngerasa dia salah, aku, oh gitu, oke, oke, oke gitu.
+
+17
+00:00:50,359 --> 00:00:54,960
+Jadi nggak harus selalu aku menunjukkan atau membuktikan bahwa aku benar.
+
+18
+00:00:55,039 --> 00:00:56,939
+Kadang aku cukup, oh yaudah, oke.
+
+19
+00:00:57,140 --> 00:00:59,000
+Oke gitu, hmm gitu ya bro ya.
+
+20
+00:00:59,039 --> 00:00:59,759
+Oke, I see.
+
+21
+00:00:59,979 --> 00:01:05,599
+Tidak berusaha mengalahkan, tidak berusaha menjatuhkan, tidak berusaha membuat dia bodoh ataupun salah.
+
+22
+00:01:06,099 --> 00:01:06,620
+Itu.
+

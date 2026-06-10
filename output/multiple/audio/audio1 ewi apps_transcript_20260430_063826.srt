@@ -1,0 +1,9044 @@
+1
+00:00:01,679 --> 00:00:03,919
+kita mulai dari settlement aja dulu
+
+2
+00:00:03,919 --> 00:00:07,719
+disini kan kita kan disini ada bagian list-listnya ya
+
+3
+00:00:07,719 --> 00:00:10,060
+contohnya dari singlenya itu
+
+4
+00:00:10,060 --> 00:00:12,220
+yang dari papa kan ada singlenya kan
+
+5
+00:00:12,220 --> 00:00:14,060
+pengeluaran sendiri aja
+
+6
+00:00:14,060 --> 00:00:18,160
+dimana itemnya cuma satuan aja
+
+7
+00:00:24,079 --> 00:00:25,699
+ini kenapa bisa 4
+
+8
+00:00:25,699 --> 00:00:27,079
+karena tadi disengajain
+
+9
+00:00:27,079 --> 00:00:28,539
+apa namanya
+
+10
+00:00:29,440 --> 00:00:30,219
+ditambahin gitu
+
+11
+00:00:30,219 --> 00:00:33,460
+intinya tuh pendatanya sampe 3000 ada bug gak di excelnya
+
+12
+00:00:33,460 --> 00:00:35,679
+intinya di single ini satu aja itemnya
+
+13
+00:00:35,679 --> 00:00:37,140
+ini gak bisa 4
+
+14
+00:00:37,140 --> 00:00:38,399
+disengajain tadi
+
+15
+00:00:39,079 --> 00:00:40,380
+lebih baik gini aja dulu ya
+
+16
+00:01:01,240 --> 00:01:03,799
+disini kadang-kadang cerebral
+
+17
+00:01:13,219 --> 00:01:16,019
+kalo disini
+
+18
+00:01:17,539 --> 00:01:18,939
+fans
+
+19
+00:01:18,939 --> 00:01:19,040
+ber UFC
+
+20
+00:01:19,040 --> 00:01:19,659
+gt
+
+21
+00:01:36,959 --> 00:01:43,280
+disini untuk pembikinannya tuh kau sendiri bisa bersama-sama sendiri akobat situ intinya itu
+
+22
+00:01:43,280 --> 00:01:51,739
+di dalam setelmenya itu ada ada ada sampai lebih dari berapa item di setelmennya khususnya cuma
+
+23
+00:01:51,739 --> 00:02:01,319
+sendiri aja gitu contohnya disini iya nah disini satu aja disini ada kategori utama yang mana ini
+
+24
+00:02:01,319 --> 00:02:07,879
+sebenarnya tambahan aja aslinya waktu itu sampai biaya ini sampai bisnis dev contohnya ini nah
+
+25
+00:02:07,879 --> 00:02:12,900
+disini tuh Anggap aja kita pilih yang ini dia yang lebih banyak bisa pilih multiple ini sub kategorinya
+
+26
+00:02:12,900 --> 00:02:22,039
+yang saya lihat dari apa bisa dari sini kalau mau atau enggak sebelum kita bikin nih sebelum
+
+27
+00:02:22,039 --> 00:02:28,319
+kita bikin ini tuh kalau mau nambah ke kategori utama juga bisa gitu nah disini juga bisa di
+
+28
+00:02:28,319 --> 00:02:41,719
+multiple juga pakai Papa minta itu disini kita bebas dah namanya nah ini bisa mata uang di daerah
+
+29
+00:02:41,719 --> 00:02:47,599
+usd-usd disini kita atur ya karena nggak bisa real-time kan ya kadang bisa berubah kita Anggap
+
+30
+00:02:47,599 --> 00:02:54,039
+aja Rp10.000 sini udah ada komanya omonya 10 nah ini tanggal kita bisa atur sendiri
+
+31
+00:03:01,180 --> 00:03:08,620
+mau membayarannya itu bisa BCA cash nah disini kemudiannya kita bisa masukin simpan disini kita
+
+32
+00:03:08,620 --> 00:03:10,159
+bisa lihat bagian itunya
+
+33
+00:03:12,040 --> 00:03:13,460
+mengapa ini voice nya
+
+34
+00:03:13,460 --> 00:03:21,039
+Hai disini itu data-datanya disini untuk ini punya pengurennya Nah untuk apa kan bilangkan
+
+35
+00:03:21,039 --> 00:03:25,560
+disini pengen ada yangwarmingnya over ups Biznya itu intinya itu disini dimana
+
+36
+00:03:25,560 --> 00:03:32,219
+kan kita cepet dulu nih Anggap aja sebagai Thor Nah udah masuk nih nah disitu pengen pengen
+
+37
+00:03:32,219 --> 00:03:38,560
+dilihat bisa lihat di sini informasinya lebih jelas-jelasnya samaParty Pak bisa
+
+38
+00:03:38,560 --> 00:03:40,439
+terjumpa bingung edaseda
+
+39
+00:03:42,139 --> 00:03:43,639
+Iya disini evidentnya
+
+40
+00:03:44,519 --> 00:03:45,919
+Gak bisa di download sih
+
+41
+00:03:45,919 --> 00:03:46,800
+Dari aplikasi yang bisa
+
+42
+00:03:46,800 --> 00:03:47,580
+Ini download dari sini
+
+43
+00:03:47,580 --> 00:03:49,159
+Itu dari Google
+
+44
+00:03:52,680 --> 00:03:53,819
+Evidentnya artinya kan
+
+45
+00:03:55,099 --> 00:03:56,120
+Nota-nota itu
+
+46
+00:03:57,219 --> 00:03:58,659
+Cuman notanya itu
+
+47
+00:03:58,659 --> 00:04:00,159
+Belum di download ke servernya
+
+48
+00:04:00,159 --> 00:04:02,000
+Masih kesimpen
+
+49
+00:04:02,000 --> 00:04:03,419
+Iya kesimpen servernya
+
+50
+00:04:03,419 --> 00:04:04,319
+Tapi lebih ke
+
+51
+00:04:04,319 --> 00:04:05,319
+Nah
+
+52
+00:04:08,259 --> 00:04:08,879
+Untuk
+
+53
+00:04:08,879 --> 00:04:10,060
+Tadi menurut apa
+
+54
+00:04:10,060 --> 00:04:10,879
+Approving kan
+
+55
+00:04:10,879 --> 00:04:12,500
+Disini ada bagian rejectnya
+
+56
+00:04:12,500 --> 00:04:13,580
+Bapak kan bilang
+
+57
+00:04:13,580 --> 00:04:14,560
+Mau dikasih komen ya
+
+58
+00:04:14,560 --> 00:04:15,699
+Untuk orang-orang reject tuh
+
+59
+00:04:15,699 --> 00:04:16,459
+Kenapa rasanya
+
+60
+00:04:16,459 --> 00:04:18,279
+Disini bisa sampai berkali-kali
+
+61
+00:04:18,279 --> 00:04:18,579
+Intinya
+
+62
+00:04:19,679 --> 00:04:21,579
+Nah disini bisa enter juga
+
+63
+00:04:21,579 --> 00:04:22,620
+Atau enggak
+
+64
+00:04:22,620 --> 00:04:23,279
+Kasih link
+
+65
+00:04:25,899 --> 00:04:26,500
+Nah
+
+66
+00:04:26,500 --> 00:04:27,920
+Keluarkan item
+
+67
+00:04:27,920 --> 00:04:28,720
+Nah disini
+
+68
+00:04:28,720 --> 00:04:30,040
+Bisa dipilih juga
+
+69
+00:04:30,040 --> 00:04:31,100
+Jadi kalau misalnya
+
+70
+00:04:31,100 --> 00:04:32,439
+Nah disini juga
+
+71
+00:04:32,439 --> 00:04:33,459
+Kalau seandainya udah
+
+72
+00:04:33,459 --> 00:04:34,279
+Oh iya
+
+73
+00:04:34,279 --> 00:04:35,060
+Ini karena
+
+74
+00:04:35,060 --> 00:04:36,319
+Udah tutup ya
+
+75
+00:04:36,319 --> 00:04:37,480
+Kalau udah ditutup itu
+
+76
+00:04:37,480 --> 00:04:38,259
+Harus balik ke draft
+
+77
+00:04:38,259 --> 00:04:38,899
+Ya nanti gak
+
+78
+00:04:38,899 --> 00:04:40,019
+Dibub
+
+79
+00:04:40,019 --> 00:04:42,620
+Nah baru disini bisa di edit gitu
+
+80
+00:04:42,620 --> 00:04:43,959
+Jadi contohnya disini
+
+81
+00:04:45,099 --> 00:04:46,360
+Subkategorinya salah gitu
+
+82
+00:04:46,360 --> 00:04:47,459
+Bisa diperbaiki
+
+83
+00:04:47,459 --> 00:04:49,360
+Nah nanti kalau udah dicentang
+
+84
+00:04:49,360 --> 00:04:49,959
+Centang
+
+85
+00:04:49,959 --> 00:04:50,699
+Nah kalau ada dua
+
+86
+00:04:50,699 --> 00:04:51,779
+Cuman ada dua doang nih
+
+87
+00:04:53,339 --> 00:04:55,019
+Nah kalau udah satu lagi
+
+88
+00:04:55,019 --> 00:04:55,740
+Pending
+
+89
+00:04:55,740 --> 00:04:57,000
+Intinya udah kelar
+
+90
+00:04:57,000 --> 00:04:58,579
+Tapi bisa dibatalin lagi gitu
+
+91
+00:04:59,599 --> 00:05:00,199
+Oke
+
+92
+00:05:03,279 --> 00:05:04,480
+Nah disini submit
+
+93
+00:05:04,480 --> 00:05:05,639
+Nah nanti kalau sudah
+
+94
+00:05:05,639 --> 00:05:07,279
+Sudah jelas semua
+
+95
+00:05:07,279 --> 00:05:08,879
+Dan disini udah jelas
+
+96
+00:05:08,879 --> 00:05:10,000
+Komennya
+
+97
+00:05:10,019 --> 00:05:10,939
+Juga bisa dilihat
+
+98
+00:05:10,939 --> 00:05:11,660
+Kayak gimana
+
+99
+00:05:11,660 --> 00:05:13,180
+Asal centang
+
+100
+00:05:13,180 --> 00:05:14,300
+Udah proof gitu
+
+101
+00:05:14,300 --> 00:05:15,860
+Nah untuk
+
+102
+00:05:15,860 --> 00:05:16,920
+Nanti
+
+103
+00:05:16,920 --> 00:05:17,620
+Nanti ke trip
+
+104
+00:05:17,620 --> 00:05:17,959
+Nanti
+
+105
+00:05:17,959 --> 00:05:19,199
+Datang
+
+106
+00:05:19,199 --> 00:05:21,000
+Disini tadi namanya apa ya
+
+107
+00:05:30,080 --> 00:05:32,379
+Nah ini dia paling atas
+
+108
+00:05:32,379 --> 00:05:32,920
+Itu dia
+
+109
+00:05:32,920 --> 00:05:33,740
+Tempat tadi
+
+110
+00:05:33,740 --> 00:05:35,100
+Hmm
+
+111
+00:05:37,319 --> 00:05:38,079
+Batch
+
+112
+00:05:38,079 --> 00:05:38,720
+Batch itu ini
+
+113
+00:05:38,720 --> 00:05:39,720
+Sebenernya
+
+114
+00:05:39,720 --> 00:05:40,579
+Sebenernya bebas sih mau beli apa
+
+115
+00:05:40,579 --> 00:05:41,079
+Disini
+
+116
+00:05:41,860 --> 00:05:43,079
+Batch itu jatuhnya disini langsung
+
+117
+00:05:43,079 --> 00:05:43,480
+Langsung ada
+
+118
+00:05:44,060 --> 00:05:44,459
+Menurut disini
+
+119
+00:05:44,459 --> 00:05:45,639
+Jadi satu aja
+
+120
+00:05:45,639 --> 00:05:46,100
+Apa?
+
+121
+00:05:46,779 --> 00:05:48,560
+Penguatan sendiri mau penguat batch
+
+122
+00:05:48,560 --> 00:05:49,060
+Jadi satu
+
+123
+00:05:49,860 --> 00:05:49,899
+Oh
+
+124
+00:05:49,899 --> 00:05:51,620
+Enggak disini aja kan
+
+125
+00:05:51,620 --> 00:05:52,600
+Ada pembelian disini
+
+126
+00:05:52,600 --> 00:05:53,360
+Enggak maksudnya
+
+127
+00:05:53,360 --> 00:05:54,680
+Batch itu bata apa
+
+128
+00:05:54,680 --> 00:05:55,579
+Apaan tuh
+
+129
+00:05:55,579 --> 00:05:56,579
+Bata apa ya
+
+130
+00:05:56,579 --> 00:05:58,720
+Itu kan ada dua tab tuh kan
+
+131
+00:05:58,720 --> 00:06:00,160
+Batch ini mau penguatan batch
+
+132
+00:06:00,160 --> 00:06:01,040
+Jadi satu aja
+
+133
+00:06:01,040 --> 00:06:01,779
+Oh
+
+134
+00:06:02,660 --> 00:06:03,740
+Masalahnya takutnya kalau
+
+135
+00:06:03,740 --> 00:06:04,740
+Penguatan sendiri itu
+
+136
+00:06:04,740 --> 00:06:05,279
+Nanti saya
+
+137
+00:06:05,279 --> 00:06:06,660
+Sebenernya tuh aslinya tuh
+
+138
+00:06:06,660 --> 00:06:07,939
+Penguatan sendiri di atas
+
+139
+00:06:07,939 --> 00:06:09,339
+Batchnya di bawah
+
+140
+00:06:09,339 --> 00:06:09,699
+Nanti kalau penguatan sendiri di atas
+
+141
+00:06:09,720 --> 00:06:10,500
+Nanti kalau cari batch
+
+142
+00:06:10,500 --> 00:06:12,379
+Nanti meleskron jauh jauh gitu
+
+143
+00:06:12,379 --> 00:06:14,040
+Tujuan saya tuh biar
+
+144
+00:06:14,040 --> 00:06:15,259
+Masalah sebenernya kan
+
+145
+00:06:15,259 --> 00:06:16,720
+Nanti muncul yang
+
+146
+00:06:16,720 --> 00:06:17,699
+Kalau yang belum di
+
+147
+00:06:18,420 --> 00:06:19,540
+Belum di improve kan
+
+148
+00:06:19,540 --> 00:06:20,399
+Belum di improve kan
+
+149
+00:06:20,399 --> 00:06:21,220
+Mungkin muncul yang paling atas
+
+150
+00:06:21,220 --> 00:06:21,899
+Hmm
+
+151
+00:06:23,680 --> 00:06:24,240
+Tidak
+
+152
+00:06:24,240 --> 00:06:25,420
+Tidak ada masalah
+
+153
+00:06:25,420 --> 00:06:27,060
+Jadi kalau masih
+
+154
+00:06:27,720 --> 00:06:28,040
+Apa masih
+
+155
+00:06:28,720 --> 00:06:29,339
+Revision gitu
+
+156
+00:06:29,339 --> 00:06:30,800
+Tarutnya disini gitu ya
+
+157
+00:06:30,800 --> 00:06:31,680
+Maaf maksudnya tuh
+
+158
+00:06:32,720 --> 00:06:33,699
+Di atas nya gitu ya
+
+159
+00:06:33,699 --> 00:06:34,819
+Maksudnya jadi satu aja
+
+160
+00:06:36,439 --> 00:06:37,180
+Expay sih
+
+161
+00:06:37,920 --> 00:06:38,480
+Oke
+
+162
+00:06:49,020 --> 00:06:54,339
+di sini kan ada explain ya contohnya tadi
+
+163
+00:06:54,339 --> 00:07:00,860
+ini artinya yang model kayak multi multi ini explain itu ya misalnya
+
+164
+00:07:07,740 --> 00:07:12,500
+tadi enggak permasalahan tadi apa namanya tuh basset panggung bawah jadi
+
+165
+00:07:12,500 --> 00:07:18,300
+kalau seandainya banyak itu pengen cek itu asuk bawah banget gitu nggak bisa jadi
+
+166
+00:07:20,500 --> 00:07:24,980
+jadinya kan disini saya maunya tuh single dulu gitu pengatasnya gitu karena kan ikutin
+
+167
+00:07:24,980 --> 00:07:30,199
+dari Excel juga kayak gitu-gitu jadinya tuh dilihatin itunya gimana sih tapi kalau secara
+
+168
+00:07:30,199 --> 00:07:30,839
+apa
+
+169
+00:07:30,839 --> 00:07:39,220
+revisi tetap A jadi jadinya tuh ada dua yang single-single kan sebatas
+
+170
+00:07:39,220 --> 00:07:46,879
+jadi ada ada single ada bass gitu jadinya tuh ini sebenarnya tuh aslin itu gigi gitu
+
+171
+00:07:46,879 --> 00:07:49,980
+jadi kalau ada bassnya revisi dia tetap dua singlenya gitu
+
+172
+00:07:55,820 --> 00:08:00,279
+biar itu aja maksudnya kena-kena revisi itu taruhnya di atas
+
+173
+00:08:00,279 --> 00:08:00,480
+gitu
+
+174
+00:08:00,839 --> 00:08:03,800
+saya lihat kan kalau buds kalau terpisah itu dia taruh nya auto ini
+
+175
+00:08:03,800 --> 00:08:06,699
+jadi di atas sini ini nggak di sini gitu karena di bagian sini di bagian buds
+
+176
+00:08:06,699 --> 00:08:09,939
+pulled out harus revisi just mentah ini disini revisi bentuk nya parrot
+
+177
+00:08:11,299 --> 00:08:12,800
+dia mau di atas lah
+
+178
+00:08:12,800 --> 00:08:14,540
+kalo ada revisi pemainnya sulit sekali
+
+179
+00:08:15,579 --> 00:08:22,959
+apapun itu kepala bisa revisi jadi lalu bisa lihat sittulun kalau sudah ada revisi sudah
+
+180
+00:08:22,959 --> 00:08:28,120
+deporisasi lalu dia balik ke ini balik ke tempat ke tempatnya bisa
+
+181
+00:08:28,120 --> 00:08:30,819
+ke tempatnya bisa like gitu babe bisa cuman iya enggak praktik ke atas liat nih ituésh
+
+182
+00:08:30,819 --> 00:08:37,200
+nggak papa sih sebenernya dia tadi bikin kayak biar lebih lebih enak aja lihat notifikasi itu
+
+183
+00:08:37,200 --> 00:08:42,639
+tahunnya paling-paling duluan gitu lihat kan kalau terbuka kan pasti paling atas kan yang
+
+184
+00:08:42,639 --> 00:08:50,120
+dilihatkan iya apa kalau membuka pertama kali kalau misalnya mau lihat notifikasi kan notifikasinya
+
+185
+00:08:50,120 --> 00:08:55,399
+pasti sebetulnya keluar duluan di sebatas intinya kalau belum approve itu masih di atas kalau
+
+186
+00:08:55,399 --> 00:09:02,120
+belum approve itu ikutin alur itunya kayak gitu kalau dia ya memang kayak gitu kan maksudnya jadi
+
+187
+00:09:02,120 --> 00:09:14,860
+maunya nih terpisah jadiin satu aja aduh ini ngurusinnya ya nggak apa-apa kalau cuma pemisahan
+
+188
+00:09:14,860 --> 00:09:22,159
+aja masalahnya tuh ini sama satu lagi nih ya tadi box ini ya anggap aja ini trip ya trip Bandung
+
+189
+00:09:24,380 --> 00:09:24,940
+disini
+
+190
+00:09:30,420 --> 00:09:37,100
+ini juga opsional jadi nggak bisa disimpul juga mewakilkan nanti bisa tambah lagi sampai banyak
+
+191
+00:09:41,740 --> 00:09:47,960
+contohnya kayak gini asad mit juga masalahnya kita hari berfajar ini reject ini masih bisa
+
+192
+00:09:48,940 --> 00:09:52,519
+sumber maksudnya apa nih sumber
+
+193
+00:09:52,519 --> 00:09:52,960
+pasti
+
+194
+00:09:53,740 --> 00:09:54,379
+pasti
+
+195
+00:09:54,379 --> 00:09:57,860
+, iya makanya kan maksudnya tuh
+
+196
+00:09:58,580 --> 00:10:01,240
+itu maksudnya sumbernya itu sumber apa kalau Dio maksudnya?
+
+197
+00:10:01,980 --> 00:10:02,899
+apa kak?
+
+198
+00:10:03,360 --> 00:10:04,279
+sumber apa kak?
+
+199
+00:10:04,279 --> 00:10:08,000
+itu sumber
+
+200
+00:10:09,960 --> 00:10:10,980
+itu sumber apa?
+
+201
+00:10:11,220 --> 00:10:12,379
+seri mandiri
+
+202
+00:10:13,379 --> 00:10:14,799
+oh jadi gini
+
+203
+00:10:15,659 --> 00:10:18,580
+di excel itu kan yang papa-papa kasih itu kan
+
+204
+00:10:19,519 --> 00:10:20,940
+jadi gini maksud Dio
+
+205
+00:10:21,720 --> 00:10:24,159
+Dio tuh awalnya tuh bikinnya itu
+
+206
+00:10:24,379 --> 00:10:26,500
+papa kan nanti kan kasbon gitu ya
+
+207
+00:10:26,500 --> 00:10:27,539
+nah papa tuh kan
+
+208
+00:10:28,640 --> 00:10:29,320
+pembayaran
+
+209
+00:10:29,320 --> 00:10:31,259
+nah orang itu kan nanti kan
+
+210
+00:10:31,259 --> 00:10:33,659
+bayarinnya tuh pakai apa itu gitu
+
+211
+00:10:33,659 --> 00:10:35,720
+dari papa dulu papa kasih BCA
+
+212
+00:10:35,720 --> 00:10:36,460
+oh nggak
+
+213
+00:10:36,460 --> 00:10:37,320
+salah
+
+214
+00:10:37,320 --> 00:10:38,440
+buat disini
+
+215
+00:10:38,440 --> 00:10:39,259
+iya
+
+216
+00:10:39,940 --> 00:10:40,620
+iya
+
+217
+00:10:40,620 --> 00:10:41,000
+iya
+
+218
+00:10:41,000 --> 00:10:41,960
+iya
+
+219
+00:10:44,740 --> 00:10:45,419
+iya
+
+220
+00:10:46,680 --> 00:10:47,360
+iya
+
+221
+00:10:47,360 --> 00:10:47,899
+iya
+
+222
+00:10:47,899 --> 00:10:48,059
+iya
+
+223
+00:10:48,059 --> 00:10:48,080
+iya
+
+224
+00:10:48,080 --> 00:10:48,460
+iya
+
+225
+00:11:18,460 --> 00:11:19,600
+ini kita yang di lapangan nih
+
+226
+00:11:19,600 --> 00:11:20,279
+iya
+
+227
+00:11:20,279 --> 00:11:20,980
+bikin kasbon
+
+228
+00:11:20,980 --> 00:11:21,919
+emang bikin
+
+229
+00:11:22,460 --> 00:11:23,139
+catamen kasbon
+
+230
+00:11:23,139 --> 00:11:23,820
+bikin
+
+231
+00:11:24,460 --> 00:11:24,500
+expand
+
+232
+00:11:25,460 --> 00:11:25,519
+expand
+
+233
+00:11:25,519 --> 00:11:25,740
+expand
+
+234
+00:11:25,740 --> 00:11:28,139
+nah ini baru
+
+235
+00:11:28,139 --> 00:11:29,919
+pak Nevi
+
+236
+00:11:31,460 --> 00:11:31,919
+siapa namanya?
+
+237
+00:11:33,460 --> 00:11:33,919
+ini dia
+
+238
+00:11:33,919 --> 00:11:35,159
+approval
+
+239
+00:11:37,200 --> 00:11:37,960
+nah
+
+240
+00:11:39,299 --> 00:11:40,059
+nanti
+
+241
+00:11:41,460 --> 00:11:42,200
+kayak gini dia
+
+242
+00:11:42,200 --> 00:11:46,080
+ini kita keluarin uang dulu sendiri
+
+243
+00:11:46,080 --> 00:11:47,340
+nanti
+
+244
+00:11:47,340 --> 00:11:48,700
+yang dia approve pak Nevi
+
+245
+00:11:48,700 --> 00:11:50,039
+harus dibayarin
+
+246
+00:11:50,039 --> 00:11:51,019
+jadi ini
+
+247
+00:11:51,600 --> 00:11:53,419
+sumbernya ini sebenarnya sumber apa gitu?
+
+248
+00:11:53,899 --> 00:11:54,399
+dari
+
+249
+00:11:54,399 --> 00:11:55,559
+dari papa kan
+
+250
+00:11:55,559 --> 00:11:56,360
+jadinya tuh papa
+
+251
+00:11:56,360 --> 00:11:58,159
+kalau untuk dari kasbonnya tuh
+
+252
+00:11:58,159 --> 00:11:59,399
+saya pikirnya tuh nanti kan
+
+253
+00:11:59,399 --> 00:12:00,860
+nggak ke data
+
+254
+00:12:00,860 --> 00:12:01,299
+nah
+
+255
+00:12:01,980 --> 00:12:02,840
+maksud saya tuh
+
+256
+00:12:02,840 --> 00:12:04,299
+waktu dia beli itu tuh
+
+257
+00:12:04,299 --> 00:12:05,899
+tadi tuh nggak kepikir
+
+258
+00:12:05,899 --> 00:12:07,220
+kalau ada Excel yang kedua
+
+259
+00:12:07,220 --> 00:12:08,080
+yang apa tuh
+
+260
+00:12:08,080 --> 00:12:08,940
+yang papa bilang tuh
+
+261
+00:12:08,940 --> 00:12:10,159
+ada Mandiri sama BCA
+
+262
+00:12:10,159 --> 00:12:10,639
+itu dari
+
+263
+00:12:10,639 --> 00:12:12,679
+dari pengeluaran papa sendiri
+
+264
+00:12:12,679 --> 00:12:14,740
+nah Dio kira tuh pengeluaran dari orang itu
+
+265
+00:12:14,740 --> 00:12:17,200
+kalau yang ini tuh pengeluaran dari orang itu gitu
+
+266
+00:12:17,200 --> 00:12:19,500
+contohnya tadi papa udah ngasih duit sendiri
+
+267
+00:12:20,200 --> 00:12:20,580
+nah
+
+268
+00:12:20,580 --> 00:12:21,639
+habis itu orangnya
+
+269
+00:12:22,200 --> 00:12:22,799
+apa namanya
+
+270
+00:12:22,799 --> 00:12:23,940
+pakai duitnya sendiri
+
+271
+00:12:23,940 --> 00:12:25,559
+tapi dia bayar pakai apa gitu
+
+272
+00:12:25,559 --> 00:12:26,259
+nanti tercatat
+
+273
+00:12:26,259 --> 00:12:26,980
+pasti sendiri
+
+274
+00:12:26,980 --> 00:12:28,220
+ya itu terserah yang
+
+275
+00:12:28,220 --> 00:12:29,779
+yang di lapangan mau pakai apa
+
+276
+00:12:29,779 --> 00:12:30,279
+nah yang ini
+
+277
+00:12:30,279 --> 00:12:30,960
+di sini baru guys
+
+278
+00:12:31,919 --> 00:12:32,539
+ini
+
+279
+00:12:36,000 --> 00:12:37,559
+di sini baru
+
+280
+00:12:37,559 --> 00:12:38,600
+ini dari papa
+
+281
+00:12:38,600 --> 00:12:39,159
+iya
+
+282
+00:12:39,159 --> 00:12:40,000
+jadi
+
+283
+00:12:40,000 --> 00:12:41,299
+itu tuh sebenarnya
+
+284
+00:12:41,299 --> 00:12:42,200
+nanti kalau dia
+
+285
+00:12:42,200 --> 00:12:43,039
+udah bisa approve
+
+286
+00:12:43,039 --> 00:12:43,879
+nanti
+
+287
+00:12:43,879 --> 00:12:44,480
+kasih
+
+288
+00:12:45,200 --> 00:12:45,740
+bukti transfer
+
+289
+00:12:45,740 --> 00:12:46,799
+si
+
+290
+00:12:47,200 --> 00:12:47,539
+di Panevi
+
+291
+00:12:47,539 --> 00:12:48,120
+ke kita
+
+292
+00:12:49,400 --> 00:12:49,960
+paham
+
+293
+00:12:49,960 --> 00:12:50,320
+jadi
+
+294
+00:12:50,880 --> 00:12:53,019
+bukti transfer dari papa ke kita gitu
+
+295
+00:12:53,019 --> 00:12:53,460
+iya
+
+296
+00:12:53,460 --> 00:12:54,059
+berarti intinya
+
+297
+00:12:54,059 --> 00:12:54,960
+iya
+
+298
+00:12:54,960 --> 00:12:55,059
+oke
+
+299
+00:12:55,059 --> 00:12:57,740
+baru nanti itu bisa nge skip BCA
+
+300
+00:12:57,740 --> 00:12:59,299
+tapi bukti transfer itu kan
+
+301
+00:12:59,299 --> 00:13:01,539
+kalau misalkan bad itu kan semuanya
+
+302
+00:13:01,539 --> 00:13:02,620
+iya
+
+303
+00:13:02,620 --> 00:13:03,659
+iya pasti
+
+304
+00:13:04,380 --> 00:13:05,200
+tadi dulu mikirnya
+
+305
+00:13:05,740 --> 00:13:06,639
+ini orang itu
+
+306
+00:13:06,639 --> 00:13:07,059
+bahaya
+
+307
+00:13:07,059 --> 00:13:07,559
+itu papa
+
+308
+00:13:08,200 --> 00:13:10,259
+kalau itu kan subdirektori nya tuh
+
+309
+00:13:10,259 --> 00:13:11,799
+yang ke in
+
+310
+00:13:11,799 --> 00:13:12,860
+itu nggak masalah
+
+311
+00:13:12,860 --> 00:13:13,200
+maksudnya
+
+312
+00:13:14,480 --> 00:13:15,039
+sumber
+
+313
+00:13:15,039 --> 00:13:16,240
+ini dia approve dulu nih
+
+314
+00:13:16,240 --> 00:13:16,779
+kalau udah approve
+
+315
+00:13:16,779 --> 00:13:17,240
+kalau udah approve
+
+316
+00:13:17,240 --> 00:13:18,440
+nanti tugasnya yang
+
+317
+00:13:18,440 --> 00:13:19,240
+siapa nih
+
+318
+00:13:19,779 --> 00:13:20,100
+manajer
+
+319
+00:13:20,960 --> 00:13:21,519
+transfer
+
+320
+00:13:21,519 --> 00:13:22,580
+bukti transfer
+
+321
+00:13:22,580 --> 00:13:23,539
+iya kayak gitu
+
+322
+00:13:23,539 --> 00:13:25,279
+sama bayarnya pakai apa
+
+323
+00:13:25,279 --> 00:13:27,279
+itu baru abis itu bisa di approve
+
+324
+00:13:28,059 --> 00:13:30,159
+maksudnya udah approve udah jelas gitu
+
+325
+00:13:30,779 --> 00:13:31,220
+jadinya tuh waktu
+
+326
+00:13:31,220 --> 00:13:32,019
+dia diding dibawa
+
+327
+00:13:32,019 --> 00:13:32,779
+nanti ditampilin
+
+328
+00:13:32,779 --> 00:13:34,139
+dia kira tuh awalnya
+
+329
+00:13:36,779 --> 00:13:38,019
+orang tuh bayar pakai apa gitu
+
+330
+00:13:38,019 --> 00:13:39,100
+jadi kecatat
+
+331
+00:13:39,100 --> 00:13:40,440
+evident papa ngebaca
+
+332
+00:13:40,440 --> 00:13:43,600
+soalnya papa waktu ngajak dia bikin aplikasi
+
+333
+00:13:43,600 --> 00:13:44,100
+kayak gitu
+
+334
+00:13:44,100 --> 00:13:44,720
+serunya
+
+335
+00:13:44,720 --> 00:13:44,820
+ya
+
+336
+00:13:45,420 --> 00:13:45,980
+salah
+
+337
+00:13:46,720 --> 00:13:48,039
+ya sebenernya nggak salah sih ini
+
+338
+00:13:48,039 --> 00:13:49,379
+cuma ubah logik guys
+
+339
+00:13:49,379 --> 00:13:49,879
+sebenernya
+
+340
+00:13:50,599 --> 00:13:51,399
+ya gitu
+
+341
+00:13:52,320 --> 00:13:53,440
+nah tadi
+
+342
+00:13:53,440 --> 00:13:55,019
+ini yang nggak baca bener
+
+343
+00:13:55,019 --> 00:13:55,919
+nah gitu
+
+344
+00:13:57,400 --> 00:13:58,659
+nah tadi harusnya salah
+
+345
+00:13:58,659 --> 00:13:59,139
+salah saya
+
+346
+00:13:59,139 --> 00:14:00,379
+nah ini kan udah approve
+
+347
+00:14:00,379 --> 00:14:01,500
+nah harusnya disini
+
+348
+00:14:01,500 --> 00:14:02,500
+bukti ya
+
+349
+00:14:02,500 --> 00:14:03,399
+nambahin
+
+350
+00:14:03,399 --> 00:14:05,000
+yang mana ini fungsinya bisa hidup
+
+351
+00:14:05,000 --> 00:14:05,960
+kalau udah approve semua
+
+352
+00:14:07,279 --> 00:14:07,960
+iya gitu
+
+353
+00:14:09,539 --> 00:14:11,120
+tapi masing-masing itu
+
+354
+00:14:11,120 --> 00:14:12,299
+nanti ada itunya ya
+
+355
+00:14:12,299 --> 00:14:14,080
+ada evidentnya ya
+
+356
+00:14:14,080 --> 00:14:14,700
+iya
+
+357
+00:14:14,700 --> 00:14:15,580
+nggak apa-apa
+
+358
+00:14:15,580 --> 00:14:17,700
+masing-masing subscriber itu
+
+359
+00:14:17,700 --> 00:14:19,559
+ini jangan dibikin offshore lagi loh
+
+360
+00:14:19,559 --> 00:14:20,820
+mending dibikin wajib
+
+361
+00:14:20,820 --> 00:14:21,539
+wajib
+
+362
+00:14:21,539 --> 00:14:21,940
+iya
+
+363
+00:14:21,940 --> 00:14:23,059
+untuk itunya
+
+364
+00:14:23,059 --> 00:14:23,539
+iya
+
+365
+00:14:23,539 --> 00:14:23,840
+oke
+
+366
+00:14:23,840 --> 00:14:25,440
+apa tadi
+
+367
+00:14:25,440 --> 00:14:26,799
+nota apa
+
+368
+00:14:26,799 --> 00:14:28,299
+yang pdf itu ya
+
+369
+00:14:28,299 --> 00:14:29,379
+evident itu ya
+
+370
+00:14:29,379 --> 00:14:30,639
+foto aja
+
+371
+00:14:30,639 --> 00:14:31,000
+foto
+
+372
+00:14:31,700 --> 00:14:31,779
+foto
+
+373
+00:14:31,779 --> 00:14:32,480
+itu mau
+
+374
+00:14:32,480 --> 00:14:34,340
+mau dibuat jpg
+
+375
+00:14:34,340 --> 00:14:35,500
+atau berupa pdf
+
+376
+00:14:35,500 --> 00:14:36,320
+pokoknya berarti kan
+
+377
+00:14:36,320 --> 00:14:37,179
+biasanya kan
+
+378
+00:14:37,179 --> 00:14:37,659
+biasanya nih
+
+379
+00:14:37,659 --> 00:14:39,000
+orang itu
+
+380
+00:14:39,000 --> 00:14:40,019
+orang itu kan
+
+381
+00:14:40,019 --> 00:14:41,039
+foto sama gitu
+
+382
+00:14:41,039 --> 00:14:41,639
+iya
+
+383
+00:14:41,639 --> 00:14:42,840
+atau kan ini kan bisa diterapkan
+
+384
+00:14:42,840 --> 00:14:43,419
+maksudnya kayak
+
+385
+00:14:44,700 --> 00:14:44,779
+di foto lagi
+
+386
+00:14:44,779 --> 00:14:45,259
+paling bang
+
+387
+00:14:46,080 --> 00:14:47,100
+dibikin draft aja
+
+388
+00:14:47,100 --> 00:14:48,039
+di foto
+
+389
+00:14:48,039 --> 00:14:48,820
+dibikin draft
+
+390
+00:14:48,820 --> 00:14:49,779
+maksudnya jadi
+
+391
+00:14:49,779 --> 00:14:50,600
+dibatch
+
+392
+00:14:50,600 --> 00:14:50,919
+tapi
+
+393
+00:14:50,919 --> 00:14:51,980
+di foto
+
+394
+00:14:51,980 --> 00:14:52,500
+habis itu
+
+395
+00:14:52,500 --> 00:14:53,899
+nanti besok lagi
+
+396
+00:14:53,899 --> 00:14:54,659
+foto lagi
+
+397
+00:14:54,659 --> 00:14:55,500
+foto lagi
+
+398
+00:14:55,500 --> 00:14:56,019
+baru nanti
+
+399
+00:14:56,019 --> 00:14:56,860
+selesai
+
+400
+00:14:56,860 --> 00:14:58,519
+males soalnya pengen mau tanya
+
+401
+00:15:01,919 --> 00:15:02,740
+berarti ini
+
+402
+00:15:02,740 --> 00:15:03,919
+tadi itu
+
+403
+00:15:03,919 --> 00:15:05,759
+evident sini tuh
+
+404
+00:15:05,759 --> 00:15:06,700
+lebih gitu nggak sih
+
+405
+00:15:06,700 --> 00:15:06,860
+apa
+
+406
+00:15:06,860 --> 00:15:08,340
+ngasih bukti
+
+407
+00:15:08,340 --> 00:15:10,700
+dia minta segini berarti ya
+
+408
+00:15:10,700 --> 00:15:12,200
+bukan minta segini
+
+409
+00:15:12,200 --> 00:15:12,559
+itu
+
+410
+00:15:12,559 --> 00:15:13,179
+itu invoice
+
+411
+00:15:13,179 --> 00:15:13,840
+itu invoice
+
+412
+00:15:13,840 --> 00:15:14,620
+iya
+
+413
+00:15:14,620 --> 00:15:14,679
+iya
+
+414
+00:15:14,700 --> 00:15:14,879
+iya info
+
+415
+00:15:14,879 --> 00:15:15,740
+maksudnya tuh
+
+416
+00:15:15,740 --> 00:15:17,419
+papa kan bilang kan ngasih ya
+
+417
+00:15:17,419 --> 00:15:18,139
+berarti ini tuh
+
+418
+00:15:18,139 --> 00:15:19,460
+bukan maksudnya setiap transaksi
+
+419
+00:15:19,460 --> 00:15:20,759
+itu kan pasti ada invoice
+
+420
+00:15:20,759 --> 00:15:21,340
+ada bilik
+
+421
+00:15:21,340 --> 00:15:22,259
+sampe tiket pesawat
+
+422
+00:15:22,259 --> 00:15:22,899
+iya
+
+423
+00:15:22,899 --> 00:15:23,500
+ada invoice
+
+424
+00:15:23,500 --> 00:15:24,340
+nah itu
+
+425
+00:15:24,340 --> 00:15:25,179
+itu evident
+
+426
+00:15:25,879 --> 00:15:27,899
+dia pake duit dia sendiri dulu kan
+
+427
+00:15:27,899 --> 00:15:28,419
+iya
+
+428
+00:15:28,419 --> 00:15:29,000
+iya pake duit dia sendiri
+
+429
+00:15:29,000 --> 00:15:30,179
+abis itu papa bayarin terus
+
+430
+00:15:30,179 --> 00:15:31,320
+nah papa bayar
+
+431
+00:15:31,320 --> 00:15:32,440
+papa bayarinnya itu
+
+432
+00:15:32,440 --> 00:15:34,980
+setelah semuanya dia masukin
+
+433
+00:15:34,980 --> 00:15:35,360
+baru
+
+434
+00:15:35,360 --> 00:15:35,639
+udah
+
+435
+00:15:35,639 --> 00:15:36,399
+misalnya
+
+436
+00:15:36,399 --> 00:15:37,159
+misalnya
+
+437
+00:15:37,159 --> 00:15:38,500
+tiket pesawat
+
+438
+00:15:38,500 --> 00:15:39,600
+hotel semacam
+
+439
+00:15:39,600 --> 00:15:40,840
+yang baru pro
+
+440
+00:15:40,840 --> 00:15:41,179
+pesawat
+
+441
+00:15:41,179 --> 00:15:42,659
+papa nggak mau bayar
+
+442
+00:15:42,659 --> 00:15:43,639
+harus
+
+443
+00:15:43,639 --> 00:15:44,320
+harus itu
+
+444
+00:15:44,320 --> 00:15:45,440
+selesai dulu semua
+
+445
+00:15:45,440 --> 00:15:46,080
+baru dibayar
+
+446
+00:15:46,080 --> 00:15:47,019
+dia kepikirnya tuh
+
+447
+00:15:47,019 --> 00:15:47,600
+bayarannya jadi
+
+448
+00:15:47,600 --> 00:15:48,460
+jadi
+
+449
+00:15:49,700 --> 00:15:50,340
+bagian
+
+450
+00:15:51,000 --> 00:15:51,639
+yang
+
+451
+00:15:51,639 --> 00:15:52,539
+ini apa
+
+452
+00:15:52,539 --> 00:15:53,620
+kategori utamanya
+
+453
+00:15:53,620 --> 00:15:54,779
+bukan sub kategori
+
+454
+00:15:54,779 --> 00:15:55,519
+kategorinya
+
+455
+00:15:55,519 --> 00:15:56,419
+iya
+
+456
+00:15:56,419 --> 00:15:57,559
+dia kepikirnya kok kayak gitu tuh
+
+457
+00:15:57,559 --> 00:15:58,620
+di cash bond ya sebenernya
+
+458
+00:15:58,620 --> 00:15:59,840
+cash bond udah kayak gitu
+
+459
+00:15:59,840 --> 00:16:00,539
+papa udah
+
+460
+00:16:00,539 --> 00:16:01,580
+dia minta
+
+461
+00:16:01,580 --> 00:16:02,159
+dia
+
+462
+00:16:02,159 --> 00:16:03,279
+bayar ini
+
+463
+00:16:03,279 --> 00:16:04,100
+papa itu
+
+464
+00:16:04,659 --> 00:16:05,039
+papa kasih
+
+465
+00:16:05,039 --> 00:16:06,519
+nah nanti baru di settlement itu
+
+466
+00:16:06,519 --> 00:16:07,940
+dia itu kayak ngasih tau
+
+467
+00:16:07,940 --> 00:16:09,039
+bukti-bukti itunya
+
+468
+00:16:09,039 --> 00:16:09,460
+apa
+
+469
+00:16:09,460 --> 00:16:10,779
+bukti-bukti pembayaran dia
+
+470
+00:16:10,779 --> 00:16:11,019
+enggak
+
+471
+00:16:11,019 --> 00:16:12,240
+cash bond itu
+
+472
+00:16:12,659 --> 00:16:12,940
+cash advance
+
+473
+00:16:14,440 --> 00:16:15,940
+penertian cash bond itu ya
+
+474
+00:16:15,940 --> 00:16:16,340
+yang
+
+475
+00:16:16,340 --> 00:16:17,120
+mungkin di
+
+476
+00:16:17,120 --> 00:16:19,360
+mungkin di robot diot cash bond
+
+477
+00:16:19,360 --> 00:16:20,120
+bukan cash bond
+
+478
+00:16:20,120 --> 00:16:20,759
+tapi settlement
+
+479
+00:16:21,380 --> 00:16:21,940
+settlement
+
+480
+00:16:21,940 --> 00:16:22,740
+settlement ininya
+
+481
+00:16:22,740 --> 00:16:23,519
+cash advance
+
+482
+00:16:23,519 --> 00:16:25,980
+kalau cash bond tuh cash advance
+
+483
+00:16:25,980 --> 00:16:26,620
+cash advance
+
+484
+00:16:26,620 --> 00:16:27,899
+cash advance itu
+
+485
+00:16:27,899 --> 00:16:28,940
+nanti papa udah ngasih duluan
+
+486
+00:16:28,940 --> 00:16:29,279
+duit
+
+487
+00:16:29,279 --> 00:16:31,259
+ini misalnya kita nggak pegang duit nih
+
+488
+00:16:31,259 --> 00:16:31,460
+kan
+
+489
+00:16:31,460 --> 00:16:33,320
+kita misalnya mau bawa palembang gitu
+
+490
+00:16:33,320 --> 00:16:34,360
+misalnya nggak pegang duit
+
+491
+00:16:34,360 --> 00:16:35,679
+kalau misalnya pegang duit
+
+492
+00:16:35,679 --> 00:16:36,700
+mungkin bisa dibayar sendiri
+
+493
+00:16:36,700 --> 00:16:38,059
+kalau ini nggak pegang duit
+
+494
+00:16:38,059 --> 00:16:38,799
+oh
+
+495
+00:16:38,799 --> 00:16:39,179
+minta
+
+496
+00:16:39,759 --> 00:16:40,320
+repotnya
+
+497
+00:16:40,320 --> 00:16:41,019
+maksudnya
+
+498
+00:16:41,019 --> 00:16:41,600
+itu kenapa
+
+499
+00:16:42,659 --> 00:16:43,279
+mau kasih cash bond
+
+500
+00:16:43,279 --> 00:16:44,419
+ini apaan misalnya
+
+501
+00:16:44,419 --> 00:16:45,100
+10 juta
+
+502
+00:16:45,100 --> 00:16:46,539
+mungkin cuma pakai bank
+
+503
+00:16:46,539 --> 00:16:48,159
+nanti mereka harus balikin lagi
+
+504
+00:16:48,159 --> 00:16:49,840
+nah balikin duitnya itu jadi
+
+505
+00:16:50,659 --> 00:16:52,100
+panjang ceritanya gitu loh
+
+506
+00:16:52,100 --> 00:16:53,379
+harus masukin lagi
+
+507
+00:16:53,379 --> 00:16:55,000
+masukin dalam rekening
+
+508
+00:16:55,000 --> 00:16:56,320
+bank itu lagi
+
+509
+00:16:56,320 --> 00:16:57,179
+nah itu
+
+510
+00:16:57,179 --> 00:16:58,019
+jadi akhirnya
+
+511
+00:16:58,659 --> 00:16:59,639
+kalau misalnya cash bond tuh
+
+512
+00:16:59,639 --> 00:17:01,000
+dipas-pasin sama papa aja
+
+513
+00:17:01,000 --> 00:17:01,600
+ini isi gini
+
+514
+00:17:01,600 --> 00:17:03,080
+supaya nggak ada duit balik
+
+515
+00:17:03,879 --> 00:17:05,299
+kalau duit balik nanti
+
+516
+00:17:05,299 --> 00:17:06,140
+akhirnya nanti
+
+517
+00:17:06,140 --> 00:17:07,759
+kayak masuk revenue gitu loh
+
+518
+00:17:09,379 --> 00:17:10,579
+cash bondnya apa?
+
+519
+00:17:11,299 --> 00:17:13,259
+sebenarnya pengertian cash bond tuh
+
+520
+00:17:13,259 --> 00:17:15,119
+cash and funds
+
+521
+00:17:15,899 --> 00:17:16,980
+bukan deh
+
+522
+00:17:16,980 --> 00:17:18,140
+pengertian cash bond tuh
+
+523
+00:17:18,140 --> 00:17:19,279
+dipikirin tuh bahwa
+
+524
+00:17:20,159 --> 00:17:21,460
+setiap beliau mau
+
+525
+00:17:21,460 --> 00:17:22,160
+ini apa
+
+526
+00:17:22,160 --> 00:17:23,319
+kalian mau pergi tuh
+
+527
+00:17:23,319 --> 00:17:24,359
+kasih uang
+
+528
+00:17:24,359 --> 00:17:25,720
+kasih uang dulu gitu loh
+
+529
+00:17:25,720 --> 00:17:26,099
+anunya
+
+530
+00:17:26,099 --> 00:17:26,579
+nah
+
+531
+00:17:26,579 --> 00:17:28,160
+bisa jelasin nggak tuh itu apa
+
+532
+00:17:28,160 --> 00:17:29,519
+settlement sama ini
+
+533
+00:17:29,519 --> 00:17:30,039
+menurut papa
+
+534
+00:17:30,039 --> 00:17:30,859
+bukan
+
+535
+00:17:30,859 --> 00:17:32,140
+biar dia nggak salah nih
+
+536
+00:17:32,140 --> 00:17:32,579
+kalau settlement
+
+537
+00:17:33,599 --> 00:17:34,640
+itu udah gini
+
+538
+00:17:34,640 --> 00:17:35,059
+bener tuh
+
+539
+00:17:36,099 --> 00:17:37,740
+nanti dikasih muti raksor
+
+540
+00:17:37,740 --> 00:17:38,240
+apa
+
+541
+00:17:38,240 --> 00:17:39,799
+nanti dikasih muti raksor
+
+542
+00:17:39,799 --> 00:17:40,559
+dia udah selesai
+
+543
+00:17:41,360 --> 00:17:42,240
+kalau cash bond?
+
+544
+00:17:42,400 --> 00:17:43,259
+kalau cash bond itu
+
+545
+00:17:43,259 --> 00:17:44,099
+cash and funds
+
+546
+00:17:44,099 --> 00:17:45,440
+kalau saya misalnya nggak punya uang
+
+547
+00:17:45,440 --> 00:17:46,279
+nggak pegang uang nih
+
+548
+00:17:46,279 --> 00:17:47,140
+mau ke Palembang
+
+549
+00:17:47,140 --> 00:17:50,059
+saya kira-kira estimasi 20 juta lah
+
+550
+00:17:50,059 --> 00:17:51,119
+oh minta 20 juta
+
+551
+00:17:51,119 --> 00:17:52,380
+buat ke Palembang
+
+552
+00:17:52,380 --> 00:17:53,579
+kasih 20 juta
+
+553
+00:17:53,579 --> 00:17:54,539
+di Baru disini tulis
+
+554
+00:17:54,539 --> 00:17:55,640
+cash bond
+
+555
+00:17:56,339 --> 00:17:58,500
+nanti ke settlementnya juga mbak
+
+556
+00:17:58,500 --> 00:17:58,819
+nanti
+
+557
+00:17:58,819 --> 00:17:59,720
+nanti
+
+558
+00:18:00,299 --> 00:18:02,099
+mungkin dari cash bond ini
+
+559
+00:18:02,099 --> 00:18:03,240
+kalau misalnya
+
+560
+00:18:03,240 --> 00:18:05,240
+yang aplikasi yang kemarin ini ya
+
+561
+00:18:05,240 --> 00:18:06,579
+dari cash bond ini
+
+562
+00:18:06,579 --> 00:18:07,619
+dia jelasin lagi
+
+563
+00:18:07,619 --> 00:18:08,579
+misalnya cash and funds
+
+564
+00:18:08,579 --> 00:18:09,859
+kita minta 20 juta
+
+565
+00:18:09,859 --> 00:18:10,559
+20 juta
+
+566
+00:18:10,579 --> 00:18:13,180
+nah 20 juta itu di pencet
+
+567
+00:18:13,180 --> 00:18:14,660
+disitu dia bisa masukin sendiri
+
+568
+00:18:17,519 --> 00:18:19,380
+bisa masukin lagi kayak settlement
+
+569
+00:18:19,380 --> 00:18:20,319
+iya
+
+570
+00:18:20,319 --> 00:18:20,819
+lanjut
+
+571
+00:18:20,819 --> 00:18:22,640
+saya pengennya tadi kayak gini nih
+
+572
+00:18:33,500 --> 00:18:35,619
+tuh jenia tuh approve
+
+573
+00:18:35,619 --> 00:18:37,259
+disitu salin gitu
+
+574
+00:18:37,259 --> 00:18:38,859
+jadi pemintaan tadi
+
+575
+00:18:38,859 --> 00:18:39,460
+dia minta
+
+576
+00:18:39,460 --> 00:18:40,480
+apa beli apa
+
+577
+00:18:40,579 --> 00:18:41,759
+tadi 5 juta
+
+578
+00:18:41,759 --> 00:18:42,440
+popotasi
+
+579
+00:18:42,440 --> 00:18:43,779
+masukin ke settlement
+
+580
+00:18:43,779 --> 00:18:44,859
+dikira tuh kayak gitu
+
+581
+00:18:44,859 --> 00:18:45,720
+tadi yang ngomongnya
+
+582
+00:18:46,759 --> 00:18:47,400
+maksudnya
+
+583
+00:18:47,400 --> 00:18:48,079
+gimana
+
+584
+00:18:49,059 --> 00:18:50,980
+yang aplikasi yang kemarin itu gitu
+
+585
+00:18:50,980 --> 00:18:52,500
+dari cash bond
+
+586
+00:18:52,500 --> 00:18:52,740
+settlement
+
+587
+00:18:52,740 --> 00:18:53,400
+kalau
+
+588
+00:18:53,400 --> 00:18:53,859
+kalau
+
+589
+00:18:53,859 --> 00:18:55,160
+aku tuh simple aja kan
+
+590
+00:18:55,160 --> 00:18:55,740
+pokoknya kan
+
+591
+00:18:55,740 --> 00:18:57,019
+makanya kemarin tuh kan
+
+592
+00:18:57,019 --> 00:18:57,539
+kalau pun
+
+593
+00:18:57,539 --> 00:18:58,480
+juga ada
+
+594
+00:18:59,359 --> 00:19:00,000
+ada
+
+595
+00:19:00,000 --> 00:19:01,180
+permintaan
+
+596
+00:19:01,180 --> 00:19:01,579
+uang
+
+597
+00:19:01,579 --> 00:19:02,359
+segala macam itu
+
+598
+00:19:02,359 --> 00:19:03,940
+harapan aku tuh
+
+599
+00:19:03,940 --> 00:19:04,920
+tidak pernah akan
+
+600
+00:19:04,920 --> 00:19:05,519
+lebih gitu
+
+601
+00:19:05,519 --> 00:19:06,940
+karena kalau misalnya
+
+602
+00:19:06,940 --> 00:19:08,059
+dibalikin lagi
+
+603
+00:19:08,059 --> 00:19:09,119
+dibalikin lagi tuh
+
+604
+00:19:09,119 --> 00:19:10,460
+kan harus dicatat
+
+605
+00:19:10,460 --> 00:19:10,559
+ya
+
+606
+00:19:10,579 --> 00:19:10,779
+maksud kan
+
+607
+00:19:10,779 --> 00:19:12,519
+ada duit masuk lagi balik
+
+608
+00:19:12,519 --> 00:19:12,859
+dan ini
+
+609
+00:19:12,859 --> 00:19:13,400
+ya kurang
+
+610
+00:19:13,400 --> 00:19:14,319
+nah itu
+
+611
+00:19:15,179 --> 00:19:16,579
+agak ribet gitu loh
+
+612
+00:19:16,579 --> 00:19:17,539
+jadi aplikasinya
+
+613
+00:19:17,539 --> 00:19:18,740
+nanti jatuhin yang gitu loh
+
+614
+00:19:18,740 --> 00:19:19,079
+karena
+
+615
+00:19:19,079 --> 00:19:20,599
+ya kan duitnya kan
+
+616
+00:19:20,599 --> 00:19:22,259
+bukan dipegang sama aku
+
+617
+00:19:22,259 --> 00:19:23,619
+bukan dipegang sama rekening kan
+
+618
+00:19:23,619 --> 00:19:25,140
+jadi kalau rekening
+
+619
+00:19:25,140 --> 00:19:25,700
+mengeluarkan
+
+620
+00:19:25,700 --> 00:19:26,700
+semenjak 100
+
+621
+00:19:26,700 --> 00:19:28,279
+dipakai 90
+
+622
+00:19:28,279 --> 00:19:29,599
+kan 10 harus masuk lagi
+
+623
+00:19:29,599 --> 00:19:30,460
+dalam rekening kan
+
+624
+00:19:30,460 --> 00:19:32,000
+ya kan ribet
+
+625
+00:19:32,000 --> 00:19:32,440
+kejadinya
+
+626
+00:19:32,440 --> 00:19:33,440
+menurut aku gitu ya
+
+627
+00:19:33,440 --> 00:19:34,440
+kenapa enggak
+
+628
+00:19:34,440 --> 00:19:34,579
+kecuali
+
+629
+00:19:35,980 --> 00:19:37,339
+ini apa
+
+630
+00:19:39,399 --> 00:19:40,079
+memang
+
+631
+00:19:40,079 --> 00:19:40,480
+lagi
+
+632
+00:19:40,480 --> 00:19:40,559
+di
+
+633
+00:19:40,559 --> 00:19:40,839
+lagi enggak
+
+634
+00:19:40,839 --> 00:19:42,180
+enggak ada segala macam
+
+635
+00:19:42,180 --> 00:19:42,799
+kan bisa di
+
+636
+00:19:42,799 --> 00:19:43,980
+bisa di
+
+637
+00:19:44,620 --> 00:19:45,279
+cukup lah
+
+638
+00:19:45,279 --> 00:19:45,559
+gini
+
+639
+00:19:45,559 --> 00:19:46,759
+tapi kan kita bisa lihat
+
+640
+00:19:46,759 --> 00:19:47,640
+pokoknya yang penting
+
+641
+00:19:47,640 --> 00:19:48,180
+jangan sampai
+
+642
+00:19:48,180 --> 00:19:49,420
+lebih balik lah gitu
+
+643
+00:19:49,420 --> 00:19:50,700
+menurut kakak tuh
+
+644
+00:19:50,700 --> 00:19:52,279
+yang untuk masukin ke excel tuh
+
+645
+00:19:52,279 --> 00:19:53,079
+bagian setelah apa
+
+646
+00:19:53,079 --> 00:19:53,539
+atau kasbun
+
+647
+00:19:55,519 --> 00:19:55,559
+betul
+
+648
+00:19:56,079 --> 00:19:56,319
+betul
+
+649
+00:19:56,319 --> 00:19:56,359
+betul
+
+650
+00:19:59,000 --> 00:20:00,339
+dua-duanya harus masuk
+
+651
+00:20:00,339 --> 00:20:01,380
+jadi
+
+652
+00:20:01,380 --> 00:20:02,180
+jadi minusin
+
+653
+00:20:04,539 --> 00:20:05,099
+kasbun
+
+654
+00:20:05,099 --> 00:20:05,720
+dan setelah ini
+
+655
+00:20:05,720 --> 00:20:06,440
+harus minus kan
+
+656
+00:20:07,440 --> 00:20:08,380
+kalau yang lebih
+
+657
+00:20:09,440 --> 00:20:10,000
+ke
+
+658
+00:20:10,000 --> 00:20:10,559
+ke gaji kan
+
+659
+00:20:10,559 --> 00:20:11,299
+dia harus balikin
+
+660
+00:20:11,299 --> 00:20:12,220
+kalau dia kurang kan
+
+661
+00:20:13,000 --> 00:20:14,000
+perusahaan harus bayar lagi
+
+662
+00:20:14,000 --> 00:20:14,160
+ke
+
+663
+00:20:15,159 --> 00:20:15,799
+iya
+
+664
+00:20:15,799 --> 00:20:16,539
+saya pikirnya tuh
+
+665
+00:20:16,539 --> 00:20:17,200
+kasbun tuh tuh
+
+666
+00:20:17,200 --> 00:20:17,940
+revenue gitu
+
+667
+00:20:17,940 --> 00:20:18,900
+jadi kalau enggak ada
+
+668
+00:20:18,900 --> 00:20:20,380
+ada kelebihan itu
+
+669
+00:20:20,380 --> 00:20:21,319
+saya taruh ke revenue
+
+670
+00:20:21,319 --> 00:20:22,319
+tambahan gitu
+
+671
+00:20:23,000 --> 00:20:24,079
+itu bukan keuntungan
+
+672
+00:20:24,079 --> 00:20:24,359
+itu
+
+673
+00:20:25,579 --> 00:20:26,779
+itu kas
+
+674
+00:20:26,779 --> 00:20:28,099
+itu kan kas
+
+675
+00:20:28,099 --> 00:20:29,200
+kalau revenue
+
+676
+00:20:29,859 --> 00:20:30,500
+pemasukan
+
+677
+00:20:30,500 --> 00:20:30,880
+dari
+
+678
+00:20:30,880 --> 00:20:31,279
+pemasukan
+
+679
+00:20:31,279 --> 00:20:31,519
+dari
+
+680
+00:20:31,519 --> 00:20:31,819
+ini
+
+681
+00:20:31,819 --> 00:20:32,799
+yang
+
+682
+00:20:32,799 --> 00:20:34,400
+yang tambah paling atas
+
+683
+00:20:34,400 --> 00:20:34,839
+kali itu
+
+684
+00:20:34,839 --> 00:20:35,920
+reviewnya itu
+
+685
+00:20:35,920 --> 00:20:37,059
+pas ini
+
+686
+00:20:37,059 --> 00:20:38,160
+masuk dari ini
+
+687
+00:20:38,160 --> 00:20:38,380
+apa
+
+688
+00:20:40,000 --> 00:20:41,279
+kena pajaknya
+
+689
+00:20:41,279 --> 00:20:41,839
+sekian
+
+690
+00:20:41,839 --> 00:20:42,500
+kena ininya
+
+691
+00:20:42,500 --> 00:20:42,960
+sekian
+
+692
+00:20:45,000 --> 00:20:45,559
+kan itu kan
+
+693
+00:20:45,559 --> 00:20:47,339
+ada yang harus dibayar
+
+694
+00:20:47,339 --> 00:20:48,539
+ada yang sudah dibayarin
+
+695
+00:20:48,539 --> 00:20:49,240
+sama klien
+
+696
+00:20:49,240 --> 00:20:50,420
+tapi kan dicatat
+
+697
+00:20:51,000 --> 00:20:52,039
+karena kan nanti kan
+
+698
+00:20:52,039 --> 00:20:52,559
+nilai
+
+699
+00:20:52,559 --> 00:20:53,819
+nilai
+
+700
+00:20:53,819 --> 00:20:55,000
+invoicenya
+
+701
+00:20:55,000 --> 00:20:55,819
+itu kan harus
+
+702
+00:20:55,819 --> 00:20:56,700
+sesuai dengan
+
+703
+00:20:56,700 --> 00:20:57,619
+aktualnya
+
+704
+00:20:59,079 --> 00:21:00,380
+karena kan ada
+
+705
+00:21:00,380 --> 00:21:01,859
+declaration dari
+
+706
+00:21:01,859 --> 00:21:03,359
+faktur pajaknya
+
+707
+00:21:03,359 --> 00:21:04,259
+dari itu
+
+708
+00:21:04,259 --> 00:21:05,039
+dari negara
+
+709
+00:21:05,039 --> 00:21:17,900
+ada yang berpengalaman
+
+710
+00:21:17,900 --> 00:21:21,019
+ada yang kira-kira
+
+711
+00:21:24,240 --> 00:21:25,640
+kita
+
+712
+00:21:31,179 --> 00:21:32,579
+bisa
+
+713
+00:21:32,579 --> 00:21:33,960
+bisa
+
+714
+00:21:33,960 --> 00:21:34,240
+kita
+
+715
+00:21:34,240 --> 00:21:35,019
+bisa
+
+716
+00:21:35,019 --> 00:21:47,220
+itu artinya kastur gitu yang mana tuh ya nggak ada minta-minta dulu disitu ya itu minta kena
+
+717
+00:21:47,220 --> 00:21:54,940
+kau setelmen ini studio itu kayak kita tuh udah dikasih kayak dari setelmen keke apa namanya uang
+
+718
+00:21:54,940 --> 00:22:07,640
+kasbon itu gitu dari pemerintah itu dipakai setelmen jadinya tuh apa-apa bisa dipotong itu
+
+719
+00:22:07,640 --> 00:22:23,380
+bisa-bisa dulu nanti-nanti sudah tinggal di ini tinggal ditambahin nantinya nanti dia pengen bikin
+
+720
+00:22:23,380 --> 00:22:23,680
+apa
+
+721
+00:22:29,440 --> 00:22:31,900
+jadi kalau ada seandainya salah
+
+722
+00:22:33,119 --> 00:22:37,940
+itu juga pengen lihat Excel juga itu karena kan jadinya secara
+
+723
+00:22:37,940 --> 00:22:45,880
+tapi saran YouTube apa-apa mau jadi Excel enggak sebenarnya lebih sulit tuh dari Excel
+
+724
+00:22:45,880 --> 00:22:50,579
+itu sebenarnya itu lebih sulit ke Excel dibandingkan bikin di
+
+725
+00:22:50,579 --> 00:22:54,039
+Excel itu kan
+
+726
+00:22:56,739 --> 00:23:01,160
+Iya tapi maksudnya tuh kayak-kayak memasukkan itu kalau
+
+727
+00:23:01,160 --> 00:23:02,200
+compared 그
+
+728
+00:23:07,779 --> 00:23:10,920
+kalau kayak gini kan enak-enak tapi ke Excel...
+
+729
+00:23:11,680 --> 00:23:15,460
+lebih ke apa MX andanya....
+
+730
+00:23:16,779 --> 00:23:24,019
+ngabrak gitu loh ,cuman kan itu jadi perbaiki ya tahun-alian enggak abrak tuh disininya nabraknya itu disini nabrak Reef Zainal reporters atau brewing
+
+731
+00:23:50,360 --> 00:23:51,680
+maksudnya kalau bikin
+
+732
+00:23:51,680 --> 00:23:54,680
+X apa kan tadi kan ada X satu lagi tuh waduh itu
+
+733
+00:23:58,420 --> 00:23:59,579
+langsung dijembreng aja
+
+734
+00:24:08,920 --> 00:24:09,619
+dijembreng aja
+
+735
+00:24:10,680 --> 00:24:12,660
+di dalam aplikasinya kan maksudnya
+
+736
+00:24:12,660 --> 00:24:14,759
+kalau di dalam aplikasinya mungkin bisa
+
+737
+00:24:14,759 --> 00:24:17,039
+tapi kalau jadi X
+
+738
+00:24:17,039 --> 00:24:18,440
+itu ribet banget itu pak
+
+739
+00:24:18,440 --> 00:24:20,559
+maksudnya di dalam aplikasinya itu kan
+
+740
+00:24:20,559 --> 00:24:21,140
+coba lo tuh
+
+741
+00:24:21,140 --> 00:24:21,660
+di dalam aplikasinya itu kan
+
+742
+00:24:22,520 --> 00:24:24,380
+ngepasin kategori-kategori itu
+
+743
+00:24:24,380 --> 00:24:25,720
+nanti waktu dijembreng
+
+744
+00:24:25,720 --> 00:24:28,160
+ini udah sesuai juga disini
+
+745
+00:24:28,160 --> 00:24:30,299
+karena kategori bisa diubah-ubah nih
+
+746
+00:24:30,299 --> 00:24:31,859
+nah disini juga aturan apa
+
+747
+00:24:31,859 --> 00:24:34,000
+beban langsung tidak langsung matematis
+
+748
+00:24:34,000 --> 00:24:35,539
+juga bisa dipindahin juga disini
+
+749
+00:24:39,680 --> 00:24:41,119
+jadi walaupun bisa
+
+750
+00:24:41,119 --> 00:24:43,180
+mohon apapun juga disini simpan juga
+
+751
+00:24:43,180 --> 00:24:44,480
+ini akan berubah juga disini
+
+752
+00:24:44,480 --> 00:24:46,519
+coba diubahin nih apa namanya
+
+753
+00:24:46,519 --> 00:24:47,859
+alurnya gimana
+
+754
+00:24:47,859 --> 00:24:49,079
+alurnya apa nih
+
+755
+00:24:49,820 --> 00:24:50,440
+alurnya
+
+756
+00:24:51,980 --> 00:24:52,579
+boon
+
+757
+00:24:52,579 --> 00:24:53,059
+pasلunya
+
+758
+00:24:53,059 --> 00:24:54,640
+flow numer 2
+
+759
+00:24:57,000 --> 00:24:58,200
+flow sekitar
+
+760
+00:24:58,200 --> 00:24:58,539
+apa
+
+761
+00:24:58,539 --> 00:24:58,599
+apa
+
+762
+00:24:58,599 --> 00:24:58,619
+apa
+
+763
+00:24:58,619 --> 00:24:58,759
+apa
+
+764
+00:24:58,759 --> 00:24:59,400
+apa
+
+765
+00:24:59,400 --> 00:24:59,519
+apa
+
+766
+00:24:59,519 --> 00:24:59,660
+apa
+
+767
+00:24:59,660 --> 00:24:59,700
+apa
+
+768
+00:24:59,700 --> 00:24:59,720
+apa
+
+769
+00:24:59,720 --> 00:25:00,039
+resmen setiap
+
+770
+00:25:00,039 --> 00:25:00,059
+terus
+
+771
+00:25:04,720 --> 00:25:05,319
+cuma
+
+772
+00:25:19,820 --> 00:25:20,420
+terus
+
+773
+00:25:21,660 --> 00:25:23,880
+jadi dia ngomongin persidu dulu ya
+
+774
+00:25:25,540 --> 00:25:26,700
+ini ada
+
+775
+00:25:26,700 --> 00:25:33,000
+ada kasbon
+
+776
+00:25:35,080 --> 00:25:37,640
+saya mikirin kasbon itu adalah pengeluaran gitu
+
+777
+00:25:37,640 --> 00:25:39,259
+eh apa, pemintaan
+
+778
+00:25:39,259 --> 00:25:41,259
+jadi sebelum kita mau pergi ke suatu tempat
+
+779
+00:25:41,259 --> 00:25:42,819
+itu kita mau minta ke bapak-bapak
+
+780
+00:25:42,819 --> 00:25:44,380
+mau beli ini
+
+781
+00:25:44,380 --> 00:25:45,720
+bisa single sama apa
+
+782
+00:25:45,720 --> 00:25:47,759
+single sama bad
+
+783
+00:25:47,759 --> 00:25:50,559
+nah habis itu settlement ini
+
+784
+00:25:50,559 --> 00:25:53,059
+itu lanjutannya itu bisa
+
+785
+00:25:53,059 --> 00:25:55,559
+bisa dari kasbon atau enggak bikin sendiri gitu
+
+786
+00:25:55,559 --> 00:25:57,220
+yang mana tadi tuh yang saya bilang kan
+
+787
+00:25:57,220 --> 00:25:58,759
+nanti kan ada pengeluaran
+
+788
+00:26:00,199 --> 00:26:00,839
+halo
+
+789
+00:26:02,259 --> 00:26:03,920
+nah settlement ini kan
+
+790
+00:26:03,920 --> 00:26:05,839
+lebih kebanyakan tuh kayak kita tuh
+
+791
+00:26:05,839 --> 00:26:06,920
+pengeluaran gitu
+
+792
+00:26:06,920 --> 00:26:09,319
+tapi habis itu tuh bisa ditaruh info
+
+793
+00:26:09,319 --> 00:26:09,619
+sama
+
+794
+00:26:10,779 --> 00:26:12,660
+kita perlu berapa gitu
+
+795
+00:26:12,660 --> 00:26:14,960
+di situnya uangnya gitu
+
+796
+00:26:15,779 --> 00:26:16,859
+nah disitu
+
+797
+00:26:16,859 --> 00:26:17,380
+nah
+
+798
+00:26:17,380 --> 00:26:20,160
+nah untuk disininya tuh juga ada
+
+799
+00:26:20,160 --> 00:26:21,880
+ada apa, ada bad sama single ya
+
+800
+00:26:21,880 --> 00:26:25,619
+nah tapi nanti disininya baru dipindahin ke
+
+801
+00:26:26,360 --> 00:26:27,460
+bagian laporannya itu gitu
+
+802
+00:26:27,460 --> 00:26:28,880
+nah di laporan ini
+
+803
+00:26:30,480 --> 00:26:31,759
+di laporan ini
+
+804
+00:26:31,759 --> 00:26:34,460
+nah terdapat banyak gitu dari single
+
+805
+00:26:34,460 --> 00:26:36,339
+yang pertama datang single dulu
+
+806
+00:26:36,339 --> 00:26:37,559
+yang di sit satu tuh
+
+807
+00:26:37,559 --> 00:26:38,619
+rep ini ya
+
+808
+00:26:39,180 --> 00:26:41,200
+rep ini kan ada single bad
+
+809
+00:26:41,780 --> 00:26:43,180
+bad di apa
+
+810
+00:26:43,180 --> 00:26:45,359
+di table satunya itu ada
+
+811
+00:26:46,400 --> 00:26:47,359
+di table satunya itu ada
+
+812
+00:26:47,359 --> 00:26:47,839
+di table satunya itu ada
+
+813
+00:26:47,839 --> 00:26:49,119
+revenue sama pajak kan
+
+814
+00:26:49,119 --> 00:26:50,660
+nah itu juga terisi juga
+
+815
+00:26:50,660 --> 00:26:52,279
+cuma nanti di bagian laporannya
+
+816
+00:26:52,800 --> 00:26:55,200
+nah disitu baru di bagian sit 2 nya itu
+
+817
+00:26:55,960 --> 00:26:56,720
+bagian apa
+
+818
+00:26:56,720 --> 00:26:58,160
+bagian laba ruginya
+
+819
+00:26:58,160 --> 00:26:59,240
+data-data pening
+
+820
+00:26:59,240 --> 00:27:01,019
+apa neraca sama lain-lainnya
+
+821
+00:27:01,019 --> 00:27:02,299
+baru di sebelahannya tuh di
+
+822
+00:27:03,260 --> 00:27:05,259
+di table 3, eh di sit 3 nya
+
+823
+00:27:05,259 --> 00:27:07,240
+bagian dividend sama
+
+824
+00:27:08,060 --> 00:27:09,019
+business summary nya
+
+825
+00:27:09,540 --> 00:27:10,599
+kayak gitu aja sebenernya
+
+826
+00:27:11,140 --> 00:27:12,420
+yang di tau gitu
+
+827
+00:27:12,420 --> 00:27:13,740
+tapi kalau apa bilang kan
+
+828
+00:27:14,240 --> 00:27:17,039
+kasbon itu harus dari pemintaan kayak gitu gitu nya kan
+
+829
+00:27:17,039 --> 00:27:19,180
+abis bapak dikasih
+
+830
+00:27:19,180 --> 00:27:22,180
+tapi orang itu gak pake duit sendiri gitu
+
+831
+00:27:22,180 --> 00:27:23,900
+yang pake duit sendiri itu settlement itu
+
+832
+00:27:23,900 --> 00:27:26,400
+baru bapak abis itu bayarin gitu
+
+833
+00:27:26,400 --> 00:27:28,160
+duit dari yang dia minta itu
+
+834
+00:27:28,740 --> 00:27:31,059
+gitu kan, eh duit yang dia keluarin itu
+
+835
+00:27:31,059 --> 00:27:32,339
+nah kayak gitu
+
+836
+00:27:32,339 --> 00:27:34,460
+nah cuma saya bingungnya itu sebenernya
+
+837
+00:27:34,460 --> 00:27:36,960
+untuk masuk ke excel itu
+
+838
+00:27:37,539 --> 00:27:40,339
+saya tuh nyadarnya itu dari bagian settlement gitu
+
+839
+00:27:40,339 --> 00:27:42,400
+kasbon itu bagian permintaan gitu
+
+840
+00:27:42,400 --> 00:27:43,940
+jadi itu dia cuma keluarin aja
+
+841
+00:27:43,940 --> 00:27:46,740
+nah nanti hasilnya kasbon ini akan kesih
+
+842
+00:27:47,039 --> 00:27:48,759
+akan kesan ke settlement itu
+
+843
+00:27:49,559 --> 00:27:50,519
+kayak gitu
+
+844
+00:27:51,039 --> 00:27:53,799
+berarti kasbonnya juga jadi settlement aja
+
+845
+00:27:55,160 --> 00:27:56,640
+jadinya tuh disalin gitu
+
+846
+00:27:59,400 --> 00:28:01,240
+kasbon itu sebenernya udah settlement
+
+847
+00:28:01,860 --> 00:28:04,440
+iya jadi, iya di tuyuk mikirnya kayak gitu emang
+
+848
+00:28:04,440 --> 00:28:06,539
+nah nanti yang mana kasbon tuh tetep
+
+849
+00:28:06,539 --> 00:28:08,700
+walaupun udah jadi harus tetep jadi settlement
+
+850
+00:28:08,700 --> 00:28:10,119
+jadinya tuh waktu udah
+
+851
+00:28:10,119 --> 00:28:12,079
+aku udah isi kasbon nih
+
+852
+00:28:12,079 --> 00:28:13,519
+tapi udah di approve
+
+853
+00:28:13,519 --> 00:28:14,980
+tapi approve nya di bagian kasbon aja
+
+854
+00:28:14,980 --> 00:28:15,819
+jadi ada tulisan
+
+855
+00:28:15,819 --> 00:28:17,019
+kalau gak ada kasbon nih wak
+
+856
+00:28:17,039 --> 00:28:18,420
+itu yang kasbon
+
+857
+00:28:18,420 --> 00:28:19,279
+maksud kamu gimana?
+
+858
+00:28:19,359 --> 00:28:20,859
+oh bisa settlement aja bisa
+
+859
+00:28:20,859 --> 00:28:22,619
+jadinya tuh settlement bisa sendiri
+
+860
+00:28:22,619 --> 00:28:23,500
+bisa paspun settlement
+
+861
+00:28:24,220 --> 00:28:25,619
+settlementnya bisa di
+
+862
+00:28:25,619 --> 00:28:26,460
+bisa di
+
+863
+00:28:27,200 --> 00:28:28,400
+masukin itunya apa
+
+864
+00:28:29,040 --> 00:28:29,819
+evidentnya tuh
+
+865
+00:28:29,819 --> 00:28:30,359
+oh bisa
+
+866
+00:28:31,039 --> 00:28:31,599
+dividend cuman
+
+867
+00:28:31,599 --> 00:28:32,960
+evident bukan dividend
+
+868
+00:28:32,960 --> 00:28:33,900
+evidentnya
+
+869
+00:28:33,900 --> 00:28:36,579
+bukti bukti pengeluarannya
+
+870
+00:28:36,579 --> 00:28:38,019
+iya itu yang tadi itu
+
+871
+00:28:38,019 --> 00:28:40,839
+yang tadi sebelahnya ada gambarnya tadi
+
+872
+00:28:42,540 --> 00:28:45,240
+yang bagian tadi itu yang bisa pdf
+
+873
+00:28:45,240 --> 00:28:46,480
+nah cuman masalahnya sekarang
+
+874
+00:28:46,480 --> 00:28:49,079
+papa kan belum ada evident dari papa
+
+875
+00:28:49,079 --> 00:28:50,900
+karena itu belum ke bikin itu
+
+876
+00:28:50,900 --> 00:28:53,180
+dan itu waktu udah di approve semua nih itemnya
+
+877
+00:28:53,180 --> 00:28:54,160
+udah approve gitu
+
+878
+00:28:54,160 --> 00:28:55,019
+gak ada lagi itu yang
+
+879
+00:28:56,060 --> 00:28:58,180
+iya papa kan bilang mau ngasih buku
+
+880
+00:28:59,180 --> 00:29:01,720
+artinya kan kalau misalnya single kan
+
+881
+00:29:01,720 --> 00:29:02,440
+di single
+
+882
+00:29:02,440 --> 00:29:03,259
+iya single
+
+883
+00:29:03,259 --> 00:29:04,119
+itu bukan salah
+
+884
+00:29:04,119 --> 00:29:05,420
+bukan salah
+
+885
+00:29:05,420 --> 00:29:07,700
+kalau misalnya yang bad
+
+886
+00:29:08,480 --> 00:29:09,279
+kan artinya kan ada
+
+887
+00:29:09,279 --> 00:29:10,940
+ada beberapa biji itu
+
+888
+00:29:10,940 --> 00:29:11,480
+iya
+
+889
+00:29:11,480 --> 00:29:11,880
+sorry
+
+890
+00:29:12,900 --> 00:29:14,599
+masa aku harus masukin di semua
+
+891
+00:29:14,599 --> 00:29:15,680
+oh entah
+
+892
+00:29:15,680 --> 00:29:17,720
+masa masukin di bawah di bawah di bawah
+
+893
+00:29:17,720 --> 00:29:18,259
+jadi bisa
+
+894
+00:29:18,259 --> 00:29:20,180
+tata aja di kertas bawah
+
+895
+00:29:20,180 --> 00:29:22,240
+disini semua di approve baru dibikin ini
+
+896
+00:29:22,240 --> 00:29:23,799
+iya baru dibikin bawahnya nih
+
+897
+00:29:23,799 --> 00:29:26,220
+kalau disini tuh ada totalnya disini
+
+898
+00:29:26,220 --> 00:29:26,440
+ini
+
+899
+00:29:27,779 --> 00:29:28,559
+apa ya
+
+900
+00:29:28,559 --> 00:29:30,720
+ini disini nih
+
+901
+00:29:31,700 --> 00:29:33,160
+nyibat saja ya langsung ya
+
+902
+00:29:33,160 --> 00:29:34,299
+nah ini 4000 dikit
+
+903
+00:29:34,299 --> 00:29:36,319
+nah tuh totalnya segini
+
+904
+00:29:36,319 --> 00:29:37,539
+nah nanti kalau udah di approve semua
+
+905
+00:29:37,539 --> 00:29:39,200
+baru bagian bawahnya ini
+
+906
+00:29:39,200 --> 00:29:41,460
+bagian papa naruhin cuman dia belum bikin itu
+
+907
+00:29:42,019 --> 00:29:44,039
+karena papa nyata beda ini
+
+908
+00:29:44,039 --> 00:29:45,660
+ini totalnya ini ini sampai sini ya
+
+909
+00:29:45,680 --> 00:29:46,920
+totalnya 47
+
+910
+00:29:47,580 --> 00:29:49,000
+totalnya itu 8 juta itu
+
+911
+00:29:49,000 --> 00:29:49,299
+iya
+
+912
+00:29:49,299 --> 00:29:50,819
+nah di approve nya udah segini
+
+913
+00:29:50,819 --> 00:29:52,140
+kalau sudah di approve semua ini
+
+914
+00:29:52,140 --> 00:29:53,359
+approve yang per list nya
+
+915
+00:29:53,359 --> 00:29:53,779
+nah
+
+916
+00:29:53,779 --> 00:29:55,000
+baru nanti muncul
+
+917
+00:29:55,600 --> 00:29:56,920
+muncul disininya tuh
+
+918
+00:29:57,680 --> 00:29:58,779
+untuk papa ngasih
+
+919
+00:29:58,779 --> 00:30:01,039
+oh iya itu maksudnya
+
+920
+00:30:01,039 --> 00:30:01,519
+iya itu
+
+921
+00:30:02,380 --> 00:30:03,859
+papa gak ngomong gitu
+
+922
+00:30:03,859 --> 00:30:04,460
+hahaha
+
+923
+00:30:05,620 --> 00:30:08,240
+apa itu sumber dana nya dari mana
+
+924
+00:30:08,240 --> 00:30:09,720
+nah sumber dana nya ini
+
+925
+00:30:09,720 --> 00:30:11,200
+lebih tempatnya tuh
+
+926
+00:30:11,200 --> 00:30:12,220
+apa namanya
+
+927
+00:30:12,220 --> 00:30:12,740
+harus
+
+928
+00:30:12,740 --> 00:30:13,920
+enggak enggak maksudnya nanti
+
+929
+00:30:13,920 --> 00:30:14,380
+itu
+
+930
+00:30:15,000 --> 00:30:16,380
+sumber dana nya cukup
+
+931
+00:30:16,380 --> 00:30:17,500
+langsung di ini
+
+932
+00:30:17,500 --> 00:30:19,279
+bukti transfer nya ini
+
+933
+00:30:19,279 --> 00:30:21,599
+sama sumber dana nya dari mana
+
+934
+00:30:22,480 --> 00:30:23,039
+oke
+
+935
+00:30:23,039 --> 00:30:25,160
+berarti sumber dana nya itu gak usah ya
+
+936
+00:30:25,160 --> 00:30:26,000
+ini gak usah ya ini sumber dana
+
+937
+00:30:26,000 --> 00:30:27,000
+gak usah ya sumber dana itu ya
+
+938
+00:30:27,000 --> 00:30:27,640
+intinya tuh
+
+939
+00:30:27,640 --> 00:30:29,700
+papa tuh nulis aja gitu disini
+
+940
+00:30:30,380 --> 00:30:30,819
+PCA gitu
+
+941
+00:30:30,819 --> 00:30:31,299
+ya
+
+942
+00:30:31,299 --> 00:30:32,859
+PCA baru abis itu evident
+
+943
+00:30:32,859 --> 00:30:33,099
+oke
+
+944
+00:30:33,900 --> 00:30:34,460
+kategori
+
+945
+00:30:35,380 --> 00:30:36,000
+bincangin tulis
+
+946
+00:30:36,000 --> 00:30:36,420
+wah
+
+947
+00:30:36,420 --> 00:30:37,720
+gimana kategori kategori
+
+948
+00:30:37,720 --> 00:30:38,599
+kayak tadi
+
+949
+00:30:39,320 --> 00:30:39,880
+iya
+
+950
+00:30:39,880 --> 00:30:40,539
+kategori
+
+951
+00:30:41,380 --> 00:30:41,920
+ini kan semua
+
+952
+00:30:41,920 --> 00:30:42,640
+kategori
+
+953
+00:30:42,640 --> 00:30:44,200
+iya kategori
+
+954
+00:30:44,200 --> 00:30:44,640
+iya kategori
+
+955
+00:30:44,640 --> 00:30:45,299
+iya kategori sumber nya
+
+956
+00:30:46,000 --> 00:30:47,220
+jangan di tulis
+
+957
+00:30:47,220 --> 00:30:48,960
+kalau di tulis
+
+958
+00:30:48,960 --> 00:30:49,079
+kalau di tulis
+
+959
+00:30:49,079 --> 00:30:49,940
+iya
+
+960
+00:30:49,940 --> 00:30:50,640
+iya
+
+961
+00:30:51,220 --> 00:30:52,440
+sudah kasih option
+
+962
+00:30:52,440 --> 00:30:53,960
+sudah kasih pilihan
+
+963
+00:30:53,960 --> 00:30:54,640
+bisa dari PCA
+
+964
+00:30:55,180 --> 00:30:55,940
+bisa dari BRI
+
+965
+00:30:55,940 --> 00:30:57,599
+bisa dari BRI
+
+966
+00:30:57,599 --> 00:30:57,660
+bisa dari BRI
+
+967
+00:30:57,660 --> 00:30:58,339
+iya ini semuanya
+
+968
+00:30:58,339 --> 00:30:59,559
+satu kan
+
+969
+00:30:59,559 --> 00:30:59,799
+gak
+
+970
+00:30:59,799 --> 00:31:00,059
+gak
+
+971
+00:31:00,059 --> 00:31:00,559
+gak
+
+972
+00:31:00,559 --> 00:31:02,420
+gak berjalan kiri kan
+
+973
+00:31:02,420 --> 00:31:03,039
+satu ini kan
+
+974
+00:31:03,039 --> 00:31:04,339
+semuanya di satu PCA
+
+975
+00:31:04,339 --> 00:31:05,200
+akan otomatis
+
+976
+00:31:05,200 --> 00:31:06,319
+iya
+
+977
+00:31:06,319 --> 00:31:07,359
+nah ini maksudnya
+
+978
+00:31:07,359 --> 00:31:08,519
+apa nih kategori ini
+
+979
+00:31:08,519 --> 00:31:09,380
+dibawah sini
+
+980
+00:31:09,380 --> 00:31:10,019
+dibawah sini
+
+981
+00:31:10,019 --> 00:31:12,160
+di bawah sini
+
+982
+00:31:14,920 --> 00:31:15,519
+nih
+
+983
+00:31:15,519 --> 00:31:16,500
+di bawah sini kan
+
+984
+00:31:16,500 --> 00:31:17,019
+nanti kan
+
+985
+00:31:17,019 --> 00:31:18,059
+disini kan
+
+986
+00:31:18,059 --> 00:31:18,539
+nanti kan
+
+987
+00:31:18,539 --> 00:31:18,799
+muncul
+
+988
+00:31:18,799 --> 00:31:20,480
+evidential disini
+
+989
+00:31:20,480 --> 00:31:21,660
+nah disini kan
+
+990
+00:31:21,660 --> 00:31:22,259
+sumber
+
+991
+00:31:22,259 --> 00:31:23,640
+sumber maksud uang nya
+
+992
+00:31:23,640 --> 00:31:23,740
+ada
+
+993
+00:31:23,740 --> 00:31:24,700
+disini ada option
+
+994
+00:31:24,700 --> 00:31:25,839
+PCA
+
+995
+00:31:25,839 --> 00:31:26,539
+mandiri
+
+996
+00:31:26,539 --> 00:31:26,839
+atau
+
+997
+00:31:27,680 --> 00:31:28,460
+berarti ini
+
+998
+00:31:28,460 --> 00:31:29,380
+ini di hapus kan
+
+999
+00:31:29,380 --> 00:31:30,359
+gunanya semua ini ya
+
+1000
+00:31:30,359 --> 00:31:31,559
+nah cuma tadi
+
+1001
+00:31:31,559 --> 00:31:32,440
+tadi ada
+
+1002
+00:31:32,440 --> 00:31:32,980
+kategori
+
+1003
+00:31:32,980 --> 00:31:33,539
+tapi masih
+
+1004
+00:31:34,380 --> 00:31:34,980
+kategori
+
+1005
+00:31:34,980 --> 00:31:35,640
+oh
+
+1006
+00:31:36,580 --> 00:31:37,180
+kategori
+
+1007
+00:31:37,180 --> 00:31:38,759
+nah bukan sub kategori
+
+1008
+00:31:38,759 --> 00:31:39,200
+sama kategori
+
+1009
+00:31:39,200 --> 00:31:39,519
+kategori
+
+1010
+00:31:39,519 --> 00:31:39,819
+nah bukan sub kategori
+
+1011
+00:31:39,819 --> 00:31:42,299
+nah bukan sub kategori
+
+1012
+00:31:43,480 --> 00:31:44,059
+kategori
+
+1013
+00:31:44,059 --> 00:31:56,059
+nah ini
+
+1014
+00:32:02,160 --> 00:32:03,180
+sumber nya nanti
+
+1015
+00:32:03,180 --> 00:32:03,920
+source nya itu
+
+1016
+00:32:03,920 --> 00:32:04,940
+nanti ikuti dari tadi
+
+1017
+00:32:04,940 --> 00:32:06,660
+jadi satu
+
+1018
+00:32:07,640 --> 00:32:07,660
+berarti
+
+1019
+00:32:07,660 --> 00:32:09,880
+di batch nya itu
+
+1020
+00:32:09,880 --> 00:32:11,420
+berarti semuanya di PCA
+
+1021
+00:32:11,420 --> 00:32:11,859
+berarti ya
+
+1022
+00:32:11,859 --> 00:32:17,380
+ya kalau sudah itu kalau bak layak-layak BCA-BCA semua
+
+1023
+00:32:17,380 --> 00:32:19,480
+single juga sama aja
+
+1024
+00:32:19,480 --> 00:32:21,319
+tapi gak usah kas
+
+1025
+00:32:21,860 --> 00:32:23,759
+terus kas buahnya itu bikin apa?
+
+1026
+00:32:24,200 --> 00:32:27,259
+buat nanti aja di lock aja
+
+1027
+00:32:27,860 --> 00:32:30,619
+ya sebenarnya tank bikes itu gak apa-apa sih
+
+1028
+00:32:30,619 --> 00:32:31,799
+karena gak perlu sebuah
+
+1029
+00:32:31,799 --> 00:32:34,940
+jadi ini apa di freeze aja dulu
+
+1030
+00:32:35,860 --> 00:32:38,079
+nanti intinya saya boleh buatin ini
+
+1031
+00:32:38,860 --> 00:32:41,140
+kalau memang bisa nanti bolak-baliknya itu
+
+1032
+00:32:41,140 --> 00:32:43,240
+karena kan kalau pakai kas buah itu
+
+1033
+00:32:43,240 --> 00:32:46,440
+ada kemungkinan duitnya berlebih dibalikin lagi
+
+1034
+00:32:46,440 --> 00:32:49,759
+nah balik lagi itu kan harus masuk ke ini
+
+1035
+00:32:50,600 --> 00:32:56,779
+nantinya tuh ini apa revenue-revenue itu kan
+
+1036
+00:32:56,779 --> 00:32:59,200
+semua kan tercatat nanti
+
+1037
+00:32:59,200 --> 00:33:01,279
+ini revenue-revenuenya totalnya sekian
+
+1038
+00:33:02,140 --> 00:33:05,900
+jadi misalnya dari tiga rekening bank itu kan
+
+1039
+00:33:05,900 --> 00:33:08,319
+totalnya sekian revenue-revenuenya
+
+1040
+00:33:08,319 --> 00:33:10,579
+pemakaian operasinya totalnya sekian
+
+1041
+00:33:11,140 --> 00:33:12,599
+jadi nanti duit-duit
+
+1042
+00:33:13,140 --> 00:33:16,119
+duit ini apa di rekening berapa ada
+
+1043
+00:33:16,119 --> 00:33:18,680
+kalau misalnya di ini apa
+
+1044
+00:33:21,840 --> 00:33:23,359
+kalau misalnya
+
+1045
+00:33:24,920 --> 00:33:25,720
+di
+
+1046
+00:33:28,360 --> 00:33:30,900
+di neraja itu ada laporan duit
+
+1047
+00:33:30,900 --> 00:33:34,180
+and bank itu ada di ini juga kan
+
+1048
+00:33:34,180 --> 00:33:35,880
+di neraja nanti
+
+1049
+00:33:35,880 --> 00:33:38,759
+di neraja nanti kita laporan itu
+
+1050
+00:33:38,759 --> 00:33:40,619
+duit di bank
+
+1051
+00:33:40,619 --> 00:33:41,380
+duit di tangan
+
+1052
+00:33:41,380 --> 00:33:41,980
+duit di tangan
+
+1053
+00:33:41,980 --> 00:33:42,880
+duit terpegang itu
+
+1054
+00:33:43,620 --> 00:33:44,539
+itu laporan juga
+
+1055
+00:33:44,539 --> 00:33:46,539
+kantor wajah sih gak peduli
+
+1056
+00:33:46,539 --> 00:33:50,319
+cuman internal kita ya sebaiknya ada
+
+1057
+00:33:50,319 --> 00:33:53,900
+jadi kalau mau duitnya ada dimana aja
+
+1058
+00:33:54,620 --> 00:33:56,480
+ya menurut aku tuh karena itu kan
+
+1059
+00:33:56,480 --> 00:33:58,240
+kita catat semua nanti duitnya
+
+1060
+00:33:58,240 --> 00:33:59,140
+iya kita kasih
+
+1061
+00:33:59,140 --> 00:34:01,019
+misalnya kita kasih kode ini
+
+1062
+00:34:01,019 --> 00:34:03,559
+duit ada di bank rekening A
+
+1063
+00:34:03,559 --> 00:34:06,059
+itu misal sebagai
+
+1064
+00:34:07,240 --> 00:34:09,539
+gak tau lah kodenya apa rekening 1
+
+1065
+00:34:09,539 --> 00:34:11,320
+bank B rekening 2
+
+1066
+00:34:11,320 --> 00:34:13,059
+bank C rekening 3
+
+1067
+00:34:13,059 --> 00:34:16,059
+nanti setiap kali transaksi keluar masuk duit
+
+1068
+00:34:16,059 --> 00:34:19,039
+nanti harus nalu kodenya
+
+1069
+00:34:19,039 --> 00:34:21,320
+ini duitnya tadi diambil dari yang rekening mana
+
+1070
+00:34:22,140 --> 00:34:24,320
+supaya nanti tetep bisa di tracking kan
+
+1071
+00:34:24,320 --> 00:34:25,679
+supaya bisa akhirnya muncul
+
+1072
+00:34:25,679 --> 00:34:28,920
+yang duit di bank ini harusnya masih ada berapa
+
+1073
+00:34:29,539 --> 00:34:29,579
+iya
+
+1074
+00:34:30,840 --> 00:34:31,539
+betul
+
+1075
+00:34:31,539 --> 00:34:32,480
+bisa
+
+1076
+00:34:32,480 --> 00:34:33,239
+ini
+
+1077
+00:34:33,239 --> 00:34:36,840
+dia melihat di sini ini gak jauh beda kok sebenarnya pak ya
+
+1078
+00:34:37,539 --> 00:34:37,559
+gimana
+
+1079
+00:34:37,559 --> 00:34:40,380
+yang bapak bilang dari report ini gak jauh beda sama
+
+1080
+00:34:40,380 --> 00:34:42,500
+excel yang bapak kasih pertama kali
+
+1081
+00:34:42,500 --> 00:34:44,159
+cuman nambahnya di sini ada bank status
+
+1082
+00:34:44,159 --> 00:34:45,039
+nah
+
+1083
+00:34:45,559 --> 00:34:47,199
+di sini tuh mau diotaro
+
+1084
+00:34:47,199 --> 00:34:49,500
+jadi di sini aja kah
+
+1085
+00:34:49,500 --> 00:34:52,199
+di sini kan udah lengkap nih semuanya nih
+
+1086
+00:34:52,199 --> 00:34:53,260
+ada table 1 revenue
+
+1087
+00:34:54,099 --> 00:34:54,619
+pajak
+
+1088
+00:34:54,619 --> 00:34:56,320
+ini sih dividend biar gampang liatnya
+
+1089
+00:34:56,320 --> 00:34:56,840
+nah ini operation
+
+1090
+00:34:56,840 --> 00:34:58,280
+nah di bagian bawah
+
+1091
+00:34:58,280 --> 00:35:00,639
+sebenarnya saya maunya di atas table 4 nya sih
+
+1092
+00:35:00,639 --> 00:35:02,199
+untuk bagian bank statusnya
+
+1093
+00:35:03,099 --> 00:35:04,699
+jadi bapak gak usah pake excel
+
+1094
+00:35:04,699 --> 00:35:06,079
+excel libat banget masalahnya
+
+1095
+00:35:07,659 --> 00:35:08,320
+kaya gitu
+
+1096
+00:35:08,320 --> 00:35:10,400
+jadi bank status ini bapak bisa liat di sini nanti
+
+1097
+00:35:11,079 --> 00:35:12,360
+kaya contohnya kaya gini lah
+
+1098
+00:35:12,900 --> 00:35:13,380
+gitu
+
+1099
+00:35:15,039 --> 00:35:15,840
+itu itu ya
+
+1100
+00:35:16,739 --> 00:35:18,320
+itu masukin data-datanya
+
+1101
+00:35:18,320 --> 00:35:19,500
+nanti abis itu
+
+1102
+00:35:20,119 --> 00:35:21,519
+sebenarnya gak usah di input-input sih
+
+1103
+00:35:21,519 --> 00:35:22,579
+ada inputnya gak sih di sini
+
+1104
+00:35:23,139 --> 00:35:25,099
+oh gak usah gak usah inputan
+
+1105
+00:35:25,099 --> 00:35:27,400
+kayak 2500 kan
+
+1106
+00:35:28,539 --> 00:35:29,019
+pajak
+
+1107
+00:35:31,460 --> 00:35:32,940
+apa sih biamin
+
+1108
+00:35:35,320 --> 00:35:37,440
+apa mau jadiin excel apa gimana nih
+
+1109
+00:35:37,440 --> 00:35:38,860
+maksudnya kalo aplikasi gini
+
+1110
+00:35:40,340 --> 00:35:41,400
+enak sih sebenarnya
+
+1111
+00:35:41,940 --> 00:35:44,039
+karena cuma untuk kolom biaya
+
+1112
+00:35:44,039 --> 00:35:46,260
+kan itu kan transfer-transfer itu kan ada
+
+1113
+00:35:46,260 --> 00:35:47,420
+kadang-kadang pake biadmin
+
+1114
+00:35:47,420 --> 00:35:48,099
+ada yang gak
+
+1115
+00:35:48,099 --> 00:35:49,000
+setiap
+
+1116
+00:35:49,000 --> 00:35:51,619
+sekali ada transaksi itu yang di
+
+1117
+00:35:51,619 --> 00:35:52,599
+itu tadi kan
+
+1118
+00:35:52,599 --> 00:35:54,500
+evident kirim
+
+1119
+00:35:54,500 --> 00:35:57,719
+itu ada gak untuk masukin biaya adminnya
+
+1120
+00:35:59,139 --> 00:36:00,280
+tambahin gak bisa gak
+
+1121
+00:36:00,280 --> 00:36:01,119
+ya bisa
+
+1122
+00:36:01,119 --> 00:36:02,179
+tetep tetep
+
+1123
+00:36:02,920 --> 00:36:05,420
+nanti biadmin nanti masuk dalam kolom sendiri
+
+1124
+00:36:05,420 --> 00:36:07,019
+kan nanti kolom sendiri biadmin tuh
+
+1125
+00:36:07,019 --> 00:36:07,719
+coba liat owa
+
+1126
+00:36:08,619 --> 00:36:10,619
+intinya nambah kolom aja lah
+
+1127
+00:36:10,619 --> 00:36:11,159
+untuk untuk
+
+1128
+00:36:11,159 --> 00:36:13,519
+apa untuk database itu gitu
+
+1129
+00:36:13,519 --> 00:36:14,460
+eh bukan database sih
+
+1130
+00:36:14,460 --> 00:36:16,380
+lebih tepatnya sih di bagian table itu
+
+1131
+00:36:16,380 --> 00:36:17,440
+ada kolom untuk
+
+1132
+00:36:18,179 --> 00:36:19,519
+nambah biaya admin kaya gitu
+
+1133
+00:36:19,519 --> 00:36:20,460
+maksud bapak kaya gitu kan
+
+1134
+00:36:20,460 --> 00:36:22,440
+itu di mana isinya itu
+
+1135
+00:36:22,440 --> 00:36:23,679
+itu tinggal
+
+1136
+00:36:24,340 --> 00:36:25,860
+keputusannya adalah mau lipet
+
+1137
+00:36:25,860 --> 00:36:27,280
+ngurusin yang kecil-kecil juga
+
+1138
+00:36:27,280 --> 00:36:28,280
+atau enggak
+
+1139
+00:36:28,280 --> 00:36:29,000
+kalo enggak
+
+1140
+00:36:29,000 --> 00:36:30,739
+angka itu sebenarnya masukin ke
+
+1141
+00:36:31,440 --> 00:36:32,119
+transaksi ini
+
+1142
+00:36:32,179 --> 00:36:32,300
+hidup
+
+1143
+00:36:32,300 --> 00:36:33,940
+jadi kalo transaksi hidup sejuta
+
+1144
+00:36:33,940 --> 00:36:35,079
+tapi ada admin 200
+
+1145
+00:36:35,079 --> 00:36:35,400
+nah iya
+
+1146
+00:36:36,179 --> 00:36:37,039
+gak ngaribet gitu
+
+1147
+00:36:37,039 --> 00:36:38,139
+jadinya sejuta dua ratus
+
+1148
+00:36:38,139 --> 00:36:39,300
+mau dua ribu ratus
+
+1149
+00:36:40,179 --> 00:36:41,039
+jadi ngaribet tuh
+
+1150
+00:36:41,039 --> 00:36:41,460
+atau
+
+1151
+00:36:43,340 --> 00:36:45,039
+lain lagi caranya adalah
+
+1152
+00:36:45,700 --> 00:36:47,539
+nanti itu dilaporkan
+
+1153
+00:36:48,179 --> 00:36:49,139
+di tiap bulan
+
+1154
+00:36:50,179 --> 00:36:51,039
+jadi makanya transaksi itu
+
+1155
+00:36:51,039 --> 00:36:51,900
+apa adanya
+
+1156
+00:36:51,900 --> 00:36:53,440
+biaya admin itu
+
+1157
+00:36:53,440 --> 00:36:54,980
+di setiap bulan dikumpulin aja
+
+1158
+00:36:54,980 --> 00:36:56,340
+dilaporin bahwa biaya admin
+
+1159
+00:36:56,340 --> 00:36:57,059
+enggak makanya
+
+1160
+00:36:58,000 --> 00:36:59,519
+maksudnya kan biaya admin itu kan
+
+1161
+00:36:59,519 --> 00:37:00,260
+kadang-kadang kan
+
+1162
+00:37:00,260 --> 00:37:01,619
+ada yang gak 2.500
+
+1163
+00:37:01,619 --> 00:37:02,739
+nanti 6.500
+
+1164
+00:37:02,739 --> 00:37:04,559
+terus ada juga pajak
+
+1165
+00:37:04,559 --> 00:37:05,840
+pajak bulanan
+
+1166
+00:37:05,840 --> 00:37:07,360
+akhir-akhir bulan itu kan
+
+1167
+00:37:07,360 --> 00:37:08,539
+masing-masing rekening
+
+1168
+00:37:08,539 --> 00:37:09,820
+belum tentu ada pajak masing-masing
+
+1169
+00:37:09,820 --> 00:37:11,659
+ya biasanya kan ada pajak tuh
+
+1170
+00:37:11,659 --> 00:37:12,860
+30.000 setiap bulan
+
+1171
+00:37:12,860 --> 00:37:14,800
+ya itu dikumpulin nanti
+
+1172
+00:37:14,800 --> 00:37:17,179
+jadi terpaksa harus ada yang
+
+1173
+00:37:17,179 --> 00:37:19,059
+beli-beli nol total
+
+1174
+00:37:19,059 --> 00:37:23,880
+kalau laporan di bank itu ada enggak
+
+1175
+00:37:23,880 --> 00:37:24,619
+resumo bawahnya
+
+1176
+00:37:25,260 --> 00:37:27,059
+ini total biaya admin sekian
+
+1177
+00:37:27,059 --> 00:37:27,960
+total ini ada
+
+1178
+00:37:27,960 --> 00:37:28,880
+di bank itu ada
+
+1179
+00:37:28,880 --> 00:37:30,119
+masalahnya
+
+1180
+00:37:30,119 --> 00:37:31,340
+ditulisi dia
+
+1181
+00:37:31,340 --> 00:37:32,940
+ada yang perlu lagi campur aja
+
+1182
+00:37:32,940 --> 00:37:33,719
+di hari tahun lagi
+
+1183
+00:37:33,719 --> 00:37:34,119
+iya
+
+1184
+00:37:34,119 --> 00:37:35,559
+nah itu ditaruhnya di
+
+1185
+00:37:35,559 --> 00:37:35,920
+nah
+
+1186
+00:37:35,920 --> 00:37:37,539
+dia masing-masing bulan
+
+1187
+00:37:37,539 --> 00:37:38,840
+iya mas dia di perbulan
+
+1188
+00:37:38,840 --> 00:37:40,000
+perbulan bisa
+
+1189
+00:37:40,000 --> 00:37:42,000
+per tahun yang tinggal dikumpulin aja
+
+1190
+00:37:42,000 --> 00:37:42,739
+12 bulan
+
+1191
+00:37:42,739 --> 00:37:43,699
+taruh di bulan Desember
+
+1192
+00:37:44,360 --> 00:37:45,219
+enggak makanya
+
+1193
+00:37:45,219 --> 00:37:46,739
+nantinya kita harus ngitung ulang lagi
+
+1194
+00:37:46,739 --> 00:37:47,059
+nanti
+
+1195
+00:37:47,059 --> 00:37:48,380
+iya memang manual
+
+1196
+00:37:48,380 --> 00:37:50,539
+maksudnya 1 jalan bulan lagi apa
+
+1197
+00:37:50,539 --> 00:37:51,559
+kalau Maret
+
+1198
+00:37:51,559 --> 00:37:53,360
+dilihat yang terakhirnya itu
+
+1199
+00:37:53,360 --> 00:37:55,300
+dia adminnya berapa gitu
+
+1200
+00:37:55,300 --> 00:37:57,780
+itu sesuai aplikasi apa
+
+1201
+00:37:57,780 --> 00:37:58,800
+melihat lagi bapaknya
+
+1202
+00:37:58,800 --> 00:38:00,440
+harus buka
+
+1203
+00:38:00,440 --> 00:38:01,320
+iya
+
+1204
+00:38:01,320 --> 00:38:02,519
+coba lihat ini
+
+1205
+00:38:02,519 --> 00:38:03,059
+ini
+
+1206
+00:38:03,059 --> 00:38:04,699
+apa tuh
+
+1207
+00:38:05,920 --> 00:38:06,480
+untuk
+
+1208
+00:38:06,480 --> 00:38:10,639
+kalau di laporan bulanan itu kan
+
+1209
+00:38:10,639 --> 00:38:12,659
+misalnya kita transaksi
+
+1210
+00:38:12,659 --> 00:38:13,360
+ini
+
+1211
+00:38:13,360 --> 00:38:14,280
+ada transaksi
+
+1212
+00:38:14,280 --> 00:38:14,659
+ada yang
+
+1213
+00:38:14,659 --> 00:38:16,360
+kalau misalnya bapak
+
+1214
+00:38:16,360 --> 00:38:17,219
+kan dia enggak ada admin
+
+1215
+00:38:17,219 --> 00:38:18,539
+kalau bank lain kan
+
+1216
+00:38:18,539 --> 00:38:19,199
+ada admin
+
+1217
+00:38:19,199 --> 00:38:20,400
+ada yang kadang-kadang
+
+1218
+00:38:20,400 --> 00:38:21,019
+dia enggak bisa
+
+1219
+00:38:21,019 --> 00:38:22,079
+free test
+
+1220
+00:38:22,079 --> 00:38:22,480
+harus
+
+1221
+00:38:22,480 --> 00:38:23,539
+harus online
+
+1222
+00:38:23,539 --> 00:38:24,860
+itu beda
+
+1223
+00:38:24,860 --> 00:38:25,360
+itu adminnya
+
+1224
+00:38:25,360 --> 00:38:25,679
+itu kan
+
+1225
+00:38:25,679 --> 00:38:26,440
+nah terus
+
+1226
+00:38:26,440 --> 00:38:27,820
+nanti pajak
+
+1227
+00:38:27,820 --> 00:38:28,219
+jelas
+
+1228
+00:38:28,219 --> 00:38:28,900
+dan macam-macam
+
+1229
+00:38:28,900 --> 00:38:29,179
+ini
+
+1230
+00:38:29,179 --> 00:38:29,900
+ini ini ini
+
+1231
+00:38:29,900 --> 00:38:30,400
+ini ini ini
+
+1232
+00:38:31,320 --> 00:38:31,739
+itu
+
+1233
+00:38:31,739 --> 00:38:32,219
+itu
+
+1234
+00:38:38,819 --> 00:38:41,619
+ini itu
+
+1235
+00:38:47,199 --> 00:38:48,599
+terpisah
+
+1236
+00:38:50,759 --> 00:38:52,159
+endok åt
+
+1237
+00:38:52,159 --> 00:38:54,019
+Wah
+
+1238
+00:38:54,019 --> 00:38:54,659
+maksudnya
+
+1239
+00:38:54,659 --> 00:38:54,860
+itu
+
+1240
+00:38:54,860 --> 00:38:56,679
+segala
+
+1241
+00:38:56,679 --> 00:38:58,780
+न
+
+1242
+00:38:59,320 --> 00:39:00,320
+depois
+
+1243
+00:39:05,719 --> 00:39:07,760
+bisa aja langsung ditransaksi
+
+1244
+00:39:07,760 --> 00:39:13,699
+kalau transaksinya sejuta jadi sejuta
+
+1245
+00:39:13,699 --> 00:39:24,719
+ya dimasukin manual kan kita mau bayar siapa nih kita mau ada bayar
+
+1246
+00:39:27,679 --> 00:39:34,719
+ya sudah total transaksi disitu langsung baris itu ditambahin
+
+1247
+00:39:39,239 --> 00:39:43,599
+nilai-nilai ini apa setelannya
+
+1248
+00:39:48,059 --> 00:39:49,480
+ditambahin lagi
+
+1249
+00:39:49,480 --> 00:39:50,440
+transfer
+
+1250
+00:39:53,640 --> 00:39:54,400
+sumber dana
+
+1251
+00:39:56,579 --> 00:40:01,619
+nah atau pakai cara lain lagi-lagi kalau kayak
+
+1252
+00:40:01,619 --> 00:40:09,260
+itu kalau ada biaya admin dipotongin jadi
+
+1253
+00:40:09,260 --> 00:40:15,500
+kalau aku dari Dubai
+
+1254
+00:40:19,959 --> 00:40:21,699
+potongan transfer antar negara
+
+1255
+00:40:21,699 --> 00:40:23,000
+terus
+
+1256
+00:40:23,000 --> 00:40:25,539
+ngasih solusi
+
+1257
+00:40:25,539 --> 00:40:29,960
+kumpulin aja ya biaya potongan
+
+1258
+00:40:29,960 --> 00:40:30,320
+lipicious
+
+1259
+00:40:30,320 --> 00:40:32,119
+Hai
+
+1260
+00:40:38,519 --> 00:40:39,940
+couldn't learn
+
+1261
+00:40:39,940 --> 00:40:41,019
+nyawa
+
+1262
+00:40:41,019 --> 00:40:42,539
+Ya The
+
+1263
+00:40:51,000 --> 00:40:52,400
+office
+
+1264
+00:40:50,860 --> 00:40:52,840
+테
+
+1265
+00:40:53,000 --> 00:40:54,800
+Oh ya kita kemarin gak masukin
+
+1266
+00:40:54,800 --> 00:40:56,280
+BNP Pajaran dan sebagainya
+
+1267
+00:40:56,280 --> 00:40:57,860
+Karena aku tuh gak begitu
+
+1268
+00:40:57,860 --> 00:40:59,079
+Begitunya tuh begitu
+
+1269
+00:40:59,079 --> 00:41:06,440
+Kalau misalnya ini
+
+1270
+00:41:06,440 --> 00:41:07,840
+Kita gak berpikir
+
+1271
+00:41:07,840 --> 00:41:09,760
+Yang kondisi sekarang ini
+
+1272
+00:41:09,760 --> 00:41:12,320
+Nanti kondisinya sudah mulai banyak terbunuh
+
+1273
+00:41:12,320 --> 00:41:12,980
+Terasa sih
+
+1274
+00:41:12,980 --> 00:41:14,920
+Tau-tau nanti yang macem-macem itu
+
+1275
+00:41:18,560 --> 00:41:20,360
+Tapi yang tadi bilang
+
+1276
+00:41:20,360 --> 00:41:21,199
+Satu persatu
+
+1277
+00:41:33,279 --> 00:41:34,880
+Kalau backer
+
+1278
+00:41:34,880 --> 00:41:37,000
+Bulanan dia akan melihat
+
+1279
+00:41:37,000 --> 00:41:38,079
+Rekonkuran
+
+1280
+00:41:39,799 --> 00:41:40,599
+Jadi
+
+1281
+00:41:40,599 --> 00:41:43,820
+Tiap bulan nanti akan ada tambahan satu transaksi
+
+1282
+00:41:43,820 --> 00:41:45,280
+Biaya bal
+
+1283
+00:41:46,119 --> 00:41:47,460
+Nanti masih
+
+1284
+00:41:47,460 --> 00:41:49,019
+Di ini lagi
+
+1285
+00:41:49,019 --> 00:41:50,800
+Dia net off kan terhadap bunga
+
+1286
+00:41:50,800 --> 00:41:51,920
+Jadi
+
+1287
+00:41:51,920 --> 00:41:53,900
+Biaya banknya udah langsung
+
+1288
+00:41:54,879 --> 00:41:55,860
+Bulan ini
+
+1289
+00:41:55,860 --> 00:41:57,820
+Biaya bank kita
+
+1290
+00:41:57,820 --> 00:41:59,460
+Pajak dan sebagainya muncullah
+
+1291
+00:41:59,460 --> 00:42:01,000
+Sejuta dua ratus
+
+1292
+00:42:01,000 --> 00:42:02,780
+Terus bunganya
+
+1293
+00:42:02,780 --> 00:42:04,000
+Tujuh ratus
+
+1294
+00:42:05,100 --> 00:42:07,139
+Tapi langsung disettle kan disitu
+
+1295
+00:42:07,139 --> 00:42:10,239
+Biaya bank
+
+1296
+00:42:10,239 --> 00:42:12,000
+Bulan ini adalah lima ratus
+
+1297
+00:42:14,379 --> 00:42:15,380
+Lampirannya mana
+
+1298
+00:42:15,380 --> 00:42:16,360
+Ini adalah peran
+
+1299
+00:42:16,360 --> 00:42:19,119
+Ya udah bikin macam itu aja
+
+1300
+00:42:19,119 --> 00:42:20,099
+Kalau gak ada ini
+
+1301
+00:42:20,099 --> 00:42:20,460
+Ini boleh
+
+1302
+00:42:20,460 --> 00:42:21,199
+Dua ribu dollar
+
+1303
+00:42:21,199 --> 00:42:21,619
+Ya udah
+
+1304
+00:42:22,260 --> 00:42:23,860
+Gak terlalu duit
+
+1305
+00:42:23,860 --> 00:42:24,400
+Bulanan
+
+1306
+00:42:25,179 --> 00:42:25,719
+Karena kalau
+
+1307
+00:42:25,719 --> 00:42:27,099
+Pokoknya kita kurangin aja
+
+1308
+00:42:27,099 --> 00:42:28,460
+Dan pajaknya sudah langsung kan
+
+1309
+00:42:28,460 --> 00:42:29,280
+Ya cuma
+
+1310
+00:42:29,280 --> 00:42:30,320
+Karena ada beberapa yang
+
+1311
+00:42:30,320 --> 00:42:32,000
+Kayak BCA gak ada bunga bank
+
+1312
+00:42:32,000 --> 00:42:32,679
+Masalahnya
+
+1313
+00:42:33,320 --> 00:42:34,760
+Di giro BCA
+
+1314
+00:42:34,760 --> 00:42:36,460
+Gak dikasihnya bunga bank
+
+1315
+00:42:36,460 --> 00:42:37,039
+Jadi kita
+
+1316
+00:42:37,840 --> 00:42:39,820
+Semua ini akan transaksi
+
+1317
+00:42:39,820 --> 00:42:41,440
+Bila semua ada di dalamnya
+
+1318
+00:42:41,440 --> 00:42:41,760
+Gak apa-apa
+
+1319
+00:42:41,760 --> 00:42:42,699
+Nanti disitu minus
+
+1320
+00:42:42,699 --> 00:42:44,739
+Kalau BRI sendiri ada
+
+1321
+00:42:45,460 --> 00:42:46,480
+Biaya bank
+
+1322
+00:42:46,480 --> 00:42:48,159
+Kalau kita punya tiga rekening
+
+1323
+00:42:48,159 --> 00:42:51,360
+Berarti tiap bulan ada tambahan tiga baris laporan
+
+1324
+00:42:51,360 --> 00:42:53,739
+Yang satu, biaya berapa
+
+1325
+00:42:53,739 --> 00:42:55,159
+Yang kedua, biaya berapa
+
+1326
+00:42:55,159 --> 00:42:56,539
+Dan biaya gak harus selalu
+
+1327
+00:42:56,539 --> 00:42:58,340
+Gak selalu-selalu ada
+
+1328
+00:42:58,340 --> 00:42:59,860
+Kalau ada, ada transaksi
+
+1329
+00:42:59,860 --> 00:43:01,019
+Gak, gak terlalu aja nol
+
+1330
+00:43:01,019 --> 00:43:01,940
+Dikasih aja
+
+1331
+00:43:01,940 --> 00:43:03,019
+Barisnya tetap
+
+1332
+00:43:03,019 --> 00:43:04,639
+Supaya kita tahu bahwa kita udah hilang
+
+1333
+00:43:04,639 --> 00:43:06,880
+Jadi ini biaya bank bulan ini
+
+1334
+00:43:06,880 --> 00:43:07,840
+BCA misal
+
+1335
+00:43:07,840 --> 00:43:08,960
+Minus berapa
+
+1336
+00:43:08,960 --> 00:43:09,880
+Mandiri
+
+1337
+00:43:09,880 --> 00:43:12,420
+Plus pun ya kita taruh duit itu sebagai plus
+
+1338
+00:43:12,420 --> 00:43:13,239
+Karena ada
+
+1339
+00:43:13,239 --> 00:43:14,280
+Jadi penghasilan
+
+1340
+00:43:14,280 --> 00:43:15,820
+Karena ada bunga
+
+1341
+00:43:16,440 --> 00:43:17,019
+Oke
+
+1342
+00:43:17,019 --> 00:43:17,239
+Oke
+
+1343
+00:43:18,019 --> 00:43:19,519
+Itu anggap aja kayak
+
+1344
+00:43:19,519 --> 00:43:20,280
+Kayak ini aja
+
+1345
+00:43:20,280 --> 00:43:20,780
+Itu kayak
+
+1346
+00:43:21,940 --> 00:43:23,059
+Tapi kan itu
+
+1347
+00:43:24,660 --> 00:43:25,559
+Ditulisnya gimana
+
+1348
+00:43:25,559 --> 00:43:26,099
+Di horor
+
+1349
+00:43:26,099 --> 00:43:27,300
+Nanti kalau masuk indah disitu
+
+1350
+00:43:30,560 --> 00:43:31,840
+Final dulu
+
+1351
+00:43:31,840 --> 00:43:32,619
+Final dulu
+
+1352
+00:43:33,480 --> 00:43:34,480
+Final dulu
+
+1353
+00:43:34,480 --> 00:43:36,619
+Final dulu
+
+1354
+00:43:36,619 --> 00:43:38,519
+Iya udah sepakat belum
+
+1355
+00:43:38,519 --> 00:43:39,639
+Bulanan aja
+
+1356
+00:43:40,599 --> 00:43:42,780
+Jadi setiap bulan nanti ada
+
+1357
+00:43:42,780 --> 00:43:44,400
+Pokoknya setiap bulan nanti
+
+1358
+00:43:44,400 --> 00:43:45,420
+Ini apa mungkin
+
+1359
+00:43:45,420 --> 00:43:47,059
+Gak semuanya
+
+1360
+00:43:47,239 --> 00:43:48,000
+Yang banyak transaksi
+
+1361
+00:43:48,000 --> 00:43:48,760
+Ya dia paham
+
+1362
+00:43:48,760 --> 00:43:50,380
+Cuma maksudnya sistemnya kayak gimana nih
+
+1363
+00:43:50,380 --> 00:43:50,980
+Koper bulanan
+
+1364
+00:43:51,580 --> 00:43:54,039
+Bulanan rekonseliasi ada 3 transaksi
+
+1365
+00:43:54,039 --> 00:43:55,000
+Nah transaksi itu
+
+1366
+00:43:56,200 --> 00:43:57,780
+Seperti transaksi yang lain
+
+1367
+00:43:57,780 --> 00:43:59,559
+Seperti transaksi saya tahu
+
+1368
+00:44:00,080 --> 00:44:01,500
+Haa seperti transaksi saya tahu
+
+1369
+00:44:01,500 --> 00:44:01,639
+Seperti transaksi saya tahu
+
+1370
+00:44:01,639 --> 00:44:04,760
+Tapi kategorinya mungkin rekonseliasi
+
+1371
+00:44:06,040 --> 00:44:08,119
+Jadi ada tambahan lagi maksudnya
+
+1372
+00:44:08,119 --> 00:44:08,539
+Kategori
+
+1373
+00:44:09,400 --> 00:44:10,639
+Tambahan kategorinya
+
+1374
+00:44:10,639 --> 00:44:12,679
+Berarti intinya tuh gak usah ada perubahan
+
+1375
+00:44:12,679 --> 00:44:14,000
+Kategori aja ditambahin
+
+1376
+00:44:14,000 --> 00:44:14,039
+Iya gitu
+
+1377
+00:44:14,700 --> 00:44:15,340
+Rekonseliasi
+
+1378
+00:44:15,340 --> 00:44:17,219
+Itu ada table tersendiri
+
+1379
+00:44:17,239 --> 00:44:25,699
+sendirinya enggak ya enggak intinya di disini aja gitu ya apa itu selalu negatif atau bisa positif
+
+1380
+00:44:27,739 --> 00:44:40,380
+kalau kalau misalnya duitnya lagi dipendam di misalnya di BRI gede berarti sekarang masukin
+
+1381
+00:44:40,380 --> 00:44:49,940
+misalnya ekspansi situ dimasukinnya anggannya negatif atau positif pengeluaran kan pengeluaran
+
+1382
+00:44:49,940 --> 00:44:57,260
+negatif disini sudah ada tulisannya disini habis Udi ini lagi sesuai dengan apa di laporan
+
+1383
+00:44:57,260 --> 00:45:06,019
+kalau memang jadi negatif malah harusnya lebih mudah jadi kalau memang dari banknya total-total
+
+1384
+00:45:06,019 --> 00:45:10,039
+negatif-negatif kalau memang positif-positif taruh di situ biar
+
+1385
+00:45:10,039 --> 00:45:10,159
+Hai
+
+1386
+00:45:10,159 --> 00:45:15,079
+sistem yang setelkan semuanya nanti akhirnya pengeluarannya bisa berkurang jadinya karena
+
+1387
+00:45:15,079 --> 00:45:21,199
+ada tambahan pendapatan bunga tambahannya kayak gimana enggak usah-usah dipikirin pokoknya ditulis
+
+1388
+00:45:21,199 --> 00:45:27,340
+di situ gini kalau pengeluaran itu ditulis negatif maka pada saat negatifnya kita tulisnya bukan
+
+1389
+00:45:27,340 --> 00:45:35,000
+negatif berarti dia akan langsung mengurangi pengeluaran Oh enggak ribet tapi kalau perusahaan
+
+1390
+00:45:35,000 --> 00:45:44,199
+pendidik biasanya bunga pang itu dimunculkan itu sebagai pendapatan jadi kalau mau biar juga biar
+
+1391
+00:45:44,199 --> 00:45:52,019
+juga apa namanya biar juga teli gampang juga nge-trackingnya semua biaya masuk sebagai
+
+1392
+00:45:52,019 --> 00:46:02,960
+pengeluaran bunga semuanya masuk sebagai pendapatan ini jadi di revenue itu ada baris
+
+1393
+00:46:02,960 --> 00:46:04,420
+setiap bulan bunga pang
+
+1394
+00:46:11,320 --> 00:46:19,119
+ini karena datanya kebanyakin ya maksudnya satu aja sebenarnya kayak gini kan ini saya sengajain
+
+1395
+00:46:19,119 --> 00:46:26,460
+banyak-banyakin sampai 3000 biar biar tahu 6 berapa enggak itu dianggap sebagai penghasilan
+
+1396
+00:46:26,460 --> 00:46:33,219
+tadi saya bingungnya tadi yang plus itu berarti gimana sih sebenarnya kalau pengeluaran itu
+
+1397
+00:46:33,880 --> 00:46:34,519
+anganya
+
+1398
+00:46:34,519 --> 00:46:42,800
+jadi negatif atau jadi positif dalam tabel dalam laporanmu pengeluaran itu dikasih signacernya
+
+1399
+00:46:42,800 --> 00:46:51,460
+minus atau plus di minuskannya di tabel akhir atau di minuskannya udah dari tabel awal
+
+1400
+00:46:51,460 --> 00:46:59,780
+Hai kayaknya kan di tabel akhir aja kan ini summary-summary jadi negatif disini jadi positif
+
+1401
+00:46:59,780 --> 00:47:02,719
+karena apa
+
+1402
+00:47:04,519 --> 00:47:08,480
+kalau misalnya ternyata kita cobek penghasilan berarti di pengeluaran harusnya diminuskan
+
+1403
+00:47:08,480 --> 00:47:15,659
+nah nanti jadi bingung lagi nih kenapa minus nih berarti bunga bank yaudah artinya pokoknya yang
+
+1404
+00:47:15,659 --> 00:47:25,199
+teks ini apa paja ini apa teks paja admin yang macam itu masuk pengeluaran bunga bank masuk revenue
+
+1405
+00:47:25,900 --> 00:47:33,760
+udah ada terbiasa disini jadi ceritanya tetap akan nyambung dan konsep panggannya tapi gak perlu disebutin dari bank apa?
+
+1406
+00:47:34,519 --> 00:47:37,659
+ya intinya revenue revenue 2024 intinya itu
+
+1407
+00:47:37,659 --> 00:47:41,320
+eh maksudnya bunga bank 2024 kayak gitu
+
+1408
+00:47:41,320 --> 00:47:42,440
+kalau bisa per bulan aja
+
+1409
+00:47:42,440 --> 00:47:43,739
+oh per bulan berarti
+
+1410
+00:47:43,739 --> 00:47:52,019
+bulan januari itu pokoknya purcanya bunga bank januari itu sudah bisa dari bank mandiri bank apa ini itu kan manual aja kan
+
+1411
+00:47:52,019 --> 00:47:56,079
+itu rencananya kayak gitu-gitu sebenarnya tuh nambahnya disini
+
+1412
+00:47:56,079 --> 00:48:03,400
+tapi sih sebenarnya bisa ditambahin di settlementnya disini kan saya udah bikin ya
+
+1413
+00:48:03,400 --> 00:48:04,500
+bagian itu ya
+
+1414
+00:48:04,519 --> 00:48:15,280
+revenue nya tuh ditambahin bagian bawahnya nah dan dia tuh disitu tuh ditambahin pikirnya tuh kayak gitu tapi mau di settlement tuh itunya
+
+1415
+00:48:15,920 --> 00:48:20,440
+oh enggak sih bunga ada di penghasilan di pendapatan
+
+1416
+00:48:20,440 --> 00:48:21,579
+dibikin tadi siapa
+
+1417
+00:48:21,579 --> 00:48:23,199
+ini bagian revenue nya
+
+1418
+00:48:23,199 --> 00:48:24,360
+nah di revenue
+
+1419
+00:48:24,360 --> 00:48:25,400
+ini inputnya dari mana?
+
+1420
+00:48:25,639 --> 00:48:29,380
+inputnya dari sini nih ditambah nah nanti disini tulis aja gitu
+
+1421
+00:48:29,380 --> 00:48:32,599
+saya mikirnya kayak gitu tapi kan bilang mau di settlement jadi kalau ada
+
+1422
+00:48:32,599 --> 00:48:34,420
+oh mau disini aja
+
+1423
+00:48:35,500 --> 00:48:38,099
+jadi bunga itu ngikutin revenue
+
+1424
+00:48:39,560 --> 00:48:45,599
+yang biaya pajak dan biaya transaksi itu di pengeluaran
+
+1425
+00:48:45,599 --> 00:48:54,340
+tapi maaf saya paham gitu nya cuman maksudnya kayak orang-orang tuh juga ngitung juga gak gitu jadi dia jadi inget gitu bulannya abis itu dimasukin sendiri gitu
+
+1426
+00:48:54,340 --> 00:49:00,639
+nah cuman masalahnya kan ini kan levelnya manajer ya staff gak bisa megang ini gitu jadi papa sama malam gitu
+
+1427
+00:49:00,639 --> 00:49:02,559
+nantinya akan digasihkan staff
+
+1428
+00:49:02,559 --> 00:49:03,760
+nantinya akan digasihkan staff
+
+1429
+00:49:03,760 --> 00:49:04,500
+nanti sekarang masalahnya apa?
+
+1430
+00:49:04,519 --> 00:49:05,219
+masih kecil
+
+1431
+00:49:05,219 --> 00:49:06,099
+sekarang mulai gak ada staffnya
+
+1432
+00:49:06,099 --> 00:49:08,039
+masih cukup papa sendiri aja
+
+1433
+00:49:08,039 --> 00:49:10,059
+nanti kalau sudah ini-ini
+
+1434
+00:49:10,059 --> 00:49:12,079
+baru cari pendek dia
+
+1435
+00:49:12,079 --> 00:49:14,280
+dia mikirnya kalau bank itu berarti
+
+1436
+00:49:14,280 --> 00:49:16,880
+anggap aja nih ada satu staff anggap aja gitu
+
+1437
+00:49:17,519 --> 00:49:21,920
+udah ada bangungannya dikasih tau nih bulan ini nanti kasih ke papa
+
+1438
+00:49:21,920 --> 00:49:23,599
+papanya baru naruh disini gitu kan
+
+1439
+00:49:24,300 --> 00:49:26,199
+sementara sekarang itu secara rendahnya
+
+1440
+00:49:26,199 --> 00:49:28,679
+yang ngambil kata bank itu dia juga
+
+1441
+00:49:28,679 --> 00:49:30,280
+gak ada staffnya
+
+1442
+00:49:30,280 --> 00:49:31,679
+staffnya belum ada
+
+1443
+00:49:31,679 --> 00:49:32,900
+papa juga
+
+1444
+00:49:33,519 --> 00:49:34,059
+papa bilang ada
+
+1445
+00:49:34,519 --> 00:49:35,300
+ada goel
+
+1446
+00:49:35,300 --> 00:49:38,519
+oh ini kayaknya mitra jadi tambahin lagi gitu-gitu juga
+
+1447
+00:49:38,519 --> 00:49:39,659
+ya beda itu
+
+1448
+00:49:39,659 --> 00:49:40,159
+itu
+
+1449
+00:49:40,159 --> 00:49:42,019
+itu role-role
+
+1450
+00:49:42,019 --> 00:49:42,579
+itu role-role
+
+1451
+00:49:42,579 --> 00:49:45,400
+jadi untuk expand progresi itu juga buat
+
+1452
+00:49:45,400 --> 00:49:48,199
+ada pihak ketiga maksudnya
+
+1453
+00:49:48,199 --> 00:49:50,800
+pihak ketiga itu bisa jadi pengeluaran
+
+1454
+00:49:50,800 --> 00:49:51,820
+masuk ke sini
+
+1455
+00:49:51,820 --> 00:49:54,820
+yang ditamporkan sebagai laporan keuangan dia
+
+1456
+00:49:55,519 --> 00:49:56,800
+kita kayak beli bakso aja
+
+1457
+00:49:57,519 --> 00:49:58,019
+oh iya
+
+1458
+00:49:58,019 --> 00:49:59,000
+goel misalnya ya
+
+1459
+00:49:59,519 --> 00:50:00,559
+itu kita kayak beli
+
+1460
+00:50:01,519 --> 00:50:04,000
+iya tapi kan uangnya tetap dari perusahaan ini kan maksudnya kan
+
+1461
+00:50:04,000 --> 00:50:07,079
+jadi kayak dari mitra ketiga ini kan minta gitu
+
+1462
+00:50:07,079 --> 00:50:08,420
+contohnya kayak kerjasama ini
+
+1463
+00:50:08,420 --> 00:50:11,380
+nah dia kayak bantuin perusahaan kita
+
+1464
+00:50:12,000 --> 00:50:12,840
+abis itu minta duit ke papa
+
+1465
+00:50:12,840 --> 00:50:16,059
+nah nanti abis itu uang itu tuh nanti dicatat
+
+1466
+00:50:16,059 --> 00:50:17,039
+nah kayak gitu maksudnya
+
+1467
+00:50:17,039 --> 00:50:18,239
+itu sebagai pengeluaran
+
+1468
+00:50:18,239 --> 00:50:19,199
+nah iya pengeluaran
+
+1469
+00:50:19,199 --> 00:50:22,739
+gak ada urusan sama keuangan dia
+
+1470
+00:50:22,739 --> 00:50:25,000
+dia akan kirimin invoice ke kita
+
+1471
+00:50:25,599 --> 00:50:27,480
+intinya masuk ke excel gitu kan maksudnya
+
+1472
+00:50:28,000 --> 00:50:28,940
+iya gitu maksud saya
+
+1473
+00:50:28,940 --> 00:50:30,820
+iya tapi gak perlu ada kategori khusus
+
+1474
+00:50:30,820 --> 00:50:31,780
+oh gak ada gak ada
+
+1475
+00:50:31,780 --> 00:50:33,420
+semua sama aja kayak gitu
+
+1476
+00:50:33,420 --> 00:50:34,539
+mau itu dari manajer
+
+1477
+00:50:34,539 --> 00:50:37,920
+staff sama mitra sama aja gitu di excel
+
+1478
+00:50:37,920 --> 00:50:39,920
+cuma saya kira tadi
+
+1479
+00:50:41,259 --> 00:50:43,139
+dibilangnya ada perbedaan
+
+1480
+00:50:43,139 --> 00:50:43,820
+wah jadi bingung
+
+1481
+00:50:43,820 --> 00:50:45,239
+itu pengeluaran
+
+1482
+00:50:45,239 --> 00:50:45,940
+nah nanti
+
+1483
+00:50:45,940 --> 00:50:49,579
+kita ini kan lagi ada satu perusahaan lagi kita bikin
+
+1484
+00:50:49,579 --> 00:50:50,820
+lagi di daftarin
+
+1485
+00:50:50,820 --> 00:50:53,840
+namanya PT Expand Sinergy Progresia
+
+1486
+00:50:53,840 --> 00:50:55,880
+ini Expand Wireless Indonesia
+
+1487
+00:50:56,420 --> 00:50:57,699
+tapi itu perusahaan terpisah
+
+1488
+00:50:57,699 --> 00:50:59,619
+iya jadi mitra kayaknya
+
+1489
+00:50:59,619 --> 00:51:00,360
+enggak uang
+
+1490
+00:51:00,360 --> 00:51:01,159
+oh enggak
+
+1491
+00:51:01,159 --> 00:51:02,880
+keuangannya beda
+
+1492
+00:51:02,880 --> 00:51:04,719
+nanti ini laporannya disini sendiri
+
+1493
+00:51:04,719 --> 00:51:05,559
+ini sendiri
+
+1494
+00:51:05,559 --> 00:51:08,280
+oh dua aplikasi aja baru
+
+1495
+00:51:08,280 --> 00:51:09,320
+dua aplikasi terpisah
+
+1496
+00:51:09,880 --> 00:51:11,559
+pusing nanti kalau di KKB
+
+1497
+00:51:11,559 --> 00:51:12,519
+sebenarnya sih
+
+1498
+00:51:12,519 --> 00:51:13,840
+gabung sendiri-sendiri
+
+1499
+00:51:13,840 --> 00:51:14,820
+cuman maksudnya
+
+1500
+00:51:14,820 --> 00:51:16,380
+aplikasinya sama gitu
+
+1501
+00:51:16,380 --> 00:51:17,380
+cuman intinya
+
+1502
+00:51:17,380 --> 00:51:19,719
+jadi tidak ada istilah mitra juga
+
+1503
+00:51:19,719 --> 00:51:20,599
+enggak ada
+
+1504
+00:51:20,599 --> 00:51:21,239
+enggak ada
+
+1505
+00:51:21,880 --> 00:51:22,460
+enggak ada
+
+1506
+00:51:22,460 --> 00:51:23,599
+saya kira ada bu
+
+1507
+00:51:23,599 --> 00:51:24,679
+mau masuk ke excel aja
+
+1508
+00:51:24,679 --> 00:51:26,199
+masukin excel aja
+
+1509
+00:51:26,199 --> 00:51:28,059
+excelnya tuh ribet asli
+
+1510
+00:51:29,240 --> 00:51:31,000
+dibandingkan bikin ini nih
+
+1511
+00:51:31,000 --> 00:51:31,960
+dibandingkan bikin ini
+
+1512
+00:51:34,340 --> 00:51:35,840
+cuma table-table kayak gini
+
+1513
+00:51:35,840 --> 00:51:36,980
+kok excel lebih ribet ya
+
+1514
+00:51:36,980 --> 00:51:38,619
+kalau sudah ada aplikasi ini
+
+1515
+00:51:38,619 --> 00:51:40,719
+enaknya adalah terstruktur jadinya
+
+1516
+00:51:40,719 --> 00:51:42,480
+kalau excel kan nanti bisa aja
+
+1517
+00:51:42,480 --> 00:51:44,460
+hari ini formatnya ada yang lupa
+
+1518
+00:51:44,460 --> 00:51:45,420
+besoknya pening lagi
+
+1519
+00:51:45,420 --> 00:51:47,679
+iya data 2004 hancur banget
+
+1520
+00:51:47,679 --> 00:51:49,320
+saya lihat itu aplikasi bapak saya
+
+1521
+00:51:50,679 --> 00:51:51,579
+ada apa
+
+1522
+00:51:51,579 --> 00:51:52,900
+di situ 1 juta ya
+
+1523
+00:51:52,900 --> 00:51:55,219
+tapi di kolom itu 10 juta
+
+1524
+00:51:55,219 --> 00:51:56,300
+jadi dibacanya 10 juta
+
+1525
+00:51:56,300 --> 00:51:57,300
+waduh kacau
+
+1526
+00:51:57,300 --> 00:51:59,440
+saya lihat nih
+
+1527
+00:51:59,440 --> 00:52:00,679
+kok data beda ya
+
+1528
+00:52:00,679 --> 00:52:01,440
+sama data ini
+
+1529
+00:52:01,440 --> 00:52:02,280
+kok bisa beda
+
+1530
+00:52:02,280 --> 00:52:02,820
+kenapa salah
+
+1531
+00:52:02,820 --> 00:52:04,519
+karena perhitungannya tuh dihitungin dari sini
+
+1532
+00:52:04,519 --> 00:52:05,280
+apa
+
+1533
+00:52:05,280 --> 00:52:06,099
+dari ini kan
+
+1534
+00:52:07,480 --> 00:52:08,340
+contohnya nih
+
+1535
+00:52:08,340 --> 00:52:09,820
+dari pajak nih ya
+
+1536
+00:52:10,440 --> 00:52:11,159
+nah
+
+1537
+00:52:11,159 --> 00:52:12,380
+10 USD
+
+1538
+00:52:12,380 --> 00:52:13,800
+dikali 10 gitu
+
+1539
+00:52:13,800 --> 00:52:14,260
+nah
+
+1540
+00:52:14,260 --> 00:52:14,800
+jadinya 100
+
+1541
+00:52:14,800 --> 00:52:16,019
+nah cuman masalahnya
+
+1542
+00:52:16,019 --> 00:52:17,320
+saya lihat di excel
+
+1543
+00:52:17,320 --> 00:52:19,199
+ini jadi 10 juta gitu
+
+1544
+00:52:21,660 --> 00:52:23,159
+itu kecewa nanti
+
+1545
+00:52:23,159 --> 00:52:24,000
+saya hitung
+
+1546
+00:52:24,000 --> 00:52:25,219
+iya saya hitung
+
+1547
+00:52:25,219 --> 00:52:27,400
+ada juga disini subkategori
+
+1548
+00:52:27,400 --> 00:52:29,000
+nyambung sama
+
+1549
+00:52:30,200 --> 00:52:31,380
+kategori berbeda
+
+1550
+00:52:31,380 --> 00:52:32,559
+jadi ada kategori
+
+1551
+00:52:33,380 --> 00:52:34,199
+tapi sub nya tuh disini
+
+1552
+00:52:34,199 --> 00:52:34,619
+waduh
+
+1553
+00:52:35,280 --> 00:52:36,619
+ada juga kayak gitu
+
+1554
+00:52:36,619 --> 00:52:37,139
+jadi itu
+
+1555
+00:52:37,139 --> 00:52:38,860
+iya dibersih-bersihin
+
+1556
+00:52:38,860 --> 00:52:39,599
+dia untuk server berapa
+
+1557
+00:52:40,380 --> 00:52:41,219
+server apa nih
+
+1558
+00:52:41,219 --> 00:52:42,079
+server apa nih
+
+1559
+00:52:44,320 --> 00:52:45,239
+jujur aja
+
+1560
+00:52:45,239 --> 00:52:46,579
+saya jujur-jujur aja nih ya
+
+1561
+00:52:46,579 --> 00:52:48,119
+saya bisa bikin aplikasi
+
+1562
+00:52:48,119 --> 00:52:49,440
+tapi untuk deployment nih
+
+1563
+00:52:49,440 --> 00:52:50,860
+belum ada pengalaman
+
+1564
+00:52:50,860 --> 00:52:51,519
+disuruh aja
+
+1565
+00:52:51,519 --> 00:52:53,500
+jadi masih ada temen-temen bilangnya nih
+
+1566
+00:52:53,500 --> 00:52:54,840
+yang roster kayak gitu-gitu
+
+1567
+00:52:54,840 --> 00:52:55,260
+enggak
+
+1568
+00:52:55,260 --> 00:52:56,659
+saya beli server disini
+
+1569
+00:52:56,659 --> 00:52:57,760
+beli server
+
+1570
+00:52:57,760 --> 00:52:58,260
+apa
+
+1571
+00:52:58,260 --> 00:53:00,079
+beli server buat disini
+
+1572
+00:53:00,079 --> 00:53:00,380
+oke
+
+1573
+00:53:01,380 --> 00:53:02,099
+beli server buat disini
+
+1574
+00:53:02,099 --> 00:53:03,800
+nanti taruhnya disitu
+
+1575
+00:53:04,639 --> 00:53:05,960
+itu dia server nya
+
+1576
+00:53:05,960 --> 00:53:06,380
+yang apaan ya
+
+1577
+00:53:06,380 --> 00:53:06,820
+oh
+
+1578
+00:53:06,820 --> 00:53:07,179
+enggak
+
+1579
+00:53:07,179 --> 00:53:09,280
+enggak kayak gitu ya
+
+1580
+00:53:09,280 --> 00:53:11,320
+berarti itu 24 jam berarti hidupnya tuh
+
+1581
+00:53:11,320 --> 00:53:11,880
+iya
+
+1582
+00:53:11,880 --> 00:53:12,139
+oh iya kan
+
+1583
+00:53:12,139 --> 00:53:14,119
+iya hidupnya 24 jam
+
+1584
+00:53:15,780 --> 00:53:16,340
+itu
+
+1585
+00:53:17,380 --> 00:53:17,940
+pake
+
+1586
+00:53:17,940 --> 00:53:19,920
+pake pendingin apa tuh server nya
+
+1587
+00:53:19,920 --> 00:53:20,420
+ada
+
+1588
+00:53:20,420 --> 00:53:21,639
+ada nanti
+
+1589
+00:53:21,639 --> 00:53:22,579
+dimana server nya
+
+1590
+00:53:22,579 --> 00:53:23,699
+ini dibikin
+
+1591
+00:53:23,699 --> 00:53:24,519
+ini dibikin
+
+1592
+00:53:24,519 --> 00:53:25,500
+wuih beneran
+
+1593
+00:53:25,500 --> 00:53:26,099
+iya
+
+1594
+00:53:26,099 --> 00:53:27,679
+berarti gak usah pake
+
+1595
+00:53:27,679 --> 00:53:29,219
+gak usah pake host-host lain dong berarti
+
+1596
+00:53:29,219 --> 00:53:29,840
+pake itu aja
+
+1597
+00:53:29,840 --> 00:53:31,139
+ada host-host
+
+1598
+00:53:31,840 --> 00:53:33,360
+iya ada host-host tuh
+
+1599
+00:53:33,360 --> 00:53:33,960
+sewa ke
+
+1600
+00:53:33,960 --> 00:53:34,920
+iya itu
+
+1601
+00:53:34,920 --> 00:53:35,599
+usah
+
+1602
+00:53:35,599 --> 00:53:36,340
+WS
+
+1603
+00:53:36,340 --> 00:53:37,539
+nanti pake itu
+
+1604
+00:53:37,539 --> 00:53:38,599
+gimana lagi
+
+1605
+00:53:38,599 --> 00:53:39,239
+itu
+
+1606
+00:53:39,840 --> 00:53:41,460
+berarti ada komputer hidup
+
+1607
+00:53:41,460 --> 00:53:42,340
+berarti ngejar-ngejar
+
+1608
+00:53:43,479 --> 00:53:44,239
+iya iya
+
+1609
+00:53:44,239 --> 00:53:45,059
+kalau perlu sih ya
+
+1610
+00:53:45,059 --> 00:53:45,800
+misalnya server
+
+1611
+00:53:45,800 --> 00:53:46,860
+gak ditaruh disini
+
+1612
+00:53:46,860 --> 00:53:47,239
+kita
+
+1613
+00:53:47,840 --> 00:53:48,280
+cari rack
+
+1614
+00:53:48,840 --> 00:53:49,099
+cuma
+
+1615
+00:53:49,840 --> 00:53:50,659
+saya bingungnya tuh
+
+1616
+00:53:50,659 --> 00:53:51,599
+kalau lokal tuh
+
+1617
+00:53:51,599 --> 00:53:52,519
+kalau
+
+1618
+00:53:52,519 --> 00:53:53,659
+lagi
+
+1619
+00:53:53,659 --> 00:53:54,900
+listrik mati
+
+1620
+00:53:54,900 --> 00:53:55,719
+gak usah diakses
+
+1621
+00:53:55,719 --> 00:53:57,300
+jadi kalau sewa rack
+
+1622
+00:53:57,300 --> 00:53:58,039
+itu kan murah juga
+
+1623
+00:53:58,039 --> 00:53:59,139
+iya sih
+
+1624
+00:53:59,139 --> 00:53:59,800
+tapi maksudnya ini
+
+1625
+00:53:59,840 --> 00:54:00,619
+juga mau beli buat
+
+1626
+00:54:01,220 --> 00:54:01,820
+kita
+
+1627
+00:54:01,820 --> 00:54:03,360
+bukan gini loh
+
+1628
+00:54:03,360 --> 00:54:04,659
+server nya kita beli
+
+1629
+00:54:04,659 --> 00:54:06,380
+server yang disana
+
+1630
+00:54:06,380 --> 00:54:07,800
+komputernya kita beli
+
+1631
+00:54:07,800 --> 00:54:08,760
+yang disini
+
+1632
+00:54:08,760 --> 00:54:09,739
+ah disini
+
+1633
+00:54:09,739 --> 00:54:09,960
+iya
+
+1634
+00:54:09,960 --> 00:54:11,619
+cuman kita naruhnya
+
+1635
+00:54:11,619 --> 00:54:12,460
+gak di kantor ini
+
+1636
+00:54:13,340 --> 00:54:14,579
+kita misalnya di
+
+1637
+00:54:14,579 --> 00:54:15,880
+di bisnet
+
+1638
+00:54:15,880 --> 00:54:17,260
+dia punya ranking sesungnya
+
+1639
+00:54:17,260 --> 00:54:18,260
+walah hebat
+
+1640
+00:54:18,260 --> 00:54:19,519
+kita tau disana
+
+1641
+00:54:19,519 --> 00:54:20,159
+kenapa gitu
+
+1642
+00:54:20,159 --> 00:54:21,820
+disini kenapa kita gak beli aja
+
+1643
+00:54:21,820 --> 00:54:22,539
+yang harus disini
+
+1644
+00:54:22,539 --> 00:54:23,880
+dari sisi security
+
+1645
+00:54:23,880 --> 00:54:25,679
+dari sisi reliability
+
+1646
+00:54:27,360 --> 00:54:28,480
+iya saya mikir tuh
+
+1647
+00:54:28,480 --> 00:54:29,639
+disitu kalau bikin server tuh
+
+1648
+00:54:29,840 --> 00:54:30,559
+ada maintenance nya
+
+1649
+00:54:30,559 --> 00:54:31,519
+ada itu itunya
+
+1650
+00:54:33,180 --> 00:54:33,820
+gini
+
+1651
+00:54:33,820 --> 00:54:35,739
+kalau memang kita berfikir
+
+1652
+00:54:35,739 --> 00:54:37,260
+untuk laporan tahunan kayak gini
+
+1653
+00:54:37,260 --> 00:54:38,699
+memang ya pake yang kecil aja
+
+1654
+00:54:38,699 --> 00:54:40,599
+mending sewa server yang udah jadi
+
+1655
+00:54:40,599 --> 00:54:42,400
+dari slot yang kecil aja
+
+1656
+00:54:42,400 --> 00:54:42,900
+posting aja
+
+1657
+00:54:42,900 --> 00:54:44,119
+tapi kan kita mau masukin
+
+1658
+00:54:44,119 --> 00:54:45,300
+semua data datang lagi
+
+1659
+00:54:45,300 --> 00:54:46,039
+segala macem
+
+1660
+00:54:46,039 --> 00:54:47,380
+kita mau masuk 6 server semua
+
+1661
+00:54:47,380 --> 00:54:48,699
+data kita kan juga
+
+1662
+00:54:48,699 --> 00:54:49,679
+belum terlalu gede nih
+
+1663
+00:54:49,679 --> 00:54:51,639
+sih sewa 100 giga
+
+1664
+00:54:51,639 --> 00:54:52,599
+juga masih murah nih
+
+1665
+00:54:52,599 --> 00:54:52,880
+sekarang
+
+1666
+00:54:53,840 --> 00:54:54,480
+itu sewa aja
+
+1667
+00:54:54,480 --> 00:54:55,920
+belum punya server sendiri
+
+1668
+00:54:55,920 --> 00:54:57,440
+satu saat
+
+1669
+00:54:57,440 --> 00:54:58,760
+aku tuh pengen
+
+1670
+00:54:58,760 --> 00:55:00,480
+rencana punya server khusus
+
+1671
+00:55:00,480 --> 00:55:00,719
+memang
+
+1672
+00:55:00,719 --> 00:55:03,320
+ada kawan yang lagi ngajakin untuk
+
+1673
+00:55:03,320 --> 00:55:03,659
+mau
+
+1674
+00:55:03,659 --> 00:55:07,199
+masuk kerjaan-kerjaan data processing
+
+1675
+00:55:07,760 --> 00:55:09,179
+nah data processing
+
+1676
+00:55:09,179 --> 00:55:10,360
+kalau punya server
+
+1677
+00:55:10,360 --> 00:55:11,460
+software-software
+
+1678
+00:55:11,460 --> 00:55:12,260
+taruh disitu
+
+1679
+00:55:12,260 --> 00:55:14,639
+nanti level disitu
+
+1680
+00:55:14,639 --> 00:55:16,699
+kita beli komputer server sendiri
+
+1681
+00:55:16,699 --> 00:55:18,599
+kita nyewa rack nya aja
+
+1682
+00:55:18,599 --> 00:55:20,659
+bisa disini
+
+1683
+00:55:20,659 --> 00:55:22,199
+kalau memang koneksinya reliable
+
+1684
+00:55:22,760 --> 00:55:23,760
+kalau enggak
+
+1685
+00:55:23,760 --> 00:55:24,539
+taruh disana
+
+1686
+00:55:24,539 --> 00:55:25,380
+enaknya adalah
+
+1687
+00:55:25,380 --> 00:55:27,599
+semua anggota yang nge-process data
+
+1688
+00:55:27,599 --> 00:55:29,760
+boleh sambil tiduran di pantai di Bali
+
+1689
+00:55:29,760 --> 00:55:30,639
+enggak di Lombok
+
+1690
+00:55:30,639 --> 00:55:31,280
+enggak di mana
+
+1691
+00:55:31,280 --> 00:55:32,159
+kalau misalnya kalau
+
+1692
+00:55:32,159 --> 00:55:33,940
+kalau misalnya itu
+
+1693
+00:55:33,940 --> 00:55:36,000
+maksudnya worth it gitu loh
+
+1694
+00:55:36,000 --> 00:55:36,780
+ini apa
+
+1695
+00:55:36,780 --> 00:55:38,300
+untuk kerjaan kita
+
+1696
+00:55:38,300 --> 00:55:39,199
+itu lebih simple
+
+1697
+00:55:39,199 --> 00:55:40,900
+daripada kita taruh di toa kita
+
+1698
+00:55:40,900 --> 00:55:41,639
+kita harus maintenance
+
+1699
+00:55:41,639 --> 00:55:43,980
+ini segala macem gitu loh
+
+1700
+00:55:43,980 --> 00:55:45,039
+kecuali itu mahal
+
+1701
+00:55:45,039 --> 00:55:46,559
+tapi bulanan
+
+1702
+00:55:46,559 --> 00:55:48,119
+bulanannya lumayan ya
+
+1703
+00:55:48,119 --> 00:55:49,079
+bulanan ya
+
+1704
+00:55:49,079 --> 00:55:49,739
+ada yang
+
+1705
+00:55:49,739 --> 00:55:51,599
+versi-versi murah
+
+1706
+00:55:51,599 --> 00:55:52,059
+yang bulanan
+
+1707
+00:55:52,059 --> 00:55:52,840
+cuman ordonya
+
+1708
+00:55:52,840 --> 00:55:54,579
+sejuta-sejuta
+
+1709
+00:55:54,579 --> 00:55:55,500
+setengah per rack
+
+1710
+00:55:55,500 --> 00:55:56,360
+per bulan
+
+1711
+00:55:56,360 --> 00:55:56,780
+per bulan
+
+1712
+00:55:56,780 --> 00:55:57,539
+per bulan
+
+1713
+00:55:57,539 --> 00:55:57,579
+per bulan
+
+1714
+00:55:57,579 --> 00:55:58,320
+murah
+
+1715
+00:55:58,320 --> 00:55:59,059
+atau sejuta
+
+1716
+00:55:59,579 --> 00:56:01,519
+15 juta setahun
+
+1717
+00:56:01,519 --> 00:56:04,579
+tapi kalau memang mau juga
+
+1718
+00:56:04,579 --> 00:56:05,400
+menurut aku nih
+
+1719
+00:56:05,400 --> 00:56:06,980
+kalau mau kita bikin aja disini
+
+1720
+00:56:06,980 --> 00:56:08,579
+kita belajar dulu di awal nih
+
+1721
+00:56:08,579 --> 00:56:10,219
+pada saat udah gede
+
+1722
+00:56:10,219 --> 00:56:11,840
+butuh yang reliable
+
+1723
+00:56:11,840 --> 00:56:13,380
+kita bisa pindahin ke sana
+
+1724
+00:56:14,900 --> 00:56:16,260
+sewa rackingnya
+
+1725
+00:56:16,260 --> 00:56:18,500
+jadi kalau disini bisa sambil belajar sih
+
+1726
+00:56:18,500 --> 00:56:19,719
+mereka-mereka ini
+
+1727
+00:56:19,719 --> 00:56:20,719
+ya kan
+
+1728
+00:56:21,579 --> 00:56:22,280
+ini maksudku
+
+1729
+00:56:22,280 --> 00:56:24,559
+yang ini apa
+
+1730
+00:56:24,559 --> 00:56:25,579
+yang ini apa
+
+1731
+00:56:25,579 --> 00:56:26,079
+yang
+
+1732
+00:56:26,079 --> 00:56:26,380
+yang
+
+1733
+00:56:33,860 --> 00:56:35,260
+dia
+
+1734
+00:56:46,619 --> 00:56:48,300
+dengan gender
+
+1735
+00:56:55,279 --> 00:56:56,139
+sekalian belajar
+
+1736
+00:57:10,440 --> 00:57:12,539
+itu kalau kali itu
+
+1737
+00:57:15,639 --> 00:57:16,599
+langsung
+
+1738
+00:57:22,179 --> 00:57:28,019
+di sini Emang yang penting
+
+1739
+00:57:29,539 --> 00:57:31,400
+maksud saya tuh
+
+1740
+00:57:31,400 --> 00:57:35,099
+laptop kamu jadi
+
+1741
+00:57:35,099 --> 00:57:38,619
+internet terus
+
+1742
+00:57:39,299 --> 00:57:40,579
+pakai
+
+1743
+00:57:41,799 --> 00:57:46,000
+ya memang mereka
+
+1744
+00:57:46,000 --> 00:57:46,260
+jadi
+
+1745
+00:57:48,219 --> 00:57:49,940
+kenapa server-server
+
+1746
+00:57:49,940 --> 00:57:51,099
+itu sekarang
+
+1747
+00:57:51,099 --> 00:57:53,380
+ada di Islandia
+
+1748
+00:57:53,380 --> 00:57:56,679
+satu secure
+
+1749
+00:57:56,679 --> 00:57:57,099
+dua
+
+1750
+00:57:59,519 --> 00:58:00,380
+murah
+
+1751
+00:58:00,380 --> 00:58:03,159
+saat lockout malah gak lockout
+
+1752
+00:58:03,159 --> 00:58:04,380
+malah cuma loading doang
+
+1753
+00:58:04,380 --> 00:58:05,320
+tolong dibenerin
+
+1754
+00:58:06,859 --> 00:58:08,639
+nah yang mikroskop
+
+1755
+00:58:12,259 --> 00:58:13,699
+kebutuhan listrik
+
+1756
+00:58:13,699 --> 00:58:14,480
+paling gede
+
+1757
+00:58:14,480 --> 00:58:15,780
+itu untuk di server
+
+1758
+00:58:15,780 --> 00:58:16,500
+apalagi sekarang
+
+1759
+00:58:16,599 --> 00:58:19,400
+ya itu konsumsi listriknya
+
+1760
+00:58:19,400 --> 00:58:25,099
+itu juga arus GPU nya juga
+
+1761
+00:58:25,099 --> 00:58:26,079
+setelah juga
+
+1762
+00:58:27,400 --> 00:58:29,519
+200 itu yang mahal
+
+1763
+00:58:30,960 --> 00:58:33,820
+nvidia itu melambung tinggi sekarang itu
+
+1764
+00:58:33,820 --> 00:58:35,679
+karena semua orang akhirnya berpikir
+
+1765
+00:58:35,679 --> 00:58:38,320
+utama processor
+
+1766
+00:58:39,159 --> 00:58:40,699
+itu kalau pakai
+
+1767
+00:58:40,699 --> 00:58:41,980
+jadinya
+
+1768
+00:58:42,500 --> 00:58:43,539
+jauh-jauh
+
+1769
+00:58:44,619 --> 00:58:45,579
+apalagi
+
+1770
+00:58:46,599 --> 00:58:47,820
+apalagi yang mau yang untuknya itu
+
+1771
+00:58:47,820 --> 00:58:49,480
+sudah bisa
+
+1772
+00:58:49,480 --> 00:58:50,199
+bisa
+
+1773
+00:58:50,820 --> 00:58:51,360
+cuman
+
+1774
+00:58:52,119 --> 00:58:52,820
+bentar ya
+
+1775
+00:58:52,820 --> 00:58:53,820
+saya coba di HP dulu
+
+1776
+00:58:54,599 --> 00:58:55,380
+sebenarnya HP nggak apa-apa sih
+
+1777
+00:58:55,380 --> 00:58:55,840
+udah saya
+
+1778
+00:58:55,840 --> 00:58:56,920
+udah diaturin
+
+1779
+00:58:56,920 --> 00:58:58,400
+Oh iya bentar
+
+1780
+00:58:58,400 --> 00:59:00,539
+di sini bisa jadi mode HP juga nih
+
+1781
+00:59:00,539 --> 00:59:01,079
+kalau mau
+
+1782
+00:59:03,420 --> 00:59:05,539
+untuk tulisan juga nggak gede juga
+
+1783
+00:59:05,539 --> 00:59:06,579
+bentar ya
+
+1784
+00:59:07,460 --> 00:59:08,000
+eh
+
+1785
+00:59:08,599 --> 00:59:08,880
+salah
+
+1786
+00:59:08,880 --> 00:59:11,059
+hai hai
+
+1787
+00:59:14,380 --> 00:59:15,699
+terus ini nanti juga
+
+1788
+00:59:15,699 --> 00:59:18,599
+sebaiknya bisa reguler setiap bulan
+
+1789
+00:59:18,599 --> 00:59:21,900
+di safety external hard drive datanya
+
+1790
+00:59:21,900 --> 00:59:23,260
+database-nya
+
+1791
+00:59:23,260 --> 00:59:25,400
+kalau-kalau nih servernya crash
+
+1792
+00:59:27,700 --> 00:59:30,880
+bagusnya sih 2 server itu 2 itu redundant
+
+1793
+00:59:30,880 --> 00:59:32,260
+makanya buat kita ngapain lah
+
+1794
+00:59:32,260 --> 00:59:33,199
+masih kecil juga
+
+1795
+00:59:33,700 --> 00:59:34,480
+server gimana tiba-tiba
+
+1796
+00:59:34,480 --> 00:59:35,880
+kalau kita taruh di server
+
+1797
+00:59:35,880 --> 00:59:37,440
+tiba-tiba servernya crash
+
+1798
+00:59:37,440 --> 00:59:39,019
+ada badai
+
+1799
+00:59:39,019 --> 00:59:40,300
+terus collapse
+
+1800
+00:59:40,300 --> 00:59:41,579
+ada kena air
+
+1801
+00:59:41,579 --> 00:59:44,139
+terus habis itu datanya hilang semua disitu
+
+1802
+00:59:44,139 --> 00:59:45,460
+maksudnya ditaruh di online juga?
+
+1803
+00:59:45,460 --> 00:59:46,079
+iya
+
+1804
+00:59:46,079 --> 00:59:47,139
+di online ada
+
+1805
+00:59:47,139 --> 00:59:48,139
+di
+
+1806
+00:59:48,139 --> 00:59:49,099
+Amazon kah?
+
+1807
+00:59:49,159 --> 00:59:49,639
+kayak gitu
+
+1808
+00:59:50,460 --> 00:59:50,840
+cloudnya Google
+
+1809
+00:59:50,840 --> 00:59:51,840
+iya bisa
+
+1810
+00:59:51,840 --> 00:59:52,059
+bisa
+
+1811
+00:59:52,059 --> 00:59:52,820
+atau
+
+1812
+00:59:54,179 --> 00:59:55,820
+ini aja manual di
+
+1813
+00:59:56,460 --> 00:59:57,099
+flash drive
+
+1814
+00:59:57,099 --> 00:59:58,480
+flash drive di copyin
+
+1815
+00:59:58,480 --> 00:59:59,440
+jadi tiap
+
+1816
+00:59:59,440 --> 01:00:01,760
+misalnya beliau tugasnya tiap bulan tanggal 1
+
+1817
+01:00:01,760 --> 01:00:03,559
+pokoknya copy semua yang ada
+
+1818
+01:00:03,559 --> 01:00:04,380
+jadi
+
+1819
+01:00:04,380 --> 01:00:06,039
+file backupnya itu ada
+
+1820
+01:00:06,039 --> 01:00:07,820
+ya backup setiap seminggu sih
+
+1821
+01:00:07,820 --> 01:00:09,000
+sebenarnya ada juga sih disini
+
+1822
+01:00:09,000 --> 01:00:10,440
+kalau dulu
+
+1823
+01:00:10,440 --> 01:00:11,739
+aku zaman backer
+
+1824
+01:00:11,739 --> 01:00:12,780
+kita punya protokol
+
+1825
+01:00:12,780 --> 01:00:14,300
+setiap minggu
+
+1826
+01:00:14,300 --> 01:00:15,139
+kita harus
+
+1827
+01:00:15,460 --> 01:00:16,500
+backup semua data
+
+1828
+01:00:17,460 --> 01:00:17,800
+kantor
+
+1829
+01:00:18,460 --> 01:00:19,199
+itu ke pita
+
+1830
+01:00:19,199 --> 01:00:20,099
+tip
+
+1831
+01:00:20,099 --> 01:00:21,260
+pita apaan ya?
+
+1832
+01:00:22,460 --> 01:00:23,260
+jaman dulu itu ada
+
+1833
+01:00:23,260 --> 01:00:23,800
+oke
+
+1834
+01:00:24,460 --> 01:00:25,739
+data itu disimpen dalam tip
+
+1835
+01:00:26,460 --> 01:00:28,059
+oh itu yang kotak
+
+1836
+01:00:29,080 --> 01:00:30,280
+bener-bener tip
+
+1837
+01:00:30,280 --> 01:00:30,960
+putar kayak
+
+1838
+01:00:30,960 --> 01:00:32,639
+kayak kaset jaman dulu
+
+1839
+01:00:32,639 --> 01:00:33,519
+oh kaset itu
+
+1840
+01:00:33,519 --> 01:00:34,300
+wow
+
+1841
+01:00:35,980 --> 01:00:38,019
+masih dipakai sampai sekarang
+
+1842
+01:00:39,100 --> 01:00:41,179
+densitas datanya cukup tinggi
+
+1843
+01:00:41,179 --> 01:00:42,380
+itu bukan yang tergambar ya?
+
+1844
+01:00:42,500 --> 01:00:43,440
+bisa buat digital ya?
+
+1845
+01:00:43,440 --> 01:00:44,219
+bisa untuk gambar ya
+
+1846
+01:00:44,219 --> 01:00:45,539
+semua digital bisa kan
+
+1847
+01:00:45,539 --> 01:00:47,960
+nah itu setiap minggu
+
+1848
+01:00:47,960 --> 01:00:49,699
+tugas orang IT itu
+
+1849
+01:00:50,220 --> 01:00:51,400
+semua data email
+
+1850
+01:00:51,400 --> 01:00:53,460
+data apapun pokoknya kantor itu
+
+1851
+01:00:53,460 --> 01:00:54,519
+data yang krimsi sih
+
+1852
+01:00:54,519 --> 01:00:55,980
+yang krimsi masuk disitu
+
+1853
+01:00:55,980 --> 01:00:58,119
+terus disimpen di
+
+1854
+01:00:58,119 --> 01:00:59,019
+ada
+
+1855
+01:00:59,019 --> 01:01:00,079
+facility
+
+1856
+01:01:00,079 --> 01:01:03,059
+setiap minggu akan numpuk
+
+1857
+01:01:03,059 --> 01:01:03,320
+numpuk
+
+1858
+01:01:03,320 --> 01:01:03,980
+terus
+
+1859
+01:01:03,980 --> 01:01:05,400
+pita kan luar sana
+
+1860
+01:01:06,220 --> 01:01:06,340
+maksudnya
+
+1861
+01:01:06,340 --> 01:01:07,760
+sudah terisi gua
+
+1862
+01:01:07,760 --> 01:01:10,380
+sudah terisi taruh memang
+
+1863
+01:01:10,380 --> 01:01:11,239
+itu pakai yang
+
+1864
+01:01:11,239 --> 01:01:12,079
+kalau gak salah
+
+1865
+01:01:12,079 --> 01:01:12,800
+one time record
+
+1866
+01:01:13,599 --> 01:01:14,900
+jadi emang secure
+
+1867
+01:01:14,900 --> 01:01:16,639
+bisa dihilangin datanya
+
+1868
+01:01:16,639 --> 01:01:18,079
+abis itu pakai data baru aja?
+
+1869
+01:01:18,239 --> 01:01:18,719
+gak bisa
+
+1870
+01:01:18,719 --> 01:01:19,800
+ya pokoknya tiap minggu
+
+1871
+01:01:20,519 --> 01:01:21,780
+akan ada satu tip
+
+1872
+01:01:21,780 --> 01:01:23,179
+disimpen ke
+
+1873
+01:01:23,179 --> 01:01:24,920
+kalau kita disini ke
+
+1874
+01:01:24,920 --> 01:01:26,119
+lane BSD
+
+1875
+01:01:26,119 --> 01:01:27,840
+ada satu perusahaan khusus buat
+
+1876
+01:01:27,840 --> 01:01:28,340
+mimpin data
+
+1877
+01:01:29,160 --> 01:01:30,960
+ini kau melihat mobilenya ya
+
+1878
+01:01:30,960 --> 01:01:31,800
+itu di
+
+1879
+01:01:31,800 --> 01:01:35,360
+itu di web atau aplikasi?
+
+1880
+01:01:35,380 --> 01:01:37,320
+ini kanal flutter bisa di web juga sebenarnya
+
+1881
+01:01:37,320 --> 01:01:40,059
+ini aplikasi bisa di IOS
+
+1882
+01:01:40,059 --> 01:01:41,900
+flutter itu bisa di IOS
+
+1883
+01:01:41,900 --> 01:01:42,539
+Windows
+
+1884
+01:01:43,639 --> 01:01:44,199
+ya
+
+1885
+01:01:44,199 --> 01:01:45,519
+tapi untuk sekarang ini
+
+1886
+01:01:45,519 --> 01:01:47,199
+fokusnya di Windows sama
+
+1887
+01:01:47,199 --> 01:01:48,780
+Windows sama HP aja
+
+1888
+01:01:48,780 --> 01:01:49,420
+eh maksudnya
+
+1889
+01:01:49,420 --> 01:01:50,760
+aplikasi gak ada web disini
+
+1890
+01:01:50,760 --> 01:01:52,059
+sebenarnya bisa di untuk web juga
+
+1891
+01:01:52,059 --> 01:01:52,280
+belum
+
+1892
+01:01:52,280 --> 01:01:53,440
+tapi belum sebenarnya dicoba
+
+1893
+01:01:54,900 --> 01:01:56,199
+nanti web itu biasanya sih
+
+1894
+01:01:56,199 --> 01:01:57,980
+biar bisa login Google sih
+
+1895
+01:01:57,980 --> 01:01:59,079
+ternyata Google ribet ya
+
+1896
+01:01:59,079 --> 01:01:59,460
+harus
+
+1897
+01:01:59,460 --> 01:01:59,980
+harus pakai
+
+1898
+01:01:59,980 --> 01:02:01,380
+file base kayak gitu-gitu
+
+1899
+01:02:01,380 --> 01:02:01,679
+sama
+
+1900
+01:02:04,760 --> 01:02:05,519
+maksud saya
+
+1901
+01:02:06,099 --> 01:02:07,440
+maksud saya ini nih apa
+
+1902
+01:02:07,440 --> 01:02:08,940
+untuk loginnya itu
+
+1903
+01:02:08,940 --> 01:02:09,880
+itu kayak
+
+1904
+01:02:09,880 --> 01:02:10,320
+wah
+
+1905
+01:02:11,900 --> 01:02:13,659
+itu dikasih sama admin gitu ya
+
+1906
+01:02:13,659 --> 01:02:15,039
+gak bisa di bikin email
+
+1907
+01:02:15,039 --> 01:02:15,780
+email
+
+1908
+01:02:16,740 --> 01:02:17,599
+enggak itu
+
+1909
+01:02:17,599 --> 01:02:18,679
+kayak tambah
+
+1910
+01:02:18,679 --> 01:02:20,800
+jadi kalau orang itu mau login cepet
+
+1911
+01:02:20,800 --> 01:02:21,679
+pakai Google bisa
+
+1912
+01:02:21,679 --> 01:02:23,480
+tapi kalau mau secara itu juga bisa
+
+1913
+01:02:23,480 --> 01:02:25,659
+jadi pilihan aja sebenarnya
+
+1914
+01:02:26,660 --> 01:02:27,300
+gitu
+
+1915
+01:02:27,900 --> 01:02:30,179
+tapi waktu mikirin nyata
+
+1916
+01:02:30,179 --> 01:02:32,460
+wah nyata harus bayar segini-gini-gini
+
+1917
+01:02:32,460 --> 01:02:34,159
+wah gimana maksudnya
+
+1918
+01:02:34,900 --> 01:02:36,199
+harus login firebase
+
+1919
+01:02:36,199 --> 01:02:37,599
+nyata ada experience nya juga
+
+1920
+01:02:37,599 --> 01:02:38,960
+ya Allah kata saya
+
+1921
+01:02:38,960 --> 01:02:40,179
+karena emang ini
+
+1922
+01:02:40,179 --> 01:02:42,139
+ini akun yang ini apa
+
+1923
+01:02:42,139 --> 01:02:43,159
+Google kita gimana
+
+1924
+01:02:44,180 --> 01:02:44,559
+bisa aja
+
+1925
+01:02:44,559 --> 01:02:44,820
+kan
+
+1926
+01:02:46,180 --> 01:02:47,940
+bisa nanti siapa yang mau nge-handle
+
+1927
+01:02:47,940 --> 01:02:49,179
+itu sekarang kan masih apa
+
+1928
+01:02:49,179 --> 01:02:50,239
+ini yang pegang kejar
+
+1929
+01:02:50,920 --> 01:02:52,559
+akun X1 wireless
+
+1930
+01:02:54,280 --> 01:02:55,639
+benihnya itu untuk itu
+
+1931
+01:02:56,180 --> 01:02:56,199
+bisa
+
+1932
+01:02:56,199 --> 01:02:57,980
+kita taruh disitu
+
+1933
+01:02:58,900 --> 01:03:00,360
+enggak tau sih bisa atau enggak
+
+1934
+01:03:00,360 --> 01:03:01,860
+apaan pak apaan apaan
+
+1935
+01:03:01,860 --> 01:03:02,699
+maksudnya tadi
+
+1936
+01:03:02,699 --> 01:03:03,840
+akun apa nih
+
+1937
+01:03:03,840 --> 01:03:04,340
+kita
+
+1938
+01:03:04,340 --> 01:03:06,239
+kita tuh nyewa
+
+1939
+01:03:07,180 --> 01:03:08,519
+kan yang domain name nya
+
+1940
+01:03:08,519 --> 01:03:09,180
+kita ke Squarespace
+
+1941
+01:03:09,340 --> 01:03:13,960
+terus untuk hostingnya kita pakai Google
+
+1942
+01:03:14,900 --> 01:03:16,699
+jadi mau diapain ini
+
+1943
+01:03:17,340 --> 01:03:20,059
+mau ditaruh datanya mau ditaruh ini
+
+1944
+01:03:20,059 --> 01:03:23,719
+datanya ditaruh di hosting kita di Google
+
+1945
+01:03:23,719 --> 01:03:24,460
+sebenarnya bisa sih
+
+1946
+01:03:24,460 --> 01:03:26,139
+udah ada hosting kita
+
+1947
+01:03:26,139 --> 01:03:28,099
+ada hosting tapi enggak tau sih
+
+1948
+01:03:28,099 --> 01:03:31,000
+dia bisa enggak taruh programnya enggak tau sih
+
+1949
+01:03:31,000 --> 01:03:33,019
+enggak tau ya
+
+1950
+01:03:33,019 --> 01:03:34,059
+tapi seharusnya bisa
+
+1951
+01:03:34,059 --> 01:03:36,199
+tapi dihitungkan
+
+1952
+01:03:36,199 --> 01:03:38,260
+jadi ini datanya disimpannya di
+
+1953
+01:03:38,260 --> 01:03:39,800
+Google Drive
+
+1954
+01:03:39,800 --> 01:03:43,039
+oh ya
+
+1955
+01:03:43,039 --> 01:03:44,179
+nah itu coba cek
+
+1956
+01:03:44,179 --> 01:03:47,119
+hosting Google itu memungkinkan kita untuk running
+
+1957
+01:03:47,899 --> 01:03:49,760
+running service enggak
+
+1958
+01:03:50,859 --> 01:03:52,460
+kalau emang iya bisa
+
+1959
+01:03:52,460 --> 01:03:53,860
+saya coba cari tau
+
+1960
+01:03:53,860 --> 01:03:56,420
+saya jujur aja belum pernah deployment sebenarnya
+
+1961
+01:03:56,420 --> 01:03:57,179
+saya cuma
+
+1962
+01:03:57,179 --> 01:03:57,599
+kenapa
+
+1963
+01:03:58,260 --> 01:03:58,880
+bikin obligasi
+
+1964
+01:03:58,880 --> 01:04:01,480
+nanti cari aja kawan yang bisa deploy
+
+1965
+01:04:01,480 --> 01:04:02,800
+yang udah pernah deployment
+
+1966
+01:04:02,800 --> 01:04:04,039
+ajak kerjasama
+
+1967
+01:04:04,039 --> 01:04:06,599
+target akhirnya adalah kalian bisa punya produk
+
+1968
+01:04:07,780 --> 01:04:09,179
+produknya bisa dijual
+
+1969
+01:04:09,179 --> 01:04:11,019
+kita jadi kelinci percobaan
+
+1970
+01:04:11,599 --> 01:04:12,500
+iya bener
+
+1971
+01:04:12,500 --> 01:04:15,900
+kalau kelinci percobaannya datanya rusak rusak dikit enggak apa-apa
+
+1972
+01:04:16,599 --> 01:04:18,460
+yang penting ada backupnya gitu kan
+
+1973
+01:04:18,460 --> 01:04:20,280
+yang kalau worst case scenario
+
+1974
+01:04:20,280 --> 01:04:22,579
+data masih bisa ditarik jadi excel loh
+
+1975
+01:04:22,579 --> 01:04:25,739
+ini mahal ya ini sekarang sebulan kayak gini
+
+1976
+01:04:25,739 --> 01:04:28,579
+sebulan tuh bisa 5 rupiah
+
+1977
+01:04:29,599 --> 01:04:33,920
+jadi kalau punya aplikasi ini nanti bisa mulai bisnis sendiri
+
+1978
+01:04:34,599 --> 01:04:36,579
+kalau mau under expand juga jualannya ya ya
+
+1979
+01:04:36,579 --> 01:04:37,099
+ayo juga
+
+1980
+01:04:37,099 --> 01:04:38,039
+1 juta sebulan
+
+1981
+01:04:38,039 --> 01:04:40,059
+kita bikin expand data Indonesia
+
+1982
+01:04:40,579 --> 01:04:42,920
+bisa bikin apa aja
+
+1983
+01:04:43,880 --> 01:04:46,760
+harus masih banyak belajar saya
+
+1984
+01:04:46,760 --> 01:04:48,579
+saya tuh jujur aja cuma
+
+1985
+01:04:48,579 --> 01:04:50,760
+cuma bisa bikin sistemnya aja
+
+1986
+01:04:50,760 --> 01:04:54,139
+tapi kalau untuk masalah kayak seperti itu tuh masih belajar
+
+1987
+01:04:54,139 --> 01:04:55,980
+ada kawanmu yang tertarik enggak
+
+1988
+01:04:55,980 --> 01:04:56,760
+untuk bikin produk
+
+1989
+01:04:56,760 --> 01:04:59,159
+kumpulin 4 orang 5 orang kita modalin
+
+1990
+01:05:03,160 --> 01:05:04,519
+kita modalin
+
+1991
+01:05:04,519 --> 01:05:06,559
+enggak harus ngantor disini kan
+
+1992
+01:05:06,579 --> 01:05:09,260
+ngantor dimana aja di rumah dan sebagainya
+
+1993
+01:05:09,260 --> 01:05:12,920
+cuman pada saat mau deploy dan sebagainya
+
+1994
+01:05:12,920 --> 01:05:14,039
+mau ngetes ngetes server
+
+1995
+01:05:14,039 --> 01:05:16,360
+yuk kita bikin server disini untuk kalian belajar
+
+1996
+01:05:16,360 --> 01:05:16,880
+ayo juga
+
+1997
+01:05:17,700 --> 01:05:19,340
+mau hosting di luar
+
+1998
+01:05:19,340 --> 01:05:21,500
+mau gua juga kita bisa sewain juga
+
+1999
+01:05:21,500 --> 01:05:23,860
+nah targetnya bikin produk
+
+2000
+01:05:24,579 --> 01:05:26,000
+sampai bisa dijual
+
+2001
+01:05:27,559 --> 01:05:29,500
+cari kawan kawan kamu kumpulin
+
+2002
+01:05:29,500 --> 01:05:31,639
+kamu sendirian pasti akan berat lah
+
+2003
+01:05:31,639 --> 01:05:32,280
+kalau sendirian
+
+2004
+01:05:32,280 --> 01:05:35,860
+karena butuh beberapa disiplin ilmu gitu kan
+
+2005
+01:05:37,360 --> 01:05:40,199
+nanti softwarenya ke depannya bisa kita
+
+2006
+01:05:40,199 --> 01:05:42,619
+kita arahkan kemana-mana
+
+2007
+01:05:42,619 --> 01:05:45,519
+hanya untuk viewer log gitu aja dulu di awal
+
+2008
+01:05:45,519 --> 01:05:49,360
+habis itu ada fungsi matematika untuk processing log gitu kan
+
+2009
+01:05:49,360 --> 01:05:52,980
+ini tadi bilangnya jadi produk produk ke akhir itu
+
+2010
+01:05:52,980 --> 01:05:55,199
+maksudnya bikin aplikasi yang lain lagi maksudnya apa gimana
+
+2011
+01:05:55,199 --> 01:05:57,440
+artinya sekarang fokus aja disini nih
+
+2012
+01:05:57,440 --> 01:06:00,780
+ini jadiin jadi produk untuk semacam
+
+2013
+01:06:01,579 --> 01:06:02,539
+untuk perusahaan ini
+
+2014
+01:06:02,539 --> 01:06:03,239
+perusahaan
+
+2015
+01:06:03,239 --> 01:06:04,260
+hal ini dulu
+
+2016
+01:06:04,260 --> 01:06:05,119
+perusahaan
+
+2017
+01:06:05,119 --> 01:06:05,300
+nah
+
+2018
+01:06:06,119 --> 01:06:06,980
+financial services
+
+2019
+01:06:06,980 --> 01:06:08,699
+nanti bisa jadi kalian
+
+2020
+01:06:08,699 --> 01:06:11,320
+kamu bisa jualan yang untuk kayak aplikasi yang
+
+2021
+01:06:12,579 --> 01:06:13,880
+restoran gitu kan baru
+
+2022
+01:06:13,880 --> 01:06:15,360
+kan ada banyak tuh
+
+2023
+01:06:15,360 --> 01:06:17,559
+ada macu
+
+2024
+01:06:18,119 --> 01:06:18,159
+ada
+
+2025
+01:06:19,160 --> 01:06:19,760
+apalagi
+
+2026
+01:06:19,760 --> 01:06:23,219
+kan mereka tuh punya pengalaman tuh sampai deployment tuh
+
+2027
+01:06:23,219 --> 01:06:24,860
+sama belajar semua
+
+2028
+01:06:24,860 --> 01:06:26,239
+belajar belajar semua
+
+2029
+01:06:27,119 --> 01:06:28,219
+sebenarnya gitu sama semua
+
+2030
+01:06:30,119 --> 01:06:31,960
+keuntungannya orang yang baru masuk apa coba
+
+2031
+01:06:31,960 --> 01:06:34,760
+kamu bisa pakai teknologi yang terbaru
+
+2032
+01:06:35,119 --> 01:06:39,199
+mereka udah udah develop katakan 10 tahun yang lalu
+
+2033
+01:06:39,199 --> 01:06:40,360
+15 tahun yang lalu
+
+2034
+01:06:40,360 --> 01:06:42,360
+udah pakai platform yang lama
+
+2035
+01:06:42,360 --> 01:06:45,940
+mereka mau membangun platform yang baru itu mikir panjang biasanya
+
+2036
+01:06:45,940 --> 01:06:47,940
+aduh invest baru nih
+
+2037
+01:06:47,940 --> 01:06:49,780
+data datanya juga itu juga
+
+2038
+01:06:49,780 --> 01:06:53,639
+data datanya masih bersih kayak gini maksudnya
+
+2039
+01:06:53,639 --> 01:06:54,960
+migrasinya
+
+2040
+01:06:57,279 --> 01:07:01,179
+kebetulan adikku punya usaha software house
+
+2041
+01:07:01,179 --> 01:07:02,739
+di bandung
+
+2042
+01:07:02,739 --> 01:07:05,000
+usahanya namanya ibidesh
+
+2043
+01:07:05,000 --> 01:07:09,519
+ya sekarang produknya untuk tax managementnya ganda
+
+2044
+01:07:10,539 --> 01:07:12,039
+yang ini tuh banyak liu
+
+2045
+01:07:12,039 --> 01:07:13,320
+jadi bukan expense aja
+
+2046
+01:07:13,320 --> 01:07:14,900
+dia tuh ada pengeluaran
+
+2047
+01:07:14,900 --> 01:07:15,599
+ada kayak
+
+2048
+01:07:15,599 --> 01:07:18,179
+semua ini
+
+2049
+01:07:19,500 --> 01:07:21,420
+saya sih cuma berikut
+
+2050
+01:07:21,420 --> 01:07:22,639
+yang gak harusnya
+
+2051
+01:07:22,639 --> 01:07:24,920
+tau aja kalo di luar tuh
+
+2052
+01:07:24,920 --> 01:07:25,900
+nah nanti
+
+2053
+01:07:25,900 --> 01:07:27,760
+kamu bisa coba coba
+
+2054
+01:07:27,760 --> 01:07:30,739
+linkan kalau bisa nge-linkan ke payment gateway
+
+2055
+01:07:30,739 --> 01:07:32,280
+payment gateway
+
+2056
+01:07:32,280 --> 01:07:33,480
+nah misalnya kamu bisa
+
+2057
+01:07:34,180 --> 01:07:35,380
+kerjasama dengan wise
+
+2058
+01:07:36,100 --> 01:07:37,139
+atau flip
+
+2059
+01:07:37,139 --> 01:07:39,380
+kalau dengan bank jangan dulu deh
+
+2060
+01:07:39,380 --> 01:07:40,619
+dengan bank tuh ribet
+
+2061
+01:07:41,480 --> 01:07:46,420
+karena deal dengan mereka pasti akan melibatkan semua urusan security yang terlalu ribet
+
+2062
+01:07:46,420 --> 01:07:48,039
+tapi kalau dengan wise sama flip
+
+2063
+01:07:48,039 --> 01:07:50,380
+mereka tinggal ngasih koneksi
+
+2064
+01:07:52,200 --> 01:07:54,219
+nanti bisa masuk ke aplikasi kamu
+
+2065
+01:07:54,219 --> 01:07:56,760
+begitu klik itu langsung buka ke wise
+
+2066
+01:07:58,120 --> 01:08:02,260
+wise itu alat alat kayak pembayaran kayak gitu ya
+
+2067
+01:08:02,260 --> 01:08:02,619
+iya
+
+2068
+01:08:02,619 --> 01:08:03,059
+pembayaran
+
+2069
+01:08:03,059 --> 01:08:05,280
+kayak ibaratnya tuh kayak gopay ya
+
+2070
+01:08:05,280 --> 01:08:06,059
+iya tapi
+
+2071
+01:08:06,059 --> 01:08:07,280
+tapi dunia
+
+2072
+01:08:07,280 --> 01:08:07,960
+dunia ya
+
+2073
+01:08:07,960 --> 01:08:08,400
+gopay
+
+2074
+01:08:09,260 --> 01:08:09,900
+nah tau gak
+
+2075
+01:08:09,900 --> 01:08:12,860
+flip itu kok bisa transfer gratis
+
+2076
+01:08:12,860 --> 01:08:14,880
+oh iya transfer gratis
+
+2077
+01:08:14,880 --> 01:08:15,920
+gak ada adminnya
+
+2078
+01:08:15,920 --> 01:08:17,500
+iya sesekarang selamanya dia bakal beruang
+
+2079
+01:08:18,260 --> 01:08:20,060
+itu gak akan lama itu
+
+2080
+01:08:20,060 --> 01:08:21,420
+dia bakal lama
+
+2081
+01:08:21,420 --> 01:08:22,760
+dia selamanya yang gratis
+
+2082
+01:08:22,760 --> 01:08:23,260
+walah
+
+2083
+01:08:24,260 --> 01:08:25,039
+utungnya dimana
+
+2084
+01:08:25,039 --> 01:08:26,079
+investor
+
+2085
+01:08:26,079 --> 01:08:26,600
+utungnya dimana
+
+2086
+01:08:26,600 --> 01:08:29,239
+itu yang aku dulu juga bertanya tanya
+
+2087
+01:08:29,239 --> 01:08:31,000
+jadi kalau untuk yang
+
+2088
+01:08:31,000 --> 01:08:32,180
+klien klien
+
+2089
+01:08:32,180 --> 01:08:34,279
+untuk yang kayak party clear kita
+
+2090
+01:08:35,000 --> 01:08:35,079
+personal
+
+2091
+01:08:36,000 --> 01:08:36,899
+dia mau gratis itu
+
+2092
+01:08:36,899 --> 01:08:39,979
+tapi dia juga ngasih software
+
+2093
+01:08:39,979 --> 01:08:41,359
+jual software
+
+2094
+01:08:42,000 --> 01:08:44,260
+untuk financial services ke perusahaan td
+
+2095
+01:08:45,000 --> 01:08:45,920
+katakan yang indofood
+
+2096
+01:08:45,920 --> 01:08:47,899
+punya pegawainya ada berapa puluh ribu orang
+
+2097
+01:08:47,899 --> 01:08:48,579
+oke
+
+2098
+01:08:48,579 --> 01:08:50,539
+payment services kalian
+
+2099
+01:08:50,539 --> 01:08:52,479
+sini deh pakai aplikasi kita
+
+2100
+01:08:53,000 --> 01:08:56,300
+per orang sebulan misalnya cuma dikenai 2000 perak
+
+2101
+01:08:57,000 --> 01:08:58,760
+tapi berapa puluh ribu orang
+
+2102
+01:08:58,760 --> 01:09:00,819
+nah duit dia itu muternya disitu
+
+2103
+01:09:01,000 --> 01:09:03,880
+supaya ekosistemnya ini jalan
+
+2104
+01:09:03,880 --> 01:09:07,819
+maka orang orang party clearnya pegawai pegawai indofood
+
+2105
+01:09:07,819 --> 01:09:10,600
+ini harusnya dikasih service klip yang free
+
+2106
+01:09:10,600 --> 01:09:13,760
+supaya mereka akhirnya mau pakai klip sekalian semuanya
+
+2107
+01:09:13,760 --> 01:09:15,039
+khusus untuk yang ini
+
+2108
+01:09:15,039 --> 01:09:17,420
+akhirnya di publik pun dia free kan juga
+
+2109
+01:09:18,000 --> 01:09:21,359
+bencena transfer pemandiri harusnya kena 2500
+
+2110
+01:09:22,000 --> 01:09:22,479
+kalau pakai
+
+2111
+01:09:23,000 --> 01:09:23,500
+6500
+
+2112
+01:09:23,500 --> 01:09:23,760
+nah
+
+2113
+01:09:23,760 --> 01:09:24,460
+kalau
+
+2114
+01:09:25,979 --> 01:09:26,739
+6500
+
+2115
+01:09:26,739 --> 01:09:27,880
+6500
+
+2116
+01:09:27,880 --> 01:09:30,899
+sekarang kan banyak banyak yang coba pakai 2500 lah ya
+
+2117
+01:09:31,000 --> 01:09:32,539
+nah dia bisa free
+
+2118
+01:09:33,239 --> 01:09:34,260
+caranya dia adalah
+
+2119
+01:09:34,260 --> 01:09:35,880
+dia punya duit di pemandiri
+
+2120
+01:09:35,880 --> 01:09:37,479
+dia punya duit di bca
+
+2121
+01:09:37,479 --> 01:09:38,380
+oh muter disitu
+
+2122
+01:09:39,000 --> 01:09:41,720
+jadi pemandiri jadi kalau mau transfer di tahan doang disitu
+
+2123
+01:09:41,720 --> 01:09:42,399
+di tahan di bca
+
+2124
+01:09:42,399 --> 01:09:45,579
+jadi kalau ada orang mau transfer dari bca ke pemandiri
+
+2125
+01:09:45,579 --> 01:09:49,119
+maka dia sebenarnya ngambil duitnya free
+
+2126
+01:09:49,119 --> 01:09:50,020
+dari bca ke bca
+
+2127
+01:09:50,020 --> 01:09:52,380
+ya itu kan dari pemandiri aja di transferin juga
+
+2128
+01:09:52,380 --> 01:09:54,000
+ya harusnya yang dari bca
+
+2129
+01:09:54,000 --> 01:09:55,920
+misalkan yang mau transfernya dari bca
+
+2130
+01:09:55,920 --> 01:09:58,699
+bca nya orang ini ke bca nya free
+
+2131
+01:09:58,699 --> 01:10:00,840
+bca nya free dia ambil disitu free kan
+
+2132
+01:10:01,000 --> 01:10:03,739
+yang mandiri dari mandiri free ke mandiri tujuan
+
+2133
+01:10:03,739 --> 01:10:04,279
+free juga
+
+2134
+01:10:05,000 --> 01:10:08,539
+nanti dia akan rekonsiliasi setiap kali udah gak balance
+
+2135
+01:10:08,539 --> 01:10:10,640
+oh udah gak balance nih
+
+2136
+01:10:10,640 --> 01:10:12,279
+udah lah rekonsiliasi
+
+2137
+01:10:12,279 --> 01:10:13,060
+angkosnya berapa
+
+2138
+01:10:13,060 --> 01:10:13,659
+ya 2500
+
+2139
+01:10:13,659 --> 01:10:16,279
+itu dibagi ke semua orang atau
+
+2140
+01:10:16,279 --> 01:10:18,659
+dia inilah infak sedekah 2500
+
+2141
+01:10:18,659 --> 01:10:22,539
+untuk dari transaksi orang yang ribuan transaksi
+
+2142
+01:10:23,460 --> 01:10:26,579
+atau kalau mau juga ambil aja cash pindahin
+
+2143
+01:10:26,579 --> 01:10:30,800
+dia udah punya 2 rekening yang kantor mandiri sama bca nya
+
+2144
+01:10:30,800 --> 01:10:31,920
+bersebelahan gitu kan
+
+2145
+01:10:32,800 --> 01:10:33,119
+ambil disini
+
+2146
+01:10:33,800 --> 01:10:34,720
+dalam disini lalu disini
+
+2147
+01:10:34,720 --> 01:10:35,500
+free juga
+
+2148
+01:10:37,800 --> 01:10:39,279
+ide itu aku
+
+2149
+01:10:39,800 --> 01:10:40,819
+menurut aku ide
+
+2150
+01:10:40,819 --> 01:10:47,520
+itu butuh modal kan jatuhnya
+
+2151
+01:10:47,520 --> 01:10:49,560
+nah ini butuh cash sebenernya
+
+2152
+01:10:49,560 --> 01:10:51,279
+gini caranya
+
+2153
+01:10:51,800 --> 01:10:55,560
+carilah dia investor investor yang punya duit ngagur
+
+2154
+01:10:55,560 --> 01:10:58,279
+tak pinjem duitmu tapi gak kepake
+
+2155
+01:10:58,800 --> 01:11:00,560
+duit itu tetep ada di rekeningnya
+
+2156
+01:11:00,560 --> 01:11:02,180
+oke ya bisa bisa gitu
+
+2157
+01:11:02,180 --> 01:11:05,899
+tapi mandiri sama bca nya harus gitu dong
+
+2158
+01:11:05,899 --> 01:11:07,579
+berarti dia transaksi
+
+2159
+01:11:07,579 --> 01:11:08,119
+gak perlu
+
+2160
+01:11:08,119 --> 01:11:09,100
+katakan gini
+
+2161
+01:11:09,100 --> 01:11:10,159
+dia transfer ke aku
+
+2162
+01:11:10,159 --> 01:11:10,960
+dia punya bca
+
+2163
+01:11:10,960 --> 01:11:12,819
+aku punya mandiri
+
+2164
+01:11:13,560 --> 01:11:14,340
+dia flipnya nih
+
+2165
+01:11:14,340 --> 01:11:16,260
+dia bilang ke titis
+
+2166
+01:11:16,260 --> 01:11:18,619
+titis tolong transferin duitku ini
+
+2167
+01:11:18,619 --> 01:11:21,119
+dari bca aku ke mandiri nyalan
+
+2168
+01:11:21,119 --> 01:11:22,020
+nah
+
+2169
+01:11:22,560 --> 01:11:24,579
+titis punya rekening bca
+
+2170
+01:11:24,579 --> 01:11:25,720
+punya rekening mandiri
+
+2171
+01:11:26,560 --> 01:11:26,840
+nah
+
+2172
+01:11:27,560 --> 01:11:30,039
+dia akan ngambil duit dio
+
+2173
+01:11:30,039 --> 01:11:31,939
+dari rekening bca dio
+
+2174
+01:11:31,939 --> 01:11:33,939
+ke rekening bca nya titis
+
+2175
+01:11:34,859 --> 01:11:37,039
+terus dia punya duit di mandiri juga nih
+
+2176
+01:11:37,039 --> 01:11:39,460
+dia suruh mandiri transaksiin
+
+2177
+01:11:39,460 --> 01:11:41,619
+dari rekeningnya titis ke rekening aku
+
+2178
+01:11:41,619 --> 01:11:43,479
+dio ke titis free
+
+2179
+01:11:44,039 --> 01:11:45,140
+titis ke aku free
+
+2180
+01:11:45,140 --> 01:11:46,140
+dari sisi bank
+
+2181
+01:11:46,140 --> 01:11:48,199
+dan buat bank ini gak perlu bicara
+
+2182
+01:11:48,199 --> 01:11:49,539
+gak perlu komunikasi
+
+2183
+01:11:49,539 --> 01:11:50,800
+karena yang merindai dia
+
+2184
+01:11:50,800 --> 01:11:52,840
+sendiri sendiri terpisah
+
+2185
+01:11:54,019 --> 01:11:55,800
+tapi terakhir akan jadi
+
+2186
+01:11:55,800 --> 01:11:58,560
+oh bca aku jadi udah mau abis nih
+
+2187
+01:11:58,560 --> 01:11:59,399
+gini gini bisa tuh
+
+2188
+01:11:59,399 --> 01:12:00,920
+bisa aku jual 1 m kan 25 ratus
+
+2189
+01:12:00,920 --> 01:12:01,119
+nah
+
+2190
+01:12:01,119 --> 01:12:01,880
+jadi
+
+2191
+01:12:01,880 --> 01:12:04,800
+ini duit ku di bca udah tipis nih
+
+2192
+01:12:04,800 --> 01:12:05,260
+ya sudah
+
+2193
+01:12:05,260 --> 01:12:06,939
+dari mandiri ngumpul banyak tadi
+
+2194
+01:12:06,939 --> 01:12:09,260
+diambil aja cash dari teller
+
+2195
+01:12:09,260 --> 01:12:11,819
+dipindahin ke bca gratis itu bakal
+
+2196
+01:12:11,819 --> 01:12:14,439
+mau pindahin 1 m juga 25 ratus
+
+2197
+01:12:14,439 --> 01:12:15,199
+online
+
+2198
+01:12:15,199 --> 01:12:17,479
+non free sih gratis
+
+2199
+01:12:17,479 --> 01:12:19,039
+yang lain ada kaya gitu juga
+
+2200
+01:12:19,039 --> 01:12:19,819
+WIS
+
+2201
+01:12:19,819 --> 01:12:21,479
+sahalnya WIS
+
+2202
+01:12:21,479 --> 01:12:22,220
+si bank itu
+
+2203
+01:12:22,220 --> 01:12:23,960
+tapi yang
+
+2204
+01:12:23,960 --> 01:12:26,079
+yang mengolohi guru sih
+
+2205
+01:12:27,739 --> 01:12:28,380
+karena
+
+2206
+01:12:29,399 --> 01:12:30,380
+protes ekonomi mu gitu
+
+2207
+01:12:30,380 --> 01:12:32,399
+kayak gitu-gitu ada resikonya gak sih sebenernya?
+
+2208
+01:12:32,479 --> 01:12:33,340
+apa resikonya?
+
+2209
+01:12:33,500 --> 01:12:34,939
+yang kamu kepikir apa?
+
+2210
+01:12:35,100 --> 01:12:35,800
+ya kan?
+
+2211
+01:12:36,439 --> 01:12:38,220
+justru yang kamu yang beresiko
+
+2212
+01:12:38,220 --> 01:12:40,380
+kalo flipnya lari, duitmu diambil
+
+2213
+01:12:41,639 --> 01:12:44,359
+tapi flip membangun kepercayaan
+
+2214
+01:12:45,299 --> 01:12:46,180
+dan akhirnya kamu percaya
+
+2215
+01:12:47,139 --> 01:12:48,319
+banyak yang pake
+
+2216
+01:12:48,899 --> 01:12:50,859
+kalo misalnya gopay, kamu percaya gak sama gopay?
+
+2217
+01:12:51,380 --> 01:12:52,220
+percaya kan?
+
+2218
+01:12:52,899 --> 01:12:55,180
+kalo kamu gak percaya, ya sudah jangan pake
+
+2219
+01:12:55,180 --> 01:12:58,739
+tapi gopay punya kesempatan untuk merampok kamu
+
+2220
+01:12:58,739 --> 01:12:59,479
+enggak
+
+2221
+01:13:01,599 --> 01:13:05,659
+nah dia di awasi OJK juga lah
+
+2222
+01:13:07,739 --> 01:13:12,739
+artinya semuanya dalam ranah pengawasan pemerintah
+
+2223
+01:13:13,500 --> 01:13:14,939
+untungnya dari Bunga gitu
+
+2224
+01:13:14,939 --> 01:13:17,579
+untungnya dari Bunga, betul-betul
+
+2225
+01:13:17,579 --> 01:13:18,800
+sama ini
+
+2226
+01:13:18,800 --> 01:13:21,520
+dia ngasih layanan dulu di awal-awal itu
+
+2227
+01:13:21,520 --> 01:13:23,180
+untuk mempedulikan bakar duit
+
+2228
+01:13:23,180 --> 01:13:24,619
+tapi dari sisi dia
+
+2229
+01:13:24,619 --> 01:13:25,159
+dia ngasih layanan dulu di awal-awal itu
+
+2230
+01:13:25,180 --> 01:13:26,619
+untuk membangun ekosistemnya
+
+2231
+01:13:26,619 --> 01:13:29,079
+tapi enggak ngasih duit
+
+2232
+01:13:29,079 --> 01:13:30,319
+kayak diskon-diskonan
+
+2233
+01:13:30,319 --> 01:13:31,720
+beda dengan kayak
+
+2234
+01:13:33,180 --> 01:13:34,840
+Tokopedia dan sebagainya
+
+2235
+01:13:34,840 --> 01:13:35,880
+itu kan gojek
+
+2236
+01:13:35,880 --> 01:13:38,979
+itu benar-benar ngasih duit ke kita
+
+2237
+01:13:38,979 --> 01:13:40,319
+berubah diskon
+
+2238
+01:13:41,180 --> 01:13:41,779
+tapi enggak
+
+2239
+01:13:43,180 --> 01:13:45,060
+jadi cuma membangun ekosistemnya aja yang penting
+
+2240
+01:13:45,060 --> 01:13:46,699
+cerdas tuh
+
+2241
+01:13:46,699 --> 01:13:48,319
+mantap sobat
+
+2242
+01:13:55,180 --> 01:13:56,079
+why situlah
+
+2243
+01:13:56,079 --> 01:13:58,039
+punya duit dimana-mana
+
+2244
+01:13:59,180 --> 01:14:01,239
+nah dia akan kerjasama dengan lokal-lokal
+
+2245
+01:14:01,239 --> 01:14:02,300
+dimana-mana gitu kan
+
+2246
+01:14:02,300 --> 01:14:05,300
+dia yang di Indonesia dia punya bagi tangannya siapa
+
+2247
+01:14:05,300 --> 01:14:06,899
+dia yang di Indonesia dia punya bagi tangannya siapa
+
+2248
+01:14:06,899 --> 01:14:08,060
+tapi kan enggak gratis banget
+
+2249
+01:14:08,060 --> 01:14:10,239
+sekarang tuh enggak mau ya
+
+2250
+01:14:10,239 --> 01:14:11,699
+prepone tuh terlalu mahal
+
+2251
+01:14:11,699 --> 01:14:13,479
+10%
+
+2252
+01:14:13,479 --> 01:14:18,880
+ada banyak yang model Bitcoin
+
+2253
+01:14:18,880 --> 01:14:20,239
+Bitcoinan juga sih sekarang
+
+2254
+01:14:20,239 --> 01:14:23,279
+kita transfer beli Bitcoin dulu
+
+2255
+01:14:23,279 --> 01:14:24,779
+Bitcoinnya kita bayar pake
+
+2256
+01:14:24,779 --> 01:14:25,699
+kartu gratis
+
+2257
+01:14:25,699 --> 01:14:32,039
+kan aku beli software
+
+2258
+01:14:32,039 --> 01:14:33,140
+tapi Bitcoin
+
+2259
+01:14:33,140 --> 01:14:36,880
+tapi emang bayarnya
+
+2260
+01:14:36,880 --> 01:14:37,659
+pake Bitcoin tuh
+
+2261
+01:14:37,659 --> 01:14:40,800
+ini aja nyaranin pake Bitcoin
+

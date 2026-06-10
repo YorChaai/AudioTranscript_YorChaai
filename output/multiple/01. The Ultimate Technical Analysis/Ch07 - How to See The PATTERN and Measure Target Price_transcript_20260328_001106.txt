@@ -1,0 +1,3482 @@
+Source: Ch07 - How to See The PATTERN and Measure Target Price.mp3
+Language Mode: Indonesian
+Detected: id (100.0%)
+Transcribed: 2026-03-28 01:18:52
+==================================================
+
+Saat ini Anda akan mempelajari ilmu yang sangat luar biasa yakni the chart pattern. ; Pergerakan harga selain cangkul, ternyata memiliki sebuah gambar-gambar yang lain. ; Chart pattern ini merupakan sebuah bagian teknik menganalisa pergerakan harga ; dengan pendekatan metode technical analysis klasik ; di mana pada saat kita menggabungkan titik-titik swing high dan swing low ; menggunakan trend line akan muncul berbagai macam jenis pattern. ; Di mana pattern-pattern ini apabila kita sudah mengetahui jenis-jenisnya ; akan sangat memberikan benefit yang luar biasa. ; Anda akan mengetahui pembentukan arah harga pattern ini dengan targetnya akan kemana, ; berapa jauh kenaikan atau penurunannya, ; dan disinilah Anda akan mendapatkan sebuah kesempatan untuk masuk di dalam pasar secara objektif. ; Kemudian Anda bisa langsung setting target price dan juga setting stop loss. ; Kalau Anda lihat pada... ; cuplikan di layar ini, Anda akan melihat bahwa pada saat ini ; analis sedang menentukan pola-pola yang sedang terbentuk. ; Menggaris-garis swing high dan swing low disambung-sambungkan ; dan terbentuklah sebuah bentuk-bentuk geometris. ; Ada yang seperti segitiga, ada yang seperti huruf M, ; ada yang seperti huruf W, ; dan inilah yang kita sebut dengan chart pattern yang selalu berulang. ; Pada dasarnya kita sudah mengetahui prinsip daripada technical analysis, ; sorry, repeat itself. ; Bagaimana apabila pola-pola berbentuk M yang kita yakini akan membuat harga turun, ; dan pola-pola yang berbentuk W akan membuat harga naik, ; atau kita sebut double top seperti M dan double bottom yang seperti W, ; ini berulang terus. ; Maka Anda akan mendapatkan satu informasi yang memiliki satu kesamaan, ; di mana pada saat harga ini berulang dari hari ke hari, ; Anda akan menemukan opportunity trading yang luar biasa. ; Artinya pada saat termelihat atau kita menggambarkan sebuah... ; pola M itu muncul, ; kita bisa mempersiapkan strategi trading untuk short selling, ; dan pada akhirnya mendapatkan profit yang maksimal. ; Sebelum kita membahas di aplikasi, ; saya akan menjelaskan jenis chart pattern. ; Chart pattern terbagi menjadi dua, ; ada trend dan continuation, maksud saya, ; ada juga yang reversal. ; Trend continuation, ; akan muncul pattern-pattern yang kita sebut dengan continuation pattern. ; Yang akan Anda pelajari hari ini adalah ; pennant pattern, ; dan kemudian flag pattern, ; dan rising wage atau falling wage. ; Di dalam continuation pattern, ; bullish pattern, ; itu bisa menjadi bullish pennant, ; yang bentuknya seperti segitiga, ; Anda bisa lihat ilustrasi di samping. ; Kemudian bullish flag, ; bentuknya seperti dua garis yang sejajar. ; Kemudian Anda melihat bearish flag, ; bearish pennant, ; kemudian bullish rising wage, ; correction, bullish falling wage, ; lalu Anda melihat bullish falling wage, ; dan kemudian Anda melihat bearish rising wage, ; yang berada pada continuation, ; ini bisa digunakan untuk menentukan arah harga berikutnya. ; Kemudian di dalam pola continuation ini, ; Anda juga bisa langsung mendapatkan target price. ; Dan target price-nya bisa terukur dengan sangat objektif, ; dengan melalui pola-pola ini, ; sudah ada aturan-aturan yang akan nanti dijelaskan di application. ; Dan target price-nya bisa terukur dengan sangat objektif, dengan melalui pola-pola ini, sudah ada aturan-aturan yang akan nanti dijelaskan di application. ; Kategori berikutnya adalah trend reversal pattern. ; Dimana dengan munculnya pola-pola ini, ; Anda akan melihat pembalikan arah harga dari sebuah trend. ; Jadi misalnya trend ini sekarang sedang bergerak di dalam pergerakan 45 derajat bullish, ; badan canggul, kepala canggulnya di atas moving average, ; oke that's good. ; Tetapi tiba-tiba muncul huruf M. ; Setelah puncak daripada kepala canggul itu ditembus, ; yang atasnya ditembus, ; tidak mampu bertahan lama, ; kemudian dia membalik ke atas, ; membalikan arah harga, ; membentuk huruf M, ; dan dampaknya adalah bearish. ; Itu adalah the double top. ; Double top memiliki sebuah probability yang cukup tinggi di dalam membalikan arah harga dari bullish ke bearish. ; Demikian juga yang akan terjadi di double bottom. ; Kalau Anda melihat double bottom, hurufnya seperti way, ; maka double bottom ini akan membuat pergerakan harga dari bawah yang awalnya bearish, ; kemudian setelah dia menembus swing low-nya, ; tiba-tiba dia tidak mampu turun lebih jauh dan berbalik arah, ; lalu menembus neckline, yang kita sebut neckline. ; Anda bisa lihat ilustrasinya neckline. ; Kemudian dia naik dan ini menjadi bullish pattern. ; Konstruksi daripada chart-chart ini harus kita ketahui, ; karena chart pattern ini akan membawa kita ke dalam satu pengenalan. ; Kita sekarang trading melihat apa? Melihat pattern. ; Patternnya ada, kita trading. ; Patternnya ada, kita entry. ; Dan muncul pattern akan menentukan, ; di mana ada profit taking dan di mana ada stop loss. ; Karena hanya dengan pattern-pattern inilah Anda bisa menentukan stop loss-nya di mana, ; profit taking-nya di mana. ; Karena seringkali orang bertanya, saya harus stop loss berapa persen? ; Saya harus stop loss berapa pips? ; Di mana saya pasang take profit? ; Itu adalah pertanyaan wajar. ; Tetapi pertanyaan ini bisa dijawab dengan objektif apabila Anda mengetahui chart pattern. ; Karena profit target, stop loss, entry, itu setiap pola berbeda. ; Jadi apabila Anda memilih, muncul pola rising wedge. ; Atau muncul pola double top. ; Maka kedua hal ini, stop loss, entry, take profit, semua berbeda. ; Tidak bisa disamakan. ; Jadi sekarang Anda mengetahui untuk menentukan stop loss, menentukan take profit, menentukan entry, tidak semua pattern sama. ; Dan pattern-pattern ini yang akan saya berikan contohnya di aplikasi, ; akan membuat Anda lebih jelas bagaimana cara untuk memaksimalkan profit dan untuk trading dengan lebih safety. ; Kita akan bahas di aplikasi mengenai chart pattern. ; Setelah Anda mempelajari tentang teori dari chart pattern, ; inilah saatnya untuk kita memasuki aplikasi dari chart pattern. ; How to see the pattern and measure the target price? ; Kita tahu bahwa chart pattern ini merupakan bagian yang penting untuk Anda bisa membuat road mapping harga. ; Dan kita juga sudah memahami bahwa jenis dari chart pattern itu ada dua. ; Yang pertama adalah continuation pattern dan yang kedua adalah reversal pattern. ; Continuation pattern berarti Anda saat ini sedang memikirkan bahwa pada saat ; harga itu bergerak di dalam 45 derajat, ; jika Anda melihat up atau down di dalam sebuah trend yang kuat, ; maka kita mencari pola-pola yang terbentuk di tengahnya sebagai jembatan kita untuk masuk. ; Dan kemudian kalau reversal itu berbicara tentang pembalikan arah harga. ; Jadi apabila sedang beres, kemudian dia sampai ke satu titik ; di mana area tersebut adalah titik pembalikan arah, ; pembalikan arah harganya itu akan menjadi sebuah reversal untuk trend itu sendiri. ; Dan di dalam trend reversal tersebut kita bisa melihat nanti ada pattern-pattern ; yang akan menjadi kunci pembalikan arah harga. ; Nah pattern-pattern tersebut yang kita sebut reversal pattern, ; apa saja dan bagaimana caranya tentu kita sudah mempelajari tentang trendline. ; Kalau kita melihat di chart sini trendline itu menghubungkan peak dan trough seperti ini. ; Tetapi untuk tahap awal kan kalau kita bicara trendline, ; itu menghubung-hubungkan tapi belum terlihat ya apa polanya. ; Nah saya memberikan training Anda dengan ilustrasi. ; Di dalam pattern selalu ada continuation dan reversal. ; Yang akan kita bahas di dalam video kali ini adalah pola-pola yang paling penting, ; yang paling singkat karena chart pattern itu banyak sekali bisa sampai 100 lebih ya. ; Tetapi tidak semuanya gampang ditemui. ; Oleh karena itu kita ingin membuat sebuah gambaran bagaimana ; karena apabila chart pattern itu kita tentukan, ; maka yang akan muncul adalah pola-pola yang selalu, ; hampir selalu berulang ya. ; Contohnya ada double top, kemudian ada double bottom untuk reversal ya. ; Kemudian ada rising wedge dan falling wedge itu untuk reversal. ; Jadi untuk reversal dari bull ke bear saya berikan Anda 2 pattern yang penting, ; double top dan rising wedge. ; Kemudian dari bearish ke bullish saya berikan Anda 2 pattern yang penting, ; double bottom dan falling wedge. ; Kemudian setelah itu Anda akan melihat nanti di dalam continuation. ; Di dalam continuation pattern yang paling sering muncul itu nanti ada ; pennant dan flag. ; Itu nanti seperti apa? Kita akan coba mengaplikasikan. ; Dan falling wedge serta rising wedge tadi itu juga akan muncul di dalam continuation. ; Jadi itu merupakan pattern yang akan muncul di dalam 2 kondisi ya. ; Jadi 2 situasi sekaligus dia akan muncul di sana. ; Dan disitulah Anda bisa menikmati entry dengan pattern tersebut ; dan saya akan mengajarkan bagaimana sih cara menghitung target price-nya. ; Pada saat kita melihat ilustrasi ini, ; saya akan memberikan satu gambaran mengenai reversal pattern yang dimulai dari double top. ; Jadi kalau kita bicara tentang double top, kenapa disebut double top? ; Karena topnya ini ada 2. ; Yang pertama, big. ; Yang pertama kemudian gagalnya big ini untuk melanjutkan penguatan ; yang harusnya sebenarnya kan kalau kita melihat ini kan ABCD. ; Ya seperti pattern yang sebelumnya harusnya lanjut. ; Ternyata dia baru tembus sedikit saja. ; Mungkin sedikitnya itu kalau di stocks mungkin sekitar 2% atau 3%. ; Tapi kalau di futures mungkin di time frame yang ideal ya katakan 30 menit atau H1. ; Roughly antara 20 pips kira-kira maksimal 30 gitu. ; Kemudian dia berbalik arah. ; Nah ini yang disebut double top. ; Double top ini berarti ada top ke-1. ; Topnya 2 ya. ; Kemudian ada top yang ke-2. ; Ini disebut double top. ; Sedangkan yang ini namanya double bottom. ; Kebalikannya di bawah ya. ; Dia baru tembus gitu seakan-akan kayak mau gagal gitu turunnya ya. ; Jadi dia harus turun tapi kemudian gagal ya biasanya orang akan habis cut loss di support. ; Terus kemudian dia berbalik arah. ; Akhirnya orang mengalami shock gitu. ; Aduh kenapa saya habis cut loss terus kemudian harganya naik ya. ; Demikian juga disini habis buy tiba-tiba turun. ; Karena dia adalah double top pattern. ; Nah kalau kita sudah melihat double top seperti ini. ; Maka poin yang ada disini ini disebut neckline atau leher. ; Ini disebut neckline ya. ; Pada saat dia menembus lalu masuk lagi. ; Ini disebut dengan false break. ; False break. ; Jadi tipuan. ; Setelah dia false break. ; Biasanya akan lanjut turun sampai ke neckline. ; Dan cara mengukur targetnya secara teoritis. ; Jarak antara puncaknya ini ke neckline. ; Itu sama panjangnya ke bawah ketika dia break. ; Jadi ketika dia break. ; Maka jaraknya ini diukur sama panjangnya akan menjadi target price penurunan. ; Ini yang disebut double top. ; Sedangkan double bottom. ; Jarak dari bottom yang paling rendah ini. ; Jaraknya berapa ya. ; Kemudian ini di copy ke atas. ; Nah disini akan menjadi target bullish. ; Sehingga anda tahu bahwa di dalam kita trading. ; Kalau muncul sebuah pattern. ; Maka kita bisa mengidentifikasi patternnya ini. ; Pattern bullish atau bearish. ; Kalau begini kan berarti dari bull ke bear. ; Kemudian anda bisa tahu ini turunnya minimal seberapa. ; Dan ini naiknya seberapa. ; Bagaimana cara kita melakukan pembelian. ; Kalau awalnya kita hanya membuat analisa kan. ; Bahwa oke ada double top. ; Maka ini akan segera turun. ; Oke ada double bottom. ; Ini akan segera naik. ; Bagaimana caranya sekarang untuk melakukan pembelian. ; Pembelian atau penjualan atau short selling. ; Kalau di futures itu anda bisa short selling terlebih dahulu. ; Biasanya kita akan melakukan short selling ketika terjadinya false break disini. ; Kita short selling. ; Kita sell terlebih dahulu. ; Kemudian harga drop dalam. ; Dan anda bersiap-siap profit taking. ; Kalau di futures itu biasanya menjelang setelah break disini. ; Biasanya kita bisa profit taking sebagian. ; Atau benar-benar di area target price di bawah sini. ; Itu adalah cara menghitung target price dan juga profit takingnya. ; Kalau kita sudah entry disini. ; Di ujung biasanya stop lossnya di atas. ; Sehingga stop lossnya kecil tetapi profit targetnya besar. ; Mungkin pada saat harga turun anda bisa sell disini. ; Target price di bawah sini. ; Nah ini penting sekali untuk anda ketahui. ; Dan double bottom. ; Buy nya adalah di bawah sini. ; Dan sell nya. ; Kalau di saham misalnya. ; Kita bisa mengikuti target yang paling tinggi ini. ; Itu kita bisa lakukan take profit. ; Nah sekarang anda perhatikan baik-baik. ; Pola reversal berikutnya. ; Ini disebut rising wedge. ; Anda mungkin tidak melihat rising wedge dimana. ; Tetapi kalau kita connect-kan ini seperti magic. ; Kita connect-kan ujung-ujungnya pakai trendline. ; Dan kita connect-kan bawahnya. ; Ini akan terlihat sebuah pola yang mengerucut ke atas. ; Ini yang disebut dengan the rising wedge. ; Ada satu puncak, dua puncak, tiga puncak. ; Kemudian ini biasanya akan turun dalam sekali. ; Targetnya dimana? ; Minimal targetnya adalah kaki yang ada di sini. ; Bagaimana cara kita masuk untuk trading di dalam rising wedge? ; Kita trading pada saat terjadinya false break out lagi. ; Jadi tembus atas, masuk ke bawah. ; Kita sell target price di sini. ; Dan ini biasanya akan membuat cangkul baru. ; Ini kepala cangkul. ; Secondary reaction. ; Dan kembali turun. ; Dan inilah yang disebut reversal. ; Dari yang awalnya bullish. ; Kemudian menjadi bearish. ; Berikutnya. ; Ini adalah falling wedge. ; Bentuknya mengerucut lebih jelas. ; Dan apabila Anda menemukan ini. ; Ini merupakan pattern yang sangat profitable. ; Dua pattern ini. ; Double top, rising wedge. ; Tergantung pilihannya. ; Atau double bottom dan falling wedge. ; Mari kita lihat pola double top di Aussie Jepang Yen. ; Biasanya setelah naik. ; Identifikasi kemungkinan muncul double top. ; Itu harus selalu anda lihat. ; Anda waspadai ketika harga itu bergerak sudah di dalam fase public participation. ; Setelah di bawah ini. ; Lalu di up. ; Di atas moving average nya. ; Kemudian. ; Anda bisa perhatikan. ; Pada saat dia tembus seperti ini. ; Sudah di atas. ; Kalau ini belum jadi misalnya. ; Anda bisa lihat seandainya belum jadi. ; Ini belum akan ada double top. ; Karena belum ada puncak pertama. ; Setelah ini. ; Dia membentuk kepala cangkul. ; Ini boleh di waspadai. ; Pada saat harga menembus ini. ; Terjadi double top. ; Ternyata benar. ; Ini menembus. ; Lalu false break. ; Jadi ini classic resistance. ; Hanya berapa? ; Ini di time frame V4 ya. ; 28 pips seperti prediksi kita. ; Begitu dia naik ke atas. ; Lalu masuk lagi ke bawah. ; Kalau candle nya kita ganti. ; Ada candle merah. ; Setelah tembus hijau. ; Bukannya langsung terbang ya. ; Tapi masuk lagi ke dalam. ; Candlenya menjadi merah. ; Saya biasanya akan sell. ; Pada saat apa? ; Saat merah disini. ; Close candle. ; The next bar nya. ; The next bar nya. ; Lebih rendah daripada titik terendah. ; Yang merah ini. ; Lebih rendah dari titik terendah candle ini. ; Sekali lagi. ; Dia tembus ke atas. ; Lalu dia berbalik arah. ; Lalu candle berikutnya. ; Lebih rendah dari titik low. ; Candle yang ini. ; Saya akan sell. ; Dan kita lihat target price pertama. ; Disini. ; 78,20. ; Target price kedua dimana? ; Kita hitung. ; Dari puncak paling atas ke bawah sini. ; Kita copy ke bawah. ; Kurang lebih target price nya disini. ; Maka sell nya bisa disitu. ; Dan kalau kita lihat. ; Ini hampir kena. ; Lalu naik lagi. ; And finally tetap done. ; Walaupun pada kenyataannya. ; Mungkin anda tidak mengambil full. ; Anda mungkin hanya mengambil 70%. ; Jadi kalau masuk dari sini. ; Ini sudah 130 pips. ; Jadi double top. ; Jangan anda mencoba masuk di neckline. ; Seperti di buku-buku biasanya masuk di neckline. ; Karena itu akan berbahaya sekali. ; Sekarang kita akan melihat contoh-contoh yang lain. ; Kalau double top tadi sudah mari kita mencari. ; Misalnya double bottom. ; Siapa tahu disini ada. ; Kita pelan-pelan scanning. ; Atau mungkin di tangga-tangga kita bisa ketemu falling wedge. ; Maybe. ; Oke. ; Let's see kita melihat di gold market. ; Oke. ; Kita menemukan falling wedge. ; Kita tarik kakinya. ; Jadi falling wedge ini dari bull ke bear. ; Kemudian bagian atasnya kita tarik. ; Nah mengerucut. ; Oke. ; Sesuai ekspektasi. ; Dan pada saat itu harga menembus dari pola ini. ; Harga menembus ya. ; Setelah ekor kaki panjang. ; Lihat. ; Ekor kaki panjang. ; Kemudian dia keluar. ; Atau menembus dari trend line yang ini. ; Bentuknya falling wedge. ; Maka target price berikutnya. ; Adalah yang paling tinggi. ; Jadi kita sudah tahu bahwa ada kemungkinan kenaikan dari sini sampai ke atas 170 pips. ; Hanya dengan falling wedge. ; Jadi Anda harus membiasakan menarik-menarik garisnya. ; Bagaimana cara menemukan pattern? ; Paling simpel adalah. ; Kalau seperti ini. ; Ini kita tidak cari lagi patternnya. ; Karena dia sudah running. ; Kita akan cari pattern continuation yang sebentar lagi saya akan jelaskan. ; Tetapi pada saat harga belum running. ; Misalnya seperti ini. ; Kita tahu bahwa apakah ini akan menjadi reversal. ; Anda hubungkan saja. ; Patternnya. ; Ini. ; Kemudian kita hubungkan ini. ; Ini akan menjadi falling wedge. ; Bagaimana cara entry-nya? ; Pada saat pick yang di sini di break. ; Kemudian target price-nya kita taruh di atas. ; Pick yang di sini di break. ; Ya. ; Ternyata di break. ; Dan ini harusnya akan kena. ; 1332 setidaknya di situ ya. ; Jadi it's a magic. ; Dengan mengetahui chart pattern. ; Anda bisa menentukan target price dan arah harga. ; Satu step setidaknya. ; Walaupun. ; Awalnya mungkin susah ya. ; Tapi kalau kita belajarnya menggambar. ; Adalah menarik-narik garis. ; Menghubungkan satu titik dan titik lain. ; Lama-lama nanti Anda akan mendapatkan. ; Yang penting Anda tahu bahwa. ; Tempatnya continuation atau reversal. ; Ya. ; Kita bisa lihat lagi misalnya. ; Saham ya. ; Kita mencari pola yang ada di saham. ; Tidak semua chart pattern itu bisa muncul. ; Masalahnya. ; Jadi Anda harus. ; Peka terhadap. ; Gambarnya ya. ; Kalau pola-pola seperti ini continuation. ; Mungkin Anda tidak akan menemukan. ; Double top dan seterusnya. ; Belum akan muncul. ; Nah mari kita lihat. ; Kita hubungkan. ; Dan kita hubungkan. ; Muncul lagi. ; Falling wedge. ; Nah. ; Kebetulan falling wedge kali ini. ; Bukan continuation. ; Tetapi falling wedge ini. ; Sorry. ; Bukan reversal. ; Tetapi continuation. ; Kalau reversal. ; Berarti datangnya dari atas harganya. ; Karena dia. ; Akhir dari bearish. ; Dalam kasus ini. ; Dia adalah. ; Continuation. ; Artinya. ; Dari trend yang sebelumnya. ; Up. ; Sekarang dia. ; Mulai seperti ini. ; Artinya nanti akan naik lagi. ; Kurang lebih sampai. ; Di sini. ; Oke. ; Itu. ; Adalah. ; Contoh. ; Dari saham telco. ; Yang bisa kita. ; Manfaatkan. ; Untuk trading. ; Ya. ; Ya. ; Sekarang. ; Kita sudah tahu. ; Pola itu. ; Sekarang kita mencoba. ; Mencari. ; Rising wedge. ; Apakah ada. ; Ini. ; Narrow falling wedge ya. ; Kalau anda lihat. ; Ini. ; Kemudian kita konekkan. ; Di sini. ; Ya. ; Falling wedge. ; Dan meledak. ; Signifikan. ; Meledaknya. ; Dan. ; Sambil mencari contoh. ; Rising wedge. ; Mungkin kita juga bisa menemukan. ; Double bottom lagi. ; Nanti. ; Oke. ; Sebagai contoh. ; Ini adalah. ; Double bottom. ; Ya. ; Kita melihat. ; Harga turun. ; Oke. ; Kemudian dia mulai naik. ; Dan tiba-tiba dia. ; Drop dalam. ; Pada saat drop dalam. ; Bukannya berlanjut. ; Tapi malah. ; Berbalik arah. ; Ya. ; Dan menembus. ; Baru. ; Baru dia. ; Tembus. ; Langsung naik lagi. ; Ini biasanya kita beranikan. ; Untuk buy. ; Kita trading. ; Reversal. ; Dan targetnya. ; Di mana. ; Satu. ; Neckline. ; Ya. ; Ini. ; Menjadi target. ; Utama. ; Sebenarnya. ; Extended targetnya. ; Setinggi ini. ; Dicopy. ; Walaupun ini. ; Tidak. ; Sampai ya. ; Makanya. ; Saya selalu menyarankan. ; Bahwa target price yang pertama. ; Itu di neckline. ; Dilebihkan dikit. ; Ya. ; Dilebihkan dikit. ; Seringkali. ; Orang. ; Malah. ; Buy nya disini. ; Sudah ketinggalan jauh. ; Dan itu berbahaya sekali. ; Tidak seperti itu jaranya. ; Ini adalah rising wedge. ; Dan. ; Pada saat kita melihat. ; Rising wedge ini. ; Anda bisa perhatikan. ; Ini kebetulan. ; Dua pick. ; Jadi. ; Waktu kita melihat. ; Harga sedang naik. ; Yang paling. ; Benar itu adalah. ; Anda. ; Selalu stand by. ; Menghubungkan. ; Satu garis ujung. ; Dengan ujung yang lain. ; Akhirnya bisa ketemu. ; Bawah dengan bawah. ; Akhirnya bisa ketemu. ; Dan dari situ. ; Bentuknya mulai kelihatan. ; Jadi. ; Harus rajin. ; Mengkonekkan. ; Pick. ; Atau bottom. ; Karena. ; Dengan mengkonek-konekkan itu. ; Anda akan mendapatkan. ; Satu. ; Gambaran yang baik. ; Ya. ; Target price nya. ; Adalah. ; Di bawah ini. ; Sehingga. ; Pada saat kita. ; Hit. ; Atas. ; Kemudian. ; Kita sell nya. ; Waktu kita. ; Untuk apa. ; Waktu false break kan. ; Tentunya. ; Ini ada false break. ; Dan ini ada. ; Insight bar. ; Kita sudah pelajari. ; Insight bar. ; Insight bar. ; Bisa langsung. ; Kita pelajari aplikasinya. ; Untuk entry. ; Ini ada insight bar. ; Pas dengan false break. ; Dan Anda entry nya. ; Berarti. ; Pada saat mother candle nya. ; Ditembus. ; Sampai di sini. ; Belum ditembus-tembus. ; Berarti. ; Inilah. ; Candle yang. ; Untuk kita entry. ; Saya akan berikan. ; Panah. ; Ya. ; Ini adalah candle. ; Di mana kita entry. ; Karena apa. ; Yang itu terus turun. ; Ya. ; Penurunannya. ; Karena. ; Rising wedge. ; Dan pips nya. ; Masih besar sekali. ; Asal Anda mau sabar. ; Menunggu. ; Ya. ; Oke. ; Itu adalah. ; Trend reversal. ; Antara falling wedge. ; Dan rising wedge. ; Sekarang. ; Variasi berikutnya. ; Adalah. ; Continuation pattern. ; Bagaimana. ; Seandainya. ; Ini misalnya trend turun. ; Lalu. ; Harga sudah berbalik naik. ; Ya. ; Nah. ; Saya mau menceritakan. ; Bahwa. ; Continuation pattern. ; Itu munculnya. ; Looping average. ; Oke. ; Lalu. ; Di manakah. ; Munculnya. ; Continuation pattern itu. ; Continuation pattern itu. ; Munculnya selalu. ; Di sini. ; Di sini. ; Di sini. ; Jadi. ; Kalau awalnya. ; Anda hanya melihat. ; Kepala cangkul saja. ; Sekarang. ; Kita mempelajari. ; Bahwa. ; Kepala. ; Di dalam kepala cangkul itu. ; Muncul. ; Continuation pattern. ; Apa saja. ; Continuation pattern nya. ; Continuation pattern. ; Yang akan kita pelajari. ; Hari ini. ; Adalah. ; Kita. ; Filter ya. ; Saya akan berikan. ; Anda pattern. ; Penan. ; Karena ini yang sering muncul. ; Di gold. ; Di saham. ; Untuk lebih advance. ; Anda mungkin bisa mempelajari yang lain. ; Ya. ; Tetapi. ; Saya akan memberikan yang. ; Yang paling sering muncul. ; Penan. ; Dan kemudian. ; Black. ; Penan. ; Pada dasarnya. ; Adalah bentuknya mirip. ; Seperti kepala cangkul. ; Kita bicara. ; Bullish dan bearish dulu ya. ; Bullish. ; Penan. ; Terlebih dahulu ya. ; Oke. ; Saya akan coba gambarkan. ; Misalnya. ; Di area. ; Kepala cangkul ini. ; Ternyata. ; Dia beriak. ; Misalnya. ; Dia di sini. ; Kemudian dia turun. ; Ya kan. ; Kepala cangkul. ; Dia naik. ; Tapi berhenti. ; Terus turun. ; Berhenti di sini. ; Ya. ; Ini naik. ; Penan. ; Itu adalah. ; Kita connect kan ini. ; Dan kita connect kan ini. ; Isinya. ; Ada berapa. ; Kalau kita menghitung angka. ; Anda perhatikan. ; Hafal kan bentuknya. ; Waktu. ; Dia kepala cangkul ya. ; Lihatnya kepala cangkul dulu. ; Berarti ini. ; Ada. ; A. ; Ini ada gerakan B. ; Ini ada gerakan C. ; Jadi ada. ; A. ; B. ; C. ; Jadi tiga gerakan. ; Satu. ; Dua. ; Tiga. ; Dan ini. ; Akan tembus ke atas. ; Seberapa jauh. ; Penan. ; Panjangnya. ; Dari titik. ; Ini ke. ; Bottom A. ; Panjangnya itu. ; Dicopy. ; Tembusannya ini. ; Itu target pertama. ; It's very simple. ; Ya. ; Jadi munculnya. ; Di kepala cangkul. ; Bentuknya segitiga. ; Menurucut. ; Hanya ada tiga gerakan. ; Karena kalau lima. ; Berarti jadinya triangle. ; Kita tidak bahas triangle. ; Ini adalah penan. ; Dan. ; Ini juga berlaku. ; Di dalam kondisi bearish. ; Kalau kondisi bearish. ; Berarti. ; Seandainya. ; Anda sedang. ; Memperhatikan. ; Ini sekarang. ; Mulai continuation. ; Ya. ; Nah. ; Berarti. ; Nanti. ; Pattern pattern tersebut. ; Akan ada di sini. ; Dalam kasus ini. ; Berarti. ; Sebelumnya turun. ; Kemudian dia naik. ; Kepala cangkul. ; Dia turun. ; Dia naik lagi. ; Kemudian dia. ; Turun dalam. ; Kita garis. ; Dan kita garis. ; Terjadilah. ; Penan. ; Dua-duanya. ; Menurucut. ; Selain penan. ; Ada apa lagi. ; Ada satu lagi. ; Yang kita sebut. ; Dengan flag. ; Perbedaannya adalah. ; Katakan kita bahas. ; Bearish flag. ; Terlebih dahulu. ; Dimana. ; Pada saat dia turun. ; Dia akan. ; Membuat sebuah pergerakan. ; Tetap awalnya. ; Kepala cangkul. ; Lalu. ; Lalu. ; Dia akan. ; Menariknya adalah. ; Sudut kemiringannya ini. ; Akan sama. ; Jadi dia. ; Membuat sebuah. ; Pergerakan. ; Yang. ; Cukup shaky ya. ; Kemudian. ; Ini kalau dihubungkan. ; Ini lurus. ; Dari kakinya lurus. ; Dan ini prinsipnya. ; Sama dengan. ; Penan. ; Arahnya ke bawah. ; Jadi dia lurus. ; Dan terdiri. ; Dari beberapa macam. ; Sideways. ; Yang menjurus. ; Atau menghadap. ; Ke arah. ; Secondary reactionnya. ; Dan. ; Kemudian dia. ; Akan. ; Turun dalam. ; Seperti ini. ; Ya. ; Ini adalah. ; The flag. ; Pattern. ; Dan ini adalah. ; The penan pattern. ; Berlaku. ; Bullish dan bearish. ; Tergantung arahnya. ; Biasanya. ; Penan-penan. ; Seperti itu. ; Bisa juga. ; Anda temui. ; Di saham. ; Ya. ; Misalnya. ; Kita akan mengambil contoh. ; Penan. ; Dari. ; Indonesia. ; Rupiah. ; Kalau anda perhatikan. ; Ini kita tarik. ; Garis di sini. ; Dan kemudian. ; Di bawahnya. ; Kita tarik. ; Ini terlihat. ; Ada tiga gerakan. ; B. ; C. ; Dan. ; Setelah itu. ; Dia terbang. ; Jadi saya ulangi. ; A. ; Di sini. ; Ini awalnya begini ya. ; Ini kan dari bawah ya. ; Kemudian dia turun. ; Kepala canggul. ; Lalu dia naik. ; Sedikit. ; Lalu dia turun. ; Dan. ; Kemudian. ; Dia mulai merawat naik. ; Setelah dia brake. ; Dia terbang. ; Brake-nya di mana? ; Brake-nya di sini. ; Inilah awal mula. ; Asron Aci. ; Waktu itu. ; Memberikan review. ; Bahwa. ; U.S.T. ; I.D.R. ; Akan terus naik. ; Sampai 14.000. ; Dasarnya di sini. ; Ya. ; Dasarnya di sini. ; Dan anda bisa perhatikan. ; Baik-baik. ; Pada saat ini tembus. ; Terus. ; Running. ; Sampai ke atas. ; Dan. ; Kemudian. ; Menghasilkan. ; Keuntungan. ; Yang luar biasa. ; Pada saat. ; Anda bisa membelinya. ; Ini merupakan. ; Bagaimana. ; Caranya. ; Anda menemukan. ; Penang. ; Jadi segitiga. ; Mengerucut. ; Dan pada akhirnya. ; Anda mendapatkan. ; Keuntungan. ; Dari. ; Pola ini. ; Demikian juga. ; Kalau kita melihat. ; Weekly chart. ; Dari Jakva. ; Pada saat. ; Dia bergerak di sini. ; Ini membentuk. ; Pola. ; Penang. ; Yang pada akhirnya. ; Terbang dengan signifikan. ; Jadi. ; Pola penang ini. ; Memang. ; Sangat powerful. ; Dan harus diwaspadai ya. ; Artinya. ; Bagi anda. ; Pencinta. ; Continuation. ; Trading. ; Penang-penang ini. ; Akan menjadi. ; Senjata yang. ; Sangat dahsyat. ; Untuk kita. ; Ya. ; Kemudian. ; Kita mencari. ; Pola flag. ; Dan di sini. ; Kita menemukan. ; Flag. ; Kepala cangkul. ; Turun. ; Badan cangkul. ; Maksud saya. ; Kemudian di sini. ; Pergerakannya. ; Pendek-pendek. ; Dan rata. ; Maka ini disebut. ; Dengan flag. ; Cenderung rata ya. ; Nah. ; Ya. ; Ini rata. ; Maka dia flag. ; Beris. ; Karena flag. ; Juga ada flag bulis. ; Di mana flag bulis. ; Kebetulan di sini. ; Ada flag bulis. ; Dia turun. ; Ujung atasnya. ; Dikonekkan. ; Ujung bawah. ; Dikonekkan. ; Jadi. ; Rata. ; Kemudian. ; Bersama dengan itu. ; Dia. ; Melejit naik. ; Bersama dengan itu. ; Dia. ; Turun. ; Target price nya. ; Di mana. ; Kalau flag. ; Itu. ; Sepertinya. ; ABCD. ; Ya. ; Anda bisa melihat ini. ; Seperti ABCD. ; Panjangnya pegangan ini. ; Dipindahin. ; Ke titik dia break. ; Panjangnya pegangan ini. ; Berapa ya. ; Ujung atasnya. ; Harga misalnya. ; Rp8.000. ; Bawah sini. ; Rp6.000. ; Maka ini Rp2.000. ; Dikurangkan di sini. ; Rp4.000 gitu ya. ; Di sini. ; Jadi. ; Rp4.000 bawahnya. ; Misalnya gitu. ; Ya. ; Selisihnya berapa. ; Rp2.000. ; Dikurang saja. ; Dari titik dia break ini berapa. ; Anda akan mendapatkannya. ; Ya. ; Ini juga sama kan. ; Ini tinggal dipindah saja. ; Dari titik breaknya. ; Nah jadinya. ; Cuma. ; Ya. ; Kurang lebih di atas ini. ; Jadi. ; Itu adalah gambaran. ; Anda menggambarkan chart pattern. ; Kita sudah mempelajari. ; Ada double top. ; Ada double bottom. ; Kemudian ada pennant. ; Ada flag. ; Itu semua harus dilatih. ; Kuncinya adalah. ; Bagaimana. ; Menggunakan flag garis. ; Dan menghubungkan. ; Sampai itu terhubung. ; Dan. ; Akhirnya. ; Itu bisa diaplikasikan langsung. ; Di dalam market. ; Karena. ; Itu bisa melihat arah harga akan kemana. ; Dan. ; Kemudian. ; Anda bisa mendapatkan. ; Entrynya. ; Ya. ; Dan juga stop lossnya. ; Bagaimana. ; Sekarang. ; Kalau kita bicara stop lossnya. ; Maka. ; Stop loss yang dihasilkan. ; Adalah pada saat. ; Ini yang harusnya naik. ; Misalnya. ; Lalu kemudian dia sampai. ; Break ini tidak naik. ; Swing low terakhir. ; Yang paling dekat. ; Misalnya. ; Ini awalnya kita mau. ; Swing low. ; Ini misalnya turun dulu. ; Lalu naik swing low. ; Terakhir ini bisa jadi stop loss. ; Atau. ; Akhir daripada. ; Falling wedge nya. ; Tinggal kita hitung-hitung. ; Yang mana. ; Yang lebih kecil. ; Resikonya. ; Itu yang akan kita ambil. ; Ya. ; Jadi. ; Anda sudah mempelajari. ; Continuation pattern. ; Reversal pattern. ; Yang akan kita berikan. ; Di dalam. ; Segala macam. ; Bentuk. ; Assessment. ; Atau tugas. ; Yang mungkin nanti. ; Anda bisa. ; Kerjakan tugasnya. ; Dan dikirim kembali ke kita. ; Kita akan. ; Memberikan. ; Sebagai. ; Bagaimana. ; Anda membuat. ; Continuation pattern. ; Tugas analisa ya. ; Dan. ; Reversal pattern. ; Double top. ; Double bottom. ; Rising wedge. ; Falling wedge. ; Dan. ; Continuation nya. ; Penan. ; Dan. ; Flag. ; Termasuk. ; Rising wedge. ; Falling wedge. ; Yang mungkin. ; Akan Anda temui. ; Ya. ; Sedangkan. ; Sudah mengetahui. ; Primary. ; Dan. ; Secondary. ; Lalu. ; Anda juga sudah. ; Mengetahui. ; Tentang pattern. ; Jadi. ; Semuanya. ; Tetapi. ; Poin-poin yang memang. ; Sering terjadi. ; Karena itu yang paling make sense. ; Untuk kita trading. ; Ya. ; Oke. ; Demikianlah. ; Chart pattern. ; Dan kita akan bertemu. ; Di chapter selanjutnya. ; Untuk membahas materi. ; Yang lebih penting. ; Dan untuk menggabungkan semuanya. ; Menjadi trading strategy. ; Yang profitable. ; Dan powerful.
+
+==================================================
+TIMESTAMPS:
+
+[01:32 - 01:36]
+Saat ini Anda akan mempelajari ilmu yang sangat luar biasa yakni the chart pattern.
+
+[01:37 - 01:43]
+Pergerakan harga selain cangkul, ternyata memiliki sebuah gambar-gambar yang lain.
+
+[01:43 - 01:48]
+Chart pattern ini merupakan sebuah bagian teknik menganalisa pergerakan harga
+
+[01:48 - 01:52]
+dengan pendekatan metode technical analysis klasik
+
+[01:52 - 01:57]
+di mana pada saat kita menggabungkan titik-titik swing high dan swing low
+
+[01:57 - 02:01]
+menggunakan trend line akan muncul berbagai macam jenis pattern.
+
+[02:01 - 02:05]
+Di mana pattern-pattern ini apabila kita sudah mengetahui jenis-jenisnya
+
+[02:05 - 02:08]
+akan sangat memberikan benefit yang luar biasa.
+
+[02:08 - 02:13]
+Anda akan mengetahui pembentukan arah harga pattern ini dengan targetnya akan kemana,
+
+[02:14 - 02:16]
+berapa jauh kenaikan atau penurunannya,
+
+[02:16 - 02:24]
+dan disinilah Anda akan mendapatkan sebuah kesempatan untuk masuk di dalam pasar secara objektif.
+
+[02:24 - 02:28]
+Kemudian Anda bisa langsung setting target price dan juga setting stop loss.
+
+[02:29 - 02:30]
+Kalau Anda lihat pada...
+
+[02:31 - 02:35]
+cuplikan di layar ini, Anda akan melihat bahwa pada saat ini
+
+[02:35 - 02:39]
+analis sedang menentukan pola-pola yang sedang terbentuk.
+
+[02:39 - 02:43]
+Menggaris-garis swing high dan swing low disambung-sambungkan
+
+[02:43 - 02:46]
+dan terbentuklah sebuah bentuk-bentuk geometris.
+
+[02:46 - 02:49]
+Ada yang seperti segitiga, ada yang seperti huruf M,
+
+[02:50 - 02:51]
+ada yang seperti huruf W,
+
+[02:51 - 02:55]
+dan inilah yang kita sebut dengan chart pattern yang selalu berulang.
+
+[02:56 - 03:00]
+Pada dasarnya kita sudah mengetahui prinsip daripada technical analysis,
+
+[03:01 - 03:02]
+sorry, repeat itself.
+
+[03:02 - 03:08]
+Bagaimana apabila pola-pola berbentuk M yang kita yakini akan membuat harga turun,
+
+[03:08 - 03:11]
+dan pola-pola yang berbentuk W akan membuat harga naik,
+
+[03:11 - 03:15]
+atau kita sebut double top seperti M dan double bottom yang seperti W,
+
+[03:15 - 03:17]
+ini berulang terus.
+
+[03:17 - 03:21]
+Maka Anda akan mendapatkan satu informasi yang memiliki satu kesamaan,
+
+[03:21 - 03:23]
+di mana pada saat harga ini berulang dari hari ke hari,
+
+[03:24 - 03:26]
+Anda akan menemukan opportunity trading yang luar biasa.
+
+[03:27 - 03:30]
+Artinya pada saat termelihat atau kita menggambarkan sebuah...
+
+[03:31 - 03:32]
+pola M itu muncul,
+
+[03:32 - 03:35]
+kita bisa mempersiapkan strategi trading untuk short selling,
+
+[03:35 - 03:38]
+dan pada akhirnya mendapatkan profit yang maksimal.
+
+[03:38 - 03:40]
+Sebelum kita membahas di aplikasi,
+
+[03:41 - 03:43]
+saya akan menjelaskan jenis chart pattern.
+
+[03:43 - 03:44]
+Chart pattern terbagi menjadi dua,
+
+[03:44 - 03:48]
+ada trend dan continuation, maksud saya,
+
+[03:48 - 03:49]
+ada juga yang reversal.
+
+[03:50 - 03:51]
+Trend continuation,
+
+[03:52 - 03:55]
+akan muncul pattern-pattern yang kita sebut dengan continuation pattern.
+
+[03:56 - 03:58]
+Yang akan Anda pelajari hari ini adalah
+
+[03:58 - 03:59]
+pennant pattern,
+
+[03:59 - 04:01]
+dan kemudian flag pattern,
+
+[04:01 - 04:04]
+dan rising wage atau falling wage.
+
+[04:04 - 04:05]
+Di dalam continuation pattern,
+
+[04:06 - 04:07]
+bullish pattern,
+
+[04:08 - 04:09]
+itu bisa menjadi bullish pennant,
+
+[04:09 - 04:11]
+yang bentuknya seperti segitiga,
+
+[04:11 - 04:12]
+Anda bisa lihat ilustrasi di samping.
+
+[04:13 - 04:15]
+Kemudian bullish flag,
+
+[04:15 - 04:18]
+bentuknya seperti dua garis yang sejajar.
+
+[04:18 - 04:22]
+Kemudian Anda melihat bearish flag,
+
+[04:23 - 04:24]
+bearish pennant,
+
+[04:25 - 04:27]
+kemudian bullish rising wage,
+
+[04:27 - 04:29]
+correction, bullish falling wage,
+
+[04:30 - 04:32]
+lalu Anda melihat bullish falling wage,
+
+[04:32 - 04:36]
+dan kemudian Anda melihat bearish rising wage,
+
+[04:36 - 04:38]
+yang berada pada continuation,
+
+[04:38 - 04:42]
+ini bisa digunakan untuk menentukan arah harga berikutnya.
+
+[04:42 - 04:46]
+Kemudian di dalam pola continuation ini,
+
+[04:46 - 04:48]
+Anda juga bisa langsung mendapatkan target price.
+
+[04:48 - 04:53]
+Dan target price-nya bisa terukur dengan sangat objektif,
+
+[04:53 - 04:55]
+dengan melalui pola-pola ini,
+
+[04:55 - 04:59]
+sudah ada aturan-aturan yang akan nanti dijelaskan di application.
+
+[04:59 - 04:59]
+Dan target price-nya bisa terukur dengan sangat objektif, dengan melalui pola-pola ini, sudah ada aturan-aturan yang akan nanti dijelaskan di application.
+
+[05:00 - 05:04]
+Kategori berikutnya adalah trend reversal pattern.
+
+[05:05 - 05:07]
+Dimana dengan munculnya pola-pola ini,
+
+[05:07 - 05:10]
+Anda akan melihat pembalikan arah harga dari sebuah trend.
+
+[05:11 - 05:15]
+Jadi misalnya trend ini sekarang sedang bergerak di dalam pergerakan 45 derajat bullish,
+
+[05:15 - 05:17]
+badan canggul, kepala canggulnya di atas moving average,
+
+[05:18 - 05:18]
+oke that's good.
+
+[05:19 - 05:21]
+Tetapi tiba-tiba muncul huruf M.
+
+[05:22 - 05:25]
+Setelah puncak daripada kepala canggul itu ditembus,
+
+[05:25 - 05:26]
+yang atasnya ditembus,
+
+[05:26 - 05:29]
+tidak mampu bertahan lama,
+
+[05:29 - 05:30]
+kemudian dia membalik ke atas,
+
+[05:30 - 05:32]
+membalikan arah harga,
+
+[05:32 - 05:32]
+membentuk huruf M,
+
+[05:32 - 05:35]
+dan dampaknya adalah bearish.
+
+[05:35 - 05:36]
+Itu adalah the double top.
+
+[05:37 - 05:44]
+Double top memiliki sebuah probability yang cukup tinggi di dalam membalikan arah harga dari bullish ke bearish.
+
+[05:44 - 05:47]
+Demikian juga yang akan terjadi di double bottom.
+
+[05:47 - 05:50]
+Kalau Anda melihat double bottom, hurufnya seperti way,
+
+[05:50 - 05:55]
+maka double bottom ini akan membuat pergerakan harga dari bawah yang awalnya bearish,
+
+[05:55 - 05:58]
+kemudian setelah dia menembus swing low-nya,
+
+[05:59 - 06:03]
+tiba-tiba dia tidak mampu turun lebih jauh dan berbalik arah,
+
+[06:03 - 06:06]
+lalu menembus neckline, yang kita sebut neckline.
+
+[06:06 - 06:08]
+Anda bisa lihat ilustrasinya neckline.
+
+[06:09 - 06:12]
+Kemudian dia naik dan ini menjadi bullish pattern.
+
+[06:12 - 06:16]
+Konstruksi daripada chart-chart ini harus kita ketahui,
+
+[06:16 - 06:20]
+karena chart pattern ini akan membawa kita ke dalam satu pengenalan.
+
+[06:20 - 06:23]
+Kita sekarang trading melihat apa? Melihat pattern.
+
+[06:23 - 06:25]
+Patternnya ada, kita trading.
+
+[06:25 - 06:26]
+Patternnya ada, kita entry.
+
+[06:26 - 06:28]
+Dan muncul pattern akan menentukan,
+
+[06:28 - 06:30]
+di mana ada profit taking dan di mana ada stop loss.
+
+[06:31 - 06:36]
+Karena hanya dengan pattern-pattern inilah Anda bisa menentukan stop loss-nya di mana,
+
+[06:36 - 06:37]
+profit taking-nya di mana.
+
+[06:37 - 06:40]
+Karena seringkali orang bertanya, saya harus stop loss berapa persen?
+
+[06:40 - 06:41]
+Saya harus stop loss berapa pips?
+
+[06:41 - 06:43]
+Di mana saya pasang take profit?
+
+[06:43 - 06:44]
+Itu adalah pertanyaan wajar.
+
+[06:46 - 06:50]
+Tetapi pertanyaan ini bisa dijawab dengan objektif apabila Anda mengetahui chart pattern.
+
+[06:50 - 06:54]
+Karena profit target, stop loss, entry, itu setiap pola berbeda.
+
+[06:55 - 06:58]
+Jadi apabila Anda memilih, muncul pola rising wedge.
+
+[06:58 - 07:00]
+Atau muncul pola double top.
+
+[07:01 - 07:05]
+Maka kedua hal ini, stop loss, entry, take profit, semua berbeda.
+
+[07:05 - 07:06]
+Tidak bisa disamakan.
+
+[07:06 - 07:13]
+Jadi sekarang Anda mengetahui untuk menentukan stop loss, menentukan take profit, menentukan entry, tidak semua pattern sama.
+
+[07:13 - 07:16]
+Dan pattern-pattern ini yang akan saya berikan contohnya di aplikasi,
+
+[07:16 - 07:22]
+akan membuat Anda lebih jelas bagaimana cara untuk memaksimalkan profit dan untuk trading dengan lebih safety.
+
+[07:22 - 07:25]
+Kita akan bahas di aplikasi mengenai chart pattern.
+
+[07:30 - 07:33]
+Setelah Anda mempelajari tentang teori dari chart pattern,
+
+[07:33 - 07:37]
+inilah saatnya untuk kita memasuki aplikasi dari chart pattern.
+
+[07:37 - 07:40]
+How to see the pattern and measure the target price?
+
+[07:40 - 07:45]
+Kita tahu bahwa chart pattern ini merupakan bagian yang penting untuk Anda bisa membuat road mapping harga.
+
+[07:45 - 07:49]
+Dan kita juga sudah memahami bahwa jenis dari chart pattern itu ada dua.
+
+[07:50 - 07:55]
+Yang pertama adalah continuation pattern dan yang kedua adalah reversal pattern.
+
+[07:55 - 08:00]
+Continuation pattern berarti Anda saat ini sedang memikirkan bahwa pada saat
+
+[08:00 - 08:03]
+harga itu bergerak di dalam 45 derajat,
+
+[08:03 - 08:05]
+jika Anda melihat up atau down di dalam sebuah trend yang kuat,
+
+[08:06 - 08:11]
+maka kita mencari pola-pola yang terbentuk di tengahnya sebagai jembatan kita untuk masuk.
+
+[08:16 - 08:22]
+Dan kemudian kalau reversal itu berbicara tentang pembalikan arah harga.
+
+[08:22 - 08:26]
+Jadi apabila sedang beres, kemudian dia sampai ke satu titik
+
+[08:26 - 08:30]
+di mana area tersebut adalah titik pembalikan arah,
+
+[08:32 - 08:37]
+pembalikan arah harganya itu akan menjadi sebuah reversal untuk trend itu sendiri.
+
+[08:37 - 08:42]
+Dan di dalam trend reversal tersebut kita bisa melihat nanti ada pattern-pattern
+
+[08:42 - 08:44]
+yang akan menjadi kunci pembalikan arah harga.
+
+[08:45 - 08:47]
+Nah pattern-pattern tersebut yang kita sebut reversal pattern,
+
+[08:48 - 08:52]
+apa saja dan bagaimana caranya tentu kita sudah mempelajari tentang trendline.
+
+[08:52 - 08:58]
+Kalau kita melihat di chart sini trendline itu menghubungkan peak dan trough seperti ini.
+
+[08:58 - 09:00]
+Tetapi untuk tahap awal kan kalau kita bicara trendline,
+
+[09:00 - 09:04]
+itu menghubung-hubungkan tapi belum terlihat ya apa polanya.
+
+[09:04 - 09:08]
+Nah saya memberikan training Anda dengan ilustrasi.
+
+[09:08 - 09:12]
+Di dalam pattern selalu ada continuation dan reversal.
+
+[09:12 - 09:17]
+Yang akan kita bahas di dalam video kali ini adalah pola-pola yang paling penting,
+
+[09:17 - 09:21]
+yang paling singkat karena chart pattern itu banyak sekali bisa sampai 100 lebih ya.
+
+[09:21 - 09:24]
+Tetapi tidak semuanya gampang ditemui.
+
+[09:24 - 09:29]
+Oleh karena itu kita ingin membuat sebuah gambaran bagaimana
+
+[09:29 - 09:32]
+karena apabila chart pattern itu kita tentukan,
+
+[09:33 - 09:37]
+maka yang akan muncul adalah pola-pola yang selalu,
+
+[09:37 - 09:38]
+hampir selalu berulang ya.
+
+[09:38 - 09:42]
+Contohnya ada double top, kemudian ada double bottom untuk reversal ya.
+
+[09:42 - 09:45]
+Kemudian ada rising wedge dan falling wedge itu untuk reversal.
+
+[09:46 - 09:51]
+Jadi untuk reversal dari bull ke bear saya berikan Anda 2 pattern yang penting,
+
+[09:51 - 09:52]
+double top dan rising wedge.
+
+[09:53 - 09:56]
+Kemudian dari bearish ke bullish saya berikan Anda 2 pattern yang penting,
+
+[09:56 - 09:58]
+double bottom dan falling wedge.
+
+[09:59 - 10:03]
+Kemudian setelah itu Anda akan melihat nanti di dalam continuation.
+
+[10:03 - 10:07]
+Di dalam continuation pattern yang paling sering muncul itu nanti ada
+
+[10:08 - 10:10]
+pennant dan flag.
+
+[10:10 - 10:13]
+Itu nanti seperti apa? Kita akan coba mengaplikasikan.
+
+[10:13 - 10:20]
+Dan falling wedge serta rising wedge tadi itu juga akan muncul di dalam continuation.
+
+[10:20 - 10:27]
+Jadi itu merupakan pattern yang akan muncul di dalam 2 kondisi ya.
+
+[10:27 - 10:30]
+Jadi 2 situasi sekaligus dia akan muncul di sana.
+
+[10:31 - 10:36]
+Dan disitulah Anda bisa menikmati entry dengan pattern tersebut
+
+[10:36 - 10:39]
+dan saya akan mengajarkan bagaimana sih cara menghitung target price-nya.
+
+[10:39 - 10:42]
+Pada saat kita melihat ilustrasi ini,
+
+[10:43 - 10:48]
+saya akan memberikan satu gambaran mengenai reversal pattern yang dimulai dari double top.
+
+[10:49 - 10:52]
+Jadi kalau kita bicara tentang double top, kenapa disebut double top?
+
+[10:52 - 10:54]
+Karena topnya ini ada 2.
+
+[10:54 - 10:55]
+Yang pertama, big.
+
+[10:55 - 10:59]
+Yang pertama kemudian gagalnya big ini untuk melanjutkan penguatan
+
+[10:59 - 11:03]
+yang harusnya sebenarnya kan kalau kita melihat ini kan ABCD.
+
+[11:03 - 11:06]
+Ya seperti pattern yang sebelumnya harusnya lanjut.
+
+[11:06 - 11:08]
+Ternyata dia baru tembus sedikit saja.
+
+[11:08 - 11:12]
+Mungkin sedikitnya itu kalau di stocks mungkin sekitar 2% atau 3%.
+
+[11:12 - 11:18]
+Tapi kalau di futures mungkin di time frame yang ideal ya katakan 30 menit atau H1.
+
+[11:18 - 11:23]
+Roughly antara 20 pips kira-kira maksimal 30 gitu.
+
+[11:23 - 11:25]
+Kemudian dia berbalik arah.
+
+[11:25 - 11:26]
+Nah ini yang disebut double top.
+
+[11:28 - 11:30]
+Double top ini berarti ada top ke-1.
+
+[11:32 - 11:32]
+Topnya 2 ya.
+
+[11:34 - 11:36]
+Kemudian ada top yang ke-2.
+
+[11:36 - 11:37]
+Ini disebut double top.
+
+[11:38 - 11:39]
+Sedangkan yang ini namanya double bottom.
+
+[11:40 - 11:41]
+Kebalikannya di bawah ya.
+
+[11:41 - 11:48]
+Dia baru tembus gitu seakan-akan kayak mau gagal gitu turunnya ya.
+
+[11:48 - 11:54]
+Jadi dia harus turun tapi kemudian gagal ya biasanya orang akan habis cut loss di support.
+
+[11:54 - 11:56]
+Terus kemudian dia berbalik arah.
+
+[11:56 - 11:57]
+Akhirnya orang mengalami shock gitu.
+
+[11:58 - 12:01]
+Aduh kenapa saya habis cut loss terus kemudian harganya naik ya.
+
+[12:02 - 12:05]
+Demikian juga disini habis buy tiba-tiba turun.
+
+[12:05 - 12:08]
+Karena dia adalah double top pattern.
+
+[12:09 - 12:11]
+Nah kalau kita sudah melihat double top seperti ini.
+
+[12:12 - 12:16]
+Maka poin yang ada disini ini disebut neckline atau leher.
+
+[12:16 - 12:19]
+Ini disebut neckline ya.
+
+[12:19 - 12:22]
+Pada saat dia menembus lalu masuk lagi.
+
+[12:22 - 12:24]
+Ini disebut dengan false break.
+
+[12:24 - 12:25]
+False break.
+
+[12:26 - 12:27]
+Jadi tipuan.
+
+[12:28 - 12:29]
+Setelah dia false break.
+
+[12:30 - 12:33]
+Biasanya akan lanjut turun sampai ke neckline.
+
+[12:33 - 12:36]
+Dan cara mengukur targetnya secara teoritis.
+
+[12:36 - 12:39]
+Jarak antara puncaknya ini ke neckline.
+
+[12:40 - 12:43]
+Itu sama panjangnya ke bawah ketika dia break.
+
+[12:43 - 12:45]
+Jadi ketika dia break.
+
+[12:45 - 12:49]
+Maka jaraknya ini diukur sama panjangnya akan menjadi target price penurunan.
+
+[12:50 - 12:51]
+Ini yang disebut double top.
+
+[12:52 - 12:53]
+Sedangkan double bottom.
+
+[12:53 - 12:56]
+Jarak dari bottom yang paling rendah ini.
+
+[12:56 - 12:57]
+Jaraknya berapa ya.
+
+[12:57 - 13:00]
+Kemudian ini di copy ke atas.
+
+[13:01 - 13:04]
+Nah disini akan menjadi target bullish.
+
+[13:04 - 13:08]
+Sehingga anda tahu bahwa di dalam kita trading.
+
+[13:08 - 13:10]
+Kalau muncul sebuah pattern.
+
+[13:10 - 13:12]
+Maka kita bisa mengidentifikasi patternnya ini.
+
+[13:12 - 13:13]
+Pattern bullish atau bearish.
+
+[13:14 - 13:16]
+Kalau begini kan berarti dari bull ke bear.
+
+[13:16 - 13:19]
+Kemudian anda bisa tahu ini turunnya minimal seberapa.
+
+[13:20 - 13:21]
+Dan ini naiknya seberapa.
+
+[13:22 - 13:24]
+Bagaimana cara kita melakukan pembelian.
+
+[13:24 - 13:26]
+Kalau awalnya kita hanya membuat analisa kan.
+
+[13:26 - 13:28]
+Bahwa oke ada double top.
+
+[13:28 - 13:29]
+Maka ini akan segera turun.
+
+[13:29 - 13:30]
+Oke ada double bottom.
+
+[13:30 - 13:31]
+Ini akan segera naik.
+
+[13:32 - 13:34]
+Bagaimana caranya sekarang untuk melakukan pembelian.
+
+[13:35 - 13:37]
+Pembelian atau penjualan atau short selling.
+
+[13:37 - 13:40]
+Kalau di futures itu anda bisa short selling terlebih dahulu.
+
+[13:40 - 13:45]
+Biasanya kita akan melakukan short selling ketika terjadinya false break disini.
+
+[13:45 - 13:46]
+Kita short selling.
+
+[13:46 - 13:47]
+Kita sell terlebih dahulu.
+
+[13:48 - 13:49]
+Kemudian harga drop dalam.
+
+[13:49 - 13:51]
+Dan anda bersiap-siap profit taking.
+
+[13:51 - 13:56]
+Kalau di futures itu biasanya menjelang setelah break disini.
+
+[13:56 - 13:58]
+Biasanya kita bisa profit taking sebagian.
+
+[13:58 - 14:01]
+Atau benar-benar di area target price di bawah sini.
+
+[14:02 - 14:07]
+Itu adalah cara menghitung target price dan juga profit takingnya.
+
+[14:07 - 14:08]
+Kalau kita sudah entry disini.
+
+[14:09 - 14:11]
+Di ujung biasanya stop lossnya di atas.
+
+[14:11 - 14:14]
+Sehingga stop lossnya kecil tetapi profit targetnya besar.
+
+[14:14 - 14:18]
+Mungkin pada saat harga turun anda bisa sell disini.
+
+[14:18 - 14:19]
+Target price di bawah sini.
+
+[14:20 - 14:22]
+Nah ini penting sekali untuk anda ketahui.
+
+[14:23 - 14:25]
+Dan double bottom.
+
+[14:26 - 14:30]
+Buy nya adalah di bawah sini.
+
+[14:33 - 14:35]
+Dan sell nya.
+
+[14:36 - 14:38]
+Kalau di saham misalnya.
+
+[14:38 - 14:40]
+Kita bisa mengikuti target yang paling tinggi ini.
+
+[14:41 - 14:43]
+Itu kita bisa lakukan take profit.
+
+[14:43 - 14:46]
+Nah sekarang anda perhatikan baik-baik.
+
+[14:48 - 14:50]
+Pola reversal berikutnya.
+
+[14:50 - 14:52]
+Ini disebut rising wedge.
+
+[14:52 - 14:54]
+Anda mungkin tidak melihat rising wedge dimana.
+
+[14:54 - 14:57]
+Tetapi kalau kita connect-kan ini seperti magic.
+
+[14:57 - 14:59]
+Kita connect-kan ujung-ujungnya pakai trendline.
+
+[14:59 - 15:01]
+Dan kita connect-kan bawahnya.
+
+[15:01 - 15:06]
+Ini akan terlihat sebuah pola yang mengerucut ke atas.
+
+[15:07 - 15:10]
+Ini yang disebut dengan the rising wedge.
+
+[15:11 - 15:13]
+Ada satu puncak, dua puncak, tiga puncak.
+
+[15:14 - 15:16]
+Kemudian ini biasanya akan turun dalam sekali.
+
+[15:17 - 15:18]
+Targetnya dimana?
+
+[15:18 - 15:21]
+Minimal targetnya adalah kaki yang ada di sini.
+
+[15:22 - 15:25]
+Bagaimana cara kita masuk untuk trading di dalam rising wedge?
+
+[15:25 - 15:29]
+Kita trading pada saat terjadinya false break out lagi.
+
+[15:29 - 15:31]
+Jadi tembus atas, masuk ke bawah.
+
+[15:31 - 15:33]
+Kita sell target price di sini.
+
+[15:33 - 15:36]
+Dan ini biasanya akan membuat cangkul baru.
+
+[15:36 - 15:37]
+Ini kepala cangkul.
+
+[15:37 - 15:38]
+Secondary reaction.
+
+[15:38 - 15:39]
+Dan kembali turun.
+
+[15:39 - 15:40]
+Dan inilah yang disebut reversal.
+
+[15:41 - 15:43]
+Dari yang awalnya bullish.
+
+[15:43 - 15:46]
+Kemudian menjadi bearish.
+
+[15:47 - 15:48]
+Berikutnya.
+
+[15:48 - 15:50]
+Ini adalah falling wedge.
+
+[15:52 - 15:54]
+Bentuknya mengerucut lebih jelas.
+
+[15:54 - 15:56]
+Dan apabila Anda menemukan ini.
+
+[15:56 - 15:58]
+Ini merupakan pattern yang sangat profitable.
+
+[15:59 - 16:00]
+Dua pattern ini.
+
+[16:01 - 16:02]
+Double top, rising wedge.
+
+[16:02 - 16:03]
+Tergantung pilihannya.
+
+[16:03 - 16:05]
+Atau double bottom dan falling wedge.
+
+[16:06 - 16:11]
+Mari kita lihat pola double top di Aussie Jepang Yen.
+
+[16:11 - 16:12]
+Biasanya setelah naik.
+
+[16:13 - 16:15]
+Identifikasi kemungkinan muncul double top.
+
+[16:15 - 16:16]
+Itu harus selalu anda lihat.
+
+[16:16 - 16:22]
+Anda waspadai ketika harga itu bergerak sudah di dalam fase public participation.
+
+[16:22 - 16:23]
+Setelah di bawah ini.
+
+[16:23 - 16:24]
+Lalu di up.
+
+[16:24 - 16:25]
+Di atas moving average nya.
+
+[16:26 - 16:26]
+Kemudian.
+
+[16:27 - 16:29]
+Anda bisa perhatikan.
+
+[16:30 - 16:34]
+Pada saat dia tembus seperti ini.
+
+[16:34 - 16:35]
+Sudah di atas.
+
+[16:35 - 16:36]
+Kalau ini belum jadi misalnya.
+
+[16:37 - 16:38]
+Anda bisa lihat seandainya belum jadi.
+
+[16:38 - 16:40]
+Ini belum akan ada double top.
+
+[16:40 - 16:42]
+Karena belum ada puncak pertama.
+
+[16:42 - 16:43]
+Setelah ini.
+
+[16:43 - 16:45]
+Dia membentuk kepala cangkul.
+
+[16:45 - 16:46]
+Ini boleh di waspadai.
+
+[16:46 - 16:47]
+Pada saat harga menembus ini.
+
+[16:47 - 16:49]
+Terjadi double top.
+
+[16:49 - 16:50]
+Ternyata benar.
+
+[16:50 - 16:50]
+Ini menembus.
+
+[16:51 - 16:52]
+Lalu false break.
+
+[16:52 - 16:54]
+Jadi ini classic resistance.
+
+[16:55 - 16:56]
+Hanya berapa?
+
+[16:56 - 16:57]
+Ini di time frame V4 ya.
+
+[16:59 - 17:02]
+28 pips seperti prediksi kita.
+
+[17:02 - 17:04]
+Begitu dia naik ke atas.
+
+[17:04 - 17:06]
+Lalu masuk lagi ke bawah.
+
+[17:06 - 17:07]
+Kalau candle nya kita ganti.
+
+[17:07 - 17:08]
+Ada candle merah.
+
+[17:08 - 17:09]
+Setelah tembus hijau.
+
+[17:09 - 17:11]
+Bukannya langsung terbang ya.
+
+[17:11 - 17:12]
+Tapi masuk lagi ke dalam.
+
+[17:12 - 17:14]
+Candlenya menjadi merah.
+
+[17:14 - 17:16]
+Saya biasanya akan sell.
+
+[17:16 - 17:16]
+Pada saat apa?
+
+[17:16 - 17:17]
+Saat merah disini.
+
+[17:18 - 17:19]
+Close candle.
+
+[17:19 - 17:20]
+The next bar nya.
+
+[17:20 - 17:22]
+The next bar nya.
+
+[17:22 - 17:24]
+Lebih rendah daripada titik terendah.
+
+[17:24 - 17:25]
+Yang merah ini.
+
+[17:26 - 17:28]
+Lebih rendah dari titik terendah candle ini.
+
+[17:28 - 17:29]
+Sekali lagi.
+
+[17:29 - 17:30]
+Dia tembus ke atas.
+
+[17:30 - 17:32]
+Lalu dia berbalik arah.
+
+[17:33 - 17:35]
+Lalu candle berikutnya.
+
+[17:35 - 17:36]
+Lebih rendah dari titik low.
+
+[17:37 - 17:38]
+Candle yang ini.
+
+[17:38 - 17:39]
+Saya akan sell.
+
+[17:40 - 17:42]
+Dan kita lihat target price pertama.
+
+[17:43 - 17:44]
+Disini.
+
+[17:44 - 17:45]
+78,20.
+
+[17:45 - 17:47]
+Target price kedua dimana?
+
+[17:47 - 17:48]
+Kita hitung.
+
+[17:48 - 17:50]
+Dari puncak paling atas ke bawah sini.
+
+[17:51 - 17:52]
+Kita copy ke bawah.
+
+[17:53 - 17:55]
+Kurang lebih target price nya disini.
+
+[17:55 - 17:57]
+Maka sell nya bisa disitu.
+
+[17:57 - 17:58]
+Dan kalau kita lihat.
+
+[17:58 - 17:59]
+Ini hampir kena.
+
+[17:59 - 18:00]
+Lalu naik lagi.
+
+[18:00 - 18:01]
+And finally tetap done.
+
+[18:02 - 18:04]
+Walaupun pada kenyataannya.
+
+[18:04 - 18:05]
+Mungkin anda tidak mengambil full.
+
+[18:05 - 18:07]
+Anda mungkin hanya mengambil 70%.
+
+[18:07 - 18:08]
+Jadi kalau masuk dari sini.
+
+[18:08 - 18:09]
+Ini sudah 130 pips.
+
+[18:10 - 18:11]
+Jadi double top.
+
+[18:12 - 18:14]
+Jangan anda mencoba masuk di neckline.
+
+[18:14 - 18:16]
+Seperti di buku-buku biasanya masuk di neckline.
+
+[18:16 - 18:18]
+Karena itu akan berbahaya sekali.
+
+[18:18 - 18:21]
+Sekarang kita akan melihat contoh-contoh yang lain.
+
+[18:21 - 18:24]
+Kalau double top tadi sudah mari kita mencari.
+
+[18:24 - 18:25]
+Misalnya double bottom.
+
+[18:26 - 18:27]
+Siapa tahu disini ada.
+
+[18:27 - 18:28]
+Kita pelan-pelan scanning.
+
+[18:29 - 18:32]
+Atau mungkin di tangga-tangga kita bisa ketemu falling wedge.
+
+[18:33 - 18:33]
+Maybe.
+
+[18:33 - 18:34]
+Oke.
+
+[18:34 - 18:37]
+Let's see kita melihat di gold market.
+
+[18:39 - 18:39]
+Oke.
+
+[18:40 - 18:43]
+Kita menemukan falling wedge.
+
+[18:44 - 18:45]
+Kita tarik kakinya.
+
+[18:45 - 18:47]
+Jadi falling wedge ini dari bull ke bear.
+
+[18:48 - 18:50]
+Kemudian bagian atasnya kita tarik.
+
+[18:50 - 18:52]
+Nah mengerucut.
+
+[18:54 - 18:55]
+Oke.
+
+[18:55 - 18:57]
+Sesuai ekspektasi.
+
+[18:59 - 19:05]
+Dan pada saat itu harga menembus dari pola ini.
+
+[19:06 - 19:07]
+Harga menembus ya.
+
+[19:08 - 19:09]
+Setelah ekor kaki panjang.
+
+[19:09 - 19:10]
+Lihat.
+
+[19:10 - 19:11]
+Ekor kaki panjang.
+
+[19:12 - 19:13]
+Kemudian dia keluar.
+
+[19:13 - 19:15]
+Atau menembus dari trend line yang ini.
+
+[19:16 - 19:17]
+Bentuknya falling wedge.
+
+[19:17 - 19:18]
+Maka target price berikutnya.
+
+[19:18 - 19:19]
+Adalah yang paling tinggi.
+
+[19:19 - 19:25]
+Jadi kita sudah tahu bahwa ada kemungkinan kenaikan dari sini sampai ke atas 170 pips.
+
+[19:25 - 19:27]
+Hanya dengan falling wedge.
+
+[19:27 - 19:30]
+Jadi Anda harus membiasakan menarik-menarik garisnya.
+
+[19:30 - 19:31]
+Bagaimana cara menemukan pattern?
+
+[19:32 - 19:33]
+Paling simpel adalah.
+
+[19:34 - 19:35]
+Kalau seperti ini.
+
+[19:35 - 19:37]
+Ini kita tidak cari lagi patternnya.
+
+[19:37 - 19:37]
+Karena dia sudah running.
+
+[19:37 - 19:40]
+Kita akan cari pattern continuation yang sebentar lagi saya akan jelaskan.
+
+[19:40 - 19:43]
+Tetapi pada saat harga belum running.
+
+[19:43 - 19:43]
+Misalnya seperti ini.
+
+[19:43 - 19:47]
+Kita tahu bahwa apakah ini akan menjadi reversal.
+
+[19:47 - 19:48]
+Anda hubungkan saja.
+
+[19:48 - 19:49]
+Patternnya.
+
+[19:49 - 19:49]
+Ini.
+
+[19:52 - 19:54]
+Kemudian kita hubungkan ini.
+
+[19:59 - 20:02]
+Ini akan menjadi falling wedge.
+
+[20:05 - 20:06]
+Bagaimana cara entry-nya?
+
+[20:06 - 20:08]
+Pada saat pick yang di sini di break.
+
+[20:09 - 20:11]
+Kemudian target price-nya kita taruh di atas.
+
+[20:11 - 20:12]
+Pick yang di sini di break.
+
+[20:13 - 20:13]
+Ya.
+
+[20:13 - 20:14]
+Ternyata di break.
+
+[20:15 - 20:16]
+Dan ini harusnya akan kena.
+
+[20:17 - 20:18]
+1332 setidaknya di situ ya.
+
+[20:19 - 20:20]
+Jadi it's a magic.
+
+[20:21 - 20:22]
+Dengan mengetahui chart pattern.
+
+[20:23 - 20:26]
+Anda bisa menentukan target price dan arah harga.
+
+[20:26 - 20:27]
+Satu step setidaknya.
+
+[20:27 - 20:28]
+Walaupun.
+
+[20:29 - 20:30]
+Awalnya mungkin susah ya.
+
+[20:30 - 20:33]
+Tapi kalau kita belajarnya menggambar.
+
+[20:33 - 20:34]
+Adalah menarik-narik garis.
+
+[20:34 - 20:36]
+Menghubungkan satu titik dan titik lain.
+
+[20:36 - 20:38]
+Lama-lama nanti Anda akan mendapatkan.
+
+[20:38 - 20:39]
+Yang penting Anda tahu bahwa.
+
+[20:39 - 20:41]
+Tempatnya continuation atau reversal.
+
+[20:42 - 20:42]
+Ya.
+
+[20:44 - 20:46]
+Kita bisa lihat lagi misalnya.
+
+[20:48 - 20:49]
+Saham ya.
+
+[20:50 - 20:52]
+Kita mencari pola yang ada di saham.
+
+[20:53 - 20:55]
+Tidak semua chart pattern itu bisa muncul.
+
+[20:55 - 20:56]
+Masalahnya.
+
+[20:56 - 20:57]
+Jadi Anda harus.
+
+[20:58 - 20:59]
+Peka terhadap.
+
+[21:02 - 21:02]
+Gambarnya ya.
+
+[21:03 - 21:05]
+Kalau pola-pola seperti ini continuation.
+
+[21:05 - 21:07]
+Mungkin Anda tidak akan menemukan.
+
+[21:07 - 21:09]
+Double top dan seterusnya.
+
+[21:09 - 21:10]
+Belum akan muncul.
+
+[21:13 - 21:14]
+Nah mari kita lihat.
+
+[21:15 - 21:16]
+Kita hubungkan.
+
+[21:18 - 21:20]
+Dan kita hubungkan.
+
+[21:20 - 21:21]
+Muncul lagi.
+
+[21:23 - 21:24]
+Falling wedge.
+
+[21:24 - 21:25]
+Nah.
+
+[21:25 - 21:26]
+Kebetulan falling wedge kali ini.
+
+[21:26 - 21:27]
+Bukan continuation.
+
+[21:28 - 21:29]
+Tetapi falling wedge ini.
+
+[21:29 - 21:29]
+Sorry.
+
+[21:29 - 21:30]
+Bukan reversal.
+
+[21:30 - 21:31]
+Tetapi continuation.
+
+[21:31 - 21:32]
+Kalau reversal.
+
+[21:32 - 21:34]
+Berarti datangnya dari atas harganya.
+
+[21:34 - 21:34]
+Karena dia.
+
+[21:34 - 21:35]
+Akhir dari bearish.
+
+[21:35 - 21:36]
+Dalam kasus ini.
+
+[21:37 - 21:37]
+Dia adalah.
+
+[21:38 - 21:39]
+Continuation.
+
+[21:39 - 21:39]
+Artinya.
+
+[21:39 - 21:41]
+Dari trend yang sebelumnya.
+
+[21:41 - 21:41]
+Up.
+
+[21:41 - 21:42]
+Sekarang dia.
+
+[21:43 - 21:44]
+Mulai seperti ini.
+
+[21:44 - 21:45]
+Artinya nanti akan naik lagi.
+
+[21:46 - 21:47]
+Kurang lebih sampai.
+
+[21:48 - 21:49]
+Di sini.
+
+[21:51 - 21:52]
+Oke.
+
+[21:54 - 21:55]
+Itu.
+
+[21:55 - 21:56]
+Adalah.
+
+[21:56 - 21:56]
+Contoh.
+
+[21:56 - 21:57]
+Dari saham telco.
+
+[21:57 - 21:58]
+Yang bisa kita.
+
+[21:59 - 21:59]
+Manfaatkan.
+
+[21:59 - 22:00]
+Untuk trading.
+
+[22:00 - 22:00]
+Ya.
+
+[22:01 - 22:02]
+Ya.
+
+[22:02 - 22:02]
+Sekarang.
+
+[22:02 - 22:03]
+Kita sudah tahu.
+
+[22:03 - 22:04]
+Pola itu.
+
+[22:04 - 22:05]
+Sekarang kita mencoba.
+
+[22:06 - 22:06]
+Mencari.
+
+[22:06 - 22:07]
+Rising wedge.
+
+[22:09 - 22:10]
+Apakah ada.
+
+[22:10 - 22:10]
+Ini.
+
+[22:10 - 22:11]
+Narrow falling wedge ya.
+
+[22:11 - 22:12]
+Kalau anda lihat.
+
+[22:13 - 22:13]
+Ini.
+
+[22:14 - 22:16]
+Kemudian kita konekkan.
+
+[22:16 - 22:16]
+Di sini.
+
+[22:16 - 22:16]
+Ya.
+
+[22:17 - 22:17]
+Falling wedge.
+
+[22:17 - 22:18]
+Dan meledak.
+
+[22:18 - 22:18]
+Signifikan.
+
+[22:19 - 22:19]
+Meledaknya.
+
+[22:19 - 22:20]
+Dan.
+
+[22:20 - 22:21]
+Sambil mencari contoh.
+
+[22:22 - 22:23]
+Rising wedge.
+
+[22:23 - 22:25]
+Mungkin kita juga bisa menemukan.
+
+[22:25 - 22:26]
+Double bottom lagi.
+
+[22:26 - 22:27]
+Nanti.
+
+[22:27 - 22:28]
+Oke.
+
+[22:28 - 22:28]
+Sebagai contoh.
+
+[22:29 - 22:29]
+Ini adalah.
+
+[22:29 - 22:30]
+Double bottom.
+
+[22:31 - 22:31]
+Ya.
+
+[22:31 - 22:32]
+Kita melihat.
+
+[22:32 - 22:33]
+Harga turun.
+
+[22:33 - 22:33]
+Oke.
+
+[22:34 - 22:35]
+Kemudian dia mulai naik.
+
+[22:35 - 22:36]
+Dan tiba-tiba dia.
+
+[22:36 - 22:37]
+Drop dalam.
+
+[22:37 - 22:38]
+Pada saat drop dalam.
+
+[22:38 - 22:39]
+Bukannya berlanjut.
+
+[22:39 - 22:39]
+Tapi malah.
+
+[22:39 - 22:40]
+Berbalik arah.
+
+[22:40 - 22:41]
+Ya.
+
+[22:41 - 22:43]
+Dan menembus.
+
+[22:44 - 22:44]
+Baru.
+
+[22:44 - 22:45]
+Baru dia.
+
+[22:45 - 22:45]
+Tembus.
+
+[22:45 - 22:46]
+Langsung naik lagi.
+
+[22:47 - 22:48]
+Ini biasanya kita beranikan.
+
+[22:48 - 22:49]
+Untuk buy.
+
+[22:49 - 22:50]
+Kita trading.
+
+[22:50 - 22:51]
+Reversal.
+
+[22:51 - 22:52]
+Dan targetnya.
+
+[22:52 - 22:52]
+Di mana.
+
+[22:52 - 22:53]
+Satu.
+
+[22:53 - 22:53]
+Neckline.
+
+[22:54 - 22:54]
+Ya.
+
+[22:56 - 22:56]
+Ini.
+
+[22:56 - 22:57]
+Menjadi target.
+
+[22:57 - 22:58]
+Utama.
+
+[22:58 - 22:58]
+Sebenarnya.
+
+[22:59 - 23:00]
+Extended targetnya.
+
+[23:00 - 23:01]
+Setinggi ini.
+
+[23:02 - 23:02]
+Dicopy.
+
+[23:02 - 23:03]
+Walaupun ini.
+
+[23:03 - 23:03]
+Tidak.
+
+[23:03 - 23:04]
+Sampai ya.
+
+[23:04 - 23:04]
+Makanya.
+
+[23:04 - 23:05]
+Saya selalu menyarankan.
+
+[23:05 - 23:06]
+Bahwa target price yang pertama.
+
+[23:07 - 23:08]
+Itu di neckline.
+
+[23:08 - 23:09]
+Dilebihkan dikit.
+
+[23:10 - 23:10]
+Ya.
+
+[23:10 - 23:11]
+Dilebihkan dikit.
+
+[23:13 - 23:13]
+Seringkali.
+
+[23:13 - 23:14]
+Orang.
+
+[23:14 - 23:14]
+Malah.
+
+[23:14 - 23:15]
+Buy nya disini.
+
+[23:15 - 23:16]
+Sudah ketinggalan jauh.
+
+[23:16 - 23:17]
+Dan itu berbahaya sekali.
+
+[23:17 - 23:18]
+Tidak seperti itu jaranya.
+
+[23:19 - 23:20]
+Ini adalah rising wedge.
+
+[23:20 - 23:20]
+Dan.
+
+[23:21 - 23:22]
+Pada saat kita melihat.
+
+[23:22 - 23:22]
+Rising wedge ini.
+
+[23:23 - 23:24]
+Anda bisa perhatikan.
+
+[23:25 - 23:26]
+Ini kebetulan.
+
+[23:26 - 23:27]
+Dua pick.
+
+[23:27 - 23:28]
+Jadi.
+
+[23:28 - 23:29]
+Waktu kita melihat.
+
+[23:29 - 23:30]
+Harga sedang naik.
+
+[23:30 - 23:30]
+Yang paling.
+
+[23:30 - 23:31]
+Benar itu adalah.
+
+[23:31 - 23:31]
+Anda.
+
+[23:32 - 23:33]
+Selalu stand by.
+
+[23:33 - 23:34]
+Menghubungkan.
+
+[23:34 - 23:35]
+Satu garis ujung.
+
+[23:35 - 23:36]
+Dengan ujung yang lain.
+
+[23:36 - 23:37]
+Akhirnya bisa ketemu.
+
+[23:38 - 23:39]
+Bawah dengan bawah.
+
+[23:39 - 23:40]
+Akhirnya bisa ketemu.
+
+[23:42 - 23:43]
+Dan dari situ.
+
+[23:43 - 23:44]
+Bentuknya mulai kelihatan.
+
+[23:44 - 23:44]
+Jadi.
+
+[23:44 - 23:45]
+Harus rajin.
+
+[23:45 - 23:45]
+Mengkonekkan.
+
+[23:45 - 23:46]
+Pick.
+
+[23:46 - 23:46]
+Atau bottom.
+
+[23:47 - 23:48]
+Karena.
+
+[23:48 - 23:49]
+Dengan mengkonek-konekkan itu.
+
+[23:49 - 23:50]
+Anda akan mendapatkan.
+
+[23:50 - 23:50]
+Satu.
+
+[23:51 - 23:52]
+Gambaran yang baik.
+
+[23:53 - 23:53]
+Ya.
+
+[23:54 - 23:55]
+Target price nya.
+
+[23:55 - 23:55]
+Adalah.
+
+[23:55 - 23:56]
+Di bawah ini.
+
+[23:56 - 23:56]
+Sehingga.
+
+[23:56 - 23:57]
+Pada saat kita.
+
+[23:58 - 23:59]
+Hit.
+
+[23:59 - 23:59]
+Atas.
+
+[24:00 - 24:00]
+Kemudian.
+
+[24:00 - 24:01]
+Kita sell nya.
+
+[24:01 - 24:01]
+Waktu kita.
+
+[24:01 - 24:02]
+Untuk apa.
+
+[24:02 - 24:02]
+Waktu false break kan.
+
+[24:03 - 24:03]
+Tentunya.
+
+[24:03 - 24:04]
+Ini ada false break.
+
+[24:04 - 24:05]
+Dan ini ada.
+
+[24:05 - 24:06]
+Insight bar.
+
+[24:06 - 24:07]
+Kita sudah pelajari.
+
+[24:07 - 24:07]
+Insight bar.
+
+[24:08 - 24:08]
+Insight bar.
+
+[24:08 - 24:09]
+Bisa langsung.
+
+[24:09 - 24:10]
+Kita pelajari aplikasinya.
+
+[24:10 - 24:10]
+Untuk entry.
+
+[24:11 - 24:12]
+Ini ada insight bar.
+
+[24:12 - 24:13]
+Pas dengan false break.
+
+[24:13 - 24:14]
+Dan Anda entry nya.
+
+[24:14 - 24:15]
+Berarti.
+
+[24:15 - 24:16]
+Pada saat mother candle nya.
+
+[24:16 - 24:16]
+Ditembus.
+
+[24:17 - 24:17]
+Sampai di sini.
+
+[24:17 - 24:18]
+Belum ditembus-tembus.
+
+[24:18 - 24:19]
+Berarti.
+
+[24:19 - 24:19]
+Inilah.
+
+[24:20 - 24:20]
+Candle yang.
+
+[24:20 - 24:21]
+Untuk kita entry.
+
+[24:21 - 24:22]
+Saya akan berikan.
+
+[24:22 - 24:22]
+Panah.
+
+[24:22 - 24:23]
+Ya.
+
+[24:24 - 24:25]
+Ini adalah candle.
+
+[24:25 - 24:26]
+Di mana kita entry.
+
+[24:26 - 24:27]
+Karena apa.
+
+[24:31 - 24:32]
+Yang itu terus turun.
+
+[24:32 - 24:33]
+Ya.
+
+[24:33 - 24:33]
+Penurunannya.
+
+[24:33 - 24:34]
+Karena.
+
+[24:35 - 24:36]
+Rising wedge.
+
+[24:36 - 24:37]
+Dan pips nya.
+
+[24:37 - 24:37]
+Masih besar sekali.
+
+[24:38 - 24:39]
+Asal Anda mau sabar.
+
+[24:39 - 24:39]
+Menunggu.
+
+[24:39 - 24:40]
+Ya.
+
+[24:41 - 24:41]
+Oke.
+
+[24:41 - 24:42]
+Itu adalah.
+
+[24:42 - 24:43]
+Trend reversal.
+
+[24:44 - 24:45]
+Antara falling wedge.
+
+[24:45 - 24:46]
+Dan rising wedge.
+
+[24:46 - 24:46]
+Sekarang.
+
+[24:46 - 24:47]
+Variasi berikutnya.
+
+[24:47 - 24:47]
+Adalah.
+
+[24:48 - 24:49]
+Continuation pattern.
+
+[24:49 - 24:50]
+Bagaimana.
+
+[24:50 - 24:51]
+Seandainya.
+
+[24:51 - 24:52]
+Ini misalnya trend turun.
+
+[24:52 - 24:52]
+Lalu.
+
+[24:52 - 24:53]
+Harga sudah berbalik naik.
+
+[24:54 - 24:54]
+Ya.
+
+[24:54 - 24:55]
+Nah.
+
+[24:55 - 24:56]
+Saya mau menceritakan.
+
+[24:56 - 24:56]
+Bahwa.
+
+[24:56 - 24:57]
+Continuation pattern.
+
+[24:57 - 24:58]
+Itu munculnya.
+
+[25:01 - 25:02]
+Looping average.
+
+[25:04 - 25:04]
+Oke.
+
+[25:05 - 25:06]
+Lalu.
+
+[25:06 - 25:07]
+Di manakah.
+
+[25:07 - 25:07]
+Munculnya.
+
+[25:07 - 25:08]
+Continuation pattern itu.
+
+[25:08 - 25:09]
+Continuation pattern itu.
+
+[25:09 - 25:10]
+Munculnya selalu.
+
+[25:10 - 25:10]
+Di sini.
+
+[25:10 - 25:11]
+Di sini.
+
+[25:11 - 25:12]
+Di sini.
+
+[25:12 - 25:12]
+Jadi.
+
+[25:13 - 25:13]
+Kalau awalnya.
+
+[25:14 - 25:14]
+Anda hanya melihat.
+
+[25:14 - 25:15]
+Kepala cangkul saja.
+
+[25:16 - 25:17]
+Sekarang.
+
+[25:17 - 25:18]
+Kita mempelajari.
+
+[25:18 - 25:18]
+Bahwa.
+
+[25:18 - 25:18]
+Kepala.
+
+[25:18 - 25:20]
+Di dalam kepala cangkul itu.
+
+[25:20 - 25:20]
+Muncul.
+
+[25:21 - 25:22]
+Continuation pattern.
+
+[25:23 - 25:24]
+Apa saja.
+
+[25:24 - 25:25]
+Continuation pattern nya.
+
+[25:26 - 25:27]
+Continuation pattern.
+
+[25:27 - 25:29]
+Yang akan kita pelajari.
+
+[25:29 - 25:29]
+Hari ini.
+
+[25:29 - 25:30]
+Adalah.
+
+[25:30 - 25:31]
+Kita.
+
+[25:31 - 25:31]
+Filter ya.
+
+[25:31 - 25:32]
+Saya akan berikan.
+
+[25:32 - 25:33]
+Anda pattern.
+
+[25:33 - 25:33]
+Penan.
+
+[25:36 - 25:38]
+Karena ini yang sering muncul.
+
+[25:38 - 25:38]
+Di gold.
+
+[25:38 - 25:38]
+Di saham.
+
+[25:39 - 25:40]
+Untuk lebih advance.
+
+[25:40 - 25:42]
+Anda mungkin bisa mempelajari yang lain.
+
+[25:42 - 25:42]
+Ya.
+
+[25:42 - 25:43]
+Tetapi.
+
+[25:43 - 25:45]
+Saya akan memberikan yang.
+
+[25:45 - 25:46]
+Yang paling sering muncul.
+
+[25:46 - 25:46]
+Penan.
+
+[25:46 - 25:47]
+Dan kemudian.
+
+[25:47 - 25:48]
+Black.
+
+[25:49 - 25:49]
+Penan.
+
+[25:50 - 25:51]
+Pada dasarnya.
+
+[25:51 - 25:52]
+Adalah bentuknya mirip.
+
+[25:52 - 25:53]
+Seperti kepala cangkul.
+
+[25:55 - 25:55]
+Kita bicara.
+
+[25:55 - 25:57]
+Bullish dan bearish dulu ya.
+
+[25:57 - 25:57]
+Bullish.
+
+[25:57 - 25:58]
+Penan.
+
+[25:58 - 25:59]
+Terlebih dahulu ya.
+
+[25:59 - 25:59]
+Oke.
+
+[26:00 - 26:00]
+Saya akan coba gambarkan.
+
+[26:01 - 26:01]
+Misalnya.
+
+[26:01 - 26:02]
+Di area.
+
+[26:02 - 26:03]
+Kepala cangkul ini.
+
+[26:05 - 26:06]
+Ternyata.
+
+[26:06 - 26:06]
+Dia beriak.
+
+[26:07 - 26:07]
+Misalnya.
+
+[26:07 - 26:08]
+Dia di sini.
+
+[26:08 - 26:09]
+Kemudian dia turun.
+
+[26:09 - 26:10]
+Ya kan.
+
+[26:10 - 26:10]
+Kepala cangkul.
+
+[26:10 - 26:11]
+Dia naik.
+
+[26:11 - 26:12]
+Tapi berhenti.
+
+[26:13 - 26:13]
+Terus turun.
+
+[26:13 - 26:14]
+Berhenti di sini.
+
+[26:16 - 26:17]
+Ya.
+
+[26:18 - 26:19]
+Ini naik.
+
+[26:19 - 26:19]
+Penan.
+
+[26:19 - 26:20]
+Itu adalah.
+
+[26:20 - 26:21]
+Kita connect kan ini.
+
+[26:22 - 26:24]
+Dan kita connect kan ini.
+
+[26:24 - 26:24]
+Isinya.
+
+[26:24 - 26:25]
+Ada berapa.
+
+[26:26 - 26:28]
+Kalau kita menghitung angka.
+
+[26:28 - 26:28]
+Anda perhatikan.
+
+[26:29 - 26:30]
+Hafal kan bentuknya.
+
+[26:30 - 26:30]
+Waktu.
+
+[26:30 - 26:31]
+Dia kepala cangkul ya.
+
+[26:31 - 26:32]
+Lihatnya kepala cangkul dulu.
+
+[26:33 - 26:34]
+Berarti ini.
+
+[26:34 - 26:34]
+Ada.
+
+[26:34 - 26:34]
+A.
+
+[26:36 - 26:37]
+Ini ada gerakan B.
+
+[26:38 - 26:39]
+Ini ada gerakan C.
+
+[26:39 - 26:39]
+Jadi ada.
+
+[26:39 - 26:39]
+A.
+
+[26:39 - 26:40]
+B.
+
+[26:40 - 26:40]
+C.
+
+[26:40 - 26:41]
+Jadi tiga gerakan.
+
+[26:41 - 26:42]
+Satu.
+
+[26:42 - 26:42]
+Dua.
+
+[26:42 - 26:43]
+Tiga.
+
+[26:43 - 26:44]
+Dan ini.
+
+[26:44 - 26:45]
+Akan tembus ke atas.
+
+[26:46 - 26:47]
+Seberapa jauh.
+
+[26:47 - 26:48]
+Penan.
+
+[26:49 - 26:49]
+Panjangnya.
+
+[26:49 - 26:50]
+Dari titik.
+
+[26:50 - 26:51]
+Ini ke.
+
+[26:51 - 26:52]
+Bottom A.
+
+[26:53 - 26:53]
+Panjangnya itu.
+
+[26:54 - 26:55]
+Dicopy.
+
+[26:55 - 26:56]
+Tembusannya ini.
+
+[26:56 - 26:57]
+Itu target pertama.
+
+[26:58 - 26:59]
+It's very simple.
+
+[26:59 - 26:59]
+Ya.
+
+[26:59 - 27:00]
+Jadi munculnya.
+
+[27:00 - 27:01]
+Di kepala cangkul.
+
+[27:01 - 27:02]
+Bentuknya segitiga.
+
+[27:02 - 27:03]
+Menurucut.
+
+[27:03 - 27:05]
+Hanya ada tiga gerakan.
+
+[27:05 - 27:06]
+Karena kalau lima.
+
+[27:06 - 27:06]
+Berarti jadinya triangle.
+
+[27:07 - 27:08]
+Kita tidak bahas triangle.
+
+[27:08 - 27:09]
+Ini adalah penan.
+
+[27:10 - 27:11]
+Dan.
+
+[27:11 - 27:12]
+Ini juga berlaku.
+
+[27:12 - 27:13]
+Di dalam kondisi bearish.
+
+[27:13 - 27:14]
+Kalau kondisi bearish.
+
+[27:14 - 27:15]
+Berarti.
+
+[27:15 - 27:16]
+Seandainya.
+
+[27:16 - 27:16]
+Anda sedang.
+
+[27:17 - 27:17]
+Memperhatikan.
+
+[27:20 - 27:21]
+Ini sekarang.
+
+[27:21 - 27:22]
+Mulai continuation.
+
+[27:22 - 27:22]
+Ya.
+
+[27:24 - 27:24]
+Nah.
+
+[27:24 - 27:25]
+Berarti.
+
+[27:25 - 27:25]
+Nanti.
+
+[27:26 - 27:27]
+Pattern pattern tersebut.
+
+[27:27 - 27:28]
+Akan ada di sini.
+
+[27:30 - 27:30]
+Dalam kasus ini.
+
+[27:31 - 27:31]
+Berarti.
+
+[27:31 - 27:32]
+Sebelumnya turun.
+
+[27:33 - 27:35]
+Kemudian dia naik.
+
+[27:35 - 27:35]
+Kepala cangkul.
+
+[27:35 - 27:36]
+Dia turun.
+
+[27:37 - 27:38]
+Dia naik lagi.
+
+[27:39 - 27:40]
+Kemudian dia.
+
+[27:41 - 27:41]
+Turun dalam.
+
+[27:42 - 27:43]
+Kita garis.
+
+[27:43 - 27:44]
+Dan kita garis.
+
+[27:45 - 27:46]
+Terjadilah.
+
+[27:46 - 27:46]
+Penan.
+
+[27:47 - 27:48]
+Dua-duanya.
+
+[27:48 - 27:48]
+Menurucut.
+
+[27:49 - 27:50]
+Selain penan.
+
+[27:50 - 27:50]
+Ada apa lagi.
+
+[27:50 - 27:51]
+Ada satu lagi.
+
+[27:51 - 27:52]
+Yang kita sebut.
+
+[27:52 - 27:52]
+Dengan flag.
+
+[27:53 - 27:54]
+Perbedaannya adalah.
+
+[27:54 - 27:56]
+Katakan kita bahas.
+
+[27:56 - 27:56]
+Bearish flag.
+
+[27:56 - 27:57]
+Terlebih dahulu.
+
+[27:58 - 27:58]
+Dimana.
+
+[27:58 - 27:59]
+Pada saat dia turun.
+
+[28:00 - 28:01]
+Dia akan.
+
+[28:02 - 28:03]
+Membuat sebuah pergerakan.
+
+[28:04 - 28:04]
+Tetap awalnya.
+
+[28:04 - 28:05]
+Kepala cangkul.
+
+[28:06 - 28:06]
+Lalu.
+
+[28:06 - 28:07]
+Lalu.
+
+[28:07 - 28:08]
+Dia akan.
+
+[28:11 - 28:12]
+Menariknya adalah.
+
+[28:12 - 28:14]
+Sudut kemiringannya ini.
+
+[28:14 - 28:14]
+Akan sama.
+
+[28:14 - 28:15]
+Jadi dia.
+
+[28:15 - 28:16]
+Membuat sebuah.
+
+[28:17 - 28:17]
+Pergerakan.
+
+[28:17 - 28:17]
+Yang.
+
+[28:18 - 28:19]
+Cukup shaky ya.
+
+[28:20 - 28:20]
+Kemudian.
+
+[28:20 - 28:21]
+Ini kalau dihubungkan.
+
+[28:22 - 28:23]
+Ini lurus.
+
+[28:23 - 28:25]
+Dari kakinya lurus.
+
+[28:27 - 28:28]
+Dan ini prinsipnya.
+
+[28:28 - 28:29]
+Sama dengan.
+
+[28:29 - 28:30]
+Penan.
+
+[28:30 - 28:31]
+Arahnya ke bawah.
+
+[28:31 - 28:32]
+Jadi dia lurus.
+
+[28:32 - 28:33]
+Dan terdiri.
+
+[28:33 - 28:33]
+Dari beberapa macam.
+
+[28:34 - 28:34]
+Sideways.
+
+[28:34 - 28:35]
+Yang menjurus.
+
+[28:35 - 28:35]
+Atau menghadap.
+
+[28:35 - 28:36]
+Ke arah.
+
+[28:36 - 28:37]
+Secondary reactionnya.
+
+[28:38 - 28:38]
+Dan.
+
+[28:38 - 28:39]
+Kemudian dia.
+
+[28:39 - 28:39]
+Akan.
+
+[28:40 - 28:40]
+Turun dalam.
+
+[28:40 - 28:41]
+Seperti ini.
+
+[28:41 - 28:41]
+Ya.
+
+[28:42 - 28:43]
+Ini adalah.
+
+[28:43 - 28:44]
+The flag.
+
+[28:44 - 28:44]
+Pattern.
+
+[28:44 - 28:45]
+Dan ini adalah.
+
+[28:45 - 28:46]
+The penan pattern.
+
+[28:46 - 28:47]
+Berlaku.
+
+[28:47 - 28:48]
+Bullish dan bearish.
+
+[28:48 - 28:48]
+Tergantung arahnya.
+
+[28:50 - 28:50]
+Biasanya.
+
+[28:50 - 28:51]
+Penan-penan.
+
+[28:51 - 28:52]
+Seperti itu.
+
+[28:52 - 28:52]
+Bisa juga.
+
+[28:52 - 28:53]
+Anda temui.
+
+[28:53 - 28:54]
+Di saham.
+
+[28:54 - 28:54]
+Ya.
+
+[28:54 - 28:55]
+Misalnya.
+
+[28:56 - 28:58]
+Kita akan mengambil contoh.
+
+[28:58 - 28:58]
+Penan.
+
+[28:58 - 28:59]
+Dari.
+
+[28:59 - 28:59]
+Indonesia.
+
+[29:00 - 29:00]
+Rupiah.
+
+[29:01 - 29:02]
+Kalau anda perhatikan.
+
+[29:03 - 29:04]
+Ini kita tarik.
+
+[29:04 - 29:05]
+Garis di sini.
+
+[29:05 - 29:06]
+Dan kemudian.
+
+[29:06 - 29:07]
+Di bawahnya.
+
+[29:07 - 29:07]
+Kita tarik.
+
+[29:07 - 29:08]
+Ini terlihat.
+
+[29:08 - 29:09]
+Ada tiga gerakan.
+
+[29:11 - 29:11]
+B.
+
+[29:11 - 29:12]
+C.
+
+[29:12 - 29:12]
+Dan.
+
+[29:13 - 29:13]
+Setelah itu.
+
+[29:13 - 29:14]
+Dia terbang.
+
+[29:14 - 29:15]
+Jadi saya ulangi.
+
+[29:15 - 29:15]
+A.
+
+[29:15 - 29:16]
+Di sini.
+
+[29:18 - 29:19]
+Ini awalnya begini ya.
+
+[29:19 - 29:20]
+Ini kan dari bawah ya.
+
+[29:21 - 29:22]
+Kemudian dia turun.
+
+[29:22 - 29:23]
+Kepala canggul.
+
+[29:23 - 29:23]
+Lalu dia naik.
+
+[29:23 - 29:24]
+Sedikit.
+
+[29:25 - 29:26]
+Lalu dia turun.
+
+[29:27 - 29:28]
+Dan.
+
+[29:28 - 29:29]
+Kemudian.
+
+[29:29 - 29:30]
+Dia mulai merawat naik.
+
+[29:30 - 29:31]
+Setelah dia brake.
+
+[29:31 - 29:32]
+Dia terbang.
+
+[29:32 - 29:33]
+Brake-nya di mana?
+
+[29:34 - 29:34]
+Brake-nya di sini.
+
+[29:36 - 29:36]
+Inilah awal mula.
+
+[29:36 - 29:37]
+Asron Aci.
+
+[29:37 - 29:37]
+Waktu itu.
+
+[29:37 - 29:38]
+Memberikan review.
+
+[29:38 - 29:39]
+Bahwa.
+
+[29:39 - 29:40]
+U.S.T.
+
+[29:40 - 29:40]
+I.D.R.
+
+[29:40 - 29:41]
+Akan terus naik.
+
+[29:41 - 29:42]
+Sampai 14.000.
+
+[29:42 - 29:43]
+Dasarnya di sini.
+
+[29:44 - 29:44]
+Ya.
+
+[29:45 - 29:45]
+Dasarnya di sini.
+
+[29:46 - 29:47]
+Dan anda bisa perhatikan.
+
+[29:47 - 29:48]
+Baik-baik.
+
+[29:50 - 29:51]
+Pada saat ini tembus.
+
+[29:52 - 29:52]
+Terus.
+
+[29:52 - 29:53]
+Running.
+
+[29:53 - 29:54]
+Sampai ke atas.
+
+[29:54 - 29:54]
+Dan.
+
+[29:55 - 29:55]
+Kemudian.
+
+[29:56 - 29:57]
+Menghasilkan.
+
+[29:57 - 29:58]
+Keuntungan.
+
+[29:58 - 29:58]
+Yang luar biasa.
+
+[29:58 - 29:59]
+Pada saat.
+
+[29:59 - 30:00]
+Anda bisa membelinya.
+
+[30:03 - 30:04]
+Ini merupakan.
+
+[30:06 - 30:06]
+Bagaimana.
+
+[30:06 - 30:07]
+Caranya.
+
+[30:07 - 30:07]
+Anda menemukan.
+
+[30:07 - 30:08]
+Penang.
+
+[30:08 - 30:08]
+Jadi segitiga.
+
+[30:08 - 30:09]
+Mengerucut.
+
+[30:09 - 30:10]
+Dan pada akhirnya.
+
+[30:10 - 30:11]
+Anda mendapatkan.
+
+[30:11 - 30:12]
+Keuntungan.
+
+[30:12 - 30:12]
+Dari.
+
+[30:12 - 30:13]
+Pola ini.
+
+[30:14 - 30:15]
+Demikian juga.
+
+[30:15 - 30:16]
+Kalau kita melihat.
+
+[30:16 - 30:16]
+Weekly chart.
+
+[30:16 - 30:17]
+Dari Jakva.
+
+[30:17 - 30:18]
+Pada saat.
+
+[30:18 - 30:19]
+Dia bergerak di sini.
+
+[30:19 - 30:20]
+Ini membentuk.
+
+[30:20 - 30:21]
+Pola.
+
+[30:21 - 30:21]
+Penang.
+
+[30:21 - 30:23]
+Yang pada akhirnya.
+
+[30:23 - 30:24]
+Terbang dengan signifikan.
+
+[30:24 - 30:25]
+Jadi.
+
+[30:25 - 30:25]
+Pola penang ini.
+
+[30:25 - 30:26]
+Memang.
+
+[30:27 - 30:27]
+Sangat powerful.
+
+[30:28 - 30:29]
+Dan harus diwaspadai ya.
+
+[30:30 - 30:30]
+Artinya.
+
+[30:31 - 30:31]
+Bagi anda.
+
+[30:32 - 30:32]
+Pencinta.
+
+[30:33 - 30:33]
+Continuation.
+
+[30:33 - 30:34]
+Trading.
+
+[30:34 - 30:35]
+Penang-penang ini.
+
+[30:35 - 30:36]
+Akan menjadi.
+
+[30:36 - 30:37]
+Senjata yang.
+
+[30:37 - 30:38]
+Sangat dahsyat.
+
+[30:39 - 30:40]
+Untuk kita.
+
+[30:40 - 30:40]
+Ya.
+
+[30:41 - 30:41]
+Kemudian.
+
+[30:41 - 30:42]
+Kita mencari.
+
+[30:42 - 30:43]
+Pola flag.
+
+[30:43 - 30:44]
+Dan di sini.
+
+[30:44 - 30:44]
+Kita menemukan.
+
+[30:44 - 30:45]
+Flag.
+
+[30:45 - 30:46]
+Kepala cangkul.
+
+[30:46 - 30:46]
+Turun.
+
+[30:48 - 30:48]
+Badan cangkul.
+
+[30:48 - 30:49]
+Maksud saya.
+
+[30:49 - 30:50]
+Kemudian di sini.
+
+[30:50 - 30:50]
+Pergerakannya.
+
+[30:51 - 30:51]
+Pendek-pendek.
+
+[30:51 - 30:52]
+Dan rata.
+
+[30:56 - 30:57]
+Maka ini disebut.
+
+[30:57 - 30:58]
+Dengan flag.
+
+[30:58 - 30:59]
+Cenderung rata ya.
+
+[30:59 - 30:59]
+Nah.
+
+[30:59 - 31:00]
+Ya.
+
+[31:00 - 31:00]
+Ini rata.
+
+[31:00 - 31:01]
+Maka dia flag.
+
+[31:01 - 31:02]
+Beris.
+
+[31:02 - 31:03]
+Karena flag.
+
+[31:03 - 31:03]
+Juga ada flag bulis.
+
+[31:04 - 31:04]
+Di mana flag bulis.
+
+[31:05 - 31:06]
+Kebetulan di sini.
+
+[31:06 - 31:06]
+Ada flag bulis.
+
+[31:06 - 31:07]
+Dia turun.
+
+[31:08 - 31:09]
+Ujung atasnya.
+
+[31:09 - 31:09]
+Dikonekkan.
+
+[31:09 - 31:10]
+Ujung bawah.
+
+[31:10 - 31:10]
+Dikonekkan.
+
+[31:10 - 31:10]
+Jadi.
+
+[31:10 - 31:11]
+Rata.
+
+[31:12 - 31:12]
+Kemudian.
+
+[31:13 - 31:14]
+Bersama dengan itu.
+
+[31:15 - 31:15]
+Dia.
+
+[31:16 - 31:17]
+Melejit naik.
+
+[31:19 - 31:20]
+Bersama dengan itu.
+
+[31:20 - 31:20]
+Dia.
+
+[31:21 - 31:21]
+Turun.
+
+[31:22 - 31:23]
+Target price nya.
+
+[31:23 - 31:23]
+Di mana.
+
+[31:23 - 31:24]
+Kalau flag.
+
+[31:24 - 31:24]
+Itu.
+
+[31:25 - 31:25]
+Sepertinya.
+
+[31:25 - 31:26]
+ABCD.
+
+[31:26 - 31:26]
+Ya.
+
+[31:26 - 31:27]
+Anda bisa melihat ini.
+
+[31:27 - 31:28]
+Seperti ABCD.
+
+[31:28 - 31:29]
+Panjangnya pegangan ini.
+
+[31:29 - 31:30]
+Dipindahin.
+
+[31:30 - 31:31]
+Ke titik dia break.
+
+[31:31 - 31:32]
+Panjangnya pegangan ini.
+
+[31:32 - 31:33]
+Berapa ya.
+
+[31:33 - 31:34]
+Ujung atasnya.
+
+[31:34 - 31:35]
+Harga misalnya.
+
+[31:35 - 31:35]
+Rp8.000.
+
+[31:35 - 31:36]
+Bawah sini.
+
+[31:36 - 31:36]
+Rp6.000.
+
+[31:36 - 31:37]
+Maka ini Rp2.000.
+
+[31:38 - 31:39]
+Dikurangkan di sini.
+
+[31:40 - 31:41]
+Rp4.000 gitu ya.
+
+[31:41 - 31:41]
+Di sini.
+
+[31:41 - 31:42]
+Jadi.
+
+[31:42 - 31:43]
+Rp4.000 bawahnya.
+
+[31:43 - 31:44]
+Misalnya gitu.
+
+[31:44 - 31:45]
+Ya.
+
+[31:45 - 31:46]
+Selisihnya berapa.
+
+[31:46 - 31:46]
+Rp2.000.
+
+[31:46 - 31:47]
+Dikurang saja.
+
+[31:47 - 31:48]
+Dari titik dia break ini berapa.
+
+[31:49 - 31:50]
+Anda akan mendapatkannya.
+
+[31:50 - 31:51]
+Ya.
+
+[31:51 - 31:52]
+Ini juga sama kan.
+
+[31:52 - 31:53]
+Ini tinggal dipindah saja.
+
+[31:54 - 31:54]
+Dari titik breaknya.
+
+[31:55 - 31:55]
+Nah jadinya.
+
+[31:55 - 31:56]
+Cuma.
+
+[31:56 - 31:56]
+Ya.
+
+[31:56 - 31:57]
+Kurang lebih di atas ini.
+
+[31:58 - 31:58]
+Jadi.
+
+[31:58 - 32:00]
+Itu adalah gambaran.
+
+[32:00 - 32:01]
+Anda menggambarkan chart pattern.
+
+[32:01 - 32:02]
+Kita sudah mempelajari.
+
+[32:02 - 32:03]
+Ada double top.
+
+[32:03 - 32:04]
+Ada double bottom.
+
+[32:04 - 32:05]
+Kemudian ada pennant.
+
+[32:05 - 32:06]
+Ada flag.
+
+[32:07 - 32:08]
+Itu semua harus dilatih.
+
+[32:08 - 32:09]
+Kuncinya adalah.
+
+[32:09 - 32:09]
+Bagaimana.
+
+[32:10 - 32:11]
+Menggunakan flag garis.
+
+[32:11 - 32:11]
+Dan menghubungkan.
+
+[32:11 - 32:12]
+Sampai itu terhubung.
+
+[32:13 - 32:13]
+Dan.
+
+[32:13 - 32:14]
+Akhirnya.
+
+[32:14 - 32:17]
+Itu bisa diaplikasikan langsung.
+
+[32:17 - 32:17]
+Di dalam market.
+
+[32:17 - 32:18]
+Karena.
+
+[32:18 - 32:20]
+Itu bisa melihat arah harga akan kemana.
+
+[32:20 - 32:21]
+Dan.
+
+[32:21 - 32:21]
+Kemudian.
+
+[32:21 - 32:23]
+Anda bisa mendapatkan.
+
+[32:23 - 32:23]
+Entrynya.
+
+[32:24 - 32:24]
+Ya.
+
+[32:24 - 32:26]
+Dan juga stop lossnya.
+
+[32:26 - 32:26]
+Bagaimana.
+
+[32:26 - 32:27]
+Sekarang.
+
+[32:27 - 32:28]
+Kalau kita bicara stop lossnya.
+
+[32:28 - 32:28]
+Maka.
+
+[32:28 - 32:30]
+Stop loss yang dihasilkan.
+
+[32:30 - 32:31]
+Adalah pada saat.
+
+[32:31 - 32:32]
+Ini yang harusnya naik.
+
+[32:32 - 32:32]
+Misalnya.
+
+[32:32 - 32:33]
+Lalu kemudian dia sampai.
+
+[32:33 - 32:35]
+Break ini tidak naik.
+
+[32:35 - 32:37]
+Swing low terakhir.
+
+[32:37 - 32:38]
+Yang paling dekat.
+
+[32:38 - 32:38]
+Misalnya.
+
+[32:38 - 32:39]
+Ini awalnya kita mau.
+
+[32:40 - 32:41]
+Swing low.
+
+[32:41 - 32:42]
+Ini misalnya turun dulu.
+
+[32:42 - 32:42]
+Lalu naik swing low.
+
+[32:42 - 32:44]
+Terakhir ini bisa jadi stop loss.
+
+[32:44 - 32:44]
+Atau.
+
+[32:45 - 32:46]
+Akhir daripada.
+
+[32:47 - 32:48]
+Falling wedge nya.
+
+[32:48 - 32:49]
+Tinggal kita hitung-hitung.
+
+[32:50 - 32:51]
+Yang mana.
+
+[32:51 - 32:52]
+Yang lebih kecil.
+
+[32:52 - 32:52]
+Resikonya.
+
+[32:52 - 32:54]
+Itu yang akan kita ambil.
+
+[32:54 - 32:54]
+Ya.
+
+[32:55 - 32:55]
+Jadi.
+
+[32:56 - 32:57]
+Anda sudah mempelajari.
+
+[32:57 - 32:58]
+Continuation pattern.
+
+[32:58 - 32:59]
+Reversal pattern.
+
+[32:59 - 33:00]
+Yang akan kita berikan.
+
+[33:01 - 33:02]
+Di dalam.
+
+[33:02 - 33:02]
+Segala macam.
+
+[33:03 - 33:04]
+Bentuk.
+
+[33:04 - 33:04]
+Assessment.
+
+[33:04 - 33:05]
+Atau tugas.
+
+[33:05 - 33:06]
+Yang mungkin nanti.
+
+[33:06 - 33:06]
+Anda bisa.
+
+[33:06 - 33:07]
+Kerjakan tugasnya.
+
+[33:07 - 33:09]
+Dan dikirim kembali ke kita.
+
+[33:09 - 33:10]
+Kita akan.
+
+[33:10 - 33:10]
+Memberikan.
+
+[33:10 - 33:10]
+Sebagai.
+
+[33:10 - 33:11]
+Bagaimana.
+
+[33:11 - 33:11]
+Anda membuat.
+
+[33:11 - 33:12]
+Continuation pattern.
+
+[33:12 - 33:13]
+Tugas analisa ya.
+
+[33:13 - 33:13]
+Dan.
+
+[33:13 - 33:14]
+Reversal pattern.
+
+[33:15 - 33:15]
+Double top.
+
+[33:15 - 33:16]
+Double bottom.
+
+[33:16 - 33:17]
+Rising wedge.
+
+[33:17 - 33:17]
+Falling wedge.
+
+[33:17 - 33:18]
+Dan.
+
+[33:18 - 33:18]
+Continuation nya.
+
+[33:18 - 33:19]
+Penan.
+
+[33:19 - 33:19]
+Dan.
+
+[33:20 - 33:20]
+Flag.
+
+[33:20 - 33:21]
+Termasuk.
+
+[33:21 - 33:21]
+Rising wedge.
+
+[33:21 - 33:22]
+Falling wedge.
+
+[33:22 - 33:22]
+Yang mungkin.
+
+[33:22 - 33:23]
+Akan Anda temui.
+
+[33:23 - 33:24]
+Ya.
+
+[33:24 - 33:25]
+Sedangkan.
+
+[33:25 - 33:25]
+Sudah mengetahui.
+
+[33:25 - 33:26]
+Primary.
+
+[33:26 - 33:26]
+Dan.
+
+[33:26 - 33:26]
+Secondary.
+
+[33:26 - 33:27]
+Lalu.
+
+[33:27 - 33:27]
+Anda juga sudah.
+
+[33:28 - 33:29]
+Mengetahui.
+
+[33:29 - 33:29]
+Tentang pattern.
+
+[33:40 - 33:40]
+Jadi.
+
+[33:40 - 33:41]
+Semuanya.
+
+[33:41 - 33:41]
+Tetapi.
+
+[33:41 - 33:42]
+Poin-poin yang memang.
+
+[33:42 - 33:43]
+Sering terjadi.
+
+[33:43 - 33:44]
+Karena itu yang paling make sense.
+
+[33:44 - 33:44]
+Untuk kita trading.
+
+[33:45 - 33:45]
+Ya.
+
+[33:45 - 33:46]
+Oke.
+
+[33:46 - 33:47]
+Demikianlah.
+
+[33:47 - 33:47]
+Chart pattern.
+
+[33:47 - 33:48]
+Dan kita akan bertemu.
+
+[33:48 - 33:49]
+Di chapter selanjutnya.
+
+[33:49 - 33:50]
+Untuk membahas materi.
+
+[33:50 - 33:51]
+Yang lebih penting.
+
+[33:51 - 33:53]
+Dan untuk menggabungkan semuanya.
+
+[33:53 - 33:53]
+Menjadi trading strategy.
+
+[33:54 - 33:54]
+Yang profitable.
+
+[33:54 - 33:55]
+Dan powerful.
+

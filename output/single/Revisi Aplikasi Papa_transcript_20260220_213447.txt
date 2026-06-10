@@ -1,0 +1,680 @@
+Source: Revisi Aplikasi Papa.mp4
+Language Mode: Indonesian
+Detected: id (100.0%)
+Transcribed: 2026-02-20 21:34:47
+==================================================
+
+bagaimana tadi? ; jadi input masing-masing ini ; dari masing-masing component ; terus ; kalau misalnya inputnya salah ; papa bisa ; ubah ; karena papa tidak setuju ; tidak papa klik, tidak diganti dulu ; ya ; nanti dari situ ; baru nanti inputnya ; berupa ini apa ; outputnya nanti berupa excel ; nanti akhir tahunnya ; karena papa perlu laporan keuangan excel ; untuk bikin laporan rancang ; oke ; lalu itu ; jadi setiap tahun ya? ; ya laporan itu ; misalnya makan ; transportasi ; hotel ; gaji ; oh ini apa ; research and development ; kesehatan ; misalnya dokter ini harus ; sekali order namanya ; order itu pokoknya sesuatu yang ; tidak masuk dalam komponen-komponen yang lain ; formatnya itu harus bagaimana excelnya? ; maksudnya itu isi-isinya harus bagaimana? ; nanti ini A deskripsi ; tanggal sekian ; misalnya kolom A ; tanggal bulan tahun ; tanggal sekian ; deskripsinya ini ya ; mil tanggal segini ; jok di A misalnya ; terus nanti ; dari kolom C, D, E ; G, H, D ini tuh ; nanti misalnya yang B ; misalnya transportasi ; C ini C transportasi ; B hotel, D, E makan ; nanti yang transportasi masuk di mana? ; kolom E ; makan ; mil ; nanti kalau misalnya di hotel ; masuk di kolom D hotel ; misalnya ini gaji ; masuk di kolom K gaji ; di kolom K itu isinya gaji ; semua uangnya ; gitu loh ; Bapak maunya itu ada tersendirinya gitu ; di bagian excelnya? ; Bapak kan mau mengkualifikasi ; pengeluaran ; bukan pengeluaran itu dibuat ; disitu terus catet aja ; ada lah kalau dikualifikasi lah ; ini pengeluaran untuk hotel berapa ; ini pengeluaran untuk kesehatan berapa ; ini pengeluaran untuk riset dan teknologi berapa ; ini pengeluaran untuk ; ini apa ; untuk entertainment berapa ; nah gitu loh ; jadi intunya tuh ; akses data ini apa ; nanti data yang tata klik ; itu nanti cuma dari situ masuk ; tanggal, tanggal, ketik tanggal ; terus deskripsinya apa ; terus ini, nah terus ada evident ; evidentnya tuh ; bilenya itu ; kalau misalnya hotel ; bil hotel, nanti di foto ; di scan, masukin ini ; import masukin ke situ ; nah nanti waktu Bapak cek ; kalau misalnya hotel ; 500 ribu, Bapak cek ada gak bilnya ; oh ada bilnya ; oke bener setuju ; jadi disitu ada pilihan ; reject atau approve ; kalau ini approve masuk ; nah terus masuk ke tabel besar itu ; gitu ; oke dia paham kok ; dia cuma bingungnya tuh waktu hasil outputnya aja ; yang dimana tuh ; kenapa perlu hasil output itu karena nanti ; nanti Bapak tunjukin laporan ; iya harus tau laporannya dia tau ; maksudnya ada kolom, nah cuma maksudnya kan ; ada harus naroknya ; kan Bapak sekarang kan tulisnya manual ; Bapak manual ketik ; misalnya gaji, ini apa ; terus Bapak ada kolomnya gaji ; maksudnya ini gaji ; Bapak masukinnya manual semua ; sekarang Bapak udah mau masukin manual ini ; mau punya software itu maksudnya Bapak udah mau masukin ; jadi ; siapa yang mau minta duit ; atau minta ini apa ini barang ; ini expand dia, dia masuk input ; ke situ, nah itu udah ; system, jadi dari komputer A B C D E F ; macam itu ; masuk ke system mainframe nya tuh ; ini berarti maksudnya ; gak selamanya itu berarti ya ; pengeluaran, lebih tepatnya ada pemintaan ; juga gitu, bukan ; tadi lo ngobrol ada pemintaan ; expand namanya ; expand bisa minta duit ; untuk ini apa trip pekerjaan ini ; expand ; tapi nanti expand itu nanti ; kalau ada expand, expand itu nanti di ini ; ee ; misalnya ada expand kan misalnya Edvan ini minta 5 juta ; di expand nanti ; ee Edvan itu misalnya trip ; trip waktu pekerja di ; ini apa ini apa login ; di Sumatera, sumur ini ; nanti di expand nya misalnya ; expand login Sumatera ; satu biaya ini, biaya ini, biaya ini ; nah itu nanti ; ngurangin dari Edvan itu ; iya dia udah paham, jadi intinya itu ; waktu dia minta itu Bapak approve ; nah nanti abis itu pengeluaran ; kalau dia gak minta expand gak apa-apa juga ; gak intinya itu berarti ; ada permintaan kan ; itu kalau dia mau ; dia mau minta expand, kalau enggak juga ; bisa, misalnya dia nyata sendiri ; jadi pakai duit dia dulu ; kok gak minta duit ke papanya gitu ya ; bisa minta duit, bisa enggak ; oke ; gitu loh, kalau dia gak minta ; nanti dia pakai duit dia dulu, nanti dia ; settle, itu namanya settlement itu ; settlement itu riwayat ya ; settlement itu ; pengeluaran yang di expand kan lagi ; iya berarti riwayatnya kan ; ya riwayat, riwayat itu maksudnya ; gimana, di pikir kan ; iya riwayat pengeluaran Bapak kayak gitu kan, yang Bapak beli kayak gitu ; dicatet gitu keuangan Bapak ; bukan orang itu, ya Bapak catet ; kan Bapak perlu catet semua ; Bapak tuh punya yang, di Bapak tuh yang berubahnya ; iya ; orang tuh masukin datanya gitu loh ; nanti Bapak tuh keringat klik ; oke ini Bapak setuju, ini gak, ini setuju, ini gak ; kalau enggak ; Bapak reject, artinya Bapak benerin dulu ; gak suka ini yang mungkin ; ini salah, reject ; nah nanti data ; data itu kan nanti kan masing-masing ; ada itu, maksudnya tadi bilang hotel ; transportasi ; research and development ; entertainment ; ini apa ; biaya ; pembelian barang, biaya ini ; semacam-macam aja tuh ini anunya tuh ; mungkin bisa ; 10-15 kolom kali ya anunya tuh ; masing-masing detailnya, nah nanti ; apa yang itu masuk ; ke spesifikasi itu, misalnya Bapak bilang ; ini hotel, hotel tuh masuk ; misalnya di kolom D, karena D tuh adalah ; semua pengeluaran ; hotel misalnya, kolom D tuh ; jadi setelah ini dia klik hotel ; masuk di D ; jadi harus ada ; clue-nya juga ; mungkin ya, tapi kalau bagusnya ; sih gak usah panggil clue-clue, tapi dia sudah ; mengerti sendiri, kalau misalnya ; pengeluaran namanya ini ; dia langsung masuk disini ; gitu loh, jadi apa mungkin ; harus dibuat statement misalnya ; mungkin harus pakai clue tetap, supaya dia ; mengenali ; kepentingan bikin aja dulu, kalau misalnya ; bisa, tahun depan Bapak ; beli dari awak ; dia cuma mikir ; dia tuh cuma ; mikir security, security-nya tuh dia ; gak tau caranya tuh, makanya tuh ; kalau bikin, kalau ; makanya ; project itu ; udah ; oke
+
+==================================================
+TIMESTAMPS:
+
+[00:00 - 00:01]
+bagaimana tadi?
+
+[00:04 - 00:06]
+jadi input masing-masing ini
+
+[00:06 - 00:08]
+dari masing-masing component
+
+[00:08 - 00:09]
+terus
+
+[00:09 - 00:11]
+kalau misalnya inputnya salah
+
+[00:12 - 00:13]
+papa bisa
+
+[00:14 - 00:15]
+ubah
+
+[00:15 - 00:17]
+karena papa tidak setuju
+
+[00:17 - 00:20]
+tidak papa klik, tidak diganti dulu
+
+[00:20 - 00:20]
+ya
+
+[00:21 - 00:22]
+nanti dari situ
+
+[00:24 - 00:26]
+baru nanti inputnya
+
+[00:26 - 00:28]
+berupa ini apa
+
+[00:28 - 00:29]
+outputnya nanti berupa excel
+
+[00:29 - 00:31]
+nanti akhir tahunnya
+
+[00:31 - 00:34]
+karena papa perlu laporan keuangan excel
+
+[00:34 - 00:36]
+untuk bikin laporan rancang
+
+[00:37 - 00:38]
+oke
+
+[00:38 - 00:40]
+lalu itu
+
+[00:40 - 00:42]
+jadi setiap tahun ya?
+
+[00:42 - 00:42]
+ya laporan itu
+
+[00:44 - 00:45]
+misalnya makan
+
+[00:46 - 00:47]
+transportasi
+
+[00:47 - 00:48]
+hotel
+
+[00:49 - 00:50]
+gaji
+
+[00:50 - 00:51]
+oh ini apa
+
+[00:53 - 00:54]
+research and development
+
+[00:55 - 00:56]
+kesehatan
+
+[00:57 - 00:59]
+misalnya dokter ini harus
+
+[00:59 - 01:00]
+sekali order namanya
+
+[01:01 - 01:02]
+order itu pokoknya sesuatu yang
+
+[01:02 - 01:04]
+tidak masuk dalam komponen-komponen yang lain
+
+[01:05 - 01:07]
+formatnya itu harus bagaimana excelnya?
+
+[01:07 - 01:09]
+maksudnya itu isi-isinya harus bagaimana?
+
+[01:09 - 01:11]
+nanti ini A deskripsi
+
+[01:12 - 01:14]
+tanggal sekian
+
+[01:14 - 01:15]
+misalnya kolom A
+
+[01:15 - 01:16]
+tanggal bulan tahun
+
+[01:16 - 01:17]
+tanggal sekian
+
+[01:17 - 01:20]
+deskripsinya ini ya
+
+[01:20 - 01:22]
+mil tanggal segini
+
+[01:22 - 01:25]
+jok di A misalnya
+
+[01:25 - 01:26]
+terus nanti
+
+[01:26 - 01:29]
+dari kolom C, D, E
+
+[01:29 - 01:30]
+G, H, D ini tuh
+
+[01:30 - 01:33]
+nanti misalnya yang B
+
+[01:33 - 01:34]
+misalnya transportasi
+
+[01:35 - 01:37]
+C ini C transportasi
+
+[01:37 - 01:39]
+B hotel, D, E makan
+
+[01:39 - 01:41]
+nanti yang transportasi masuk di mana?
+
+[01:41 - 01:42]
+kolom E
+
+[01:43 - 01:44]
+makan
+
+[01:45 - 01:45]
+mil
+
+[01:46 - 01:48]
+nanti kalau misalnya di hotel
+
+[01:48 - 01:50]
+masuk di kolom D hotel
+
+[01:52 - 01:53]
+misalnya ini gaji
+
+[01:53 - 01:55]
+masuk di kolom K gaji
+
+[01:55 - 01:57]
+di kolom K itu isinya gaji
+
+[01:57 - 01:58]
+semua uangnya
+
+[01:59 - 02:00]
+gitu loh
+
+[02:01 - 02:04]
+Bapak maunya itu ada tersendirinya gitu
+
+[02:04 - 02:04]
+di bagian excelnya?
+
+[02:05 - 02:07]
+Bapak kan mau mengkualifikasi
+
+[02:07 - 02:08]
+pengeluaran
+
+[02:09 - 02:11]
+bukan pengeluaran itu dibuat
+
+[02:11 - 02:12]
+disitu terus catet aja
+
+[02:12 - 02:14]
+ada lah kalau dikualifikasi lah
+
+[02:14 - 02:16]
+ini pengeluaran untuk hotel berapa
+
+[02:16 - 02:18]
+ini pengeluaran untuk kesehatan berapa
+
+[02:18 - 02:21]
+ini pengeluaran untuk riset dan teknologi berapa
+
+[02:21 - 02:23]
+ini pengeluaran untuk
+
+[02:23 - 02:24]
+ini apa
+
+[02:24 - 02:26]
+untuk entertainment berapa
+
+[02:26 - 02:27]
+nah gitu loh
+
+[02:29 - 02:30]
+jadi intunya tuh
+
+[02:31 - 02:33]
+akses data ini apa
+
+[02:33 - 02:35]
+nanti data yang tata klik
+
+[02:35 - 02:37]
+itu nanti cuma dari situ masuk
+
+[02:37 - 02:39]
+tanggal, tanggal, ketik tanggal
+
+[02:39 - 02:41]
+terus deskripsinya apa
+
+[02:41 - 02:43]
+terus ini, nah terus ada evident
+
+[02:45 - 02:46]
+evidentnya tuh
+
+[02:46 - 02:47]
+bilenya itu
+
+[02:47 - 02:49]
+kalau misalnya hotel
+
+[02:49 - 02:51]
+bil hotel, nanti di foto
+
+[02:51 - 02:52]
+di scan, masukin ini
+
+[02:52 - 02:54]
+import masukin ke situ
+
+[02:54 - 02:57]
+nah nanti waktu Bapak cek
+
+[02:57 - 02:58]
+kalau misalnya hotel
+
+[02:59 - 03:01]
+500 ribu, Bapak cek ada gak bilnya
+
+[03:01 - 03:02]
+oh ada bilnya
+
+[03:02 - 03:04]
+oke bener setuju
+
+[03:04 - 03:06]
+jadi disitu ada pilihan
+
+[03:06 - 03:08]
+reject atau approve
+
+[03:08 - 03:11]
+kalau ini approve masuk
+
+[03:11 - 03:13]
+nah terus masuk ke tabel besar itu
+
+[03:13 - 03:14]
+gitu
+
+[03:17 - 03:19]
+oke dia paham kok
+
+[03:19 - 03:21]
+dia cuma bingungnya tuh waktu hasil outputnya aja
+
+[03:21 - 03:22]
+yang dimana tuh
+
+[03:22 - 03:24]
+kenapa perlu hasil output itu karena nanti
+
+[03:24 - 03:27]
+nanti Bapak tunjukin laporan
+
+[03:27 - 03:29]
+iya harus tau laporannya dia tau
+
+[03:29 - 03:31]
+maksudnya ada kolom, nah cuma maksudnya kan
+
+[03:31 - 03:33]
+ada harus naroknya
+
+[03:33 - 03:34]
+kan Bapak sekarang kan tulisnya manual
+
+[03:35 - 03:36]
+Bapak manual ketik
+
+[03:36 - 03:38]
+misalnya gaji, ini apa
+
+[03:38 - 03:40]
+terus Bapak ada kolomnya gaji
+
+[03:40 - 03:41]
+maksudnya ini gaji
+
+[03:41 - 03:43]
+Bapak masukinnya manual semua
+
+[03:43 - 03:46]
+sekarang Bapak udah mau masukin manual ini
+
+[03:46 - 03:49]
+mau punya software itu maksudnya Bapak udah mau masukin
+
+[03:49 - 03:49]
+jadi
+
+[03:50 - 03:52]
+siapa yang mau minta duit
+
+[03:52 - 03:54]
+atau minta ini apa ini barang
+
+[03:54 - 03:57]
+ini expand dia, dia masuk input
+
+[03:57 - 03:58]
+ke situ, nah itu udah
+
+[03:59 - 04:01]
+system, jadi dari komputer A B C D E F
+
+[04:01 - 04:02]
+macam itu
+
+[04:02 - 04:05]
+masuk ke system mainframe nya tuh
+
+[04:05 - 04:06]
+ini berarti maksudnya
+
+[04:06 - 04:08]
+gak selamanya itu berarti ya
+
+[04:09 - 04:11]
+pengeluaran, lebih tepatnya ada pemintaan
+
+[04:11 - 04:12]
+juga gitu, bukan
+
+[04:12 - 04:13]
+tadi lo ngobrol ada pemintaan
+
+[04:13 - 04:15]
+expand namanya
+
+[04:15 - 04:19]
+expand bisa minta duit
+
+[04:19 - 04:20]
+untuk ini apa trip pekerjaan ini
+
+[04:20 - 04:21]
+expand
+
+[04:22 - 04:24]
+tapi nanti expand itu nanti
+
+[04:24 - 04:27]
+kalau ada expand, expand itu nanti di ini
+
+[04:27 - 04:28]
+ee
+
+[04:29 - 04:31]
+misalnya ada expand kan misalnya Edvan ini minta 5 juta
+
+[04:31 - 04:32]
+di expand nanti
+
+[04:33 - 04:35]
+ee Edvan itu misalnya trip
+
+[04:36 - 04:38]
+trip waktu pekerja di
+
+[04:38 - 04:40]
+ini apa ini apa login
+
+[04:40 - 04:43]
+di Sumatera, sumur ini
+
+[04:43 - 04:44]
+nanti di expand nya misalnya
+
+[04:44 - 04:46]
+expand login Sumatera
+
+[04:46 - 04:49]
+satu biaya ini, biaya ini, biaya ini
+
+[04:49 - 04:50]
+nah itu nanti
+
+[04:51 - 04:52]
+ngurangin dari Edvan itu
+
+[04:52 - 04:55]
+iya dia udah paham, jadi intinya itu
+
+[04:55 - 04:57]
+waktu dia minta itu Bapak approve
+
+[04:57 - 04:58]
+nah nanti abis itu pengeluaran
+
+[04:59 - 05:01]
+kalau dia gak minta expand gak apa-apa juga
+
+[05:01 - 05:02]
+gak intinya itu berarti
+
+[05:02 - 05:04]
+ada permintaan kan
+
+[05:04 - 05:06]
+itu kalau dia mau
+
+[05:06 - 05:08]
+dia mau minta expand, kalau enggak juga
+
+[05:08 - 05:10]
+bisa, misalnya dia nyata sendiri
+
+[05:10 - 05:12]
+jadi pakai duit dia dulu
+
+[05:13 - 05:15]
+kok gak minta duit ke papanya gitu ya
+
+[05:15 - 05:16]
+bisa minta duit, bisa enggak
+
+[05:17 - 05:18]
+oke
+
+[05:19 - 05:20]
+gitu loh, kalau dia gak minta
+
+[05:20 - 05:22]
+nanti dia pakai duit dia dulu, nanti dia
+
+[05:23 - 05:24]
+settle, itu namanya settlement itu
+
+[05:24 - 05:26]
+settlement itu riwayat ya
+
+[05:26 - 05:27]
+settlement itu
+
+[05:29 - 05:31]
+pengeluaran yang di expand kan lagi
+
+[05:31 - 05:32]
+iya berarti riwayatnya kan
+
+[05:32 - 05:35]
+ya riwayat, riwayat itu maksudnya
+
+[05:35 - 05:35]
+gimana, di pikir kan
+
+[05:35 - 05:38]
+iya riwayat pengeluaran Bapak kayak gitu kan, yang Bapak beli kayak gitu
+
+[05:38 - 05:40]
+dicatet gitu keuangan Bapak
+
+[05:40 - 05:43]
+bukan orang itu, ya Bapak catet
+
+[05:43 - 05:44]
+kan Bapak perlu catet semua
+
+[05:44 - 05:47]
+Bapak tuh punya yang, di Bapak tuh yang berubahnya
+
+[05:47 - 05:48]
+iya
+
+[05:48 - 05:50]
+orang tuh masukin datanya gitu loh
+
+[05:50 - 05:51]
+nanti Bapak tuh keringat klik
+
+[05:51 - 05:55]
+oke ini Bapak setuju, ini gak, ini setuju, ini gak
+
+[05:55 - 05:55]
+kalau enggak
+
+[05:55 - 05:58]
+Bapak reject, artinya Bapak benerin dulu
+
+[05:59 - 06:01]
+gak suka ini yang mungkin
+
+[06:01 - 06:02]
+ini salah, reject
+
+[06:03 - 06:04]
+nah nanti data
+
+[06:04 - 06:07]
+data itu kan nanti kan masing-masing
+
+[06:07 - 06:08]
+ada itu, maksudnya tadi bilang hotel
+
+[06:09 - 06:10]
+transportasi
+
+[06:11 - 06:12]
+research and development
+
+[06:13 - 06:13]
+entertainment
+
+[06:14 - 06:15]
+ini apa
+
+[06:17 - 06:18]
+biaya
+
+[06:18 - 06:20]
+pembelian barang, biaya ini
+
+[06:20 - 06:22]
+semacam-macam aja tuh ini anunya tuh
+
+[06:22 - 06:23]
+mungkin bisa
+
+[06:24 - 06:26]
+10-15 kolom kali ya anunya tuh
+
+[06:26 - 06:29]
+masing-masing detailnya, nah nanti
+
+[06:29 - 06:30]
+apa yang itu masuk
+
+[06:30 - 06:32]
+ke spesifikasi itu, misalnya Bapak bilang
+
+[06:33 - 06:35]
+ini hotel, hotel tuh masuk
+
+[06:35 - 06:37]
+misalnya di kolom D, karena D tuh adalah
+
+[06:37 - 06:38]
+semua pengeluaran
+
+[06:38 - 06:40]
+hotel misalnya, kolom D tuh
+
+[06:41 - 06:43]
+jadi setelah ini dia klik hotel
+
+[06:43 - 06:44]
+masuk di D
+
+[06:47 - 06:49]
+jadi harus ada
+
+[06:49 - 06:50]
+clue-nya juga
+
+[06:51 - 06:53]
+mungkin ya, tapi kalau bagusnya
+
+[06:53 - 06:54]
+sih gak usah panggil clue-clue, tapi dia sudah
+
+[06:54 - 06:57]
+mengerti sendiri, kalau misalnya
+
+[06:57 - 06:58]
+pengeluaran namanya ini
+
+[06:59 - 07:00]
+dia langsung masuk disini
+
+[07:01 - 07:02]
+gitu loh, jadi apa mungkin
+
+[07:02 - 07:04]
+harus dibuat statement misalnya
+
+[07:04 - 07:07]
+mungkin harus pakai clue tetap, supaya dia
+
+[07:07 - 07:08]
+mengenali
+
+[07:11 - 07:13]
+kepentingan bikin aja dulu, kalau misalnya
+
+[07:13 - 07:15]
+bisa, tahun depan Bapak
+
+[07:15 - 07:16]
+beli dari awak
+
+[07:17 - 07:19]
+dia cuma mikir
+
+[07:19 - 07:21]
+dia tuh cuma
+
+[07:21 - 07:23]
+mikir security, security-nya tuh dia
+
+[07:23 - 07:25]
+gak tau caranya tuh, makanya tuh
+
+[07:25 - 07:26]
+kalau bikin, kalau
+
+[07:26 - 07:27]
+makanya
+
+[07:27 - 07:30]
+project itu
+
+[07:32 - 07:34]
+udah
+
+[07:34 - 07:34]
+oke
+

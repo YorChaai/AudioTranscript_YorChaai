@@ -1,0 +1,628 @@
+1
+00:00:00,000 --> 00:00:04,559
+Bapak kan bilangnya mau ada bank status kan, bank status itu ada bank insuransi BRI
+
+2
+00:00:04,559 --> 00:00:07,059
+Ini bank insuransi itu maksudnya itu, ini pemindah bukuan ini
+
+3
+00:00:07,059 --> 00:00:11,119
+Ini kan Bapak kan dari rekening giro ke rekening bisnis
+
+4
+00:00:11,119 --> 00:00:13,779
+Ini pemindah, dipindah apa ya kan nilainya tetap sama
+
+5
+00:00:14,540 --> 00:00:18,579
+Iya sama, maksudnya itu Bapak tuh mau bank insuransi
+
+6
+00:00:18,579 --> 00:00:22,359
+Abis itu kolom, itu yang barunya itu BRI gitu
+
+7
+00:00:22,359 --> 00:00:28,059
+Kalau ini pembukuan, berarti kalau pembukuan itu jatuhnya itu kayak pemindahan bank gitu ya
+
+8
+00:00:28,059 --> 00:00:30,660
+Pemindah bukuan, bukan pembukuan
+
+9
+00:00:30,660 --> 00:00:33,960
+Ini kan judulnya apa nih, pemindah bukuan
+
+10
+00:00:33,960 --> 00:00:37,280
+Iya berarti dari rekening ke rekening
+
+11
+00:00:37,280 --> 00:00:39,079
+Kalau bank insuransi itu
+
+12
+00:00:39,079 --> 00:00:41,740
+Kalau bank insuransi itu bunga bank
+
+13
+00:00:42,759 --> 00:00:46,600
+Ini insuransi ini kan bunga, bahasa Indonesia nya bunga
+
+14
+00:00:46,600 --> 00:00:48,200
+Insuransi itu bahasa Inggris
+
+15
+00:00:48,200 --> 00:00:53,460
+Oh yaudah, ini dia bikin ini berarti, ini belum dia bikin ini
+
+16
+00:00:53,460 --> 00:00:56,600
+Insuransi bulan Maret, insuransi bulan April
+
+17
+00:00:56,600 --> 00:00:58,039
+Cuma soalnya itu udah
+
+18
+00:00:58,060 --> 00:01:00,460
+Udah bikin logika disininya gitu
+
+19
+00:01:02,479 --> 00:01:03,439
+Untuk apa
+
+20
+00:01:04,480 --> 00:01:07,299
+Biaya bunga itu yang dibilang sama katitis
+
+21
+00:01:07,299 --> 00:01:09,780
+Di kategori itu, di administrasi
+
+22
+00:01:09,780 --> 00:01:13,120
+Di bagian admin
+
+23
+00:01:13,120 --> 00:01:14,159
+Itu sama dengan
+
+24
+00:01:14,159 --> 00:01:17,900
+Nanti kan pokoknya biaya admin
+
+25
+00:01:17,900 --> 00:01:19,659
+Sekala macam itu udah hitung satuan lagi
+
+26
+00:01:19,659 --> 00:01:22,180
+Satu bulan satu, satu bulan satu
+
+27
+00:01:22,180 --> 00:01:24,239
+Seperti bunga juga satu bulan satu
+
+28
+00:01:26,000 --> 00:01:27,420
+Nanti dimanualin aja
+
+29
+00:01:30,299 --> 00:01:32,000
+Intinya udah dimasukin ke luar
+
+30
+00:01:32,000 --> 00:01:35,219
+Kan nanti kan ada mau di report ini bank
+
+31
+00:01:35,939 --> 00:01:38,099
+Mau di report nanti di hitung satuan
+
+32
+00:01:38,099 --> 00:01:40,359
+Misalnya ada 10 biji ini
+
+33
+00:01:40,359 --> 00:01:41,659
+Biaya admin
+
+34
+00:01:41,659 --> 00:01:43,159
+Nah 10 bijinya berapa?
+
+35
+00:01:43,359 --> 00:01:44,879
+2.500, 25.000
+
+36
+00:01:45,579 --> 00:01:47,219
+Itu bapak input sendiri sebenarnya
+
+37
+00:01:47,219 --> 00:01:48,700
+Di input masuk manual aja
+
+38
+00:01:48,700 --> 00:01:51,719
+Bukan di hitung manual terus baru di inputin kesini
+
+39
+00:01:51,719 --> 00:01:52,959
+Iya di inputin kan
+
+40
+00:01:52,959 --> 00:01:56,859
+Jadi dosa per satu single-single sendiri-sendiri
+
+41
+00:01:56,859 --> 00:01:58,040
+Per bulan itu di inputin kesini
+
+42
+00:01:58,040 --> 00:01:59,659
+Jadi cuma 12 kali adanya
+
+43
+00:01:59,659 --> 00:02:02,040
+Oh iya, berarti bapak lebih tepatnya tuh
+
+44
+00:02:02,040 --> 00:02:05,840
+Emang gak ada penulisan untuk bunganya
+
+45
+00:02:05,840 --> 00:02:07,719
+Tapi bapak masuk sendiri gitu nanti
+
+46
+00:02:07,719 --> 00:02:10,419
+Nanti kan ada bunga, ada pajak
+
+47
+00:02:10,419 --> 00:02:12,639
+Pajak, biaya admin itu jadi satu
+
+48
+00:02:13,620 --> 00:02:16,319
+Kan ada biaya admin kan
+
+49
+00:02:16,319 --> 00:02:17,060
+Biaya admin bulanan
+
+50
+00:02:17,060 --> 00:02:20,199
+Yang 25.000, yang 30.000
+
+51
+00:02:20,199 --> 00:02:21,259
+Kayak gini kan
+
+52
+00:02:22,180 --> 00:02:23,340
+Lebih tepatnya kan
+
+53
+00:02:23,340 --> 00:02:26,040
+Jadi bapak nanti di subkategori
+
+54
+00:02:28,039 --> 00:02:29,819
+Kok emangnya kayak tiba-tiba ya?
+
+55
+00:02:31,360 --> 00:02:33,139
+Ini harus keluar lagi nih
+
+56
+00:02:33,139 --> 00:02:34,300
+Kok bisa kayak gini sih?
+
+57
+00:02:34,580 --> 00:02:38,199
+1, 2, 3, 4, 5, 6
+
+58
+00:02:38,199 --> 00:02:39,639
+Nah disini kan dia udah
+
+59
+00:02:40,180 --> 00:02:41,099
+Udah ituin tadi
+
+60
+00:02:41,099 --> 00:02:41,879
+Belum kata itu
+
+61
+00:02:41,879 --> 00:02:44,300
+Di subkategorinya ada admin
+
+62
+00:02:44,300 --> 00:02:45,319
+Nah dia bikin logika
+
+63
+00:02:45,319 --> 00:02:48,979
+Intinya administrasi dan subkategorinya itu admin
+
+64
+00:02:48,979 --> 00:02:51,219
+Nah nanti ini akan jadi bagian dari biaya admin
+
+65
+00:02:51,219 --> 00:02:51,699
+Kayak gitu
+
+66
+00:02:51,699 --> 00:02:55,099
+Nah nanti itu sesuaikan sama BCA atau apanya gitu
+
+67
+00:02:55,099 --> 00:02:56,500
+Jadi biaya admin BCA
+
+68
+00:02:56,500 --> 00:02:58,020
+Nah cuman bapak maunya nanti
+
+69
+00:02:58,039 --> 00:02:59,020
+Sebulan, sebulan kan berarti
+
+70
+00:02:59,020 --> 00:03:00,159
+Biar admin itu macem-macem
+
+71
+00:03:00,159 --> 00:03:02,340
+Ada 2.500, ada 6.500
+
+72
+00:03:03,500 --> 00:03:04,060
+Susah
+
+73
+00:03:04,060 --> 00:03:05,599
+Masukin sendiri-sendiri kan?
+
+74
+00:03:06,399 --> 00:03:08,620
+Iya, jadi dosa dimasukin
+
+75
+00:03:08,620 --> 00:03:09,919
+Dosa dimasukin di dalam
+
+76
+00:03:09,919 --> 00:03:11,199
+Ini ada biaya admin
+
+77
+00:03:11,199 --> 00:03:13,120
+Biar admin itu nanti dihitung manual
+
+78
+00:03:14,479 --> 00:03:15,900
+Nanti setiap bulan
+
+79
+00:03:15,900 --> 00:03:18,340
+Pokoknya dihitung nih admin bulan ini
+
+80
+00:03:18,340 --> 00:03:20,219
+Taruhnya di mana? Pengeluaran apa revenue?
+
+81
+00:03:21,280 --> 00:03:22,620
+Pengeluaran lah kalau biaya admin
+
+82
+00:03:23,319 --> 00:03:24,060
+Berarti ini?
+
+83
+00:03:24,219 --> 00:03:25,139
+Nanti cuman tulis aja
+
+84
+00:03:25,139 --> 00:03:26,639
+Berarti apa ini salah berarti?
+
+85
+00:03:26,939 --> 00:03:27,919
+Nanti kan gini
+
+86
+00:03:29,560 --> 00:03:30,960
+Ini 4 tahun 2024
+
+87
+00:03:30,960 --> 00:03:34,020
+Ini ya biaya admin bulan Januari
+
+88
+00:03:34,020 --> 00:03:36,020
+Nanti bapak masukin biaya admin bulan Februari
+
+89
+00:03:36,020 --> 00:03:36,840
+Gitu aja cuman
+
+90
+00:03:36,840 --> 00:03:39,479
+Berarti kayak gitu kan di input-input sendiri kan?
+
+91
+00:03:39,620 --> 00:03:40,539
+Iya, biaya admin sendiri
+
+92
+00:03:40,539 --> 00:03:41,620
+Berarti udah bener berarti
+
+93
+00:03:41,620 --> 00:03:43,659
+Nah sama ini juga
+
+94
+00:03:43,659 --> 00:03:45,000
+Nanti kalau diresume keluar dia
+
+95
+00:03:45,000 --> 00:03:46,620
+Biaya admin selama 1 tahun
+
+96
+00:03:46,620 --> 00:03:47,620
+Bank Mandiri
+
+97
+00:03:47,620 --> 00:03:49,280
+Oh itu belum ada resumenya
+
+98
+00:03:49,280 --> 00:03:51,159
+Bank ini, bank ini BCA
+
+99
+00:03:51,159 --> 00:03:52,460
+Biaya admin 1 tahun
+
+100
+00:03:52,460 --> 00:03:53,139
+Bank Anu
+
+101
+00:03:54,319 --> 00:03:56,719
+Itu di patch beda lagi itu berarti
+
+102
+00:03:56,719 --> 00:03:57,960
+Berarti itu ada itunya sendiri?
+
+103
+00:03:57,960 --> 00:03:58,400
+Tersendiri berarti
+
+104
+00:03:58,400 --> 00:03:59,840
+Ada tempat yang tersendiri
+
+105
+00:03:59,840 --> 00:04:00,860
+Biaya adminnya gitu ya
+
+106
+00:04:00,860 --> 00:04:01,719
+Jadinya tuh biaya bisa
+
+107
+00:04:01,719 --> 00:04:02,039
+Apa?
+
+108
+00:04:02,159 --> 00:04:03,319
+Biaya bisa tau gitu
+
+109
+00:04:03,319 --> 00:04:04,479
+Di itunya
+
+110
+00:04:04,479 --> 00:04:05,840
+Tinggal download aja
+
+111
+00:04:05,840 --> 00:04:06,599
+PDF gitu
+
+112
+00:04:06,599 --> 00:04:07,199
+Iya
+
+113
+00:04:08,219 --> 00:04:09,219
+Sama ini juga nih
+
+114
+00:04:09,219 --> 00:04:09,979
+Ini bisa dihitung
+
+115
+00:04:14,539 --> 00:04:15,919
+Kasbon itu kan bilang apa kan
+
+116
+00:04:15,919 --> 00:04:17,620
+Kita tuh meminta uang
+
+117
+00:04:17,620 --> 00:04:18,600
+Settlement tuh adalah
+
+118
+00:04:18,600 --> 00:04:19,779
+Kita mengeluarkan uang
+
+119
+00:04:19,779 --> 00:04:20,120
+Abis itu
+
+120
+00:04:21,080 --> 00:04:22,540
+Minta perusahaan tuh bayar
+
+121
+00:04:22,540 --> 00:04:24,360
+Uang yang kita keluarin tadi kan
+
+122
+00:04:24,360 --> 00:04:25,459
+Nah ini udah digabungin
+
+123
+00:04:25,459 --> 00:04:27,300
+Jadi tuh pada dasarnya sama aja
+
+124
+00:04:27,300 --> 00:04:27,560
+Jadinya
+
+125
+00:04:27,959 --> 00:04:29,459
+Jadi ini semua
+
+126
+00:04:29,459 --> 00:04:31,240
+Table ini tuh sama semua ininya
+
+127
+00:04:31,240 --> 00:04:32,500
+Kayak gitu kan Pak?
+
+128
+00:04:33,240 --> 00:04:35,120
+Jadi ini bagian Kasbon juga masuk ke sini
+
+129
+00:04:35,120 --> 00:04:36,759
+Kalau misalnya Kasbon itu dia
+
+130
+00:04:36,759 --> 00:04:37,860
+Cuman misalnya
+
+131
+00:04:38,620 --> 00:04:41,019
+Kalau misalnya ini Kasbon
+
+132
+00:04:41,960 --> 00:04:42,600
+Advanced
+
+133
+00:04:42,600 --> 00:04:44,540
+Misalnya itu Kasbon tuh kan expand
+
+134
+00:04:44,540 --> 00:04:47,360
+Advanced untuk beli
+
+135
+00:04:47,360 --> 00:04:48,139
+Ini apa TV
+
+136
+00:04:48,139 --> 00:04:49,939
+Udah apa-apa kasih 100 juta
+
+137
+00:04:49,939 --> 00:04:51,399
+Iya nanti masuk ke sini kan
+
+138
+00:04:51,399 --> 00:04:52,779
+Nah nanti
+
+139
+00:04:52,779 --> 00:04:54,160
+100 juta
+
+140
+00:04:54,160 --> 00:04:55,420
+Begitu disettle
+
+141
+00:04:55,420 --> 00:04:57,180
+95 juta
+
+142
+00:04:57,180 --> 00:04:57,860
+Biar beli TV
+
+143
+00:04:57,959 --> 00:04:59,180
+5 juta nya balik lagi
+
+144
+00:04:59,819 --> 00:05:00,620
+Hibet kan
+
+145
+00:05:01,480 --> 00:05:03,459
+Karena dicatat lagi baliknya
+
+146
+00:05:03,459 --> 00:05:05,199
+Ya penguaran itu
+
+147
+00:05:05,199 --> 00:05:06,160
+Jadi dikurangin jadi
+
+148
+00:05:06,160 --> 00:05:07,319
+Kayak bilang om Alan itu
+
+149
+00:05:07,319 --> 00:05:08,259
+Iya
+
+150
+00:05:09,019 --> 00:05:09,639
+Apa?
+
+151
+00:05:10,160 --> 00:05:11,040
+Gitu lah
+
+152
+00:05:14,639 --> 00:05:15,259
+Kenapa?
+
+153
+00:05:15,360 --> 00:05:16,160
+Lepas lampnya
+
+154
+00:05:17,040 --> 00:05:17,660
+Apaan?
+
+155
+00:05:19,579 --> 00:05:20,199
+Sepatunya
+
+156
+00:05:21,319 --> 00:05:22,420
+Kenapa sepatunya?
+
+157
+00:05:23,399 --> 00:05:24,019
+Dicuci
+
