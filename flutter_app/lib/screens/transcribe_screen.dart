@@ -10,6 +10,7 @@ import '../widgets/responsive_layout.dart';
 import '../widgets/sort_menu.dart';
 import '../providers/sort_provider.dart';
 import '../services/api_service.dart';
+import '../widgets/app_scrollbar.dart';
 
 class TranscribeScreen extends StatefulWidget {
   const TranscribeScreen({super.key});
@@ -25,12 +26,16 @@ class _TranscribeScreenState extends State<TranscribeScreen>
   String _language = 'auto';
   bool _doTranslate = false;
   String _targetLang = 'id';
-  String _searchQuery = '';
+  final TextEditingController _searchController = TextEditingController();
 
   // Animation
   late AnimationController _progressAnimController;
   Animation<double>? _progressAnimation;
   double _displayProgress = 0;
+  final ScrollController _sidebarListController = ScrollController();
+  final ScrollController _gridScrollController = ScrollController();
+  final ScrollController _mobileScrollController = ScrollController();
+  String _searchQuery = '';
 
   @override
   void initState() {
@@ -55,7 +60,11 @@ class _TranscribeScreenState extends State<TranscribeScreen>
 
   @override
   void dispose() {
+    _searchController.dispose();
     _progressAnimController.dispose();
+    _sidebarListController.dispose();
+    _gridScrollController.dispose();
+    _mobileScrollController.dispose();
     super.dispose();
   }
 
@@ -253,7 +262,7 @@ class _TranscribeScreenState extends State<TranscribeScreen>
                 const SizedBox(height: 16),
                 _buildBreadcrumb(prov),
                 const SizedBox(height: 16),
-                Expanded(child: _buildAudioContent(prov, sortProv)),
+                Expanded(child: AppScrollbar(controller: _gridScrollController, child: _buildAudioContent(prov, sortProv))),
               ],
             ),
           ),
@@ -270,15 +279,18 @@ class _TranscribeScreenState extends State<TranscribeScreen>
   Widget _buildMobileLayout(TranscribeProvider prov, SortProvider sortProv) {
     return RefreshIndicator(
       onRefresh: () => context.read<TranscribeProvider>().loadAudioFiles(),
-      child: CustomScrollView(
-        physics: const BouncingScrollPhysics(),
-        slivers: [
-          SliverToBoxAdapter(
-            child: Padding(
-              padding: const EdgeInsets.fromLTRB(16, 16, 16, 24),
-              child: _buildSidebar(prov, isMobile: true),
+      child: AppScrollbar(
+        controller: _mobileScrollController,
+        child: CustomScrollView(
+          controller: _mobileScrollController,
+          physics: const BouncingScrollPhysics(),
+          slivers: [
+            SliverToBoxAdapter(
+              child: Padding(
+                padding: const EdgeInsets.fromLTRB(16, 16, 16, 24),
+                child: _buildSidebar(prov, isMobile: true),
+              ),
             ),
-          ),
           SliverToBoxAdapter(
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16),
@@ -296,8 +308,9 @@ class _TranscribeScreenState extends State<TranscribeScreen>
           const SliverToBoxAdapter(child: SizedBox(height: 20)),
         ],
       ),
-    );
-  }
+    ),
+  );
+}
 
   Widget _buildHeader(SortProvider sortProv, {bool isMobile = false}) {
     return Wrap(
@@ -489,11 +502,14 @@ class _TranscribeScreenState extends State<TranscribeScreen>
               const SizedBox(height: 8),
               Container(
                 constraints: const BoxConstraints(maxHeight: 200),
-                child: ListView.separated(
-                  shrinkWrap: true,
-                  physics: const BouncingScrollPhysics(),
-                  itemCount: selectedDetails.length,
-                  separatorBuilder: (_, __) => const SizedBox(height: 8),
+                child: AppScrollbar(
+                  controller: _sidebarListController,
+                  child: ListView.separated(
+                    controller: _sidebarListController,
+                    shrinkWrap: true,
+                    physics: const BouncingScrollPhysics(),
+                    itemCount: selectedDetails.length,
+                    separatorBuilder: (_, __) => const SizedBox(height: 8),
                   itemBuilder: (context, index) {
                     final f = selectedDetails[index];
                     final name = f['name'] ?? 'Unknown';
@@ -562,6 +578,7 @@ class _TranscribeScreenState extends State<TranscribeScreen>
                       ),
                     );
                   },
+                  ),
                 ),
               ),
             ],
@@ -907,8 +924,11 @@ class _TranscribeScreenState extends State<TranscribeScreen>
       );
     }
 
-    return GridView.builder(
-      gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
+    return AppScrollbar(
+      controller: _gridScrollController,
+      child: GridView.builder(
+        controller: _gridScrollController,
+        gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
         maxCrossAxisExtent: 300,
         mainAxisSpacing: 16,
         crossAxisSpacing: 16,
@@ -922,6 +942,7 @@ class _TranscribeScreenState extends State<TranscribeScreen>
         final file = filteredFiles[index - prov.folders.length];
         return _buildFileItem(file, index, prov);
       },
+      ),
     );
   }
 
