@@ -259,38 +259,46 @@ def merge_all_pdfs(convert_dir=None, output_filename_pattern="Merged_Book_{times
         return {"status": "error", "error": str(e)}
 
 
-def get_pdf_files(convert_dir=None):
+def get_pdf_files(target_path=""):
     """
-    List semua file PDF di folder convert
-
+    List file PDF di folder tertentu
     Returns:
-        list of dict dengan info file
+        dict dengan files dan folders
     """
-    if convert_dir is None:
-        convert_dir = CONVERT_DIR
+    target_dir = CONVERT_DIR / "single"
+    
+    if target_path:
+        try:
+            target_dir = (CONVERT_DIR / "single" / target_path).resolve()
+            if (CONVERT_DIR / "single").resolve() not in target_dir.parents and target_dir != (CONVERT_DIR / "single").resolve():
+                return {"files": [], "folders": []}
+        except Exception:
+            return {"files": [], "folders": []}
 
-    if not convert_dir.exists():
-        return []
+    if not target_dir.exists():
+        return {"files": [], "folders": []}
 
     files = []
-    all_pdfs = sorted(
-        [p for p in convert_dir.rglob("*.pdf") if "Merged_Book" not in p.name],
-        key=lambda x: x.stat().st_mtime,
-        reverse=True
-    )
+    folders = []
 
-    for path in all_pdfs:
-        try:
-            rel = path.relative_to(BASE_DIR) if BASE_DIR in path.parents else path
-            label = path.relative_to(convert_dir).parts[0] if len(path.relative_to(convert_dir).parts) > 1 else "root"
-            files.append({
-                "name": path.name,
-                "path": str(rel),
-                "label": label,
-                "size": path.stat().st_size,
-                "modified": datetime.fromtimestamp(path.stat().st_mtime).isoformat()
-            })
-        except Exception:
-            continue
+    for f in sorted(target_dir.iterdir()):
+        if f.is_file() and f.suffix.lower() == ".pdf" and "Merged_Book" not in f.name:
+            files.append(
+                {
+                    "name": f.name,
+                    "path": str(f.relative_to(BASE_DIR)),
+                    "size": f.stat().st_size,
+                    "modified": datetime.fromtimestamp(f.stat().st_mtime).isoformat(),
+                }
+            )
+        elif f.is_dir():
+            count = sum(1 for x in f.rglob("*.pdf") if x.is_file() and "Merged_Book" not in x.name)
+            folders.append(
+                {
+                    "name": f.name,
+                    "path": str(f.relative_to(CONVERT_DIR / "single")),
+                    "file_count": count,
+                }
+            )
 
-    return files
+    return {"files": files, "folders": folders}

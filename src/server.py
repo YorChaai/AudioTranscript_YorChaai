@@ -12,6 +12,7 @@ import logging
 import os
 import subprocess
 import sys
+import shutil
 import threading
 import time
 import uuid
@@ -385,11 +386,14 @@ def _find_ffmpeg():
     return find_ffmpeg(BASE_DIR)
 
 
-def _convert_video_to_mp3(video_path: Path) -> tuple[Path, list[str]]:
+def _convert_video_to_mp3(video_path: Path, target_dir: Path = None) -> tuple[Path, list[str]]:
     _ensure_media_dirs()
+    
+    if target_dir is None:
+        target_dir = AUDIO_FOLDER
 
     mp3_name = f"{video_path.stem}.mp3"
-    output_path = _unique_path(AUDIO_FOLDER, mp3_name)
+    output_path = _unique_path(target_dir, mp3_name)
     ffmpeg_bin = _find_ffmpeg()
 
     command = [
@@ -469,14 +473,26 @@ def health_check():
 @require_api_key
 def list_audio():
     """list semua file audio di folder audio/"""
-    if not AUDIO_FOLDER.exists():
-        AUDIO_FOLDER.mkdir(parents=True, exist_ok=True)
-        return jsonify({"files": [], "folders": []})
+    from tinytag import TinyTag
+    target_path = request.args.get("path", "")
+    target_dir = AUDIO_FOLDER
+    if target_path:
+        try:
+            target_dir = (AUDIO_FOLDER / target_path).resolve()
+            # Ensure it's within AUDIO_FOLDER
+            if AUDIO_FOLDER.resolve() not in target_dir.parents and target_dir != AUDIO_FOLDER.resolve():
+                return jsonify({"error": "Invalid path"}), 400
+        except Exception:
+            return jsonify({"error": "Invalid path"}), 400
+
+    if not target_dir.exists():
+        target_dir.mkdir(parents=True, exist_ok=True)
+        return jsonify({"files": [], "folders": [], "current_path": target_path})
 
     files = []
-    MEDIA_EXTENSIONS = AUDIO_EXTENSIONS | VIDEO_EXTENSIONS
-    for f in sorted(AUDIO_FOLDER.iterdir()):
-        if f.is_file() and f.suffix.lower() in MEDIA_EXTENSIONS:
+    # Only show audio files, don't show videos as requested by user
+    for f in sorted(target_dir.iterdir()):
+        if f.is_file() and f.suffix.lower() in AUDIO_EXTENSIONS:
             file_info = {
                 "name": f.name,
                 "path": str(f.relative_to(BASE_DIR)),
@@ -484,34 +500,122 @@ def list_audio():
                 "modified": datetime.fromtimestamp(f.stat().st_mtime).isoformat(),
             }
 
-            # Fix: Add audio duration info
-            tech = get_audio_info_technical(f)
-            if tech["success"]:
-                file_info["duration"] = tech["duration"]
-                file_info["bitrate"] = tech["bitrate"]
+            # Use TinyTag for fast duration loading instead of ffprobe
+            try:
+                tag = TinyTag.get(str(f))
+                if tag.duration is not None:
+                    file_info["duration"] = tag.duration
+                if tag.bitrate is not None:
+                    # TinyTag returns bitrate in kbits, ffprobe returns bps. So we convert to bps.
+                    file_info["bitrate"] = int(tag.bitrate * 1000)
+            except Exception:
+                pass
 
             files.append(file_info)
 
     # list subfolders too
     folders = []
-    MEDIA_EXTENSIONS = AUDIO_EXTENSIONS | VIDEO_EXTENSIONS
-    for f in sorted(AUDIO_FOLDER.iterdir()):
+    for f in sorted(target_dir.iterdir()):
         if f.is_dir():
-            # count audio/video files recursively
+            # count audio files recursively
             count = sum(
                 1
                 for x in f.rglob("*")
-                if x.is_file() and x.suffix.lower() in MEDIA_EXTENSIONS
+                if x.is_file() and x.suffix.lower() in AUDIO_EXTENSIONS
             )
             folders.append(
                 {
                     "name": f.name,
-                    "path": str(f.relative_to(BASE_DIR)),
+                    "path": str(f.relative_to(AUDIO_FOLDER)),
                     "file_count": count,
                 }
             )
 
-    return jsonify({"files": files, "folders": folders})
+    return jsonify({"files": files, "folders": folders, "current_path": target_path})
+
+
+@app.route("/api/folder/create", methods=["POST"])
+@require_api_key
+def create_playlist():
+    """Create a new playlist (folder) in audio directory"""
+    data = request.json or {}
+    name = data.get("name", "").strip()
+    target_path = data.get("path", "")
+    
+    if not name:
+        return jsonify({"error": "Nama playlist tidak boleh kosong"}), 400
+        
+    # Validasi nama folder (hilangkan karakter aneh)
+    safe_name = secure_filename(name)
+    if not safe_name:
+        safe_name = name.replace(" ", "_").replace("/", "").replace("\\", "")
+        
+    target_dir = AUDIO_FOLDER
+    if target_path:
+        try:
+            target_dir = (AUDIO_FOLDER / target_path).resolve()
+            if AUDIO_FOLDER.resolve() not in target_dir.parents and target_dir != AUDIO_FOLDER.resolve():
+                target_dir = AUDIO_FOLDER
+        except Exception:
+            pass
+            
+    new_dir = target_dir / safe_name
+    new_dir.mkdir(parents=True, exist_ok=True)
+    
+    return jsonify({
+        "status": "ok", 
+        "name": new_dir.name,
+        "path": str(new_dir.relative_to(AUDIO_FOLDER))
+    })
+
+
+@app.route("/api/file/move", methods=["POST"])
+@require_api_key
+def move_files():
+    """Move audio files to a different folder"""
+    data = request.json or {}
+    files = data.get("files", [])
+    target_path = data.get("targetPath", "")
+    
+    if not isinstance(files, list) or not files:
+        return jsonify({"error": "Daftar file kosong"}), 400
+        
+    target_dir = AUDIO_FOLDER
+    if target_path:
+        try:
+            target_dir = (AUDIO_FOLDER / target_path).resolve()
+            if AUDIO_FOLDER.resolve() not in target_dir.parents and target_dir != AUDIO_FOLDER.resolve():
+                target_dir = AUDIO_FOLDER
+        except Exception:
+            pass
+            
+    target_dir.mkdir(parents=True, exist_ok=True)
+    
+    moved = []
+    errors = []
+    for file_path in files:
+        try:
+            # list_audio returns file paths relative to BASE_DIR (e.g. 'audio/filename.mp3')
+            file_path_str = str(file_path)
+            if file_path_str.startswith("audio/") or file_path_str.startswith("audio\\"):
+                src = (BASE_DIR / file_path_str).resolve()
+            else:
+                src = (AUDIO_FOLDER / file_path_str).resolve()
+                
+            if AUDIO_FOLDER.resolve() not in src.parents:
+                errors.append(f"{file_path} tidak valid (bukan di dalam folder audio)")
+                continue
+                
+            if src.exists() and src.is_file():
+                dest = _unique_path(target_dir, src.name)
+                shutil.move(str(src), str(dest))
+                moved.append(file_path)
+            else:
+                errors.append(f"{file_path} tidak ditemukan di server")
+        except Exception as e:
+            errors.append(f"{file_path}: {str(e)}")
+            
+    return jsonify({"status": "ok", "moved": moved, "errors": errors})
 
 
 @app.route("/api/audio/upload", methods=["POST"])
@@ -530,8 +634,20 @@ def upload_audio():
         return jsonify({"error": f"Format audio tidak didukung: {ext}"}), 400
 
     filename = secure_filename(file.filename)
+    
+    target_path = request.form.get("path", "")
+    target_dir = AUDIO_FOLDER
+    if target_path:
+        try:
+            target_dir = (AUDIO_FOLDER / target_path).resolve()
+            if AUDIO_FOLDER.resolve() not in target_dir.parents and target_dir != AUDIO_FOLDER.resolve():
+                target_dir = AUDIO_FOLDER
+        except Exception:
+            pass
+            
+    target_dir.mkdir(parents=True, exist_ok=True)
     _ensure_media_dirs()
-    save_path = _unique_path(AUDIO_FOLDER, filename)
+    save_path = _unique_path(target_dir, filename)
 
     # Fix M9: Save file with progress tracking for large files
     file_size = file.content_length or 0
@@ -581,6 +697,18 @@ def upload_and_convert_video():
         return jsonify({"error": f"Format video tidak didukung: {ext}"}), 400
 
     filename = secure_filename(file.filename)
+    
+    target_path = request.form.get("path", "")
+    target_dir = AUDIO_FOLDER
+    if target_path:
+        try:
+            target_dir = (AUDIO_FOLDER / target_path).resolve()
+            if AUDIO_FOLDER.resolve() not in target_dir.parents and target_dir != AUDIO_FOLDER.resolve():
+                target_dir = AUDIO_FOLDER
+        except Exception:
+            pass
+
+    target_dir.mkdir(parents=True, exist_ok=True)
     _ensure_media_dirs()
     temp_video_path = _unique_path(VIDEO_UPLOAD_FOLDER, filename)
 
@@ -588,7 +716,7 @@ def upload_and_convert_video():
         file.save(str(temp_video_path))
         info(f"🎬 Video uploaded: {temp_video_path.name}")
 
-        mp3_path, logs = _convert_video_to_mp3(temp_video_path)
+        mp3_path, logs = _convert_video_to_mp3(temp_video_path, target_dir)
         info(f"🎵 Video converted to MP3: {mp3_path.name}")
 
         return jsonify(
@@ -1029,8 +1157,13 @@ def _run_transcribe(job_id, audio_path, language, do_translate, target_lang):
 
         db.update_job(job_id, progress=PROGRESS_SAVING)
 
-        # simpan file output
-        output_dir = CONVERT_DIR / "single"
+        # simpan file output sesuai struktur folder audio
+        try:
+            rel_path = audio_path.parent.relative_to(AUDIO_FOLDER)
+            output_dir = CONVERT_DIR / "single" / rel_path
+        except ValueError:
+            output_dir = CONVERT_DIR / "single"
+            
         output_dir.mkdir(parents=True, exist_ok=True)
 
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -1207,36 +1340,45 @@ def cancel_transcribe(job_id):
 @app.route("/api/transcript/list", methods=["GET"])
 @require_api_key
 def list_transcripts():
-    """list semua file transcript"""
-    if not CONVERT_DIR.exists():
-        return jsonify({"files": []})
+    """list semua file transcript .txt"""
+    target_path = request.args.get("path", "")
+    target_dir = CONVERT_DIR / "single"
+    
+    if target_path:
+        try:
+            target_dir = (CONVERT_DIR / "single" / target_path).resolve()
+            if (CONVERT_DIR / "single").resolve() not in target_dir.parents and target_dir != (CONVERT_DIR / "single").resolve():
+                return jsonify({"error": "Invalid path"}), 400
+        except Exception:
+            return jsonify({"error": "Invalid path"}), 400
+
+    if not target_dir.exists():
+        return jsonify({"files": [], "folders": [], "current_path": target_path})
 
     files = []
-    for path in sorted(
-        CONVERT_DIR.rglob("*.txt"), key=lambda x: x.stat().st_mtime, reverse=True
-    ):
-        try:
-            rel = path.relative_to(BASE_DIR)
-            label = (
-                path.relative_to(CONVERT_DIR).parts[0]
-                if len(path.relative_to(CONVERT_DIR).parts) > 1
-                else "root"
-            )
+    folders = []
+    
+    for f in sorted(target_dir.iterdir()):
+        if f.is_file() and f.suffix.lower() == ".txt":
             files.append(
                 {
-                    "name": path.name,
-                    "path": str(rel),
-                    "label": label,
-                    "size": path.stat().st_size,
-                    "modified": datetime.fromtimestamp(
-                        path.stat().st_mtime
-                    ).isoformat(),
+                    "name": f.name,
+                    "path": str(f.relative_to(BASE_DIR)),
+                    "size": f.stat().st_size,
+                    "modified": datetime.fromtimestamp(f.stat().st_mtime).isoformat(),
                 }
             )
-        except Exception:
-            continue
+        elif f.is_dir():
+            count = sum(1 for x in f.rglob("*.txt") if x.is_file())
+            folders.append(
+                {
+                    "name": f.name,
+                    "path": str(f.relative_to(CONVERT_DIR / "single")),
+                    "file_count": count,
+                }
+            )
 
-    return jsonify({"files": files})
+    return jsonify({"files": files, "folders": folders, "current_path": target_path})
 
 
 @app.route("/api/transcript/<path:filepath>", methods=["GET"])
@@ -1377,10 +1519,11 @@ def merge_pdfs():
 @require_api_key
 def list_pdfs():
     """list semua file PDF"""
+    target_path = request.args.get("path", "")
     # Fix H7: Use shared utility function
-    files = get_pdf_files()
-    info(f"📄 PDF list: found {len(files)} PDF files")
-    return jsonify({"files": files})
+    result = get_pdf_files(target_path)
+    info(f"📄 PDF list: found {len(result['files'])} PDF files")
+    return jsonify({"files": result['files'], "folders": result['folders'], "current_path": target_path})
 
 
 # ============================================================
@@ -1395,8 +1538,9 @@ def browse_files():
     # restrict ke folder yang aman
     allowed_roots = ["audio", "output", "summary"]
     if folder:
-        root = folder.split("/")[0].split("\\")[0]
-        if root not in allowed_roots:
+        # Check if the folder starts with one of the allowed roots
+        parts = Path(folder).parts
+        if not parts or parts[0] not in allowed_roots:
             return jsonify({"error": "Folder tidak diizinkan"}), 403
         target = BASE_DIR / folder
     else:

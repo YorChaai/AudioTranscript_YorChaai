@@ -9,6 +9,7 @@ import '../config/theme.dart';
 import '../widgets/responsive_layout.dart';
 import '../widgets/sort_menu.dart';
 import '../providers/sort_provider.dart';
+import '../services/api_service.dart';
 
 class TranscribeScreen extends StatefulWidget {
   const TranscribeScreen({super.key});
@@ -77,6 +78,7 @@ class _TranscribeScreenState extends State<TranscribeScreen>
           isVideo ? ['mp4', 'mkv', 'avi', 'mov'] : ['mp3', 'wav', 'm4a', 'ogg'],
     );
     if (result != null && result.files.single.path != null) {
+      if (!mounted) return;
       final file = File(result.files.single.path!);
       final prov = context.read<TranscribeProvider>();
       final success = await prov.uploadAudioFile(file, isVideo: isVideo);
@@ -249,6 +251,8 @@ class _TranscribeScreenState extends State<TranscribeScreen>
               children: [
                 _buildHeader(sortProv),
                 const SizedBox(height: 16),
+                _buildBreadcrumb(prov),
+                const SizedBox(height: 16),
                 Expanded(child: _buildAudioContent(prov, sortProv)),
               ],
             ),
@@ -279,6 +283,12 @@ class _TranscribeScreenState extends State<TranscribeScreen>
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16),
               child: _buildHeader(sortProv, isMobile: true),
+            ),
+          ),
+          SliverToBoxAdapter(
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: _buildBreadcrumb(prov),
             ),
           ),
           const SliverToBoxAdapter(child: SizedBox(height: 16)),
@@ -349,6 +359,55 @@ class _TranscribeScreenState extends State<TranscribeScreen>
     );
   }
 
+  Widget _buildBreadcrumb(TranscribeProvider prov) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+      decoration: BoxDecoration(
+        color: AppTheme.cardDark,
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(color: AppTheme.dividerColor),
+      ),
+      child: Row(
+        children: [
+          if (prov.currentPath.isNotEmpty)
+            InkWell(
+              onTap: () => prov.goBack(),
+              child: const Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Icon(Icons.arrow_back_rounded, size: 18, color: AppTheme.accentBlue),
+                  SizedBox(width: 4),
+                  Text('Kembali', style: TextStyle(fontSize: 13, color: AppTheme.accentBlue)),
+                  SizedBox(width: 12),
+                ],
+              ),
+            ),
+          InkWell(
+            onTap: prov.currentPath.isNotEmpty ? () => prov.goToRoot() : null,
+            child: Text(
+              '📁 root',
+              style: TextStyle(
+                fontSize: 13,
+                color: prov.currentPath.isNotEmpty ? AppTheme.accentBlue : AppTheme.textPrimary,
+                fontWeight: FontWeight.w500,
+              ),
+            ),
+          ),
+          if (prov.currentPath.isNotEmpty) ...[
+            const Text(' / ', style: TextStyle(color: AppTheme.textMuted)),
+            Expanded(
+              child: Text(
+                prov.currentPath,
+                style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w600),
+                overflow: TextOverflow.ellipsis,
+              ),
+            ),
+          ],
+        ],
+      ),
+    );
+  }
+
   Widget _buildSidebar(TranscribeProvider prov, {required bool isMobile}) {
     // Get details of selected files
     final selectedDetails = prov.audioFiles.where((f) {
@@ -377,6 +436,12 @@ class _TranscribeScreenState extends State<TranscribeScreen>
               ),
             ),
             const SizedBox(height: 16),
+            _buildUploadButton(
+              icon: Icons.create_new_folder,
+              label: 'Buat Playlist',
+              onPressed: prov.transcribing ? null : () => _showCreateFolderDialog(prov),
+            ),
+            const SizedBox(height: 12),
             _buildUploadButton(
               icon: Icons.audio_file,
               label: 'Upload Audio',
@@ -409,6 +474,12 @@ class _TranscribeScreenState extends State<TranscribeScreen>
                         fontWeight: FontWeight.w600),
                   ),
                   const Spacer(),
+                  if (_selectedFiles.isNotEmpty)
+                    IconButton(
+                      icon: const Icon(Icons.drive_file_move, color: AppTheme.accentBlue),
+                      tooltip: 'Pindah ke Playlist',
+                      onPressed: () => _showMoveDialog(prov),
+                    ),
                   TextButton(
                     onPressed: () => setState(() => _selectedFiles.clear()),
                     child: const Text('Clear', style: TextStyle(fontSize: 12)),
@@ -720,11 +791,20 @@ class _TranscribeScreenState extends State<TranscribeScreen>
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
       sliver: SliverList(
         delegate: SliverChildBuilderDelegate(
-          (context, index) => Padding(
-            padding: const EdgeInsets.only(bottom: 12),
-            child: _buildFileItem(filteredFiles[index], index, prov),
-          ),
-          childCount: filteredFiles.length,
+          (context, index) {
+            if (index < prov.folders.length) {
+              return Padding(
+                padding: const EdgeInsets.only(bottom: 12),
+                child: _buildFolderItem(prov.folders[index], prov),
+              );
+            } else {
+              return Padding(
+                padding: const EdgeInsets.only(bottom: 12),
+                child: _buildFileItem(filteredFiles[index - prov.folders.length], index, prov),
+              );
+            }
+          },
+          childCount: prov.folders.length + filteredFiles.length,
         ),
       ),
     );
@@ -834,11 +914,55 @@ class _TranscribeScreenState extends State<TranscribeScreen>
         crossAxisSpacing: 16,
         childAspectRatio: 2.5,
       ),
-      itemCount: filteredFiles.length,
+      itemCount: prov.folders.length + filteredFiles.length,
       itemBuilder: (context, index) {
-        final file = filteredFiles[index];
+        if (index < prov.folders.length) {
+            return _buildFolderItem(prov.folders[index], prov);
+        }
+        final file = filteredFiles[index - prov.folders.length];
         return _buildFileItem(file, index, prov);
       },
+    );
+  }
+
+  Widget _buildFolderItem(Map<String, dynamic> folder, TranscribeProvider prov) {
+    return InkWell(
+      onTap: () => prov.navigateTo(folder['path']),
+      borderRadius: BorderRadius.circular(12),
+      child: Container(
+        padding: const EdgeInsets.all(12),
+        decoration: BoxDecoration(
+          color: AppTheme.cardDark,
+          borderRadius: BorderRadius.circular(12),
+          border: Border.all(color: AppTheme.dividerColor),
+        ),
+        child: Row(
+          children: [
+            const Icon(Icons.folder_rounded, color: AppTheme.browserColor, size: 32),
+            const SizedBox(width: 12),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisAlignment: MainAxisAlignment.center,
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Text(
+                    folder['name'] ?? 'Folder',
+                    style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                  const SizedBox(height: 2),
+                  Text(
+                    '${folder['file_count'] ?? 0} files',
+                    style: const TextStyle(color: AppTheme.textSecondary, fontSize: 12),
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
     );
   }
 
@@ -908,6 +1032,154 @@ class _TranscribeScreenState extends State<TranscribeScreen>
           ],
         ),
       ),
+    );
+  }
+
+  void _showCreateFolderDialog(TranscribeProvider prov) {
+    final tc = TextEditingController();
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        backgroundColor: AppTheme.cardDark,
+        title: const Text('Buat Playlist Baru', style: TextStyle(color: Colors.white)),
+        content: TextField(
+          controller: tc,
+          style: const TextStyle(color: Colors.white),
+          decoration: const InputDecoration(hintText: 'Nama Playlist', hintStyle: TextStyle(color: AppTheme.textSecondary)),
+        ),
+        actions: [
+          TextButton(onPressed: () => Navigator.pop(context), child: const Text('Batal')),
+          TextButton(
+            onPressed: () async {
+              if (tc.text.isNotEmpty) {
+                Navigator.pop(context);
+                await prov.createPlaylist(tc.text);
+              }
+            },
+            child: const Text('Buat'),
+          ),
+        ],
+      ),
+    );
+  }
+
+  String _formatRelativePath(String currentPath, String targetPath, String targetName) {
+    // Normalize paths to use forward slashes (fix for Windows backslash paths)
+    String normCurrent = currentPath.replaceAll('\\', '/');
+    String normTarget = targetPath.replaceAll('\\', '/');
+    
+    if (normCurrent.isEmpty) {
+      if (normTarget.isEmpty) return 'root';
+      return '/$targetName';
+    }
+    
+    List<String> currentParts = normCurrent.split('/');
+    List<String> targetParts = normTarget.isEmpty ? [] : normTarget.split('/');
+    
+    if (normTarget.isEmpty) {
+      return '${List.filled(currentParts.length, '..../').join('')}root';
+    }
+    
+    int common = 0;
+    while (common < currentParts.length && common < targetParts.length && currentParts[common] == targetParts[common]) {
+      common++;
+    }
+    
+    int levelsUp = currentParts.length - common;
+    if (levelsUp == 0) {
+      return '/$targetName';
+    } else {
+      String dots = List.filled(levelsUp, '..../').join('');
+      return '$dots$targetName';
+    }
+  }
+
+  void _showMoveDialog(TranscribeProvider prov) {
+    showDialog(
+      context: context,
+      builder: (context) {
+        String? selectedPath;
+        
+        return StatefulBuilder(
+          builder: (context, setDialogState) {
+            return AlertDialog(
+              backgroundColor: AppTheme.cardDark,
+              title: const Text('Pindah ke Playlist', style: TextStyle(color: Colors.white)),
+              content: SizedBox(
+                width: double.maxFinite,
+                child: FutureBuilder<Map<String, dynamic>>(
+                  future: ApiService.listAudio(path: ''),
+                  builder: (context, snapshot) {
+                    if (snapshot.connectionState == ConnectionState.waiting) {
+                      return const Center(child: Padding(padding: EdgeInsets.all(20), child: CircularProgressIndicator()));
+                    }
+                    
+                    final rootFolders = (snapshot.data?['folders'] as List?)?.cast<Map<String, dynamic>>() ?? [];
+                    
+                    final Map<String, String> allDestinations = {};
+                    
+                    if (prov.currentPath.isNotEmpty) {
+                       allDestinations[''] = 'root';
+                    }
+                    
+                    for (String p in prov.pathHistory) {
+                       if (p.isNotEmpty) {
+                          allDestinations[p] = p.split('/').last;
+                       }
+                    }
+                    
+                    for (var f in rootFolders) {
+                       allDestinations[f['path'] as String] = f['name'] as String;
+                    }
+                    for (var f in prov.folders) {
+                       allDestinations[f['path'] as String] = f['name'] as String;
+                    }
+                    allDestinations.remove(prov.currentPath);
+
+                    return ListView(
+                      shrinkWrap: true,
+                      children: allDestinations.entries.map((e) {
+                        final path = e.key;
+                        final name = e.value;
+                        final displayTitle = _formatRelativePath(prov.currentPath, path, name);
+                        final isRoot = path.isEmpty;
+                        final isSelected = selectedPath == path;
+                        
+                        return ListTile(
+                          leading: Icon(isRoot ? Icons.home : Icons.folder, color: isRoot ? AppTheme.accentCyan : AppTheme.browserColor),
+                          title: Text(displayTitle, style: TextStyle(color: isSelected ? AppTheme.accentBlue : Colors.white, fontWeight: isSelected ? FontWeight.bold : FontWeight.w500)),
+                          selected: isSelected,
+                          selectedTileColor: AppTheme.accentBlue.withOpacity(0.1),
+                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+                          onTap: () {
+                             setDialogState(() {
+                               selectedPath = path;
+                             });
+                          },
+                        );
+                      }).toList(),
+                    );
+                  }
+                ),
+              ),
+              actions: [
+                TextButton(
+                  onPressed: () => Navigator.pop(context), 
+                  child: const Text('Batal', style: TextStyle(color: Colors.white70))
+                ),
+                ElevatedButton(
+                  onPressed: selectedPath == null ? null : () {
+                    Navigator.pop(context);
+                    prov.moveFilesTo(_selectedFiles, selectedPath!).then((_) => setState(() => _selectedFiles.clear()));
+                  },
+                  style: ElevatedButton.styleFrom(backgroundColor: AppTheme.accentBlue),
+                  child: const Text('Pindah', style: TextStyle(color: Colors.white)),
+                ),
+              ],
+            );
+          }
+        );
+      },
     );
   }
 }
