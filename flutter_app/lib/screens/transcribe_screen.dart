@@ -46,7 +46,9 @@ class _TranscribeScreenState extends State<TranscribeScreen>
     });
 
     WidgetsBinding.instance.addPostFrameCallback((_) {
-      context.read<TranscribeProvider>().loadAudioFiles();
+      if (mounted) {
+        context.read<TranscribeProvider>().loadAudioFiles();
+      }
     });
   }
 
@@ -140,190 +142,12 @@ class _TranscribeScreenState extends State<TranscribeScreen>
       }
     }
 
-    return SafeArea(
-      child: isWide
-          ? _buildDesktopLayout(prov, sortProv)
-          : _buildMobileLayout(prov, sortProv),
-    );
-  }
-
-  Widget _buildDesktopLayout(TranscribeProvider prov, SortProvider sortProv) {
-    return Padding(
-      padding: const EdgeInsets.all(32),
-      child: Row(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Expanded(
-            flex: 2,
-            child: _buildMainContent(prov, sortProv),
-          ),
-          const SizedBox(width: 32),
-          SizedBox(
-            width: 350,
-            child: _buildSidebar(prov),
-          ),
-        ],
-      ),
-    );
-  }
-
-  Widget _buildMobileLayout(TranscribeProvider prov, SortProvider sortProv) {
-    return SingleChildScrollView(
-      padding: const EdgeInsets.all(16),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          _buildSidebar(prov),
-          const SizedBox(height: 24),
-          // Use a fixed height for the content area in mobile to avoid unbounded height
-          SizedBox(
-            height: 600, // Reasonable height for mobile audio list
-            child: _buildMainContent(prov, sortProv),
-          ),
-        ],
-      ),
-    );
-  }
-
-  Widget _buildSidebar(TranscribeProvider prov) {
-    return Card(
-      color: AppTheme.cardDark,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(16),
-        side: const BorderSide(color: AppTheme.dividerColor, width: 1),
-      ),
-      child: SingleChildScrollView(
-        padding: const EdgeInsets.all(24),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            const Text('Upload File',
-                style: TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.white)),
-            const SizedBox(height: 16),
-            ElevatedButton.icon(
-              icon: const Icon(Icons.audio_file),
-              label: const Text('Upload Audio'),
-              style: ElevatedButton.styleFrom(
-                backgroundColor: AppTheme.accentBlue,
-                foregroundColor: Colors.white,
-                padding: const EdgeInsets.symmetric(vertical: 16),
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(12)),
-              ),
-              onPressed:
-                  prov.transcribing ? null : () => _uploadFile(isVideo: false),
-            ),
-            const SizedBox(height: 12),
-            ElevatedButton.icon(
-              icon: const Icon(Icons.video_file),
-              label: const Text('Upload Video (ke MP3)'),
-              style: ElevatedButton.styleFrom(
-                backgroundColor: AppTheme.accentBlue,
-                foregroundColor: Colors.white,
-                padding: const EdgeInsets.symmetric(vertical: 16),
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(12)),
-              ),
-              onPressed:
-                  prov.transcribing ? null : () => _uploadFile(isVideo: true),
-            ),
-            const Divider(height: 48, color: AppTheme.dividerColor),
-            const Text('Pengaturan',
-                style: TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.white)),
-            const SizedBox(height: 16),
-            DropdownButtonFormField<String>(
-              value: _language,
-              dropdownColor: AppTheme.cardDark,
-              style: const TextStyle(color: Colors.white),
-              decoration: InputDecoration(
-                labelText: 'Bahasa Audio',
-                labelStyle: const TextStyle(color: AppTheme.textSecondary),
-                border:
-                    OutlineInputBorder(borderRadius: BorderRadius.circular(8)),
-              ),
-              items: const [
-                DropdownMenuItem(value: 'auto', child: Text('Auto Detect')),
-                DropdownMenuItem(value: 'id', child: Text('Indonesia')),
-                DropdownMenuItem(value: 'en', child: Text('English (Inggris)')),
-                DropdownMenuItem(value: 'ja', child: Text('Japanese (Jepang)')),
-                DropdownMenuItem(value: 'ko', child: Text('Korean (Korea)')),
-              ],
-              onChanged: prov.transcribing
-                  ? null
-                  : (v) => setState(() => _language = v!),
-            ),
-            const SizedBox(height: 16),
-            CheckboxListTile(
-              title: const Text('Terjemahkan hasil?',
-                  style: TextStyle(color: Colors.white)),
-              value: _doTranslate,
-              onChanged: prov.transcribing
-                  ? null
-                  : (v) => setState(() => _doTranslate = v ?? false),
-              activeColor: AppTheme.accentBlue,
-              checkColor: Colors.white,
-              contentPadding: EdgeInsets.zero,
-            ),
-            if (_doTranslate) ...[
-              const SizedBox(height: 8),
-              DropdownButtonFormField<String>(
-                value: _targetLang,
-                dropdownColor: AppTheme.cardDark,
-                style: const TextStyle(color: Colors.white),
-                decoration: InputDecoration(
-                  labelText: 'Target Bahasa',
-                  labelStyle: const TextStyle(color: AppTheme.textSecondary),
-                  border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(8)),
-                ),
-                items: const [
-                  DropdownMenuItem(value: 'id', child: Text('Indonesia')),
-                  DropdownMenuItem(
-                      value: 'en', child: Text('English (Inggris)')),
-                  DropdownMenuItem(
-                      value: 'ja', child: Text('Japanese (Jepang)')),
-                  DropdownMenuItem(value: 'ko', child: Text('Korean (Korea)')),
-                ],
-                onChanged: prov.transcribing
-                    ? null
-                    : (v) => setState(() => _targetLang = v!),
-              ),
-            ],
-            const SizedBox(height: 32),
-            ElevatedButton.icon(
-              icon: prov.transcribing
-                  ? const SizedBox(
-                      width: 20,
-                      height: 20,
-                      child: CircularProgressIndicator(
-                          strokeWidth: 2, color: Colors.white))
-                  : const Icon(Icons.play_arrow),
-              label: Text(prov.transcribing
-                  ? 'Sedang Memproses...'
-                  : 'Mulai Transcribe'),
-              style: ElevatedButton.styleFrom(
-                backgroundColor: prov.transcribing
-                    ? AppTheme.dividerColor
-                    : AppTheme.accentBlue,
-                foregroundColor: Colors.white,
-                padding: const EdgeInsets.symmetric(vertical: 20),
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(12)),
-              ),
-              onPressed: prov.transcribing ? null : _startTranscribe,
-            ),
-            if (prov.transcribing || prov.outputFile != null) ...[
-              const SizedBox(height: 24),
-              _buildStatusPanel(prov),
-            ],
-          ],
-        ),
+    return Scaffold(
+      backgroundColor: AppTheme.backgroundDark,
+      body: SafeArea(
+        child: isWide
+            ? _buildDesktopLayout(prov, sortProv)
+            : _buildMobileLayout(prov, sortProv),
       ),
     );
   }
@@ -370,7 +194,8 @@ class _TranscribeScreenState extends State<TranscribeScreen>
                 value: _displayProgress / 100,
                 minHeight: 8,
                 backgroundColor: AppTheme.dividerColor,
-                valueColor: AlwaysStoppedAnimation<Color>(AppTheme.accentBlue),
+                valueColor:
+                    const AlwaysStoppedAnimation<Color>(AppTheme.accentBlue),
               ),
             ),
             const SizedBox(height: 8),
@@ -381,8 +206,11 @@ class _TranscribeScreenState extends State<TranscribeScreen>
                   const TextStyle(color: AppTheme.textSecondary, fontSize: 12),
             ),
             TextButton.icon(
-              onPressed: () =>
-                  context.read<TranscribeProvider>().cancelTranscribe(),
+              onPressed: () {
+                if (mounted) {
+                  context.read<TranscribeProvider>().cancelTranscribe();
+                }
+              },
               icon: const Icon(Icons.cancel, color: AppTheme.error),
               label: const Text('Batalkan',
                   style: TextStyle(color: AppTheme.error)),
@@ -397,7 +225,11 @@ class _TranscribeScreenState extends State<TranscribeScreen>
                 backgroundColor: AppTheme.success,
                 foregroundColor: Colors.white,
               ),
-              onPressed: () => context.go('/editor?file=${prov.outputFile}'),
+              onPressed: () {
+                if (mounted) {
+                  context.go('/editor?file=${prov.outputFile}');
+                }
+              },
             ),
           ],
         ],
@@ -405,49 +237,96 @@ class _TranscribeScreenState extends State<TranscribeScreen>
     );
   }
 
-  Widget _buildMainContent(TranscribeProvider prov, SortProvider sortProv) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.stretch,
+  Widget _buildDesktopLayout(TranscribeProvider prov, SortProvider sortProv) {
+    return Padding(
+      padding: const EdgeInsets.all(32),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                _buildHeader(sortProv),
+                const SizedBox(height: 16),
+                Expanded(child: _buildAudioContent(prov, sortProv)),
+              ],
+            ),
+          ),
+          const SizedBox(width: 32),
+          SizedBox(
+            width: 350,
+            child: _buildSidebar(prov, isMobile: false),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildMobileLayout(TranscribeProvider prov, SortProvider sortProv) {
+    return RefreshIndicator(
+      onRefresh: () => context.read<TranscribeProvider>().loadAudioFiles(),
+      child: CustomScrollView(
+        physics: const BouncingScrollPhysics(),
+        slivers: [
+          SliverToBoxAdapter(
+            child: Padding(
+              padding: const EdgeInsets.fromLTRB(16, 16, 16, 24),
+              child: _buildSidebar(prov, isMobile: true),
+            ),
+          ),
+          SliverToBoxAdapter(
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: _buildHeader(sortProv, isMobile: true),
+            ),
+          ),
+          const SliverToBoxAdapter(child: SizedBox(height: 16)),
+          _buildAudioSliverContent(prov, sortProv),
+          const SliverToBoxAdapter(child: SizedBox(height: 20)),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildHeader(SortProvider sortProv, {bool isMobile = false}) {
+    return Wrap(
+      spacing: 12,
+      runSpacing: 12,
+      crossAxisAlignment: WrapCrossAlignment.center,
       children: [
-        Row(
-          children: [
-            const Text(
-              'File Audio Server',
-              style: TextStyle(
-                  fontSize: 24,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.white),
-            ),
-            const SizedBox(width: 16),
-            Expanded(
-              child: TextField(
-                style: const TextStyle(color: Colors.white),
-                decoration: InputDecoration(
-                  hintText: 'Cari file...',
-                  hintStyle: const TextStyle(color: AppTheme.textSecondary),
-                  prefixIcon:
-                      const Icon(Icons.search, color: AppTheme.textSecondary),
-                  filled: true,
-                  fillColor: AppTheme.cardDark,
-                  border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(12),
-                    borderSide: const BorderSide(color: AppTheme.dividerColor),
-                  ),
-                  enabledBorder: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(12),
-                    borderSide: const BorderSide(color: AppTheme.dividerColor),
-                  ),
-                  contentPadding:
-                      const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-                ),
-                onChanged: (val) {
-                  setState(() {
-                    _searchQuery = val;
-                  });
-                },
+        Text(
+          'File Audio Server',
+          style: TextStyle(
+            fontSize: isMobile ? 20 : 24,
+            fontWeight: FontWeight.bold,
+            color: Colors.white,
+          ),
+        ),
+        SizedBox(
+          width: isMobile ? double.infinity : 300,
+          child: TextField(
+            style: const TextStyle(color: Colors.white),
+            decoration: InputDecoration(
+              hintText: 'Cari file...',
+              hintStyle: const TextStyle(color: AppTheme.textSecondary),
+              prefixIcon:
+                  const Icon(Icons.search, color: AppTheme.textSecondary),
+              filled: true,
+              fillColor: AppTheme.cardDark,
+              border: OutlineInputBorder(
+                borderRadius: BorderRadius.circular(12),
+                borderSide: const BorderSide(color: AppTheme.dividerColor),
               ),
+              contentPadding:
+                  const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
             ),
-            const SizedBox(width: 8),
+            onChanged: (val) => setState(() => _searchQuery = val),
+          ),
+        ),
+        Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
             SortMenu(
               sortBy: sortProv.sortBy,
               sortAscending: sortProv.sortAscending,
@@ -457,29 +336,449 @@ class _TranscribeScreenState extends State<TranscribeScreen>
             const SizedBox(width: 8),
             IconButton(
               icon: const Icon(Icons.refresh, color: AppTheme.accentBlue),
-              onPressed: () =>
-                  context.read<TranscribeProvider>().loadAudioFiles(),
+              onPressed: () {
+                if (mounted) {
+                  context.read<TranscribeProvider>().loadAudioFiles();
+                }
+              },
               tooltip: 'Refresh',
             ),
           ],
         ),
-        const SizedBox(height: 16),
-        if (prov.isLoading)
-          const Center(child: CircularProgressIndicator())
-        else if (prov.audioFiles.isEmpty)
-          const Center(
-            child: Padding(
-              padding: EdgeInsets.all(32.0),
-              child: Text(
-                'Belum ada file audio di server.\\nUpload file baru untuk mulai.',
-                textAlign: TextAlign.center,
-                style: TextStyle(color: AppTheme.textSecondary),
+      ],
+    );
+  }
+
+  Widget _buildSidebar(TranscribeProvider prov, {required bool isMobile}) {
+    // Get details of selected files
+    final selectedDetails = prov.audioFiles.where((f) {
+      final path = f['path'] as String? ?? f['name'] as String;
+      return _selectedFiles.contains(path);
+    }).toList();
+
+    return Card(
+      color: AppTheme.cardDark,
+      margin: EdgeInsets.zero,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(16),
+        side: const BorderSide(color: AppTheme.dividerColor, width: 1),
+      ),
+      child: Padding(
+        padding: EdgeInsets.all(isMobile ? 16 : 24),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Text(
+              'Upload File',
+              style: TextStyle(
+                fontSize: isMobile ? 16 : 18,
+                fontWeight: FontWeight.bold,
+                color: Colors.white,
               ),
             ),
-          )
-        else
-          Expanded(child: _buildAudioGrid(prov, sortProv)),
-      ],
+            const SizedBox(height: 16),
+            _buildUploadButton(
+              icon: Icons.audio_file,
+              label: 'Upload Audio',
+              onPressed:
+                  prov.transcribing ? null : () => _uploadFile(isVideo: false),
+            ),
+            const SizedBox(height: 12),
+            _buildUploadButton(
+              icon: Icons.video_file,
+              label: isMobile ? 'Upload Video' : 'Upload Video (ke MP3)',
+              onPressed:
+                  prov.transcribing ? null : () => _uploadFile(isVideo: true),
+            ),
+
+            // DYNAMIC SELECTED FILES LIST
+            if (selectedDetails.isNotEmpty) ...[
+              const SizedBox(height: 24),
+              const Divider(color: AppTheme.dividerColor),
+              const SizedBox(height: 12),
+              Row(
+                children: [
+                  const Icon(Icons.playlist_add_check_rounded,
+                      color: AppTheme.accentCyan, size: 20),
+                  const SizedBox(width: 8),
+                  Text(
+                    '${selectedDetails.length} File Dipilih',
+                    style: const TextStyle(
+                        color: Colors.white,
+                        fontSize: 14,
+                        fontWeight: FontWeight.w600),
+                  ),
+                  const Spacer(),
+                  TextButton(
+                    onPressed: () => setState(() => _selectedFiles.clear()),
+                    child: const Text('Clear', style: TextStyle(fontSize: 12)),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 8),
+              Container(
+                constraints: const BoxConstraints(maxHeight: 200),
+                child: ListView.separated(
+                  shrinkWrap: true,
+                  physics: const BouncingScrollPhysics(),
+                  itemCount: selectedDetails.length,
+                  separatorBuilder: (_, __) => const SizedBox(height: 8),
+                  itemBuilder: (context, index) {
+                    final f = selectedDetails[index];
+                    final name = f['name'] ?? 'Unknown';
+                    final size = _formatSize(f['size'] ?? 0);
+                    final path = f['path'] as String? ?? f['name'] as String;
+
+                    return Container(
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 12, vertical: 10),
+                      decoration: BoxDecoration(
+                        color: AppTheme.backgroundDark.withOpacity(0.5),
+                        borderRadius: BorderRadius.circular(10),
+                        border: Border.all(
+                            color: AppTheme.accentBlue.withOpacity(0.2)),
+                      ),
+                      child: Row(
+                        children: [
+                          const Icon(Icons.description_rounded,
+                              size: 16, color: AppTheme.textMuted),
+                          const SizedBox(width: 10),
+                          Expanded(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  name,
+                                  style: const TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 12,
+                                      fontWeight: FontWeight.w500),
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                ),
+                                Text(
+                                  size,
+                                  style: const TextStyle(
+                                      color: AppTheme.textSecondary,
+                                      fontSize: 10),
+                                ),
+                              ],
+                            ),
+                          ),
+                          // INFO BUTTON
+                          IconButton(
+                            onPressed: () => _showFileInfo(f),
+                            icon: const Icon(Icons.info_outline_rounded,
+                                size: 16, color: AppTheme.accentCyan),
+                            padding: EdgeInsets.zero,
+                            constraints: const BoxConstraints(),
+                            visualDensity: VisualDensity.compact,
+                            tooltip: 'Informasi Lengkap',
+                          ),
+                          const SizedBox(width: 8),
+                          // DELETE/REMOVE BUTTON
+                          IconButton(
+                            onPressed: () =>
+                                setState(() => _selectedFiles.remove(path)),
+                            icon: const Icon(Icons.close_rounded,
+                                size: 16, color: AppTheme.error),
+                            padding: EdgeInsets.zero,
+                            constraints: const BoxConstraints(),
+                            visualDensity: VisualDensity.compact,
+                            tooltip: 'Hapus dari daftar',
+                          ),
+                        ],
+                      ),
+                    );
+                  },
+                ),
+              ),
+            ],
+
+            const Divider(height: 48, color: AppTheme.dividerColor),
+            Text(
+              'Pengaturan',
+              style: TextStyle(
+                fontSize: isMobile ? 16 : 18,
+                fontWeight: FontWeight.bold,
+                color: Colors.white,
+              ),
+            ),
+            const SizedBox(height: 16),
+            _buildDropdown(
+              label: 'Bahasa Audio',
+              value: _language,
+              items: const [
+                DropdownMenuItem(value: 'auto', child: Text('Auto Detect')),
+                DropdownMenuItem(value: 'id', child: Text('Indonesia')),
+                DropdownMenuItem(value: 'en', child: Text('English (Inggris)')),
+                DropdownMenuItem(value: 'ja', child: Text('Japanese (Jepang)')),
+                DropdownMenuItem(value: 'ko', child: Text('Korean (Korea)')),
+              ],
+              onChanged: prov.transcribing
+                  ? null
+                  : (v) => setState(() => _language = v!),
+            ),
+            CheckboxListTile(
+              title: const Text('Terjemahkan hasil?',
+                  style: TextStyle(color: Colors.white, fontSize: 14)),
+              value: _doTranslate,
+              onChanged: prov.transcribing
+                  ? null
+                  : (v) => setState(() => _doTranslate = v ?? false),
+              activeColor: AppTheme.accentBlue,
+              checkColor: Colors.white,
+              contentPadding: EdgeInsets.zero,
+            ),
+            if (_doTranslate) ...[
+              const SizedBox(height: 8),
+              _buildDropdown(
+                label: 'Target Bahasa',
+                value: _targetLang,
+                items: const [
+                  DropdownMenuItem(value: 'id', child: Text('Indonesia')),
+                  DropdownMenuItem(
+                      value: 'en', child: Text('English (Inggris)')),
+                  DropdownMenuItem(
+                      value: 'ja', child: Text('Japanese (Jepang)')),
+                  DropdownMenuItem(value: 'ko', child: Text('Korean (Korea)')),
+                ],
+                onChanged: prov.transcribing
+                    ? null
+                    : (v) => setState(() => _targetLang = v!),
+              ),
+            ],
+            const SizedBox(height: 32),
+            ElevatedButton.icon(
+              icon: prov.transcribing
+                  ? const SizedBox(
+                      width: 20,
+                      height: 20,
+                      child: CircularProgressIndicator(
+                          strokeWidth: 2, color: Colors.white))
+                  : const Icon(Icons.play_arrow),
+              label: Text(prov.transcribing
+                  ? 'Sedang Memproses...'
+                  : 'Mulai Transcribe'),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: prov.transcribing
+                    ? AppTheme.dividerColor
+                    : AppTheme.accentBlue,
+                foregroundColor: Colors.white,
+                padding: EdgeInsets.symmetric(vertical: isMobile ? 16 : 20),
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(12)),
+              ),
+              onPressed: prov.transcribing ? null : _startTranscribe,
+            ),
+            if (prov.transcribing || prov.outputFile != null) ...[
+              const SizedBox(height: 24),
+              _buildStatusPanel(prov),
+            ],
+          ],
+        ),
+      ),
+    );
+  }
+
+  void _showFileInfo(Map<String, dynamic> file) {
+    final name = file['name'] ?? 'Unknown';
+    final size = _formatSize(file['size'] ?? 0);
+    final modified = file['modified'] ?? '-';
+    final path = file['path'] ?? '-';
+    final format = name.split('.').last.toUpperCase();
+
+    // DURATION FORMATTING
+    String durationStr = '-';
+    final rawDuration = file['duration'];
+    if (rawDuration != null) {
+      final double dur = (rawDuration is num) ? rawDuration.toDouble() : 0;
+      final int minutes = dur ~/ 60;
+      final int seconds = (dur % 60).toInt();
+      durationStr =
+          '$minutes:${seconds.toString().padLeft(2, '0')} ($dur detik)';
+    }
+
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        backgroundColor: AppTheme.cardDark,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+        title: const Row(
+          children: [
+            Icon(Icons.info_outline_rounded, color: AppTheme.accentCyan),
+            SizedBox(width: 10),
+            Text('Detail File'),
+          ],
+        ),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            _buildInfoRow('Nama File', name),
+            _buildInfoRow('Durasi', durationStr),
+            _buildInfoRow('Ukuran', size),
+            _buildInfoRow('Format', format),
+            _buildInfoRow('Terakhir Diubah', modified),
+            _buildInfoRow('Path di Server', path),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('Tutup'),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildInfoRow(String label, String value) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 4),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(label,
+              style: const TextStyle(
+                  color: AppTheme.textSecondary,
+                  fontSize: 11,
+                  fontWeight: FontWeight.w600)),
+          const SizedBox(height: 2),
+          Text(value,
+              style: const TextStyle(color: Colors.white, fontSize: 13)),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildUploadButton(
+      {required IconData icon,
+      required String label,
+      VoidCallback? onPressed}) {
+    return ElevatedButton.icon(
+      icon: Icon(icon),
+      label: Text(label),
+      style: ElevatedButton.styleFrom(
+        backgroundColor: AppTheme.accentBlue.withOpacity(0.1),
+        foregroundColor: Colors.white,
+        side: const BorderSide(color: AppTheme.accentBlue, width: 1),
+        padding: const EdgeInsets.symmetric(vertical: 16),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+      ),
+      onPressed: onPressed,
+    );
+  }
+
+  Widget _buildDropdown(
+      {required String label,
+      required String value,
+      required List<DropdownMenuItem<String>> items,
+      ValueChanged<String?>? onChanged}) {
+    return DropdownButtonFormField<String>(
+      value: value,
+      dropdownColor: AppTheme.cardDark,
+      style: const TextStyle(color: Colors.white),
+      decoration: InputDecoration(
+        labelText: label,
+        labelStyle:
+            const TextStyle(color: AppTheme.textSecondary, fontSize: 14),
+        border: OutlineInputBorder(borderRadius: BorderRadius.circular(8)),
+        contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+      ),
+      items: items,
+      onChanged: onChanged,
+    );
+  }
+
+  Widget _buildAudioContent(TranscribeProvider prov, SortProvider sortProv) {
+    if (prov.isLoading) return const Center(child: CircularProgressIndicator());
+    if (prov.audioFiles.isEmpty) return _buildEmptyState();
+
+    return _buildAudioGrid(prov, sortProv);
+  }
+
+  Widget _buildAudioSliverContent(
+      TranscribeProvider prov, SortProvider sortProv) {
+    if (prov.isLoading) {
+      return const SliverFillRemaining(
+          child: Center(child: CircularProgressIndicator()));
+    }
+    if (prov.audioFiles.isEmpty) {
+      return SliverFillRemaining(child: _buildEmptyState());
+    }
+
+    final filteredFiles = _getFilteredFiles(prov, sortProv);
+    if (filteredFiles.isEmpty) {
+      return const SliverFillRemaining(
+          child: Center(
+              child: Text('Tidak ada file yang cocok.',
+                  style: TextStyle(color: AppTheme.textSecondary))));
+    }
+
+    return SliverPadding(
+      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+      sliver: SliverList(
+        delegate: SliverChildBuilderDelegate(
+          (context, index) => Padding(
+            padding: const EdgeInsets.only(bottom: 12),
+            child: _buildFileItem(filteredFiles[index], index, prov),
+          ),
+          childCount: filteredFiles.length,
+        ),
+      ),
+    );
+  }
+
+  List<Map<String, dynamic>> _getFilteredFiles(
+      TranscribeProvider prov, SortProvider sortProv) {
+    var filteredFiles = prov.audioFiles.where((file) {
+      final name = (file['name'] ?? '').toString().toLowerCase();
+      return name.contains(_searchQuery.toLowerCase());
+    }).toList();
+
+    filteredFiles.sort((a, b) {
+      int result = 0;
+      switch (sortProv.sortBy) {
+        case 'date':
+          final dateA = a['modified']?.toString() ?? '';
+          final dateB = b['modified']?.toString() ?? '';
+          result = dateA.compareTo(dateB);
+          break;
+        case 'type':
+          final typeA =
+              (a['name']?.toString() ?? '').split('.').last.toLowerCase();
+          final typeB =
+              (b['name']?.toString() ?? '').split('.').last.toLowerCase();
+          result = typeA.compareTo(typeB);
+          break;
+        case 'size':
+          final sizeA = a['size'] as int? ?? 0;
+          final sizeB = b['size'] as int? ?? 0;
+          result = sizeA.compareTo(sizeB);
+          break;
+        case 'name':
+        default:
+          final nameA = (a['name']?.toString() ?? '').toLowerCase();
+          final nameB = (b['name']?.toString() ?? '').toLowerCase();
+          result = nameA.compareTo(nameB);
+          break;
+      }
+      return sortProv.sortAscending ? result : -result;
+    });
+    return filteredFiles;
+  }
+
+  Widget _buildEmptyState() {
+    return const Center(
+      child: Padding(
+        padding: EdgeInsets.all(32.0),
+        child: Text(
+          'Belum ada file audio di server.\nUpload file baru untuk mulai.',
+          textAlign: TextAlign.center,
+          style: TextStyle(color: AppTheme.textSecondary),
+        ),
+      ),
     );
   }
 
@@ -586,6 +885,7 @@ class _TranscribeScreenState extends State<TranscribeScreen>
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisAlignment: MainAxisAlignment.center,
+                mainAxisSize: MainAxisSize.min,
                 children: [
                   Text(
                     file['name'] ?? 'Unknown',
@@ -594,11 +894,13 @@ class _TranscribeScreenState extends State<TranscribeScreen>
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
                   ),
-                  const SizedBox(height: 4),
+                  const SizedBox(height: 2),
                   Text(
                     sizeStr,
                     style: const TextStyle(
                         color: AppTheme.textSecondary, fontSize: 12),
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
                   ),
                 ],
               ),

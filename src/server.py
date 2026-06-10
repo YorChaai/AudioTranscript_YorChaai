@@ -477,14 +477,20 @@ def list_audio():
     MEDIA_EXTENSIONS = AUDIO_EXTENSIONS | VIDEO_EXTENSIONS
     for f in sorted(AUDIO_FOLDER.iterdir()):
         if f.is_file() and f.suffix.lower() in MEDIA_EXTENSIONS:
-            files.append(
-                {
-                    "name": f.name,
-                    "path": str(f.relative_to(BASE_DIR)),
-                    "size": f.stat().st_size,
-                    "modified": datetime.fromtimestamp(f.stat().st_mtime).isoformat(),
-                }
-            )
+            file_info = {
+                "name": f.name,
+                "path": str(f.relative_to(BASE_DIR)),
+                "size": f.stat().st_size,
+                "modified": datetime.fromtimestamp(f.stat().st_mtime).isoformat(),
+            }
+
+            # Fix: Add audio duration info
+            tech = get_audio_info_technical(f)
+            if tech["success"]:
+                file_info["duration"] = tech["duration"]
+                file_info["bitrate"] = tech["bitrate"]
+
+            files.append(file_info)
 
     # list subfolders too
     folders = []
