@@ -242,6 +242,7 @@ LOCAL_MODEL_PATH = os.environ.get("WHISPER_MODEL_PATH", "D:\\model\\large-v3")
 BASE_DIR = Path(__file__).parent.parent  # Project root (src/ is subdir)
 AUDIO_FOLDER = BASE_DIR / "audio"
 CONVERT_DIR = BASE_DIR / "output"
+SUMMARY_DIR = BASE_DIR / "summary"
 UPLOADS_DIR = BASE_DIR / "server" / "uploads"
 VIDEO_UPLOAD_FOLDER = UPLOADS_DIR / "video"
 
@@ -1342,12 +1343,12 @@ def cancel_transcribe(job_id):
 def list_transcripts():
     """list semua file transcript .txt"""
     target_path = request.args.get("path", "")
-    target_dir = CONVERT_DIR / "single"
+    target_dir = CONVERT_DIR
     
     if target_path:
         try:
-            target_dir = (CONVERT_DIR / "single" / target_path).resolve()
-            if (CONVERT_DIR / "single").resolve() not in target_dir.parents and target_dir != (CONVERT_DIR / "single").resolve():
+            target_dir = (CONVERT_DIR / target_path).resolve()
+            if CONVERT_DIR.resolve() not in target_dir.parents and target_dir != CONVERT_DIR.resolve():
                 return jsonify({"error": "Invalid path"}), 400
         except Exception:
             return jsonify({"error": "Invalid path"}), 400
@@ -1373,7 +1374,51 @@ def list_transcripts():
             folders.append(
                 {
                     "name": f.name,
-                    "path": str(f.relative_to(CONVERT_DIR / "single")),
+                    "path": str(f.relative_to(CONVERT_DIR)),
+                    "file_count": count,
+                }
+            )
+
+    return jsonify({"files": files, "folders": folders, "current_path": target_path})
+
+
+@app.route("/api/summary/list", methods=["GET"])
+@require_api_key
+def list_summaries():
+    """list semua file summary .md / .txt"""
+    target_path = request.args.get("path", "")
+    target_dir = SUMMARY_DIR
+    
+    if target_path:
+        try:
+            target_dir = (SUMMARY_DIR / target_path).resolve()
+            if SUMMARY_DIR.resolve() not in target_dir.parents and target_dir != SUMMARY_DIR.resolve():
+                return jsonify({"error": "Invalid path"}), 400
+        except Exception:
+            return jsonify({"error": "Invalid path"}), 400
+
+    if not target_dir.exists():
+        return jsonify({"files": [], "folders": [], "current_path": target_path})
+
+    files = []
+    folders = []
+    
+    for f in sorted(target_dir.iterdir()):
+        if f.is_file() and (f.suffix.lower() == ".md" or f.suffix.lower() == ".txt"):
+            files.append(
+                {
+                    "name": f.name,
+                    "path": str(f.relative_to(BASE_DIR)),
+                    "size": f.stat().st_size,
+                    "modified": datetime.fromtimestamp(f.stat().st_mtime).isoformat(),
+                }
+            )
+        elif f.is_dir():
+            count = sum(1 for x in f.rglob("*.*") if x.is_file() and (x.suffix.lower() == ".md" or x.suffix.lower() == ".txt"))
+            folders.append(
+                {
+                    "name": f.name,
+                    "path": str(f.relative_to(SUMMARY_DIR)),
                     "file_count": count,
                 }
             )

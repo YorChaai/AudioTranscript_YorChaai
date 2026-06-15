@@ -265,12 +265,12 @@ def get_pdf_files(target_path=""):
     Returns:
         dict dengan files dan folders
     """
-    target_dir = CONVERT_DIR / "single"
+    target_dir = CONVERT_DIR
     
     if target_path:
         try:
-            target_dir = (CONVERT_DIR / "single" / target_path).resolve()
-            if (CONVERT_DIR / "single").resolve() not in target_dir.parents and target_dir != (CONVERT_DIR / "single").resolve():
+            target_dir = (CONVERT_DIR / target_path).resolve()
+            if CONVERT_DIR.resolve() not in target_dir.parents and target_dir != CONVERT_DIR.resolve():
                 return {"files": [], "folders": []}
         except Exception:
             return {"files": [], "folders": []}
@@ -296,7 +296,7 @@ def get_pdf_files(target_path=""):
             folders.append(
                 {
                     "name": f.name,
-                    "path": str(f.relative_to(CONVERT_DIR / "single")),
+                    "path": str(f.relative_to(CONVERT_DIR)),
                     "file_count": count,
                 }
             )

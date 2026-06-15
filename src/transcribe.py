@@ -504,7 +504,6 @@ def translate_text(
 def resolve_translation_target(
     detected_language: str | None, do_translate: bool, target_lang: str
 ) -> tuple[bool, str]:
-    """Default: semua bahasa non-Indonesia otomatis diterjemahkan ke Indonesia."""
     detected = (detected_language or "").lower().strip()
     requested_target = (target_lang or AUTO_TRANSLATE_TARGET).lower().strip()
 
@@ -512,9 +511,6 @@ def resolve_translation_target(
         if detected and detected == requested_target:
             return False, requested_target
         return True, requested_target
-
-    if detected and detected != AUTO_TRANSLATE_TARGET:
-        return True, AUTO_TRANSLATE_TARGET
 
     return False, requested_target
 

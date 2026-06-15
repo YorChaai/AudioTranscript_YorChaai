@@ -243,9 +243,9 @@ def save_summary(original_path, summary, model_name):
         relative_path = original_path.relative_to(CONVERT_TXT_DIR)
 
         # Buat path baru di folder summary
-        # Contoh: D:\...\summary\single\file_summary.md
+        # Contoh: D:\...\summary\single\file(summary).txt
         new_path = SUMMARY_DIR / relative_path
-        new_path = new_path.with_name(f"{original_path.stem}_summary.md")
+        new_path = new_path.with_name(f"{original_path.stem}(summary).txt")
 
         # Pastikan parent directory ada
         new_path.parent.mkdir(parents=True, exist_ok=True)
