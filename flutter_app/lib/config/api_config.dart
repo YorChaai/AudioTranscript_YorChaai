@@ -11,8 +11,8 @@ class ApiConfig {
     try {
       if (Platform.isWindows || Platform.isMacOS || Platform.isLinux) return '127.0.0.1';
     } catch (_) {}
-    // Gunakan IP Address PC ini agar HP fisik bisa konek (192.168.68.55)
-    return '192.168.68.55';
+    // Gunakan IP Address PC ini agar HP fisik bisa konek
+    return '192.168.68.56';
   }
   static const int _defaultPort = 5000;
 
@@ -47,7 +47,7 @@ class ApiConfig {
   static int get port => _port;
 
   /// timeout untuk request biasa
-  static const Duration requestTimeout = Duration(seconds: 30);
+  static const Duration requestTimeout = Duration(seconds: 5);
 
   /// timeout untuk upload file besar
   static const Duration uploadTimeout = Duration(minutes: 10);
