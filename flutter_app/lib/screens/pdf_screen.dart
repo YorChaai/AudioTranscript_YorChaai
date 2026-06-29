@@ -9,6 +9,7 @@ import '../widgets/sort_menu.dart';
 import '../providers/sort_provider.dart';
 import 'package:provider/provider.dart';
 import '../widgets/app_scrollbar.dart';
+import '../utils/ui_utils.dart';
 
 /// screen convert transcript ke PDF
 class PdfScreen extends StatefulWidget {
@@ -72,9 +73,7 @@ class _PdfScreenState extends State<PdfScreen> {
 
   Future<void> _convertSelected() async {
     if (_selectedFiles.isEmpty) {
-      ScaffoldMessenger.of(
-        context,
-      ).showSnackBar(const SnackBar(content: Text('Pilih file dulu')));
+      UiUtils.showSnackBar(context, 'Pilih file dulu');
       return;
     }
 
@@ -159,26 +158,16 @@ class _PdfScreenState extends State<PdfScreen> {
       final openResult = await OpenFile.open(file.path);
 
       if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text(openResult.type == ResultType.done
-                ? '✅ File dibuka: $filename'
-                : '✅ File tersimpan: $filename'),
-            backgroundColor: AppTheme.success,
-            showCloseIcon: true,
-            duration: const Duration(seconds: 2),
-          ),
+        UiUtils.showSnackBar(
+          context,
+          openResult.type == ResultType.done
+              ? '✅ File dibuka: $filename'
+              : '✅ File tersimpan: $filename',
         );
       }
     } catch (e) {
       if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text('❌ Gagal download: $e'),
-            backgroundColor: AppTheme.error,
-            showCloseIcon: true,
-          ),
-        );
+        UiUtils.showSnackBar(context, '❌ Gagal download: $e', isError: true);
       }
     }
   }
@@ -190,21 +179,13 @@ class _PdfScreenState extends State<PdfScreen> {
       OpenFile.open(path);
     } else {
       if (!mounted) return;
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-            content: Text('File tidak ditemukan, coba download lagi')),
-      );
+      UiUtils.showSnackBar(context, 'File tidak ditemukan, coba download lagi');
       setState(() {
         _downloadedPdfs.remove(filename);
       });
     }
   }
 
-  String _formatSize(int bytes) {
-    if (bytes < 1024) return '$bytes B';
-    if (bytes < 1024 * 1024) return '${(bytes / 1024).toStringAsFixed(1)} KB';
-    return '${(bytes / (1024 * 1024)).toStringAsFixed(1)} MB';
-  }
 
   List<Map<String, dynamic>> _getSortedFiles(SortProvider sortProv) {
     final list = List<Map<String, dynamic>>.from(_files);
@@ -422,69 +403,7 @@ class _PdfScreenState extends State<PdfScreen> {
     );
   }
 
-  Widget _buildResultsSection() {
-    return Container(
-      padding: const EdgeInsets.all(16),
-      decoration: BoxDecoration(
-        color: AppTheme.cardDark,
-        borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: AppTheme.success.withOpacity(0.3)),
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const Text(
-            'Hasil Konversi',
-            style: TextStyle(
-              fontSize: 14,
-              fontWeight: FontWeight.w700,
-            ),
-          ),
-          const SizedBox(height: 8),
-          ..._results.map(
-            (r) => Padding(
-              padding: const EdgeInsets.symmetric(vertical: 4),
-              child: Row(
-                children: [
-                  Icon(
-                    r['success']
-                        ? Icons.check_circle_rounded
-                        : Icons.error_rounded,
-                    size: 16,
-                    color: r['success'] ? AppTheme.success : AppTheme.error,
-                  ),
-                  const SizedBox(width: 8),
-                  Expanded(
-                    child: Text(
-                      r['success'] ? r['pdf'] : '${r["file"]}: ${r["error"]}',
-                      style: const TextStyle(fontSize: 13),
-                      overflow: TextOverflow.ellipsis,
-                    ),
-                  ),
-                  if (r['success'] && r['pdf_path'] != null)
-                    IconButton(
-                      onPressed: () async {
-                        try {
-                          await _downloadPdf(r['pdf_path'], r['pdf']);
-                        } catch (e) {
-                          // ignore
-                        }
-                      },
-                      icon: const Icon(
-                        Icons.download_rounded,
-                        size: 18,
-                      ),
-                      tooltip: 'Download',
-                      color: AppTheme.accentCyan,
-                    ),
-                ],
-              ),
-            ),
-          ),
-        ],
-      ),
-    );
-  }
+
 
   Widget _buildFileListSection({required bool isMobile}) {
     return Container(
@@ -643,7 +562,7 @@ class _PdfScreenState extends State<PdfScreen> {
         overflow: TextOverflow.ellipsis,
       ),
       subtitle: Text(
-        '${file["label"]} · ${_formatSize(file["size"])}',
+        '${file["label"]} · ${UiUtils.formatSize(file["size"] ?? 0)}',
         style: const TextStyle(
           fontSize: 11,
           color: AppTheme.textMuted,

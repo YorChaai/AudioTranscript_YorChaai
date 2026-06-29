@@ -63,3 +63,6 @@ tmp_*.pdf
 # Analysis reports (optional - can be kept if needed)
 CODE_ANALYSIS_REPORT.md
 IMPLEMENTATION_SUMMARY.md
+
+# Ignored folders
+temp/

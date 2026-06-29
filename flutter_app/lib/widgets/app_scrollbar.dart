@@ -1,6 +1,5 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import '../config/theme.dart';
 
 class AppScrollbar extends StatefulWidget {
   final Widget child;
@@ -118,11 +117,6 @@ class _AppScrollbarState extends State<AppScrollbar> {
 
   @override
   Widget build(BuildContext context) {
-    final isDark = Theme.of(context).brightness == Brightness.dark;
-    final thumbColor = isDark
-        ? AppTheme.accentCyan.withValues(alpha: 0.9)
-        : AppTheme.accentCyan.withValues(alpha: 0.9);
-
     return Listener(
       onPointerDown: (event) {
         if (widget.controller == null || !widget.controller!.hasClients) return;
@@ -159,13 +153,12 @@ class _AppScrollbarState extends State<AppScrollbar> {
         if (totalContent > 0) {
           double actualThumbLength = (viewport / totalContent) * viewport;
           if (actualThumbLength < 18.0) actualThumbLength = 18.0;
-          
+
           final double fraction = maxScroll > 0 ? (currentScroll / maxScroll).clamp(0.0, 1.0) : 0.0;
           final double thumbOffset = fraction * (viewport - actualThumbLength);
 
           double touchCoord = widget.scrollDirection == Axis.vertical ? localPos.dy : localPos.dx;
 
-          // Memberikan padding ekstra (30px) agar thumb jauh lebih gampang ditarik
           if (touchCoord >= thumbOffset - 30 && touchCoord <= thumbOffset + actualThumbLength + 30) {
             return;
           }
@@ -179,26 +172,14 @@ class _AppScrollbarState extends State<AppScrollbar> {
         controller: widget.controller,
         thumbVisibility: widget.thumbVisibility,
         trackVisibility: false,
-        thickness: 32.0,
+        thickness: 8.0,
         radius: widget.radius,
         interactive: true,
         notificationPredicate: widget.notificationPredicate ?? defaultScrollNotificationPredicate,
         scrollbarOrientation: widget.scrollbarOrientation,
-        thumbColor: Colors.transparent,
-        child: RawScrollbar(
-          controller: widget.controller,
-          thumbVisibility: widget.thumbVisibility,
-          trackVisibility: false,
-          thickness: 8.0,
-          radius: widget.radius,
-          interactive: false,
-          notificationPredicate: widget.notificationPredicate ?? defaultScrollNotificationPredicate,
-          scrollbarOrientation: widget.scrollbarOrientation,
-          thumbColor: thumbColor,
-          child: widget.child,
-        ),
+        thumbColor: const Color(0xFF2596BE),
+        child: widget.child,
       ),
     );
   }
 }
-

@@ -4,11 +4,10 @@ import requests
 import time  # Fix L4: Import time untuk retry logic
 from pathlib import Path
 from datetime import datetime
+from config import BASE_DIR, CONVERT_DIR, SUMMARY_DIR
 
-# Folder paths
-BASE_DIR = Path(__file__).parent.parent  # Project root (src/ is subdir)
-CONVERT_TXT_DIR = BASE_DIR / "output"
-SUMMARY_DIR = BASE_DIR / "summary"
+# Alias for backward compatibility in this script
+CONVERT_TXT_DIR = CONVERT_DIR
 
 # Available Models in Ollama
 MODELS = {

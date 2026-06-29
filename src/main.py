@@ -23,7 +23,8 @@ if hasattr(sys.stdout, "reconfigure"):
 if hasattr(sys.stderr, "reconfigure"):
     sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
-BASE_DIR = Path(__file__).parent.parent  # Project root (src/ is subdir)
+from pathlib import Path
+from config import BASE_DIR, AUDIO_EXTENSIONS, VIDEO_EXTENSIONS, MEDIA_EXTENSIONS
 
 # Fix M1: Centralized language choices (DRY principle)
 LANGUAGE_CHOICES = {
@@ -32,12 +33,6 @@ LANGUAGE_CHOICES = {
     "3": {"code": "ja", "name": "Japanese"},
     "4": {"code": "auto", "name": "Auto-detect / Campuran"},
 }
-
-# Supported media extensions
-AUDIO_EXTENSIONS = {".mp3", ".wav", ".m4a", ".flac", ".ogg", ".wma", ".aac"}
-VIDEO_EXTENSIONS = {".mp4", ".mov", ".mkv", ".avi", ".webm", ".mpeg", ".mpg", ".m4v"}
-MEDIA_EXTENSIONS = AUDIO_EXTENSIONS | VIDEO_EXTENSIONS
-
 
 # ============================================================
 # HELPER FUNCTIONS (from LOCALCTOLOCALD/main.py)

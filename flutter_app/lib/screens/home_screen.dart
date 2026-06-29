@@ -4,6 +4,7 @@ import '../config/theme.dart';
 import '../widgets/tool_card.dart';
 import '../widgets/responsive_layout.dart';
 import '../widgets/server_status_bar.dart';
+import '../config/constants.dart';
 
 /// home screen — landing page yang aman untuk HP kecil, tablet, dan rotasi
 class HomeScreen extends StatelessWidget {
@@ -123,8 +124,8 @@ class HomeScreen extends StatelessWidget {
 
   double _horizontalPadding(double width, {required bool isWide}) {
     if (isWide) return 40;
-    if (width < 360) return 12;
-    if (width < 420) return 16;
+    if (width < AppConstants.mobileSmallBreakpoint) return 12;
+    if (width < AppConstants.mobileLargeBreakpoint) return 16;
     return 20;
   }
 
@@ -142,11 +143,11 @@ class HomeScreen extends StatelessWidget {
       return orientation == Orientation.landscape ? 3 : 2;
     }
 
-    if (orientation == Orientation.landscape && width >= 640) {
+    if (orientation == Orientation.landscape && width >= AppConstants.tabletBreakpoint) {
       return 3;
     }
 
-    if (width < 360) return 1;
+    if (width < AppConstants.mobileSmallBreakpoint) return 1;
     return 2;
   }
 
@@ -169,7 +170,7 @@ class HomeScreen extends StatelessWidget {
       return 1.05;
     }
 
-    if (width < 380) return 0.98;
+    if (width < AppConstants.mobileMediumBreakpoint) return 0.98;
     return 1.08;
   }
 }

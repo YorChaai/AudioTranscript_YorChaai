@@ -1,10 +1,7 @@
 """
-Flask API Server - wrapper untuk transcribe.py dan convert_pdf.py
+Flask API Server
 Jalankan: python server.py
 Server akan listen di 0.0.0.0:5000
-
-Semua proses berat (transcribe) jalan di background thread.
-HP hanya kirim request, semua file disimpan di server.
 """
 
 import json
@@ -24,38 +21,32 @@ from flask_cors import CORS
 from tqdm import tqdm
 from werkzeug.utils import secure_filename
 
-from pdf_utils import get_pdf_files, merge_all_pdfs  # Fix H7: Shared PDF utilities
-from utils import format_time_srt  # Fix M5: Use shared format_time utility
+# Import shared modules
+from config import BASE_DIR, UPLOADS_DIR, VIDEO_UPLOAD_FOLDER, AUDIO_EXTENSIONS, VIDEO_EXTENSIONS, AUDIO_FOLDER, CONVERT_DIR, SUMMARY_DIR
+from api.middlewares import rate_limited_endpoint, require_api_key
+from core.ml_engine import MLEngine
+import database as db
+from utils import find_ffmpeg, get_audio_info_technical, repair_audio_ffmpeg, format_time_srt
+from pdf_utils import get_pdf_files, merge_all_pdfs
 
 try:
     from pypdf import PdfWriter
 except ImportError:
-    PdfWriter = None  # Handle gracefully if not installed
+    PdfWriter = None
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 if hasattr(sys.stderr, "reconfigure"):
     sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
-# Load .env file for environment variables (must be before any os.environ.get() calls)
-from dotenv import load_dotenv
-
-_env_path = Path(__file__).parent.parent / ".env"  # Project root
-if _env_path.exists():
-    load_dotenv(_env_path)
-    print(f"✅ Loaded .env file from: {_env_path}")
-
 # setup logging — pakai werkzeug logger biar rapi
 log = logging.getLogger("werkzeug")
-log.setLevel(logging.ERROR)  # Silence request logs (GET /api/...)
+log.setLevel(logging.DEBUG)
 
-
-# pke print biasa aja buat log kita sendiri biar gak ikut ke-silence
 def info(msg):
     print(f"ℹ️ {msg}")
 
-
-# Fix M2: Constants for progress calculation (avoid magic numbers)
+# Progress constants
 PROGRESS_MIN = 1
 PROGRESS_MAX = 99
 PROGRESS_LOADING = 1
@@ -64,251 +55,28 @@ PROGRESS_TRANSCRIBING_MAX = 99
 PROGRESS_SAVING = 99
 PROGRESS_COMPLETED = 100
 
-# Fix M6: Rate limiting settings
-RATE_LIMIT_REQUESTS = 100  # max requests per window
-RATE_LIMIT_WINDOW = 60  # window in seconds
-_rate_limit_cache = {}  # ip -> list of request timestamps
-_rate_limit_lock = threading.Lock()
-
-
-def _check_rate_limit(client_ip: str) -> bool:
-    """
-    Check if client IP has exceeded rate limit.
-    Returns True if request is allowed, False if rate limited.
-    """
-    now = time.time()
-    window_start = now - RATE_LIMIT_WINDOW
-
-    with _rate_limit_lock:
-        if client_ip not in _rate_limit_cache:
-            _rate_limit_cache[client_ip] = []
-
-        # Remove old timestamps outside window
-        _rate_limit_cache[client_ip] = [
-            ts for ts in _rate_limit_cache[client_ip] if ts > window_start
-        ]
-
-        # Fix H7: Cleanup empty entries to prevent memory leak
-        if not _rate_limit_cache[client_ip]:
-            del _rate_limit_cache[client_ip]
-            _rate_limit_cache[client_ip] = []
-
-        # Check if limit exceeded
-        if len(_rate_limit_cache[client_ip]) >= RATE_LIMIT_REQUESTS:
-            return False
-
-        # Add current request
-        _rate_limit_cache[client_ip].append(now)
-        return True
-
-
-def _cleanup_rate_limit_cache():
-    """
-    Periodic cleanup of rate limit cache to prevent memory leak.
-    Remove IPs that haven't made requests in the last hour.
-    """
-    now = time.time()
-    cleanup_threshold = 3600  # 1 hour
-
-    with _rate_limit_lock:
-        empty_ips = []
-        for ip, timestamps in list(_rate_limit_cache.items()):
-            # Keep only recent timestamps (last hour)
-            recent_timestamps = [
-                ts for ts in timestamps if ts > now - cleanup_threshold
-            ]
-            if recent_timestamps:
-                _rate_limit_cache[ip] = recent_timestamps
-            else:
-                empty_ips.append(ip)
-
-        # Remove IPs with no recent activity
-        for ip in empty_ips:
-            _rate_limit_cache.pop(ip, None)
-
-        if empty_ips:
-            info(f"🧹 Cleaned up {len(empty_ips)} inactive IPs from rate limit cache")
-
-
-# Call cleanup periodically (every 1000 requests approximately)
-_cleanup_counter = 0
-
-
-def _get_client_ip() -> str:
-    """Get client IP from request"""
-    if request.headers.get("X-Forwarded-For"):
-        return request.headers.get("X-Forwarded-For").split(",")[0].strip()
-    return request.remote_addr or "unknown"
-
-
-def _rate_limited_endpoint(f):
-    """Decorator to add rate limiting to endpoints"""
-    from functools import wraps
-
-    global _cleanup_counter
-
-    @wraps(f)
-    def decorated_function(*args, **kwargs):
-        global _cleanup_counter
-
-        client_ip = _get_client_ip()
-        if not _check_rate_limit(client_ip):
-            info(f"⚠️ Rate limit exceeded for IP: {client_ip}")
-            return jsonify(
-                {
-                    "error": "Rate limit exceeded. Please try again later.",
-                    "limit": RATE_LIMIT_REQUESTS,
-                    "window": f"{RATE_LIMIT_WINDOW}s",
-                }
-            ), 429
-
-        # Fix H7: Periodic cleanup of rate limit cache (every 1000 requests)
-        _cleanup_counter += 1
-        if _cleanup_counter >= 1000:
-            _cleanup_rate_limit_cache()
-            _cleanup_counter = 0
-
-        return f(*args, **kwargs)
-
-    return decorated_function
-
-
-# project imports
-import importlib.util
-
-import database as db
-
-# Fix H7: Import shared utilities
-from utils import find_ffmpeg, get_audio_info_technical, repair_audio_ffmpeg
-
-# ============================================================
-# setup DLL paths untuk CUDA (cublas, cudnn) — SEBELUM import faster_whisper
-# ============================================================
-_dll_handles = []
-
-
-def _add_dll_path(path):
-    path = str(path)
-    if hasattr(os, "add_dll_directory"):
-        try:
-            h = os.add_dll_directory(path)
-            _dll_handles.append(h)
-        except Exception:
-            pass
-    if path not in os.environ.get("PATH", ""):
-        os.environ["PATH"] = path + os.pathsep + os.environ.get("PATH", "")
-
-
-def _setup_cuda_dll_paths():
-    dirs = []
-    # nvidia packages (cublas, cudnn)
-    spec = importlib.util.find_spec("nvidia")
-    if spec and spec.submodule_search_locations:
-        base = Path(spec.submodule_search_locations[0])
-        for sub in base.iterdir():
-            for d in [sub / "bin", sub / "lib"]:
-                if d.exists():
-                    _add_dll_path(d)
-                    dirs.append(str(d))
-    # torch/lib
-    spec = importlib.util.find_spec("torch")
-    if spec and spec.submodule_search_locations:
-        tlib = Path(spec.submodule_search_locations[0]) / "lib"
-        if tlib.exists():
-            _add_dll_path(tlib)
-            dirs.append(str(tlib))
-    # ctranslate2
-    spec = importlib.util.find_spec("ctranslate2")
-    if spec and spec.submodule_search_locations:
-        ct2 = Path(spec.submodule_search_locations[0])
-        if ct2.exists():
-            _add_dll_path(ct2)
-            dirs.append(str(ct2))
-    return dirs
-
-
-_cuda_dirs = _setup_cuda_dll_paths()
-if _cuda_dirs:
-    print(f"\U0001f527 CUDA DLL paths: {len(_cuda_dirs)} folder")
-
-from faster_whisper import WhisperModel
-
-print("\u2705 faster_whisper imported (DLL OK)")
-
-# Local model path - use pre-downloaded model from D:\model to save C: drive space
-# If model not found locally, will auto-download to cache
-LOCAL_MODEL_PATH = os.environ.get("WHISPER_MODEL_PATH", "D:\\model\\large-v3")
-
-BASE_DIR = Path(__file__).parent.parent  # Project root (src/ is subdir)
-AUDIO_FOLDER = BASE_DIR / "audio"
-CONVERT_DIR = BASE_DIR / "output"
-SUMMARY_DIR = BASE_DIR / "summary"
-UPLOADS_DIR = BASE_DIR / "server" / "uploads"
-VIDEO_UPLOAD_FOLDER = UPLOADS_DIR / "video"
-
-# supported audio formats
-AUDIO_EXTENSIONS = {".mp3", ".wav", ".m4a", ".flac", ".ogg", ".wma", ".aac"}
-VIDEO_EXTENSIONS = {".mp4", ".mov", ".mkv", ".avi", ".webm", ".mpeg", ".mpg", ".m4v"}
-
 app = Flask(__name__)
 CORS(app)
+app.config["MAX_CONTENT_LENGTH"] = 500 * 1024 * 1024
 
-import os
-from functools import wraps
+_cancel_flags = {}  # job_id -> bool
+_jobs_cache = {}
+_jobs_cache_lock = threading.Lock()
 
-API_KEY = os.environ.get("API_KEY", "YORCHAAI_SECRET_KEY")
-
-
-def require_api_key(f):
-    @wraps(f)
-    def decorated_function(*args, **kwargs):
-        if request.endpoint == "health_check":
-            return f(*args, **kwargs)
-        key = request.headers.get("X-Api-Key")
-        if key == API_KEY:
-            return f(*args, **kwargs)
-        return jsonify({"error": "Unauthorized: Invalid API Key"}), 401
-
-    return decorated_function
-
-
-app.config["MAX_CONTENT_LENGTH"] = 500 * 1024 * 1024  # max upload 500MB
-
-# ============================================================
-# model dan transcribe reference (lazy load)
-# ============================================================
-_model = None
-_model_lock = threading.Lock()
-_cancel_flags = {}  # job_id -> bool, untuk cancel transcribe
-_jobs_cache = {}  # in-memory cache agar polling status gak buka DB terus
-_jobs_cache_lock = threading.Lock()  # Fix C5: thread-safe cache access
-
-
-# Fix C5: Cleanup routine untuk jobs yang sudah selesai
 def _cleanup_old_jobs(max_age_hours=24):
-    """
-    hapus jobs dari cache yang sudah selesai lebih dari max_age_hours
-    Dipanggil secara periodic untuk mencegah memory leak
-    """
     now = datetime.now()
     jobs_to_remove = []
-
     with _jobs_cache_lock:
         for job_id, job_data in _jobs_cache.items():
-            # Hanya cleanup jobs yang sudah completed/error/cancelled
             if job_data.get("status") in ("completed", "error", "cancelled"):
-                # Check age jika ada updated_at
                 if "updated_at" in job_data:
                     try:
                         updated = datetime.fromisoformat(job_data["updated_at"])
-                        age_hours = (now - updated).total_seconds() / 3600
-                        if age_hours > max_age_hours:
+                        if (now - updated).total_seconds() / 3600 > max_age_hours:
                             jobs_to_remove.append(job_id)
                     except Exception:
-                        # Jika parse gagal, hapus saja
                         jobs_to_remove.append(job_id)
                 else:
-                    # Tidak ada timestamp, asumsikan sudah lama
                     jobs_to_remove.append(job_id)
 
         for job_id in jobs_to_remove:
@@ -316,48 +84,10 @@ def _cleanup_old_jobs(max_age_hours=24):
 
         if jobs_to_remove:
             print(f"🧹 Cleaned up {len(jobs_to_remove)} old jobs from cache")
-
     return len(jobs_to_remove)
 
-
 def _get_model():
-    """load whisper model (singleton, lazy) — coba GPU dulu, fallback ke CPU"""
-    global _model
-    if _model is None:
-        with _model_lock:
-            if _model is None:
-                # Determine model source
-                use_local = Path(LOCAL_MODEL_PATH).exists()
-
-                if use_local:
-                    print(f"\n🔄 Loading Whisper model from local: {LOCAL_MODEL_PATH}")
-                    print("   💾 Saved ~3GB download time!")
-                else:
-                    print("\n🔄 Loading Whisper model (large-v3)...")
-                    print(f"   ⚠️  Local model not found at: {LOCAL_MODEL_PATH}")
-                    print("   📥 Will download automatically (~3GB)")
-
-                try:
-                    print("   📍 Attempting GPU (CUDA) mode...")
-                    model_source = LOCAL_MODEL_PATH if use_local else "large-v3"
-                    _model = WhisperModel(
-                        model_source, device="cuda", compute_type="float16"
-                    )
-                    if use_local:
-                        print(
-                            "   ✅ Model loaded on GPU (CUDA) from LOCAL path - FAST! 🎉\n"
-                        )
-                    else:
-                        print("   ✅ Model loaded on GPU (CUDA) - FAST! 🎉\n")
-                except Exception as e:
-                    print(f"   ⚠️ GPU not available: {e}")
-                    print("   🐌 Fallback ke CPU (akan lebih lambat)...\n")
-                    model_source = LOCAL_MODEL_PATH if use_local else "large-v3"
-                    _model = WhisperModel(
-                        model_source, device="cpu", compute_type="int8"
-                    )
-                    print("   ✅ Model loaded on CPU\n")
-    return _model
+    return MLEngine.get_model()
 
 
 def _ensure_media_dirs():
@@ -445,7 +175,7 @@ _health_check_last_log = 0
 
 
 @app.route("/api/health", methods=["GET"])
-@_rate_limited_endpoint  # Fix M6: Also rate limit health checks
+@rate_limited_endpoint  # Fix M6: Also rate limit health checks
 def health_check():
     """cek server status"""
     # Fix L2: Only log every 100 health checks to reduce noise
@@ -462,7 +192,7 @@ def health_check():
         {
             "status": "ok",
             "timestamp": datetime.now().isoformat(),
-            "model_loaded": _model is not None,
+            "model_loaded": getattr(MLEngine, "_model", None) is not None,
         }
     )
 
@@ -893,10 +623,9 @@ def start_transcribe():
 
 
 def _run_transcribe(job_id, audio_path, language, do_translate, target_lang):
-    """background task untuk transcribe — real-time progress via tqdm + in-memory cache"""
+    """background task untuk transcribe — real-time progress via callback + in-memory cache"""
     try:
         now = datetime.now().isoformat()
-        # Fix C1: Initialize job with .update() pattern for consistency
         with _jobs_cache_lock:
             _jobs_cache[job_id] = {
                 "id": job_id,
@@ -907,7 +636,6 @@ def _run_transcribe(job_id, audio_path, language, do_translate, target_lang):
             }
         print(f"🔄 Job {job_id}: loading model...")
 
-        # Fix M10: Check if audio file still exists before processing
         if not audio_path.exists():
             error_msg = f"Audio file not found: {audio_path}"
             print(f"❌ Job {job_id}: {error_msg}")
@@ -931,12 +659,9 @@ def _run_transcribe(job_id, audio_path, language, do_translate, target_lang):
             )
             return
 
-        # Fix C5: Cleanup old jobs periodic (setiap ada job baru)
         _cleanup_old_jobs(max_age_hours=24)
-
         model = _get_model()
 
-        # cek cancel sebelum mulai transcribe
         if _cancel_flags.get(job_id):
             with _jobs_cache_lock:
                 _jobs_cache[job_id] = {
@@ -952,294 +677,73 @@ def _run_transcribe(job_id, audio_path, language, do_translate, target_lang):
         with _jobs_cache_lock:
             _jobs_cache[job_id]["status"] = "transcribing"
 
-        # transcribe — dapatkan generator (JANGAN di-list()!)
-        lang_param = None if language == "auto" else language
-
-        # --- PRE-CHECK TEKNIS ---
-        tech_info = get_audio_info_technical(audio_path)
-        actual_audio_path = audio_path
-        is_temp = False
-
-        def _start_transcribe(mdl, path):
-            """mulai transcribe, return (generator, info) — BUKAN list!"""
-            segs_gen, inf = mdl.transcribe(
-                str(path),
-                language=lang_param,
-                beam_size=5,
-                word_timestamps=True,
-                vad_filter=True,
-            )
-            return segs_gen, inf
-
-        try:
-            segs_gen, info = _start_transcribe(model, actual_audio_path)
-        except Exception as cuda_err:
-            if "cublas" in str(cuda_err).lower() or "cuda" in str(cuda_err).lower():
-                print(f"⚠️ GPU gagal saat transcribe: {cuda_err}")
-                print("🔄 Reload model ke CPU dan coba ulang...")
-                # Fix C1: Use .update() to avoid race condition
-                with _jobs_cache_lock:
-                    if job_id in _jobs_cache:
-                        _jobs_cache[job_id].update(
-                            {
-                                "status": "loading_model",
-                                "progress": 1,
-                                "error": "GPU gagal, switching ke CPU...",
-                            }
-                        )
-                global _model
-                model_source = (
-                    LOCAL_MODEL_PATH if Path(LOCAL_MODEL_PATH).exists() else "large-v3"
-                )
-                _model = WhisperModel(model_source, device="cpu", compute_type="int8")
-                model = _model
-                print("✅ Model loaded (CPU)!")
-                with _jobs_cache_lock:
-                    if job_id in _jobs_cache:
-                        _jobs_cache[job_id]["status"] = "transcribing"
-                segs_gen, info = _start_transcribe(model, actual_audio_path)
-            else:
-                raise
-
-        total_duration = info.duration
-
-        # --- AUTO-REPAIR LOGIC ---
-        if tech_info["success"] and abs(total_duration - tech_info["duration"]) > 10:
-            print(
-                f"⚠️ Job {job_id}: MISMATCH DETECTED! Whisper reads {total_duration:.1f}s but file is {tech_info['duration']:.1f}s."
-            )
-            print(f"🚀 Job {job_id}: AUTO-REPAIR starting...")
-
-            repaired_path = repair_audio_ffmpeg(audio_path)
-            if repaired_path:
-                actual_audio_path = repaired_path
-                is_temp = True
-
-                # Re-transcribe dengan file yang sudah diperbaiki
-                segs_gen, info = _start_transcribe(model, actual_audio_path)
-                total_duration = info.duration
-                print(
-                    f"✅ Job {job_id}: Retrying with repaired file. New duration: {total_duration:.1f}s"
-                )
-            else:
-                print(
-                    f"❌ Job {job_id}: Auto-repair failed. Continuing with original file."
-                )
-
-        detected = info.language
-        prob = info.language_probability
-
-        print(
-            f"🎤 Job {job_id}: transcribing {audio_path.name} ({total_duration:.0f}s, lang={detected})"
-        )
-
-        full_text = ""
-        all_segments = []
-        last_end = 0
-        segment_num = (
-            0  # Counter for performance optimization (update every N segments)
-        )
-
-        # tqdm progress bar di terminal
-        pbar = tqdm(
-            total=total_duration,
-            unit="s",
-            unit_scale=True,
-            desc=f"Job {job_id}",
-            bar_format="{l_bar}{bar}| {n:.0f}/{total:.0f}s [{elapsed}<{remaining}]",
-        )
-
-        for segment in segs_gen:
-            segment_num += 1  # Increment segment counter
-            # cek cancel di tengah transcribe
-            if _cancel_flags.get(job_id):
-                pbar.close()
-                # Fix C1: Use .update() to avoid race condition
-                with _jobs_cache_lock:
-                    if job_id in _jobs_cache:
-                        _jobs_cache[job_id].update(
-                            {
-                                "status": "cancelled",
-                                "progress": 0,
-                                "updated_at": datetime.now().isoformat(),
-                            }
-                        )
-                db.update_job(job_id, status="cancelled", progress=0)
-                _cancel_flags.pop(job_id, None)
-                print(f"🛑 Job {job_id} dibatalkan")
-                return
-
-            text = segment.text.strip()
-            full_text += text + "\n"
-            all_segments.append(
-                {"start": segment.start, "end": segment.end, "text": text}
-            )
-
-            # update tqdm di terminal
-            increment = segment.end - last_end
-            if increment > 0:
-                pbar.update(increment)
-
-            # update progress di memory (TANPA DB — polling baca dari sini)
-            # Fix C1: Update only changed fields to avoid race condition (performance optimization)
-            if total_duration > 0:
-                progress = PROGRESS_TRANSCRIBING_MIN + (
-                    segment.end / total_duration
-                ) * (PROGRESS_TRANSCRIBING_MAX - PROGRESS_TRANSCRIBING_MIN)
-                # Update every 5 segments to reduce lock contention (performance optimization)
-                if segment_num % 5 == 0:
-                    with _jobs_cache_lock:
-                        if job_id in _jobs_cache:
-                            _jobs_cache[job_id]["progress"] = min(
-                                progress, PROGRESS_MAX
-                            )
-                            _jobs_cache[job_id]["status"] = "transcribing"
-                            _jobs_cache[job_id]["updated_at"] = (
-                                datetime.now().isoformat()
-                            )
-            last_end = segment.end
-
-        # pastikan tqdm 100%
-        remaining = total_duration - last_end
-        if remaining > 0:
-            pbar.update(remaining)
-        pbar.close()
-
-        # Cleanup temp file if created
-        if is_temp and actual_audio_path.exists():
-            try:
-                actual_audio_path.unlink()
-                print(f"🧹 Cleaned up temporary repaired file for job {job_id}.")
-            except Exception as e:
-                print(f"⚠️ Could not delete temp file: {e}")
-
-        # Fix C1: Use .update() to avoid race condition
-        with _jobs_cache_lock:
-            if job_id in _jobs_cache:
-                _jobs_cache[job_id].update(
-                    {
-                        "status": "saving",
-                        "progress": PROGRESS_SAVING,
-                        "updated_at": datetime.now().isoformat(),
-                    }
-                )
-        print(f"💾 Job {job_id}: menyimpan hasil...")
-
-        # translate jika diminta
-        translated_text = None
-        final_target_lang = target_lang
-        import transcribe as tr
-
-        should_translate, final_target_lang = tr.resolve_translation_target(
-            detected, do_translate, target_lang
-        )
-        if should_translate:
-            # Fix C1: Use .update() to avoid race condition
-            with _jobs_cache_lock:
-                if job_id in _jobs_cache:
-                    _jobs_cache[job_id].update(
-                        {
-                            "status": "translating",
-                            "progress": PROGRESS_SAVING,
-                            "updated_at": datetime.now().isoformat(),
-                        }
-                    )
-            print(f"🚀 [VERSI BARU 2.1] Job {job_id}: translating ke {target_lang}...")
-            try:
-                tr.load_glossary()
-                # USE SMART TEXT for translation to get natural context
-                smart_text = tr.prepare_smart_text(all_segments, detected)
-                # Pass detected language to tr.translate_text
-                translated_text = tr.translate_text(
-                    smart_text, final_target_lang, source_lang=detected
-                )
-            except Exception as te:
-                print(f"Translation error: {te}")
-
-        db.update_job(job_id, progress=PROGRESS_SAVING)
-
-        # simpan file output sesuai struktur folder audio
         try:
             rel_path = audio_path.parent.relative_to(AUDIO_FOLDER)
             output_dir = CONVERT_DIR / "single" / rel_path
         except ValueError:
             output_dir = CONVERT_DIR / "single"
+
+        from core.transcription import process_file
+        
+        last_progress_update = 0
+
+        def progress_callback(progress_percent):
+            nonlocal last_progress_update
+            # Only update every few percents to reduce lock contention
+            if progress_percent - last_progress_update > 2 or progress_percent >= 100:
+                last_progress_update = progress_percent
+                progress = PROGRESS_TRANSCRIBING_MIN + (progress_percent / 100) * (PROGRESS_TRANSCRIBING_MAX - PROGRESS_TRANSCRIBING_MIN)
+                with _jobs_cache_lock:
+                    if job_id in _jobs_cache:
+                        _jobs_cache[job_id]["progress"] = min(progress, PROGRESS_MAX)
+                        _jobs_cache[job_id]["status"] = "transcribing"
+                        _jobs_cache[job_id]["updated_at"] = datetime.now().isoformat()
             
-        output_dir.mkdir(parents=True, exist_ok=True)
+            if _cancel_flags.get(job_id):
+                raise InterruptedError("Transcribe cancelled by user")
 
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        output_name = f"{audio_path.stem}_transcript_{timestamp}.txt"
-        output_path = output_dir / output_name
+        try:
+            result, output_path = process_file(
+                model=model,
+                audio_file=audio_path,
+                output_folder=output_dir,
+                language=language,
+                do_translate=do_translate,
+                target_lang=target_lang,
+                progress_callback=progress_callback
+            )
+        except InterruptedError:
+            with _jobs_cache_lock:
+                if job_id in _jobs_cache:
+                    _jobs_cache[job_id].update({
+                        "status": "cancelled",
+                        "progress": 0,
+                        "updated_at": datetime.now().isoformat(),
+                    })
+            db.update_job(job_id, status="cancelled", progress=0)
+            _cancel_flags.pop(job_id, None)
+            print(f"🛑 Job {job_id} dibatalkan")
+            return
+        
+        with _jobs_cache_lock:
+            if job_id in _jobs_cache:
+                _jobs_cache[job_id].update(
+                    {
+                        "status": "completed",
+                        "progress": PROGRESS_COMPLETED,
+                        "output_file": str(output_path.relative_to(BASE_DIR)),
+                        "updated_at": datetime.now().isoformat(),
+                    }
+                )
 
-        # tulis file transcript
-        SUPPORTED_LANGS = {
-            "id": "Indonesian",
-            "en": "English",
-            "ja": "Japanese",
-            "auto": "Auto-detect (Mixed)",
-        }
-        lang_mode = SUPPORTED_LANGS.get(language, "Auto")
-
-        # Fix M5: Use shared format_time from utils.py
-        # (duplicate function removed)
-
-        with open(output_path, "w", encoding="utf-8") as f:
-            f.write(f"Source: {audio_path.name}\n")
-            f.write(f"Language Mode: {lang_mode}\n")
-            f.write(f"Detected: {detected} ({prob:.1%})\n")
-            f.write(f"Transcribed: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-            f.write("=" * 50 + "\n\n")
-
-            semicolon_text = " ; ".join([s["text"].strip() for s in all_segments])
-            f.write(semicolon_text)
-
-            f.write("\n\n" + "=" * 50 + "\n")
-            f.write("TIMESTAMPS (SRT Format):\n\n")
-            for i, seg in enumerate(all_segments, 1):
-                start = format_time_srt(seg["start"])
-                end = format_time_srt(seg["end"])
-                f.write(f"{i}\n")
-                f.write(f"{start} --> {end}\n")
-                f.write(f"{seg['text'].strip()}\n\n")
-
-            if translated_text:
-                f.write("=" * 50 + "\n\n")
-                f.write(f"TRANSLATION ({final_target_lang.upper()}):\n\n")
-                f.write(translated_text)
-                f.write("\n\n")
-
-        # 2. Save pure SRT (VLC/Player Format)
-        srt_path = output_path.with_suffix(".srt")
-        with open(srt_path, "w", encoding="utf-8") as f:
-            for i, seg in enumerate(all_segments, 1):
-                start = format_time_srt(seg["start"])
-                end = format_time_srt(seg["end"])
-                f.write(f"{i}\n")
-                f.write(f"{start} --> {end}\n")
-                f.write(f"{seg['text'].strip()}\n\n")
-
-        # update job selesai — tulis ke DB + cache
         db.update_job(
             job_id,
             status="completed",
             progress=PROGRESS_COMPLETED,
             output_file=str(output_path.relative_to(BASE_DIR)),
-            duration_seconds=(
-                datetime.now()
-                - datetime.fromisoformat(db.get_job(job_id)["created_at"])
-            ).total_seconds(),
+            duration_seconds=(datetime.now() - datetime.fromisoformat(db.get_job(job_id)["created_at"])).total_seconds()
         )
-        # Fix M2: Use constants instead of magic numbers
-        with _jobs_cache_lock:
-            _jobs_cache[job_id] = {
-                "id": job_id,
-                "status": "completed",
-                "progress": PROGRESS_COMPLETED,
-                "output_file": str(output_path.relative_to(BASE_DIR)),
-                "updated_at": datetime.now().isoformat(),
-            }
 
-        # simpan history
         db.add_history(
             job_id,
             "transcribe",
@@ -1248,9 +752,8 @@ def _run_transcribe(job_id, audio_path, language, do_translate, target_lang):
             language,
             "completed",
             metadata={
-                "detected_lang": detected,
-                "probability": prob,
-                "duration": total_duration,
+                "detected_lang": result["language"],
+                "probability": result["language_probability"],
             },
         )
 
@@ -1270,7 +773,7 @@ def _run_transcribe(job_id, audio_path, language, do_translate, target_lang):
         db.add_history(
             job_id,
             "transcribe",
-            str(audio_path.name),
+            audio_path.name,
             None,
             language,
             "error",
@@ -1279,7 +782,7 @@ def _run_transcribe(job_id, audio_path, language, do_translate, target_lang):
 
 
 @app.route("/api/transcribe/status/<job_id>", methods=["GET"])
-@_rate_limited_endpoint  # Fix M6: Add rate limiting to prevent polling abuse
+@rate_limited_endpoint  # Fix M6: Add rate limiting to prevent polling abuse
 def transcribe_status(job_id):
     """cek progress transcribe — baca dari memory, bukan DB"""
     cached = _jobs_cache.get(job_id)
@@ -1462,7 +965,9 @@ def update_transcript(filepath):
         return jsonify({"error": "content required"}), 400
 
     try:
-        full_path.write_text(content, encoding="utf-8")
+        # Normalize newline: hapus \r supaya tidak ada CRLF double di Windows
+        content = content.replace('\r\n', '\n').replace('\r', '\n')
+        full_path.write_text(content, encoding="utf-8", newline='\n')
         return jsonify(
             {"status": "ok", "path": filepath, "size": full_path.stat().st_size}
         )

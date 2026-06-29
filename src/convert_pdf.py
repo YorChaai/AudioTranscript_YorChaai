@@ -16,10 +16,7 @@ warnings.filterwarnings(
 
 # Fix H3/H4: Import shared PDF utilities instead of duplicating code
 from pdf_utils import txt_to_pdf
-
-# Paths
-BASE_DIR = Path(__file__).parent.parent  # Project root (src/ is subdir)
-CONVERT_DIR = BASE_DIR / "output"
+from config import BASE_DIR, CONVERT_DIR
 
 
 def get_txt_files():

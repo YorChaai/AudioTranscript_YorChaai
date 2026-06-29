@@ -3,6 +3,7 @@ import '../config/theme.dart';
 import '../services/api_service.dart';
 import '../widgets/responsive_layout.dart';
 import '../widgets/app_scrollbar.dart';
+import '../utils/ui_utils.dart';
 
 /// file browser screen - jelajahi folder di server
 class FileBrowserScreen extends StatefulWidget {
@@ -45,9 +46,7 @@ class _FileBrowserScreenState extends State<FileBrowserScreen> {
     } catch (e) {
       setState(() => _loading = false);
       if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Error: $e'), backgroundColor: AppTheme.error),
-        );
+        UiUtils.showSnackBar(context, 'Error: $e', isError: true);
       }
     }
   }
@@ -64,11 +63,6 @@ class _FileBrowserScreenState extends State<FileBrowserScreen> {
     }
   }
 
-  String _formatSize(int bytes) {
-    if (bytes < 1024) return '$bytes B';
-    if (bytes < 1024 * 1024) return '${(bytes / 1024).toStringAsFixed(1)} KB';
-    return '${(bytes / (1024 * 1024)).toStringAsFixed(1)} MB';
-  }
 
   IconData _getFileIcon(String name) {
     final ext = name.split('.').last.toLowerCase();
@@ -117,23 +111,14 @@ class _FileBrowserScreenState extends State<FileBrowserScreen> {
       final bytes = await ApiService.downloadFile(path);
       final filename = path.split('/').last;
       if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text(
-              '📥 Downloaded: $filename (${_formatSize(bytes.length)})',
-            ),
-            backgroundColor: AppTheme.success,
-          ),
+        UiUtils.showSnackBar(
+          context,
+          '📥 Downloaded: $filename (${UiUtils.formatSize(bytes.length)})',
         );
       }
     } catch (e) {
       if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text('❌ Download gagal: $e'),
-            backgroundColor: AppTheme.error,
-          ),
-        );
+        UiUtils.showSnackBar(context, '❌ Download gagal: $e', isError: true);
       }
     }
   }
@@ -403,7 +388,7 @@ class _FileBrowserScreenState extends State<FileBrowserScreen> {
                 Text(
                   isDir
                       ? '${item["file_count"] ?? 0} files'
-                      : _formatSize(item['size'] ?? 0),
+                      : UiUtils.formatSize(item['size'] ?? 0),
                   style: const TextStyle(
                     fontSize: 10,
                     color: AppTheme.textMuted,
@@ -453,7 +438,7 @@ class _FileBrowserScreenState extends State<FileBrowserScreen> {
         subtitle: Text(
           isDir
               ? '${item["file_count"] ?? 0} files'
-              : _formatSize(item['size'] ?? 0),
+              : UiUtils.formatSize(item['size'] ?? 0),
           style: const TextStyle(fontSize: 12, color: AppTheme.textMuted),
         ),
         trailing: isDir

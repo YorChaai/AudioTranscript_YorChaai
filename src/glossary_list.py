@@ -3,9 +3,9 @@ import json
 import string
 from pathlib import Path
 from collections import Counter
+from config import BASE_DIR, CONVERT_DIR
 
 # File paths
-BASE_DIR = Path(__file__).parent.parent  # Project root (src/ is subdir)
 GLOSSARY_PATH = BASE_DIR / "assets" / "glossary.json"
 IGNORE_PATH = BASE_DIR / "assets" / "ignore_list.json"
 
@@ -61,7 +61,7 @@ def suggest_terms(text: str, top_n: int = 50):
             except LookupError:
                 try:
                     print(f"⏳ Downloading NLTK stopwords... (attempt {attempt + 1}/{max_retries})")
-                    nltk.download('stopwords', quiet=True, timeout=30)
+                    nltk.download('stopwords', quiet=True)
                     # Verify download succeeded
                     nltk.data.find('corpora/stopwords')
                     print("✅ Stopwords downloaded successfully")
@@ -245,7 +245,7 @@ def suggest_terms(text: str, top_n: int = 50):
 
 def get_txt_files():
     """Recursively find .txt files."""
-    convert_dir = BASE_DIR / "convert txt"
+    convert_dir = CONVERT_DIR
     if not convert_dir.exists():
         print(f"❌ Directory not found: {convert_dir}")
         return []

@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:io';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:open_file/open_file.dart';
 import 'package:path_provider/path_provider.dart';
 import '../config/theme.dart';
@@ -10,6 +11,7 @@ import '../widgets/sort_menu.dart';
 import '../widgets/app_scrollbar.dart';
 import '../providers/sort_provider.dart';
 import 'package:provider/provider.dart';
+import '../utils/ui_utils.dart';
 
 /// summary screen - buat dan edit ringkasan
 class SummaryScreen extends StatefulWidget {
@@ -129,9 +131,7 @@ class _SummaryScreenState extends State<SummaryScreen> {
     } catch (e) {
       setState(() => _loadingContent = false);
       if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Error: $e'), backgroundColor: AppTheme.error),
-        );
+        UiUtils.showSnackBar(context, 'Error: $e', isError: true);
       }
     }
   }
@@ -147,22 +147,12 @@ class _SummaryScreenState extends State<SummaryScreen> {
         _content = _editorController.text;
       });
       if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text('✅ Tersimpan!'),
-            backgroundColor: AppTheme.success,
-          ),
-        );
+        UiUtils.showSnackBar(context, '✅ Tersimpan!');
       }
     } catch (e) {
       setState(() => _saving = false);
       if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text('❌ Gagal simpan: $e'),
-            backgroundColor: AppTheme.error,
-          ),
-        );
+        UiUtils.showSnackBar(context, '❌ Gagal simpan: $e', isError: true);
       }
     }
   }
@@ -207,22 +197,14 @@ class _SummaryScreenState extends State<SummaryScreen> {
             });
             // Auto reload content to see if summary was appended or created
             _loadContent(_selectedFile!);
-            ScaffoldMessenger.of(context).showSnackBar(
-              const SnackBar(
-                  content: Text('✅ Ringkasan berhasil dibuat!'),
-                  backgroundColor: AppTheme.success),
-            );
+            UiUtils.showSnackBar(context, '✅ Ringkasan berhasil dibuat!');
           } else if (status == 'failed' || statusRes['error'] != null) {
             timer.cancel();
             setState(() {
               _generating = false;
               _status = 'Gagal: ${statusRes["error"]}';
             });
-            ScaffoldMessenger.of(context).showSnackBar(
-              SnackBar(
-                  content: Text('❌ Gagal: ${statusRes["error"]}'),
-                  backgroundColor: AppTheme.error),
-            );
+            UiUtils.showSnackBar(context, '❌ Gagal: ${statusRes["error"]}', isError: true);
           }
         } catch (e) {
           // ignore network hiccups
@@ -231,12 +213,7 @@ class _SummaryScreenState extends State<SummaryScreen> {
     } catch (e) {
       setState(() => _generating = false);
       if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text('❌ Gagal request: $e'),
-            backgroundColor: AppTheme.error,
-          ),
-        );
+        UiUtils.showSnackBar(context, '❌ Gagal request: $e', isError: true);
       }
     }
   }
@@ -253,33 +230,18 @@ class _SummaryScreenState extends State<SummaryScreen> {
       final openResult = await OpenFile.open(file.path);
 
       if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text(openResult.type == ResultType.done
-                ? '✅ File dibuka: $filename'
-                : '✅ File tersimpan: $filename'),
-            backgroundColor: AppTheme.success,
-            duration: const Duration(seconds: 2),
-          ),
+        UiUtils.showSnackBar(
+          context, 
+          openResult.type == ResultType.done ? '✅ File dibuka: $filename' : '✅ File tersimpan: $filename'
         );
       }
     } catch (e) {
       if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text('❌ Download gagal: $e'),
-            backgroundColor: AppTheme.error,
-          ),
-        );
+        UiUtils.showSnackBar(context, '❌ Download gagal: $e', isError: true);
       }
     }
   }
 
-  String _formatSize(int bytes) {
-    if (bytes < 1024) return '$bytes B';
-    if (bytes < 1024 * 1024) return '${(bytes / 1024).toStringAsFixed(1)} KB';
-    return '${(bytes / (1024 * 1024)).toStringAsFixed(1)} MB';
-  }
 
   List<Map<String, dynamic>> _getSortedFiles(SortProvider sortProv) {
     final list = List<Map<String, dynamic>>.from(_files);
@@ -317,31 +279,41 @@ class _SummaryScreenState extends State<SummaryScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return DefaultTabController(
-      length: 2,
-      child: Column(
-        children: [
-          Container(
-            color: AppTheme.surfaceDark,
-            child: const TabBar(
-              indicatorColor: AppTheme.accentCyan,
-              labelColor: AppTheme.accentCyan,
-              unselectedLabelColor: AppTheme.textSecondary,
-              tabs: [
-                Tab(icon: Icon(Icons.auto_awesome), text: 'Convert'),
-                Tab(icon: Icon(Icons.description), text: 'Results'),
-              ],
-            ),
+    return CallbackShortcuts(
+      bindings: {
+        const SingleActivator(LogicalKeyboardKey.keyS, control: true): () {
+          if (_selectedFile != null && _hasChanges && !_saving) _saveContent();
+        },
+      },
+      child: Focus(
+        autofocus: false,
+        child: DefaultTabController(
+          length: 2,
+          child: Column(
+            children: [
+              Container(
+                color: AppTheme.surfaceDark,
+                child: const TabBar(
+                  indicatorColor: AppTheme.accentCyan,
+                  labelColor: AppTheme.accentCyan,
+                  unselectedLabelColor: AppTheme.textSecondary,
+                  tabs: [
+                    Tab(icon: Icon(Icons.auto_awesome), text: 'Convert'),
+                    Tab(icon: Icon(Icons.description), text: 'Results'),
+                  ],
+                ),
+              ),
+              Expanded(
+                child: TabBarView(
+                  children: [
+                    _buildConvertTab(context),
+                    _buildResultsTab(),
+                  ],
+                ),
+              ),
+            ],
           ),
-          Expanded(
-            child: TabBarView(
-              children: [
-                _buildConvertTab(context),
-                _buildResultsTab(),
-              ],
-            ),
-          ),
-        ],
+        ),
       ),
     );
   }
@@ -612,7 +584,7 @@ class _SummaryScreenState extends State<SummaryScreen> {
         overflow: TextOverflow.ellipsis,
       ),
       subtitle: Text(
-        '${file["label"]} · ${_formatSize(file["size"])}',
+        '${file["label"]} · ${UiUtils.formatSize(file["size"] ?? 0)}',
         style: const TextStyle(fontSize: 11, color: AppTheme.textMuted),
       ),
       selected: isSelected,
@@ -904,34 +876,43 @@ class _SummaryScreenState extends State<SummaryScreen> {
 
     return Padding(
       padding: const EdgeInsets.all(16),
-      child: AppScrollbar(
-        controller: _editorScrollController,
-        child: TextField(
-          controller: _editorController,
-          scrollController: _editorScrollController,
-          readOnly: _isLocked,
-          maxLines: null,
-          expands: true,
-          textAlignVertical: TextAlignVertical.top,
-          style: const TextStyle(
-            fontSize: 14,
-            height: 1.6,
-            fontFamily: 'Consolas',
-            color: AppTheme.textPrimary,
+      child: Theme(
+        data: Theme.of(context).copyWith(
+          scrollbarTheme: ScrollbarThemeData(
+            thumbVisibility: WidgetStateProperty.all(false),
+            trackVisibility: WidgetStateProperty.all(false),
+            thickness: WidgetStateProperty.all(0),
           ),
-          decoration: const InputDecoration(
-            border: InputBorder.none,
-            enabledBorder: InputBorder.none,
-            focusedBorder: InputBorder.none,
-            fillColor: Colors.transparent,
-            filled: true,
-            hintText: 'Teks transkripsi...',
-            hintStyle: TextStyle(color: AppTheme.textMuted),
-            contentPadding: EdgeInsets.zero,
+        ),
+        child: AppScrollbar(
+          controller: _editorScrollController,
+          child: TextField(
+            controller: _editorController,
+            scrollController: _editorScrollController,
+            readOnly: _isLocked,
+            maxLines: null,
+            expands: true,
+            textAlignVertical: TextAlignVertical.top,
+            style: const TextStyle(
+              fontSize: 14,
+              height: 1.6,
+              fontFamily: 'Consolas',
+              color: AppTheme.textPrimary,
+            ),
+            decoration: const InputDecoration(
+              border: InputBorder.none,
+              enabledBorder: InputBorder.none,
+              focusedBorder: InputBorder.none,
+              fillColor: Colors.transparent,
+              filled: true,
+              hintText: 'Teks transkripsi...',
+              hintStyle: TextStyle(color: AppTheme.textMuted),
+              contentPadding: EdgeInsets.zero,
+            ),
+            onChanged: (val) {
+              if (!_hasChanges) setState(() => _hasChanges = true);
+            },
           ),
-          onChanged: (val) {
-            if (!_hasChanges) setState(() => _hasChanges = true);
-          },
         ),
       ),
     );
@@ -1006,7 +987,7 @@ class _SummaryScreenState extends State<SummaryScreen> {
                           return ListTile(
                             leading: const Icon(Icons.description_rounded, color: AppTheme.accentCyan),
                             title: Text(file['name']),
-                            subtitle: Text(_formatSize(file['size'])),
+                            subtitle: Text(UiUtils.formatSize(file['size'] ?? 0)),
                             trailing: IconButton(
                               icon: const Icon(Icons.download_rounded, color: AppTheme.accentCyan),
                               onPressed: () => _downloadFile('summary/${file['path']}'),
@@ -1024,7 +1005,7 @@ class _SummaryScreenState extends State<SummaryScreen> {
   Widget _buildSummaryBreadcrumb() {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
         color: AppTheme.backgroundDark,
         border: Border(bottom: BorderSide(color: AppTheme.dividerColor)),
       ),

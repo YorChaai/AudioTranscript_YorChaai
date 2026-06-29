@@ -9,9 +9,7 @@ from pathlib import Path
 from datetime import datetime
 from queue import Queue, Empty
 import threading
-
-BASE_DIR = Path(__file__).parent.parent  # Project root (src/ is subdir)
-DB_PATH = BASE_DIR / "server" / "app.db"
+from config import BASE_DIR, DB_PATH
 
 # Fix M5: Configurable connection pool size via environment variable
 # Default to 10, but can be overridden with DB_POOL_SIZE env var

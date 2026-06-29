@@ -18,8 +18,7 @@ if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 # Paths
-BASE_DIR = Path(__file__).parent.parent  # Project root (src/ is subdir)
-CONVERT_DIR = BASE_DIR / "output"
+from config import BASE_DIR, CONVERT_DIR
 WINDOWS_FONTS_DIR = Path(os.environ.get("WINDIR", r"C:\Windows")) / "Fonts"
 UNICODE_FONT_CANDIDATES = [
     WINDOWS_FONTS_DIR / "malgun.ttf",
