@@ -20,7 +20,7 @@ class AppShell extends StatefulWidget {
 }
 
 class _AppShellState extends State<AppShell> {
-  final bool _sidebarExpanded = true;
+  bool _sidebarExpanded = true;
 
   final List<_NavItem> _navItems = const [
     _NavItem(
@@ -133,12 +133,33 @@ class _AppShellState extends State<AppShell> {
       duration: const Duration(milliseconds: 300),
       curve: Curves.easeInOut,
       width: width,
-      child: Column(
-        children: [
-          const SizedBox(height: 32),
-          _buildLogo(isTablet),
-          const SizedBox(height: 32),
-          Expanded(
+      child: ClipRect(
+        child: SingleChildScrollView(
+          scrollDirection: Axis.horizontal,
+          physics: const NeverScrollableScrollPhysics(),
+          child: SizedBox(
+            width: width,
+            child: Column(
+              children: [
+                const SizedBox(height: 16),
+                if (!isTablet)
+                  Align(
+                    alignment: _sidebarExpanded ? Alignment.centerRight : Alignment.center,
+                    child: Padding(
+                      padding: EdgeInsets.only(right: _sidebarExpanded ? 16 : 0, bottom: 8),
+                      child: IconButton(
+                        icon: Icon(
+                          _sidebarExpanded ? Icons.menu_open_rounded : Icons.menu_rounded,
+                          color: AppTheme.textSecondary,
+                        ),
+                        tooltip: _sidebarExpanded ? 'Sembunyikan Sidebar' : 'Tampilkan Sidebar',
+                        onPressed: () => setState(() => _sidebarExpanded = !_sidebarExpanded),
+                      ),
+                    ),
+                  ),
+                _buildLogo(isTablet),
+                const SizedBox(height: 24),
+                Expanded(
             child: ListView.builder(
               padding: const EdgeInsets.symmetric(horizontal: 12),
               itemCount: _navItems.length,
@@ -154,10 +175,13 @@ class _AppShellState extends State<AppShell> {
             ),
         ],
       ),
-    );
-  }
+     ),
+    ),
+   ),
+  );
+ }
 
-  Widget _buildLogo(bool isTablet) {
+ Widget _buildLogo(bool isTablet) {
     final isCompact = isTablet || !_sidebarExpanded;
     return Padding(
       padding: EdgeInsets.symmetric(horizontal: isCompact ? 0 : 24),
