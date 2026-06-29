@@ -6,18 +6,33 @@ class ApiConfig {
   // ganti IP ini sesuai IP laptop kamu
   // cek di terminal: ipconfig -> IPv4 Address
 
+  // Cek apakah API_URL disuplai lewat build --dart-define
+  static const String _envApiUrl = String.fromEnvironment('API_URL');
+
   static String get _defaultHost {
+    // Jika ada environment variable dari build_all.bat, gunakan itu
+    if (_envApiUrl.isNotEmpty) {
+      final uri = Uri.tryParse(_envApiUrl);
+      if (uri != null) return uri.host;
+    }
+
     if (kIsWeb) return '127.0.0.1';
     try {
       if (Platform.isWindows || Platform.isMacOS || Platform.isLinux) return '127.0.0.1';
     } catch (_) {}
-    // Gunakan IP Address PC ini agar HP fisik bisa konek
+    // Gunakan IP Address PC ini agar HP fisik bisa konek (sebagai fallback)
     return '192.168.68.56';
   }
-  static const int _defaultPort = 5000;
+  
+  static int get _defaultPort {
+    if (_envApiUrl.isNotEmpty) {
+      final uri = Uri.tryParse(_envApiUrl);
+      if (uri != null && uri.hasPort) return uri.port;
+    }
+    return 5000;
+  }
 
   static String _host = _defaultHost;
-
   static int _port = _defaultPort;
 
   static String get baseUrl {
