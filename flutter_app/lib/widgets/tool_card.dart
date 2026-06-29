@@ -46,9 +46,8 @@ class _ToolCardState extends State<ToolCard> {
 
     final isInteractive = _isHovered || _isPressed;
     final cardColor = isInteractive ? AppTheme.cardHover : AppTheme.cardDark;
-    final borderColor = isInteractive
-        ? widget.color.withOpacity(0.45)
-        : AppTheme.dividerColor;
+    final borderColor =
+        isInteractive ? widget.color.withOpacity(0.45) : AppTheme.dividerColor;
 
     return MouseRegion(
       onEnter: (_) => setState(() => _isHovered = true),
