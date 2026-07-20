@@ -27,6 +27,12 @@ class MultipartRequestWithProgress extends http.MultipartRequest {
         onProgress!(bytes, total);
         sink.add(data);
       },
+      handleDone: (sink) {
+        sink.close();
+      },
+      handleError: (error, stackTrace, sink) {
+        sink.addError(error, stackTrace);
+      },
     );
 
     return http.ByteStream(byteStream.transform(transformer));

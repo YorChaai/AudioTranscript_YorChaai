@@ -267,10 +267,12 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
       'fileName': files.first.path.split(Platform.pathSeparator).last,
     });
 
+    BuildContext? dialogContext;
     showDialog(
       context: context,
       barrierDismissible: false,
-      builder: (dialogContext) {
+      builder: (ctx) {
+        dialogContext = ctx;
         return ValueListenableBuilder<Map<String, dynamic>>(
           valueListenable: progressNotifier,
           builder: (context, progress, child) {
@@ -327,8 +329,9 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
       },
     );
 
-    if (!mounted) return;
-    Navigator.of(context, rootNavigator: true).pop(); // Close dialog
+    if (dialogContext != null && dialogContext!.mounted) {
+      Navigator.pop(dialogContext!); // Close dialog securely
+    }
 
     final successCount = results['success'] ?? 0;
     final failCount = results['failed'] ?? 0;
