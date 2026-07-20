@@ -17,11 +17,11 @@ dependencies:
   
   # --- File Operations ---
   # Untuk pilih file audio dari device
-  file_picker: ^8.0.0
+  file_picker: ^11.0.2
   # Untuk akses folder penyimpanan (download hasil)
   path_provider: ^2.1.0
   # Untuk buka file hasil (PDF/TXT) langsung dari app
-  open_file: ^3.3.2
+  open_file: ^4.0.0
   
   # --- State Management ---
   # Untuk manajemen data antar screen (misal status koneksi)
@@ -31,21 +31,21 @@ dependencies:
   # Icon set standar iOS
   cupertino_icons: ^1.0.8
   # Font custom (kita pakai Google Fonts Inter)
-  google_fonts: ^6.1.0
+  google_fonts: ^8.1.0
   # Efek loading yang keren (tulang-tulang loading)
   shimmer: ^3.0.0
   
   # --- Permissions ---
   # Untuk minta izin akses file di Android 13+
-  permission_handler: ^11.3.0
+  permission_handler: ^12.0.3
   go_router: ^17.3.0
   flutter_displaymode: ^0.7.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
-  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
 
 flutter_launcher_icons:
   android: "launcher_icon"

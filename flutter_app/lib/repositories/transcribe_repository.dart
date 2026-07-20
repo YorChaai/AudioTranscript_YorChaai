@@ -9,12 +9,12 @@ class TranscribeRepository {
     return await ApiService.listAudio(path: path);
   }
 
-  Future<Map<String, dynamic>> uploadAudio(File file, {String path = ''}) async {
-    return await ApiService.uploadAudio(file, path: path);
+  Future<Map<String, dynamic>> uploadAudio(File file, {String path = '', void Function(int bytes, int totalBytes)? onProgress}) async {
+    return await ApiService.uploadAudio(file, path: path, onProgress: onProgress);
   }
 
-  Future<Map<String, dynamic>> uploadVideoAndConvert(File file, {String path = ''}) async {
-    return await ApiService.uploadVideoAndConvertToMp3(file, path: path);
+  Future<Map<String, dynamic>> uploadVideoAndConvert(File file, {String path = '', void Function(int bytes, int totalBytes)? onProgress}) async {
+    return await ApiService.uploadVideoAndConvertToMp3(file, path: path, onProgress: onProgress);
   }
 
   Future<Map<String, dynamic>> createFolder(String name, {String path = ''}) async {

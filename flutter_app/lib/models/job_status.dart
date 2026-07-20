@@ -48,4 +48,32 @@ class JobStatus {
       'updated_at': updatedAt,
     };
   }
+
+  String get readableStatus {
+    switch (status) {
+      case 'pending':
+        return 'Menunggu antrean...';
+      case 'processing':
+        return 'Sedang memproses...';
+      case 'transcribing':
+        return 'Mentranskripsi audio...';
+      case 'loading_model':
+        return 'Memuat model AI...';
+      case 'generating_summary':
+        return 'Membuat ringkasan...';
+      case 'waiting_ollama':
+        return 'Menunggu AI (Ollama)...';
+      case 'saving':
+        return 'Menyimpan hasil...';
+      case 'completed':
+        return '✅ Selesai!';
+      case 'failed':
+      case 'error':
+        return '❌ Gagal';
+      case 'cancelled':
+        return '🛑 Dibatalkan';
+      default:
+        return status;
+    }
+  }
 }

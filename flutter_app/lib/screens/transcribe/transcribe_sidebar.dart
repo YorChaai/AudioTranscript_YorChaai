@@ -326,7 +326,7 @@ class TranscribeSidebar extends StatelessWidget {
               style: const TextStyle(color: AppTheme.textSecondary, fontSize: 12),
             ),
             TextButton.icon(
-              onPressed: () => context.read<TranscribeProvider>().cancelTranscribe(),
+              onPressed: () => context.read<TranscribeProvider>().cancelTranscription(),
               icon: const Icon(Icons.cancel, color: AppTheme.error),
               label: const Text('Batalkan', style: TextStyle(color: AppTheme.error)),
             ),

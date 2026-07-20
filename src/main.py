@@ -23,16 +23,10 @@ if hasattr(sys.stdout, "reconfigure"):
 if hasattr(sys.stderr, "reconfigure"):
     sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
-from pathlib import Path
-from config import BASE_DIR, AUDIO_EXTENSIONS, VIDEO_EXTENSIONS, MEDIA_EXTENSIONS
+from config import BASE_DIR, AUDIO_EXTENSIONS, VIDEO_EXTENSIONS, MEDIA_EXTENSIONS, LANGUAGE_MENU
 
-# Fix M1: Centralized language choices (DRY principle)
-LANGUAGE_CHOICES = {
-    "1": {"code": "id", "name": "Indonesian"},
-    "2": {"code": "en", "name": "English"},
-    "3": {"code": "ja", "name": "Japanese"},
-    "4": {"code": "auto", "name": "Auto-detect / Campuran"},
-}
+# Use centralized language choices
+LANGUAGE_CHOICES = LANGUAGE_MENU
 
 # ============================================================
 # HELPER FUNCTIONS (from LOCALCTOLOCALD/main.py)

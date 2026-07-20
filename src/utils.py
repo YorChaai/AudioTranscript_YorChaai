@@ -443,3 +443,35 @@ def ensure_dirs(*paths):
 def get_file_size_mb(path: Path) -> float:
     """Get file size in MB"""
     return path.stat().st_size / (1024 * 1024)
+
+
+def handle_pdf_conversion_prompt(generated_files: List[Path]):
+    """
+    Prompt user to convert generated text files to PDF.
+    Commonly used at the end of transcription scripts.
+    """
+    if not generated_files:
+        return
+
+    print("\n" + "-" * 50)
+    print("📄 PDF Conversion")
+    choice = input("Convert to PDF? (1 = Yes, 0 = No): ").strip()
+
+    if choice == "1":
+        print("\n🔄 Generating PDFs...")
+        try:
+            import convert_pdf
+            from pdf_utils import txt_to_pdf
+
+            success = 0
+            for txt_path in generated_files:
+                if txt_to_pdf(str(txt_path)):
+                    success += 1
+
+            print(f"\n✨ PDF conversion completed ({success}/{len(generated_files)} successful).")
+        except ImportError:
+            print("❌ Error: convert_pdf module not found.")
+        except Exception as e:
+            print(f"❌ Error during PDF conversion: {e}")
+    else:
+        print("👌 Skipped PDF conversion.")

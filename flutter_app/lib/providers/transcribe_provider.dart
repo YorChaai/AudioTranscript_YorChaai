@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:io';
 import 'package:flutter/material.dart';
+import '../models/job_status.dart';
 import '../repositories/transcribe_repository.dart';
 
 /// Global State Management for Transcribe features using Provider
@@ -28,7 +29,7 @@ class TranscribeProvider extends ChangeNotifier {
   String? _errorMessage;
   String? get errorMessage => _errorMessage;
 
-  // Transcribe State
+  // Transcribe Job State
   bool _transcribing = false;
   bool get transcribing => _transcribing;
 
@@ -38,8 +39,8 @@ class TranscribeProvider extends ChangeNotifier {
   double _progress = 0;
   double get progress => _progress;
 
-  String _status = '';
-  String get status => _status;
+  String _statusMessage = '';
+  String get status => _statusMessage;
 
   String? _outputFile;
   String? get outputFile => _outputFile;
@@ -63,7 +64,7 @@ class TranscribeProvider extends ChangeNotifier {
     }
   }
 
-  Future<bool> uploadAudioFile(File file, {bool isVideo = false}) async {
+  Future<bool> uploadMedia(File file, {bool isVideo = false}) async {
     _isLoading = true;
     _errorMessage = null;
     notifyListeners();
@@ -74,7 +75,7 @@ class TranscribeProvider extends ChangeNotifier {
       } else {
         await _repository.uploadAudio(file, path: _currentPath);
       }
-      await loadAudioFiles(); // refresh list
+      await loadAudioFiles();
       return true;
     } catch (e) {
       _errorMessage = e.toString();
@@ -84,7 +85,47 @@ class TranscribeProvider extends ChangeNotifier {
     }
   }
 
-  Future<void> startTranscribe({
+  Future<Map<String, int>> uploadMediaBatch(List<File> files, {bool isVideo = false, void Function(int index, String fileName, double currentProgress)? onProgress}) async {
+    _isLoading = true;
+    _errorMessage = null;
+    notifyListeners();
+
+    int successCount = 0;
+    int failCount = 0;
+
+    for (int i = 0; i < files.length; i++) {
+      String fileName = files[i].path.split(Platform.pathSeparator).last;
+      if (onProgress != null) {
+        onProgress(i, fileName, 0.0);
+      }
+      
+      try {
+        void handleProgress(int bytes, int total) {
+          if (onProgress != null && total > 0) {
+            onProgress(i, fileName, bytes / total);
+          }
+        }
+
+        if (isVideo) {
+          await _repository.uploadVideoAndConvert(files[i], path: _currentPath, onProgress: handleProgress);
+        } else {
+          await _repository.uploadAudio(files[i], path: _currentPath, onProgress: handleProgress);
+        }
+        successCount++;
+        
+        if (onProgress != null) {
+          onProgress(i, fileName, 1.0);
+        }
+      } catch (e) {
+        failCount++;
+      }
+    }
+
+    await loadAudioFiles();
+    return {'success': successCount, 'failed': failCount};
+  }
+
+  Future<void> startTranscription({
     required List<String> files,
     required String language,
     required bool doTranslate,
@@ -92,7 +133,7 @@ class TranscribeProvider extends ChangeNotifier {
   }) async {
     _transcribing = true;
     _progress = 0;
-    _status = 'Memulai batch (${files.length} file)...';
+    _statusMessage = 'Memulai batch (${files.length} file)...';
     _outputFile = null;
     _errorMessage = null;
     notifyListeners();
@@ -108,66 +149,59 @@ class TranscribeProvider extends ChangeNotifier {
       _jobId = res['job_id'];
       
       _statusSubscription?.cancel();
-      _statusSubscription = _repository.streamJobStatus(_jobId!).listen((job) async {
-        _progress = (job['progress'] ?? 0).toDouble();
-        final newStatus = job['status'] ?? '';
-        _status = _statusText(newStatus);
+      _statusSubscription = _repository.streamJobStatus(_jobId!).listen((data) {
+        final job = JobStatus.fromJson(data);
+        _progress = job.progress;
+        _statusMessage = job.readableStatus;
         
-        if (newStatus == 'completed') {
-          _statusSubscription?.cancel();
-          _transcribing = false;
-          _progress = 100;
-          _outputFile = job['output_file'];
-          _status = '✅ Selesai!';
-        } else if (newStatus == 'failed' || newStatus == 'error') {
-          _statusSubscription?.cancel();
-          _transcribing = false;
-          _errorMessage = job['error'] ?? 'Terjadi kesalahan';
-          _status = '❌ Gagal';
+        if (job.status == 'completed') {
+          _finishJob(job.outputFile, '✅ Selesai!');
+        } else if (job.status == 'failed' || job.status == 'error') {
+          _errorJob(job.error ?? 'Terjadi kesalahan');
+        } else if (job.status == 'cancelled') {
+          _errorJob('🛑 Dibatalkan');
         }
         notifyListeners();
       }, onError: (e) {
-        _statusSubscription?.cancel();
-        _transcribing = false;
-        _errorMessage = e.toString();
-        _status = '❌ Gagal menyambung stream';
+        _errorJob('❌ Gagal menyambung stream: $e');
         notifyListeners();
       });
 
     } catch (e) {
-      _transcribing = false;
-      _errorMessage = e.toString();
-      _status = '❌ Gagal memulai';
+      _errorJob('❌ Gagal memulai: $e');
       notifyListeners();
     }
   }
 
-  Future<void> cancelTranscribe() async {
+  void _finishJob(String? out, String msg) {
+    _statusSubscription?.cancel();
+    _transcribing = false;
+    _progress = 100;
+    _outputFile = out;
+    _statusMessage = msg;
+  }
+
+  void _errorJob(String err) {
+    _statusSubscription?.cancel();
+    _transcribing = false;
+    _errorMessage = err;
+    _statusMessage = '❌ Gagal';
+  }
+
+  Future<void> cancelTranscription() async {
     if (_jobId == null) return;
     try {
       await _repository.cancelTranscribe(_jobId!);
+      _statusMessage = 'Membatalkan...';
+      notifyListeners();
     } catch (e) {
-      _errorMessage = 'Gagal cancel: $e';
-    } finally {
-      _statusSubscription?.cancel();
-      _transcribing = false;
-      _status = 'Dibatalkan';
+      _errorMessage = 'Gagal membatalkan: $e';
       notifyListeners();
     }
   }
 
-  String _statusText(String st) {
-    switch (st) {
-      case 'pending': return 'Menunggu antrean...';
-      case 'processing': return 'Sedang memproses...';
-      case 'extracting_audio': return 'Ekstrak audio...';
-      case 'completed': return '✅ Selesai!';
-      case 'failed': return '❌ Gagal';
-      default: return st;
-    }
-  }
+  // ===== NAVIGATION =====
 
-  // ===== FOLDERS / PLAYLISTS =====
   void navigateTo(String path) {
     _pathHistory.add(_currentPath);
     _currentPath = path;
@@ -186,6 +220,8 @@ class TranscribeProvider extends ChangeNotifier {
     _currentPath = '';
     loadAudioFiles();
   }
+
+  // ===== FOLDERS / PLAYLISTS =====
 
   Future<bool> createPlaylist(String name) async {
     _isLoading = true;
@@ -208,11 +244,8 @@ class TranscribeProvider extends ChangeNotifier {
     try {
       final res = await _repository.moveFiles(filePaths, targetPath);
       
-      if (res['errors'] != null) {
-         final errors = res['errors'] as List;
-         if (errors.isNotEmpty) {
-           throw Exception("Gagal memindahkan file: ${errors.join(', ')}");
-         }
+      if (res['errors'] != null && (res['errors'] as List).isNotEmpty) {
+         throw Exception("Gagal memindahkan file: ${(res['errors'] as List).join(', ')}");
       }
       
       await loadAudioFiles();

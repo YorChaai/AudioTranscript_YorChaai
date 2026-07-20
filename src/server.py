@@ -515,15 +515,7 @@ def start_summary():
 
     def _run_summary(j_id, t_path, m_name):
         try:
-            now = datetime.now().isoformat()
-            with _jobs_cache_lock:
-                _jobs_cache[j_id] = {
-                    "id": j_id,
-                    "status": "generating_summary",
-                    "progress": 10,
-                    "created_at": now,
-                    "updated_at": now,
-                }
+            _update_job_status(j_id, "generating_summary", progress=10)
 
             with open(t_path, "r", encoding="utf-8") as f:
                 raw_text = f.read()
@@ -531,33 +523,21 @@ def start_summary():
             metadata = extract_metadata(raw_text)
             cleaned_text = clean_transcript(raw_text)
 
-            with _jobs_cache_lock:
-                _jobs_cache[j_id]["progress"] = 30
-                _jobs_cache[j_id]["status"] = "waiting_ollama"
+            _update_job_status(j_id, "waiting_ollama", progress=30)
 
             summary = generate_summary(
                 cleaned_text, m_name, language=metadata.get("language", "id")
             )
 
-            with _jobs_cache_lock:
-                _jobs_cache[j_id]["progress"] = 90
-                _jobs_cache[j_id]["status"] = "saving"
+            _update_job_status(j_id, "saving", progress=90)
 
             save_summary(t_path, summary, m_name)
 
-            # Update DB & Cache
-            db.update_job(j_id, "completed", error=None)
-            with _jobs_cache_lock:
-                _jobs_cache[j_id]["progress"] = 100
-                _jobs_cache[j_id]["status"] = "completed"
-                _jobs_cache[j_id]["updated_at"] = datetime.now().isoformat()
+            _update_job_status(j_id, "completed", progress=100)
 
         except Exception as e:
             print(f"Error summary {j_id}: {e}")
-            db.update_job(j_id, "failed", error=str(e))
-            with _jobs_cache_lock:
-                _jobs_cache[j_id]["status"] = "failed"
-                _jobs_cache[j_id]["error"] = str(e)
+            _update_job_status(j_id, "failed", error=str(e))
 
     thread = threading.Thread(
         target=_run_summary, args=(job_id, txt_path, model_name), daemon=True
@@ -622,60 +602,48 @@ def start_transcribe():
     )
 
 
+def _update_job_status(job_id, status, progress=None, error=None, output_file=None):
+    """Update job status in both memory cache and database."""
+    now = datetime.now().isoformat()
+    with _jobs_cache_lock:
+        if job_id not in _jobs_cache:
+            _jobs_cache[job_id] = {"id": job_id, "created_at": now}
+
+        _jobs_cache[job_id]["status"] = status
+        _jobs_cache[job_id]["updated_at"] = now
+        if progress is not None:
+            _jobs_cache[job_id]["progress"] = progress
+        if error is not None:
+            _jobs_cache[job_id]["error"] = error
+        if output_file is not None:
+            _jobs_cache[job_id]["output_file"] = output_file
+
+    # Sync to DB
+    db.update_job(job_id, status=status, progress=progress, error=error, output_file=output_file)
+
+
 def _run_transcribe(job_id, audio_path, language, do_translate, target_lang):
     """background task untuk transcribe — real-time progress via callback + in-memory cache"""
     try:
-        now = datetime.now().isoformat()
-        with _jobs_cache_lock:
-            _jobs_cache[job_id] = {
-                "id": job_id,
-                "status": "loading_model",
-                "progress": 1,
-                "created_at": now,
-                "updated_at": now,
-            }
-        print(f"🔄 Job {job_id}: loading model...")
+        _update_job_status(job_id, "loading_model", progress=1)
+        info(f"🔄 Job {job_id}: loading model...")
 
         if not audio_path.exists():
             error_msg = f"Audio file not found: {audio_path}"
-            print(f"❌ Job {job_id}: {error_msg}")
-            with _jobs_cache_lock:
-                _jobs_cache[job_id] = {
-                    "id": job_id,
-                    "status": "error",
-                    "progress": 0,
-                    "error": error_msg,
-                    "updated_at": datetime.now().isoformat(),
-                }
-            db.update_job(job_id, status="error", error=error_msg)
-            db.add_history(
-                job_id,
-                "transcribe",
-                str(audio_path.name),
-                None,
-                language,
-                "error",
-                metadata={"error": error_msg},
-            )
+            info(f"❌ Job {job_id}: {error_msg}")
+            _update_job_status(job_id, "error", progress=0, error=error_msg)
+            db.add_history(job_id, "transcribe", audio_path.name, None, language, "error", metadata={"error": error_msg})
             return
 
         _cleanup_old_jobs(max_age_hours=24)
         model = _get_model()
 
         if _cancel_flags.get(job_id):
-            with _jobs_cache_lock:
-                _jobs_cache[job_id] = {
-                    "id": job_id,
-                    "status": "cancelled",
-                    "progress": 0,
-                    "updated_at": datetime.now().isoformat(),
-                }
-            db.update_job(job_id, status="cancelled", progress=0)
+            _update_job_status(job_id, "cancelled", progress=0)
             _cancel_flags.pop(job_id, None)
             return
 
-        with _jobs_cache_lock:
-            _jobs_cache[job_id]["status"] = "transcribing"
+        _update_job_status(job_id, "transcribing")
 
         try:
             rel_path = audio_path.parent.relative_to(AUDIO_FOLDER)
@@ -684,101 +652,48 @@ def _run_transcribe(job_id, audio_path, language, do_translate, target_lang):
             output_dir = CONVERT_DIR / "single"
 
         from core.transcription import process_file
-        
-        last_progress_update = 0
+        last_update = 0
 
-        def progress_callback(progress_percent):
-            nonlocal last_progress_update
-            # Only update every few percents to reduce lock contention
-            if progress_percent - last_progress_update > 2 or progress_percent >= 100:
-                last_progress_update = progress_percent
-                progress = PROGRESS_TRANSCRIBING_MIN + (progress_percent / 100) * (PROGRESS_TRANSCRIBING_MAX - PROGRESS_TRANSCRIBING_MIN)
-                with _jobs_cache_lock:
-                    if job_id in _jobs_cache:
-                        _jobs_cache[job_id]["progress"] = min(progress, PROGRESS_MAX)
-                        _jobs_cache[job_id]["status"] = "transcribing"
-                        _jobs_cache[job_id]["updated_at"] = datetime.now().isoformat()
+        def progress_callback(pct):
+            nonlocal last_update
+            if pct - last_update > 2 or pct >= 100:
+                last_update = pct
+                prog = PROGRESS_TRANSCRIBING_MIN + (pct / 100) * (PROGRESS_TRANSCRIBING_MAX - PROGRESS_TRANSCRIBING_MIN)
+                _update_job_status(job_id, "transcribing", progress=min(prog, PROGRESS_MAX))
             
             if _cancel_flags.get(job_id):
-                raise InterruptedError("Transcribe cancelled by user")
+                raise InterruptedError("Cancelled")
 
         try:
-            result, output_path = process_file(
-                model=model,
-                audio_file=audio_path,
-                output_folder=output_dir,
-                language=language,
-                do_translate=do_translate,
-                target_lang=target_lang,
+            result, out_path = process_file(
+                model=model, audio_file=audio_path, output_folder=output_dir,
+                language=language, do_translate=do_translate, target_lang=target_lang,
                 progress_callback=progress_callback
             )
         except InterruptedError:
-            with _jobs_cache_lock:
-                if job_id in _jobs_cache:
-                    _jobs_cache[job_id].update({
-                        "status": "cancelled",
-                        "progress": 0,
-                        "updated_at": datetime.now().isoformat(),
-                    })
-            db.update_job(job_id, status="cancelled", progress=0)
+            _update_job_status(job_id, "cancelled", progress=0)
             _cancel_flags.pop(job_id, None)
-            print(f"🛑 Job {job_id} dibatalkan")
+            info(f"🛑 Job {job_id} dibatalkan")
             return
         
-        with _jobs_cache_lock:
-            if job_id in _jobs_cache:
-                _jobs_cache[job_id].update(
-                    {
-                        "status": "completed",
-                        "progress": PROGRESS_COMPLETED,
-                        "output_file": str(output_path.relative_to(BASE_DIR)),
-                        "updated_at": datetime.now().isoformat(),
-                    }
-                )
+        output_rel = str(out_path.relative_to(BASE_DIR))
+        _update_job_status(job_id, "completed", progress=PROGRESS_COMPLETED, output_file=output_rel)
 
-        db.update_job(
-            job_id,
-            status="completed",
-            progress=PROGRESS_COMPLETED,
-            output_file=str(output_path.relative_to(BASE_DIR)),
-            duration_seconds=(datetime.now() - datetime.fromisoformat(db.get_job(job_id)["created_at"])).total_seconds()
-        )
+        # Update duration in DB
+        job_data = db.get_job(job_id)
+        duration = (datetime.now() - datetime.fromisoformat(job_data["created_at"])).total_seconds()
+        db.update_job(job_id, status="completed", duration_seconds=duration)
 
         db.add_history(
-            job_id,
-            "transcribe",
-            audio_path.name,
-            str(output_path.relative_to(BASE_DIR)),
-            language,
-            "completed",
-            metadata={
-                "detected_lang": result["language"],
-                "probability": result["language_probability"],
-            },
+            job_id, "transcribe", audio_path.name, output_rel, language, "completed",
+            metadata={"detected_lang": result["language"], "probability": result["language_probability"]}
         )
-
-        print(f"✅ Job {job_id} selesai: {output_path.name}")
+        info(f"✅ Job {job_id} selesai: {out_path.name}")
 
     except Exception as e:
-        print(f"❌ Job {job_id} error: {e}")
-        with _jobs_cache_lock:
-            _jobs_cache[job_id] = {
-                "id": job_id,
-                "status": "error",
-                "progress": 0,
-                "error": str(e),
-                "updated_at": datetime.now().isoformat(),
-            }
-        db.update_job(job_id, status="error", error=str(e))
-        db.add_history(
-            job_id,
-            "transcribe",
-            audio_path.name,
-            None,
-            language,
-            "error",
-            metadata={"error": str(e)},
-        )
+        info(f"❌ Job {job_id} error: {e}")
+        _update_job_status(job_id, "error", progress=0, error=str(e))
+        db.add_history(job_id, "transcribe", audio_path.name, None, language, "error", metadata={"error": str(e)})
 
 
 @app.route("/api/transcribe/status/<job_id>", methods=["GET"])

@@ -60,11 +60,23 @@ SUPPORTED_LANGS = {
     "auto": "Auto-detect (Mixed)",
 }
 
+# Language Mapping for Menu (consistent across scripts)
+LANGUAGE_MENU = {
+    "1": {"code": "id", "name": "Indonesian"},
+    "2": {"code": "en", "name": "English"},
+    "3": {"code": "ja", "name": "Japanese"},
+    "4": {"code": "auto", "name": "Auto-detect / Campuran"},
+}
+
 # Ensure required directories exist
-def ensure_directories():
-    AUDIO_FOLDER.mkdir(parents=True, exist_ok=True)
-    VIDEO_UPLOAD_FOLDER.mkdir(parents=True, exist_ok=True)
-    CONVERT_DIR.mkdir(parents=True, exist_ok=True)
-    SUMMARY_DIR.mkdir(parents=True, exist_ok=True)
-    OUTPUT_SINGLE.mkdir(parents=True, exist_ok=True)
-    OUTPUT_MULTIPLE.mkdir(parents=True, exist_ok=True)
+def ensure_directories(verbose=False):
+    dirs = [
+        AUDIO_FOLDER, VIDEO_UPLOAD_FOLDER, CONVERT_DIR,
+        SUMMARY_DIR, OUTPUT_SINGLE, OUTPUT_MULTIPLE,
+        BASE_DIR / "server", BASE_DIR / "temp"
+    ]
+    for d in dirs:
+        if not d.exists():
+            d.mkdir(parents=True, exist_ok=True)
+            if verbose:
+                print(f"📁 Created directory: {d}")

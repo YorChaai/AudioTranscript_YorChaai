@@ -80,24 +80,264 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
     _progressAnimController.forward(from: 0);
   }
 
-  Future<void> _uploadFile(bool isVideo) async {
-    final result = await FilePicker.platform.pickFiles(
-      type: FileType.custom,
-      allowedExtensions: isVideo ? ['mp4', 'mkv', 'avi', 'mov'] : ['mp3', 'wav', 'm4a', 'ogg'],
+  Future<void> _showUploadSourceDialog(bool isVideo) async {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        backgroundColor: AppTheme.cardDark,
+        title: Text(isVideo ? 'Upload Video' : 'Upload Audio', style: const TextStyle(color: Colors.white)),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            ListTile(
+              leading: const Icon(Icons.file_copy, color: AppTheme.accentBlue),
+              title: const Text('Pilih File (Bisa pilih banyak)', style: TextStyle(color: Colors.white)),
+              onTap: () {
+                Navigator.pop(context);
+                _pickFiles(isVideo, fromFolder: false);
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.folder, color: AppTheme.accentBlue),
+              title: const Text('Pilih Folder', style: TextStyle(color: Colors.white)),
+              onTap: () {
+                Navigator.pop(context);
+                _pickFiles(isVideo, fromFolder: true);
+              },
+            ),
+          ],
+        ),
+      ),
     );
-    if (result != null && result.files.single.path != null) {
-      if (!mounted) return;
-      final file = File(result.files.single.path!);
-      final prov = context.read<TranscribeProvider>();
-      final success = await prov.uploadAudioFile(file, isVideo: isVideo);
+  }
 
-      if (!mounted) return;
-      if (success) {
-        UiUtils.showSnackBar(context, isVideo ? 'Video berhasil diupload & convert' : 'Audio berhasil diupload');
-      } else {
-        UiUtils.showSnackBar(context, prov.errorMessage ?? 'Gagal upload', isError: true);
+  Future<void> _pickFiles(bool isVideo, {required bool fromFolder}) async {
+    List<File> selectedFiles = [];
+    
+    if (fromFolder) {
+      String? directoryPath = await FilePicker.getDirectoryPath();
+      if (directoryPath == null) return;
+      
+      final dir = Directory(directoryPath);
+      final allowedExts = isVideo ? ['.mp4', '.mkv', '.avi', '.mov'] : ['.mp3', '.wav', '.m4a', '.ogg'];
+      
+      try {
+        final List<FileSystemEntity> entities = await dir.list(recursive: true).toList();
+        for (var entity in entities) {
+          if (entity is File) {
+            final ext = entity.path.toLowerCase();
+            if (allowedExts.any((e) => ext.endsWith(e))) {
+              selectedFiles.add(entity);
+            }
+          }
+        }
+      } catch (e) {
+        if (mounted) UiUtils.showSnackBar(context, 'Gagal membaca folder: $e', isError: true);
+        return;
       }
+    } else {
+      final result = await FilePicker.pickFiles(
+        type: FileType.custom,
+        allowedExtensions: isVideo ? ['mp4', 'mkv', 'avi', 'mov'] : ['mp3', 'wav', 'm4a', 'ogg'],
+        allowMultiple: true,
+      );
+      if (result == null || result.files.isEmpty) return;
+      
+      selectedFiles = result.files.where((f) => f.path != null).map((f) => File(f.path!)).toList();
     }
+    
+    if (selectedFiles.isEmpty) {
+      if (mounted) UiUtils.showSnackBar(context, 'Tidak ada file media ditemukan');
+      return;
+    }
+    
+    if (!mounted) return;
+    _showUploadConfirmationDialog(selectedFiles, isVideo);
+  }
+
+  void _showUploadConfirmationDialog(List<File> files, bool isVideo) {
+    List<File> selectedForUpload = List.from(files);
+
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (context) {
+        return StatefulBuilder(
+          builder: (context, setStateDialog) {
+            return AlertDialog(
+              backgroundColor: AppTheme.cardDark,
+              title: const Text('Pilih File untuk Diupload', style: TextStyle(color: Colors.white)),
+              content: SizedBox(
+                width: 600,
+                height: 400,
+                child: Column(
+                  children: [
+                    Container(
+                      padding: const EdgeInsets.all(12),
+                      decoration: BoxDecoration(
+                        color: AppTheme.backgroundDark,
+                        borderRadius: BorderRadius.circular(8),
+                      ),
+                      child: Row(
+                        children: [
+                          Icon(isVideo ? Icons.video_file : Icons.audio_file, color: AppTheme.accentBlue),
+                          const SizedBox(width: 8),
+                          Expanded(
+                            child: Text(
+                              'Ditemukan ${files.length} file. Pilih yang ingin diproses.',
+                              style: const TextStyle(color: Colors.white),
+                            ),
+                          ),
+                          TextButton(
+                            onPressed: () {
+                              setStateDialog(() {
+                                if (selectedForUpload.length == files.length) {
+                                  selectedForUpload.clear();
+                                } else {
+                                  selectedForUpload = List.from(files);
+                                }
+                              });
+                            },
+                            child: Text(
+                              selectedForUpload.length == files.length ? 'Deselect All' : 'Select All',
+                              style: const TextStyle(color: AppTheme.accentCyan),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 12),
+                    Expanded(
+                      child: ListView.builder(
+                        itemCount: files.length,
+                        itemBuilder: (context, index) {
+                          final file = files[index];
+                          final fileName = file.path.split(Platform.pathSeparator).last;
+                          final isSelected = selectedForUpload.contains(file);
+                          
+                          return CheckboxListTile(
+                            title: Text(fileName, style: const TextStyle(color: Colors.white, fontSize: 13)),
+                            value: isSelected,
+                            activeColor: AppTheme.accentBlue,
+                            checkColor: Colors.white,
+                            side: const BorderSide(color: AppTheme.textSecondary),
+                            onChanged: (val) {
+                              setStateDialog(() {
+                                if (val == true) {
+                                  selectedForUpload.add(file);
+                                } else {
+                                  selectedForUpload.remove(file);
+                                }
+                              });
+                            },
+                          );
+                        },
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              actions: [
+                TextButton(
+                  onPressed: () => Navigator.pop(context),
+                  child: const Text('Batal'),
+                ),
+                ElevatedButton(
+                  onPressed: selectedForUpload.isEmpty ? null : () {
+                    Navigator.pop(context);
+                    _processMultipleUploads(selectedForUpload, isVideo);
+                  },
+                  style: ElevatedButton.styleFrom(backgroundColor: AppTheme.accentBlue),
+                  child: Text('Proses ${selectedForUpload.length} File'),
+                ),
+              ],
+            );
+          },
+        );
+      },
+    );
+  }
+
+  Future<void> _processMultipleUploads(List<File> files, bool isVideo) async {
+    final prov = context.read<TranscribeProvider>();
+    
+    final progressNotifier = ValueNotifier<Map<String, dynamic>>({
+      'index': 0,
+      'total': files.length,
+      'fileName': files.first.path.split(Platform.pathSeparator).last,
+    });
+
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (dialogContext) {
+        return ValueListenableBuilder<Map<String, dynamic>>(
+          valueListenable: progressNotifier,
+          builder: (context, progress, child) {
+            return AlertDialog(
+              backgroundColor: AppTheme.cardDark,
+              title: const Text('Mengunggah File...', style: TextStyle(color: Colors.white)),
+              content: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Text('Memproses ${progress['index'] + 1} dari ${progress['total']}', style: const TextStyle(color: Colors.white)),
+                  const SizedBox(height: 8),
+                  Text(progress['fileName'], style: const TextStyle(color: AppTheme.textSecondary, fontSize: 12), textAlign: TextAlign.center),
+                  const SizedBox(height: 16),
+                  if (progress['currentProgress'] != null) ...[
+                    LinearProgressIndicator(
+                      value: progress['currentProgress'] >= 1.0 ? null : progress['currentProgress'],
+                      backgroundColor: AppTheme.dividerColor,
+                      valueColor: const AlwaysStoppedAnimation<Color>(AppTheme.accentBlue),
+                    ),
+                    const SizedBox(height: 4),
+                    Text(
+                      progress['currentProgress'] >= 1.0
+                          ? (isVideo 
+                              ? 'Mengonversi ke MP3 (Mohon tunggu, proses ini butuh waktu sesuai durasi video)...' 
+                              : 'Menyimpan file...')
+                          : '${(progress['currentProgress'] * 100).toStringAsFixed(0)}%',
+                      style: const TextStyle(color: AppTheme.textSecondary, fontSize: 10),
+                      textAlign: TextAlign.center,
+                    ),
+                  ] else ...[
+                    const LinearProgressIndicator(
+                      backgroundColor: AppTheme.dividerColor,
+                      valueColor: AlwaysStoppedAnimation<Color>(AppTheme.accentBlue),
+                    ),
+                  ],
+                ],
+              ),
+            );
+          },
+        );
+      },
+    );
+
+    final results = await prov.uploadMediaBatch(
+      files,
+      isVideo: isVideo,
+      onProgress: (index, fileName, currentProgress) {
+        progressNotifier.value = {
+          'index': index,
+          'total': files.length,
+          'fileName': fileName,
+          'currentProgress': currentProgress,
+        };
+      },
+    );
+
+    if (!mounted) return;
+    Navigator.of(context, rootNavigator: true).pop(); // Close dialog
+
+    final successCount = results['success'] ?? 0;
+    final failCount = results['failed'] ?? 0;
+    
+    UiUtils.showSnackBar(
+      context,
+      'Selesai! $successCount berhasil, $failCount gagal.',
+      isError: failCount > 0,
+    );
   }
 
   Future<void> _startTranscribe() async {
@@ -105,7 +345,7 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
       UiUtils.showSnackBar(context, 'Pilih minimal satu file audio dulu');
       return;
     }
-    await context.read<TranscribeProvider>().startTranscribe(
+    await context.read<TranscribeProvider>().startTranscription(
       files: _selectedFiles,
       language: _language,
       doTranslate: _doTranslate,
@@ -232,7 +472,7 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
       onClearSelection: () => setState(() => _selectedFiles.clear()),
       onRemoveFile: (path) => setState(() => _selectedFiles.remove(path)),
       onStartTranscribe: _startTranscribe,
-      onUploadFile: _uploadFile,
+      onUploadFile: _showUploadSourceDialog,
       onShowCreateFolder: () => _showCreateFolderDialog(context.read<TranscribeProvider>()),
       onShowMoveDialog: () => _showMoveDialog(context.read<TranscribeProvider>()),
       onShowFileInfo: _showFileInfo,

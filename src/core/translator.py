@@ -127,18 +127,25 @@ def translate_text(
         mode = "OLLAMA" if use_ollama else "GOOGLE"
         print(f"   🌐 Translating {s_lang.upper()} -> {target_lang.upper()} using {mode}...")
 
+    import textwrap
     chunks = []
     current_chunk = []
     current_len = 0
 
     for line in lines:
-        if current_len + len(line) > MAX_CHARS and current_chunk:
-            chunks.append(current_chunk)
-            current_chunk = []
-            current_len = 0
+        if len(line) > MAX_CHARS:
+            sublines = textwrap.wrap(line, width=MAX_CHARS, break_long_words=False)
+        else:
+            sublines = [line]
+            
+        for sl in sublines:
+            if current_len + len(sl) > MAX_CHARS and current_chunk:
+                chunks.append(current_chunk)
+                current_chunk = []
+                current_len = 0
 
-        current_chunk.append(line)
-        current_len += len(line) + 1
+            current_chunk.append(sl)
+            current_len += len(sl) + 1
 
     if current_chunk:
         chunks.append(current_chunk)
@@ -173,12 +180,14 @@ def translate_text(
 
             except Exception as e:
                 err_msg = str(e).lower()
+                tqdm.write(f"   ⚠️ Translation attempt {attempt+1} failed: {e}")
                 is_conn_error = any(kw in err_msg for kw in ["connection", "timeout", "network", "api connection"])
                 if attempt < max_retries - 1:
                     wait_time = ((attempt + 1) * 10 if is_conn_error else (attempt + 1) * 5)
                     time.sleep(wait_time)
 
         if not result or result.strip() == marked_text.strip():
+            tqdm.write(f"   ❌ Could not translate chunk {i+1}, returning original text.")
             result = marked_text
 
         final_text = apply_glossary_post(result, mapping)
