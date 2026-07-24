@@ -10,8 +10,7 @@ import '../config/api_config.dart';
 class MultipartRequestWithProgress extends http.MultipartRequest {
   final void Function(int bytes, int totalBytes)? onProgress;
 
-  MultipartRequestWithProgress(String method, Uri url, {this.onProgress})
-      : super(method, url);
+  MultipartRequestWithProgress(super.method, super.url, {this.onProgress});
 
   @override
   http.ByteStream finalize() {

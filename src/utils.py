@@ -16,7 +16,7 @@ from typing import List, Optional
 # ============================================================================
 
 # Media file extensions
-AUDIO_EXTENSIONS = {".mp3", ".wav", ".m4a", ".flac", ".ogg", ".wma", ".aac", ".mp4"}
+AUDIO_EXTENSIONS = {".mp3", ".wav", ".m4a", ".flac", ".ogg", ".wma", ".aac"}
 VIDEO_EXTENSIONS = {".mp4", ".mov", ".mkv", ".avi", ".webm", ".mpeg", ".mpg", ".m4v"}
 MEDIA_EXTENSIONS = AUDIO_EXTENSIONS | VIDEO_EXTENSIONS
 
@@ -327,7 +327,7 @@ def convert_video_to_mp3(
         )
 
         if result.returncode != 0:
-            print(f"   ❌ Conversion failed ({video_path.name}): {result.stderr[:300]}")
+            print(f"   ❌ Conversion failed ({video_path.name}): {result.stderr[-500:]}")
             return None
 
         if not audio_path.exists() or audio_path.stat().st_size == 0:

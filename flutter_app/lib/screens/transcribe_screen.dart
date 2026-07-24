@@ -336,6 +336,7 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
     final successCount = results['success'] ?? 0;
     final failCount = results['failed'] ?? 0;
     
+    if (!mounted) return;
     UiUtils.showSnackBar(
       context,
       'Selesai! $successCount berhasil, $failCount gagal.',

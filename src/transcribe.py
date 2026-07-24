@@ -167,7 +167,12 @@ def mode_folder(model, language: str, do_translate: bool = False, target_lang: s
 def handle_custom_folder(args, model):
     """Special handling for custom_folder mode used by main.py"""
     folder_path = Path(args.folder_path)
-    media_files = [Path(f) for f in args.file_list.split(",")]
+    if args.file_list.endswith('.txt') and Path(args.file_list).exists():
+        with open(args.file_list, 'r', encoding='utf-8') as f:
+            media_files = [Path(line.strip()) for line in f if line.strip()]
+    else:
+        media_files = [Path(f) for f in args.file_list.split(",")]
+        
     media_files = [f for f in media_files if f.exists()]
 
     if not media_files:
@@ -177,6 +182,20 @@ def handle_custom_folder(args, model):
     # Separate existing audio and videos to convert
     existing_audio = [f for f in media_files if f.suffix.lower() in AUDIO_EXTENSIONS]
     videos = [f for f in media_files if f.suffix.lower() in VIDEO_EXTENSIONS]
+
+    print("\n" + "=" * 50)
+    print("📊 SUMMARY SEBELUM PROSES")
+    print("=" * 50)
+    print(f"Total file yang akan diproses: {len(media_files)}")
+    print(f"  🎵 Audio : {len(existing_audio)} files")
+    print(f"  🎬 Video : {len(videos)} files (Akan di-convert ke MP3)")
+    print(f"Lokasi output: {OUTPUT_MULTIPLE.name}")
+    print("=" * 50)
+    
+    proceed = input("\nLanjutkan proses? (1 = Yes, 0 = No): ").strip()
+    if proceed == "0":
+        print("❌ Proses dibatalkan oleh pengguna.")
+        return []
 
     converted_audio = []
     if videos:
@@ -208,8 +227,8 @@ def handle_custom_folder(args, model):
     # Cleanup converted MP3s if requested
     if converted_audio:
         print("\n🗑️ Cleanup Converted MP3 Files")
-        cleanup = input("Delete converted MP3 files? (1 = Yes, 0 = No): ").strip()
-        if cleanup == "1":
+        cleanup = input("Keep the converted MP3 files? (1 = Yes, 0 = No): ").strip()
+        if cleanup == "0":
             for f in converted_audio:
                 try: f.unlink()
                 except: pass
@@ -281,7 +300,11 @@ def main():
     elif args.mode == "multiple":
         if args.path_arg and not args.path_arg.startswith("--"):
             # main.py passes: mode language file_list
-            files = [Path(f) for f in args.path_arg.split(",") if Path(f).exists()]
+            if args.path_arg.endswith('.txt') and Path(args.path_arg).exists():
+                with open(args.path_arg, 'r', encoding='utf-8') as f:
+                    files = [Path(line.strip()) for line in f if line.strip() and Path(line.strip()).exists()]
+            else:
+                files = [Path(f) for f in args.path_arg.split(",") if Path(f).exists()]
             generated_files = mode_multiple(model, args.language, args.translate, args.target_lang, files_override=files)
         else:
             generated_files = mode_multiple(model, args.language, args.translate, args.target_lang)

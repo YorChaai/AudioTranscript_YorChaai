@@ -156,7 +156,7 @@ def handle_folder_input() -> list[Path]:
         if item.is_file() and item.suffix.lower() in MEDIA_EXTENSIONS:
             found_files.append(item)
 
-    found_files.sort(key=lambda p: p.name.lower())
+    found_files = filter_duplicate_media(found_files)
 
     if not found_files:
         print("❌ Tidak ada file audio/video ditemukan di folder tersebut.")
@@ -166,7 +166,7 @@ def handle_folder_input() -> list[Path]:
     return found_files
 
 
-def handle_exclude_mode(indexed_paths: list[tuple[int, Path]]) -> list[tuple[int, Path]]:
+def handle_exclude_mode(indexed_paths: list[tuple[int, Path]], base_folder: Path | None = None) -> list[tuple[int, Path]]:
     """
     Exclude mode - filter files that should be SKIPPED.
     User inputs numbers of files to EXCLUDE.
@@ -195,7 +195,11 @@ def handle_exclude_mode(indexed_paths: list[tuple[int, Path]]) -> list[tuple[int
         print(f"\n✅ File yang akan diproses ({len(filtered_paths)} files):")
         for orig_idx, path in filtered_paths:
             media_type = "🎬" if path.suffix.lower() in VIDEO_EXTENSIONS else "🎵"
-            print(f"   {orig_idx:>3}. {media_type} {path.name}")
+            try:
+                display_name = str(path.relative_to(base_folder)) if base_folder else path.name
+            except ValueError:
+                display_name = path.name
+            print(f"   {orig_idx:>3}. {media_type} {display_name}")
 
         return filtered_paths
 
@@ -204,7 +208,7 @@ def handle_exclude_mode(indexed_paths: list[tuple[int, Path]]) -> list[tuple[int
         return indexed_paths
 
 
-def print_file_list_with_indices(indexed_paths: list[tuple[int, Path]], folder_label: str = "") -> None:
+def print_file_list_with_indices(indexed_paths: list[tuple[int, Path]], folder_label: str = "", base_folder: Path | None = None) -> None:
     """Print file list with consistent numbering"""
     if folder_label:
         print(f"\n📂 Folder: {folder_label}")
@@ -213,7 +217,11 @@ def print_file_list_with_indices(indexed_paths: list[tuple[int, Path]], folder_l
     for orig_idx, path in indexed_paths:
         media_type = "🎬" if path.suffix.lower() in VIDEO_EXTENSIONS else "🎵"
         size_mb = path.stat().st_size / (1024 * 1024)
-        print(f"  [{orig_idx:>3}] {media_type} {path.name} ({size_mb:.1f} MB)")
+        try:
+            display_name = str(path.relative_to(base_folder)) if base_folder else path.name
+        except ValueError:
+            display_name = path.name
+        print(f"  [{orig_idx:>3}] {media_type} {display_name} ({size_mb:.1f} MB)")
     print("-" * 72)
 
 
@@ -234,6 +242,7 @@ def select_files_with_menu(
     allow_many: bool = True,
     folder_label: str = "",
     main_folder_paths: list[Path] | None = None,
+    base_folder: Path | None = None,
 ) -> list[Path]:
     """
     Advanced file selection menu with options a-f.
@@ -244,6 +253,7 @@ def select_files_with_menu(
         allow_many: If True, allow multiple selection. If False, single file only.
         folder_label: Label to display (folder path or name)
         main_folder_paths: Original paths for "return to main" option
+        base_folder: Base folder to calculate relative paths for display
 
     Returns:
         List of selected Path objects
@@ -258,12 +268,13 @@ def select_files_with_menu(
     # Store original folder context for "return to main"
     original_folder_path = folder_label
     original_indexed_paths = indexed_paths[:]
+    current_base_folder = base_folder
 
     while True:
         has_folder_context = (original_folder_path != folder_label) or (main_folder_paths is not None)
 
         # Display file list
-        print_file_list_with_indices(indexed_paths, folder_label)
+        print_file_list_with_indices(indexed_paths, folder_label, current_base_folder)
 
         # Display menu options
         print_menu_options(has_folder_context=has_folder_context)
@@ -284,6 +295,11 @@ def select_files_with_menu(
                 folder_label = original_folder_path
                 indexed_paths = [(i + 1, p) for i, p in enumerate(custom_files)]
                 main_folder_paths = None  # Can't return to main from here
+                
+                try:
+                    current_base_folder = Path(os.path.commonpath([str(p) for p in custom_files]))
+                except ValueError:
+                    current_base_folder = None
                 continue
             else:
                 print("❌ Folder tidak valid atau tidak ada file yang cocok.")
@@ -300,13 +316,14 @@ def select_files_with_menu(
             for item in selected_folder.rglob('*'):
                 if item.is_file() and item.suffix.lower() in MEDIA_EXTENSIONS:
                     folder_files.append(item)
-            folder_files.sort(key=lambda p: p.name.lower())
+            folder_files = filter_duplicate_media(folder_files)
 
             if folder_files:
                 original_folder_path = str(selected_folder)
                 folder_label = original_folder_path
                 indexed_paths = [(i + 1, p) for i, p in enumerate(folder_files)]
                 main_folder_paths = None
+                current_base_folder = selected_folder
                 print(f"\n✅ Ditemukan {len(folder_files)} files di {selected_folder.name}")
                 continue
             else:
@@ -324,7 +341,7 @@ def select_files_with_menu(
 
         # ---- Option D: Pengecualian file ----
         elif raw == "d":
-            indexed_paths = handle_exclude_mode(indexed_paths)
+            indexed_paths = handle_exclude_mode(indexed_paths, current_base_folder)
             continue
 
         # ---- Option E: Proses semua file ----
@@ -338,6 +355,7 @@ def select_files_with_menu(
         elif raw == "f" and has_folder_context and main_folder_paths is not None:
             indexed_paths = [(i + 1, p) for i, p in enumerate(main_folder_paths)]
             folder_label = original_folder_path
+            current_base_folder = base_folder
             print("\n🔙 Kembali ke folder utama")
             continue
 
@@ -392,6 +410,44 @@ def display_language_selection() -> str | None:
     return LANGUAGE_CHOICES[lang_choice]["code"]
 
 
+def filter_duplicate_media(files: list[Path]) -> list[Path]:
+    """
+    Menyaring file media duplikat (nama sama) di dalam folder yang sama.
+    Jika ada video dan audio bernama sama, prioritaskan file audio.
+    """
+    grouped = {}
+    for f in files:
+        key = (f.parent, f.stem.lower())
+        if key not in grouped:
+            grouped[key] = []
+        grouped[key].append(f)
+        
+    filtered = []
+    skipped = []
+    for key, group_files in grouped.items():
+        if len(group_files) == 1:
+            filtered.append(group_files[0])
+        else:
+            audio_files = [f for f in group_files if f.suffix.lower() in AUDIO_EXTENSIONS]
+            if audio_files:
+                filtered.append(audio_files[0])
+                for f in group_files:
+                    if f != audio_files[0]:
+                        skipped.append(f)
+            else:
+                filtered.append(group_files[0])
+                for f in group_files[1:]:
+                    skipped.append(f)
+                    
+    if skipped:
+        print("\n⚠️  Info: Ditemukan file duplikat (nama sama) dalam satu folder.")
+        print("   File berikut dilewati karena sistem mengutamakan file audio:")
+        for s in skipped:
+            print(f"   ❌ {s.name} (di folder: {s.parent.name})")
+
+    return sorted(filtered, key=lambda p: str(p).lower())
+
+
 def get_media_files_from_folder(folder_path: Path, recursive: bool = False) -> list:
     """
     Get all media files (audio + video) from folder
@@ -405,7 +461,7 @@ def get_media_files_from_folder(folder_path: Path, recursive: bool = False) -> l
         if f.is_file() and f.suffix.lower() in MEDIA_EXTENSIONS:
             media_files.append(f)
 
-    return sorted(media_files)
+    return filter_duplicate_media(media_files)
 
 
 def select_language_and_process(mode, selected_folder=None, media_files=None, selected_file=None, selected_files=None):
@@ -420,18 +476,26 @@ def select_language_and_process(mode, selected_folder=None, media_files=None, se
     script_path = BASE_DIR / "src" / "transcribe.py"
 
     if mode == "custom_folder":
+        import tempfile, os
+        fd, temp_path = tempfile.mkstemp(suffix=".txt", text=True)
+        with os.fdopen(fd, 'w', encoding='utf-8') as f:
+            for media in media_files:
+                f.write(f"{media}\n")
         try:
             subprocess.run([
                 sys.executable, str(script_path),
                 "custom_folder",
                 language,
                 str(selected_folder),
-                ",".join([str(f) for f in media_files])
+                temp_path
             ], timeout=86400)  # 24 hour max timeout
         except subprocess.TimeoutExpired:
             print("❌ Transcription timed out (>24 hours)")
         except Exception as e:
             print(f"❌ Error running transcription: {e}")
+        finally:
+            try: os.remove(temp_path)
+            except: pass
 
     elif mode == "folder":
         try:
@@ -454,11 +518,18 @@ def select_language_and_process(mode, selected_folder=None, media_files=None, se
         try:
             # Pass selected files list if provided (from File Explorer)
             if selected_files:
+                import tempfile, os
+                fd, temp_path = tempfile.mkstemp(suffix=".txt", text=True)
+                with os.fdopen(fd, 'w', encoding='utf-8') as f:
+                    for media in selected_files:
+                        f.write(f"{media}\n")
                 subprocess.run([
                     sys.executable, str(script_path),
                     "multiple", language,
-                    ",".join([str(f) for f in selected_files])
+                    temp_path
                 ], timeout=86400)
+                try: os.remove(temp_path)
+                except: pass
             else:
                 subprocess.run([sys.executable, str(script_path), "multiple", language], timeout=86400)
         except subprocess.TimeoutExpired:
@@ -591,6 +662,7 @@ def menu_transcribe_folder():
         allow_many=True,
         folder_label=selected_folder.name,
         main_folder_paths=media_files,
+        base_folder=selected_folder,
     )
 
     if not selected_files:
@@ -600,7 +672,11 @@ def menu_transcribe_folder():
     print(f"\n✅ {len(selected_files)} file(s) dipilih:")
     for f in selected_files:
         media_type = "🎬" if f.suffix.lower() in VIDEO_EXTENSIONS else "🎵"
-        print(f"   {media_type} {f.name}")
+        try:
+            display_name = str(f.relative_to(selected_folder))
+        except ValueError:
+            display_name = f.name
+        print(f"   {media_type} {display_name}")
 
     # Process with language selection
     select_language_and_process(
@@ -625,6 +701,7 @@ def menu_transcribe_single():
 
     files = [f for f in audio_folder.iterdir()
              if f.is_file() and f.suffix.lower() in MEDIA_EXTENSIONS]
+    files = filter_duplicate_media(files)
 
     if not files:
         print("❌ Tidak ada file audio/video di audio/")
@@ -637,6 +714,7 @@ def menu_transcribe_single():
         allow_many=False,
         folder_label="audio/",
         main_folder_paths=files,
+        base_folder=audio_folder,
     )
 
     if not selected_files:
@@ -667,6 +745,7 @@ def menu_transcribe_multiple():
 
     files = [f for f in audio_folder.iterdir()
              if f.is_file() and f.suffix.lower() in MEDIA_EXTENSIONS]
+    files = filter_duplicate_media(files)
 
     if not files:
         print("❌ Tidak ada file audio/video di audio/")
@@ -679,6 +758,7 @@ def menu_transcribe_multiple():
         allow_many=True,
         folder_label="audio/",
         main_folder_paths=files,
+        base_folder=audio_folder,
     )
 
     if not selected_files:

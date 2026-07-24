@@ -197,7 +197,7 @@ def get_mirror_output_path(audio_file: Path, selected_folder: Path, timestamp: s
     output_base = OUTPUT_MULTIPLE / get_relative_path_from_audio(selected_folder, audio_folder)
     output_folder = output_base / rel_path.parent
     output_folder.mkdir(parents=True, exist_ok=True)
-    output_name = f"{audio_file.stem}_transcript_{timestamp}.txt"
+    output_name = f"{audio_file.stem}.txt"
     return output_folder / output_name
 
 def process_file(model, audio_file: Path, output_folder: Path, language: str, do_translate: bool = False, target_lang: str = "id", preserve_structure: bool = False, selected_folder: Path = None, timestamp: str = None, verbose: bool = True, audio_base_folder: Path = None, progress_callback: Optional[Callable[[float], None]] = None):
@@ -210,7 +210,7 @@ def process_file(model, audio_file: Path, output_folder: Path, language: str, do
     if preserve_structure and selected_folder and audio_base_folder:
         output_path = get_mirror_output_path(audio_file, selected_folder, timestamp, audio_base_folder)
     else:
-        output_name = f"{audio_file.stem}_transcript_{timestamp}.txt"
+        output_name = f"{audio_file.stem}.txt"
         output_path = output_folder / output_name
 
     translated_text = None
