@@ -3,6 +3,7 @@ import os
 import re
 import random
 import time
+from typing import Optional, Callable
 from tqdm import tqdm
 from deep_translator import GoogleTranslator
 from config import BASE_DIR, AUTO_TRANSLATE_TARGET
