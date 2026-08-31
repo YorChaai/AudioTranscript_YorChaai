@@ -49,13 +49,6 @@ def _setup_cuda_dll_paths():
             dirs.append(str(ct2))
     return dirs
 
-_cuda_dirs = _setup_cuda_dll_paths()
-if _cuda_dirs:
-    print(f"🔧 CUDA DLL paths loaded: {len(_cuda_dirs)} folders")
-
-from faster_whisper import WhisperModel
-print("✅ faster_whisper imported successfully")
-
 from config import MODEL_SIZE, LOCAL_MODEL_PATH, DEVICE, COMPUTE_TYPE
 
 class MLEngine:
@@ -77,6 +70,12 @@ class MLEngine:
                 if cls._model is None:
                     use_local = Path(LOCAL_MODEL_PATH).exists()
                     model_source = LOCAL_MODEL_PATH if use_local else MODEL_SIZE
+
+                    _cuda_dirs = _setup_cuda_dll_paths()
+                    if _cuda_dirs and verbose:
+                        print(f"🔧 CUDA DLL paths loaded: {len(_cuda_dirs)} folders")
+
+                    from faster_whisper import WhisperModel
 
                     if verbose:
                         if use_local:

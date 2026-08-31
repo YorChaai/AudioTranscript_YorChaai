@@ -70,7 +70,7 @@ class EditorMainArea extends StatelessWidget {
                   const SizedBox(width: AppConstants.paddingSmall),
                   Expanded(
                     child: Text(
-                      selectedFile!.split('/').last,
+                      selectedFile!.replaceAll('\\', '/').split('/').last,
                       style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w600),
                       overflow: TextOverflow.ellipsis,
                     ),

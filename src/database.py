@@ -212,11 +212,12 @@ def create_job(job_id, job_type, audio_file, language, do_translate=False, targe
 
 def update_job(job_id, **kwargs):
     """update field job"""
+    clean_kwargs = {k: v for k, v in kwargs.items() if v is not None}
+    clean_kwargs['updated_at'] = datetime.now().isoformat()
     conn = get_db()
     try:
-        kwargs['updated_at'] = datetime.now().isoformat()
-        sets = ", ".join(f"{k} = ?" for k in kwargs)
-        vals = list(kwargs.values()) + [job_id]
+        sets = ", ".join(f"{k} = ?" for k in clean_kwargs)
+        vals = list(clean_kwargs.values()) + [job_id]
         conn.execute(f"UPDATE jobs SET {sets} WHERE id = ?", vals)
         conn.commit()
     finally:

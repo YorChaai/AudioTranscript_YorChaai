@@ -2,6 +2,8 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
+import 'package:path_provider/path_provider.dart';
+import 'package:open_file/open_file.dart';
 
 import '../widgets/responsive_layout.dart';
 import '../providers/editor_provider.dart';
@@ -76,6 +78,7 @@ class _EditorScreenState extends State<EditorScreen> {
   }
 
   Future<void> _loadFileContent(String filepath) async {
+    if (!mounted) return;
     setState(() => _loadingContent = true);
     final content = await _prov.loadTranscriptContent(filepath);
     if (!mounted) return;
@@ -125,14 +128,21 @@ class _EditorScreenState extends State<EditorScreen> {
     try {
       UiUtils.showSnackBar(context, 'Mendownload...');
       final bytes = await ApiService.downloadFile(filepath);
-      final filename = filepath.split('/').last;
+      final filename = filepath.replaceAll('\\', '/').split('/').last;
 
-      final tempDir = Directory.systemTemp;
-      final file = File('${tempDir.path}/$filename');
+      final dir = await getApplicationDocumentsDirectory();
+      final file = File('${dir.path}/$filename');
       await file.writeAsBytes(bytes);
 
+      final openResult = await OpenFile.open(file.path);
+
       if (!mounted) return;
-      UiUtils.showSnackBar(context, 'File berhasil didownload ke ${file.path}');
+      UiUtils.showSnackBar(
+        context,
+        openResult.type == ResultType.done
+            ? '✅ File dibuka: $filename'
+            : '✅ File berhasil didownload: $filename',
+      );
     } catch (e) {
       if (!mounted) return;
       UiUtils.showSnackBar(context, 'Gagal download: $e', isError: true);

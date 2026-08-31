@@ -25,7 +25,7 @@ class JobStatus {
     return JobStatus(
       id: json['id'] ?? '',
       type: json['type'] ?? '',
-      inputFile: json['input_file'] ?? '',
+      inputFile: (json['input_file'] ?? json['audio_file'] ?? json['source_file'] ?? '').toString(),
       status: json['status'] ?? '',
       progress: (json['progress'] ?? 0).toDouble(),
       error: json['error'],

@@ -103,6 +103,14 @@ class HomeScreen extends StatelessWidget {
                         onTap: () => context.go('/history'),
                       ),
                       ToolCard(
+                        title: 'AI Summary',
+                        description:
+                            'Buat ringkasan cerdas dari transkrip dengan bantuan AI lokal.',
+                        icon: Icons.auto_awesome_rounded,
+                        color: AppTheme.accentCyan,
+                        onTap: () => context.go('/summary'),
+                      ),
+                      ToolCard(
                         title: 'File Browser',
                         description:
                             'Jelajahi file audio, transcript, PDF, dan hasil lainnya.',
@@ -158,20 +166,20 @@ class HomeScreen extends StatelessWidget {
     required bool isWide,
   }) {
     if (isWide) {
-      return crossAxisCount >= 3 ? 1.28 : 1.18;
+      return crossAxisCount >= 3 ? 1.12 : 1.22;
     }
 
     if (crossAxisCount == 1) {
-      return 2.6;
+      return 2.4;
     }
 
     if (orientation == Orientation.landscape) {
-      if (crossAxisCount >= 3) return 1.15;
-      return 1.05;
+      if (crossAxisCount >= 3) return 1.05;
+      return 0.98;
     }
 
-    if (width < AppConstants.mobileMediumBreakpoint) return 0.98;
-    return 1.08;
+    if (width < AppConstants.mobileMediumBreakpoint) return 0.88;
+    return 0.96;
   }
 }
 

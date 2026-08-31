@@ -31,12 +31,11 @@ def load_glossary():
 
     _GLOSSARY_PATTERNS = {}
     _GLOSSARY_MAPPING = {}
-    for idx, (english_term, indonesian_term) in enumerate(GLOSSARY.items()):
+    for english_term, indonesian_term in GLOSSARY.items():
         try:
             pattern = re.compile(re.escape(english_term), re.IGNORECASE)
             _GLOSSARY_PATTERNS[english_term] = pattern
-            marker = f"__GLOSS_ID_{idx}__"
-            _GLOSSARY_MAPPING[marker] = f"{indonesian_term} ({english_term})"
+            _GLOSSARY_MAPPING[english_term] = f"{indonesian_term} ({english_term})"
         except Exception as e:
             print(f"⚠️ Warning: Could not compile pattern for '{english_term}': {e}")
 
@@ -50,14 +49,14 @@ def apply_glossary_pre(text: str) -> tuple[str, dict]:
         return text, {}
 
     sorted_terms = sorted(_GLOSSARY_PATTERNS.keys(), key=len, reverse=True)
-    for english_term in sorted_terms:
+    for i, english_term in enumerate(sorted_terms):
         pattern = _GLOSSARY_PATTERNS[english_term]
         matches = list(pattern.finditer(modified_text))
         if not matches:
             continue
 
-        marker = f"__GLOSS_ID_{sorted_terms.index(english_term)}__"
-        mapping[marker] = _GLOSSARY_MAPPING[marker]
+        marker = f"__GLOSS_ID_{i}__"
+        mapping[marker] = _GLOSSARY_MAPPING[english_term]
         modified_text = pattern.sub(marker, modified_text)
 
     return modified_text, mapping
@@ -103,7 +102,7 @@ ONLY {lang_name.upper()} TRANSLATION:
 
 
 def translate_text(
-    text: str, target_lang: str = "id", source_lang: str = None, verbose: bool = True
+    text: str, target_lang: str = "id", source_lang: str = None, verbose: bool = True, is_cancelled: Optional[Callable[[], bool]] = None
 ) -> str:
     """Translate text with smart chunking and API safety"""
     use_ollama = os.environ.get("USE_OLLAMA_TRANSLATION", "false").lower() == "true"
@@ -154,6 +153,9 @@ def translate_text(
     translator = GoogleTranslator(source=s_lang, target=target_lang)
 
     for i, chunk_lines in enumerate(tqdm(chunks, desc="Translating", unit="chunk", leave=False, disable=not verbose)):
+        if is_cancelled and is_cancelled():
+            raise InterruptedError("Cancelled during translation")
+
         joined_text = "\n".join(chunk_lines)
         marked_text, mapping = apply_glossary_pre(joined_text)
 
@@ -179,11 +181,13 @@ def translate_text(
                     time.sleep(wait_time)
 
             except Exception as e:
-                err_msg = str(e).lower()
-                tqdm.write(f"   ⚠️ Translation attempt {attempt+1} failed: {e}")
+                err_str = str(e)
+                err_summary = err_str.split('-->')[-1].strip() if '-->' in err_str else (err_str[:120] + ('...' if len(err_str) > 120 else ''))
+                tqdm.write(f"   ⚠️ Translation chunk {i+1} attempt {attempt+1}: {err_summary}")
+                err_msg = err_str.lower()
                 is_conn_error = any(kw in err_msg for kw in ["connection", "timeout", "network", "api connection"])
                 if attempt < max_retries - 1:
-                    wait_time = ((attempt + 1) * 10 if is_conn_error else (attempt + 1) * 5)
+                    wait_time = ((attempt + 1) * 3 if is_conn_error else (attempt + 1) * 2)
                     time.sleep(wait_time)
 
         if not result or result.strip() == marked_text.strip():

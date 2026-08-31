@@ -1,0 +1,616 @@
+[DEBUG] Mencoba menjalankan aplikasi...
+[OK] Menggunakan Python dari venv...
+✅ Loaded .env file from: D:\2. Organize\1. Projects\audio convert to txt\.env
+
+
+============================================================
+        AUDIO CONVERT TO TXT - MASTER MENU
+============================================================
+
+📁 CARA MEMILIH AUDIO:
+
+  [1] 📂 FOLDER MODE
+      → 4 cara pilih: list audio/, file explorer, input path, browse
+      → Setelah pilih folder, bisa exclude file & proses semua
+      → Support: audio + video files
+
+  [2] 📄 FILE MODE - SINGLE
+      → Pilih 1 file dari folder audio/
+      → Output: flat di output/single/
+
+  [3] 📄 FILE MODE - MULTIPLE
+      → Pilih beberapa file dari folder audio/
+      → Output: batch folder
+
+  [4] 📝 Generate Summary Text
+  [5] 📄 output to PDF
+  [6] 🔍 Cek Setup & Kesehatan Sistem
+
+  [0] Keluar
+============================================================
+Pilihan Anda: 1
+
+============================================================
+📂 FOLDER MODE - Pilih Folder
+============================================================
+
+  [1] 📁 Pilih dari list folder dalam audio/
+  [2] 📂 Pilih folder via File Explorer
+  [3] 📄 Pilih file langsung via File Explorer (skip folder)
+  [4] 📂 Input path folder manual (copy-paste)
+
+  [0] Kembali
+============================================================
+Pilihan Anda: 2
+
+📂 Membuka File Explorer - pilih folder...
+
+🔍 Scanning folder (including subfolders): D:\Onedriverc\OneDrive\01. Skill\5. E-Course\Soft Skill\MAU DI UBAH...
+
+⚠️  Info: Ditemukan file duplikat (nama sama) dalam satu folder.
+   File berikut dilewati karena sistem mengutamakan file audio:
+   ❌ 1 Tujuan hidup dan personal values.mp4 (di folder: Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup)
+   ❌ 2 Simpan tujuanmu untuk dirimu sendiri.mp4 (di folder: Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup)
+   ❌ 3 Lifeplan.mp4 (di folder: Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup)
+   ❌ 4 Evaluasi.mp4 (di folder: Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup)
+   ❌ 5 Kurikulum 1_.mp4 (di folder: Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup)
+   ❌ 6 Tentukan tujuan hidup dalam bentuk konkret.mp4 (di folder: Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup)
+   ❌ 7 Tangani overthinking.mp4 (di folder: Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup)
+   ❌ 8 Filosofi 1_.mp4 (di folder: Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup)
+   ❌ 1 Mengapa individu sulit untuk menerima diri sendiri.mp4 (di folder: Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri)
+   ❌ 2 Mindfulness sebagai salah satu cara untuk tidak terjebak dari masa lalu.mp4 (di folder: Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri)
+   ❌ 3 Self Acceptance sebagai cara untuk berdamai dangan diri sendiri.mp4 (di folder: Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri)
+   ❌ 4 Coping stress.mp4 (di folder: Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri)
+   ❌ 5 Berdamai dengan diri sendiri dalam kurikulum satupersen.mp4 (di folder: Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri)
+   ❌ 6 Self compassion.mp4 (di folder: Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri)
+   ❌ 7 Self care.mp4 (di folder: Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri)
+   ❌ 8 Membandingkan diri dengan orang lain.mp4 (di folder: Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri)
+   ❌ 9 Move on - lakukan hal baru.mp4 (di folder: Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri)
+   ❌ Webinar Berdamai dengan Kegagalan Februari 2021(720P_HD).mp4 (di folder: Webinar)
+   ❌ Webinar Cara Menghindari Toxic Relationship(720P_HD).mp4 (di folder: Webinar)
+   ❌ Webinar Cemas Masa Depan Juli 2021(720P_HD).mp4 (di folder: Webinar)
+   ❌ Webinar Kelola Stres_ Kecemasan_ dan Overthinking dengan Meditasi(360P).mp4 (di folder: Webinar)
+   ❌ Webinar Kepribadian 29 Mei 2021(720P_HD).mp4 (di folder: Webinar)
+   ❌ Webinar Komunikasikan Perasaanmu Secara Asertif Juni 2021(720P_HD).mp4 (di folder: Webinar)
+   ❌ Webinar Langkah Perencanaan Hidup untuk Masa Depan Februari 2021(720P_HD).mp4 (di folder: Webinar)
+   ❌ Webinar Manajemen Waktu 30 Mei(720P_HD).mp4 (di folder: Webinar)
+   ❌ Webinar Manajemen Waktu Agar Lebih Produktif -  Juli 2021(720P_HD).mp4 (di folder: Webinar)
+   ❌ Webinar Melawan Rasa Malas 11 April(720P_HD).mp4 (di folder: Webinar)
+   ❌ Webinar Mencintai Diri Juni 2021(720P_HD).mp4 (di folder: Webinar)
+   ❌ Webinar Mengenal Quarter Life Crisis dan Pemicunya 9 Mei(720P_HD).mp4 (di folder: Webinar)
+   ❌ Webinar Tip Bicara Lancar dan Percaya Diri dengan Orang(720P_HD).mp4 (di folder: Webinar)
+   ❌ Webinar Tujuan Hidup 22 Mei(720P_HD).mp4 (di folder: Webinar)
+   ❌ Workshop Career Series_ CV Siap Kerja April 2021(720P_HD).mp4 (di folder: Workshop)
+   ❌ Workshop Career Series_ Tips Lolos Interview April 2021(720P_HD).mp4 (di folder: Workshop)
+   ❌ Workshop Copywriting Series_ Dasar dan Fundamental April 2021(720P_HD).mp4 (di folder: Workshop)
+   ❌ Workshop Copywriting Series_ Teknik dan Formula April 2021(720P_HD).mp4 (di folder: Workshop)
+   ❌ Workshop Event Series_ How to Plan an Event(720P_HD).mp4 (di folder: Workshop)
+   ❌ Workshop Event Series_ Managing Event April 2021(720P_HD).mp4 (di folder: Workshop)
+   ❌ Workshop Graphic Design 101 Maret(720P_HD).mp4 (di folder: Workshop)
+   ❌ Workshop HR Series_ STAR Interview Maret 2021(720P_HD).mp4 (di folder: Workshop)
+   ❌ Workshop Illustration 101 - Maret 2021(720P_HD).mp4 (di folder: Workshop)
+   ❌ Workshop Lolos Interview(720P_HD).mp4 (di folder: Workshop)
+   ❌ Workshop Personal Branding di Sosial Media April(720P_HD).mp4 (di folder: Workshop)
+   ❌ Workshop Writing Series_ The Expert of Content Writer Maret 2021(720P_HD).mp4 (di folder: Workshop)
+   ❌ Bahas All About Nikah Bareng Rizky _ Andin(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ BAHAS QUARTER LIFE CRISIS_ _SatuTalk bareng Yoga(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ Belajar Copywriting Bareng Yoga_(360P).mp4 (di folder: Workshop_satutalk)
+   ❌ Kenapa Generasi Sekarang LEBIH MENDERITA_ (Cemas _ Overthinking) _ Satu Insight Episode 6(1080P_HD).mp4 (di folder: Workshop_satutalk)
+   ❌ Kenapa Generasi Sekarang LEBIH MENDERITA_ (Cemas _ Overthinking) _ Satu Insight Episode 6(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ Live YouTube Inner Child_ Cara Mengatasi Luka Masa Kecil yang Berdampak pada Kesehatan Mental(360P).mp4 (di folder: Workshop_satutalk)
+   ❌ Satu Talk_ Bahas Pandemi Bikin Stress_ Bareng Rizky dan Andin(360P).mp4 (di folder: Workshop_satutalk)
+   ❌ Satu Talk_ Ngobrolin Kejombloan Bareng Rizky_ Bandoro_ dan Andin(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ Satu Talk_ Ngobrolin Layanan Satu Persen Bareng Evan(360P).mp4 (di folder: Workshop_satutalk)
+   ❌ Self Control_ Cara Mengendalikan Kecanduan Menonton Pornografi dan Masturbasi(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ Workshop Discovering Career Path(720P_HD).mp4 (di folder: Workshop_satutalk)
+   ❌ [SATU-CLASS] Tips dan Trik Persiapan Karir Sejak Dini (17 Februari 2022)(360P).mp4 (di folder: Workshop_satutalk)
+   ❌ _Satu Talk - Ngobrol _Menghadapi Rasa Takut_ bareng Kak Fionna(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _Satu Talk - Ngobrol _QLC di umur 20an_ bareng Kak Tesya(360P).mp4 (di folder: Workshop_satutalk)
+   ❌ _Satu Talk - Tips Cuan dari Jualan di Tahun 2022(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuLive_ Ngobrol _Inner Child_ Bersama Kak Tesya(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuLive_ Ngobrol _Overthinking_ Bersama Kak Jhon(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuLive_ Ngobrol _Pilihan dalam Hidup_ Bareng Kak Muthi(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk - Cara Bikin Konten ala Satu Persen bareng Yoga(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk - Gimana ya Caranya Biar Nggak Overthinking Terus_ with Andin(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk - Ngobrol _Belajar Asertif_ bareng Kak Jhon(1080P_HD).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk - Ngobrol _Belajar Asertif_ bareng Kak Jhon(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk - Ngobrol _Burnout dan Prokrastinasi_ bareng Kak Tesya(360P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk - Ngobrol _Fenomena Kesepian dan Rasa Hampa_ bareng Kak Muthi(360P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk - Ngobrol _Menghadapi Gaslighting_ bareng Kak Tesya(360P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk - Ngobrol _Saatnya Memaafkan Diri Sendiri_ bareng Kak Fionna(360P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk - Ngobrol _Tuntutan buat jadi Sempurna_ bareng Kak Andin(360P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk - TIPS CUAN DARI JUALAN DI TAHUN 2022 bersama Yoga(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk bersama Kak Rizky dan Perseners_ Cara Jalani Hidup Sehat Mental(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalks_ Cara Memaafkan Diri Sendiri with Andin _ Kak Rizky(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _Satutalk_ Bahas Bandingin DIri Sama Orang Lain with Jhon(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _satutalk_ Bahas Manajemen Waktu Agar Lebih Produktif bareng Kak Firdani(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk_ Bahas Overthinking dan Cemas soal Masa Depan bersama Andin(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _Satutalk_ Bahas Overthinking_ Yuk_ Bareng Jhon(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _Satutalk_ Buat Lo yang Sering Kehilangan Fokus_(360P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk_ Cara Mengatasi Rasa Minder Bareng Kak Jhon(360P).mp4 (di folder: Workshop_satutalk)
+   ❌ _Satutalk_ Kamu Sibuk atau Produktif_ with Jhon(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _Satutalk_ Kenapa Jaman Sekarang Lebih Gampang Insecure(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _Satutalk_ Kenapa Mengenal Diri itu Penting_(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _Satutalk_ Kenapa Umur 20an Rentan Krisis_ with Jhon (Head of Socmed Satu Persen)(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _Satutalk_ Komunikasi Jujur Tanpa Menyinggung_ with Firda(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _Satutalk_ Memangnya Kenapa Kita Harus Mengenal Diri Sendiri_ with Jhon(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _Satutalk_ Menghargai Diri Sendiri with Evan (Founder Satu Persen)(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk_ Ngobrol Santuy Bahas CaraMengelola Emosi dan Overthinking(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk_ Ngobrol Soal Mitos dan Fakta Kesehatan Mental bersama Kak Rizky_ Andin_ dan Yuni(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk_ Ngobrol _Atasi Prokrastinasi_ Bareng Kak Muthi(360P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk_ Ngobrol _Belajar Fokus_ Bareng Kak Fionna(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk_ Ngobrol _Berdamai dengan Masa Lalu_ Bareng Kak Tesya(360P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk_ Ngobrol _Bongkar Strategi Marketing Satu Persen_ Bareng Kak Yoga(360P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk_ Ngobrol _Cara Mengatasi Demotivasi_ Bareng Kak Fionna(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk_ Ngobrol _Cara Ngonten ala Satu Persen_ Bareng Kak Yoga(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk_ Ngobrol _Cemas akan Masa Depan_ Bareng Kak Tesya(360P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk_ Ngobrol _Ekspektasi vs Harapan_ Bareng Kak Muthi(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk_ Ngobrol _GRIT_ Tips Jitu Konsisten_ Bareng Kak Tesya(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk_ Ngobrol _Mengelola Stress_ bareng Kak Muthi(360P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk_ Ngobrol _Menghadapi Kegagalan_ Bareng Kak Jhon(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk_ ngobrol _Perlukah Adanya Standar Hidup__ bareng Kak Muthi(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk_ Ngobrol _Quarter Life Crisis_ Bareng Kak Fionna(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk_ Ngobrol _Self Control_ Mengatasi Kendali Diri_ Bareng Kak Jhon(360P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk_ Ngobrol _Self Love_ Bareng Kak Muthi(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk_ Ngobrol _Tips n Trik Perencanaan Tujuan Hidup_ Bareng Kak Fionna(360P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk_ Ngobrol _Toxic Productivity_ bareng Kak Fionna(360P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk_ Ngobrol _Toxic Relationship_ Bareng Kak Muthi(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk_ Ngobrol _Waktunya Move On__ Bareng Kak Fionna(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk_ Pentingnya Desain Kreatif di Media Sosial bareng Yoga(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _Satutalk_ QnA Bareng Satu Persen with host Kak Jhon(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _Satutalk_ Sampai Kapan Mau Insecure_ with Duo Firda(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _Satutalk_ Sampai Kapan Mau Menunda_ with Andin dan Firda(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk_ Sharing soal Cara Memaafkan Diri Sendiri bersama Andin(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _Satutalk_ Stop Overthinking karena Medsos_ with Andin dan Jhon(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ _SatuTalk_ Yourself First_ Stop Bandingin Diri Sendiri sama Orang Lain_(480P).mp4 (di folder: Workshop_satutalk)
+   ❌ Haryanto Kandani - Personal Branding Session 1-001-006.mkv (di folder: Haryanto Kandani - Personal Branding)
+   ❌ Haryanto Kandani - Personal Branding Session 2-002-007.mkv (di folder: Haryanto Kandani - Personal Branding)
+   ❌ Sales & Marketing 1-004.mkv (di folder: Haryanto Kandani - Sales & Marketing)
+   ❌ Sales & Marketing 2-005.mkv (di folder: Haryanto Kandani - Sales & Marketing)
+   ❌ Alpha Talk Hingdranata Nikolay - NLP.mp4 (di folder: Alpha Talk Hingdranata Nikolay)
+   ❌ Copywriting Hingranata-003.mkv (di folder: Copywriting Hingdranata Nikolay)
+   ❌ Creative Hack Copywriting.mkv (di folder: Creative Thinking dengan NLP)
+   ❌ Creative Thinking NLP Session 1.mkv (di folder: Creative Thinking dengan NLP)
+   ❌ Content Marketing Go Viral-001.mkv (di folder: Kelas Content Marketing Go Viral - Edho Zell)
+   ❌ Kitty Chen - Creative Hack Copywriting.mkv (di folder: Kitty Chen - Creative Hack Academy)
+
+✅ Folder ditemukan: MAU DI UBAH
+📊 Total media files: 124
+   🎵 Audio: 124 files
+   🎬 Video: 0 files
+
+📋 Pilih file yang akan diproses:
+
+📂 Folder: MAU DI UBAH
+
+------------------------------------------------------------------------
+  [  1] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup\1 Tujuan hidup dan personal values.mp3 (8.2 MB)
+  [  2] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup\2 Simpan tujuanmu untuk dirimu sendiri.mp3 (7.4 MB)
+  [  3] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup\3 Lifeplan.mp3 (5.1 MB)
+  [  4] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup\4 Evaluasi.mp3 (4.2 MB)
+  [  5] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup\5 Kurikulum 1_.mp3 (7.3 MB)
+  [  6] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup\6 Tentukan tujuan hidup dalam bentuk konkret.mp3 (7.8 MB)
+  [  7] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup\7 Tangani overthinking.mp3 (11.8 MB)
+  [  8] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup\8 Filosofi 1_.mp3 (5.6 MB)
+  [  9] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri\1 Mengapa individu sulit untuk menerima diri sendiri.mp3 (2.9 MB)
+  [ 10] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri\2 Mindfulness sebagai salah satu cara untuk tidak terjebak dari masa lalu.mp3 (7.7 MB)
+  [ 11] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri\3 Self Acceptance sebagai cara untuk berdamai dangan diri sendiri.mp3 (6.4 MB)
+  [ 12] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri\4 Coping stress.mp3 (5.0 MB)
+  [ 13] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri\5 Berdamai dengan diri sendiri dalam kurikulum satupersen.mp3 (6.3 MB)
+  [ 14] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri\6 Self compassion.mp3 (8.1 MB)
+  [ 15] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri\7 Self care.mp3 (7.1 MB)
+  [ 16] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri\8 Membandingkan diri dengan orang lain.mp3 (6.3 MB)
+  [ 17] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri\9 Move on - lakukan hal baru.mp3 (8.9 MB)
+  [ 18] 🎵 01. SatuPersen\Webinar\Webinar Berdamai dengan Kegagalan Februari 2021(720P_HD).mp3 (142.4 MB)
+  [ 19] 🎵 01. SatuPersen\Webinar\Webinar Cara Menghindari Toxic Relationship(720P_HD).mp3 (142.2 MB)
+  [ 20] 🎵 01. SatuPersen\Webinar\Webinar Cemas Masa Depan Juli 2021(720P_HD).mp3 (120.7 MB)
+  [ 21] 🎵 01. SatuPersen\Webinar\Webinar Kelola Stres_ Kecemasan_ dan Overthinking dengan Meditasi(360P).mp3 (46.4 MB)
+  [ 22] 🎵 01. SatuPersen\Webinar\Webinar Kepribadian 29 Mei 2021(720P_HD).mp3 (129.5 MB)
+  [ 23] 🎵 01. SatuPersen\Webinar\Webinar Komunikasikan Perasaanmu Secara Asertif Juni 2021(720P_HD).mp3 (121.7 MB)
+  [ 24] 🎵 01. SatuPersen\Webinar\Webinar Langkah Perencanaan Hidup untuk Masa Depan Februari 2021(720P_HD).mp3 (150.0 MB)
+  [ 25] 🎵 01. SatuPersen\Webinar\Webinar Manajemen Waktu 30 Mei(720P_HD).mp3 (139.7 MB)
+  [ 26] 🎵 01. SatuPersen\Webinar\Webinar Manajemen Waktu Agar Lebih Produktif -  Juli 2021(720P_HD).mp3 (120.1 MB)
+  [ 27] 🎵 01. SatuPersen\Webinar\Webinar Melawan Rasa Malas 11 April(720P_HD).mp3 (136.7 MB)
+  [ 28] 🎵 01. SatuPersen\Webinar\Webinar Mencintai Diri Juni 2021(720P_HD).mp3 (137.4 MB)
+  [ 29] 🎵 01. SatuPersen\Webinar\Webinar Mengenal Quarter Life Crisis dan Pemicunya 9 Mei(720P_HD).mp3 (161.5 MB)
+  [ 30] 🎵 01. SatuPersen\Webinar\Webinar Tip Bicara Lancar dan Percaya Diri dengan Orang(720P_HD).mp3 (130.7 MB)
+  [ 31] 🎵 01. SatuPersen\Webinar\Webinar Tujuan Hidup 22 Mei(720P_HD).mp3 (106.2 MB)
+  [ 32] 🎵 01. SatuPersen\Workshop\Workshop\Workshop Career Series_ CV Siap Kerja April 2021(720P_HD).mp3 (70.8 MB)
+  [ 33] 🎵 01. SatuPersen\Workshop\Workshop\Workshop Career Series_ Tips Lolos Interview April 2021(720P_HD).mp3 (81.2 MB)
+  [ 34] 🎵 01. SatuPersen\Workshop\Workshop\Workshop Copywriting Series_ Dasar dan Fundamental April 2021(720P_HD).mp3 (74.6 MB)
+  [ 35] 🎵 01. SatuPersen\Workshop\Workshop\Workshop Copywriting Series_ Teknik dan Formula April 2021(720P_HD).mp3 (74.9 MB)
+  [ 36] 🎵 01. SatuPersen\Workshop\Workshop\Workshop Event Series_ How to Plan an Event(720P_HD).mp3 (75.4 MB)
+  [ 37] 🎵 01. SatuPersen\Workshop\Workshop\Workshop Event Series_ Managing Event April 2021(720P_HD).mp3 (76.6 MB)
+  [ 38] 🎵 01. SatuPersen\Workshop\Workshop\Workshop Graphic Design 101 Maret(720P_HD).mp3 (75.5 MB)
+  [ 39] 🎵 01. SatuPersen\Workshop\Workshop\Workshop HR Series_ STAR Interview Maret 2021(720P_HD).mp3 (74.1 MB)
+  [ 40] 🎵 01. SatuPersen\Workshop\Workshop\Workshop Illustration 101 - Maret 2021(720P_HD).mp3 (70.7 MB)
+  [ 41] 🎵 01. SatuPersen\Workshop\Workshop\Workshop Lolos Interview(720P_HD).mp3 (72.5 MB)
+  [ 42] 🎵 01. SatuPersen\Workshop\Workshop\Workshop Personal Branding di Sosial Media April(720P_HD).mp3 (77.1 MB)
+  [ 43] 🎵 01. SatuPersen\Workshop\Workshop\Workshop Writing Series_ The Expert of Content Writer Maret 2021(720P_HD).mp3 (81.1 MB)
+  [ 44] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\[SATU-CLASS] Tips dan Trik Persiapan Karir Sejak Dini (17 Februari 2022)(360P).mp3 (59.3 MB)
+  [ 45] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satu Talk - Ngobrol _Menghadapi Rasa Takut_ bareng Kak Fionna(480P).mp3 (65.2 MB)
+  [ 46] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satu Talk - Ngobrol _QLC di umur 20an_ bareng Kak Tesya(360P).mp3 (53.6 MB)
+  [ 47] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satu Talk - Tips Cuan dari Jualan di Tahun 2022(480P).mp3 (35.3 MB)
+  [ 48] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuLive_ Ngobrol _Inner Child_ Bersama Kak Tesya(480P).mp3 (61.9 MB)
+  [ 49] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuLive_ Ngobrol _Overthinking_ Bersama Kak Jhon(480P).mp3 (75.5 MB)
+  [ 50] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuLive_ Ngobrol _Pilihan dalam Hidup_ Bareng Kak Muthi(480P).mp3 (60.7 MB)
+  [ 51] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk - Cara Bikin Konten ala Satu Persen bareng Yoga(480P).mp3 (51.7 MB)
+  [ 52] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk - Gimana ya Caranya Biar Nggak Overthinking Terus_ with Andin(480P).mp3 (43.4 MB)
+  [ 53] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk - Ngobrol _Belajar Asertif_ bareng Kak Jhon(1080P_HD).mp3 (63.5 MB)
+  [ 54] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk - Ngobrol _Belajar Asertif_ bareng Kak Jhon(480P).mp3 (63.5 MB)
+  [ 55] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk - Ngobrol _Burnout dan Prokrastinasi_ bareng Kak Tesya(360P).mp3 (45.2 MB)
+  [ 56] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk - Ngobrol _Fenomena Kesepian dan Rasa Hampa_ bareng Kak Muthi(360P).mp3 (54.8 MB)
+  [ 57] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk - Ngobrol _Menghadapi Gaslighting_ bareng Kak Tesya(360P).mp3 (56.6 MB)
+  [ 58] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk - Ngobrol _Saatnya Memaafkan Diri Sendiri_ bareng Kak Fionna(360P).mp3 (62.9 MB)
+  [ 59] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk - Ngobrol _Tuntutan buat jadi Sempurna_ bareng Kak Andin(360P).mp3 (95.0 MB)
+  [ 60] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk - TIPS CUAN DARI JUALAN DI TAHUN 2022 bersama Yoga(480P).mp3 (49.7 MB)
+  [ 61] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk bersama Kak Rizky dan Perseners_ Cara Jalani Hidup Sehat Mental(480P).mp3 (72.8 MB)
+  [ 62] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Bahas Bandingin DIri Sama Orang Lain with Jhon(480P).mp3 (47.5 MB)
+  [ 63] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_satutalk_ Bahas Manajemen Waktu Agar Lebih Produktif bareng Kak Firdani(480P).mp3 (66.9 MB)
+  [ 64] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Bahas Overthinking dan Cemas soal Masa Depan bersama Andin(480P).mp3 (64.0 MB)
+  [ 65] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Bahas Overthinking_ Yuk_ Bareng Jhon(480P).mp3 (70.8 MB)
+  [ 66] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Buat Lo yang Sering Kehilangan Fokus_(360P).mp3 (90.5 MB)
+  [ 67] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Cara Mengatasi Rasa Minder Bareng Kak Jhon(360P).mp3 (54.9 MB)
+  [ 68] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Kamu Sibuk atau Produktif_ with Jhon(480P).mp3 (72.1 MB)
+  [ 69] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Kenapa Jaman Sekarang Lebih Gampang Insecure(480P).mp3 (70.2 MB)
+  [ 70] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Kenapa Mengenal Diri itu Penting_(480P).mp3 (76.8 MB)
+  [ 71] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Kenapa Umur 20an Rentan Krisis_ with Jhon (Head of Socmed Satu Persen)(480P).mp3 (64.5 MB)
+  [ 72] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Komunikasi Jujur Tanpa Menyinggung_ with Firda(480P).mp3 (112.6 MB)
+  [ 73] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Memangnya Kenapa Kita Harus Mengenal Diri Sendiri_ with Jhon(480P).mp3 (49.8 MB)
+  [ 74] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Menghargai Diri Sendiri with Evan (Founder Satu Persen)(480P).mp3 (43.2 MB)
+  [ 75] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Atasi Prokrastinasi_ Bareng Kak Muthi(360P).mp3 (66.4 MB)
+  [ 76] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Belajar Fokus_ Bareng Kak Fionna(480P).mp3 (60.2 MB)
+  [ 77] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Berdamai dengan Masa Lalu_ Bareng Kak Tesya(360P).mp3 (61.4 MB)
+  [ 78] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Bongkar Strategi Marketing Satu Persen_ Bareng Kak Yoga(360P).mp3 (46.2 MB)
+  [ 79] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Cara Mengatasi Demotivasi_ Bareng Kak Fionna(480P).mp3 (70.4 MB)
+  [ 80] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Cara Ngonten ala Satu Persen_ Bareng Kak Yoga(480P).mp3 (77.7 MB)
+  [ 81] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Cemas akan Masa Depan_ Bareng Kak Tesya(360P).mp3 (63.4 MB)
+  [ 82] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Ekspektasi vs Harapan_ Bareng Kak Muthi(480P).mp3 (55.0 MB)
+  [ 83] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _GRIT_ Tips Jitu Konsisten_ Bareng Kak Tesya(480P).mp3 (61.1 MB)
+  [ 84] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Mengelola Stress_ bareng Kak Muthi(360P).mp3 (63.2 MB)
+  [ 85] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Menghadapi Kegagalan_ Bareng Kak Jhon(480P).mp3 (50.4 MB)
+  [ 86] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ ngobrol _Perlukah Adanya Standar Hidup__ bareng Kak Muthi(480P).mp3 (63.3 MB)
+  [ 87] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Quarter Life Crisis_ Bareng Kak Fionna(480P).mp3 (54.6 MB)
+  [ 88] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Self Control_ Mengatasi Kendali Diri_ Bareng Kak Jhon(360P).mp3 (60.8 MB)
+  [ 89] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Self Love_ Bareng Kak Muthi(480P).mp3 (61.1 MB)
+  [ 90] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Tips n Trik Perencanaan Tujuan Hidup_ Bareng Kak Fionna(360P).mp3 (65.0 MB)
+  [ 91] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Toxic Productivity_ bareng Kak Fionna(360P).mp3 (62.9 MB)
+  [ 92] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Toxic Relationship_ Bareng Kak Muthi(480P).mp3 (67.5 MB)
+  [ 93] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Waktunya Move On__ Bareng Kak Fionna(480P).mp3 (54.4 MB)
+  [ 94] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol Santuy Bahas CaraMengelola Emosi dan Overthinking(480P).mp3 (72.7 MB)
+  [ 95] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol Soal Mitos dan Fakta Kesehatan Mental bersama Kak Rizky_ Andin_ dan Yuni(480P).mp3 (70.8 MB)
+  [ 96] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Pentingnya Desain Kreatif di Media Sosial bareng Yoga(480P).mp3 (62.4 MB)
+  [ 97] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ QnA Bareng Satu Persen with host Kak Jhon(480P).mp3 (77.8 MB)
+  [ 98] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Sampai Kapan Mau Insecure_ with Duo Firda(480P).mp3 (82.6 MB)
+  [ 99] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Sampai Kapan Mau Menunda_ with Andin dan Firda(480P).mp3 (75.6 MB)
+  [100] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Sharing soal Cara Memaafkan Diri Sendiri bersama Andin(480P).mp3 (63.6 MB)
+  [101] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Stop Overthinking karena Medsos_ with Andin dan Jhon(480P).mp3 (92.7 MB)
+  [102] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Yourself First_ Stop Bandingin Diri Sendiri sama Orang Lain_(480P).mp3 (65.7 MB)
+  [103] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalks_ Cara Memaafkan Diri Sendiri with Andin _ Kak Rizky(480P).mp3 (72.1 MB)
+  [104] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\Bahas All About Nikah Bareng Rizky _ Andin(480P).mp3 (93.6 MB)
+  [105] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\BAHAS QUARTER LIFE CRISIS_ _SatuTalk bareng Yoga(480P).mp3 (22.1 MB)
+  [106] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\Belajar Copywriting Bareng Yoga_(360P).mp3 (78.1 MB)
+  [107] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\Kenapa Generasi Sekarang LEBIH MENDERITA_ (Cemas _ Overthinking) _ Satu Insight Episode 6(1080P_HD).mp3 (15.3 MB)
+  [108] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\Kenapa Generasi Sekarang LEBIH MENDERITA_ (Cemas _ Overthinking) _ Satu Insight Episode 6(480P).mp3 (15.3 MB)
+  [109] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\Live YouTube Inner Child_ Cara Mengatasi Luka Masa Kecil yang Berdampak pada Kesehatan Mental(360P).mp3 (52.4 MB)
+  [110] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\Satu Talk_ Bahas Pandemi Bikin Stress_ Bareng Rizky dan Andin(360P).mp3 (103.8 MB)
+  [111] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\Satu Talk_ Ngobrolin Kejombloan Bareng Rizky_ Bandoro_ dan Andin(480P).mp3 (101.3 MB)
+  [112] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\Satu Talk_ Ngobrolin Layanan Satu Persen Bareng Evan(360P).mp3 (38.9 MB)
+  [113] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\Self Control_ Cara Mengendalikan Kecanduan Menonton Pornografi dan Masturbasi(480P).mp3 (55.4 MB)
+  [114] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\Workshop Discovering Career Path(720P_HD).mp3 (44.4 MB)
+  [115] 🎵 Alpha Class\Haryanto Kandani\Haryanto Kandani - Personal Branding\Haryanto Kandani - Personal Branding Session 1-001-006.mp3 (94.0 MB)
+  [116] 🎵 Alpha Class\Haryanto Kandani\Haryanto Kandani - Personal Branding\Haryanto Kandani - Personal Branding Session 2-002-007.mp3 (112.6 MB)
+  [117] 🎵 Alpha Class\Haryanto Kandani\Haryanto Kandani - Sales & Marketing\Sales & Marketing 1-004.mp3 (112.9 MB)
+  [118] 🎵 Alpha Class\Haryanto Kandani\Haryanto Kandani - Sales & Marketing\Sales & Marketing 2-005.mp3 (124.4 MB)
+  [119] 🎵 Alpha Class\Hingdranata Nikolay\Alpha Talk Hingdranata Nikolay\Alpha Talk Hingdranata Nikolay - NLP.mp3 (97.3 MB)
+  [120] 🎵 Alpha Class\Hingdranata Nikolay\Copywriting Hingdranata Nikolay\Copywriting Hingranata-003.mp3 (90.0 MB)
+  [121] 🎵 Alpha Class\Hingdranata Nikolay\Creative Thinking dengan NLP\Creative Hack Copywriting.mp3 (59.9 MB)
+  [122] 🎵 Alpha Class\Hingdranata Nikolay\Creative Thinking dengan NLP\Creative Thinking NLP Session 1.mp3 (98.4 MB)
+  [123] 🎵 Alpha Class\Kelas Content Marketing Go Viral - Edho Zell\Content Marketing Go Viral-001.mp3 (107.9 MB)
+  [124] 🎵 Alpha Class\Kitty Chen - Creative Hack Academy\Kitty Chen - Creative Hack Copywriting.mp3 (59.9 MB)
+------------------------------------------------------------------------
+
+  a. 📂 Input path folder lain (ketik manual)
+  b. 🔍 Pilih folder via File Explorer
+  c. 📄 Pilih file langsung via File Explorer (skip list)
+  d. 🚫 Pengecualian file (skip file tertentu)
+  e. ✅ Proses semua file
+  f. 🔙 Kembali ke folder utama
+  0. ❌ Kembali
+
+Pilih nomor file (contoh: 1 atau 1,3,5 atau 2-6 atau all): ee
+❌ Input tidak valid: invalid literal for int() with base 10: 'ee'
+
+📂 Folder: MAU DI UBAH
+
+------------------------------------------------------------------------
+  [  1] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup\1 Tujuan hidup dan personal values.mp3 (8.2 MB)
+  [  2] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup\2 Simpan tujuanmu untuk dirimu sendiri.mp3 (7.4 MB)
+  [  3] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup\3 Lifeplan.mp3 (5.1 MB)
+  [  4] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup\4 Evaluasi.mp3 (4.2 MB)
+  [  5] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup\5 Kurikulum 1_.mp3 (7.3 MB)
+  [  6] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup\6 Tentukan tujuan hidup dalam bentuk konkret.mp3 (7.8 MB)
+  [  7] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup\7 Tangani overthinking.mp3 (11.8 MB)
+  [  8] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup\8 Filosofi 1_.mp3 (5.6 MB)
+  [  9] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri\1 Mengapa individu sulit untuk menerima diri sendiri.mp3 (2.9 MB)
+  [ 10] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri\2 Mindfulness sebagai salah satu cara untuk tidak terjebak dari masa lalu.mp3 (7.7 MB)
+  [ 11] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri\3 Self Acceptance sebagai cara untuk berdamai dangan diri sendiri.mp3 (6.4 MB)
+  [ 12] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri\4 Coping stress.mp3 (5.0 MB)
+  [ 13] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri\5 Berdamai dengan diri sendiri dalam kurikulum satupersen.mp3 (6.3 MB)
+  [ 14] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri\6 Self compassion.mp3 (8.1 MB)
+  [ 15] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri\7 Self care.mp3 (7.1 MB)
+  [ 16] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri\8 Membandingkan diri dengan orang lain.mp3 (6.3 MB)
+  [ 17] 🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri\9 Move on - lakukan hal baru.mp3 (8.9 MB)
+  [ 18] 🎵 01. SatuPersen\Webinar\Webinar Berdamai dengan Kegagalan Februari 2021(720P_HD).mp3 (142.4 MB)
+  [ 19] 🎵 01. SatuPersen\Webinar\Webinar Cara Menghindari Toxic Relationship(720P_HD).mp3 (142.2 MB)
+  [ 20] 🎵 01. SatuPersen\Webinar\Webinar Cemas Masa Depan Juli 2021(720P_HD).mp3 (120.7 MB)
+  [ 21] 🎵 01. SatuPersen\Webinar\Webinar Kelola Stres_ Kecemasan_ dan Overthinking dengan Meditasi(360P).mp3 (46.4 MB)
+  [ 22] 🎵 01. SatuPersen\Webinar\Webinar Kepribadian 29 Mei 2021(720P_HD).mp3 (129.5 MB)
+  [ 23] 🎵 01. SatuPersen\Webinar\Webinar Komunikasikan Perasaanmu Secara Asertif Juni 2021(720P_HD).mp3 (121.7 MB)
+  [ 24] 🎵 01. SatuPersen\Webinar\Webinar Langkah Perencanaan Hidup untuk Masa Depan Februari 2021(720P_HD).mp3 (150.0 MB)
+  [ 25] 🎵 01. SatuPersen\Webinar\Webinar Manajemen Waktu 30 Mei(720P_HD).mp3 (139.7 MB)
+  [ 26] 🎵 01. SatuPersen\Webinar\Webinar Manajemen Waktu Agar Lebih Produktif -  Juli 2021(720P_HD).mp3 (120.1 MB)
+  [ 27] 🎵 01. SatuPersen\Webinar\Webinar Melawan Rasa Malas 11 April(720P_HD).mp3 (136.7 MB)
+  [ 28] 🎵 01. SatuPersen\Webinar\Webinar Mencintai Diri Juni 2021(720P_HD).mp3 (137.4 MB)
+  [ 29] 🎵 01. SatuPersen\Webinar\Webinar Mengenal Quarter Life Crisis dan Pemicunya 9 Mei(720P_HD).mp3 (161.5 MB)
+  [ 30] 🎵 01. SatuPersen\Webinar\Webinar Tip Bicara Lancar dan Percaya Diri dengan Orang(720P_HD).mp3 (130.7 MB)
+  [ 31] 🎵 01. SatuPersen\Webinar\Webinar Tujuan Hidup 22 Mei(720P_HD).mp3 (106.2 MB)
+  [ 32] 🎵 01. SatuPersen\Workshop\Workshop\Workshop Career Series_ CV Siap Kerja April 2021(720P_HD).mp3 (70.8 MB)
+  [ 33] 🎵 01. SatuPersen\Workshop\Workshop\Workshop Career Series_ Tips Lolos Interview April 2021(720P_HD).mp3 (81.2 MB)
+  [ 34] 🎵 01. SatuPersen\Workshop\Workshop\Workshop Copywriting Series_ Dasar dan Fundamental April 2021(720P_HD).mp3 (74.6 MB)
+  [ 35] 🎵 01. SatuPersen\Workshop\Workshop\Workshop Copywriting Series_ Teknik dan Formula April 2021(720P_HD).mp3 (74.9 MB)
+  [ 36] 🎵 01. SatuPersen\Workshop\Workshop\Workshop Event Series_ How to Plan an Event(720P_HD).mp3 (75.4 MB)
+  [ 37] 🎵 01. SatuPersen\Workshop\Workshop\Workshop Event Series_ Managing Event April 2021(720P_HD).mp3 (76.6 MB)
+  [ 38] 🎵 01. SatuPersen\Workshop\Workshop\Workshop Graphic Design 101 Maret(720P_HD).mp3 (75.5 MB)
+  [ 39] 🎵 01. SatuPersen\Workshop\Workshop\Workshop HR Series_ STAR Interview Maret 2021(720P_HD).mp3 (74.1 MB)
+  [ 40] 🎵 01. SatuPersen\Workshop\Workshop\Workshop Illustration 101 - Maret 2021(720P_HD).mp3 (70.7 MB)
+  [ 41] 🎵 01. SatuPersen\Workshop\Workshop\Workshop Lolos Interview(720P_HD).mp3 (72.5 MB)
+  [ 42] 🎵 01. SatuPersen\Workshop\Workshop\Workshop Personal Branding di Sosial Media April(720P_HD).mp3 (77.1 MB)
+  [ 43] 🎵 01. SatuPersen\Workshop\Workshop\Workshop Writing Series_ The Expert of Content Writer Maret 2021(720P_HD).mp3 (81.1 MB)
+  [ 44] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\[SATU-CLASS] Tips dan Trik Persiapan Karir Sejak Dini (17 Februari 2022)(360P).mp3 (59.3 MB)
+  [ 45] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satu Talk - Ngobrol _Menghadapi Rasa Takut_ bareng Kak Fionna(480P).mp3 (65.2 MB)
+  [ 46] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satu Talk - Ngobrol _QLC di umur 20an_ bareng Kak Tesya(360P).mp3 (53.6 MB)
+  [ 47] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satu Talk - Tips Cuan dari Jualan di Tahun 2022(480P).mp3 (35.3 MB)
+  [ 48] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuLive_ Ngobrol _Inner Child_ Bersama Kak Tesya(480P).mp3 (61.9 MB)
+  [ 49] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuLive_ Ngobrol _Overthinking_ Bersama Kak Jhon(480P).mp3 (75.5 MB)
+  [ 50] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuLive_ Ngobrol _Pilihan dalam Hidup_ Bareng Kak Muthi(480P).mp3 (60.7 MB)
+  [ 51] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk - Cara Bikin Konten ala Satu Persen bareng Yoga(480P).mp3 (51.7 MB)
+  [ 52] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk - Gimana ya Caranya Biar Nggak Overthinking Terus_ with Andin(480P).mp3 (43.4 MB)
+  [ 53] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk - Ngobrol _Belajar Asertif_ bareng Kak Jhon(1080P_HD).mp3 (63.5 MB)
+  [ 54] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk - Ngobrol _Belajar Asertif_ bareng Kak Jhon(480P).mp3 (63.5 MB)
+  [ 55] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk - Ngobrol _Burnout dan Prokrastinasi_ bareng Kak Tesya(360P).mp3 (45.2 MB)
+  [ 56] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk - Ngobrol _Fenomena Kesepian dan Rasa Hampa_ bareng Kak Muthi(360P).mp3 (54.8 MB)
+  [ 57] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk - Ngobrol _Menghadapi Gaslighting_ bareng Kak Tesya(360P).mp3 (56.6 MB)
+  [ 58] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk - Ngobrol _Saatnya Memaafkan Diri Sendiri_ bareng Kak Fionna(360P).mp3 (62.9 MB)
+  [ 59] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk - Ngobrol _Tuntutan buat jadi Sempurna_ bareng Kak Andin(360P).mp3 (95.0 MB)
+  [ 60] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk - TIPS CUAN DARI JUALAN DI TAHUN 2022 bersama Yoga(480P).mp3 (49.7 MB)
+  [ 61] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk bersama Kak Rizky dan Perseners_ Cara Jalani Hidup Sehat Mental(480P).mp3 (72.8 MB)
+  [ 62] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Bahas Bandingin DIri Sama Orang Lain with Jhon(480P).mp3 (47.5 MB)
+  [ 63] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_satutalk_ Bahas Manajemen Waktu Agar Lebih Produktif bareng Kak Firdani(480P).mp3 (66.9 MB)
+  [ 64] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Bahas Overthinking dan Cemas soal Masa Depan bersama Andin(480P).mp3 (64.0 MB)
+  [ 65] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Bahas Overthinking_ Yuk_ Bareng Jhon(480P).mp3 (70.8 MB)
+  [ 66] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Buat Lo yang Sering Kehilangan Fokus_(360P).mp3 (90.5 MB)
+  [ 67] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Cara Mengatasi Rasa Minder Bareng Kak Jhon(360P).mp3 (54.9 MB)
+  [ 68] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Kamu Sibuk atau Produktif_ with Jhon(480P).mp3 (72.1 MB)
+  [ 69] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Kenapa Jaman Sekarang Lebih Gampang Insecure(480P).mp3 (70.2 MB)
+  [ 70] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Kenapa Mengenal Diri itu Penting_(480P).mp3 (76.8 MB)
+  [ 71] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Kenapa Umur 20an Rentan Krisis_ with Jhon (Head of Socmed Satu Persen)(480P).mp3 (64.5 MB)
+  [ 72] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Komunikasi Jujur Tanpa Menyinggung_ with Firda(480P).mp3 (112.6 MB)
+  [ 73] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Memangnya Kenapa Kita Harus Mengenal Diri Sendiri_ with Jhon(480P).mp3 (49.8 MB)
+  [ 74] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Menghargai Diri Sendiri with Evan (Founder Satu Persen)(480P).mp3 (43.2 MB)
+  [ 75] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Atasi Prokrastinasi_ Bareng Kak Muthi(360P).mp3 (66.4 MB)
+  [ 76] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Belajar Fokus_ Bareng Kak Fionna(480P).mp3 (60.2 MB)
+  [ 77] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Berdamai dengan Masa Lalu_ Bareng Kak Tesya(360P).mp3 (61.4 MB)
+  [ 78] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Bongkar Strategi Marketing Satu Persen_ Bareng Kak Yoga(360P).mp3 (46.2 MB)
+  [ 79] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Cara Mengatasi Demotivasi_ Bareng Kak Fionna(480P).mp3 (70.4 MB)
+  [ 80] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Cara Ngonten ala Satu Persen_ Bareng Kak Yoga(480P).mp3 (77.7 MB)
+  [ 81] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Cemas akan Masa Depan_ Bareng Kak Tesya(360P).mp3 (63.4 MB)
+  [ 82] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Ekspektasi vs Harapan_ Bareng Kak Muthi(480P).mp3 (55.0 MB)
+  [ 83] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _GRIT_ Tips Jitu Konsisten_ Bareng Kak Tesya(480P).mp3 (61.1 MB)
+  [ 84] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Mengelola Stress_ bareng Kak Muthi(360P).mp3 (63.2 MB)
+  [ 85] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Menghadapi Kegagalan_ Bareng Kak Jhon(480P).mp3 (50.4 MB)
+  [ 86] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ ngobrol _Perlukah Adanya Standar Hidup__ bareng Kak Muthi(480P).mp3 (63.3 MB)
+  [ 87] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Quarter Life Crisis_ Bareng Kak Fionna(480P).mp3 (54.6 MB)
+  [ 88] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Self Control_ Mengatasi Kendali Diri_ Bareng Kak Jhon(360P).mp3 (60.8 MB)
+  [ 89] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Self Love_ Bareng Kak Muthi(480P).mp3 (61.1 MB)
+  [ 90] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Tips n Trik Perencanaan Tujuan Hidup_ Bareng Kak Fionna(360P).mp3 (65.0 MB)
+  [ 91] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Toxic Productivity_ bareng Kak Fionna(360P).mp3 (62.9 MB)
+  [ 92] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Toxic Relationship_ Bareng Kak Muthi(480P).mp3 (67.5 MB)
+  [ 93] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Waktunya Move On__ Bareng Kak Fionna(480P).mp3 (54.4 MB)
+  [ 94] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol Santuy Bahas CaraMengelola Emosi dan Overthinking(480P).mp3 (72.7 MB)
+  [ 95] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol Soal Mitos dan Fakta Kesehatan Mental bersama Kak Rizky_ Andin_ dan Yuni(480P).mp3 (70.8 MB)
+  [ 96] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Pentingnya Desain Kreatif di Media Sosial bareng Yoga(480P).mp3 (62.4 MB)
+  [ 97] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ QnA Bareng Satu Persen with host Kak Jhon(480P).mp3 (77.8 MB)
+  [ 98] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Sampai Kapan Mau Insecure_ with Duo Firda(480P).mp3 (82.6 MB)
+  [ 99] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Sampai Kapan Mau Menunda_ with Andin dan Firda(480P).mp3 (75.6 MB)
+  [100] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Sharing soal Cara Memaafkan Diri Sendiri bersama Andin(480P).mp3 (63.6 MB)
+  [101] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Stop Overthinking karena Medsos_ with Andin dan Jhon(480P).mp3 (92.7 MB)
+  [102] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Yourself First_ Stop Bandingin Diri Sendiri sama Orang Lain_(480P).mp3 (65.7 MB)
+  [103] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalks_ Cara Memaafkan Diri Sendiri with Andin _ Kak Rizky(480P).mp3 (72.1 MB)
+  [104] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\Bahas All About Nikah Bareng Rizky _ Andin(480P).mp3 (93.6 MB)
+  [105] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\BAHAS QUARTER LIFE CRISIS_ _SatuTalk bareng Yoga(480P).mp3 (22.1 MB)
+  [106] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\Belajar Copywriting Bareng Yoga_(360P).mp3 (78.1 MB)
+  [107] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\Kenapa Generasi Sekarang LEBIH MENDERITA_ (Cemas _ Overthinking) _ Satu Insight Episode 6(1080P_HD).mp3 (15.3 MB)
+  [108] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\Kenapa Generasi Sekarang LEBIH MENDERITA_ (Cemas _ Overthinking) _ Satu Insight Episode 6(480P).mp3 (15.3 MB)
+  [109] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\Live YouTube Inner Child_ Cara Mengatasi Luka Masa Kecil yang Berdampak pada Kesehatan Mental(360P).mp3 (52.4 MB)
+  [110] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\Satu Talk_ Bahas Pandemi Bikin Stress_ Bareng Rizky dan Andin(360P).mp3 (103.8 MB)
+  [111] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\Satu Talk_ Ngobrolin Kejombloan Bareng Rizky_ Bandoro_ dan Andin(480P).mp3 (101.3 MB)
+  [112] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\Satu Talk_ Ngobrolin Layanan Satu Persen Bareng Evan(360P).mp3 (38.9 MB)
+  [113] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\Self Control_ Cara Mengendalikan Kecanduan Menonton Pornografi dan Masturbasi(480P).mp3 (55.4 MB)
+  [114] 🎵 01. SatuPersen\Workshop\Workshop_satutalk\Workshop Discovering Career Path(720P_HD).mp3 (44.4 MB)
+  [115] 🎵 Alpha Class\Haryanto Kandani\Haryanto Kandani - Personal Branding\Haryanto Kandani - Personal Branding Session 1-001-006.mp3 (94.0 MB)
+  [116] 🎵 Alpha Class\Haryanto Kandani\Haryanto Kandani - Personal Branding\Haryanto Kandani - Personal Branding Session 2-002-007.mp3 (112.6 MB)
+  [117] 🎵 Alpha Class\Haryanto Kandani\Haryanto Kandani - Sales & Marketing\Sales & Marketing 1-004.mp3 (112.9 MB)
+  [118] 🎵 Alpha Class\Haryanto Kandani\Haryanto Kandani - Sales & Marketing\Sales & Marketing 2-005.mp3 (124.4 MB)
+  [119] 🎵 Alpha Class\Hingdranata Nikolay\Alpha Talk Hingdranata Nikolay\Alpha Talk Hingdranata Nikolay - NLP.mp3 (97.3 MB)
+  [120] 🎵 Alpha Class\Hingdranata Nikolay\Copywriting Hingdranata Nikolay\Copywriting Hingranata-003.mp3 (90.0 MB)
+  [121] 🎵 Alpha Class\Hingdranata Nikolay\Creative Thinking dengan NLP\Creative Hack Copywriting.mp3 (59.9 MB)
+  [122] 🎵 Alpha Class\Hingdranata Nikolay\Creative Thinking dengan NLP\Creative Thinking NLP Session 1.mp3 (98.4 MB)
+  [123] 🎵 Alpha Class\Kelas Content Marketing Go Viral - Edho Zell\Content Marketing Go Viral-001.mp3 (107.9 MB)
+  [124] 🎵 Alpha Class\Kitty Chen - Creative Hack Academy\Kitty Chen - Creative Hack Copywriting.mp3 (59.9 MB)
+------------------------------------------------------------------------
+
+  a. 📂 Input path folder lain (ketik manual)
+  b. 🔍 Pilih folder via File Explorer
+  c. 📄 Pilih file langsung via File Explorer (skip list)
+  d. 🚫 Pengecualian file (skip file tertentu)
+  e. ✅ Proses semua file
+  f. 🔙 Kembali ke folder utama
+  0. ❌ Kembali
+
+Pilih nomor file (contoh: 1 atau 1,3,5 atau 2-6 atau all): e
+Proses semua file (124 files)? [Y/n]: y
+
+✅ 124 file(s) dipilih:
+   🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup\1 Tujuan hidup dan personal values.mp3
+   🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup\2 Simpan tujuanmu untuk dirimu sendiri.mp3
+   🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup\3 Lifeplan.mp3
+   🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup\4 Evaluasi.mp3
+   🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup\5 Kurikulum 1_.mp3
+   🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup\6 Tentukan tujuan hidup dalam bentuk konkret.mp3
+   🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup\7 Tangani overthinking.mp3
+   🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Memahami Dan Merencanakan Tujuan Hidup\8 Filosofi 1_.mp3
+   🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri\1 Mengapa individu sulit untuk menerima diri sendiri.mp3
+   🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri\2 Mindfulness sebagai salah satu cara untuk tidak terjebak dari masa lalu.mp3
+   🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri\3 Self Acceptance sebagai cara untuk berdamai dangan diri sendiri.mp3
+   🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri\4 Coping stress.mp3
+   🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri\5 Berdamai dengan diri sendiri dalam kurikulum satupersen.mp3
+   🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri\6 Self compassion.mp3
+   🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri\7 Self care.mp3
+   🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri\8 Membandingkan diri dengan orang lain.mp3
+   🎵 01. SatuPersen\Kelas\Kelas Satu Persen - Tips Jitu Berdamai Dengan Diri Sendiri\9 Move on - lakukan hal baru.mp3
+   🎵 01. SatuPersen\Webinar\Webinar Berdamai dengan Kegagalan Februari 2021(720P_HD).mp3
+   🎵 01. SatuPersen\Webinar\Webinar Cara Menghindari Toxic Relationship(720P_HD).mp3
+   🎵 01. SatuPersen\Webinar\Webinar Cemas Masa Depan Juli 2021(720P_HD).mp3
+   🎵 01. SatuPersen\Webinar\Webinar Kelola Stres_ Kecemasan_ dan Overthinking dengan Meditasi(360P).mp3
+   🎵 01. SatuPersen\Webinar\Webinar Kepribadian 29 Mei 2021(720P_HD).mp3
+   🎵 01. SatuPersen\Webinar\Webinar Komunikasikan Perasaanmu Secara Asertif Juni 2021(720P_HD).mp3
+   🎵 01. SatuPersen\Webinar\Webinar Langkah Perencanaan Hidup untuk Masa Depan Februari 2021(720P_HD).mp3
+   🎵 01. SatuPersen\Webinar\Webinar Manajemen Waktu 30 Mei(720P_HD).mp3
+   🎵 01. SatuPersen\Webinar\Webinar Manajemen Waktu Agar Lebih Produktif -  Juli 2021(720P_HD).mp3
+   🎵 01. SatuPersen\Webinar\Webinar Melawan Rasa Malas 11 April(720P_HD).mp3
+   🎵 01. SatuPersen\Webinar\Webinar Mencintai Diri Juni 2021(720P_HD).mp3
+   🎵 01. SatuPersen\Webinar\Webinar Mengenal Quarter Life Crisis dan Pemicunya 9 Mei(720P_HD).mp3
+   🎵 01. SatuPersen\Webinar\Webinar Tip Bicara Lancar dan Percaya Diri dengan Orang(720P_HD).mp3
+   🎵 01. SatuPersen\Webinar\Webinar Tujuan Hidup 22 Mei(720P_HD).mp3
+   🎵 01. SatuPersen\Workshop\Workshop\Workshop Career Series_ CV Siap Kerja April 2021(720P_HD).mp3
+   🎵 01. SatuPersen\Workshop\Workshop\Workshop Career Series_ Tips Lolos Interview April 2021(720P_HD).mp3
+   🎵 01. SatuPersen\Workshop\Workshop\Workshop Copywriting Series_ Dasar dan Fundamental April 2021(720P_HD).mp3
+   🎵 01. SatuPersen\Workshop\Workshop\Workshop Copywriting Series_ Teknik dan Formula April 2021(720P_HD).mp3
+   🎵 01. SatuPersen\Workshop\Workshop\Workshop Event Series_ How to Plan an Event(720P_HD).mp3
+   🎵 01. SatuPersen\Workshop\Workshop\Workshop Event Series_ Managing Event April 2021(720P_HD).mp3
+   🎵 01. SatuPersen\Workshop\Workshop\Workshop Graphic Design 101 Maret(720P_HD).mp3
+   🎵 01. SatuPersen\Workshop\Workshop\Workshop HR Series_ STAR Interview Maret 2021(720P_HD).mp3
+   🎵 01. SatuPersen\Workshop\Workshop\Workshop Illustration 101 - Maret 2021(720P_HD).mp3
+   🎵 01. SatuPersen\Workshop\Workshop\Workshop Lolos Interview(720P_HD).mp3
+   🎵 01. SatuPersen\Workshop\Workshop\Workshop Personal Branding di Sosial Media April(720P_HD).mp3
+   🎵 01. SatuPersen\Workshop\Workshop\Workshop Writing Series_ The Expert of Content Writer Maret 2021(720P_HD).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\[SATU-CLASS] Tips dan Trik Persiapan Karir Sejak Dini (17 Februari 2022)(360P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satu Talk - Ngobrol _Menghadapi Rasa Takut_ bareng Kak Fionna(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satu Talk - Ngobrol _QLC di umur 20an_ bareng Kak Tesya(360P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satu Talk - Tips Cuan dari Jualan di Tahun 2022(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuLive_ Ngobrol _Inner Child_ Bersama Kak Tesya(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuLive_ Ngobrol _Overthinking_ Bersama Kak Jhon(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuLive_ Ngobrol _Pilihan dalam Hidup_ Bareng Kak Muthi(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk - Cara Bikin Konten ala Satu Persen bareng Yoga(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk - Gimana ya Caranya Biar Nggak Overthinking Terus_ with Andin(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk - Ngobrol _Belajar Asertif_ bareng Kak Jhon(1080P_HD).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk - Ngobrol _Belajar Asertif_ bareng Kak Jhon(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk - Ngobrol _Burnout dan Prokrastinasi_ bareng Kak Tesya(360P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk - Ngobrol _Fenomena Kesepian dan Rasa Hampa_ bareng Kak Muthi(360P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk - Ngobrol _Menghadapi Gaslighting_ bareng Kak Tesya(360P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk - Ngobrol _Saatnya Memaafkan Diri Sendiri_ bareng Kak Fionna(360P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk - Ngobrol _Tuntutan buat jadi Sempurna_ bareng Kak Andin(360P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk - TIPS CUAN DARI JUALAN DI TAHUN 2022 bersama Yoga(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk bersama Kak Rizky dan Perseners_ Cara Jalani Hidup Sehat Mental(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Bahas Bandingin DIri Sama Orang Lain with Jhon(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_satutalk_ Bahas Manajemen Waktu Agar Lebih Produktif bareng Kak Firdani(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Bahas Overthinking dan Cemas soal Masa Depan bersama Andin(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Bahas Overthinking_ Yuk_ Bareng Jhon(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Buat Lo yang Sering Kehilangan Fokus_(360P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Cara Mengatasi Rasa Minder Bareng Kak Jhon(360P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Kamu Sibuk atau Produktif_ with Jhon(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Kenapa Jaman Sekarang Lebih Gampang Insecure(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Kenapa Mengenal Diri itu Penting_(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Kenapa Umur 20an Rentan Krisis_ with Jhon (Head of Socmed Satu Persen)(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Komunikasi Jujur Tanpa Menyinggung_ with Firda(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Memangnya Kenapa Kita Harus Mengenal Diri Sendiri_ with Jhon(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Menghargai Diri Sendiri with Evan (Founder Satu Persen)(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Atasi Prokrastinasi_ Bareng Kak Muthi(360P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Belajar Fokus_ Bareng Kak Fionna(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Berdamai dengan Masa Lalu_ Bareng Kak Tesya(360P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Bongkar Strategi Marketing Satu Persen_ Bareng Kak Yoga(360P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Cara Mengatasi Demotivasi_ Bareng Kak Fionna(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Cara Ngonten ala Satu Persen_ Bareng Kak Yoga(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Cemas akan Masa Depan_ Bareng Kak Tesya(360P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Ekspektasi vs Harapan_ Bareng Kak Muthi(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _GRIT_ Tips Jitu Konsisten_ Bareng Kak Tesya(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Mengelola Stress_ bareng Kak Muthi(360P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Menghadapi Kegagalan_ Bareng Kak Jhon(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ ngobrol _Perlukah Adanya Standar Hidup__ bareng Kak Muthi(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Quarter Life Crisis_ Bareng Kak Fionna(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Self Control_ Mengatasi Kendali Diri_ Bareng Kak Jhon(360P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Self Love_ Bareng Kak Muthi(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Tips n Trik Perencanaan Tujuan Hidup_ Bareng Kak Fionna(360P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Toxic Productivity_ bareng Kak Fionna(360P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Toxic Relationship_ Bareng Kak Muthi(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol _Waktunya Move On__ Bareng Kak Fionna(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol Santuy Bahas CaraMengelola Emosi dan Overthinking(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Ngobrol Soal Mitos dan Fakta Kesehatan Mental bersama Kak Rizky_ Andin_ dan Yuni(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Pentingnya Desain Kreatif di Media Sosial bareng Yoga(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ QnA Bareng Satu Persen with host Kak Jhon(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Sampai Kapan Mau Insecure_ with Duo Firda(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Sampai Kapan Mau Menunda_ with Andin dan Firda(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Sharing soal Cara Memaafkan Diri Sendiri bersama Andin(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_Satutalk_ Stop Overthinking karena Medsos_ with Andin dan Jhon(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalk_ Yourself First_ Stop Bandingin Diri Sendiri sama Orang Lain_(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\_SatuTalks_ Cara Memaafkan Diri Sendiri with Andin _ Kak Rizky(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\Bahas All About Nikah Bareng Rizky _ Andin(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\BAHAS QUARTER LIFE CRISIS_ _SatuTalk bareng Yoga(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\Belajar Copywriting Bareng Yoga_(360P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\Kenapa Generasi Sekarang LEBIH MENDERITA_ (Cemas _ Overthinking) _ Satu Insight Episode 6(1080P_HD).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\Kenapa Generasi Sekarang LEBIH MENDERITA_ (Cemas _ Overthinking) _ Satu Insight Episode 6(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\Live YouTube Inner Child_ Cara Mengatasi Luka Masa Kecil yang Berdampak pada Kesehatan Mental(360P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\Satu Talk_ Bahas Pandemi Bikin Stress_ Bareng Rizky dan Andin(360P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\Satu Talk_ Ngobrolin Kejombloan Bareng Rizky_ Bandoro_ dan Andin(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\Satu Talk_ Ngobrolin Layanan Satu Persen Bareng Evan(360P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\Self Control_ Cara Mengendalikan Kecanduan Menonton Pornografi dan Masturbasi(480P).mp3
+   🎵 01. SatuPersen\Workshop\Workshop_satutalk\Workshop Discovering Career Path(720P_HD).mp3
+   🎵 Alpha Class\Haryanto Kandani\Haryanto Kandani - Personal Branding\Haryanto Kandani - Personal Branding Session 1-001-006.mp3
+   🎵 Alpha Class\Haryanto Kandani\Haryanto Kandani - Personal Branding\Haryanto Kandani - Personal Branding Session 2-002-007.mp3
+   🎵 Alpha Class\Haryanto Kandani\Haryanto Kandani - Sales & Marketing\Sales & Marketing 1-004.mp3
+   🎵 Alpha Class\Haryanto Kandani\Haryanto Kandani - Sales & Marketing\Sales & Marketing 2-005.mp3
+   🎵 Alpha Class\Hingdranata Nikolay\Alpha Talk Hingdranata Nikolay\Alpha Talk Hingdranata Nikolay - NLP.mp3
+   🎵 Alpha Class\Hingdranata Nikolay\Copywriting Hingdranata Nikolay\Copywriting Hingranata-003.mp3
+   🎵 Alpha Class\Hingdranata Nikolay\Creative Thinking dengan NLP\Creative Hack Copywriting.mp3
+   🎵 Alpha Class\Hingdranata Nikolay\Creative Thinking dengan NLP\Creative Thinking NLP Session 1.mp3
+   🎵 Alpha Class\Kelas Content Marketing Go Viral - Edho Zell\Content Marketing Go Viral-001.mp3
+   🎵 Alpha Class\Kitty Chen - Creative Hack Academy\Kitty Chen - Creative Hack Copywriting.mp3
+
+Pilih Bahasa Audio Asli:
+  [1] id (Indonesian)
+  [2] en (English)
+  [3] ja (Japanese)
+  [4] auto (Auto-detect / Campuran)
+Pilih (1/2/3/4): 1
+🔧 CUDA DLL paths loaded: 2 folders
+✅ faster_whisper imported successfully
+✅ Loaded .env file from: D:\2. Organize\1. Projects\audio convert to txt\.env
+
+🔄 Loading Whisper model from local: D:\model\large-v3
+   💾 Saved ~3GB download time!
+   🚀 Attempting to load on GPU (CUDA)...
+    GPU detected: NVIDIA GeForce RTX 4070 Laptop GPU (8.0 GB VRAM)
+   ✅ Model loaded on GPU (CUDA) from LOCAL path - FAST! 🎉
+
+
+==================================================
+📊 SUMMARY SEBELUM PROSES
+==================================================
+Total file yang akan diproses: 124
+  🎵 Audio : 124 files
+  🎬 Video : 0 files (Akan di-convert ke MP3)
+Lokasi output: multiple
+==================================================
+
+Lanjutkan proses? (1 = Yes, 0 = No):

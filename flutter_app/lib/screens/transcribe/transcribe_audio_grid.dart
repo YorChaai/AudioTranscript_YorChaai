@@ -11,15 +11,35 @@ import '../../utils/ui_utils.dart';
 class TranscribeAudioGrid extends StatelessWidget {
   final String searchQuery;
   final ScrollController gridScrollController;
-  final List<String> selectedFiles;
-  final ValueChanged<String> onToggleSelection;
+  final bool isSelectionMode;
+  final Set<String> selectedFiles;
+  final Set<String> selectedFolders;
+  final ValueChanged<String> onToggleFileSelection;
+  final ValueChanged<String> onToggleFolderSelection;
+  final ValueChanged<String> onFolderNavigate;
+  final ValueChanged<String> onFileLongPress;
+  final ValueChanged<String> onFolderLongPress;
+  final void Function(String path, String name)? onRenameFile;
+  final void Function(String path, String name)? onDeleteFile;
+  final void Function(String path, String name)? onRenameFolder;
+  final void Function(String path, String name)? onDeleteFolder;
 
   const TranscribeAudioGrid({
     super.key,
     required this.searchQuery,
     required this.gridScrollController,
+    required this.isSelectionMode,
     required this.selectedFiles,
-    required this.onToggleSelection,
+    required this.selectedFolders,
+    required this.onToggleFileSelection,
+    required this.onToggleFolderSelection,
+    required this.onFolderNavigate,
+    required this.onFileLongPress,
+    required this.onFolderLongPress,
+    this.onRenameFile,
+    this.onDeleteFile,
+    this.onRenameFolder,
+    this.onDeleteFolder,
   });
 
   List<Map<String, dynamic>> _getFilteredFiles(TranscribeProvider prov, SortProvider sortProv) {
@@ -81,11 +101,12 @@ class TranscribeAudioGrid extends StatelessWidget {
       controller: gridScrollController,
       child: GridView.builder(
         controller: gridScrollController,
+        padding: const EdgeInsets.only(bottom: 24),
         gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
-          maxCrossAxisExtent: 300,
-          mainAxisSpacing: 16,
-          crossAxisSpacing: 16,
-          childAspectRatio: 2.5,
+          maxCrossAxisExtent: 320,
+          mainAxisSpacing: 12,
+          crossAxisSpacing: 12,
+          mainAxisExtent: 74,
         ),
         itemCount: prov.folders.length + filteredFiles.length,
         itemBuilder: (context, index) {
@@ -104,7 +125,7 @@ class TranscribeAudioGrid extends StatelessWidget {
       child: Padding(
         padding: EdgeInsets.all(AppConstants.paddingExtraLarge),
         child: Text(
-          'Belum ada file audio di server.\nUpload file baru untuk mulai.',
+          'Belum ada file audio di server.\nUpload file atau folder untuk mulai.',
           textAlign: TextAlign.center,
           style: TextStyle(color: AppTheme.textSecondary),
         ),
@@ -113,20 +134,44 @@ class TranscribeAudioGrid extends StatelessWidget {
   }
 
   Widget _buildFolderItem(Map<String, dynamic> folder, TranscribeProvider prov) {
+    final folderPath = folder['path'] as String? ?? folder['name'] as String;
+    final folderName = folder['name'] as String? ?? 'Folder';
+    final isSelected = selectedFolders.contains(folderPath);
+
     return InkWell(
-      onTap: () => prov.navigateTo(folder['path']),
+      onTap: prov.transcribing
+          ? null
+          : () {
+              if (isSelectionMode) {
+                onToggleFolderSelection(folderPath);
+              } else {
+                onFolderNavigate(folderPath);
+              }
+            },
+      onLongPress: prov.transcribing ? null : () => onFolderLongPress(folderPath),
       borderRadius: BorderRadius.circular(12),
       child: Container(
-        padding: const EdgeInsets.all(12),
+        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
         decoration: BoxDecoration(
-          color: AppTheme.cardDark,
+          color: isSelected ? AppTheme.browserColor.withOpacity(0.15) : AppTheme.cardDark,
           borderRadius: BorderRadius.circular(12),
-          border: Border.all(color: AppTheme.dividerColor),
+          border: Border.all(
+            color: isSelected ? AppTheme.browserColor : AppTheme.dividerColor,
+            width: isSelected ? 2 : 1,
+          ),
         ),
         child: Row(
           children: [
-            const Icon(Icons.folder_rounded, color: AppTheme.browserColor, size: 32),
-            const SizedBox(width: 12),
+            if (isSelectionMode) ...[
+              Icon(
+                isSelected ? Icons.check_box_rounded : Icons.check_box_outline_blank_rounded,
+                color: isSelected ? AppTheme.browserColor : AppTheme.textSecondary,
+                size: 22,
+              ),
+              const SizedBox(width: 8),
+            ],
+            const Icon(Icons.folder_rounded, color: AppTheme.browserColor, size: 28),
+            const SizedBox(width: 10),
             Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -134,19 +179,62 @@ class TranscribeAudioGrid extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   Text(
-                    folder['name'] ?? 'Folder',
-                    style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+                    folderName,
+                    style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 13),
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
                   ),
                   const SizedBox(height: 2),
                   Text(
                     '${folder['file_count'] ?? 0} files',
-                    style: const TextStyle(color: AppTheme.textSecondary, fontSize: 12),
+                    style: const TextStyle(color: AppTheme.textSecondary, fontSize: 11),
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
                   ),
                 ],
               ),
             ),
+            if (!isSelectionMode)
+              SizedBox(
+                width: 28,
+                height: 28,
+                child: PopupMenuButton<String>(
+                  icon: const Icon(Icons.more_vert_rounded, size: 18, color: AppTheme.textMuted),
+                  color: AppTheme.cardDark,
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                  padding: EdgeInsets.zero,
+                  constraints: const BoxConstraints(),
+                  onSelected: (val) {
+                    if (val == 'rename') {
+                      onRenameFolder?.call(folderPath, folderName);
+                    } else if (val == 'delete') {
+                      onDeleteFolder?.call(folderPath, folderName);
+                    }
+                  },
+                  itemBuilder: (context) => [
+                    const PopupMenuItem(
+                      value: 'rename',
+                      child: Row(
+                        children: [
+                          Icon(Icons.edit_rounded, size: 16, color: AppTheme.accentCyan),
+                          SizedBox(width: 8),
+                          Text('Ubah Nama', style: TextStyle(color: Colors.white, fontSize: 12)),
+                        ],
+                      ),
+                    ),
+                    const PopupMenuItem(
+                      value: 'delete',
+                      child: Row(
+                        children: [
+                          Icon(Icons.delete_forever_rounded, size: 16, color: AppTheme.error),
+                          SizedBox(width: 8),
+                          Text('Hapus Folder', style: TextStyle(color: AppTheme.error, fontSize: 12)),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
           ],
         ),
       ),
@@ -155,16 +243,18 @@ class TranscribeAudioGrid extends StatelessWidget {
 
   Widget _buildFileItem(Map<String, dynamic> file, TranscribeProvider prov) {
     final filePath = file['path'] as String? ?? file['name'] as String;
+    final fileName = file['name'] as String? ?? 'Unknown';
     final isSelected = selectedFiles.contains(filePath);
     final sizeStr = UiUtils.formatSize(file['size'] ?? 0);
 
     return InkWell(
-      onTap: prov.transcribing ? null : () => onToggleSelection(filePath),
+      onTap: prov.transcribing ? null : () => onToggleFileSelection(filePath),
+      onLongPress: prov.transcribing ? null : () => onFileLongPress(filePath),
       borderRadius: BorderRadius.circular(12),
       child: Container(
-        padding: const EdgeInsets.all(12),
+        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
         decoration: BoxDecoration(
-          color: isSelected ? AppTheme.accentBlue.withOpacity(0.1) : AppTheme.cardDark,
+          color: isSelected ? AppTheme.accentBlue.withOpacity(0.15) : AppTheme.cardDark,
           borderRadius: BorderRadius.circular(12),
           border: Border.all(
             color: isSelected ? AppTheme.accentBlue : AppTheme.dividerColor,
@@ -173,12 +263,20 @@ class TranscribeAudioGrid extends StatelessWidget {
         ),
         child: Row(
           children: [
+            if (isSelectionMode) ...[
+              Icon(
+                isSelected ? Icons.check_box_rounded : Icons.check_box_outline_blank_rounded,
+                color: isSelected ? AppTheme.accentBlue : AppTheme.textSecondary,
+                size: 22,
+              ),
+              const SizedBox(width: 8),
+            ],
             Icon(
-              isSelected ? Icons.check_circle : Icons.audio_file_outlined,
+              isSelected ? Icons.check_circle_rounded : Icons.audio_file_outlined,
               color: isSelected ? AppTheme.accentBlue : AppTheme.textSecondary,
-              size: 32,
+              size: 28,
             ),
-            const SizedBox(width: 12),
+            const SizedBox(width: 10),
             Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -186,21 +284,62 @@ class TranscribeAudioGrid extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   Text(
-                    file['name'] ?? 'Unknown',
-                    style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+                    fileName,
+                    style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 13),
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
                   ),
                   const SizedBox(height: 2),
                   Text(
                     sizeStr,
-                    style: const TextStyle(color: AppTheme.textSecondary, fontSize: 12),
+                    style: const TextStyle(color: AppTheme.textSecondary, fontSize: 11),
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
                   ),
                 ],
               ),
             ),
+            if (!isSelectionMode)
+              SizedBox(
+                width: 28,
+                height: 28,
+                child: PopupMenuButton<String>(
+                  icon: const Icon(Icons.more_vert_rounded, size: 18, color: AppTheme.textMuted),
+                  color: AppTheme.cardDark,
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                  padding: EdgeInsets.zero,
+                  constraints: const BoxConstraints(),
+                  onSelected: (val) {
+                    if (val == 'rename') {
+                      onRenameFile?.call(filePath, fileName);
+                    } else if (val == 'delete') {
+                      onDeleteFile?.call(filePath, fileName);
+                    }
+                  },
+                  itemBuilder: (context) => [
+                    const PopupMenuItem(
+                      value: 'rename',
+                      child: Row(
+                        children: [
+                          Icon(Icons.edit_rounded, size: 16, color: AppTheme.accentCyan),
+                          SizedBox(width: 8),
+                          Text('Ubah Nama', style: TextStyle(color: Colors.white, fontSize: 12)),
+                        ],
+                      ),
+                    ),
+                    const PopupMenuItem(
+                      value: 'delete',
+                      child: Row(
+                        children: [
+                          Icon(Icons.delete_forever_rounded, size: 16, color: AppTheme.error),
+                          SizedBox(width: 8),
+                          Text('Hapus File', style: TextStyle(color: AppTheme.error, fontSize: 12)),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
           ],
         ),
       ),

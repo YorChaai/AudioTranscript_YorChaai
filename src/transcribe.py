@@ -33,6 +33,7 @@ from utils import (
     get_audio_info_technical,
     repair_audio_ffmpeg,
     handle_pdf_conversion_prompt,
+    wait_for_downloads,
 )
 
 if hasattr(sys.stdout, "reconfigure"):
@@ -196,6 +197,9 @@ def handle_custom_folder(args, model):
     if proceed == "0":
         print("❌ Proses dibatalkan oleh pengguna.")
         return []
+
+    # Wait for files to be fully downloaded from cloud/OneDrive
+    wait_for_downloads(media_files)
 
     converted_audio = []
     if videos:

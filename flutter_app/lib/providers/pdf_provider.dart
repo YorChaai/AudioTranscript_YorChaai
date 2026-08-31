@@ -12,11 +12,11 @@ class PdfProvider extends ChangeNotifier {
   String? _errorMessage;
   String? get errorMessage => _errorMessage;
 
-  List<String> _txtFiles = [];
-  List<String> get txtFiles => _txtFiles;
+  List<Map<String, dynamic>> _txtFiles = [];
+  List<Map<String, dynamic>> get txtFiles => _txtFiles;
 
-  List<String> _pdfFiles = [];
-  List<String> get pdfFiles => _pdfFiles;
+  List<Map<String, dynamic>> _pdfFiles = [];
+  List<Map<String, dynamic>> get pdfFiles => _pdfFiles;
 
   Future<void> loadTxtFiles() async {
     _isLoading = true;
@@ -25,7 +25,7 @@ class PdfProvider extends ChangeNotifier {
 
     try {
       final result = await _repository.listTranscripts();
-      _txtFiles = List<String>.from(result['files'] ?? []);
+      _txtFiles = List<Map<String, dynamic>>.from(result['files'] ?? []);
     } catch (e) {
       _errorMessage = e.toString();
     } finally {
@@ -41,7 +41,7 @@ class PdfProvider extends ChangeNotifier {
 
     try {
       final result = await _repository.listPdfs();
-      _pdfFiles = List<String>.from(result['files'] ?? []);
+      _pdfFiles = List<Map<String, dynamic>>.from(result['files'] ?? []);
     } catch (e) {
       _errorMessage = e.toString();
     } finally {

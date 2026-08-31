@@ -124,25 +124,56 @@ class ApiService {
     return await _processResponse(res);
   }
 
+  static Future<Map<String, dynamic>> renameMedia(String path, String newName) async {
+    final res = await _client.post(
+      Uri.parse('$_base/file/rename'),
+      headers: {'Content-Type': 'application/json'},
+      body: json.encode({'path': path, 'newName': newName}),
+    ).timeout(ApiConfig.requestTimeout);
+    return await _processResponse(res);
+  }
+
+  static Future<Map<String, dynamic>> deleteMedia({
+    List<String>? files,
+    List<String>? folders,
+  }) async {
+    final res = await _client.post(
+      Uri.parse('$_base/file/delete'),
+      headers: {'Content-Type': 'application/json'},
+      body: json.encode({
+        'files': files ?? [],
+        'folders': folders ?? [],
+      }),
+    ).timeout(ApiConfig.requestTimeout);
+    return await _processResponse(res);
+  }
+
   // ===== TRANSCRIBE =====
 
   static Future<Map<String, dynamic>> startTranscribe({
     List<String>? audioFiles,
     String? audioFile,
+    List<String>? folderPaths,
     String language = 'auto',
     bool translate = false,
     String targetLang = 'id',
+    int beamSize = 2,
   }) async {
     final List<String> files = audioFiles ?? (audioFile != null ? [audioFile] : []);
+    final body = <String, dynamic>{
+      'audio_files': files,
+      'language': language,
+      'translate': translate,
+      'target_lang': targetLang,
+      'beam_size': beamSize,
+    };
+    if (folderPaths != null && folderPaths.isNotEmpty) {
+      body['folder_paths'] = folderPaths;
+    }
     final res = await _client.post(
       Uri.parse('$_base/transcribe'),
       headers: {'Content-Type': 'application/json'},
-      body: json.encode({
-        'audio_files': files,
-        'language': language,
-        'translate': translate,
-        'target_lang': targetLang,
-      }),
+      body: json.encode(body),
     ).timeout(ApiConfig.requestTimeout);
     return await _processResponse(res);
   }
@@ -211,14 +242,30 @@ class ApiService {
 
   // ===== SUMMARY =====
 
+  static Future<Map<String, dynamic>> getSummaryModels() async {
+    final res = await _client
+        .get(Uri.parse('$_base/summary/models'))
+        .timeout(ApiConfig.requestTimeout);
+    return await _processResponse(res);
+  }
+
   static Future<Map<String, dynamic>> startSummary({
     required String txtFile,
     required String model,
+    String? provider,
+    String? apiKey,
   }) async {
+    final body = <String, dynamic>{
+      'txt_file': txtFile,
+      'model': model,
+    };
+    if (provider != null) body['provider'] = provider;
+    if (apiKey != null && apiKey.isNotEmpty) body['api_key'] = apiKey;
+
     final res = await _client.post(
       Uri.parse('$_base/summary'),
       headers: {'Content-Type': 'application/json'},
-      body: json.encode({'txt_file': txtFile, 'model': model}),
+      body: json.encode(body),
     ).timeout(ApiConfig.requestTimeout);
     return await _processResponse(res);
   }

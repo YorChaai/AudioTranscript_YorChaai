@@ -1,14 +1,22 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:provider/provider.dart';
 import '../config/theme.dart';
+import '../providers/language_provider.dart';
 import '../widgets/server_status_bar.dart';
+import '../widgets/settings_dialog.dart';
 
 class _NavItem {
   final IconData icon;
-  final String label;
+  final String key;
+  final String fallbackLabel;
   final String subtitle;
-  const _NavItem(
-      {required this.icon, required this.label, required this.subtitle});
+  const _NavItem({
+    required this.icon,
+    required this.key,
+    required this.fallbackLabel,
+    required this.subtitle,
+  });
 }
 
 class AppShell extends StatefulWidget {
@@ -24,29 +32,47 @@ class _AppShellState extends State<AppShell> {
 
   final List<_NavItem> _navItems = const [
     _NavItem(
-        icon: Icons.home_rounded, label: 'Home', subtitle: 'Ringkasan fitur'),
+      icon: Icons.home_rounded,
+      key: 'home',
+      fallbackLabel: 'Home',
+      subtitle: 'Ringkasan fitur / Overview',
+    ),
     _NavItem(
-        icon: Icons.mic_rounded,
-        label: 'Transcribe',
-        subtitle: 'Audio & video ke teks'),
+      icon: Icons.mic_rounded,
+      key: 'transcribe',
+      fallbackLabel: 'Transcribe',
+      subtitle: 'Audio & video ke teks',
+    ),
     _NavItem(
-        icon: Icons.edit_note_rounded,
-        label: 'Editor',
-        subtitle: 'Edit hasil transcript'),
+      icon: Icons.edit_note_rounded,
+      key: 'editor',
+      fallbackLabel: 'Editor',
+      subtitle: 'Edit hasil transcript',
+    ),
     _NavItem(
-        icon: Icons.picture_as_pdf_rounded,
-        label: 'PDF',
-        subtitle: 'Convert & merge PDF'),
+      icon: Icons.picture_as_pdf_rounded,
+      key: 'pdf',
+      fallbackLabel: 'PDF',
+      subtitle: 'Convert & merge PDF',
+    ),
     _NavItem(
-        icon: Icons.auto_awesome_rounded,
-        label: 'Summary',
-        subtitle: 'Ringkas hasil AI'),
+      icon: Icons.auto_awesome_rounded,
+      key: 'summary',
+      fallbackLabel: 'Summary',
+      subtitle: 'Ringkas hasil AI',
+    ),
     _NavItem(
-        icon: Icons.history_rounded,
-        label: 'History',
-        subtitle: 'Riwayat proses'),
+      icon: Icons.history_rounded,
+      key: 'history',
+      fallbackLabel: 'History',
+      subtitle: 'Riwayat proses',
+    ),
     _NavItem(
-        icon: Icons.folder_rounded, label: 'Browse', subtitle: 'File server'),
+      icon: Icons.folder_rounded,
+      key: 'browser',
+      fallbackLabel: 'Browse',
+      subtitle: 'File server',
+    ),
   ];
 
   int get _currentIndex {
@@ -128,6 +154,7 @@ class _AppShellState extends State<AppShell> {
 
   Widget _buildSidebar(bool isTablet) {
     final width = isTablet ? 80.0 : (_sidebarExpanded ? 280.0 : 80.0);
+    final langProv = context.watch<LanguageProvider>();
 
     return AnimatedContainer(
       duration: const Duration(milliseconds: 300),
@@ -160,28 +187,73 @@ class _AppShellState extends State<AppShell> {
                 _buildLogo(isTablet),
                 const SizedBox(height: 24),
                 Expanded(
-            child: ListView.builder(
-              padding: const EdgeInsets.symmetric(horizontal: 12),
-              itemCount: _navItems.length,
-              itemBuilder: (context, index) {
-                return _buildNavItem(index, isTablet);
-              },
+                  child: ListView.builder(
+                    padding: const EdgeInsets.symmetric(horizontal: 12),
+                    itemCount: _navItems.length,
+                    itemBuilder: (context, index) {
+                      return _buildNavItem(index, isTablet);
+                    },
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                  child: InkWell(
+                    onTap: () => SettingsDialog.show(context),
+                    borderRadius: BorderRadius.circular(14),
+                    child: Container(
+                      padding: EdgeInsets.symmetric(
+                        horizontal: (_sidebarExpanded && !isTablet) ? 14 : 0,
+                        vertical: 10,
+                      ),
+                      decoration: BoxDecoration(
+                        color: AppTheme.cardDark,
+                        borderRadius: BorderRadius.circular(14),
+                        border: Border.all(color: AppTheme.dividerColor),
+                      ),
+                      child: (_sidebarExpanded && !isTablet)
+                          ? Row(
+                              children: [
+                                const Icon(Icons.settings_rounded, color: AppTheme.accentCyan, size: 20),
+                                const SizedBox(width: 12),
+                                Expanded(
+                                  child: Text(
+                                    langProv.tr('settings'),
+                                    style: const TextStyle(color: Colors.white, fontSize: 13, fontWeight: FontWeight.w600),
+                                  ),
+                                ),
+                                Container(
+                                  padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                                  decoration: BoxDecoration(
+                                    color: AppTheme.accentBlue.withOpacity(0.2),
+                                    borderRadius: BorderRadius.circular(6),
+                                  ),
+                                  child: Text(
+                                    langProv.languageCode.toUpperCase(),
+                                    style: const TextStyle(color: AppTheme.accentCyan, fontSize: 10, fontWeight: FontWeight.bold),
+                                  ),
+                                ),
+                              ],
+                            )
+                          : const Center(
+                              child: Icon(Icons.settings_rounded, color: AppTheme.accentCyan, size: 22),
+                            ),
+                    ),
+                  ),
+                ),
+                if (!isTablet && _sidebarExpanded)
+                  const Padding(
+                    padding: EdgeInsets.fromLTRB(16, 4, 16, 16),
+                    child: ServerStatusBar(),
+                  ),
+              ],
             ),
           ),
-          if (!isTablet && _sidebarExpanded)
-            const Padding(
-              padding: EdgeInsets.all(16.0),
-              child: ServerStatusBar(),
-            ),
-        ],
+        ),
       ),
-     ),
-    ),
-   ),
-  );
- }
+    );
+  }
 
- Widget _buildLogo(bool isTablet) {
+  Widget _buildLogo(bool isTablet) {
     final isCompact = isTablet || !_sidebarExpanded;
     return Padding(
       padding: EdgeInsets.symmetric(horizontal: isCompact ? 0 : 24),
@@ -241,6 +313,8 @@ class _AppShellState extends State<AppShell> {
     final item = _navItems[index];
     final isSelected = _currentIndex == index;
     final isCompact = isTablet || !_sidebarExpanded;
+    final langProv = context.watch<LanguageProvider>();
+    final label = langProv.tr(item.key);
 
     return Padding(
       padding: const EdgeInsets.only(bottom: 8),
@@ -282,7 +356,7 @@ class _AppShellState extends State<AppShell> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            item.label,
+                            label,
                             style: TextStyle(
                               color: isSelected
                                   ? AppTheme.accentBlue
@@ -312,6 +386,8 @@ class _AppShellState extends State<AppShell> {
   }
 
   Widget _buildBottomNav() {
+    final langProv = context.watch<LanguageProvider>();
+
     return Container(
       decoration: BoxDecoration(
         color: AppTheme.backgroundDark,
@@ -328,43 +404,48 @@ class _AppShellState extends State<AppShell> {
           padding: const EdgeInsets.symmetric(horizontal: 4, vertical: 8),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: _navItems.asMap().entries.map((e) {
-              final isSelected = _currentIndex == e.key;
-              return Expanded(
-                child: InkWell(
-                  onTap: () => _onNavigate(e.key),
-                  borderRadius: BorderRadius.circular(12),
-                  child: Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 6),
-                    child: Column(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        Icon(
-                          e.value.icon,
-                          color:
-                              isSelected ? AppTheme.accentBlue : Colors.white54,
-                          size: 20,
-                        ),
-                        const SizedBox(height: 4),
-                        Text(
-                          e.value.label,
-                          style: TextStyle(
-                            color: isSelected
-                                ? AppTheme.accentBlue
-                                : Colors.white54,
-                            fontSize: 9,
-                            fontWeight:
-                                isSelected ? FontWeight.w600 : FontWeight.w500,
+            children: [
+              ..._navItems.asMap().entries.map((e) {
+                final isSelected = _currentIndex == e.key;
+                final label = langProv.tr(e.value.key);
+                return Expanded(
+                  child: InkWell(
+                    onTap: () => _onNavigate(e.key),
+                    borderRadius: BorderRadius.circular(12),
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 6),
+                      child: Column(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Icon(
+                            e.value.icon,
+                            color: isSelected ? AppTheme.accentBlue : Colors.white54,
+                            size: 20,
                           ),
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                        ),
-                      ],
+                          const SizedBox(height: 4),
+                          Text(
+                            label,
+                            style: TextStyle(
+                              color: isSelected ? AppTheme.accentBlue : Colors.white54,
+                              fontSize: 9,
+                              fontWeight: isSelected ? FontWeight.w600 : FontWeight.w500,
+                            ),
+                            maxLines: 1,
+                            overflow: TextOverflow.ellipsis,
+                          ),
+                        ],
+                      ),
                     ),
                   ),
-                ),
-              );
-            }).toList(),
+                );
+              }),
+              // Mobile Settings Action
+              IconButton(
+                icon: const Icon(Icons.tune_rounded, color: AppTheme.accentCyan, size: 20),
+                tooltip: 'Settings / Theme / Language',
+                onPressed: () => SettingsDialog.show(context),
+              ),
+            ],
           ),
         ),
       ),

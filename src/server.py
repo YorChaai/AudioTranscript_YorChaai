@@ -166,6 +166,21 @@ def _convert_video_to_mp3(video_path: Path, target_dir: Path = None) -> tuple[Pa
     return output_path, logs
 
 
+def _is_safe_path(target_path: Path, allowed_parents=None) -> bool:
+    """Validate that path is inside allowed project directories to prevent path traversal."""
+    if allowed_parents is None:
+        allowed_parents = [CONVERT_DIR, AUDIO_FOLDER, SUMMARY_DIR]
+    try:
+        resolved = target_path.resolve()
+        for parent in allowed_parents:
+            parent_resolved = parent.resolve()
+            if parent_resolved == resolved or parent_resolved in resolved.parents:
+                return True
+        return False
+    except Exception:
+        return False
+
+
 # ============================================================
 # HEALTH CHECK
 # ============================================================
@@ -349,6 +364,127 @@ def move_files():
     return jsonify({"status": "ok", "moved": moved, "errors": errors})
 
 
+def _sanitize_media_name(name: str) -> str:
+    import re
+    # Remove illegal Windows path characters: < > : " / \ | ? *
+    cleaned = re.sub(r'[<>:"/\\|?*\x00-\x1f]', '', str(name)).strip()
+    return cleaned.strip('. ')
+
+
+def _resolve_media_path(path_str: str) -> Path:
+    p_str = str(path_str).replace("\\", "/").strip().lstrip("/")
+    if p_str.startswith("audio/"):
+        p_str = p_str[6:]
+    return (AUDIO_FOLDER / p_str).resolve()
+
+
+@app.route("/api/file/rename", methods=["POST"])
+@require_api_key
+def rename_file_or_folder():
+    """Rename an audio file or folder"""
+    data = request.json or {}
+    path_str = data.get("path", "").strip()
+    new_name = data.get("newName", "").strip()
+    
+    if not path_str or not new_name:
+        return jsonify({"error": "Path dan nama baru wajib diisi"}), 400
+        
+    safe_new_name = _sanitize_media_name(new_name)
+    if not safe_new_name:
+        return jsonify({"error": "Nama baru tidak valid (mengandung karakter terlarang)"}), 400
+        
+    try:
+        src = _resolve_media_path(path_str)
+            
+        if AUDIO_FOLDER.resolve() not in src.parents and src != AUDIO_FOLDER.resolve():
+            return jsonify({"error": "Path tidak valid (berada di luar direktori audio)"}), 400
+            
+        if not src.exists():
+            return jsonify({"error": f"File atau folder tidak ditemukan di server: {src.name}"}), 404
+            
+        # Preserve original extension if renaming a file and user didn't specify one
+        if src.is_file() and not Path(safe_new_name).suffix:
+            safe_new_name += src.suffix
+            
+        dest = src.parent / safe_new_name
+        if dest.exists() and dest != src:
+            return jsonify({"error": f"Item dengan nama '{safe_new_name}' sudah ada"}), 400
+            
+        src.rename(dest)
+        info(f"✏️ Renamed '{src.name}' -> '{dest.name}'")
+        
+        return jsonify({
+            "status": "ok",
+            "old_name": src.name,
+            "new_name": dest.name,
+            "path": str(dest.relative_to(BASE_DIR)),
+        })
+    except Exception as e:
+        return jsonify({"error": f"Gagal mengubah nama: {str(e)}"}), 500
+
+
+@app.route("/api/file/delete", methods=["POST"])
+@require_api_key
+def delete_files_and_folders():
+    """Delete audio files and/or folders permanently"""
+    data = request.json or {}
+    files = data.get("files", [])
+    folders = data.get("folders", [])
+    
+    if not files and not folders:
+        return jsonify({"error": "Tidak ada file atau folder yang dipilih untuk dihapus"}), 400
+        
+    deleted_files = []
+    deleted_folders = []
+    errors = []
+    
+    # 1. Delete individual files
+    for file_path in files:
+        try:
+            file_path_str = str(file_path).strip()
+            src = _resolve_media_path(file_path_str)
+                
+            if AUDIO_FOLDER.resolve() not in src.parents:
+                errors.append(f"{file_path} tidak valid (bukan di dalam folder audio)")
+                continue
+                
+            if src.exists() and src.is_file():
+                src.unlink()
+                deleted_files.append(file_path_str)
+                info(f"🗑️ Deleted audio file: {src.name}")
+            else:
+                errors.append(f"File {file_path} tidak ditemukan")
+        except Exception as e:
+            errors.append(f"Gagal menghapus {file_path}: {str(e)}")
+
+    # 2. Delete folders and entire subtrees
+    for folder_path in folders:
+        try:
+            folder_path_str = str(folder_path).strip()
+            fdir = _resolve_media_path(folder_path_str)
+                
+            # Prevent deleting the root AUDIO_FOLDER itself
+            if fdir == AUDIO_FOLDER.resolve() or AUDIO_FOLDER.resolve() not in fdir.parents:
+                errors.append(f"Folder root atau di luar audio tidak boleh dihapus: {folder_path}")
+                continue
+                
+            if fdir.exists() and fdir.is_dir():
+                shutil.rmtree(str(fdir))
+                deleted_folders.append(folder_path_str)
+                info(f"🗑️ Deleted folder tree: {fdir.name}")
+            else:
+                errors.append(f"Folder {folder_path} tidak ditemukan")
+        except Exception as e:
+            errors.append(f"Gagal menghapus folder {folder_path}: {str(e)}")
+
+    return jsonify({
+        "status": "ok",
+        "deleted_files": deleted_files,
+        "deleted_folders": deleted_folders,
+        "errors": errors,
+    })
+
+
 @app.route("/api/audio/upload", methods=["POST"])
 @require_api_key
 def upload_audio():
@@ -423,10 +559,6 @@ def upload_and_convert_video():
     if file.filename == "":
         return jsonify({"error": "Filename kosong"}), 400
 
-    ext = Path(file.filename).suffix.lower()
-    if ext not in VIDEO_EXTENSIONS:
-        return jsonify({"error": f"Format video tidak didukung: {ext}"}), 400
-
     filename = secure_filename(file.filename)
     
     target_path = request.form.get("path", "")
@@ -441,6 +573,27 @@ def upload_and_convert_video():
 
     target_dir.mkdir(parents=True, exist_ok=True)
     _ensure_media_dirs()
+
+    if ext in AUDIO_EXTENSIONS:
+        # File is already audio, save directly to target_dir without unnecessary ffmpeg conversion
+        save_path = _unique_path(target_dir, filename)
+        file.save(str(save_path))
+        info(f"🎵 Audio file saved directly: {save_path.name}")
+        return jsonify(
+            {
+                "status": "ok",
+                "media_type": "audio",
+                "source_deleted": False,
+                "source_filename": filename,
+                "filename": save_path.name,
+                "path": str(save_path.relative_to(BASE_DIR)),
+                "size": save_path.stat().st_size,
+                "message": "File audio langsung disimpan tanpa konversi",
+            }
+        )
+
+    if ext not in VIDEO_EXTENSIONS:
+        return jsonify({"error": f"Format video tidak didukung: {ext}"}), 400
     temp_video_path = _unique_path(VIDEO_UPLOAD_FOLDER, filename)
 
     try:
@@ -488,19 +641,48 @@ from summarytext import (
     extract_metadata,
     generate_summary,
     save_summary,
+    get_installed_ollama_models,
 )
+
+
+@app.route("/api/summary/models", methods=["GET"])
+@require_api_key
+def get_summary_models():
+    """Ambil daftar model Ollama lokal secara dinamis + model Cloud AI yang didukung"""
+    ollama_host = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
+    ollama_models = get_installed_ollama_models(ollama_host)
+
+    cloud_models = [
+        {"id": "gemini-2.0-flash", "name": "Google Gemini 2.0 Flash", "provider": "gemini", "badge": "Cepat & Gratis"},
+        {"id": "gemini-1.5-flash", "name": "Google Gemini 1.5 Flash", "provider": "gemini", "badge": "Rekomendasi"},
+        {"id": "gemini-1.5-pro", "name": "Google Gemini 1.5 Pro", "provider": "gemini", "badge": "Akurasi Tinggi"},
+        {"id": "claude-3-5-sonnet-20241022", "name": "Claude 3.5 Sonnet", "provider": "claude", "badge": "Kualitas Terbaik"},
+        {"id": "claude-3-5-haiku-20241022", "name": "Claude 3.5 Haiku", "provider": "claude", "badge": "Cepat & Ringan"},
+        {"id": "grok-2-latest", "name": "xAI Grok 2", "provider": "grok", "badge": "Reasoning Cerdas"},
+        {"id": "grok-beta", "name": "xAI Grok Beta", "provider": "grok", "badge": "Cepat"},
+        {"id": "gpt-4o-mini", "name": "OpenAI GPT-4o Mini", "provider": "openai", "badge": "Hemat"},
+        {"id": "gpt-4o", "name": "OpenAI GPT-4o", "provider": "openai", "badge": "Flagship"},
+    ]
+
+    return jsonify({
+        "ollama_online": len(ollama_models) > 0,
+        "ollama_models": ollama_models,
+        "cloud_models": cloud_models
+    })
 
 
 @app.route("/api/summary", methods=["POST"])
 @require_api_key
 def start_summary():
-    """mulai membuat summary (ringkasan) via Ollama"""
+    """Mulai membuat summary via Ollama lokal atau Cloud AI"""
     data = request.get_json()
     if not data:
         return jsonify({"error": "Body JSON required"}), 400
 
     txt_file = data.get("txt_file")  # contoh: output/single/file.txt
     model_name = data.get("model", "qwen3:8b")
+    provider = data.get("provider", "auto")
+    api_key = data.get("api_key") or request.headers.get("X-AI-Key")
 
     if not txt_file:
         return jsonify({"error": "txt_file required"}), 400
@@ -513,7 +695,7 @@ def start_summary():
     job_id = str(uuid.uuid4())[:8]
     db.create_job(job_id, "summary", txt_file, "auto", False, "id")
 
-    def _run_summary(j_id, t_path, m_name):
+    def _run_summary(j_id, t_path, m_name, prov, key):
         try:
             _update_job_status(j_id, "generating_summary", progress=10)
 
@@ -523,24 +705,32 @@ def start_summary():
             metadata = extract_metadata(raw_text)
             cleaned_text = clean_transcript(raw_text)
 
-            _update_job_status(j_id, "waiting_ollama", progress=30)
+            status_label = "waiting_ollama" if prov in ("ollama", "auto") and "gemini" not in m_name and "grok" not in m_name and "gpt" not in m_name else "waiting_cloud_ai"
+            _update_job_status(j_id, status_label, progress=30)
 
             summary = generate_summary(
-                cleaned_text, m_name, language=metadata.get("language", "id")
+                cleaned_text,
+                m_name,
+                language=metadata.get("language", "id"),
+                provider=prov,
+                api_key=key,
             )
 
             _update_job_status(j_id, "saving", progress=90)
 
-            save_summary(t_path, summary, m_name)
+            saved_path = save_summary(t_path, summary, m_name)
+            output_rel = str(saved_path.relative_to(BASE_DIR)) if saved_path else None
 
-            _update_job_status(j_id, "completed", progress=100)
+            _update_job_status(j_id, "completed", progress=100, output_file=output_rel)
 
         except Exception as e:
             print(f"Error summary {j_id}: {e}")
             _update_job_status(j_id, "failed", error=str(e))
 
     thread = threading.Thread(
-        target=_run_summary, args=(job_id, txt_path, model_name), daemon=True
+        target=_run_summary,
+        args=(job_id, txt_path, model_name, provider, api_key),
+        daemon=True,
     )
     thread.start()
 
@@ -558,18 +748,42 @@ def start_transcribe():
     if not data:
         return jsonify({"error": "Body JSON required"}), 400
 
-    audio_files = data.get("audio_files")
-    if not audio_files:
-        audio_file = data.get("audio_file")  # backward compatibility
-        if audio_file:
-            audio_files = [audio_file]
+    audio_files = data.get("audio_files") or []
+    if isinstance(audio_files, str):
+        audio_files = [audio_files]
+
+    audio_file = data.get("audio_file")  # backward compatibility
+    if audio_file and audio_file not in audio_files:
+        audio_files.append(audio_file)
+
+    # Support folder_paths to transcribe whole folders recursively
+    folder_paths = data.get("folder_paths") or []
+    if isinstance(folder_paths, str):
+        folder_paths = [folder_paths]
+
+    for fld in folder_paths:
+        fld_str = str(fld).strip()
+        if not fld_str:
+            continue
+        if fld_str.startswith("audio/") or fld_str.startswith("audio\\"):
+            f_dir = (BASE_DIR / fld_str).resolve()
+        else:
+            f_dir = (AUDIO_FOLDER / fld_str).resolve()
+
+        if f_dir.exists() and f_dir.is_dir():
+            for af in sorted(f_dir.rglob("*")):
+                if af.is_file() and af.suffix.lower() in AUDIO_EXTENSIONS:
+                    rel_p = str(af.relative_to(BASE_DIR)).replace('\\', '/')
+                    if rel_p not in audio_files:
+                        audio_files.append(rel_p)
 
     if not audio_files or not isinstance(audio_files, list):
-        return jsonify({"error": "audio_files (list of paths) required"}), 400
+        return jsonify({"error": "Tidak ada file audio yang ditemukan untuk ditranskripsikan"}), 400
 
     language = data.get("language", "auto")
     do_translate = data.get("translate", False)
     target_lang = data.get("target_lang", "id")
+    beam_size = int(data.get("beam_size", 2))
 
     job_ids = []
     valid_files = []
@@ -587,7 +801,15 @@ def start_transcribe():
     # jalankan di background secara sekuensial agar tidak OOM VRAM GPU
     def process_batch():
         for j_id, a_path in valid_files:
-            _run_transcribe(j_id, a_path, language, do_translate, target_lang)
+            if any(_cancel_flags.get(id_) for id_ in job_ids):
+                for id_ in job_ids:
+                    _update_job_status(id_, "cancelled", progress=0)
+                break
+            _run_transcribe(j_id, a_path, language, do_translate, target_lang, beam_size=beam_size)
+            if _cancel_flags.get(j_id) or any(_cancel_flags.get(id_) for id_ in job_ids):
+                for id_ in job_ids:
+                    _update_job_status(id_, "cancelled", progress=0)
+                break
 
     thread = threading.Thread(target=process_batch, daemon=True)
     thread.start()
@@ -618,11 +840,19 @@ def _update_job_status(job_id, status, progress=None, error=None, output_file=No
         if output_file is not None:
             _jobs_cache[job_id]["output_file"] = output_file
 
-    # Sync to DB
-    db.update_job(job_id, status=status, progress=progress, error=error, output_file=output_file)
+    # Sync to DB without sending None for fields that should be preserved
+    update_data = {"status": status}
+    if progress is not None:
+        update_data["progress"] = progress
+    if error is not None:
+        update_data["error"] = error
+    if output_file is not None:
+        update_data["output_file"] = output_file
+
+    db.update_job(job_id, **update_data)
 
 
-def _run_transcribe(job_id, audio_path, language, do_translate, target_lang):
+def _run_transcribe(job_id, audio_path, language, do_translate, target_lang, beam_size=2):
     """background task untuk transcribe — real-time progress via callback + in-memory cache"""
     try:
         _update_job_status(job_id, "loading_model", progress=1)
@@ -654,6 +884,9 @@ def _run_transcribe(job_id, audio_path, language, do_translate, target_lang):
         from core.transcription import process_file
         last_update = 0
 
+        def is_cancelled():
+            return _cancel_flags.get(job_id, False)
+
         def progress_callback(pct):
             nonlocal last_update
             if pct - last_update > 2 or pct >= 100:
@@ -661,14 +894,15 @@ def _run_transcribe(job_id, audio_path, language, do_translate, target_lang):
                 prog = PROGRESS_TRANSCRIBING_MIN + (pct / 100) * (PROGRESS_TRANSCRIBING_MAX - PROGRESS_TRANSCRIBING_MIN)
                 _update_job_status(job_id, "transcribing", progress=min(prog, PROGRESS_MAX))
             
-            if _cancel_flags.get(job_id):
+            if is_cancelled():
                 raise InterruptedError("Cancelled")
 
         try:
             result, out_path = process_file(
                 model=model, audio_file=audio_path, output_folder=output_dir,
                 language=language, do_translate=do_translate, target_lang=target_lang,
-                progress_callback=progress_callback
+                progress_callback=progress_callback, beam_size=beam_size,
+                is_cancelled=is_cancelled
             )
         except InterruptedError:
             _update_job_status(job_id, "cancelled", progress=0)
@@ -681,12 +915,22 @@ def _run_transcribe(job_id, audio_path, language, do_translate, target_lang):
 
         # Update duration in DB
         job_data = db.get_job(job_id)
-        duration = (datetime.now() - datetime.fromisoformat(job_data["created_at"])).total_seconds()
-        db.update_job(job_id, status="completed", duration_seconds=duration)
+        if job_data and job_data.get("created_at"):
+            try:
+                duration = (datetime.now() - datetime.fromisoformat(job_data["created_at"])).total_seconds()
+                db.update_job(job_id, status="completed", duration_seconds=duration)
+            except Exception:
+                pass
 
+        meta = {}
+        if result and isinstance(result, dict):
+            meta = {
+                "detected_lang": result.get("language", language),
+                "probability": result.get("language_probability", 1.0)
+            }
         db.add_history(
             job_id, "transcribe", audio_path.name, output_rel, language, "completed",
-            metadata={"detected_lang": result["language"], "probability": result["language_probability"]}
+            metadata=meta
         )
         info(f"✅ Job {job_id} selesai: {out_path.name}")
 
@@ -744,13 +988,10 @@ def transcribe_stream(job_id):
 @require_api_key
 def cancel_transcribe(job_id):
     """batalkan transcribe yang sedang berjalan"""
-    job = db.get_job(job_id)
-    if not job:
-        return jsonify({"error": "Job tidak ditemukan"}), 404
-    if job["status"] in ("completed", "error", "cancelled"):
-        return jsonify({"error": "Job sudah selesai"}), 400
     _cancel_flags[job_id] = True
-    return jsonify({"status": "cancelling", "job_id": job_id})
+    _update_job_status(job_id, "cancelled", progress=0)
+    info(f"🛑 Job {job_id} requested cancellation - stopped immediately.")
+    return jsonify({"status": "cancelled", "job_id": job_id})
 
 
 # ============================================================
@@ -849,6 +1090,8 @@ def list_summaries():
 def get_transcript(filepath):
     """baca isi file transcript"""
     full_path = BASE_DIR / filepath
+    if not _is_safe_path(full_path):
+        return jsonify({"error": "Akses path tidak diizinkan"}), 403
     if not full_path.exists() or not full_path.is_file():
         return jsonify({"error": "File tidak ditemukan"}), 404
 
@@ -871,6 +1114,8 @@ def get_transcript(filepath):
 def update_transcript(filepath):
     """edit/update isi transcript"""
     full_path = BASE_DIR / filepath
+    if not _is_safe_path(full_path):
+        return jsonify({"error": "Akses path tidak diizinkan"}), 403
     if not full_path.exists():
         return jsonify({"error": "File tidak ditemukan"}), 404
 
@@ -904,6 +1149,8 @@ def convert_to_pdf():
         return jsonify({"error": "filepath required"}), 400
 
     full_path = BASE_DIR / filepath
+    if not _is_safe_path(full_path):
+        return jsonify({"error": "Akses path tidak diizinkan"}), 403
     if not full_path.exists():
         return jsonify({"error": "File tidak ditemukan"}), 404
 
@@ -942,6 +1189,8 @@ def convert_to_pdf():
 def download_file(filepath):
     """download file (TXT/PDF) ke HP"""
     full_path = BASE_DIR / filepath
+    if not _is_safe_path(full_path):
+        return jsonify({"error": "Akses path tidak diizinkan"}), 403
     if not full_path.exists() or not full_path.is_file():
         return jsonify({"error": "File tidak ditemukan"}), 404
 
@@ -1042,7 +1291,7 @@ def browse_files():
             info["file_count"] = sum(1 for _ in item.rglob("*") if _.is_file())
         items.append(info)
 
-    return jsonify({"items": items, "current": folder})
+    return jsonify({"items": items, "current": folder, "current_path": folder})
 
 
 # ============================================================
@@ -1059,7 +1308,8 @@ if __name__ == "__main__":
     (BASE_DIR / "server").mkdir(parents=True, exist_ok=True)
 
     # inisialisasi database
-    db.get_db().close()
+    conn = db.get_db()
+    db.return_db(conn)
     print("✅ Database ready")
 
     # tampilkan IP address

@@ -23,25 +23,33 @@ class ConnectionService extends ChangeNotifier {
     );
   }
 
+  bool _disposed = false;
+
   Future<void> checkConnection() async {
+    if (_disposed) return;
     _isChecking = true;
     notifyListeners();
 
     try {
       final result = await ApiService.healthCheck();
+      if (_disposed) return;
       _isConnected = result['status'] == 'ok';
       _serverTime = result['timestamp'];
     } catch (e) {
+      if (_disposed) return;
       _isConnected = false;
       _serverTime = null;
     }
 
-    _isChecking = false;
-    notifyListeners();
+    if (!_disposed) {
+      _isChecking = false;
+      notifyListeners();
+    }
   }
 
   @override
   void dispose() {
+    _disposed = true;
     _timer?.cancel();
     super.dispose();
   }

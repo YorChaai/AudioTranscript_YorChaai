@@ -1,4 +1,7 @@
+import 'dart:io';
 import 'package:flutter/material.dart';
+import 'package:path_provider/path_provider.dart';
+import 'package:open_file/open_file.dart';
 import '../config/theme.dart';
 import '../services/api_service.dart';
 import '../widgets/responsive_layout.dart';
@@ -109,11 +112,19 @@ class _FileBrowserScreenState extends State<FileBrowserScreen> {
   Future<void> _downloadFile(String path) async {
     try {
       final bytes = await ApiService.downloadFile(path);
-      final filename = path.split('/').last;
+      final filename = path.replaceAll('\\', '/').split('/').last;
+      final dir = await getApplicationDocumentsDirectory();
+      final file = File('${dir.path}/$filename');
+      await file.writeAsBytes(bytes);
+
+      final openResult = await OpenFile.open(file.path);
+
       if (mounted) {
         UiUtils.showSnackBar(
           context,
-          '📥 Downloaded: $filename (${UiUtils.formatSize(bytes.length)})',
+          openResult.type == ResultType.done
+              ? '✅ File dibuka: $filename'
+              : '📥 Downloaded: $filename (${UiUtils.formatSize(bytes.length)})',
         );
       }
     } catch (e) {
@@ -127,8 +138,11 @@ class _FileBrowserScreenState extends State<FileBrowserScreen> {
   Widget build(BuildContext context) {
     final isWide = Responsive.isWide(context);
 
-    return SafeArea(
-      child: isWide ? _buildDesktopLayout() : _buildMobileLayout(),
+    return Scaffold(
+      backgroundColor: Colors.transparent,
+      body: SafeArea(
+        child: isWide ? _buildDesktopLayout() : _buildMobileLayout(),
+      ),
     );
   }
 

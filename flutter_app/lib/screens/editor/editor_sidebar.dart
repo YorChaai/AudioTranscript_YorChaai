@@ -258,84 +258,89 @@ class EditorSidebar extends StatelessWidget {
   }
 
   Widget _buildFolderTile(Map<String, dynamic> folder, EditorProvider prov) {
-    return ListTile(
-      contentPadding: const EdgeInsets.symmetric(horizontal: AppConstants.paddingMedium, vertical: 4),
-      leading: Container(
-        width: 36,
-        height: 36,
-        decoration: BoxDecoration(
-          color: AppTheme.browserColor.withOpacity(0.15),
-          borderRadius: BorderRadius.circular(8),
+    return Material(
+      color: Colors.transparent,
+      child: ListTile(
+        contentPadding: const EdgeInsets.symmetric(horizontal: AppConstants.paddingMedium, vertical: 4),
+        leading: Container(
+          width: 36,
+          height: 36,
+          decoration: BoxDecoration(
+            color: AppTheme.browserColor.withOpacity(0.15),
+            borderRadius: BorderRadius.circular(8),
+          ),
+          child: const Icon(
+            Icons.folder_rounded,
+            size: 18,
+            color: AppTheme.browserColor,
+          ),
         ),
-        child: const Icon(
-          Icons.folder_rounded,
-          size: 18,
-          color: AppTheme.browserColor,
+        title: Text(
+          folder['name'] ?? 'Folder',
+          style: const TextStyle(
+            fontSize: 13,
+            fontWeight: FontWeight.w500,
+            color: AppTheme.textPrimary,
+          ),
+          maxLines: 1,
+          overflow: TextOverflow.ellipsis,
         ),
+        subtitle: Text(
+          '${folder['file_count'] ?? 0} files',
+          style: const TextStyle(
+            fontSize: 11,
+            color: AppTheme.textMuted,
+          ),
+        ),
+        onTap: () => prov.navigateTo(folder['path']),
       ),
-      title: Text(
-        folder['name'] ?? 'Folder',
-        style: const TextStyle(
-          fontSize: 13,
-          fontWeight: FontWeight.w500,
-          color: AppTheme.textPrimary,
-        ),
-        maxLines: 1,
-        overflow: TextOverflow.ellipsis,
-      ),
-      subtitle: Text(
-        '${folder['file_count'] ?? 0} files',
-        style: const TextStyle(
-          fontSize: 11,
-          color: AppTheme.textMuted,
-        ),
-      ),
-      onTap: () => prov.navigateTo(folder['path']),
     );
   }
 
   Widget _buildFileTile(Map<String, dynamic> fileData) {
     final file = fileData['path'] as String;
     final isSelected = file == selectedFile;
-    final labelStr = fileData['label'] ?? 'single';
+    final normalizedPath = file.replaceAll('\\', '/');
+    final parts = normalizedPath.split('/');
+    final labelStr = fileData['label'] ?? (parts.length > 2 ? parts[parts.length - 2] : 'transcript');
     final sizeStr = UiUtils.formatSize(fileData['size'] as int? ?? 0);
 
-    return ListTile(
-      contentPadding: const EdgeInsets.symmetric(horizontal: AppConstants.paddingMedium, vertical: 4),
-      leading: Container(
-        width: 36,
-        height: 36,
-        decoration: BoxDecoration(
-          color: (isSelected ? AppTheme.editorColor : AppTheme.textMuted).withOpacity(0.15),
-          borderRadius: BorderRadius.circular(8),
+    return Material(
+      color: Colors.transparent,
+      child: ListTile(
+        contentPadding: const EdgeInsets.symmetric(horizontal: AppConstants.paddingMedium, vertical: 4),
+        leading: Container(
+          width: 36,
+          height: 36,
+          decoration: BoxDecoration(
+            color: (isSelected ? AppTheme.editorColor : AppTheme.textMuted).withOpacity(0.15),
+            borderRadius: BorderRadius.circular(8),
+          ),
+          child: Icon(
+            Icons.description_rounded,
+            size: 18,
+            color: isSelected ? AppTheme.editorColor : AppTheme.textMuted,
+          ),
         ),
-        child: Icon(
-          Icons.description_rounded,
-          size: 18,
-          color: isSelected ? AppTheme.editorColor : AppTheme.textMuted,
+        title: Text(
+          parts.last,
+          style: TextStyle(
+            fontSize: 13,
+            fontWeight: isSelected ? FontWeight.w600 : FontWeight.w500,
+            color: isSelected ? AppTheme.editorColor : AppTheme.textPrimary,
+          ),
+          maxLines: 1,
+          overflow: TextOverflow.ellipsis,
         ),
+        subtitle: Text(
+          '$labelStr · $sizeStr',
+          style: const TextStyle(fontSize: 11, color: AppTheme.textMuted),
+        ),
+        selected: isSelected,
+        selectedTileColor: AppTheme.editorColor.withOpacity(0.05),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+        onTap: () => onFileSelected(file),
       ),
-      title: Text(
-        fileData['name'] as String,
-        style: TextStyle(
-          fontSize: 13,
-          fontWeight: isSelected ? FontWeight.w600 : FontWeight.w500,
-          color: isSelected ? AppTheme.editorColor : AppTheme.textPrimary,
-        ),
-        maxLines: 1,
-        overflow: TextOverflow.ellipsis,
-      ),
-      subtitle: Text(
-        '$labelStr · $sizeStr',
-        style: const TextStyle(
-          fontSize: 11,
-          color: AppTheme.textMuted,
-        ),
-      ),
-      selected: isSelected,
-      selectedTileColor: AppTheme.editorColor.withOpacity(0.05),
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
-      onTap: () => onFileSelected(file),
     );
   }
 }

@@ -41,7 +41,6 @@ class _ToolCardState extends State<ToolCard> {
     final titleFontSize = isVeryCompact ? 13.0 : 15.0;
     final descFontSize = isVeryCompact ? 11.0 : 12.0;
     final spacingSmall = isVeryCompact ? 8.0 : 12.0;
-    final titleLines = isVeryCompact ? 1 : 2;
     final descLines = isVeryCompact ? 2 : 3;
 
     final isInteractive = _isHovered || _isPressed;
@@ -96,52 +95,62 @@ class _ToolCardState extends State<ToolCard> {
                 ),
                 child: LayoutBuilder(
                   builder: (context, constraints) {
-                    final narrowCard = constraints.maxWidth < 170;
+                    final maxH = constraints.maxHeight;
+                    final maxW = constraints.maxWidth;
+                    final isShort = maxH < 125;
+                    final isVeryShort = maxH < 95;
+                    final narrowCard = maxW < 160;
+
+                    final effectiveIconBoxSize = isVeryShort ? 28.0 : (isShort ? 34.0 : iconBoxSize);
+                    final effectiveIconSize = isVeryShort ? 15.0 : (isShort ? 18.0 : iconSize);
+                    final effectiveSpacing = isVeryShort ? 4.0 : (isShort ? 6.0 : spacingSmall);
 
                     return Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         Container(
-                          width: iconBoxSize,
-                          height: iconBoxSize,
+                          width: effectiveIconBoxSize,
+                          height: effectiveIconBoxSize,
                           decoration: BoxDecoration(
                             color: widget.color.withOpacity(0.14),
                             borderRadius: BorderRadius.circular(
-                              isVeryCompact ? 10 : 12,
+                              isVeryShort ? 6 : (isShort ? 8 : (isVeryCompact ? 10 : 12)),
                             ),
                           ),
                           child: Icon(
                             widget.icon,
                             color: widget.color,
-                            size: iconSize,
+                            size: effectiveIconSize,
                           ),
                         ),
-                        SizedBox(height: spacingSmall),
+                        SizedBox(height: effectiveSpacing),
                         Text(
                           widget.title,
-                          maxLines: titleLines,
+                          maxLines: 1,
                           overflow: TextOverflow.ellipsis,
                           style: TextStyle(
-                            fontSize: titleFontSize,
+                            fontSize: isShort ? (titleFontSize - 1).clamp(11.0, 16.0) : titleFontSize,
                             fontWeight: FontWeight.w700,
                             height: 1.2,
                             color: AppTheme.textPrimary,
                           ),
                         ),
-                        const SizedBox(height: 4),
-                        Flexible(
-                          child: Text(
-                            widget.description,
-                            maxLines: narrowCard ? 2 : descLines,
-                            overflow: TextOverflow.ellipsis,
-                            style: TextStyle(
-                              fontSize: descFontSize,
-                              height: 1.35,
-                              color: AppTheme.textSecondary,
+                        if (!isVeryShort) ...[
+                          const SizedBox(height: 2),
+                          Expanded(
+                            child: Text(
+                              widget.description,
+                              maxLines: isShort ? 1 : (narrowCard ? 2 : descLines),
+                              overflow: TextOverflow.ellipsis,
+                              style: TextStyle(
+                                fontSize: isShort ? (descFontSize - 1).clamp(10.0, 14.0) : descFontSize,
+                                height: 1.25,
+                                color: AppTheme.textSecondary,
+                              ),
                             ),
                           ),
-                        ),
+                        ],
                       ],
                     );
                   },

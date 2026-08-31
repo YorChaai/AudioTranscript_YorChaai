@@ -48,7 +48,7 @@ class SummaryProvider extends ChangeNotifier {
 
     try {
       final result = await _repository.startSummary(txtFile: txtFile, model: model);
-      return result['summary'] as String;
+      return (result['job_id'] ?? result['summary'])?.toString();
     } catch (e) {
       _errorMessage = e.toString();
       return null;

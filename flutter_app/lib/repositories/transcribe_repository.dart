@@ -21,21 +21,33 @@ class TranscribeRepository {
     return await ApiService.createFolder(name, path: path);
   }
 
+  Future<Map<String, dynamic>> renameMedia(String path, String newName) async {
+    return await ApiService.renameMedia(path, newName);
+  }
+
+  Future<Map<String, dynamic>> deleteMedia({List<String>? files, List<String>? folders}) async {
+    return await ApiService.deleteMedia(files: files, folders: folders);
+  }
+
   Future<Map<String, dynamic>> moveFiles(List<String> files, String targetPath) async {
     return await ApiService.moveFiles(files, targetPath);
   }
 
   Future<Map<String, dynamic>> startTranscribe({
     required List<String> files,
+    List<String>? folderPaths,
     required String language,
     required bool doTranslate,
     required String targetLang,
+    int beamSize = 2,
   }) async {
     return await ApiService.startTranscribe(
       audioFiles: files,
+      folderPaths: folderPaths,
       language: language,
       translate: doTranslate,
       targetLang: targetLang,
+      beamSize: beamSize,
     );
   }
 

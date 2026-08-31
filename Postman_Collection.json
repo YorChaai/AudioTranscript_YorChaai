@@ -1,0 +1,376 @@
+{
+  "info": {
+    "name": "Audio Convert API Server",
+    "description": "Koleksi Postman untuk menguji Audio Convert API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:5000",
+      "type": "string"
+    },
+    {
+      "key": "api_key",
+      "value": "YORCHAAI_SECRET_KEY",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/health",
+          "host": ["{{base_url}}"],
+          "path": ["api", "health"]
+        }
+      }
+    },
+    {
+      "name": "Audio Files",
+      "item": [
+        {
+          "name": "List Audio Files",
+          "request": {
+            "method": "GET",
+            "header": [
+              {"key": "X-Api-Key", "value": "{{api_key}}", "type": "text"}
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/audio/list?path=",
+              "host": ["{{base_url}}"],
+              "path": ["api", "audio", "list"],
+              "query": [
+                {"key": "path", "value": ""}
+              ]
+            }
+          }
+        },
+        {
+          "name": "Create Folder",
+          "request": {
+            "method": "POST",
+            "header": [
+              {"key": "X-Api-Key", "value": "{{api_key}}", "type": "text"},
+              {"key": "Content-Type", "value": "application/json"}
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"name\": \"playlist1\",\n    \"path\": \"\"\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/api/folder/create",
+              "host": ["{{base_url}}"],
+              "path": ["api", "folder", "create"]
+            }
+          }
+        },
+        {
+          "name": "Move File",
+          "request": {
+            "method": "POST",
+            "header": [
+              {"key": "X-Api-Key", "value": "{{api_key}}", "type": "text"},
+              {"key": "Content-Type", "value": "application/json"}
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"files\": [\"test.mp3\"],\n    \"targetPath\": \"playlist1\"\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/api/file/move",
+              "host": ["{{base_url}}"],
+              "path": ["api", "file", "move"]
+            }
+          }
+        },
+        {
+          "name": "Upload Audio",
+          "request": {
+            "method": "POST",
+            "header": [
+              {"key": "X-Api-Key", "value": "{{api_key}}", "type": "text"}
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {"key": "file", "type": "file", "src": []},
+                {"key": "path", "value": "", "type": "text"}
+              ]
+            },
+            "url": {
+              "raw": "{{base_url}}/api/audio/upload",
+              "host": ["{{base_url}}"],
+              "path": ["api", "audio", "upload"]
+            }
+          }
+        },
+        {
+          "name": "Upload & Convert Video",
+          "request": {
+            "method": "POST",
+            "header": [
+              {"key": "X-Api-Key", "value": "{{api_key}}", "type": "text"}
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {"key": "file", "type": "file", "src": []},
+                {"key": "path", "value": "", "type": "text"}
+              ]
+            },
+            "url": {
+              "raw": "{{base_url}}/api/video/upload-convert",
+              "host": ["{{base_url}}"],
+              "path": ["api", "video", "upload-convert"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Transcribe & Summary",
+      "item": [
+        {
+          "name": "Start Transcribe",
+          "request": {
+            "method": "POST",
+            "header": [
+              {"key": "X-Api-Key", "value": "{{api_key}}", "type": "text"},
+              {"key": "Content-Type", "value": "application/json"}
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"audio_files\": [\"test.mp3\"],\n    \"language\": \"auto\",\n    \"translate\": false,\n    \"target_lang\": \"id\"\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/api/transcribe",
+              "host": ["{{base_url}}"],
+              "path": ["api", "transcribe"]
+            }
+          }
+        },
+        {
+          "name": "Transcribe Status",
+          "request": {
+            "method": "GET",
+            "header": [
+              {"key": "X-Api-Key", "value": "{{api_key}}", "type": "text"}
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/transcribe/status/:job_id",
+              "host": ["{{base_url}}"],
+              "path": ["api", "transcribe", "status", ":job_id"],
+              "variable": [{"key": "job_id", "value": "12345678"}]
+            }
+          }
+        },
+        {
+          "name": "Cancel Transcribe",
+          "request": {
+            "method": "POST",
+            "header": [
+              {"key": "X-Api-Key", "value": "{{api_key}}", "type": "text"}
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/transcribe/cancel/:job_id",
+              "host": ["{{base_url}}"],
+              "path": ["api", "transcribe", "cancel", ":job_id"],
+              "variable": [{"key": "job_id", "value": "12345678"}]
+            }
+          }
+        },
+        {
+          "name": "Start Summary",
+          "request": {
+            "method": "POST",
+            "header": [
+              {"key": "X-Api-Key", "value": "{{api_key}}", "type": "text"},
+              {"key": "Content-Type", "value": "application/json"}
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"txt_file\": \"output/single/test.txt\",\n    \"model\": \"qwen3:8b\"\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/api/summary",
+              "host": ["{{base_url}}"],
+              "path": ["api", "summary"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Files & PDF",
+      "item": [
+        {
+          "name": "List Transcripts",
+          "request": {
+            "method": "GET",
+            "header": [
+              {"key": "X-Api-Key", "value": "{{api_key}}", "type": "text"}
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/transcript/list?path=",
+              "host": ["{{base_url}}"],
+              "path": ["api", "transcript", "list"],
+              "query": [{"key": "path", "value": ""}]
+            }
+          }
+        },
+        {
+          "name": "Get Transcript",
+          "request": {
+            "method": "GET",
+            "header": [
+              {"key": "X-Api-Key", "value": "{{api_key}}", "type": "text"}
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/transcript/:filepath",
+              "host": ["{{base_url}}"],
+              "path": ["api", "transcript", ":filepath"],
+              "variable": [{"key": "filepath", "value": "output/single/test.txt"}]
+            }
+          }
+        },
+        {
+          "name": "Update Transcript",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {"key": "X-Api-Key", "value": "{{api_key}}", "type": "text"},
+              {"key": "Content-Type", "value": "application/json"}
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"content\": \"Update isi file transcript baru...\"\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/api/transcript/:filepath",
+              "host": ["{{base_url}}"],
+              "path": ["api", "transcript", ":filepath"],
+              "variable": [{"key": "filepath", "value": "output/single/test.txt"}]
+            }
+          }
+        },
+        {
+          "name": "List Summaries",
+          "request": {
+            "method": "GET",
+            "header": [
+              {"key": "X-Api-Key", "value": "{{api_key}}", "type": "text"}
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/summary/list?path=",
+              "host": ["{{base_url}}"],
+              "path": ["api", "summary", "list"],
+              "query": [{"key": "path", "value": ""}]
+            }
+          }
+        },
+        {
+          "name": "Convert to PDF",
+          "request": {
+            "method": "POST",
+            "header": [
+              {"key": "X-Api-Key", "value": "{{api_key}}", "type": "text"},
+              {"key": "Content-Type", "value": "application/json"}
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"filepath\": \"output/single/test.txt\"\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/api/convert-pdf",
+              "host": ["{{base_url}}"],
+              "path": ["api", "convert-pdf"]
+            }
+          }
+        },
+        {
+          "name": "Download File",
+          "request": {
+            "method": "GET",
+            "header": [
+              {"key": "X-Api-Key", "value": "{{api_key}}", "type": "text"}
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/download/:filepath",
+              "host": ["{{base_url}}"],
+              "path": ["api", "download", ":filepath"],
+              "variable": [{"key": "filepath", "value": "output/single/test.txt"}]
+            }
+          }
+        },
+        {
+          "name": "List PDFs",
+          "request": {
+            "method": "GET",
+            "header": [
+              {"key": "X-Api-Key", "value": "{{api_key}}", "type": "text"}
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/pdf/list?path=",
+              "host": ["{{base_url}}"],
+              "path": ["api", "pdf", "list"],
+              "query": [{"key": "path", "value": ""}]
+            }
+          }
+        },
+        {
+          "name": "Merge PDFs",
+          "request": {
+            "method": "POST",
+            "header": [
+              {"key": "X-Api-Key", "value": "{{api_key}}", "type": "text"}
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/pdf/merge",
+              "host": ["{{base_url}}"],
+              "path": ["api", "pdf", "merge"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Misc",
+      "item": [
+        {
+          "name": "Get History",
+          "request": {
+            "method": "GET",
+            "header": [
+              {"key": "X-Api-Key", "value": "{{api_key}}", "type": "text"}
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/history?limit=50",
+              "host": ["{{base_url}}"],
+              "path": ["api", "history"],
+              "query": [{"key": "limit", "value": "50"}]
+            }
+          }
+        },
+        {
+          "name": "Browse Files",
+          "request": {
+            "method": "GET",
+            "header": [
+              {"key": "X-Api-Key", "value": "{{api_key}}", "type": "text"}
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/files/browse?folder=",
+              "host": ["{{base_url}}"],
+              "path": ["api", "files", "browse"],
+              "query": [{"key": "folder", "value": ""}]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -67,7 +67,7 @@ def find_ffmpeg(base_dir: Path = None, verbose: bool = False) -> str:
         FileNotFoundError: If ffmpeg not found anywhere
     """
     if base_dir is None:
-        base_dir = Path(__file__).parent
+        base_dir = Path(__file__).parent.parent
 
     # Check environment variable first
     env_path = os.environ.get("FFMPEG_PATH")
@@ -87,11 +87,14 @@ def find_ffmpeg(base_dir: Path = None, verbose: bool = False) -> str:
         return ffmpeg_in_path
 
     # Local candidates
+    src_dir = Path(__file__).parent
     local_candidates = [
         base_dir / "ffmpeg.exe",
         base_dir / "bin" / "ffmpeg.exe",
         base_dir / "tools" / "ffmpeg.exe",
         base_dir / "tools" / "ffmpeg" / "bin" / "ffmpeg.exe",
+        src_dir / "ffmpeg.exe",
+        src_dir / "tools" / "ffmpeg.exe",
         Path(r"C:\ffmpeg\bin\ffmpeg.exe"),
         Path(r"C:\Program Files\ffmpeg\bin\ffmpeg.exe"),
         Path(r"C:\ffmpeg\ffmpeg.exe"),
@@ -253,6 +256,82 @@ def repair_audio_ffmpeg(audio_path: Path, base_dir: Path = None) -> Path:
     except Exception as e:
         print(f"   ❌ Error during repair: {e}")
         return None
+
+
+def is_file_fully_downloaded(path: Path) -> bool:
+    """Check if a file is fully downloaded from cloud storage (e.g. OneDrive)"""
+    try:
+        import ctypes
+        st = os.stat(path)
+        if st.st_size == 0:
+            return True
+            
+        # Ensure return type is unsigned to prevent negative sizes for files > 2GB
+        ctypes.windll.kernel32.GetCompressedFileSizeW.restype = ctypes.c_uint32
+        
+        high = ctypes.c_uint32(0)
+        low = ctypes.windll.kernel32.GetCompressedFileSizeW(str(path), ctypes.byref(high))
+        if low == 0xFFFFFFFF and ctypes.GetLastError() != 0:
+            return False # Error getting size on disk
+            
+        size_on_disk = (high.value << 32) + low
+        
+        # If size_on_disk is smaller than st_size, it's not fully downloaded
+        if size_on_disk < st.st_size:
+            return False
+            
+        return True
+    except Exception:
+        # Fallback if ctypes fails or not on Windows
+        return True
+
+def wait_for_downloads(files: List[Path], check_interval: int = 5):
+    """Wait for all files to be fully downloaded (size on disk == actual size)"""
+    import time
+    pending_files = [f for f in files if f.exists()]
+    if not pending_files:
+        return
+        
+    still_pending = [f for f in pending_files if not is_file_fully_downloaded(f)]
+    if not still_pending:
+        return # All downloaded
+        
+    print(f"\n⏳ Menunggu {len(still_pending)} file selesai didownload dari OneDrive/Cloud...")
+    print("   (Pastikan Anda membuka/mendownload file di File Explorer agar proses berjalan)")
+    
+    try:
+        while still_pending:
+            for f in still_pending[:]: # Iterate over a copy
+                if is_file_fully_downloaded(f):
+                    print(f"\n   ✅ Downloaded: {f.name}")
+                    still_pending.remove(f)
+            
+            if still_pending:
+                f = still_pending[0]
+                try:
+                    st = os.stat(f)
+                    import ctypes
+                    # Ensure return type is unsigned
+                    ctypes.windll.kernel32.GetCompressedFileSizeW.restype = ctypes.c_uint32
+                    
+                    high = ctypes.c_uint32(0)
+                    low = ctypes.windll.kernel32.GetCompressedFileSizeW(str(f), ctypes.byref(high))
+                    size_on_disk = (high.value << 32) + low
+                    mb_total = st.st_size / (1024*1024)
+                    mb_disk = size_on_disk / (1024*1024)
+                    
+                    # Prevent negative printing if there's still an edge case
+                    mb_disk = max(0.0, mb_disk)
+                    
+                    print(f"   🔄 Downloading '{f.name}'... ({mb_disk:.1f} MB / {mb_total:.1f} MB)   ", end='\r')
+                except:
+                    pass
+                    
+                time.sleep(check_interval)
+        print("\n✅ Semua file sudah berhasil didownload! Melanjutkan proses...        ")
+    except KeyboardInterrupt:
+        print("\n❌ Proses menunggu dibatalkan oleh user.")
+        raise
 
 
 def convert_video_to_mp3(

@@ -35,26 +35,38 @@ class ApiConfig {
   static String _host = _defaultHost;
   static int _port = _defaultPort;
 
-  static String get baseUrl {
-    if (_host.startsWith('http://') || _host.startsWith('https://')) {
-      // jika host sudah ada http/https, pakai langsung (abaikan port default jika tidak dipakaikan)
-      // tapi biasanya user paste 'https://blabla.trycloudflare.com' -> jadi 'https://blabla.trycloudflare.com/api'
-      if (_host.endsWith('/')) return '${_host}api';
-      return '$_host/api';
+  static String _cleanHost(String raw) {
+    var trimmed = raw.trim();
+    if (trimmed.endsWith('/')) {
+      trimmed = trimmed.substring(0, trimmed.length - 1);
     }
-    return 'http://$_host:$_port/api';
+    return trimmed;
+  }
+
+  static String get baseUrl {
+    final clean = _cleanHost(_host);
+    if (clean.startsWith('http://') || clean.startsWith('https://')) {
+      return '$clean/api';
+    }
+    if (clean.contains(':')) {
+      return 'http://$clean/api';
+    }
+    return 'http://$clean:$_port/api';
   }
 
   static String get serverUrl {
-    if (_host.startsWith('http://') || _host.startsWith('https://')) {
-      if (_host.endsWith('/')) return _host.substring(0, _host.length - 1);
-      return _host;
+    final clean = _cleanHost(_host);
+    if (clean.startsWith('http://') || clean.startsWith('https://')) {
+      return clean;
     }
-    return 'http://$_host:$_port';
+    if (clean.contains(':')) {
+      return 'http://$clean';
+    }
+    return 'http://$clean:$_port';
   }
 
   static void setServer(String host, {int port = 5000}) {
-    _host = host;
+    _host = _cleanHost(host);
     _port = port;
   }
 
@@ -81,4 +93,10 @@ class ApiConfig {
     if (kIsWeb) return false;
     return Platform.isAndroid || Platform.isIOS;
   }
+
+  // AI API Keys
+  static String geminiApiKey = '';
+  static String claudeApiKey = '';
+  static String grokApiKey = '';
+  static String openaiApiKey = '';
 }

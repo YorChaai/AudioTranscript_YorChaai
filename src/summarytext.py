@@ -9,17 +9,40 @@ from config import BASE_DIR, CONVERT_DIR, SUMMARY_DIR
 # Alias for backward compatibility in this script
 CONVERT_TXT_DIR = CONVERT_DIR
 
-# Available Models in Ollama
-MODELS = {
-    "1": {"name": "qwen2.5:72b", "display": "Qwen 2.5 72B (Raja - Akurasi Tertinggi)"},
-    "2": {"name": "qwen2.5:32b", "display": "Qwen 2.5 32B (Pintar & Cepat)"},
-    "3": {"name": "qwen3:30b", "display": "Qwen 3 30B (Terbaru & Cepat)"},
-    "4": {"name": "qwen3:8b", "display": "Qwen 3 8B (Ringan & Akurat - Rekomendasi)"},
-    "5": {"name": "qwen2.5:14b", "display": "Qwen 2.5 14B (Balance Terbaik - 32GB RAM)"},
-    "6": {"name": "qwen2.5:7b", "display": "Qwen 2.5 7B (Paling Ringan)"},
-    "7": {"name": "llama3.1:70b", "display": "Llama 3.1 70B (Raja Inggris)"},
-    "8": {"name": "gemma2:27b", "display": "Gemma 2 27B (Logika Google)"}
-}
+def get_installed_ollama_models(ollama_host=None):
+    """Ambil daftar model yang benar-benar terinstall di Ollama lokal secara dinamis."""
+    host = ollama_host or os.environ.get("OLLAMA_HOST", "http://localhost:11434")
+    tags_url = f"{host.rstrip('/')}/api/tags"
+    try:
+        resp = requests.get(tags_url, timeout=3)
+        if resp.status_code == 200:
+            data = resp.json()
+            models = []
+            for m in data.get("models", []):
+                name = m.get("name", "")
+                details = m.get("details", {})
+                param_size = details.get("parameter_size", "")
+                models.append({
+                    "name": name,
+                    "model": m.get("model", name),
+                    "size": m.get("size", 0),
+                    "parameter_size": param_size,
+                    "family": details.get("family", ""),
+                    "display": f"{name} ({param_size})" if param_size else name
+                })
+            return models
+    except Exception:
+        pass
+    return []
+
+# Fallback models jika Ollama offline / gagal query
+FALLBACK_OLLAMA_MODELS = [
+    {"name": "qwen2.5:72b", "display": "Qwen 2.5 72B"},
+    {"name": "qwen2.5:32b", "display": "Qwen 2.5 32B"},
+    {"name": "qwen3:30b", "display": "Qwen 3 30B"},
+    {"name": "qwen3:8b", "display": "Qwen 3 8B"},
+    {"name": "llama3.1:70b", "display": "Llama 3.1 70B"},
+]
 
 def get_txt_files():
     """Ambil semua file .txt dari folder output (single & multiple)"""
@@ -73,13 +96,32 @@ def select_files(files, mode="single"):
     return selected
 
 def select_model():
-    """Pilih model Ollama"""
+    """Pilih model Ollama secara dinamis dari model yang terinstall"""
+    installed = get_installed_ollama_models()
     print("\n🤖 Pilih Model Summary:")
-    for k, v in MODELS.items():
-        print(f"  [{k}] {v['display']}")
-
-    choice = input("\nPilih nomor (1-7, Default=1): ").strip() or "1"
-    return MODELS.get(choice, MODELS["1"])["name"]
+    
+    if installed:
+        for idx, m in enumerate(installed, 1):
+            print(f"  [{idx}] {m['display']}")
+        print(f"  [{len(installed) + 1}] Input nama model custom secara manual")
+        choice = input(f"\nPilih nomor (1-{len(installed) + 1}, Default=1): ").strip() or "1"
+        if choice.isdigit():
+            i = int(choice) - 1
+            if 0 <= i < len(installed):
+                return installed[i]["name"]
+            elif i == len(installed):
+                custom = input("Masukkan nama model Ollama: ").strip()
+                if custom:
+                    return custom
+        return installed[0]["name"]
+    else:
+        print("  ⚠️ Tidak dapat mendeteksi model Ollama lokal (Ollama offline). Menggunakan daftar template:")
+        for idx, m in enumerate(FALLBACK_OLLAMA_MODELS, 1):
+            print(f"  [{idx}] {m['display']}")
+        choice = input("\nPilih nomor (1-5, Default=1): ").strip() or "1"
+        if choice.isdigit() and 1 <= int(choice) <= len(FALLBACK_OLLAMA_MODELS):
+            return FALLBACK_OLLAMA_MODELS[int(choice) - 1]["name"]
+        return FALLBACK_OLLAMA_MODELS[0]["name"]
 
 def extract_metadata(text):
     """Ekstrak metadata dari header file transcript"""
@@ -100,35 +142,54 @@ def clean_transcript(text):
     """Bersihkan teks dari timestamps dan header agar model fokus pada konten"""
     lines = text.split("\n")
     cleaned_lines = []
-    in_timestamps = False
-
+    
+    # Deteksi jika ada separator header
+    start_reading = True
+    if any("=" * 10 in line for line in lines[:20]):
+        start_reading = False
+        
     for line in lines:
-        line = line.strip()
-        if not line: continue
-
-        # Skip header info
-        if any(line.startswith(h) for h in ["Source:", "Language Mode:", "Detected:", "Transcribed:", "====", "TIMESTAMPS:", "TRANSLATION:"]):
-            if line.startswith("TIMESTAMPS:"): in_timestamps = True
+        line_clean = line.strip()
+        
+        # Mulai baca setelah separator header
+        if not start_reading:
+            if "=" * 10 in line_clean:
+                start_reading = True
             continue
-
-        # Skip timestamp lines like [00:10 - 00:20]
-        if line.startswith("[") and " - " in line and "]" in line:
+            
+        # Skip baris kosong
+        if not line_clean:
             continue
-
-        if not in_timestamps:
-            cleaned_lines.append(line)
-
+            
+        # Skip timestamp lines (misal: [00:01.000 --> 00:04.000])
+        if "-->" in line_clean and "[" in line_clean and "]" in line_clean:
+            continue
+            
+        # Skip numeric index subtitle
+        if line_clean.isdigit():
+            continue
+            
+        cleaned_lines.append(line_clean)
+        
     return " ".join(cleaned_lines)
 
-def generate_summary(text, model_name, language="id"):
-    """Kirim teks ke Ollama API untuk diringkas dengan instruksi spesifik bahasa"""
-
-    # Fix M3: Configurable API URL dengan environment variable
-    ollama_url = os.environ.get("OLLAMA_URL", "http://localhost:11434/api/generate")
-
-    # Fix L4: Retry logic dengan exponential backoff
-    max_retries = 3
-    retry_delay = 2  # detik
+def generate_summary(text, model_name, language="id", provider="auto", api_key=None):
+    """
+    Kirim teks ke Ollama atau Cloud AI (Gemini, Grok, OpenAI) untuk diringkas.
+    """
+    # Detect provider if set to auto
+    m_lower = model_name.lower()
+    if provider == "auto":
+        if "gemini" in m_lower:
+            provider = "gemini"
+        elif "grok" in m_lower:
+            provider = "grok"
+        elif "gpt" in m_lower or "o1" in m_lower or "o3" in m_lower:
+            provider = "openai"
+        elif "claude" in m_lower:
+            provider = "claude"
+        else:
+            provider = "ollama"
 
     # Prompt logic based on detected language
     lang_info = "Bahasa Inggris" if language == "en" else "Bahasa Indonesia"
@@ -139,9 +200,8 @@ def generate_summary(text, model_name, language="id"):
     else:
         target_instruction = "Teks asli dalam Bahasa Indonesia. Buat ringkasan yang akurat."
 
-    print(f"   ⏳ Merangkas dengan {model_name}...")
-    prompt = f"""
-{target_instruction}
+    print(f"   ⏳ Merangkum dengan {model_name} (Provider: {provider.upper()})...")
+    prompt = f"""{target_instruction}
 
 BAHASA OUTPUT: WAJIB BAHASA INDONESIA. Meskipun transkripsi dalam Bahasa Inggris, output HARUS ditulis dalam Bahasa Indonesia yang natural dan profesional.
 
@@ -167,16 +227,6 @@ Bagian 2 - Isi Lengkap
 
 Kebiasaan Pertama adalah mengubah tujuan pertama saat sampai rumah. Pembicara menjelaskan bahwa masalah utamanya bukan malas, melainkan kebiasaan otomatis. Ketika pulang kerja, tubuh secara refleks langsung menuju sofa dan membuka handphone untuk cek email atau scrolling sosial media dengan alasan butuh hiburan. Kebiasaan ini bisa memakan waktu satu sampai dua jam tanpa terasa. Solusi yang ia terapkan adalah langsung pergi ke kamar mandi begitu sampai rumah untuk mandi, ganti baju, dan melakukan skincare.
 
-Kebiasaan Kedua adalah memprioritaskan satu hal yang ingin dilakukan malam itu. Pembicara menjelaskan bahwa jika malam tidak punya tujuan, malam akan mengikuti apa yang paling mudah dilakukan seperti kerja lagi atau scrolling sosial media. Makanya ia merencanakan satu hal kecil di pagi atau siang hari untuk dikerjakan malam itu di luar rutinitas biasa.
-
-Bagian 3 - Sumber yang Disebutkan
-
-Pembicara menyebutkan menggunakan device atau perangkat untuk melacak kualitas tidur yang bisa menampilkan data seperti durasi deep sleep, stress level, dan resting heart rate. Ia juga menyebutkan memiliki komunitas gratis dan template gratis untuk membantu membangun kebiasaan baru.
-
-Bagian 4 - Tips Praktis
-
-Tips pertama adalah mengubah tujuan pertama saat sampai rumah dengan langsung ke kamar mandi untuk mandi dan ganti baju, bukan ke sofa. Tips kedua untuk yang bekerja dari rumah adalah tutup laptop kantor lalu jalan kaki keluar rumah 20 sampai 30 menit dengan mindset bahwa setelah kembali sudah menjadi waktu pribadi.
-
 ---
 
 ```mermaid
@@ -188,15 +238,6 @@ mindmap
         Buka handphone dengan alasan butuh hiburan padahal bisa 1-2 jam
       Solusi: Langsung ke kamar mandi
         Mandi dan ganti baju membantu otak transisi dari kerja ke istirahat
-      Untuk Work From Home
-        Tutup laptop kantor sebagai tanda kerja selesai
-        Jalan kaki 20-30 menit keluar rumah untuk transisi mental
-    Kebiasaan 2: Prioritaskan Satu Hal
-      Tanpa tujuan malam akan ikut yang paling gampang
-        Scrolling atau kerja lagi jadi default
-      Rencanakan di pagi atau siang hari
-        Satu hal saja karena gampang dimulai
-        Contoh: belajar 20-30 menit, bantu anak belajar, telepon orang tua
 ```
 ---
 
@@ -207,39 +248,140 @@ TRANSKRIPSI:
 {text}
 """
 
-    # Fix L4: Retry logic
-    # Create payload for Ollama API
-    payload = {
-        "model": model_name,
-        "prompt": prompt,
-        "stream": False
-    }
-
-    for attempt in range(max_retries):
+    # --- 1. GOOGLE GEMINI ---
+    if provider == "gemini":
+        key = api_key or os.environ.get("GEMINI_API_KEY")
+        if not key:
+            raise ValueError("API Key Google Gemini belum diisi. Masukkan Gemini API Key Anda.")
+        
+        gemini_url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={key}"
+        payload = {
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {"temperature": 0.3}
+        }
+        res = requests.post(gemini_url, json=payload, timeout=120)
+        if res.status_code != 200:
+            err_msg = res.json().get("error", {}).get("message", res.text)
+            raise RuntimeError(f"Error Gemini API: {err_msg}")
+        data = res.json()
         try:
-            response = requests.post(ollama_url, json=payload, timeout=300)
-            response.raise_for_status()
-            return response.json().get("response", "Gagal menghasilkan ringkasan.")
-        except requests.exceptions.Timeout:
-            print(f"   ⚠️ Timeout (attempt {attempt + 1}/{max_retries})")
-            if attempt < max_retries - 1:
-                time.sleep(retry_delay * (attempt + 1))  # Exponential backoff
-        except requests.exceptions.ConnectionError:
-            print(f"   ⚠️ Connection error (attempt {attempt + 1}/{max_retries})")
-            if attempt < max_retries - 1:
-                time.sleep(retry_delay * (attempt + 1))
-        except Exception as e:
-            if attempt == max_retries - 1:
-                return f"❌ Error Ollama: {e}\n(Pastikan Ollama sudah jalan dan model sudah di-'pull')"
+            return data["candidates"][0]["content"]["parts"][0]["text"]
+        except Exception:
+            raise RuntimeError("Gemini mengembalikan struktur respons yang tidak valid.")
 
-    return "❌ Error: Max retries exceeded"
+    # --- 2. xAI GROK ---
+    elif provider == "grok":
+        key = api_key or os.environ.get("GROK_API_KEY")
+        if not key:
+            raise ValueError("API Key xAI Grok belum diisi. Masukkan Grok API Key Anda.")
+        
+        grok_url = "https://api.x.ai/v1/chat/completions"
+        headers = {"Authorization": f"Bearer {key}", "Content-Type": "application/json"}
+        payload = {
+            "model": model_name,
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": 0.3
+        }
+        res = requests.post(grok_url, json=payload, headers=headers, timeout=120)
+        if res.status_code != 200:
+            err_msg = res.json().get("error", {}).get("message", res.text)
+            raise RuntimeError(f"Error Grok API: {err_msg}")
+        return res.json()["choices"][0]["message"]["content"]
+
+    # --- 3. OPENAI GPT ---
+    elif provider == "openai":
+        key = api_key or os.environ.get("OPENAI_API_KEY")
+        if not key:
+            raise ValueError("API Key OpenAI belum diisi. Masukkan OpenAI API Key Anda.")
+        
+        openai_url = "https://api.openai.com/v1/chat/completions"
+        headers = {"Authorization": f"Bearer {key}", "Content-Type": "application/json"}
+        payload = {
+            "model": model_name,
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": 0.3
+        }
+        res = requests.post(openai_url, json=payload, headers=headers, timeout=120)
+        if res.status_code != 200:
+            err_msg = res.json().get("error", {}).get("message", res.text)
+            raise RuntimeError(f"Error OpenAI API: {err_msg}")
+        return res.json()["choices"][0]["message"]["content"]
+
+    # --- 4. ANTHROPIC CLAUDE ---
+    elif provider == "claude":
+        key = api_key or os.environ.get("CLAUDE_API_KEY") or os.environ.get("ANTHROPIC_API_KEY")
+        if not key:
+            raise ValueError("API Key Anthropic Claude belum diisi. Masukkan Claude API Key Anda.")
+        
+        claude_url = "https://api.anthropic.com/v1/messages"
+        headers = {
+            "x-api-key": key,
+            "anthropic-version": "2023-06-01",
+            "content-type": "application/json"
+        }
+        payload = {
+            "model": model_name,
+            "max_tokens": 4096,
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": 0.3
+        }
+        res = requests.post(claude_url, json=payload, headers=headers, timeout=120)
+        if res.status_code != 200:
+            err_msg = res.json().get("error", {}).get("message", res.text)
+            raise RuntimeError(f"Error Claude API: {err_msg}")
+        data = res.json()
+        try:
+            return data["content"][0]["text"]
+        except Exception:
+            raise RuntimeError("Claude mengembalikan respons yang tidak terduga.")
+
+    # --- 5. LOCAL OLLAMA (DEFAULT) ---
+    else:
+        ollama_url = os.environ.get("OLLAMA_URL", "http://localhost:11434/api/generate")
+        max_retries = 3
+        retry_delay = 2
+
+        payload = {
+            "model": model_name,
+            "prompt": prompt,
+            "stream": False
+        }
+
+        last_error = None
+        for attempt in range(max_retries):
+            try:
+                response = requests.post(ollama_url, json=payload, timeout=300)
+                response.raise_for_status()
+                res_text = response.json().get("response", "")
+                if not res_text.strip():
+                    raise RuntimeError("Ollama mengembalikan respons kosong.")
+                return res_text
+            except requests.exceptions.Timeout as e:
+                last_error = f"Timeout: {e}"
+                print(f"   ⚠️ Timeout (attempt {attempt + 1}/{max_retries})")
+                if attempt < max_retries - 1:
+                    time.sleep(retry_delay * (attempt + 1))
+            except requests.exceptions.ConnectionError as e:
+                last_error = f"Connection error: {e}"
+                print(f"   ⚠️ Connection error (attempt {attempt + 1}/{max_retries})")
+                if attempt < max_retries - 1:
+                    time.sleep(retry_delay * (attempt + 1))
+            except Exception as e:
+                last_error = str(e)
+                if attempt == max_retries - 1:
+                    raise RuntimeError(f"Error Ollama: {e} (Pastikan Ollama sudah jalan dan model '{model_name}' sudah di-'pull')")
+
+        raise RuntimeError(f"Gagal menghubungi Ollama setelah {max_retries} percobaan: {last_error}")
 
 def save_summary(original_path, summary, model_name):
     """Simpan summary ke folder summary dengan struktur yang sama"""
     try:
         # Hitung path relatif dari folder output
         # Contoh: D:\...\output\single\file.txt -> single\file.txt
-        relative_path = original_path.relative_to(CONVERT_TXT_DIR)
+        try:
+            relative_path = original_path.relative_to(CONVERT_TXT_DIR)
+        except ValueError:
+            relative_path = Path("single") / original_path.name
 
         # Buat path baru di folder summary
         # Contoh: D:\...\summary\single\file(summary).txt
@@ -258,10 +400,10 @@ def save_summary(original_path, summary, model_name):
             f.write("\n")
 
         print(f"   📂 Disimpan di: summary/{relative_path.parent.name}/{new_path.name}")
-        return True
+        return new_path
     except Exception as e:
-        print(f"❌ Gagal menyimpan summary ke {new_path}: {e}")
-        return False
+        print(f"❌ Gagal menyimpan summary: {e}")
+        return None
 
 def main():
     if len(sys.argv) < 2:

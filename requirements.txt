@@ -29,6 +29,7 @@ colorama>=0.4.6
 numpy>=2.2.0
 psutil>=5.9.8
 python-dotenv>=1.0.1
+tinytag>=2.0.0
 
 # --- Database ---
 # SQLite (built-in)

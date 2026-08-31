@@ -121,9 +121,16 @@ class _PdfScreenState extends State<PdfScreen> {
       final pFolders = List<Map<String, dynamic>>.from(result['folders'] ?? []);
 
       // Check local existence
-      final docDir = await getApplicationDocumentsDirectory();
-      final localFiles =
-          docDir.listSync().map((e) => e.uri.pathSegments.last).toSet();
+      final Set<String> localFiles = {};
+      try {
+        final docDir = await getApplicationDocumentsDirectory();
+        if (docDir.existsSync()) {
+          for (var entity in docDir.listSync()) {
+            final name = entity.path.replaceAll('\\', '/').split('/').last;
+            if (name.isNotEmpty) localFiles.add(name);
+          }
+        }
+      } catch (_) {}
 
       if (mounted) {
         setState(() {
@@ -526,92 +533,98 @@ class _PdfScreenState extends State<PdfScreen> {
 
   Widget _buildFileTile(Map<String, dynamic> file) {
     final isSelected = _selectedFiles.contains(file['path']);
-    return CheckboxListTile(
-      value: isSelected,
-      onChanged: (v) {
-        setState(() {
-          if (v == true) {
-            _selectedFiles.add(file['path']);
-          } else {
-            _selectedFiles.remove(file['path']);
-          }
-        });
-      },
-      activeColor: AppTheme.pdfColor,
-      secondary: Container(
-        width: 36,
-        height: 36,
-        decoration: BoxDecoration(
-          color: (isSelected ? AppTheme.pdfColor : AppTheme.textMuted)
-              .withOpacity(0.15),
-          borderRadius: BorderRadius.circular(8),
+    return Material(
+      color: Colors.transparent,
+      child: CheckboxListTile(
+        value: isSelected,
+        onChanged: (v) {
+          setState(() {
+            if (v == true) {
+              _selectedFiles.add(file['path']);
+            } else {
+              _selectedFiles.remove(file['path']);
+            }
+          });
+        },
+        activeColor: AppTheme.pdfColor,
+        secondary: Container(
+          width: 36,
+          height: 36,
+          decoration: BoxDecoration(
+            color: (isSelected ? AppTheme.pdfColor : AppTheme.textMuted)
+                .withOpacity(0.15),
+            borderRadius: BorderRadius.circular(8),
+          ),
+          child: Icon(
+            Icons.description_rounded,
+            size: 18,
+            color: isSelected ? AppTheme.pdfColor : AppTheme.textMuted,
+          ),
         ),
-        child: Icon(
-          Icons.description_rounded,
-          size: 18,
-          color: isSelected ? AppTheme.pdfColor : AppTheme.textMuted,
+        title: Text(
+          file['name'],
+          style: const TextStyle(
+            fontSize: 13,
+            fontWeight: FontWeight.w500,
+          ),
+          maxLines: 1,
+          overflow: TextOverflow.ellipsis,
         ),
-      ),
-      title: Text(
-        file['name'],
-        style: const TextStyle(
-          fontSize: 13,
-          fontWeight: FontWeight.w500,
-        ),
-        maxLines: 1,
-        overflow: TextOverflow.ellipsis,
-      ),
-      subtitle: Text(
-        '${file["label"]} · ${UiUtils.formatSize(file["size"] ?? 0)}',
-        style: const TextStyle(
-          fontSize: 11,
-          color: AppTheme.textMuted,
+        subtitle: Text(
+          '${file["label"]} · ${UiUtils.formatSize(file["size"] ?? 0)}',
+          style: const TextStyle(
+            fontSize: 11,
+            color: AppTheme.textMuted,
+          ),
         ),
       ),
     );
   }
 
   Widget _buildFolderTile(Map<String, dynamic> folder) {
-    return ListTile(
-      contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-      leading: Container(
-        width: 36,
-        height: 36,
-        decoration: BoxDecoration(
-          color: AppTheme.browserColor.withOpacity(0.15),
-          borderRadius: BorderRadius.circular(8),
+    return Material(
+      color: Colors.transparent,
+      child: ListTile(
+        contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+        leading: Container(
+          width: 36,
+          height: 36,
+          decoration: BoxDecoration(
+            color: AppTheme.browserColor.withOpacity(0.15),
+            borderRadius: BorderRadius.circular(8),
+          ),
+          child: const Icon(
+            Icons.folder_rounded,
+            size: 18,
+            color: AppTheme.browserColor,
+          ),
         ),
-        child: const Icon(
-          Icons.folder_rounded,
-          size: 18,
-          color: AppTheme.browserColor,
+        title: Text(
+          folder['name'] ?? 'Folder',
+          style: const TextStyle(
+            fontSize: 13,
+            fontWeight: FontWeight.w500,
+            color: AppTheme.textPrimary,
+          ),
+          maxLines: 1,
+          overflow: TextOverflow.ellipsis,
         ),
+        subtitle: Text(
+          '${folder['file_count'] ?? 0} files',
+          style: const TextStyle(
+            fontSize: 11,
+            color: AppTheme.textMuted,
+          ),
+        ),
+        onTap: () {
+          setState(() {
+            _pathHistory.add(_currentPath);
+            _currentPath = folder['path'];
+          });
+          _loadFiles();
+          _loadPdfs();
+        },
       ),
-      title: Text(
-        folder['name'] ?? 'Folder',
-        style: const TextStyle(
-          fontSize: 13,
-          fontWeight: FontWeight.w500,
-          color: AppTheme.textPrimary,
-        ),
-        maxLines: 1,
-        overflow: TextOverflow.ellipsis,
-      ),
-      subtitle: Text(
-        '${folder['file_count'] ?? 0} files',
-        style: const TextStyle(
-          fontSize: 11,
-          color: AppTheme.textMuted,
-        ),
-      ),
-      onTap: () {
-        setState(() {
-          _pathHistory.add(_currentPath);
-          _currentPath = folder['path'];
-        });
-        _loadFiles();
-        _loadPdfs();
-      },
     );
   }
 

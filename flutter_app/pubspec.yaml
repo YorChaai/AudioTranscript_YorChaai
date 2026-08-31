@@ -23,9 +23,11 @@ dependencies:
   # Untuk buka file hasil (PDF/TXT) langsung dari app
   open_file: ^4.0.0
   
-  # --- State Management ---
+  # --- State Management & Storage ---
   # Untuk manajemen data antar screen (misal status koneksi)
   provider: ^6.1.0
+  # Untuk penyimpanan pengaturan lokal (Tema & Bahasa)
+  shared_preferences: ^2.2.3
   
   # --- UI (Tampilan) ---
   # Icon set standar iOS

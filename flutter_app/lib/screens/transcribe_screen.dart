@@ -24,10 +24,13 @@ class TranscribeScreen extends StatefulWidget {
 }
 
 class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerProviderStateMixin {
-  final List<String> _selectedFiles = [];
+  bool _isSelectionMode = false;
+  final Set<String> _selectedFiles = {};
+  final Set<String> _selectedFolders = {};
   String _language = 'auto';
   bool _doTranslate = false;
   String _targetLang = 'id';
+  int _beamSize = 2;
   
   final TextEditingController _searchController = TextEditingController();
   String _searchQuery = '';
@@ -48,9 +51,11 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
       duration: AppConstants.animationFast,
     );
     _progressAnimController.addListener(() {
-      setState(() {
-        _displayProgress = _progressAnimation?.value ?? context.read<TranscribeProvider>().progress;
-      });
+      if (mounted) {
+        setState(() {
+          _displayProgress = _progressAnimation?.value ?? context.read<TranscribeProvider>().progress;
+        });
+      }
     });
 
     WidgetsBinding.instance.addPostFrameCallback((_) {
@@ -85,24 +90,56 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
       context: context,
       builder: (context) => AlertDialog(
         backgroundColor: AppTheme.cardDark,
-        title: Text(isVideo ? 'Upload Video' : 'Upload Audio', style: const TextStyle(color: Colors.white)),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+        title: Row(
+          children: [
+            Icon(isVideo ? Icons.video_library_rounded : Icons.audio_file_rounded, color: AppTheme.accentCyan, size: 22),
+            const SizedBox(width: 10),
+            Text(isVideo ? 'Upload Video ke MP3' : 'Upload Audio', style: const TextStyle(color: Colors.white, fontSize: 18)),
+          ],
+        ),
         content: Column(
           mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            const Text(
+              'Pilih metode pemilihan file yang ingin diunggah:',
+              style: TextStyle(color: AppTheme.textSecondary, fontSize: 13),
+            ),
+            const SizedBox(height: 14),
             ListTile(
-              leading: const Icon(Icons.file_copy, color: AppTheme.accentBlue),
-              title: const Text('Pilih File (Bisa pilih banyak)', style: TextStyle(color: Colors.white)),
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+              tileColor: AppTheme.backgroundDark,
+              leading: const Icon(Icons.file_copy_rounded, color: AppTheme.accentCyan),
+              title: const Text('1. Pilih Banyak File', style: TextStyle(color: Colors.white, fontSize: 14, fontWeight: FontWeight.w600)),
+              subtitle: const Text('Pilih satu atau banyak file terpisah dari file explorer', style: TextStyle(color: AppTheme.textMuted, fontSize: 11)),
               onTap: () {
                 Navigator.pop(context);
-                _pickFiles(isVideo, fromFolder: false);
+                _pickFiles(isVideo, mode: 1);
               },
             ),
+            const SizedBox(height: 8),
             ListTile(
-              leading: const Icon(Icons.folder, color: AppTheme.accentBlue),
-              title: const Text('Pilih Folder', style: TextStyle(color: Colors.white)),
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+              tileColor: AppTheme.backgroundDark,
+              leading: const Icon(Icons.folder_rounded, color: AppTheme.browserColor),
+              title: const Text('2. Pilih Folder (Hanya 1 Level)', style: TextStyle(color: Colors.white, fontSize: 14, fontWeight: FontWeight.w600)),
+              subtitle: const Text('Membaca semua file audio langsung di dalam folder yang dipilih', style: TextStyle(color: AppTheme.textMuted, fontSize: 11)),
               onTap: () {
                 Navigator.pop(context);
-                _pickFiles(isVideo, fromFolder: true);
+                _pickFiles(isVideo, mode: 2);
+              },
+            ),
+            const SizedBox(height: 8),
+            ListTile(
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+              tileColor: AppTheme.backgroundDark,
+              leading: const Icon(Icons.folder_special_rounded, color: AppTheme.accentBlue),
+              title: const Text('3. Pilih Folder & Seluruh Subfoldernya', style: TextStyle(color: Colors.white, fontSize: 14, fontWeight: FontWeight.w600)),
+              subtitle: const Text('Membaca semua subfolder secara rekursif & menjaga struktur folder asli', style: TextStyle(color: AppTheme.textMuted, fontSize: 11)),
+              onTap: () {
+                Navigator.pop(context);
+                _pickFiles(isVideo, mode: 3);
               },
             ),
           ],
@@ -111,52 +148,140 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
     );
   }
 
-  Future<void> _pickFiles(bool isVideo, {required bool fromFolder}) async {
-    List<File> selectedFiles = [];
-    
-    if (fromFolder) {
-      String? directoryPath = await FilePicker.getDirectoryPath();
-      if (directoryPath == null) return;
-      
-      final dir = Directory(directoryPath);
-      final allowedExts = isVideo ? ['.mp4', '.mkv', '.avi', '.mov'] : ['.mp3', '.wav', '.m4a', '.ogg'];
-      
-      try {
-        final List<FileSystemEntity> entities = await dir.list(recursive: true).toList();
+  Future<void> _pickFiles(bool isVideo, {required int mode}) async {
+    List<UploadMediaTask> selectedTasks = [];
+    int skippedDuplicates = 0;
+
+    const audioExts = ['.mp3', '.wav', '.m4a', '.flac', '.ogg', '.wma', '.aac'];
+    const videoExts = ['.mp4', '.mov', '.mkv', '.avi', '.webm', '.mpeg', '.mpg', '.m4v'];
+
+    try {
+      final List<File> discoveredFiles = [];
+      String? folderRootName;
+      String? folderRootPath;
+
+      if (mode == 1) {
+        // Mode 1: Pick multiple individual files (Audio or Video)
+        final result = await FilePicker.pickFiles(
+          type: FileType.custom,
+          allowedExtensions: isVideo
+              ? ['mp4', 'mov', 'mkv', 'avi', 'webm', 'mpeg', 'mpg', 'm4v', 'mp3', 'wav', 'm4a', 'flac', 'ogg', 'wma', 'aac']
+              : ['mp3', 'wav', 'm4a', 'flac', 'ogg', 'wma', 'aac', 'mp4', 'mov', 'mkv', 'avi', 'webm', 'mpeg', 'mpg', 'm4v'],
+          allowMultiple: true,
+        );
+        if (result == null || result.files.isEmpty) return;
+
+        for (final f in result.files) {
+          if (f.path != null) discoveredFiles.add(File(f.path!));
+        }
+      } else if (mode == 2) {
+        // Mode 2: Pick Single Folder (Non-recursive)
+        String? directoryPath = await FilePicker.getDirectoryPath();
+        if (directoryPath == null) return;
+
+        final dir = Directory(directoryPath);
+        folderRootName = dir.path.split(Platform.pathSeparator).last;
+        folderRootPath = dir.path;
+        final List<FileSystemEntity> entities = await dir.list(recursive: false).toList();
+
         for (var entity in entities) {
-          if (entity is File) {
-            final ext = entity.path.toLowerCase();
-            if (allowedExts.any((e) => ext.endsWith(e))) {
-              selectedFiles.add(entity);
-            }
+          if (entity is File) discoveredFiles.add(entity);
+        }
+      } else if (mode == 3) {
+        // Mode 3: Pick Folder & All Subfolders (Recursive)
+        String? directoryPath = await FilePicker.getDirectoryPath();
+        if (directoryPath == null) return;
+
+        final rootDir = Directory(directoryPath);
+        folderRootName = rootDir.path.split(Platform.pathSeparator).last;
+        folderRootPath = rootDir.path;
+        final List<FileSystemEntity> entities = await rootDir.list(recursive: true).toList();
+
+        for (var entity in entities) {
+          if (entity is File) discoveredFiles.add(entity);
+        }
+      }
+
+      // Smart Categorization & Deduplication:
+      // If a folder has both Chapter1.mp3 and Chapter1.mp4, keep Chapter1.mp3 and skip Chapter1.mp4.
+      final Map<String, UploadMediaTask> audioTasksMap = {};
+      final Map<String, UploadMediaTask> videoTasksMap = {};
+
+      for (final file in discoveredFiles) {
+        final pathLower = file.path.toLowerCase();
+        final isAudio = audioExts.any((ext) => pathLower.endsWith(ext));
+        final isVid = videoExts.any((ext) => pathLower.endsWith(ext));
+
+        if (!isAudio && !isVid) continue;
+
+        String relativeSubfolder = '';
+        String displayName = file.path.split(Platform.pathSeparator).last;
+
+        if (folderRootPath != null && folderRootName != null) {
+          if (mode == 2) {
+            relativeSubfolder = folderRootName;
+            displayName = '$folderRootName / $displayName';
+          } else if (mode == 3) {
+            final relPath = file.path.substring(folderRootPath.length).replaceAll('\\', '/');
+            final trimmedRel = relPath.startsWith('/') ? relPath.substring(1) : relPath;
+            final parts = trimmedRel.split('/');
+            relativeSubfolder = parts.length > 1
+                ? '$folderRootName/${parts.sublist(0, parts.length - 1).join('/')}'
+                : folderRootName;
+            displayName = '$folderRootName / $trimmedRel';
           }
         }
-      } catch (e) {
-        if (mounted) UiUtils.showSnackBar(context, 'Gagal membaca folder: $e', isError: true);
-        return;
+
+        final fileNameWithoutExt = file.path.split(Platform.pathSeparator).last.split('.').first.toLowerCase().trim();
+        final dedupKey = '$relativeSubfolder/$fileNameWithoutExt';
+        final fileSize = file.existsSync() ? file.lengthSync() : 0;
+
+        if (isAudio) {
+          audioTasksMap[dedupKey] = UploadMediaTask(
+            file: file,
+            relativeSubfolder: relativeSubfolder,
+            displayName: displayName,
+            size: fileSize,
+            isVideo: false,
+          );
+        } else if (isVid) {
+          videoTasksMap[dedupKey] = UploadMediaTask(
+            file: file,
+            relativeSubfolder: relativeSubfolder,
+            displayName: displayName,
+            size: fileSize,
+            isVideo: true,
+          );
+        }
       }
-    } else {
-      final result = await FilePicker.pickFiles(
-        type: FileType.custom,
-        allowedExtensions: isVideo ? ['mp4', 'mkv', 'avi', 'mov'] : ['mp3', 'wav', 'm4a', 'ogg'],
-        allowMultiple: true,
-      );
-      if (result == null || result.files.isEmpty) return;
-      
-      selectedFiles = result.files.where((f) => f.path != null).map((f) => File(f.path!)).toList();
-    }
-    
-    if (selectedFiles.isEmpty) {
-      if (mounted) UiUtils.showSnackBar(context, 'Tidak ada file media ditemukan');
+
+      // Add all direct audio files
+      selectedTasks.addAll(audioTasksMap.values);
+
+      // Add video files ONLY if no audio file with the same name exists
+      for (final entry in videoTasksMap.entries) {
+        if (audioTasksMap.containsKey(entry.key)) {
+          skippedDuplicates++;
+        } else {
+          selectedTasks.add(entry.value);
+        }
+      }
+    } catch (e) {
+      if (mounted) UiUtils.showSnackBar(context, 'Gagal membaca file/folder: $e', isError: true);
       return;
     }
-    
+
+    if (selectedTasks.isEmpty) {
+      if (mounted) UiUtils.showSnackBar(context, 'Tidak ada file audio/video yang didukung ditemukan');
+      return;
+    }
+
     if (!mounted) return;
-    _showUploadConfirmationDialog(selectedFiles, isVideo);
+    _showUploadConfirmationDialog(selectedTasks, skippedDuplicates);
   }
 
-  void _showUploadConfirmationDialog(List<File> files, bool isVideo) {
-    List<File> selectedForUpload = List.from(files);
+  void _showUploadConfirmationDialog(List<UploadMediaTask> tasks, int skippedDuplicates) {
+    List<UploadMediaTask> selectedForUpload = List.from(tasks);
 
     showDialog(
       context: context,
@@ -164,59 +289,135 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
       builder: (context) {
         return StatefulBuilder(
           builder: (context, setStateDialog) {
+            final audioCount = selectedForUpload.where((t) => !t.isVideo).length;
+            final videoCount = selectedForUpload.where((t) => t.isVideo).length;
+
             return AlertDialog(
               backgroundColor: AppTheme.cardDark,
-              title: const Text('Pilih File untuk Diupload', style: TextStyle(color: Colors.white)),
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+              title: Row(
+                children: [
+                  const Icon(Icons.cloud_upload_rounded, color: AppTheme.accentCyan),
+                  const SizedBox(width: 10),
+                  Text(
+                    'Konfirmasi Upload (${tasks.length} File)',
+                    style: const TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                ],
+              ),
               content: SizedBox(
-                width: 600,
-                height: 400,
+                width: 650,
+                height: 440,
                 child: Column(
                   children: [
                     Container(
                       padding: const EdgeInsets.all(12),
                       decoration: BoxDecoration(
                         color: AppTheme.backgroundDark,
-                        borderRadius: BorderRadius.circular(8),
+                        borderRadius: BorderRadius.circular(10),
                       ),
-                      child: Row(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Icon(isVideo ? Icons.video_file : Icons.audio_file, color: AppTheme.accentBlue),
-                          const SizedBox(width: 8),
-                          Expanded(
-                            child: Text(
-                              'Ditemukan ${files.length} file. Pilih yang ingin diproses.',
-                              style: const TextStyle(color: Colors.white),
-                            ),
+                          Row(
+                            children: [
+                              Expanded(
+                                child: Text(
+                                  'Terpilih: $audioCount Audio Langsung, $videoCount Video Ekstrak',
+                                  style: const TextStyle(color: Colors.white, fontSize: 13, fontWeight: FontWeight.w600),
+                                ),
+                              ),
+                              TextButton(
+                                onPressed: () {
+                                  setStateDialog(() {
+                                    if (selectedForUpload.length == tasks.length) {
+                                      selectedForUpload.clear();
+                                    } else {
+                                      selectedForUpload = List.from(tasks);
+                                    }
+                                  });
+                                },
+                                child: Text(
+                                  selectedForUpload.length == tasks.length ? 'Deselect All' : 'Select All',
+                                  style: const TextStyle(color: AppTheme.accentCyan),
+                                ),
+                              ),
+                            ],
                           ),
-                          TextButton(
-                            onPressed: () {
-                              setStateDialog(() {
-                                if (selectedForUpload.length == files.length) {
-                                  selectedForUpload.clear();
-                                } else {
-                                  selectedForUpload = List.from(files);
-                                }
-                              });
-                            },
-                            child: Text(
-                              selectedForUpload.length == files.length ? 'Deselect All' : 'Select All',
-                              style: const TextStyle(color: AppTheme.accentCyan),
+                          if (skippedDuplicates > 0) ...[
+                            const SizedBox(height: 6),
+                            Container(
+                              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                              decoration: BoxDecoration(
+                                color: AppTheme.accentBlue.withOpacity(0.15),
+                                borderRadius: BorderRadius.circular(6),
+                                border: Border.all(color: AppTheme.accentBlue.withOpacity(0.3)),
+                              ),
+                              child: Row(
+                                mainAxisSize: MainAxisSize.min,
+                                children: [
+                                  const Icon(Icons.check_circle_outline, color: AppTheme.accentCyan, size: 14),
+                                  const SizedBox(width: 6),
+                                  Text(
+                                    '⚡ $skippedDuplicates video duplikat dilewati (file audio MP3 sudah tersedia)',
+                                    style: const TextStyle(color: AppTheme.accentCyan, fontSize: 11),
+                                  ),
+                                ],
+                              ),
                             ),
-                          ),
+                          ],
                         ],
                       ),
                     ),
                     const SizedBox(height: 12),
                     Expanded(
-                      child: ListView.builder(
-                        itemCount: files.length,
+                      child: ListView.separated(
+                        itemCount: tasks.length,
+                        separatorBuilder: (_, __) => const Divider(height: 1, indent: 48),
                         itemBuilder: (context, index) {
-                          final file = files[index];
-                          final fileName = file.path.split(Platform.pathSeparator).last;
-                          final isSelected = selectedForUpload.contains(file);
+                          final task = tasks[index];
+                          final isSelected = selectedForUpload.contains(task);
                           
                           return CheckboxListTile(
-                            title: Text(fileName, style: const TextStyle(color: Colors.white, fontSize: 13)),
+                            dense: true,
+                            secondary: Icon(
+                              task.isVideo ? Icons.video_file_rounded : Icons.audio_file_rounded,
+                              color: task.isVideo ? Colors.amber : AppTheme.accentCyan,
+                              size: 24,
+                            ),
+                            title: Text(
+                              task.displayName,
+                              style: const TextStyle(color: Colors.white, fontSize: 12, fontWeight: FontWeight.w500),
+                              maxLines: 2,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                            subtitle: Row(
+                              children: [
+                                Container(
+                                  padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                                  decoration: BoxDecoration(
+                                    color: task.isVideo ? Colors.amber.withOpacity(0.15) : AppTheme.accentCyan.withOpacity(0.15),
+                                    borderRadius: BorderRadius.circular(4),
+                                  ),
+                                  child: Text(
+                                    task.isVideo ? 'Ekstrak MP3' : 'Audio Langsung',
+                                    style: TextStyle(
+                                      color: task.isVideo ? Colors.amberAccent : AppTheme.accentCyan,
+                                      fontSize: 9,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                ),
+                                const SizedBox(width: 8),
+                                Expanded(
+                                  child: Text(
+                                    'Folder: ${task.relativeSubfolder.isEmpty ? "Root" : task.relativeSubfolder} · ${UiUtils.formatSize(task.size)}',
+                                    style: const TextStyle(color: AppTheme.textMuted, fontSize: 10),
+                                    overflow: TextOverflow.ellipsis,
+                                  ),
+                                ),
+                              ],
+                            ),
                             value: isSelected,
                             activeColor: AppTheme.accentBlue,
                             checkColor: Colors.white,
@@ -224,9 +425,9 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
                             onChanged: (val) {
                               setStateDialog(() {
                                 if (val == true) {
-                                  selectedForUpload.add(file);
+                                  selectedForUpload.add(task);
                                 } else {
-                                  selectedForUpload.remove(file);
+                                  selectedForUpload.remove(task);
                                 }
                               });
                             },
@@ -240,15 +441,18 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
               actions: [
                 TextButton(
                   onPressed: () => Navigator.pop(context),
-                  child: const Text('Batal'),
+                  child: const Text('Batal', style: TextStyle(color: AppTheme.textMuted)),
                 ),
                 ElevatedButton(
                   onPressed: selectedForUpload.isEmpty ? null : () {
                     Navigator.pop(context);
-                    _processMultipleUploads(selectedForUpload, isVideo);
+                    _processMultipleUploads(selectedForUpload);
                   },
-                  style: ElevatedButton.styleFrom(backgroundColor: AppTheme.accentBlue),
-                  child: Text('Proses ${selectedForUpload.length} File'),
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: AppTheme.accentBlue,
+                    foregroundColor: Colors.white,
+                  ),
+                  child: Text('Proses ${selectedForUpload.length} File (Paralel)'),
                 ),
               ],
             );
@@ -258,13 +462,14 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
     );
   }
 
-  Future<void> _processMultipleUploads(List<File> files, bool isVideo) async {
+  Future<void> _processMultipleUploads(List<UploadMediaTask> tasks) async {
     final prov = context.read<TranscribeProvider>();
     
     final progressNotifier = ValueNotifier<Map<String, dynamic>>({
-      'index': 0,
-      'total': files.length,
-      'fileName': files.first.path.split(Platform.pathSeparator).last,
+      'completed': 0,
+      'total': tasks.length,
+      'currentFile': tasks.first.displayName,
+      'overallProgress': 0.0,
     });
 
     BuildContext? dialogContext;
@@ -276,39 +481,81 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
         return ValueListenableBuilder<Map<String, dynamic>>(
           valueListenable: progressNotifier,
           builder: (context, progress, child) {
+            final double overall = progress['overallProgress'] ?? 0.0;
+            final int completed = progress['completed'] ?? 0;
+            final int total = progress['total'] ?? tasks.length;
+            final String fileName = progress['currentFile'] ?? '';
+
             return AlertDialog(
               backgroundColor: AppTheme.cardDark,
-              title: const Text('Mengunggah File...', style: TextStyle(color: Colors.white)),
-              content: Column(
-                mainAxisSize: MainAxisSize.min,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(16),
+                side: const BorderSide(color: AppTheme.dividerColor),
+              ),
+              title: const Row(
                 children: [
-                  Text('Memproses ${progress['index'] + 1} dari ${progress['total']}', style: const TextStyle(color: Colors.white)),
-                  const SizedBox(height: 8),
-                  Text(progress['fileName'], style: const TextStyle(color: AppTheme.textSecondary, fontSize: 12), textAlign: TextAlign.center),
-                  const SizedBox(height: 16),
-                  if (progress['currentProgress'] != null) ...[
-                    LinearProgressIndicator(
-                      value: progress['currentProgress'] >= 1.0 ? null : progress['currentProgress'],
-                      backgroundColor: AppTheme.dividerColor,
-                      valueColor: const AlwaysStoppedAnimation<Color>(AppTheme.accentBlue),
-                    ),
-                    const SizedBox(height: 4),
+                  Icon(Icons.bolt_rounded, color: AppTheme.accentCyan, size: 24),
+                  SizedBox(width: 10),
+                  Text(
+                    'Memproses Upload Paralel...',
+                    style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold),
+                  ),
+                ],
+              ),
+              content: SizedBox(
+                width: 480,
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
                     Text(
-                      progress['currentProgress'] >= 1.0
-                          ? (isVideo 
-                              ? 'Mengonversi ke MP3 (Mohon tunggu, proses ini butuh waktu sesuai durasi video)...' 
-                              : 'Menyimpan file...')
-                          : '${(progress['currentProgress'] * 100).toStringAsFixed(0)}%',
-                      style: const TextStyle(color: AppTheme.textSecondary, fontSize: 10),
-                      textAlign: TextAlign.center,
+                      'Selesai $completed dari $total file (3 Worker Paralel)',
+                      style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w600, fontSize: 13),
                     ),
-                  ] else ...[
-                    const LinearProgressIndicator(
-                      backgroundColor: AppTheme.dividerColor,
-                      valueColor: AlwaysStoppedAnimation<Color>(AppTheme.accentBlue),
+                    const SizedBox(height: 12),
+                    // Fixed-size container for current file so dialog never jumps/resizes
+                    Container(
+                      height: 48,
+                      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                      decoration: BoxDecoration(
+                        color: AppTheme.backgroundDark.withOpacity(0.6),
+                        borderRadius: BorderRadius.circular(8),
+                        border: Border.all(color: AppTheme.dividerColor.withOpacity(0.5)),
+                      ),
+                      alignment: Alignment.centerLeft,
+                      child: Row(
+                        children: [
+                          const Icon(Icons.audio_file_outlined, color: AppTheme.accentBlue, size: 18),
+                          const SizedBox(width: 8),
+                          Expanded(
+                            child: Text(
+                              fileName.isEmpty ? 'Mempersiapkan berkas...' : fileName,
+                              style: const TextStyle(color: AppTheme.textSecondary, fontSize: 11, height: 1.3),
+                              maxLines: 2,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 16),
+                    ClipRRect(
+                      borderRadius: BorderRadius.circular(4),
+                      child: LinearProgressIndicator(
+                        value: overall > 0.0 ? overall : null,
+                        minHeight: 8,
+                        backgroundColor: AppTheme.dividerColor,
+                        valueColor: const AlwaysStoppedAnimation<Color>(AppTheme.accentBlue),
+                      ),
+                    ),
+                    const SizedBox(height: 8),
+                    Text(
+                      '${(overall * 100).toStringAsFixed(0)}%',
+                      style: const TextStyle(color: AppTheme.accentCyan, fontSize: 12, fontWeight: FontWeight.bold),
+                      textAlign: TextAlign.right,
                     ),
                   ],
-                ],
+                ),
               ),
             );
           },
@@ -317,14 +564,14 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
     );
 
     final results = await prov.uploadMediaBatch(
-      files,
-      isVideo: isVideo,
-      onProgress: (index, fileName, currentProgress) {
+      tasks,
+      maxConcurrent: 3,
+      onProgress: (completed, total, currentFile, overallProgress) {
         progressNotifier.value = {
-          'index': index,
-          'total': files.length,
-          'fileName': fileName,
-          'currentProgress': currentProgress,
+          'completed': completed,
+          'total': total,
+          'currentFile': currentFile,
+          'overallProgress': overallProgress,
         };
       },
     );
@@ -339,21 +586,23 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
     if (!mounted) return;
     UiUtils.showSnackBar(
       context,
-      'Selesai! $successCount berhasil, $failCount gagal.',
+      'Upload selesai! $successCount file berhasil, $failCount gagal.',
       isError: failCount > 0,
     );
   }
 
   Future<void> _startTranscribe() async {
-    if (_selectedFiles.isEmpty) {
-      UiUtils.showSnackBar(context, 'Pilih minimal satu file audio dulu');
+    if (_selectedFiles.isEmpty && _selectedFolders.isEmpty) {
+      UiUtils.showSnackBar(context, 'Pilih minimal satu file atau folder audio terlebih dahulu');
       return;
     }
     await context.read<TranscribeProvider>().startTranscription(
-      files: _selectedFiles,
+      files: _selectedFiles.toList(),
+      folderPaths: _selectedFolders.toList(),
       language: _language,
       doTranslate: _doTranslate,
       targetLang: _targetLang,
+      beamSize: _beamSize,
     );
 
     if (!mounted) return;
@@ -393,13 +642,24 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
                 _buildHeader(sortProv),
                 const SizedBox(height: AppConstants.paddingMedium),
                 _buildBreadcrumb(prov),
-                const SizedBox(height: AppConstants.paddingMedium),
+                const SizedBox(height: 8),
+                _buildSelectionBar(prov),
                 Expanded(
                   child: TranscribeAudioGrid(
                     searchQuery: _searchQuery,
                     gridScrollController: _gridScrollController,
+                    isSelectionMode: _isSelectionMode,
                     selectedFiles: _selectedFiles,
-                    onToggleSelection: _toggleFileSelection,
+                    selectedFolders: _selectedFolders,
+                    onToggleFileSelection: _toggleFileSelection,
+                    onToggleFolderSelection: _toggleFolderSelection,
+                    onFolderNavigate: _onFolderNavigate,
+                    onFileLongPress: _onFileLongPress,
+                    onFolderLongPress: _onFolderLongPress,
+                    onRenameFile: (path, name) => _showRenameDialog(currentPath: path, currentName: name, isFolder: false),
+                    onDeleteFile: (path, name) => _confirmDeleteSingle(path: path, name: name, isFolder: false),
+                    onRenameFolder: (path, name) => _showRenameDialog(currentPath: path, currentName: name, isFolder: true),
+                    onDeleteFolder: (path, name) => _confirmDeleteSingle(path: path, name: name, isFolder: true),
                   ),
                 ),
               ],
@@ -442,7 +702,13 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
                 child: _buildBreadcrumb(prov),
               ),
             ),
-            const SliverToBoxAdapter(child: SizedBox(height: 16)),
+            SliverToBoxAdapter(
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: _buildSelectionBar(prov),
+              ),
+            ),
+            const SliverToBoxAdapter(child: SizedBox(height: 8)),
             SliverFillRemaining(
               hasScrollBody: true,
               child: Padding(
@@ -450,8 +716,18 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
                 child: TranscribeAudioGrid(
                   searchQuery: _searchQuery,
                   gridScrollController: _gridScrollController,
+                  isSelectionMode: _isSelectionMode,
                   selectedFiles: _selectedFiles,
-                  onToggleSelection: _toggleFileSelection,
+                  selectedFolders: _selectedFolders,
+                  onToggleFileSelection: _toggleFileSelection,
+                  onToggleFolderSelection: _toggleFolderSelection,
+                  onFolderNavigate: _onFolderNavigate,
+                  onFileLongPress: _onFileLongPress,
+                  onFolderLongPress: _onFolderLongPress,
+                  onRenameFile: (path, name) => _showRenameDialog(currentPath: path, currentName: name, isFolder: false),
+                  onDeleteFile: (path, name) => _confirmDeleteSingle(path: path, name: name, isFolder: false),
+                  onRenameFolder: (path, name) => _showRenameDialog(currentPath: path, currentName: name, isFolder: true),
+                  onDeleteFolder: (path, name) => _confirmDeleteSingle(path: path, name: name, isFolder: true),
                 ),
               ),
             ),
@@ -461,20 +737,121 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
     );
   }
 
+  Future<void> _confirmDeleteSingle({required String path, required String name, required bool isFolder}) async {
+    final confirmed = await showDialog<bool>(
+      context: context,
+      barrierDismissible: false,
+      builder: (ctx) => AlertDialog(
+        backgroundColor: AppTheme.cardDark,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+        title: Row(
+          children: [
+            const Icon(Icons.warning_amber_rounded, color: AppTheme.error, size: 26),
+            const SizedBox(width: 10),
+            Text(
+              isFolder ? 'Hapus Folder?' : 'Hapus File Audio?',
+              style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 18),
+            ),
+          ],
+        ),
+        content: SizedBox(
+          width: 440,
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                'Apakah Anda yakin ingin menghapus ${isFolder ? "folder" : "file"} "$name"${isFolder ? " beserta seluruh isinya" : ""} secara permanen dari server?',
+                style: const TextStyle(color: Colors.white, fontSize: 14),
+              ),
+              const SizedBox(height: 12),
+              Container(
+                padding: const EdgeInsets.all(10),
+                decoration: BoxDecoration(
+                  color: AppTheme.error.withOpacity(0.12),
+                  borderRadius: BorderRadius.circular(8),
+                  border: Border.all(color: AppTheme.error.withOpacity(0.35)),
+                ),
+                child: const Row(
+                  children: [
+                    Icon(Icons.error_outline_rounded, color: AppTheme.error, size: 18),
+                    SizedBox(width: 8),
+                    Expanded(
+                      child: Text(
+                        'Peringatan: Tindakan ini tidak dapat dibatalkan.',
+                        style: TextStyle(color: AppTheme.error, fontSize: 11, fontWeight: FontWeight.w600),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(ctx, false),
+            child: const Text('Batal', style: TextStyle(color: AppTheme.textMuted)),
+          ),
+          ElevatedButton.icon(
+            icon: const Icon(Icons.delete_forever_rounded, size: 18),
+            label: const Text('Hapus Permanen'),
+            style: ElevatedButton.styleFrom(
+              backgroundColor: AppTheme.error,
+              foregroundColor: Colors.white,
+            ),
+            onPressed: () => Navigator.pop(ctx, true),
+          ),
+        ],
+      ),
+    );
+
+    if (!mounted) return;
+    if (confirmed == true) {
+      final prov = context.read<TranscribeProvider>();
+      final res = await prov.deleteMedia(
+        files: isFolder ? [] : [path],
+        folders: isFolder ? [path] : [],
+      );
+
+      if (!mounted) return;
+      if (res['status'] == 'ok') {
+        setState(() {
+          _selectedFiles.remove(path);
+          _selectedFolders.remove(path);
+          if (_selectedFiles.isEmpty && _selectedFolders.isEmpty) _isSelectionMode = false;
+        });
+        UiUtils.showSnackBar(context, 'Berhasil menghapus "$name".');
+      } else {
+        UiUtils.showSnackBar(context, 'Gagal menghapus: ${res['error'] ?? "Terjadi kesalahan"}', isError: true);
+      }
+    }
+  }
+
   Widget _buildSidebar({required bool isMobile}) {
     return TranscribeSidebar(
       isMobile: isMobile,
-      selectedFiles: _selectedFiles,
+      selectedFiles: _selectedFiles.toList(),
+      selectedFolders: _selectedFolders.toList(),
       language: _language,
       doTranslate: _doTranslate,
       targetLang: _targetLang,
+      beamSize: _beamSize,
       displayProgress: _displayProgress,
       listController: _sidebarListController,
       onLanguageChanged: (val) => setState(() => _language = val),
       onTranslateChanged: (val) => setState(() => _doTranslate = val),
       onTargetLangChanged: (val) => setState(() => _targetLang = val),
-      onClearSelection: () => setState(() => _selectedFiles.clear()),
-      onRemoveFile: (path) => setState(() => _selectedFiles.remove(path)),
+      onBeamSizeChanged: (val) => setState(() => _beamSize = val),
+      onClearSelection: _clearSelection,
+      onRemoveFile: (path) => setState(() {
+        _selectedFiles.remove(path);
+        if (_selectedFiles.isEmpty && _selectedFolders.isEmpty) _isSelectionMode = false;
+      }),
+      onRemoveFolder: (path) => setState(() {
+        _selectedFolders.remove(path);
+        if (_selectedFiles.isEmpty && _selectedFolders.isEmpty) _isSelectionMode = false;
+      }),
       onStartTranscribe: _startTranscribe,
       onUploadFile: _showUploadSourceDialog,
       onShowCreateFolder: () => _showCreateFolderDialog(context.read<TranscribeProvider>()),
@@ -489,8 +866,355 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
         _selectedFiles.remove(filePath);
       } else {
         _selectedFiles.add(filePath);
+        _isSelectionMode = true;
+      }
+      if (_selectedFiles.isEmpty && _selectedFolders.isEmpty) {
+        _isSelectionMode = false;
       }
     });
+  }
+
+  void _toggleFolderSelection(String folderPath) {
+    setState(() {
+      if (_selectedFolders.contains(folderPath)) {
+        _selectedFolders.remove(folderPath);
+      } else {
+        _selectedFolders.add(folderPath);
+        _isSelectionMode = true;
+      }
+      if (_selectedFiles.isEmpty && _selectedFolders.isEmpty) {
+        _isSelectionMode = false;
+      }
+    });
+  }
+
+  void _onFileLongPress(String filePath) {
+    setState(() {
+      _isSelectionMode = true;
+      _selectedFiles.add(filePath);
+    });
+  }
+
+  void _onFolderLongPress(String folderPath) {
+    setState(() {
+      _isSelectionMode = true;
+      _selectedFolders.add(folderPath);
+    });
+  }
+
+  void _onFolderNavigate(String folderPath) {
+    context.read<TranscribeProvider>().navigateTo(folderPath);
+  }
+
+  void _selectAll(TranscribeProvider prov) {
+    setState(() {
+      _isSelectionMode = true;
+      for (final f in prov.audioFiles) {
+        final path = f['path'] as String? ?? f['name'] as String;
+        _selectedFiles.add(path);
+      }
+      for (final fld in prov.folders) {
+        final path = fld['path'] as String? ?? fld['name'] as String;
+        _selectedFolders.add(path);
+      }
+    });
+  }
+
+  void _clearSelection() {
+    setState(() {
+      _selectedFiles.clear();
+      _selectedFolders.clear();
+      _isSelectionMode = false;
+    });
+  }
+
+  Future<void> _showRenameDialog({
+    required String currentPath,
+    required String currentName,
+    required bool isFolder,
+  }) async {
+    final textCtrl = TextEditingController(text: currentName);
+
+    final newName = await showDialog<String>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        backgroundColor: AppTheme.cardDark,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+        title: Row(
+          children: [
+            Icon(isFolder ? Icons.folder_open_rounded : Icons.edit_note_rounded, color: AppTheme.accentCyan, size: 22),
+            const SizedBox(width: 10),
+            Text(
+              isFolder ? 'Ubah Nama Folder' : 'Ubah Nama File',
+              style: const TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold),
+            ),
+          ],
+        ),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              'Masukkan nama baru untuk ${isFolder ? "folder" : "file"}:',
+              style: const TextStyle(color: AppTheme.textSecondary, fontSize: 13),
+            ),
+            const SizedBox(height: 12),
+            TextField(
+              controller: textCtrl,
+              autofocus: true,
+              style: const TextStyle(color: Colors.white),
+              decoration: InputDecoration(
+                hintText: 'Nama baru...',
+                hintStyle: const TextStyle(color: AppTheme.textSecondary),
+                filled: true,
+                fillColor: AppTheme.backgroundDark,
+                border: OutlineInputBorder(borderRadius: BorderRadius.circular(10)),
+                contentPadding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
+              ),
+              onSubmitted: (val) {
+                final trimmed = val.trim();
+                if (trimmed.isNotEmpty) Navigator.pop(ctx, trimmed);
+              },
+            ),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(ctx, null),
+            child: const Text('Batal', style: TextStyle(color: AppTheme.textMuted)),
+          ),
+          ElevatedButton(
+            onPressed: () {
+              final trimmed = textCtrl.text.trim();
+              if (trimmed.isNotEmpty) Navigator.pop(ctx, trimmed);
+            },
+            style: ElevatedButton.styleFrom(
+              backgroundColor: AppTheme.accentBlue,
+              foregroundColor: Colors.white,
+            ),
+            child: const Text('Simpan Perubahan'),
+          ),
+        ],
+      ),
+    );
+
+    if (!mounted) return;
+    if (newName != null && newName.isNotEmpty && newName != currentName) {
+      final prov = context.read<TranscribeProvider>();
+      final success = await prov.renameMedia(currentPath, newName);
+      if (!mounted) return;
+      if (success) {
+        _clearSelection();
+        UiUtils.showSnackBar(context, 'Nama berhasil diubah menjadi "$newName"');
+      } else {
+        UiUtils.showSnackBar(context, prov.errorMessage ?? 'Gagal mengubah nama', isError: true);
+      }
+    }
+  }
+
+  Future<void> _confirmDeleteSelected(TranscribeProvider prov) async {
+    final fileCount = _selectedFiles.length;
+    final folderCount = _selectedFolders.length;
+    if (fileCount == 0 && folderCount == 0) return;
+
+    final String itemDescription = (fileCount > 0 && folderCount > 0)
+        ? '$fileCount file audio dan $folderCount folder'
+        : (folderCount > 0
+            ? '$folderCount folder beserta seluruh isinya'
+            : '$fileCount file audio');
+
+    final confirmed = await showDialog<bool>(
+      context: context,
+      barrierDismissible: false,
+      builder: (ctx) => AlertDialog(
+        backgroundColor: AppTheme.cardDark,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+        title: const Row(
+          children: [
+            Icon(Icons.warning_amber_rounded, color: AppTheme.error, size: 28),
+            SizedBox(width: 10),
+            Text('Hapus Item Terpilih?', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 18)),
+          ],
+        ),
+        content: SizedBox(
+          width: 480,
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                'Apakah Anda yakin ingin menghapus $itemDescription ini secara permanen dari server?',
+                style: const TextStyle(color: Colors.white, fontSize: 14),
+              ),
+              const SizedBox(height: 14),
+              Container(
+                padding: const EdgeInsets.all(12),
+                decoration: BoxDecoration(
+                  color: AppTheme.error.withOpacity(0.12),
+                  borderRadius: BorderRadius.circular(10),
+                  border: Border.all(color: AppTheme.error.withOpacity(0.35)),
+                ),
+                child: const Row(
+                  children: [
+                    Icon(Icons.error_outline_rounded, color: AppTheme.error, size: 20),
+                    SizedBox(width: 10),
+                    Expanded(
+                      child: Text(
+                        'Peringatan: File yang dihapus tidak dapat dipulihkan kembali.',
+                        style: TextStyle(color: AppTheme.error, fontSize: 12, fontWeight: FontWeight.w600),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(ctx, false),
+            child: const Text('Batal', style: TextStyle(color: AppTheme.textMuted)),
+          ),
+          ElevatedButton.icon(
+            icon: const Icon(Icons.delete_forever_rounded, size: 18),
+            label: const Text('Hapus Permanen'),
+            style: ElevatedButton.styleFrom(
+              backgroundColor: AppTheme.error,
+              foregroundColor: Colors.white,
+            ),
+            onPressed: () => Navigator.pop(ctx, true),
+          ),
+        ],
+      ),
+    );
+
+    if (confirmed == true) {
+      final filesToDelete = _selectedFiles.toList();
+      final foldersToDelete = _selectedFolders.toList();
+
+      final res = await prov.deleteMedia(
+        files: filesToDelete,
+        folders: foldersToDelete,
+      );
+
+      if (!mounted) return;
+      _clearSelection();
+
+      if (res['status'] == 'ok') {
+        final totalDel = (res['deleted_files'] as List? ?? []).length + (res['deleted_folders'] as List? ?? []).length;
+        UiUtils.showSnackBar(context, 'Berhasil menghapus $totalDel item dari server.');
+      } else {
+        UiUtils.showSnackBar(context, 'Gagal menghapus: ${res['error'] ?? "Terjadi kesalahan"}', isError: true);
+      }
+    }
+  }
+
+  Widget _buildSelectionBar(TranscribeProvider prov) {
+    if (!_isSelectionMode && _selectedFiles.isEmpty && _selectedFolders.isEmpty) {
+      return const SizedBox.shrink();
+    }
+
+    final totalSelected = _selectedFiles.length + _selectedFolders.length;
+    final canRename = totalSelected == 1;
+
+    return Container(
+      margin: const EdgeInsets.only(bottom: 12),
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+      decoration: BoxDecoration(
+        color: AppTheme.accentBlue.withOpacity(0.12),
+        borderRadius: BorderRadius.circular(10),
+        border: Border.all(color: AppTheme.accentBlue.withOpacity(0.35)),
+      ),
+      child: SingleChildScrollView(
+        scrollDirection: Axis.horizontal,
+        physics: const BouncingScrollPhysics(),
+        child: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            const Icon(Icons.check_circle_outline_rounded, color: AppTheme.accentCyan, size: 18),
+            const SizedBox(width: 8),
+            Text(
+              '$totalSelected item dipilih',
+              style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w600, fontSize: 12),
+            ),
+            const SizedBox(width: 10),
+            if (canRename) ...[
+              Tooltip(
+                message: 'Ubah Nama',
+                child: InkWell(
+                  onTap: () {
+                    if (_selectedFolders.isNotEmpty) {
+                      final fldPath = _selectedFolders.first;
+                      final fld = prov.folders.firstWhere(
+                        (f) => (f['path'] as String? ?? f['name'] as String) == fldPath,
+                        orElse: () => {'name': fldPath.split('/').last, 'path': fldPath},
+                      );
+                      _showRenameDialog(currentPath: fldPath, currentName: fld['name'] ?? '', isFolder: true);
+                    } else if (_selectedFiles.isNotEmpty) {
+                      final fPath = _selectedFiles.first;
+                      final file = prov.audioFiles.firstWhere(
+                        (f) => (f['path'] as String? ?? f['name'] as String) == fPath,
+                        orElse: () => {'name': fPath.split('/').last, 'path': fPath},
+                      );
+                      _showRenameDialog(currentPath: fPath, currentName: file['name'] ?? '', isFolder: false);
+                    }
+                  },
+                  borderRadius: BorderRadius.circular(8),
+                  child: Container(
+                    padding: const EdgeInsets.all(6),
+                    decoration: BoxDecoration(
+                      color: AppTheme.accentCyan.withOpacity(0.15),
+                      borderRadius: BorderRadius.circular(8),
+                      border: Border.all(color: AppTheme.accentCyan.withOpacity(0.5)),
+                    ),
+                    child: const Icon(Icons.edit_rounded, size: 15, color: AppTheme.accentCyan),
+                  ),
+                ),
+              ),
+              const SizedBox(width: 8),
+            ],
+            if (totalSelected > 0) ...[
+              Tooltip(
+                message: 'Hapus Permanen ($totalSelected)',
+                child: InkWell(
+                  onTap: () => _confirmDeleteSelected(prov),
+                  borderRadius: BorderRadius.circular(8),
+                  child: Container(
+                    padding: const EdgeInsets.all(6),
+                    decoration: BoxDecoration(
+                      color: AppTheme.error.withOpacity(0.18),
+                      borderRadius: BorderRadius.circular(8),
+                      border: Border.all(color: AppTheme.error.withOpacity(0.6)),
+                    ),
+                    child: const Icon(Icons.delete_forever_rounded, size: 15, color: AppTheme.error),
+                  ),
+                ),
+              ),
+              const SizedBox(width: 8),
+            ],
+            TextButton(
+              onPressed: () => _selectAll(prov),
+              style: TextButton.styleFrom(
+                padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 4),
+                minimumSize: Size.zero,
+                tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+              ),
+              child: const Text('Pilih Semua', style: TextStyle(color: AppTheme.accentCyan, fontSize: 12)),
+            ),
+            const SizedBox(width: 4),
+            TextButton(
+              onPressed: _clearSelection,
+              style: TextButton.styleFrom(
+                padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 4),
+                minimumSize: Size.zero,
+                tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+              ),
+              child: const Text('Batal', style: TextStyle(color: AppTheme.textMuted, fontSize: 12)),
+            ),
+          ],
+        ),
+      ),
+    );
   }
 
   Widget _buildHeader(SortProvider sortProv, {bool isMobile = false}) {
@@ -778,7 +1502,7 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
                 ElevatedButton(
                   onPressed: selectedPath == null ? null : () {
                     Navigator.pop(context);
-                    prov.moveFilesTo(_selectedFiles, selectedPath!).then((_) => setState(() => _selectedFiles.clear()));
+                    prov.moveFilesTo(_selectedFiles.toList(), selectedPath!).then((_) => _clearSelection());
                   },
                   style: ElevatedButton.styleFrom(backgroundColor: AppTheme.accentBlue),
                   child: const Text('Pindah', style: TextStyle(color: Colors.white)),

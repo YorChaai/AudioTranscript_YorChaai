@@ -208,21 +208,34 @@ def handle_exclude_mode(indexed_paths: list[tuple[int, Path]], base_folder: Path
         return indexed_paths
 
 
-def print_file_list_with_indices(indexed_paths: list[tuple[int, Path]], folder_label: str = "", base_folder: Path | None = None) -> None:
+def print_file_list_with_indices(indexed_paths: list[tuple[int, Path]], folder_label: str = "", base_folder: Path | None = None, durations: dict = None) -> None:
     """Print file list with consistent numbering"""
     if folder_label:
         print(f"\n📂 Folder: {folder_label}")
 
-    print("\n" + "-" * 72)
+    print("\n" + "-" * 85)
     for orig_idx, path in indexed_paths:
         media_type = "🎬" if path.suffix.lower() in VIDEO_EXTENSIONS else "🎵"
         size_mb = path.stat().st_size / (1024 * 1024)
+        
+        duration_str = ""
+        if durations and path in durations:
+            d = durations[path]
+            if d > 0:
+                hours = int(d // 3600)
+                mins = int((d % 3600) // 60)
+                secs = int(d % 60)
+                if hours > 0:
+                    duration_str = f" | {hours:02d}:{mins:02d}:{secs:02d}"
+                else:
+                    duration_str = f" | {mins:02d}:{secs:02d}"
+
         try:
             display_name = str(path.relative_to(base_folder)) if base_folder else path.name
         except ValueError:
             display_name = path.name
-        print(f"  [{orig_idx:>3}] {media_type} {display_name} ({size_mb:.1f} MB)")
-    print("-" * 72)
+        print(f"  [{orig_idx:>3}] {media_type} {display_name} ({size_mb:.1f} MB{duration_str})")
+    print("-" * 85)
 
 
 def print_menu_options(has_folder_context: bool = False) -> None:
@@ -269,12 +282,52 @@ def select_files_with_menu(
     original_folder_path = folder_label
     original_indexed_paths = indexed_paths[:]
     current_base_folder = base_folder
+    
+    # Global cache for durations
+    durations_cache = {}
+
+    def fetch_missing_durations(current_paths):
+        missing = [p for _, p in current_paths if p not in durations_cache]
+        if missing:
+            if len(missing) > 100:
+                print(f"\n⚠️  Ada {len(missing)} file yang akan dicek durasinya.")
+                print("   Mengecek durasi untuk ratusan/ribuan file bisa memakan waktu cukup lama (10-60 detik).")
+                ans = input("   Tampilkan durasi di menu? (y = Ya, n = Tidak, biarkan kosong = n): ").strip().lower()
+                if ans != 'y':
+                    for p in missing: durations_cache[p] = 0
+                    return
+
+            print("\n⏳ Mengecek durasi waktu video/audio (Mungkin butuh beberapa detik)...")
+            from concurrent.futures import ThreadPoolExecutor
+            import sys
+            # Assuming utils is importable, otherwise we just ignore
+            try:
+                sys.path.insert(0, str(Path(__file__).parent))
+                from utils import get_audio_info_technical
+                with ThreadPoolExecutor(max_workers=20) as executor:
+                    futures = {executor.submit(get_audio_info_technical, p): p for p in missing}
+                    for future in futures:
+                        p = futures[future]
+                        try:
+                            info = future.result()
+                            if info.get("success"):
+                                durations_cache[p] = info.get("duration", 0)
+                            else:
+                                durations_cache[p] = 0
+                        except:
+                            durations_cache[p] = 0
+            except Exception as e:
+                # Fallback on fail
+                for p in missing: durations_cache[p] = 0
 
     while True:
         has_folder_context = (original_folder_path != folder_label) or (main_folder_paths is not None)
 
+        # Pre-fetch durations before displaying
+        fetch_missing_durations(indexed_paths)
+
         # Display file list
-        print_file_list_with_indices(indexed_paths, folder_label, current_base_folder)
+        print_file_list_with_indices(indexed_paths, folder_label, current_base_folder, durations_cache)
 
         # Display menu options
         print_menu_options(has_folder_context=has_folder_context)
@@ -410,6 +463,36 @@ def display_language_selection() -> str | None:
     return LANGUAGE_CHOICES[lang_choice]["code"]
 
 
+def display_translation_selection() -> tuple[bool, str]:
+    """
+    Tanya apakah user ingin menerjemahkan hasil transkripsi.
+    Returns (do_translate, target_lang).
+    """
+    print("\n" + "-" * 50)
+    print("🌐 OPSI TERJEMAHAN")
+    print("-" * 50)
+    print("Terjemahkan hasil transkripsi ke bahasa lain?")
+    print("  [1] ✅ Ya, terjemahkan")
+    print("  [2] ❌ Tidak (simpan transkripsi asli saja)")
+
+    choice = input("Pilih (1/2): ").strip()
+
+    if choice != "1":
+        print("   → Tanpa terjemahan")
+        return False, "id"
+
+    print("\nMasukkan kode bahasa target terjemahan.")
+    print("  Contoh: id (Indonesian), en (English), ja (Japanese), zh (Chinese), ko (Korean), dll.")
+    target = input("Kode bahasa target: ").strip().lower()
+
+    if not target:
+        print("❌ Kode bahasa kosong, terjemahan dinonaktifkan.")
+        return False, "id"
+
+    print(f"   → Akan diterjemahkan ke: '{target}'")
+    return True, target
+
+
 def filter_duplicate_media(files: list[Path]) -> list[Path]:
     """
     Menyaring file media duplikat (nama sama) di dalam folder yang sama.
@@ -473,6 +556,12 @@ def select_language_and_process(mode, selected_folder=None, media_files=None, se
     if language is None:
         return
 
+    # --- Tanya opsi terjemahan ---
+    do_translate, target_lang = display_translation_selection()
+
+    # Build translate flags jika aktif
+    translate_flags = ["--translate", "--target_lang", target_lang] if do_translate else []
+
     script_path = BASE_DIR / "src" / "transcribe.py"
 
     if mode == "custom_folder":
@@ -488,7 +577,7 @@ def select_language_and_process(mode, selected_folder=None, media_files=None, se
                 language,
                 str(selected_folder),
                 temp_path
-            ], timeout=86400)  # 24 hour max timeout
+            ] + translate_flags, timeout=86400)  # 24 hour max timeout
         except subprocess.TimeoutExpired:
             print("❌ Transcription timed out (>24 hours)")
         except Exception as e:
@@ -499,7 +588,10 @@ def select_language_and_process(mode, selected_folder=None, media_files=None, se
 
     elif mode == "folder":
         try:
-            subprocess.run([sys.executable, str(script_path), "folder", language], timeout=86400)
+            subprocess.run(
+                [sys.executable, str(script_path), "folder", language] + translate_flags,
+                timeout=86400
+            )
         except subprocess.TimeoutExpired:
             print("❌ Transcription timed out (>24 hours)")
     elif mode == "single":
@@ -509,9 +601,12 @@ def select_language_and_process(mode, selected_folder=None, media_files=None, se
                 subprocess.run([
                     sys.executable, str(script_path),
                     "single", language, str(selected_file)
-                ], timeout=86400)
+                ] + translate_flags, timeout=86400)
             else:
-                subprocess.run([sys.executable, str(script_path), "single", language], timeout=86400)
+                subprocess.run(
+                    [sys.executable, str(script_path), "single", language] + translate_flags,
+                    timeout=86400
+                )
         except subprocess.TimeoutExpired:
             print("❌ Transcription timed out (>24 hours)")
     elif mode == "multiple":
@@ -527,11 +622,14 @@ def select_language_and_process(mode, selected_folder=None, media_files=None, se
                     sys.executable, str(script_path),
                     "multiple", language,
                     temp_path
-                ], timeout=86400)
+                ] + translate_flags, timeout=86400)
                 try: os.remove(temp_path)
                 except: pass
             else:
-                subprocess.run([sys.executable, str(script_path), "multiple", language], timeout=86400)
+                subprocess.run(
+                    [sys.executable, str(script_path), "multiple", language] + translate_flags,
+                    timeout=86400
+                )
         except subprocess.TimeoutExpired:
             print("❌ Transcription timed out (>24 hours)")
 

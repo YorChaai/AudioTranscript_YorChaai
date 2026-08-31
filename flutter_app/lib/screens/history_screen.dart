@@ -80,8 +80,11 @@ class _HistoryScreenState extends State<HistoryScreen> {
   Widget build(BuildContext context) {
     final isWide = Responsive.isWide(context);
 
-    return SafeArea(
-      child: isWide ? _buildDesktopLayout() : _buildMobileLayout(),
+    return Scaffold(
+      backgroundColor: Colors.transparent,
+      body: SafeArea(
+        child: isWide ? _buildDesktopLayout() : _buildMobileLayout(),
+      ),
     );
   }
 
@@ -339,7 +342,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
                       Expanded(
                         flex: 2,
                         child: Text(
-                          h['output_file']?.toString().split('/').last ?? '-',
+                          h['output_file']?.toString().replaceAll('\\', '/').split('/').last ?? '-',
                           style: const TextStyle(
                             fontSize: 13,
                             color: AppTheme.textSecondary,

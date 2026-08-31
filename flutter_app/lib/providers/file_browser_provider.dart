@@ -26,7 +26,7 @@ class FileBrowserProvider extends ChangeNotifier {
     try {
       final result = await _repository.browseFiles(folder: folder);
       _items = List<Map<String, dynamic>>.from(result['items'] ?? []);
-      _currentPath = result['current_path'] as String? ?? '';
+      _currentPath = (result['current'] ?? result['current_path'])?.toString() ?? folder;
     } catch (e) {
       _errorMessage = e.toString();
     } finally {

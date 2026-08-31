@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:open_file/open_file.dart';
 import 'package:path_provider/path_provider.dart';
 import '../config/theme.dart';
+import '../config/api_config.dart';
 import '../services/api_service.dart';
 import '../widgets/responsive_layout.dart';
 import '../widgets/sort_menu.dart';
@@ -51,14 +52,70 @@ class _SummaryScreenState extends State<SummaryScreen> {
   final ScrollController _editorScrollController = ScrollController();
   final ScrollController _mobileScrollController = ScrollController();
 
-  String _selectedModel = 'qwen3:8b';
-  final Map<String, String> _models = {
-    'qwen2.5:72b': 'Qwen 2.5 72B',
-    'qwen2.5:32b': 'Qwen 2.5 32B',
-    'qwen3:30b': 'Qwen 3 30B',
-    'qwen3:8b': 'Qwen 3 8B',
-    'llama3.1:70b': 'Llama 3.1 70B',
-  };
+  static const List<Map<String, dynamic>> _defaultCloudModels = [
+    {
+      'id': 'gemini-2.0-flash',
+      'name': 'Google Gemini 2.0 Flash',
+      'provider': 'gemini',
+      'badge': 'Cepat & Gratis',
+    },
+    {
+      'id': 'gemini-1.5-flash',
+      'name': 'Google Gemini 1.5 Flash',
+      'provider': 'gemini',
+      'badge': 'Rekomendasi',
+    },
+    {
+      'id': 'gemini-1.5-pro',
+      'name': 'Google Gemini 1.5 Pro',
+      'provider': 'gemini',
+      'badge': 'Akurasi Tinggi',
+    },
+    {
+      'id': 'claude-3-5-sonnet-20241022',
+      'name': 'Claude 3.5 Sonnet',
+      'provider': 'claude',
+      'badge': 'Kualitas Terbaik',
+    },
+    {
+      'id': 'claude-3-5-haiku-20241022',
+      'name': 'Claude 3.5 Haiku',
+      'provider': 'claude',
+      'badge': 'Cepat & Ringan',
+    },
+    {
+      'id': 'grok-2-latest',
+      'name': 'xAI Grok 2',
+      'provider': 'grok',
+      'badge': 'Reasoning Cerdas',
+    },
+    {
+      'id': 'grok-beta',
+      'name': 'xAI Grok Beta',
+      'provider': 'grok',
+      'badge': 'Cepat',
+    },
+    {
+      'id': 'gpt-4o-mini',
+      'name': 'OpenAI GPT-4o Mini',
+      'provider': 'openai',
+      'badge': 'Hemat',
+    },
+    {
+      'id': 'gpt-4o',
+      'name': 'OpenAI GPT-4o',
+      'provider': 'openai',
+      'badge': 'Flagship',
+    },
+  ];
+
+  String _selectedModel = 'gemini-2.0-flash';
+  String _selectedProvider = 'gemini';
+  String _customModelName = '';
+  List<Map<String, dynamic>> _ollamaModels = [];
+  List<Map<String, dynamic>> _cloudModels = List.from(_defaultCloudModels);
+  bool _ollamaOnline = false;
+  bool _loadingModels = false;
 
   Timer? _pollTimer;
 
@@ -67,9 +124,38 @@ class _SummaryScreenState extends State<SummaryScreen> {
     super.initState();
     _loadFiles();
     _loadSummaries();
+    _loadModels();
     if (widget.initialFilePath != null) {
       _selectedFile = widget.initialFilePath;
       _loadContent(widget.initialFilePath!);
+    }
+  }
+
+  Future<void> _loadModels() async {
+    setState(() => _loadingModels = true);
+    try {
+      final res = await ApiService.getSummaryModels();
+      final ollama = List<Map<String, dynamic>>.from(res['ollama_models'] ?? []);
+      final cloud = List<Map<String, dynamic>>.from(res['cloud_models'] ?? []);
+      final isOnline = res['ollama_online'] == true;
+
+      setState(() {
+        _ollamaModels = ollama;
+        if (cloud.isNotEmpty) {
+          _cloudModels = cloud;
+        }
+        _ollamaOnline = isOnline;
+        _loadingModels = false;
+
+        // If local Ollama has models, prefer selecting local Ollama model
+        if (_ollamaModels.isNotEmpty && _selectedProvider == 'ollama') {
+          if (!_ollamaModels.any((m) => m['name'] == _selectedModel)) {
+            _selectedModel = _ollamaModels.first['name'];
+          }
+        }
+      });
+    } catch (e) {
+      setState(() => _loadingModels = false);
     }
   }
 
@@ -157,17 +243,236 @@ class _SummaryScreenState extends State<SummaryScreen> {
     }
   }
 
+  String? _getApiKeyForProvider(String provider) {
+    switch (provider.toLowerCase()) {
+      case 'gemini':
+        return ApiConfig.geminiApiKey;
+      case 'claude':
+        return ApiConfig.claudeApiKey;
+      case 'grok':
+        return ApiConfig.grokApiKey;
+      case 'openai':
+        return ApiConfig.openaiApiKey;
+      default:
+        return null;
+    }
+  }
+
+  Widget _buildApiKeyInputRow(String label, String provider, TextEditingController controller, String docUrl) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Row(
+          children: [
+            Expanded(
+              child: Text(
+                label,
+                style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w600, color: Colors.white),
+                overflow: TextOverflow.ellipsis,
+              ),
+            ),
+            const SizedBox(width: 8),
+            Text(
+              docUrl,
+              style: const TextStyle(fontSize: 11, color: AppTheme.textMuted),
+            ),
+          ],
+        ),
+        const SizedBox(height: 6),
+        TextField(
+          controller: controller,
+          obscureText: true,
+          style: const TextStyle(fontSize: 13),
+          decoration: InputDecoration(
+            hintText: 'Paste $provider API Key...',
+            isDense: true,
+            prefixIcon: const Icon(Icons.key_rounded, size: 16),
+            suffixIcon: IconButton(
+              icon: const Icon(Icons.paste_rounded, size: 16),
+              tooltip: 'Paste',
+              onPressed: () async {
+                final data = await Clipboard.getData(Clipboard.kTextPlain);
+                if (data?.text != null) {
+                  controller.text = data!.text!.trim();
+                }
+              },
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+
+  Future<void> _showAllApiKeysDialog({String? focusProvider}) async {
+    final geminiController = TextEditingController(text: ApiConfig.geminiApiKey);
+    final claudeController = TextEditingController(text: ApiConfig.claudeApiKey);
+    final grokController = TextEditingController(text: ApiConfig.grokApiKey);
+    final openaiController = TextEditingController(text: ApiConfig.openaiApiKey);
+
+    await showDialog(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        backgroundColor: AppTheme.cardDark,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+        title: const Row(
+          children: [
+            Icon(Icons.vpn_key_rounded, color: AppTheme.accentCyan, size: 22),
+            SizedBox(width: 10),
+            Text('Kelola API Key Cloud AI', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+          ],
+        ),
+        content: SizedBox(
+          width: 500,
+          child: SingleChildScrollView(
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                const Text(
+                  'Masukkan API Key untuk model Cloud AI yang ingin Anda gunakan. Kunci ini akan disimpan selama sesi aplikasi:',
+                  style: TextStyle(fontSize: 13, color: AppTheme.textSecondary),
+                ),
+                const SizedBox(height: 18),
+                _buildApiKeyInputRow('🟣 Google Gemini API Key', 'gemini', geminiController, 'aistudio.google.com'),
+                const SizedBox(height: 14),
+                _buildApiKeyInputRow('🟠 Anthropic Claude API Key', 'claude', claudeController, 'console.anthropic.com'),
+                const SizedBox(height: 14),
+                _buildApiKeyInputRow('⚫ xAI Grok API Key', 'grok', grokController, 'console.x.ai'),
+                const SizedBox(height: 14),
+                _buildApiKeyInputRow('🟢 OpenAI API Key', 'openai', openaiController, 'platform.openai.com'),
+              ],
+            ),
+          ),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(ctx),
+            child: const Text('Batal', style: TextStyle(color: AppTheme.textMuted)),
+          ),
+          ElevatedButton(
+            onPressed: () {
+              ApiConfig.geminiApiKey = geminiController.text.trim();
+              ApiConfig.claudeApiKey = claudeController.text.trim();
+              ApiConfig.grokApiKey = grokController.text.trim();
+              ApiConfig.openaiApiKey = openaiController.text.trim();
+              Navigator.pop(ctx);
+              setState(() {});
+              if (mounted) {
+                UiUtils.showSnackBar(context, '✅ API Key Cloud AI berhasil disimpan!');
+              }
+            },
+            style: ElevatedButton.styleFrom(
+              backgroundColor: AppTheme.accentCyan,
+              foregroundColor: Colors.white,
+            ),
+            child: const Text('Simpan Kunci'),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Future<bool> _ensureApiKey(String provider) async {
+    final key = _getApiKeyForProvider(provider);
+    if (key != null && key.isNotEmpty) return true;
+    await _showAllApiKeysDialog(focusProvider: provider);
+    final updated = _getApiKeyForProvider(provider);
+    return updated != null && updated.isNotEmpty;
+  }
+
+  Future<void> _showCustomModelDialog() async {
+    final controller = TextEditingController(text: _customModelName);
+    final result = await showDialog<String>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        backgroundColor: AppTheme.cardDark,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+        title: const Row(
+          children: [
+            Icon(Icons.edit_note_rounded, color: AppTheme.accentCyan, size: 22),
+            SizedBox(width: 10),
+            Text('Model Custom', style: TextStyle(fontSize: 18)),
+          ],
+        ),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const Text(
+              'Masukkan nama model Ollama atau model lain yang terinstall di komputer Anda:',
+              style: TextStyle(fontSize: 13, color: AppTheme.textSecondary),
+            ),
+            const SizedBox(height: 16),
+            TextField(
+              controller: controller,
+              decoration: const InputDecoration(
+                hintText: 'Contoh: mistral:7b, deepseek-r1:8b, dll.',
+                prefixIcon: Icon(Icons.memory_rounded, size: 18),
+              ),
+            ),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(ctx),
+            child: const Text('Batal', style: TextStyle(color: AppTheme.textMuted)),
+          ),
+          ElevatedButton(
+            onPressed: () {
+              if (controller.text.trim().isNotEmpty) {
+                Navigator.pop(ctx, controller.text.trim());
+              }
+            },
+            style: ElevatedButton.styleFrom(
+              backgroundColor: AppTheme.accentCyan,
+              foregroundColor: Colors.white,
+            ),
+            child: const Text('Gunakan'),
+          ),
+        ],
+      ),
+    );
+
+    if (result != null && result.isNotEmpty) {
+      setState(() {
+        _customModelName = result;
+        _selectedModel = result;
+        _selectedProvider = 'ollama';
+      });
+    }
+  }
+
   Future<void> _generateSummary() async {
     if (_selectedFile == null) return;
+
+    if (_selectedModel.isEmpty) {
+      UiUtils.showSnackBar(context, 'Pilih model terlebih dahulu!', isError: true);
+      return;
+    }
+
+    // Check Cloud AI API Key if needed
+    if (_selectedProvider == 'gemini' || _selectedProvider == 'grok' || _selectedProvider == 'openai') {
+      final hasKey = await _ensureApiKey(_selectedProvider);
+      if (!hasKey) {
+        if (mounted) {
+          UiUtils.showSnackBar(context, 'API Key diperlukan untuk menggunakan model cloud ini!', isError: true);
+        }
+        return;
+      }
+    }
+
     setState(() {
       _generating = true;
       _status = 'Memulai pembuatan ringkasan...';
     });
 
     try {
+      final apiKey = _getApiKeyForProvider(_selectedProvider);
       final res = await ApiService.startSummary(
         txtFile: _selectedFile!,
         model: _selectedModel,
+        provider: _selectedProvider,
+        apiKey: apiKey,
       );
       final jobId = res['job_id'];
 
@@ -195,8 +500,13 @@ class _SummaryScreenState extends State<SummaryScreen> {
               _generating = false;
               _status = 'Selesai!';
             });
-            // Auto reload content to see if summary was appended or created
-            _loadContent(_selectedFile!);
+            _loadSummaries();
+            final outPath = statusRes['output_file'] as String?;
+            if (outPath != null && outPath.isNotEmpty) {
+              _loadContent(outPath);
+            } else if (_selectedFile != null) {
+              _loadContent(_selectedFile!);
+            }
             UiUtils.showSnackBar(context, '✅ Ringkasan berhasil dibuat!');
           } else if (status == 'failed' || statusRes['error'] != null) {
             timer.cancel();
@@ -221,7 +531,7 @@ class _SummaryScreenState extends State<SummaryScreen> {
   Future<void> _downloadFile(String filepath) async {
     try {
       final bytes = await ApiService.downloadFile(filepath);
-      final filename = filepath.split('/').last;
+      final filename = filepath.replaceAll('\\', '/').split('/').last;
 
       final dir = await getApplicationDocumentsDirectory();
       final file = File('${dir.path}/$filename');
@@ -452,25 +762,28 @@ class _SummaryScreenState extends State<SummaryScreen> {
   }
 
   Widget _buildFileListPanel(SortProvider sortProv, {required bool isMobile}) {
-    return Container(
-      decoration: BoxDecoration(
-        color: AppTheme.cardDark,
+    return Material(
+      color: AppTheme.cardDark,
+      shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: AppTheme.dividerColor),
+        side: const BorderSide(color: AppTheme.dividerColor),
       ),
+      clipBehavior: Clip.antiAlias,
       child: Column(
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Padding(
-            padding: const EdgeInsets.fromLTRB(20, 16, 8, 12),
+            padding: const EdgeInsets.fromLTRB(16, 12, 8, 12),
             child: Row(
               children: [
-                const Text(
-                  'File Transcript',
-                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.w700),
+                const Expanded(
+                  child: Text(
+                    'File Transcript',
+                    style: TextStyle(fontSize: 15, fontWeight: FontWeight.w700),
+                    overflow: TextOverflow.ellipsis,
+                  ),
                 ),
-                const Spacer(),
                 SortMenu(
                   sortBy: sortProv.sortBy,
                   sortAscending: sortProv.sortAscending,
@@ -480,6 +793,7 @@ class _SummaryScreenState extends State<SummaryScreen> {
                 IconButton(
                   onPressed: _loadFiles,
                   icon: const Icon(Icons.refresh_rounded, size: 20),
+                  tooltip: 'Refresh',
                 ),
               ],
             ),
@@ -557,83 +871,89 @@ class _SummaryScreenState extends State<SummaryScreen> {
 
   Widget _buildFileTile(Map<String, dynamic> file) {
     final isSelected = _selectedFile == file['path'];
-    return ListTile(
-      dense: true,
-      leading: Container(
-        width: 36,
-        height: 36,
-        decoration: BoxDecoration(
-          color: (isSelected ? AppTheme.accentCyan : AppTheme.textMuted)
-              .withOpacity(0.15),
-          borderRadius: BorderRadius.circular(8),
+    return Material(
+      color: Colors.transparent,
+      child: ListTile(
+        dense: true,
+        leading: Container(
+          width: 36,
+          height: 36,
+          decoration: BoxDecoration(
+            color: (isSelected ? AppTheme.accentCyan : AppTheme.textMuted)
+                .withOpacity(0.15),
+            borderRadius: BorderRadius.circular(8),
+          ),
+          child: Icon(
+            Icons.description_rounded,
+            color: isSelected ? AppTheme.accentCyan : AppTheme.textMuted,
+            size: 18,
+          ),
         ),
-        child: Icon(
-          Icons.description_rounded,
-          color: isSelected ? AppTheme.accentCyan : AppTheme.textMuted,
-          size: 18,
+        title: Text(
+          file['name'],
+          style: TextStyle(
+            fontSize: 13,
+            fontWeight: isSelected ? FontWeight.w600 : FontWeight.w500,
+            color: isSelected ? AppTheme.accentCyan : AppTheme.textPrimary,
+          ),
+          maxLines: 1,
+          overflow: TextOverflow.ellipsis,
         ),
-      ),
-      title: Text(
-        file['name'],
-        style: TextStyle(
-          fontSize: 13,
-          fontWeight: isSelected ? FontWeight.w600 : FontWeight.w500,
-          color: isSelected ? AppTheme.accentCyan : AppTheme.textPrimary,
+        subtitle: Text(
+          '${file["label"]} · ${UiUtils.formatSize(file["size"] ?? 0)}',
+          style: const TextStyle(fontSize: 11, color: AppTheme.textMuted),
         ),
-        maxLines: 1,
-        overflow: TextOverflow.ellipsis,
+        selected: isSelected,
+        selectedTileColor: AppTheme.accentCyan.withOpacity(0.05),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+        onTap: () => _loadContent(file['path']),
       ),
-      subtitle: Text(
-        '${file["label"]} · ${UiUtils.formatSize(file["size"] ?? 0)}',
-        style: const TextStyle(fontSize: 11, color: AppTheme.textMuted),
-      ),
-      selected: isSelected,
-      selectedTileColor: AppTheme.accentCyan.withOpacity(0.05),
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
-      onTap: () => _loadContent(file['path']),
     );
   }
 
   Widget _buildFolderTile(Map<String, dynamic> folder) {
-    return ListTile(
-      contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-      leading: Container(
-        width: 36,
-        height: 36,
-        decoration: BoxDecoration(
-          color: AppTheme.browserColor.withOpacity(0.15),
-          borderRadius: BorderRadius.circular(8),
+    return Material(
+      color: Colors.transparent,
+      child: ListTile(
+        contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+        leading: Container(
+          width: 36,
+          height: 36,
+          decoration: BoxDecoration(
+            color: AppTheme.browserColor.withOpacity(0.15),
+            borderRadius: BorderRadius.circular(8),
+          ),
+          child: const Icon(
+            Icons.folder_rounded,
+            size: 18,
+            color: AppTheme.browserColor,
+          ),
         ),
-        child: const Icon(
-          Icons.folder_rounded,
-          size: 18,
-          color: AppTheme.browserColor,
+        title: Text(
+          folder['name'] ?? 'Folder',
+          style: const TextStyle(
+            fontSize: 13,
+            fontWeight: FontWeight.w500,
+            color: AppTheme.textPrimary,
+          ),
+          maxLines: 1,
+          overflow: TextOverflow.ellipsis,
         ),
+        subtitle: Text(
+          '${folder['file_count'] ?? 0} files',
+          style: const TextStyle(
+            fontSize: 11,
+            color: AppTheme.textMuted,
+          ),
+        ),
+        onTap: () {
+          setState(() {
+            _pathHistory.add(_currentPath);
+            _currentPath = folder['path'];
+          });
+          _loadFiles();
+        },
       ),
-      title: Text(
-        folder['name'] ?? 'Folder',
-        style: const TextStyle(
-          fontSize: 13,
-          fontWeight: FontWeight.w500,
-          color: AppTheme.textPrimary,
-        ),
-        maxLines: 1,
-        overflow: TextOverflow.ellipsis,
-      ),
-      subtitle: Text(
-        '${folder['file_count'] ?? 0} files',
-        style: const TextStyle(
-          fontSize: 11,
-          color: AppTheme.textMuted,
-        ),
-      ),
-      onTap: () {
-        setState(() {
-          _pathHistory.add(_currentPath);
-          _currentPath = folder['path'];
-        });
-        _loadFiles();
-      },
     );
   }
 
@@ -700,12 +1020,13 @@ class _SummaryScreenState extends State<SummaryScreen> {
   }
 
   Widget _buildEditorPanel() {
-    return Container(
-      decoration: BoxDecoration(
-        color: AppTheme.cardDark,
+    return Material(
+      color: AppTheme.cardDark,
+      shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: AppTheme.dividerColor),
+        side: const BorderSide(color: AppTheme.dividerColor),
       ),
+      clipBehavior: Clip.antiAlias,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -744,31 +1065,236 @@ class _SummaryScreenState extends State<SummaryScreen> {
 
   Widget _buildGenerationControls() {
     final isWide = Responsive.isWide(context);
-    
-    final modelDropdown = Row(
-      children: [
-        const Text("Model: "),
-        const SizedBox(width: 8),
-        Expanded(
-          child: DropdownButton<String>(
-            value: _selectedModel,
-            isExpanded: true,
-            dropdownColor: AppTheme.cardDark,
-            underline: const SizedBox(),
-            items: _models.entries.map((e) {
-              return DropdownMenuItem(
-                value: e.key,
-                child: Text(e.value, style: const TextStyle(fontSize: 14)),
-              );
-            }).toList(),
-            onChanged: (val) {
-              if (val != null) {
-                setState(() => _selectedModel = val);
-              }
-            },
+    final isCloudModel = _selectedProvider == 'gemini' || _selectedProvider == 'grok' || _selectedProvider == 'openai';
+
+    // Prepare dynamic dropdown items
+    final List<DropdownMenuItem<String>> dropdownItems = [];
+
+    // --- 1. LOCAL OLLAMA MODELS ---
+    dropdownItems.add(
+      const DropdownMenuItem<String>(
+        enabled: false,
+        value: '__header_ollama__',
+        child: Row(
+          children: [
+            Icon(Icons.computer_rounded, size: 16, color: AppTheme.accentCyan),
+            SizedBox(width: 8),
+            Text(
+              'LOKAL OLLAMA (Dinamis)',
+              style: TextStyle(
+                fontSize: 11,
+                fontWeight: FontWeight.bold,
+                color: AppTheme.accentCyan,
+                letterSpacing: 0.5,
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+
+    if (_ollamaModels.isEmpty) {
+      dropdownItems.add(
+        DropdownMenuItem<String>(
+          enabled: false,
+          value: '__no_ollama__',
+          child: Padding(
+            padding: const EdgeInsets.only(left: 12.0),
+            child: Text(
+              _ollamaOnline ? 'Belum ada model terinstall di Ollama' : 'Ollama Offline / Tidak Terdeteksi',
+              style: const TextStyle(fontSize: 13, color: AppTheme.textMuted, fontStyle: FontStyle.italic),
+            ),
           ),
         ),
-      ],
+      );
+    } else {
+      for (final m in _ollamaModels) {
+        final name = m['name'] as String? ?? '';
+        final display = m['display'] as String? ?? name;
+        dropdownItems.add(
+          DropdownMenuItem<String>(
+            value: name,
+            child: Padding(
+              padding: const EdgeInsets.only(left: 8.0),
+              child: Row(
+                children: [
+                  const Icon(Icons.memory_rounded, size: 15, color: Colors.white70),
+                  const SizedBox(width: 8),
+                  Expanded(
+                    child: Text(
+                      display,
+                      style: const TextStyle(fontSize: 13, color: Colors.white),
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+        );
+      }
+    }
+
+    // --- 2. CLOUD AI MODELS (TEMPLATE / API TOKEN) ---
+    dropdownItems.add(
+      const DropdownMenuItem<String>(
+        enabled: false,
+        value: '__header_cloud__',
+        child: Row(
+          children: [
+            Icon(Icons.cloud_rounded, size: 16, color: AppTheme.accentBlue),
+            SizedBox(width: 8),
+            Text(
+              'CLOUD AI (Butuh API Key)',
+              style: TextStyle(
+                fontSize: 11,
+                fontWeight: FontWeight.bold,
+                color: AppTheme.accentBlue,
+                letterSpacing: 0.5,
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+
+    for (final c in _cloudModels) {
+      final id = c['id'] as String? ?? '';
+      final name = c['name'] as String? ?? id;
+      final badge = c['badge'] as String? ?? '';
+      dropdownItems.add(
+        DropdownMenuItem<String>(
+          value: id,
+          child: Padding(
+            padding: const EdgeInsets.only(left: 8.0),
+            child: Row(
+              children: [
+                const Icon(Icons.auto_awesome_rounded, size: 15, color: AppTheme.accentBlue),
+                const SizedBox(width: 8),
+                Expanded(
+                  child: Text(
+                    name,
+                    style: const TextStyle(fontSize: 13, color: Colors.white),
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                ),
+                if (badge.isNotEmpty)
+                  Container(
+                    margin: const EdgeInsets.only(left: 6),
+                    padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                    decoration: BoxDecoration(
+                      color: AppTheme.accentBlue.withOpacity(0.2),
+                      borderRadius: BorderRadius.circular(6),
+                    ),
+                    child: Text(
+                      badge,
+                      style: const TextStyle(fontSize: 10, color: AppTheme.accentBlue),
+                    ),
+                  ),
+              ],
+            ),
+          ),
+        ),
+      );
+    }
+
+    // --- 3. CUSTOM MODEL OPTION ---
+    dropdownItems.add(
+      const DropdownMenuItem<String>(
+        value: '__custom__',
+        child: Padding(
+          padding: EdgeInsets.only(left: 8.0),
+          child: Row(
+            children: [
+              Icon(Icons.edit_note_rounded, size: 15, color: Colors.orangeAccent),
+              SizedBox(width: 8),
+              Text(
+                '✏️ Input Model Lain...',
+                style: TextStyle(fontSize: 13, color: Colors.orangeAccent),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+
+    final modelControl = Container(
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 2),
+      decoration: BoxDecoration(
+        color: AppTheme.backgroundDark,
+        borderRadius: BorderRadius.circular(10),
+        border: Border.all(color: AppTheme.dividerColor),
+      ),
+      child: Row(
+        children: [
+          const Icon(Icons.psychology_rounded, size: 18, color: AppTheme.accentCyan),
+          const SizedBox(width: 8),
+          Expanded(
+            child: DropdownButtonHideUnderline(
+              child: DropdownButton<String>(
+                value: dropdownItems.any((item) => item.value == _selectedModel) ? _selectedModel : null,
+                hint: Text(
+                  _selectedModel.isNotEmpty ? _selectedModel : 'Pilih Model AI...',
+                  style: const TextStyle(fontSize: 13, color: AppTheme.textSecondary),
+                  overflow: TextOverflow.ellipsis,
+                ),
+                isExpanded: true,
+                dropdownColor: AppTheme.cardDark,
+                items: dropdownItems,
+                onChanged: (val) {
+                  if (val == null) return;
+                  if (val == '__custom__') {
+                    _showCustomModelDialog();
+                    return;
+                  }
+
+                  // Find provider for selected model
+                  final cloudMatch = _cloudModels.firstWhere(
+                    (c) => c['id'] == val,
+                    orElse: () => <String, dynamic>{},
+                  );
+
+                  setState(() {
+                    _selectedModel = val;
+                    if (cloudMatch.isNotEmpty) {
+                      _selectedProvider = cloudMatch['provider'] ?? 'gemini';
+                      if (_getApiKeyForProvider(_selectedProvider)?.isNotEmpty != true) {
+                        WidgetsBinding.instance.addPostFrameCallback((_) {
+                          _showAllApiKeysDialog(focusProvider: _selectedProvider);
+                        });
+                      }
+                    } else {
+                      _selectedProvider = 'ollama';
+                    }
+                  });
+                },
+              ),
+            ),
+          ),
+          IconButton(
+            icon: Icon(
+              Icons.vpn_key_rounded,
+              size: 18,
+              color: isCloudModel && _getApiKeyForProvider(_selectedProvider)?.isNotEmpty != true
+                  ? AppTheme.warning
+                  : AppTheme.accentCyan,
+            ),
+            tooltip: 'Kelola API Key Cloud AI (Gemini, Claude, Grok, OpenAI)',
+            onPressed: () => _showAllApiKeysDialog(focusProvider: isCloudModel ? _selectedProvider : null),
+          ),
+          IconButton(
+            icon: _loadingModels
+                ? const SizedBox(
+                    width: 14,
+                    height: 14,
+                    child: CircularProgressIndicator(strokeWidth: 2, color: AppTheme.accentCyan),
+                  )
+                : const Icon(Icons.refresh_rounded, size: 18, color: AppTheme.textSecondary),
+            tooltip: 'Refresh Model Ollama Lokal',
+            onPressed: _loadingModels ? null : _loadModels,
+          ),
+        ],
+      ),
     );
 
     final generateButton = ElevatedButton.icon(
@@ -777,12 +1303,18 @@ class _SummaryScreenState extends State<SummaryScreen> {
           ? const SizedBox(
               width: 16,
               height: 16,
-              child: CircularProgressIndicator(strokeWidth: 2))
-          : const Icon(Icons.auto_awesome),
-      label: Text(_generating ? 'Memproses...' : 'Generate Summary'),
+              child: CircularProgressIndicator(strokeWidth: 2, color: Colors.white),
+            )
+          : const Icon(Icons.auto_awesome_rounded, size: 18),
+      label: Text(
+        _generating ? 'Memproses...' : 'Generate Summary',
+        style: const TextStyle(fontWeight: FontWeight.w600),
+      ),
       style: ElevatedButton.styleFrom(
         backgroundColor: AppTheme.accentCyan,
         foregroundColor: Colors.white,
+        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 14),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
       ),
     );
 
@@ -795,7 +1327,7 @@ class _SummaryScreenState extends State<SummaryScreen> {
           child: isWide
               ? Row(
                   children: [
-                    Expanded(child: modelDropdown),
+                    Expanded(child: modelControl),
                     const SizedBox(width: 12),
                     generateButton,
                   ],
@@ -803,8 +1335,8 @@ class _SummaryScreenState extends State<SummaryScreen> {
               : Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    modelDropdown,
-                    const SizedBox(height: 12),
+                    modelControl,
+                    const SizedBox(height: 10),
                     generateButton,
                   ],
                 ),
@@ -812,7 +1344,19 @@ class _SummaryScreenState extends State<SummaryScreen> {
         if (_generating)
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8),
-            child: Text(_status, style: const TextStyle(color: AppTheme.accentCyan)),
+            child: Row(
+              children: [
+                const SizedBox(
+                  width: 14,
+                  height: 14,
+                  child: CircularProgressIndicator(strokeWidth: 2, color: AppTheme.accentCyan),
+                ),
+                const SizedBox(width: 10),
+                Expanded(
+                  child: Text(_status, style: const TextStyle(color: AppTheme.accentCyan, fontSize: 13)),
+                ),
+              ],
+            ),
           ),
         const Divider(height: 1),
       ],
@@ -970,29 +1514,35 @@ class _SummaryScreenState extends State<SummaryScreen> {
                         itemBuilder: (context, index) {
                           if (index < _summaryFolders.length) {
                             final folder = _summaryFolders[index];
-                            return ListTile(
-                              leading: const Icon(Icons.folder_rounded, color: AppTheme.browserColor),
-                              title: Text(folder['name']),
-                              subtitle: Text('${folder['file_count']} files'),
-                              onTap: () {
-                                setState(() {
-                                  _summaryPathHistory.add(_currentSummaryPath);
-                                  _currentSummaryPath = folder['path'];
-                                });
-                                _loadSummaries();
-                              },
+                            return Material(
+                              color: Colors.transparent,
+                              child: ListTile(
+                                leading: const Icon(Icons.folder_rounded, color: AppTheme.browserColor),
+                                title: Text(folder['name']),
+                                subtitle: Text('${folder['file_count']} files'),
+                                onTap: () {
+                                  setState(() {
+                                    _summaryPathHistory.add(_currentSummaryPath);
+                                    _currentSummaryPath = folder['path'];
+                                  });
+                                  _loadSummaries();
+                                },
+                              ),
                             );
                           }
                           final file = _summaryFiles[index - _summaryFolders.length];
-                          return ListTile(
-                            leading: const Icon(Icons.description_rounded, color: AppTheme.accentCyan),
-                            title: Text(file['name']),
-                            subtitle: Text(UiUtils.formatSize(file['size'] ?? 0)),
-                            trailing: IconButton(
-                              icon: const Icon(Icons.download_rounded, color: AppTheme.accentCyan),
-                              onPressed: () => _downloadFile('summary/${file['path']}'),
+                          return Material(
+                            color: Colors.transparent,
+                            child: ListTile(
+                              leading: const Icon(Icons.description_rounded, color: AppTheme.accentCyan),
+                              title: Text(file['name']),
+                              subtitle: Text(UiUtils.formatSize(file['size'] ?? 0)),
+                              trailing: IconButton(
+                                icon: const Icon(Icons.download_rounded, color: AppTheme.accentCyan),
+                                onPressed: () => _downloadFile('summary/${file['path']}'),
+                              ),
+                              onTap: () => _downloadFile('summary/${file['path']}'),
                             ),
-                            onTap: () => _downloadFile('summary/${file['path']}'),
                           );
                         },
                       ),
