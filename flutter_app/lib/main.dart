@@ -11,12 +11,12 @@ import 'providers/sort_provider.dart';
 import 'providers/theme_provider.dart';
 import 'providers/language_provider.dart';
 import 'services/connection_service.dart';
-import 'screens/server_offline_screen.dart';
 import 'config/api_config.dart';
 import 'config/router.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await ApiConfig.init();
 
   // default: localhost untuk desktop, bisa diganti di settings
   if (ApiConfig.isDesktop) {
@@ -55,32 +55,7 @@ class AudioConvertApp extends StatelessWidget {
               scrollbars: false,
             ),
             builder: (context, child) {
-              return Consumer<ConnectionService>(
-                builder: (context, conn, _) {
-                  // Jika koneksi gagal, tampilkan ServerOfflineScreen dengan Navigator
-                  if (!conn.isConnected && !conn.isChecking) {
-                    return Navigator(
-                      onGenerateRoute: (_) => MaterialPageRoute(
-                        builder: (context) => const ServerOfflineScreen(),
-                      ),
-                    );
-                  }
-                  // Optional: Saat awal buka aplikasi (sedang cek pertama kali)
-                  if (conn.isChecking && !conn.isConnected && conn.serverTime == null) {
-                    return Navigator(
-                      onGenerateRoute: (_) => MaterialPageRoute(
-                        builder: (context) => Scaffold(
-                          backgroundColor: themeProv.currentPreset.background,
-                          body: Center(
-                            child: CircularProgressIndicator(color: themeProv.currentPreset.primary),
-                          ),
-                        ),
-                      ),
-                    );
-                  }
-                  return child ?? const SizedBox.shrink();
-                },
-              );
+              return child ?? const SizedBox.shrink();
             },
           );
         },

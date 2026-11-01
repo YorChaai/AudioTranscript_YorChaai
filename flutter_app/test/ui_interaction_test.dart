@@ -201,5 +201,30 @@ void main() {
 
       expect(find.byType(TranscribeScreen), findsOneWidget);
     });
+
+    testWidgets('7. Mobile Layout: HomeScreen and TranscribeScreen render without overflow on Android phone sizes', (tester) async {
+      // Test typical Android phone size (360 x 640)
+      tester.view.physicalSize = const Size(360, 640);
+      tester.view.devicePixelRatio = 1.0;
+      addTearDown(tester.view.resetPhysicalSize);
+
+      await tester.pumpWidget(createTestApp(const HomeScreen()));
+      await tester.pumpAndSettle();
+      expect(find.byType(HomeScreen), findsOneWidget);
+
+      await tester.pumpWidget(createTestApp(const TranscribeScreen()));
+      await tester.pumpAndSettle();
+      expect(find.byType(TranscribeScreen), findsOneWidget);
+
+      // Test extra small compact size (320 x 480)
+      tester.view.physicalSize = const Size(320, 480);
+      await tester.pumpWidget(createTestApp(const HomeScreen()));
+      await tester.pumpAndSettle();
+      expect(find.byType(HomeScreen), findsOneWidget);
+
+      await tester.pumpWidget(createTestApp(const TranscribeScreen()));
+      await tester.pumpAndSettle();
+      expect(find.byType(TranscribeScreen), findsOneWidget);
+    });
   });
 }

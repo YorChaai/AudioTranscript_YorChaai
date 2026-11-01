@@ -6,10 +6,14 @@ import '../screens/settings_dialog.dart';
 
 /// status bar koneksi server - tampil di header
 class ServerStatusBar extends StatelessWidget {
-  const ServerStatusBar({super.key});
+  final bool? compact;
+  const ServerStatusBar({super.key, this.compact});
 
   @override
   Widget build(BuildContext context) {
+    final screenWidth = MediaQuery.of(context).size.width;
+    final isCompact = compact ?? (screenWidth < 360);
+
     return Consumer<ConnectionService>(
       builder: (context, conn, _) {
         final isConnected = conn.isConnected;
@@ -22,7 +26,10 @@ class ServerStatusBar extends StatelessWidget {
               onTap: () => conn.checkConnection(),
               child: AnimatedContainer(
                 duration: const Duration(milliseconds: 300),
-                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                padding: EdgeInsets.symmetric(
+                  horizontal: isCompact ? 8 : 12,
+                  vertical: 6,
+                ),
                 decoration: BoxDecoration(
                   color: isChecking
                       ? AppTheme.warning.withOpacity(0.15)
@@ -67,15 +74,15 @@ class ServerStatusBar extends StatelessWidget {
                           ],
                         ),
                       ),
-                    const SizedBox(width: 8),
+                    const SizedBox(width: 6),
                     Text(
                       isChecking
-                          ? 'Connecting...'
+                          ? (isCompact ? '...' : 'Connecting...')
                           : isConnected
-                          ? 'Server Online'
-                          : 'Server Offline',
+                          ? (isCompact ? 'Online' : 'Server Online')
+                          : (isCompact ? 'Offline' : 'Server Offline'),
                       style: TextStyle(
-                        fontSize: 12,
+                        fontSize: isCompact ? 11 : 12,
                         fontWeight: FontWeight.w600,
                         color: isChecking
                             ? AppTheme.warning

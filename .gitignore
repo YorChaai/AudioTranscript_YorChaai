@@ -66,3 +66,5 @@ IMPLEMENTATION_SUMMARY.md
 
 # Ignored folders
 temp/
+
+output/

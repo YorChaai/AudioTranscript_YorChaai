@@ -192,11 +192,6 @@ def handle_custom_folder(args, model):
     print(f"  🎬 Video : {len(videos)} files (Akan di-convert ke MP3)")
     print(f"Lokasi output: {OUTPUT_MULTIPLE.name}")
     print("=" * 50)
-    
-    proceed = input("\nLanjutkan proses? (1 = Yes, 0 = No): ").strip()
-    if proceed == "0":
-        print("❌ Proses dibatalkan oleh pengguna.")
-        return []
 
     # Wait for files to be fully downloaded from cloud/OneDrive
     wait_for_downloads(media_files)

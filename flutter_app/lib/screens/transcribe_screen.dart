@@ -1147,14 +1147,14 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
                       final fldPath = _selectedFolders.first;
                       final fld = prov.folders.firstWhere(
                         (f) => (f['path'] as String? ?? f['name'] as String) == fldPath,
-                        orElse: () => {'name': fldPath.split('/').last, 'path': fldPath},
+                        orElse: () => {'name': fldPath.replaceAll('\\', '/').split('/').last, 'path': fldPath},
                       );
                       _showRenameDialog(currentPath: fldPath, currentName: fld['name'] ?? '', isFolder: true);
                     } else if (_selectedFiles.isNotEmpty) {
                       final fPath = _selectedFiles.first;
                       final file = prov.audioFiles.firstWhere(
                         (f) => (f['path'] as String? ?? f['name'] as String) == fPath,
-                        orElse: () => {'name': fPath.split('/').last, 'path': fPath},
+                        orElse: () => {'name': fPath.replaceAll('\\', '/').split('/').last, 'path': fPath},
                       );
                       _showRenameDialog(currentPath: fPath, currentName: file['name'] ?? '', isFolder: false);
                     }
@@ -1218,21 +1218,77 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
   }
 
   Widget _buildHeader(SortProvider sortProv, {bool isMobile = false}) {
+    if (isMobile) {
+      return Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          Row(
+            children: [
+              const Expanded(
+                child: Text(
+                  'File Audio Server',
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+              SortMenu(
+                sortBy: sortProv.sortBy,
+                sortAscending: sortProv.sortAscending,
+                onSortByChanged: (value) => sortProv.setSortBy(value),
+                onSortOrderChanged: (value) => sortProv.setSortOrder(value),
+              ),
+              const SizedBox(width: 8),
+              IconButton(
+                icon: const Icon(Icons.refresh, color: AppTheme.accentBlue),
+                onPressed: () {
+                  if (mounted) {
+                    context.read<TranscribeProvider>().loadAudioFiles();
+                  }
+                },
+                tooltip: 'Refresh',
+              ),
+            ],
+          ),
+          const SizedBox(height: 12),
+          TextField(
+            controller: _searchController,
+            style: const TextStyle(color: Colors.white),
+            decoration: InputDecoration(
+              hintText: 'Cari file...',
+              hintStyle: const TextStyle(color: AppTheme.textSecondary),
+              prefixIcon: const Icon(Icons.search, color: AppTheme.textSecondary),
+              filled: true,
+              fillColor: AppTheme.cardDark,
+              border: OutlineInputBorder(
+                borderRadius: BorderRadius.circular(12),
+                borderSide: const BorderSide(color: AppTheme.dividerColor),
+              ),
+              contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+            ),
+            onChanged: (val) => setState(() => _searchQuery = val),
+          ),
+        ],
+      );
+    }
+
     return Wrap(
       spacing: 12,
       runSpacing: 12,
       crossAxisAlignment: WrapCrossAlignment.center,
       children: [
-        Text(
+        const Text(
           'File Audio Server',
           style: TextStyle(
-            fontSize: isMobile ? 20 : 24,
+            fontSize: 24,
             fontWeight: FontWeight.bold,
             color: Colors.white,
           ),
         ),
         SizedBox(
-          width: isMobile ? double.infinity : 300,
+          width: 300,
           child: TextField(
             controller: _searchController,
             style: const TextStyle(color: Colors.white),

@@ -1,3 +1,4 @@
+import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:io' show Platform;
 import 'package:flutter/foundation.dart' show kIsWeb;
 
@@ -21,7 +22,7 @@ class ApiConfig {
       if (Platform.isWindows || Platform.isMacOS || Platform.isLinux) return '127.0.0.1';
     } catch (_) {}
     // Gunakan IP Address PC ini agar HP fisik bisa konek (sebagai fallback)
-    return '192.168.68.56';
+    return '192.168.68.52';
   }
   
   static int get _defaultPort {
@@ -65,9 +66,30 @@ class ApiConfig {
     return 'http://$clean:$_port';
   }
 
+  static const String _prefHostKey = 'api_server_host';
+  static const String _prefPortKey = 'api_server_port';
+
+  static Future<void> init() async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      final savedHost = prefs.getString(_prefHostKey);
+      final savedPort = prefs.getInt(_prefPortKey);
+      if (savedHost != null && savedHost.isNotEmpty) {
+        _host = _cleanHost(savedHost);
+      }
+      if (savedPort != null && savedPort > 0) {
+        _port = savedPort;
+      }
+    } catch (_) {}
+  }
+
   static void setServer(String host, {int port = 5000}) {
     _host = _cleanHost(host);
     _port = port;
+    SharedPreferences.getInstance().then((prefs) {
+      prefs.setString(_prefHostKey, _host);
+      prefs.setInt(_prefPortKey, _port);
+    }).catchError((_) {});
   }
 
   static String get host => _host;

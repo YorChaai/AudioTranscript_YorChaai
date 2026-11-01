@@ -1,4 +1,5 @@
 import os
+import gc
 from pathlib import Path
 from datetime import datetime
 from tqdm import tqdm
@@ -27,13 +28,13 @@ def transcribe_audio(model, audio_path: Path, language: str = None, verbose: boo
     if verbose:
         print(f"   Language mode: {lang_display}")
 
-    # Auto-Chunking for Large Files (> 1.5 hours)
-    CHUNK_THRESHOLD_SEC = 5400
-    CHUNK_LENGTH_SEC = 3600
+    # Auto-Chunking for Long Files (> 30 minutes to prevent RAM/OOM crash)
+    CHUNK_THRESHOLD_SEC = 1800
+    CHUNK_LENGTH_SEC = 1200
     
     if tech_info.get("success") and tech_info["duration"] > CHUNK_THRESHOLD_SEC:
         if verbose:
-            print(f"   ⚠️  DURASI SANGAT PANJANG ({tech_info['duration']/3600:.1f} Jam). AUTO-CHUNKING AKTIF.")
+            print(f"   ⚠️  DURASI PANJANG ({tech_info['duration']/60:.1f} Menit). AUTO-CHUNKING AKTIF.")
             print(f"      Memotong audio menjadi bagian {CHUNK_LENGTH_SEC//60} menit untuk mencegah crash (OOM)...")
         
         project_root = Path(__file__).parent.parent.parent
@@ -126,6 +127,8 @@ def transcribe_audio(model, audio_path: Path, language: str = None, verbose: boo
                         last_end_total += (chunk_duration - last_end_local)
                 except Exception as e:
                     if verbose: print(f"   ❌ Gagal memproses part {i+1}: {e}")
+                finally:
+                    gc.collect()
                     
             if pbar:
                 if (tech_info["duration"] - last_end_total) > 0:
@@ -138,6 +141,7 @@ def transcribe_audio(model, audio_path: Path, language: str = None, verbose: boo
                 chunk_dir.rmdir()
             except:
                 pass
+            gc.collect()
                 
             return {
                 "text": full_text.strip(),

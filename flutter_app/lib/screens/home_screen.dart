@@ -170,7 +170,7 @@ class HomeScreen extends StatelessWidget {
     }
 
     if (crossAxisCount == 1) {
-      return 2.4;
+      return width < 320 ? 1.85 : 2.1;
     }
 
     if (orientation == Orientation.landscape) {

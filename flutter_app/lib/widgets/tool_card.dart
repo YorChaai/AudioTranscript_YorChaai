@@ -31,18 +31,8 @@ class _ToolCardState extends State<ToolCard> {
     final mediaQuery = MediaQuery.of(context);
     final shortestSide = mediaQuery.size.shortestSide;
     final isCompact = shortestSide < 380;
-    final isVeryCompact = shortestSide < 340;
 
-    final borderRadius = BorderRadius.circular(isCompact ? 16 : 20);
-    final iconBoxSize = isVeryCompact ? 38.0 : (isCompact ? 42.0 : 46.0);
-    final iconSize = isVeryCompact ? 18.0 : 22.0;
-    final horizontalPadding = isVeryCompact ? 12.0 : 16.0;
-    final verticalPadding = isVeryCompact ? 12.0 : 16.0;
-    final titleFontSize = isVeryCompact ? 13.0 : 15.0;
-    final descFontSize = isVeryCompact ? 11.0 : 12.0;
-    final spacingSmall = isVeryCompact ? 8.0 : 12.0;
-    final descLines = isVeryCompact ? 2 : 3;
-
+    final borderRadius = BorderRadius.circular(isCompact ? 14 : 18);
     final isInteractive = _isHovered || _isPressed;
     final cardColor = isInteractive ? AppTheme.cardHover : AppTheme.cardDark;
     final borderColor =
@@ -68,9 +58,6 @@ class _ToolCardState extends State<ToolCard> {
             child: AnimatedContainer(
               duration: const Duration(milliseconds: 180),
               curve: Curves.easeOut,
-              constraints: const BoxConstraints(
-                minHeight: 132,
-              ),
               decoration: BoxDecoration(
                 color: cardColor,
                 borderRadius: borderRadius,
@@ -88,63 +75,144 @@ class _ToolCardState extends State<ToolCard> {
                       ]
                     : const [],
               ),
-              child: Padding(
-                padding: EdgeInsets.symmetric(
-                  horizontal: horizontalPadding,
-                  vertical: verticalPadding,
-                ),
-                child: LayoutBuilder(
-                  builder: (context, constraints) {
-                    final maxH = constraints.maxHeight;
-                    final maxW = constraints.maxWidth;
-                    final isShort = maxH < 125;
-                    final isVeryShort = maxH < 95;
-                    final narrowCard = maxW < 160;
+              child: LayoutBuilder(
+                builder: (context, constraints) {
+                  final maxH = constraints.maxHeight;
+                  final maxW = constraints.maxWidth;
+                  final hasBoundedH = constraints.hasBoundedHeight;
 
-                    final effectiveIconBoxSize = isVeryShort ? 28.0 : (isShort ? 34.0 : iconBoxSize);
-                    final effectiveIconSize = isVeryShort ? 15.0 : (isShort ? 18.0 : iconSize);
-                    final effectiveSpacing = isVeryShort ? 4.0 : (isShort ? 6.0 : spacingSmall);
+                  // Adaptive padding based on available height and width
+                  final vPadding = hasBoundedH
+                      ? (maxH < 90 ? 8.0 : (maxH < 120 ? 10.0 : (maxH < 150 ? 12.0 : 16.0)))
+                      : 14.0;
+                  final hPadding = maxW < 120 ? 8.0 : (maxW < 160 ? 12.0 : 16.0);
 
-                    return Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      mainAxisAlignment: MainAxisAlignment.start,
+                  // Adaptive icon box size
+                  final iconBoxSize = hasBoundedH
+                      ? (maxH < 85 ? 26.0 : (maxH < 110 ? 32.0 : (maxH < 140 ? 38.0 : 44.0)))
+                      : 42.0;
+                  final iconSize = iconBoxSize * 0.52;
+
+                  // Adaptive spacing
+                  final spacing = hasBoundedH
+                      ? (maxH < 95 ? 4.0 : (maxH < 130 ? 6.0 : 10.0))
+                      : 8.0;
+
+                  // Adaptive font size
+                  final titleFontSize = hasBoundedH
+                      ? (maxH < 90 ? 11.5 : (maxH < 120 ? 13.0 : 14.5))
+                      : 14.5;
+                  final descFontSize = (titleFontSize - 2.0).clamp(10.0, 12.0);
+
+                  // Calculate space left for description
+                  final titleLineHeight = titleFontSize * 1.25;
+                  final usedHeight = (vPadding * 2) + iconBoxSize + spacing + titleLineHeight;
+                  final remainingHeight = hasBoundedH ? (maxH - usedHeight) : 100.0;
+
+                  // Only show description if there is at least ~18px remaining space
+                  final canShowDesc = remainingHeight >= 18.0 && maxW >= 100;
+                  final descMaxLines = remainingHeight >= 40.0 ? 2 : 1;
+
+                  // Check if card is extremely wide and short -> render as horizontal Row
+                  final isWideFlat = maxW >= 190 && hasBoundedH && maxH < 100;
+
+                  Widget content;
+                  if (isWideFlat) {
+                    content = Row(
+                      crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Container(
-                          width: effectiveIconBoxSize,
-                          height: effectiveIconBoxSize,
+                          width: iconBoxSize,
+                          height: iconBoxSize,
+                          decoration: BoxDecoration(
+                            color: widget.color.withOpacity(0.14),
+                            borderRadius: BorderRadius.circular(8),
+                          ),
+                          child: Icon(
+                            widget.icon,
+                            color: widget.color,
+                            size: iconSize,
+                          ),
+                        ),
+                        const SizedBox(width: 10),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            mainAxisSize: MainAxisSize.min,
+                            children: [
+                              Text(
+                                widget.title,
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(
+                                  fontSize: titleFontSize,
+                                  fontWeight: FontWeight.w700,
+                                  height: 1.2,
+                                  color: AppTheme.textPrimary,
+                                ),
+                              ),
+                              if (canShowDesc) ...[
+                                const SizedBox(height: 2),
+                                Text(
+                                  widget.description,
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                  style: TextStyle(
+                                    fontSize: descFontSize,
+                                    height: 1.2,
+                                    color: AppTheme.textSecondary,
+                                  ),
+                                ),
+                              ],
+                            ],
+                          ),
+                        ),
+                      ],
+                    );
+                  } else {
+                    content = Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Container(
+                          width: iconBoxSize,
+                          height: iconBoxSize,
                           decoration: BoxDecoration(
                             color: widget.color.withOpacity(0.14),
                             borderRadius: BorderRadius.circular(
-                              isVeryShort ? 6 : (isShort ? 8 : (isVeryCompact ? 10 : 12)),
+                              iconBoxSize < 30 ? 6 : (iconBoxSize < 36 ? 8 : 10),
                             ),
                           ),
                           child: Icon(
                             widget.icon,
                             color: widget.color,
-                            size: effectiveIconSize,
+                            size: iconSize,
                           ),
                         ),
-                        SizedBox(height: effectiveSpacing),
+                        SizedBox(height: spacing),
                         Text(
                           widget.title,
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
                           style: TextStyle(
-                            fontSize: isShort ? (titleFontSize - 1).clamp(11.0, 16.0) : titleFontSize,
+                            fontSize: titleFontSize,
                             fontWeight: FontWeight.w700,
                             height: 1.2,
                             color: AppTheme.textPrimary,
                           ),
                         ),
-                        if (!isVeryShort) ...[
-                          const SizedBox(height: 2),
-                          Expanded(
+                        if (canShowDesc) ...[
+                          const SizedBox(height: 3),
+                          Flexible(
+                            fit: FlexFit.loose,
                             child: Text(
                               widget.description,
-                              maxLines: isShort ? 1 : (narrowCard ? 2 : descLines),
+                              maxLines: descMaxLines,
                               overflow: TextOverflow.ellipsis,
                               style: TextStyle(
-                                fontSize: isShort ? (descFontSize - 1).clamp(10.0, 14.0) : descFontSize,
+                                fontSize: descFontSize,
                                 height: 1.25,
                                 color: AppTheme.textSecondary,
                               ),
@@ -153,8 +221,18 @@ class _ToolCardState extends State<ToolCard> {
                         ],
                       ],
                     );
-                  },
-                ),
+                  }
+
+                  return Padding(
+                    padding: EdgeInsets.symmetric(
+                      horizontal: hPadding,
+                      vertical: vPadding,
+                    ),
+                    child: ClipRect(
+                      child: content,
+                    ),
+                  );
+                },
               ),
             ),
           ),

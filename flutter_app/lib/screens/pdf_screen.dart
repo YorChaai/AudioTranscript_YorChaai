@@ -87,7 +87,7 @@ class _PdfScreenState extends State<PdfScreen> {
         final result = await ApiService.convertToPdf(filepath);
         setState(() {
           _results.add({
-            'file': filepath.split('/').last,
+            'file': filepath.replaceAll('\\', '/').split('/').last,
             'success': true,
             'pdf': result['pdf_name'],
             'pdf_path': result['pdf_path'],
@@ -96,7 +96,7 @@ class _PdfScreenState extends State<PdfScreen> {
       } catch (e) {
         setState(() {
           _results.add({
-            'file': filepath.split('/').last,
+            'file': filepath.replaceAll('\\', '/').split('/').last,
             'success': false,
             'error': e.toString(),
           });

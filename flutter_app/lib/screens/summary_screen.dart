@@ -707,7 +707,7 @@ class _SummaryScreenState extends State<SummaryScreen> {
               ),
               Expanded(
                 child: Text(
-                  _selectedFile?.split('/').last ?? '',
+                  _selectedFile?.replaceAll('\\', '/').split('/').last ?? '',
                   style: const TextStyle(
                     fontSize: 14,
                     fontWeight: FontWeight.w600,
@@ -1040,7 +1040,7 @@ class _SummaryScreenState extends State<SummaryScreen> {
                   const SizedBox(width: 8),
                   Expanded(
                     child: Text(
-                      _selectedFile!.split('/').last,
+                      _selectedFile!.replaceAll('\\', '/').split('/').last,
                       style: const TextStyle(
                           fontSize: 14, fontWeight: FontWeight.w600),
                       overflow: TextOverflow.ellipsis,
