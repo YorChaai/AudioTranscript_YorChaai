@@ -95,8 +95,8 @@ class ApiConfig {
   static String get host => _host;
   static int get port => _port;
 
-  /// timeout untuk request biasa
-  static const Duration requestTimeout = Duration(seconds: 5);
+  /// timeout untuk request biasa (dinaikkan ke 15 detik agar tahan latency & koneksi lokal)
+  static const Duration requestTimeout = Duration(seconds: 15);
 
   /// timeout untuk upload file besar
   static const Duration uploadTimeout = Duration(minutes: 10);

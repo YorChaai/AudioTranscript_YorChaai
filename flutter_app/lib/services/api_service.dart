@@ -207,7 +207,7 @@ class ApiService {
       Uri.parse('$_base/transcribe'),
       headers: {'Content-Type': 'application/json'},
       body: json.encode(body),
-    ).timeout(ApiConfig.requestTimeout);
+    ).timeout(const Duration(seconds: 30));
     return await _processResponse(res);
   }
 

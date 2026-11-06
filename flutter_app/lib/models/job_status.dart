@@ -53,6 +53,8 @@ class JobStatus {
     switch (status) {
       case 'pending':
         return 'Menunggu antrean...';
+      case 'converting':
+        return 'Mengonversi video ke MP3...';
       case 'processing':
         return 'Sedang memproses...';
       case 'transcribing':

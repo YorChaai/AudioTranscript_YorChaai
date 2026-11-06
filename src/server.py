@@ -121,7 +121,15 @@ def _convert_video_to_mp3(video_path: Path, target_dir: Path = None) -> tuple[Pa
     _ensure_media_dirs()
     
     if target_dir is None:
-        target_dir = AUDIO_FOLDER
+        target_dir = video_path.parent
+        # Pastikan target_dir writable, jika tidak (misal folder sistem/proteksi) fallback ke AUDIO_FOLDER
+        try:
+            target_dir.mkdir(parents=True, exist_ok=True)
+            test_file = target_dir / f".tmp_{uuid.uuid4().hex[:6]}"
+            test_file.touch()
+            test_file.unlink()
+        except Exception:
+            target_dir = AUDIO_FOLDER
 
     mp3_name = f"{video_path.stem}.mp3"
     output_path = _unique_path(target_dir, mp3_name)
@@ -1001,14 +1009,6 @@ def start_transcribe():
         if not audio_path.exists():
             return jsonify({"error": f"File tidak ditemukan: {f}"}), 404
 
-        # Otomatis convert video ke MP3 sebelum transkripsi (seperti di run.bat)
-        if audio_path.suffix.lower() in VIDEO_EXTENSIONS:
-            try:
-                mp3_path, _ = _convert_video_to_mp3(audio_path)
-                audio_path = mp3_path
-            except Exception as e:
-                return jsonify({"error": f"Gagal konversi video {audio_path.name} ke MP3: {e}"}), 500
-
         job_id = str(uuid.uuid4())[:8]
         db.create_job(job_id, "transcribe", str(audio_path), language, do_translate, target_lang)
         job_ids.append(job_id)
@@ -1071,15 +1071,40 @@ def _update_job_status(job_id, status, progress=None, error=None, output_file=No
 def _run_transcribe(job_id, audio_path, language, do_translate, target_lang, beam_size=5):
     """background task untuk transcribe — real-time progress via callback + in-memory cache"""
     try:
-        _update_job_status(job_id, "loading_model", progress=1)
-        info(f"🔄 Job {job_id}: loading model...")
-
         if not audio_path.exists():
-            error_msg = f"Audio file not found: {audio_path}"
+            error_msg = f"Audio/Video file not found: {audio_path}"
             info(f"❌ Job {job_id}: {error_msg}")
             _update_job_status(job_id, "error", progress=0, error=error_msg)
             db.add_history(job_id, "transcribe", audio_path.name, None, language, "error", metadata={"error": error_msg})
             return
+
+        # Otomatis konversi video ke MP3 di background worker sebelum transkripsi
+        if audio_path.suffix.lower() in VIDEO_EXTENSIONS:
+            _update_job_status(job_id, "converting", progress=1)
+            info(f"🎬 Job {job_id}: Mengonversi video ke MP3 ({audio_path.name})...")
+            try:
+                # Cek jika file MP3 dengan nama yang sama sudah ada dan valid (tidak kosong)
+                mp3_candidate = audio_path.with_suffix(".mp3")
+                if mp3_candidate.exists() and mp3_candidate.stat().st_size > 1024 and mp3_candidate.stat().st_mtime >= audio_path.stat().st_mtime:
+                    info(f"⚡ File MP3 hasil konversi sudah ada: {mp3_candidate.name}, langsung menggunakan file tersebut.")
+                    audio_path = mp3_candidate
+                else:
+                    mp3_path, _ = _convert_video_to_mp3(audio_path)
+                    audio_path = mp3_path
+            except Exception as e:
+                error_msg = f"Gagal konversi video {audio_path.name} ke MP3: {e}"
+                info(f"❌ Job {job_id}: {error_msg}")
+                _update_job_status(job_id, "error", progress=0, error=error_msg)
+                db.add_history(job_id, "transcribe", audio_path.name, None, language, "error", metadata={"error": error_msg})
+                return
+
+        if _cancel_flags.get(job_id):
+            _update_job_status(job_id, "cancelled", progress=0)
+            _cancel_flags.pop(job_id, None)
+            return
+
+        _update_job_status(job_id, "loading_model", progress=2)
+        info(f"🔄 Job {job_id}: loading model...")
 
         _cleanup_old_jobs(max_age_hours=24)
         model = _get_model()
@@ -1126,7 +1151,10 @@ def _run_transcribe(job_id, audio_path, language, do_translate, target_lang, bea
             info(f"🛑 Job {job_id} dibatalkan")
             return
         
-        output_rel = str(out_path.relative_to(BASE_DIR))
+        try:
+            output_rel = str(out_path.relative_to(BASE_DIR))
+        except ValueError:
+            output_rel = str(out_path)
         _update_job_status(job_id, "completed", progress=PROGRESS_COMPLETED, output_file=output_rel)
 
         # Update duration in DB
