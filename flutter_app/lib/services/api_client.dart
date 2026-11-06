@@ -31,6 +31,8 @@ class ApiClient extends http.BaseClient {
           // If not json, use raw string if not too long
           if (respStr.isNotEmpty && respStr.length < 100) {
             errorMessage = respStr;
+          } else if (response.statusCode == 404) {
+            errorMessage = 'Endpoint tidak ditemukan di server (404). Silakan restart jendela "Backend Server" Python ke versi terbaru.';
           }
         }
         

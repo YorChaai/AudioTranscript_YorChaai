@@ -182,6 +182,25 @@ def _is_safe_path(target_path: Path, allowed_parents=None) -> bool:
 
 
 # ============================================================
+# ERROR HANDLERS
+# ============================================================
+@app.errorhandler(404)
+def handle_404(e):
+    return jsonify({
+        "error": "Endpoint tidak ditemukan di server (404). Pastikan jendela Backend Server Python telah di-restart ke versi terbaru.",
+        "status": 404
+    }), 404
+
+
+@app.errorhandler(500)
+def handle_500(e):
+    return jsonify({
+        "error": f"Terjadi kesalahan internal pada server (500): {str(e)}",
+        "status": 500
+    }), 500
+
+
+# ============================================================
 # HEALTH CHECK
 # ============================================================
 # Fix L2: Track health check calls for sampling
@@ -381,24 +400,32 @@ def scan_custom_path():
     audio_count = 0
     video_count = 0
 
-    if recursive:
-        raw_files = [item for item in target_dir.rglob("*") if item.is_file() and item.suffix.lower() in MEDIA_EXTENSIONS]
-        filtered = filter_duplicate_media(raw_files)
-    else:
-        for item in sorted(target_dir.iterdir()):
-            if item.is_dir():
-                if item.name.startswith(".") or item.name == "__pycache__":
-                    continue
-                media_count = sum(1 for x in item.rglob("*") if x.is_file() and x.suffix.lower() in MEDIA_EXTENSIONS)
-                folders.append({
-                    "name": item.name,
-                    "path": str(item.relative_to(folder_path)).replace('\\', '/'),
-                    "full_path": str(item.resolve()),
-                    "file_count": media_count,
-                })
+    try:
+        if recursive:
+            raw_files = [item for item in target_dir.rglob("*") if item.is_file() and item.suffix.lower() in MEDIA_EXTENSIONS]
+            filtered = filter_duplicate_media(raw_files)
+        else:
+            for item in sorted(target_dir.iterdir()):
+                if item.is_dir():
+                    if item.name.startswith(".") or item.name == "__pycache__":
+                        continue
+                    try:
+                        media_count = sum(1 for x in item.rglob("*") if x.is_file() and x.suffix.lower() in MEDIA_EXTENSIONS)
+                    except Exception:
+                        media_count = 0
+                    folders.append({
+                        "name": item.name,
+                        "path": str(item.relative_to(folder_path)).replace('\\', '/'),
+                        "full_path": str(item.resolve()),
+                        "file_count": media_count,
+                    })
 
-        raw_files = [item for item in target_dir.iterdir() if item.is_file() and item.suffix.lower() in MEDIA_EXTENSIONS]
-        filtered = filter_duplicate_media(raw_files)
+            raw_files = [item for item in target_dir.iterdir() if item.is_file() and item.suffix.lower() in MEDIA_EXTENSIONS]
+            filtered = filter_duplicate_media(raw_files)
+    except PermissionError:
+        return jsonify({"error": f"Akses ditolak: Tidak memiliki izin membaca folder {target_dir}"}), 403
+    except Exception as e:
+        return jsonify({"error": f"Gagal membaca isi folder: {e}"}), 500
 
     for f in filtered:
         is_vid = f.suffix.lower() in VIDEO_EXTENSIONS
@@ -413,14 +440,22 @@ def scan_custom_path():
         except ValueError:
             pass
 
+        try:
+            f_stat = f.stat()
+            f_size = f_stat.st_size
+            f_mtime = datetime.fromtimestamp(f_stat.st_mtime).isoformat()
+        except Exception:
+            f_size = 0
+            f_mtime = datetime.now().isoformat()
+
         file_info = {
             "name": f.name,
             "path": str(f.resolve()),
             "relative_path": rel_str,
             "is_video": is_vid,
-            "size": f.stat().st_size,
-            "size_mb": round(f.stat().st_size / (1024 * 1024), 2),
-            "modified": datetime.fromtimestamp(f.stat().st_mtime).isoformat(),
+            "size": f_size,
+            "size_mb": round(f_size / (1024 * 1024), 2),
+            "modified": f_mtime,
         }
 
         try:
