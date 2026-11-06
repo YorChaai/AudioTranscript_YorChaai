@@ -205,63 +205,91 @@ class TranscribeAudioGrid extends StatelessWidget {
     final folderPath = folder['path'] as String? ?? folder['name'] as String;
     final folderName = folder['name'] as String? ?? 'Folder';
     final isSelected = selectedFolders.contains(folderPath);
+    final fileCount = folder['file_count'] ?? 0;
 
-    return InkWell(
-      onTap: prov.transcribing
-          ? null
-          : () {
-              if (isSelectionMode) {
-                onToggleFolderSelection(folderPath);
-              } else {
-                onFolderNavigate(folderPath);
-              }
-            },
-      onLongPress: prov.transcribing ? null : () => onFolderLongPress(folderPath),
-      borderRadius: BorderRadius.circular(12),
-      child: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-        decoration: BoxDecoration(
-          color: isSelected ? AppTheme.browserColor.withOpacity(0.15) : AppTheme.cardDark,
-          borderRadius: BorderRadius.circular(12),
-          border: Border.all(
-            color: isSelected ? AppTheme.browserColor : AppTheme.dividerColor,
-            width: isSelected ? 2 : 1,
-          ),
+    return Container(
+      decoration: BoxDecoration(
+        color: isSelected ? AppTheme.browserColor.withOpacity(0.18) : AppTheme.cardDark,
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(
+          color: isSelected ? AppTheme.browserColor : AppTheme.dividerColor,
+          width: isSelected ? 2 : 1,
         ),
+      ),
+      child: Material(
+        color: Colors.transparent,
         child: Row(
           children: [
-            if (isSelectionMode) ...[
-              Icon(
-                isSelected ? Icons.check_box_rounded : Icons.check_box_outline_blank_rounded,
-                color: isSelected ? AppTheme.browserColor : AppTheme.textSecondary,
-                size: 22,
-              ),
-              const SizedBox(width: 8),
-            ],
-            const Icon(Icons.folder_rounded, color: AppTheme.browserColor, size: 28),
-            const SizedBox(width: 10),
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                mainAxisAlignment: MainAxisAlignment.center,
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  Text(
-                    folderName,
-                    style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 13),
-                    maxLines: 1,
-                    overflow: TextOverflow.ellipsis,
+            // 1. Checkbox khusus untuk memilih folder sekaligus
+            Tooltip(
+              message: isSelected ? 'Batal pilih folder' : 'Pilih seluruh folder untuk diproses',
+              child: InkWell(
+                borderRadius: const BorderRadius.horizontal(left: Radius.circular(12)),
+                onTap: prov.transcribing ? null : () => onToggleFolderSelection(folderPath),
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 12),
+                  child: Icon(
+                    isSelected ? Icons.check_box_rounded : Icons.check_box_outline_blank_rounded,
+                    color: isSelected ? AppTheme.browserColor : AppTheme.textSecondary.withOpacity(0.7),
+                    size: 22,
                   ),
-                  const SizedBox(height: 2),
-                  Text(
-                    '${folder['file_count'] ?? 0} files',
-                    style: const TextStyle(color: AppTheme.textSecondary, fontSize: 11),
-                    maxLines: 1,
-                    overflow: TextOverflow.ellipsis,
-                  ),
-                ],
+                ),
               ),
             ),
+
+            // 2. Klik pada ikon/nama folder SELALU masuk ke dalam folder
+            Expanded(
+              child: InkWell(
+                borderRadius: BorderRadius.circular(8),
+                onTap: prov.transcribing ? null : () => onFolderNavigate(folderPath),
+                onLongPress: prov.transcribing ? null : () => onToggleFolderSelection(folderPath),
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 4),
+                  child: Row(
+                    children: [
+                      const Icon(Icons.folder_rounded, color: AppTheme.browserColor, size: 26),
+                      const SizedBox(width: 8),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            Text(
+                              folderName,
+                              style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 13),
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                            const SizedBox(height: 2),
+                            Text(
+                              '$fileCount files',
+                              style: const TextStyle(color: AppTheme.textSecondary, fontSize: 11),
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+
+            // 3. Tombol panah masuk ke folder
+            Tooltip(
+              message: 'Masuk ke dalam folder',
+              child: IconButton(
+                icon: const Icon(Icons.chevron_right_rounded, color: AppTheme.textSecondary, size: 22),
+                onPressed: prov.transcribing ? null : () => onFolderNavigate(folderPath),
+                padding: EdgeInsets.zero,
+                constraints: const BoxConstraints(minWidth: 32, minHeight: 32),
+                visualDensity: VisualDensity.compact,
+              ),
+            ),
+
+            // 4. Menu opsi folder
             if (!isSelectionMode)
               SizedBox(
                 width: 28,
@@ -303,6 +331,7 @@ class TranscribeAudioGrid extends StatelessWidget {
                   ],
                 ),
               ),
+            const SizedBox(width: 4),
           ],
         ),
       ),

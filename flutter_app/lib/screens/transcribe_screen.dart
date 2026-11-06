@@ -27,6 +27,8 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
   bool _isSelectionMode = false;
   final Set<String> _selectedFiles = {};
   final Set<String> _selectedFolders = {};
+  final Map<String, Map<String, dynamic>> _selectedFileMetadata = {};
+  final Map<String, Map<String, dynamic>> _selectedFolderMetadata = {};
   String _language = 'auto';
   bool _doTranslate = false;
   String _targetLang = 'id';
@@ -1493,10 +1495,26 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
   }
 
   Widget _buildSidebar({required bool isMobile}) {
+    final selectedFileList = _selectedFiles.map((p) {
+      return _selectedFileMetadata[p] ?? {
+        'name': p.split(RegExp(r'[\\/]')).last,
+        'path': p,
+      };
+    }).toList();
+
+    final selectedFolderList = _selectedFolders.map((p) {
+      return _selectedFolderMetadata[p] ?? {
+        'name': p.split(RegExp(r'[\\/]')).last,
+        'path': p,
+      };
+    }).toList();
+
     return TranscribeSidebar(
       isMobile: isMobile,
       selectedFiles: _selectedFiles.toList(),
       selectedFolders: _selectedFolders.toList(),
+      selectedFileDetails: selectedFileList,
+      selectedFolderDetails: selectedFolderList,
       language: _language,
       doTranslate: _doTranslate,
       targetLang: _targetLang,
@@ -1510,10 +1528,12 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
       onClearSelection: _clearSelection,
       onRemoveFile: (path) => setState(() {
         _selectedFiles.remove(path);
+        _selectedFileMetadata.remove(path);
         if (_selectedFiles.isEmpty && _selectedFolders.isEmpty) _isSelectionMode = false;
       }),
       onRemoveFolder: (path) => setState(() {
         _selectedFolders.remove(path);
+        _selectedFolderMetadata.remove(path);
         if (_selectedFiles.isEmpty && _selectedFolders.isEmpty) _isSelectionMode = false;
       }),
       onStartTranscribe: _startTranscribe,
@@ -1529,8 +1549,15 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
     setState(() {
       if (_selectedFiles.contains(filePath)) {
         _selectedFiles.remove(filePath);
+        _selectedFileMetadata.remove(filePath);
       } else {
         _selectedFiles.add(filePath);
+        final prov = context.read<TranscribeProvider>();
+        final f = prov.displayFiles.firstWhere(
+          (item) => (item['path'] as String? ?? item['name'] as String) == filePath,
+          orElse: () => {'name': filePath.split(RegExp(r'[\\/]')).last, 'path': filePath},
+        );
+        _selectedFileMetadata[filePath] = Map<String, dynamic>.from(f);
         _isSelectionMode = true;
       }
       if (_selectedFiles.isEmpty && _selectedFolders.isEmpty) {
@@ -1543,8 +1570,15 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
     setState(() {
       if (_selectedFolders.contains(folderPath)) {
         _selectedFolders.remove(folderPath);
+        _selectedFolderMetadata.remove(folderPath);
       } else {
         _selectedFolders.add(folderPath);
+        final prov = context.read<TranscribeProvider>();
+        final f = prov.displayFolders.firstWhere(
+          (item) => (item['path'] as String? ?? item['name'] as String) == folderPath,
+          orElse: () => {'name': folderPath.split(RegExp(r'[\\/]')).last, 'path': folderPath},
+        );
+        _selectedFolderMetadata[folderPath] = Map<String, dynamic>.from(f);
         _isSelectionMode = true;
       }
       if (_selectedFiles.isEmpty && _selectedFolders.isEmpty) {
@@ -1554,17 +1588,11 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
   }
 
   void _onFileLongPress(String filePath) {
-    setState(() {
-      _isSelectionMode = true;
-      _selectedFiles.add(filePath);
-    });
+    _toggleFileSelection(filePath);
   }
 
   void _onFolderLongPress(String folderPath) {
-    setState(() {
-      _isSelectionMode = true;
-      _selectedFolders.add(folderPath);
-    });
+    _toggleFolderSelection(folderPath);
   }
 
   void _onFolderNavigate(String folderPath) {
@@ -1582,10 +1610,12 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
       for (final f in prov.displayFiles) {
         final path = f['path'] as String? ?? f['name'] as String;
         _selectedFiles.add(path);
+        _selectedFileMetadata[path] = Map<String, dynamic>.from(f);
       }
       for (final fld in prov.displayFolders) {
         final path = fld['path'] as String? ?? fld['name'] as String;
         _selectedFolders.add(path);
+        _selectedFolderMetadata[path] = Map<String, dynamic>.from(fld);
       }
     });
   }
@@ -1594,6 +1624,8 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
     setState(() {
       _selectedFiles.clear();
       _selectedFolders.clear();
+      _selectedFileMetadata.clear();
+      _selectedFolderMetadata.clear();
       _isSelectionMode = false;
     });
   }

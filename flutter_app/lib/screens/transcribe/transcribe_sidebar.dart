@@ -34,11 +34,16 @@ class TranscribeSidebar extends StatelessWidget {
   final ValueChanged<Map<String, dynamic>> onShowFileInfo;
   final VoidCallback? onOpenCustomFolder;
 
+  final List<Map<String, dynamic>>? selectedFileDetails;
+  final List<Map<String, dynamic>>? selectedFolderDetails;
+
   const TranscribeSidebar({
     super.key,
     required this.isMobile,
     required this.selectedFiles,
     this.selectedFolders = const [],
+    this.selectedFileDetails,
+    this.selectedFolderDetails,
     required this.language,
     required this.doTranslate,
     required this.targetLang,
@@ -65,12 +70,12 @@ class TranscribeSidebar extends StatelessWidget {
     final prov = context.watch<TranscribeProvider>();
     final langProv = context.watch<LanguageProvider>();
 
-    final selectedDetails = prov.displayFiles.where((f) {
+    final selectedDetails = selectedFileDetails ?? prov.displayFiles.where((f) {
       final path = f['path'] as String? ?? f['name'] as String;
       return selectedFiles.contains(path);
     }).toList();
 
-    final selectedFolderDetails = prov.displayFolders.where((fol) {
+    final selectedFoldersList = selectedFolderDetails ?? prov.displayFolders.where((fol) {
       final path = fol['path'] as String? ?? fol['name'] as String;
       return selectedFolders.contains(path);
     }).toList();
@@ -129,7 +134,7 @@ class TranscribeSidebar extends StatelessWidget {
                 const SizedBox(height: 12),
                 _buildSelectedFilesHeader(langProv),
                 const SizedBox(height: 8),
-                _buildSelectedFilesList(selectedDetails, selectedFolderDetails),
+                _buildSelectedFilesList(selectedDetails, selectedFoldersList),
               ],
 
               const Divider(height: 48, color: AppTheme.dividerColor),
@@ -283,8 +288,12 @@ class TranscribeSidebar extends StatelessWidget {
                           overflow: TextOverflow.ellipsis,
                         ),
                         Text(
-                          size,
+                          (f['relative_path'] != null && f['relative_path'] != name)
+                              ? '${f['relative_path']} • $size'
+                              : size,
                           style: const TextStyle(color: AppTheme.textSecondary, fontSize: 10),
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
                         ),
                       ],
                     ),
