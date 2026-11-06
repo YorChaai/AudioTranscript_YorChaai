@@ -22,7 +22,7 @@ from tqdm import tqdm
 from werkzeug.utils import secure_filename
 
 # Import shared modules
-from config import BASE_DIR, UPLOADS_DIR, VIDEO_UPLOAD_FOLDER, AUDIO_EXTENSIONS, VIDEO_EXTENSIONS, AUDIO_FOLDER, CONVERT_DIR, SUMMARY_DIR
+from config import BASE_DIR, UPLOADS_DIR, VIDEO_UPLOAD_FOLDER, AUDIO_EXTENSIONS, VIDEO_EXTENSIONS, MEDIA_EXTENSIONS, AUDIO_FOLDER, CONVERT_DIR, SUMMARY_DIR
 from api.middlewares import rate_limited_endpoint, require_api_key
 from core.ml_engine import MLEngine
 import database as db
@@ -342,8 +342,11 @@ def list_audio():
 def scan_custom_path():
     """
     Scan folder apapun di server untuk file audio/video (seperti Opsi 4 pada run.bat).
+    Mendukung penjelajahan bertingkat (hierarchical):
+    - Menampilkan subfolder langsung di dalam folder terpilih.
+    - Menampilkan file audio/video langsung di dalam folder tersebut.
+    - Jika subpath diberikan, menjelajah ke dalam subfolder tersebut.
     Otomatis menyaring media duplikat (mengutamakan audio daripada video).
-    Mengembalikan daftar file lengkap dengan durasi dan ukuran MB tanpa perlu upload!
     """
     from tinytag import TinyTag
     from main import filter_duplicate_media
@@ -351,6 +354,8 @@ def scan_custom_path():
     data = request.get_json() or {}
     folder_str = data.get("folder_path") or data.get("path") or ""
     folder_str = folder_str.strip().strip('"').strip("'")
+    subpath_str = (data.get("subpath") or "").strip().strip('/\\')
+    recursive = data.get("recursive", False)
 
     if not folder_str:
         return jsonify({"error": "Path folder tidak boleh kosong."}), 400
@@ -361,16 +366,39 @@ def scan_custom_path():
     if not folder_path.is_dir():
         return jsonify({"error": f"Path bukan sebuah folder: {folder_str}"}), 400
 
-    raw_files = []
-    for item in folder_path.rglob("*"):
-        if item.is_file() and item.suffix.lower() in MEDIA_EXTENSIONS:
-            raw_files.append(item)
-
-    filtered = filter_duplicate_media(raw_files)
+    target_dir = folder_path
+    if subpath_str:
+        target_dir = (folder_path / subpath_str).resolve()
+        try:
+            target_dir.relative_to(folder_path.resolve())
+        except ValueError:
+            return jsonify({"error": "Path traversal tidak diizinkan."}), 400
+        if not target_dir.exists() or not target_dir.is_dir():
+            return jsonify({"error": f"Subfolder tidak ditemukan: {subpath_str}"}), 404
 
     files = []
+    folders = []
     audio_count = 0
     video_count = 0
+
+    if recursive:
+        raw_files = [item for item in target_dir.rglob("*") if item.is_file() and item.suffix.lower() in MEDIA_EXTENSIONS]
+        filtered = filter_duplicate_media(raw_files)
+    else:
+        for item in sorted(target_dir.iterdir()):
+            if item.is_dir():
+                if item.name.startswith(".") or item.name == "__pycache__":
+                    continue
+                media_count = sum(1 for x in item.rglob("*") if x.is_file() and x.suffix.lower() in MEDIA_EXTENSIONS)
+                folders.append({
+                    "name": item.name,
+                    "path": str(item.relative_to(folder_path)).replace('\\', '/'),
+                    "full_path": str(item.resolve()),
+                    "file_count": media_count,
+                })
+
+        raw_files = [item for item in target_dir.iterdir() if item.is_file() and item.suffix.lower() in MEDIA_EXTENSIONS]
+        filtered = filter_duplicate_media(raw_files)
 
     for f in filtered:
         is_vid = f.suffix.lower() in VIDEO_EXTENSIONS
@@ -381,7 +409,7 @@ def scan_custom_path():
 
         rel_str = f.name
         try:
-            rel_str = str(f.relative_to(folder_path))
+            rel_str = str(f.relative_to(folder_path)).replace('\\', '/')
         except ValueError:
             pass
 
@@ -407,10 +435,12 @@ def scan_custom_path():
     return jsonify({
         "status": "ok",
         "folder": str(folder_path),
+        "current_subpath": subpath_str.replace('\\', '/'),
         "total": len(files),
         "audio_count": audio_count,
         "video_count": video_count,
         "files": files,
+        "folders": folders,
     })
 
 
@@ -899,15 +929,21 @@ def start_transcribe():
         fld_str = str(fld).strip()
         if not fld_str:
             continue
-        if fld_str.startswith("audio/") or fld_str.startswith("audio\\"):
+        p = Path(fld_str)
+        if p.is_absolute() and p.is_dir():
+            f_dir = p.resolve()
+        elif fld_str.startswith("audio/") or fld_str.startswith("audio\\"):
             f_dir = (BASE_DIR / fld_str).resolve()
         else:
             f_dir = (AUDIO_FOLDER / fld_str).resolve()
 
         if f_dir.exists() and f_dir.is_dir():
             for af in sorted(f_dir.rglob("*")):
-                if af.is_file() and af.suffix.lower() in AUDIO_EXTENSIONS:
-                    rel_p = str(af.relative_to(BASE_DIR)).replace('\\', '/')
+                if af.is_file() and af.suffix.lower() in MEDIA_EXTENSIONS:
+                    try:
+                        rel_p = str(af.relative_to(BASE_DIR)).replace('\\', '/')
+                    except ValueError:
+                        rel_p = str(af.resolve())
                     if rel_p not in audio_files:
                         audio_files.append(rel_p)
 

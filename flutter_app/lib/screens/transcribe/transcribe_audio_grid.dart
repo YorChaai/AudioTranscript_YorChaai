@@ -23,6 +23,7 @@ class TranscribeAudioGrid extends StatelessWidget {
   final void Function(String path, String name)? onDeleteFile;
   final void Function(String path, String name)? onRenameFolder;
   final void Function(String path, String name)? onDeleteFolder;
+  final VoidCallback? onOpenCustomFolder;
 
   const TranscribeAudioGrid({
     super.key,
@@ -40,6 +41,7 @@ class TranscribeAudioGrid extends StatelessWidget {
     this.onDeleteFile,
     this.onRenameFolder,
     this.onDeleteFolder,
+    this.onOpenCustomFolder,
   });
 
   List<Map<String, dynamic>> _getFilteredFiles(TranscribeProvider prov, SortProvider sortProv) {
@@ -84,11 +86,13 @@ class TranscribeAudioGrid extends StatelessWidget {
     final sortProv = context.watch<SortProvider>();
 
     if (prov.isLoading) return const Center(child: CircularProgressIndicator());
-    if (prov.displayFiles.isEmpty && prov.folders.isEmpty) return _buildEmptyState();
+    if (prov.displayFiles.isEmpty && prov.displayFolders.isEmpty) {
+      return _buildEmptyState(context, prov);
+    }
 
     final filteredFiles = _getFilteredFiles(prov, sortProv);
 
-    if (filteredFiles.isEmpty && prov.folders.isEmpty) {
+    if (filteredFiles.isEmpty && prov.displayFolders.isEmpty) {
       return const Center(
         child: Text(
           'Tidak ada file yang cocok dengan pencarian.',
@@ -108,26 +112,90 @@ class TranscribeAudioGrid extends StatelessWidget {
           crossAxisSpacing: 12,
           mainAxisExtent: 74,
         ),
-        itemCount: prov.folders.length + filteredFiles.length,
+        itemCount: prov.displayFolders.length + filteredFiles.length,
         itemBuilder: (context, index) {
-          if (index < prov.folders.length) {
-            return _buildFolderItem(prov.folders[index], prov);
+          if (index < prov.displayFolders.length) {
+            return _buildFolderItem(prov.displayFolders[index], prov);
           }
-          final file = filteredFiles[index - prov.folders.length];
+          final file = filteredFiles[index - prov.displayFolders.length];
           return _buildFileItem(file, prov);
         },
       ),
     );
   }
 
-  Widget _buildEmptyState() {
-    return const Center(
+  Widget _buildEmptyState(BuildContext context, TranscribeProvider prov) {
+    if (prov.isCustomMode) {
+      return Center(
+        child: Padding(
+          padding: const EdgeInsets.all(AppConstants.paddingExtraLarge),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              const Icon(Icons.folder_open_rounded, size: 52, color: AppTheme.accentCyan),
+              const SizedBox(height: 14),
+              const Text(
+                'Tidak ada file audio langsung di folder ini.',
+                style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.w600),
+              ),
+              const SizedBox(height: 6),
+              const Text(
+                'Jika file berada di dalam subfolder, klik folder di atas untuk masuk,\natau kembali ke server root.',
+                textAlign: TextAlign.center,
+                style: TextStyle(color: AppTheme.textSecondary, fontSize: 13),
+              ),
+              const SizedBox(height: 18),
+              ElevatedButton.icon(
+                icon: const Icon(Icons.arrow_back_rounded, size: 16),
+                label: const Text('Kembali ke Root (audio/)'),
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: AppTheme.cardDark,
+                  foregroundColor: AppTheme.accentCyan,
+                  side: const BorderSide(color: AppTheme.accentCyan),
+                  padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 12),
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                ),
+                onPressed: () => prov.clearCustomMode(),
+              ),
+            ],
+          ),
+        ),
+      );
+    }
+
+    return Center(
       child: Padding(
-        padding: EdgeInsets.all(AppConstants.paddingExtraLarge),
-        child: Text(
-          'Belum ada file audio di server.\nUpload file atau folder untuk mulai.',
-          textAlign: TextAlign.center,
-          style: TextStyle(color: AppTheme.textSecondary),
+        padding: const EdgeInsets.all(AppConstants.paddingExtraLarge),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            const Icon(Icons.audio_file_outlined, size: 52, color: AppTheme.textMuted),
+            const SizedBox(height: 14),
+            const Text(
+              'Belum ada file audio di server.',
+              style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.w600),
+            ),
+            const SizedBox(height: 6),
+            const Text(
+              'Upload file audio/video baru, atau buka folder langsung dari PC server Anda.',
+              textAlign: TextAlign.center,
+              style: TextStyle(color: AppTheme.textSecondary, fontSize: 13),
+            ),
+            if (onOpenCustomFolder != null) ...[
+              const SizedBox(height: 18),
+              ElevatedButton.icon(
+                icon: const Icon(Icons.folder_open_rounded, size: 18),
+                label: const Text('Buka Folder di PC / Server', style: TextStyle(fontWeight: FontWeight.bold)),
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: AppTheme.accentCyan,
+                  foregroundColor: Colors.white,
+                  padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                ),
+                onPressed: onOpenCustomFolder,
+              ),
+            ],
+          ],
         ),
       ),
     );

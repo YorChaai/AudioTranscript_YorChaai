@@ -35,13 +35,23 @@ class TranscribeProvider extends ChangeNotifier {
   String? _customServerFolder;
   String? get customServerFolder => _customServerFolder;
 
+  String _customServerSubpath = '';
+  String get customServerSubpath => _customServerSubpath;
+
+  final List<String> _customPathHistory = [];
+  List<String> get customPathHistory => _customPathHistory;
+
   List<Map<String, dynamic>> _customServerFiles = [];
   List<Map<String, dynamic>> get customServerFiles => _customServerFiles;
+
+  List<Map<String, dynamic>> _customServerFolders = [];
+  List<Map<String, dynamic>> get customServerFolders => _customServerFolders;
 
   bool _isCustomMode = false;
   bool get isCustomMode => _isCustomMode;
 
   List<Map<String, dynamic>> get displayFiles => _isCustomMode ? _customServerFiles : _audioFiles;
+  List<Map<String, dynamic>> get displayFolders => _isCustomMode ? _customServerFolders : _folders;
 
   List<Map<String, dynamic>> _folders = [];
   List<Map<String, dynamic>> get folders => _folders;
@@ -106,16 +116,18 @@ class TranscribeProvider extends ChangeNotifier {
     }
   }
 
-  Future<bool> scanCustomFolder(String folderPath) async {
+  Future<bool> scanCustomFolder(String folderPath, {String subpath = ''}) async {
     _isLoading = true;
     _errorMessage = null;
     notifyListeners();
 
     try {
-      final res = await _repository.scanCustomPath(folderPath);
+      final res = await _repository.scanCustomPath(folderPath, subpath: subpath);
       if (res['status'] == 'ok') {
         _customServerFolder = res['folder']?.toString() ?? folderPath;
+        _customServerSubpath = res['current_subpath']?.toString() ?? subpath;
         _customServerFiles = List<Map<String, dynamic>>.from(res['files'] ?? []);
+        _customServerFolders = List<Map<String, dynamic>>.from(res['folders'] ?? []);
         _isCustomMode = true;
         _isLoading = false;
         notifyListeners();
@@ -134,10 +146,29 @@ class TranscribeProvider extends ChangeNotifier {
     }
   }
 
+  void navigateCustomFolder(String subpath) {
+    if (_customServerFolder == null) return;
+    _customPathHistory.add(_customServerSubpath);
+    scanCustomFolder(_customServerFolder!, subpath: subpath);
+  }
+
+  void goBackCustomFolder() {
+    if (_customServerFolder == null) return;
+    if (_customPathHistory.isNotEmpty) {
+      final prev = _customPathHistory.removeLast();
+      scanCustomFolder(_customServerFolder!, subpath: prev);
+    } else {
+      clearCustomMode();
+    }
+  }
+
   void clearCustomMode() {
     _isCustomMode = false;
     _customServerFolder = null;
+    _customServerSubpath = '';
+    _customPathHistory.clear();
     _customServerFiles = [];
+    _customServerFolders = [];
     loadAudioFiles();
   }
 

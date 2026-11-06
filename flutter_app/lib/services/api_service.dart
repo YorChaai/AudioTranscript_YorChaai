@@ -80,11 +80,15 @@ class ApiService {
 
   // ===== AUDIO =====
 
-  static Future<Map<String, dynamic>> scanCustomPath(String folderPath) async {
+  static Future<Map<String, dynamic>> scanCustomPath(String folderPath, {String subpath = '', bool recursive = false}) async {
     final res = await _client.post(
       Uri.parse('$_base/audio/scan-custom-path'),
       headers: {'Content-Type': 'application/json'},
-      body: json.encode({'folder_path': folderPath}),
+      body: json.encode({
+        'folder_path': folderPath,
+        'subpath': subpath,
+        'recursive': recursive,
+      }),
     ).timeout(const Duration(seconds: 30));
     return await _processResponse(res);
   }

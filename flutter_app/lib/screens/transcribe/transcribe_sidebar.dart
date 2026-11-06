@@ -32,6 +32,7 @@ class TranscribeSidebar extends StatelessWidget {
   final VoidCallback onShowCreateFolder;
   final VoidCallback onShowMoveDialog;
   final ValueChanged<Map<String, dynamic>> onShowFileInfo;
+  final VoidCallback? onOpenCustomFolder;
 
   const TranscribeSidebar({
     super.key,
@@ -56,6 +57,7 @@ class TranscribeSidebar extends StatelessWidget {
     required this.onShowCreateFolder,
     required this.onShowMoveDialog,
     required this.onShowFileInfo,
+    this.onOpenCustomFolder,
   });
 
   @override
@@ -68,7 +70,7 @@ class TranscribeSidebar extends StatelessWidget {
       return selectedFiles.contains(path);
     }).toList();
 
-    final selectedFolderDetails = prov.folders.where((fol) {
+    final selectedFolderDetails = prov.displayFolders.where((fol) {
       final path = fol['path'] as String? ?? fol['name'] as String;
       return selectedFolders.contains(path);
     }).toList();
@@ -113,6 +115,12 @@ class TranscribeSidebar extends StatelessWidget {
                 icon: Icons.video_file,
                 label: isMobile ? langProv.tr('upload_video') : '${langProv.tr('upload_video')} (MP3)',
                 onPressed: prov.transcribing ? null : () => onUploadFile(true),
+              ),
+              const SizedBox(height: 12),
+              _buildUploadButton(
+                icon: Icons.folder_open_rounded,
+                label: prov.isCustomMode ? 'Ganti Folder PC' : 'Buka Folder PC / Server',
+                onPressed: prov.transcribing ? null : onOpenCustomFolder,
               ),
 
               if (hasSelection) ...[

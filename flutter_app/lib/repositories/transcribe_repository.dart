@@ -9,8 +9,8 @@ class TranscribeRepository {
     return await ApiService.listAudio(path: path);
   }
 
-  Future<Map<String, dynamic>> scanCustomPath(String folderPath) async {
-    return await ApiService.scanCustomPath(folderPath);
+  Future<Map<String, dynamic>> scanCustomPath(String folderPath, {String subpath = '', bool recursive = false}) async {
+    return await ApiService.scanCustomPath(folderPath, subpath: subpath, recursive: recursive);
   }
 
   Future<Map<String, dynamic>> getSystemHealth() async {

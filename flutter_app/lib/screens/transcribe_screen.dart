@@ -151,7 +151,7 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
               subtitle: const Text('Langsung memproses folder di PC server tanpa upload Wi-Fi (Persis Opsi 4 run.bat)', style: TextStyle(color: AppTheme.textMuted, fontSize: 11)),
               onTap: () {
                 Navigator.pop(context);
-                _showCustomServerFolderDialog(context.read<TranscribeProvider>());
+                _openCustomFolderChooser(context.read<TranscribeProvider>());
               },
             ),
           ],
@@ -890,6 +890,7 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
                     onDeleteFile: (path, name) => _confirmDeleteSingle(path: path, name: name, isFolder: false),
                     onRenameFolder: (path, name) => _showRenameDialog(currentPath: path, currentName: name, isFolder: true),
                     onDeleteFolder: (path, name) => _confirmDeleteSingle(path: path, name: name, isFolder: true),
+                    onOpenCustomFolder: () => _openCustomFolderChooser(prov),
                   ),
                 ),
               ],
@@ -958,6 +959,7 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
                   onDeleteFile: (path, name) => _confirmDeleteSingle(path: path, name: name, isFolder: false),
                   onRenameFolder: (path, name) => _showRenameDialog(currentPath: path, currentName: name, isFolder: true),
                   onDeleteFolder: (path, name) => _confirmDeleteSingle(path: path, name: name, isFolder: true),
+                  onOpenCustomFolder: () => _openCustomFolderChooser(prov),
                 ),
               ),
             ),
@@ -1242,89 +1244,131 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
     return result;
   }
 
-  void _showCustomServerFolderDialog(TranscribeProvider prov) {
+  Future<void> _openCustomFolderChooser(TranscribeProvider prov) async {
+    final isDesktop = Platform.isWindows || Platform.isLinux || Platform.isMacOS;
     final controller = TextEditingController(text: prov.customServerFolder ?? '');
 
-    showDialog(
+    await showDialog(
       context: context,
-      builder: (ctx) => AlertDialog(
-        backgroundColor: AppTheme.cardDark,
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-        title: const Row(
-          children: [
-            Icon(Icons.computer_rounded, color: AppTheme.accentCyan),
-            SizedBox(width: 10),
-            Text('Folder Server (Direct Local)', style: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold)),
-          ],
-        ),
-        content: SizedBox(
-          width: 460,
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.start,
+      builder: (ctx) => StatefulBuilder(
+        builder: (context, setDialogState) => AlertDialog(
+          backgroundColor: AppTheme.cardDark,
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+          title: Row(
             children: [
-              const Text(
-                'Masukkan path folder di server/PC. Server akan langsung membaca file tanpa proses upload Wi-Fi (Nol Delay / Persis Opsi 4 run.bat).',
-                style: TextStyle(color: AppTheme.textSecondary, fontSize: 13),
-              ),
-              const SizedBox(height: 14),
-              TextField(
-                controller: controller,
-                autofocus: true,
-                style: const TextStyle(color: Colors.white),
-                decoration: InputDecoration(
-                  labelText: 'Path Folder Server',
-                  hintText: r'Contoh: D:\Rekaman\Audio atau D:\Videos',
-                  hintStyle: const TextStyle(color: AppTheme.textMuted),
-                  labelStyle: const TextStyle(color: AppTheme.accentCyan),
-                  filled: true,
-                  fillColor: AppTheme.backgroundDark,
-                  border: OutlineInputBorder(borderRadius: BorderRadius.circular(10)),
-                ),
-              ),
-              const SizedBox(height: 10),
-              const Text(
-                '💡 Tips: Anda bisa menyalin path dari Windows Explorer (Shift + Klik Kanan > Copy as path).',
-                style: TextStyle(color: AppTheme.textMuted, fontSize: 11),
+              const Icon(Icons.folder_open_rounded, color: AppTheme.accentCyan, size: 22),
+              const SizedBox(width: 10),
+              Text(
+                isDesktop ? 'Pilih / Buka Folder PC' : 'Buka Folder Server',
+                style: const TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold),
               ),
             ],
           ),
-        ),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(ctx),
-            child: const Text('Batal', style: TextStyle(color: AppTheme.textMuted)),
-          ),
-          ElevatedButton.icon(
-            icon: const Icon(Icons.search_rounded, size: 18),
-            label: const Text('Scan Folder Server'),
-            style: ElevatedButton.styleFrom(
-              backgroundColor: AppTheme.accentCyan,
-              foregroundColor: Colors.white,
+          content: SizedBox(
+            width: 480,
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  isDesktop
+                      ? 'Pilih folder di PC Anda. Aplikasi akan membaca file & subfolder secara bertingkat langsung tanpa upload.'
+                      : 'Masukkan path folder di server PC Anda (Opsi 4 run.bat). Server akan langsung membaca file tanpa upload Wi-Fi.',
+                  style: const TextStyle(color: AppTheme.textSecondary, fontSize: 13),
+                ),
+                const SizedBox(height: 16),
+                if (isDesktop) ...[
+                  SizedBox(
+                    width: double.infinity,
+                    child: ElevatedButton.icon(
+                      icon: const Icon(Icons.folder_shared_rounded, color: Colors.white),
+                      label: const Text('Jelajahi Lewat File Explorer...', style: TextStyle(fontWeight: FontWeight.bold)),
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: AppTheme.accentBlue,
+                        foregroundColor: Colors.white,
+                        padding: const EdgeInsets.symmetric(vertical: 14),
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                      ),
+                      onPressed: () async {
+                        final selectedDir = await FilePicker.getDirectoryPath();
+                        if (selectedDir != null && selectedDir.isNotEmpty) {
+                          controller.text = selectedDir;
+                          setDialogState(() {});
+                        }
+                      },
+                    ),
+                  ),
+                  const SizedBox(height: 14),
+                  const Row(
+                    children: [
+                      Expanded(child: Divider(color: AppTheme.dividerColor)),
+                      Padding(
+                        padding: EdgeInsets.symmetric(horizontal: 10),
+                        child: Text('atau ketik path manual', style: TextStyle(color: AppTheme.textMuted, fontSize: 11)),
+                      ),
+                      Expanded(child: Divider(color: AppTheme.dividerColor)),
+                    ],
+                  ),
+                  const SizedBox(height: 14),
+                ],
+                TextField(
+                  controller: controller,
+                  autofocus: !isDesktop,
+                  style: const TextStyle(color: Colors.white),
+                  decoration: InputDecoration(
+                    labelText: 'Path Folder PC / Server',
+                    hintText: isDesktop ? r'Contoh: D:\Kuliah\Rekaman atau C:\Users\...' : r'Contoh: D:\Audio atau /home/user/audio',
+                    hintStyle: const TextStyle(color: AppTheme.textMuted),
+                    labelStyle: const TextStyle(color: AppTheme.accentCyan),
+                    filled: true,
+                    fillColor: AppTheme.backgroundDark,
+                    border: OutlineInputBorder(borderRadius: BorderRadius.circular(10)),
+                  ),
+                ),
+                const SizedBox(height: 10),
+                const Text(
+                  '💡 File langsung akan muncul, dan subfolder dapat diklik untuk masuk ke dalamnya secara bertingkat.',
+                  style: TextStyle(color: AppTheme.textMuted, fontSize: 11),
+                ),
+              ],
             ),
-            onPressed: () async {
-              final path = controller.text.trim();
-              if (path.isEmpty) return;
-              Navigator.pop(ctx);
-
-              final success = await prov.scanCustomFolder(path);
-              if (!mounted) return;
-              if (success) {
-                _clearSelection();
-                UiUtils.showSnackBar(
-                  context,
-                  '✅ Ditemukan ${prov.customServerFiles.length} file di ${prov.customServerFolder}',
-                );
-              } else {
-                UiUtils.showSnackBar(
-                  context,
-                  prov.errorMessage ?? 'Gagal memindai folder server',
-                  isError: true,
-                );
-              }
-            },
           ),
-        ],
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(ctx),
+              child: const Text('Batal', style: TextStyle(color: AppTheme.textMuted)),
+            ),
+            ElevatedButton.icon(
+              icon: const Icon(Icons.check_circle_rounded, size: 18),
+              label: const Text('Buka Folder'),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: AppTheme.accentCyan,
+                foregroundColor: Colors.white,
+              ),
+              onPressed: () async {
+                final path = controller.text.trim();
+                if (path.isEmpty) return;
+                Navigator.pop(ctx);
+
+                final success = await prov.scanCustomFolder(path);
+                if (!mounted) return;
+                if (success) {
+                  _clearSelection();
+                  UiUtils.showSnackBar(
+                    this.context,
+                    '✅ Membuka ${prov.customServerFolder}: ${prov.customServerFiles.length} file & ${prov.customServerFolders.length} subfolder',
+                  );
+                } else {
+                  UiUtils.showSnackBar(
+                    this.context,
+                    prov.errorMessage ?? 'Gagal membuka folder di server',
+                    isError: true,
+                  );
+                }
+              },
+            ),
+          ],
+        ),
       ),
     );
   }
@@ -1477,6 +1521,7 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
       onShowCreateFolder: () => _showCreateFolderDialog(context.read<TranscribeProvider>()),
       onShowMoveDialog: () => _showMoveDialog(context.read<TranscribeProvider>()),
       onShowFileInfo: _showFileInfo,
+      onOpenCustomFolder: () => _openCustomFolderChooser(context.read<TranscribeProvider>()),
     );
   }
 
@@ -1523,7 +1568,12 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
   }
 
   void _onFolderNavigate(String folderPath) {
-    context.read<TranscribeProvider>().navigateTo(folderPath);
+    final prov = context.read<TranscribeProvider>();
+    if (prov.isCustomMode) {
+      prov.navigateCustomFolder(folderPath);
+    } else {
+      prov.navigateTo(folderPath);
+    }
   }
 
   void _selectAll(TranscribeProvider prov) {
@@ -1533,7 +1583,7 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
         final path = f['path'] as String? ?? f['name'] as String;
         _selectedFiles.add(path);
       }
-      for (final fld in prov.folders) {
+      for (final fld in prov.displayFolders) {
         final path = fld['path'] as String? ?? fld['name'] as String;
         _selectedFolders.add(path);
       }
@@ -1989,54 +2039,110 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
 
   Widget _buildBreadcrumb(TranscribeProvider prov) {
     if (prov.isCustomMode) {
+      final baseFolder = prov.customServerFolder ?? '';
+      final baseFolderName = baseFolder.split(RegExp(r'[\\/]')).lastWhere((s) => s.isNotEmpty, orElse: () => baseFolder);
+      final subpath = prov.customServerSubpath;
+      final subpathParts = subpath.isNotEmpty ? subpath.split('/') : <String>[];
+
       return Container(
-        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+        padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
         decoration: BoxDecoration(
-          color: AppTheme.accentCyan.withOpacity(0.12),
+          color: AppTheme.accentCyan.withOpacity(0.08),
           borderRadius: BorderRadius.circular(12),
-          border: Border.all(color: AppTheme.accentCyan.withOpacity(0.4)),
+          border: Border.all(color: AppTheme.accentCyan.withOpacity(0.35)),
         ),
         child: Row(
           children: [
-            const Icon(Icons.computer_rounded, size: 18, color: AppTheme.accentCyan),
-            const SizedBox(width: 8),
-            Expanded(
-              child: Text(
-                'Folder Server: ${prov.customServerFolder} (${prov.displayFiles.length} file)',
-                style: const TextStyle(fontSize: 13, color: Colors.white, fontWeight: FontWeight.w600),
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
+            if (prov.customPathHistory.isNotEmpty || subpath.isNotEmpty) ...[
+              InkWell(
+                onTap: () => prov.goBackCustomFolder(),
+                borderRadius: BorderRadius.circular(8),
+                child: const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 6, vertical: 4),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Icon(Icons.arrow_back_rounded, size: 16, color: AppTheme.accentCyan),
+                      SizedBox(width: 4),
+                      Text('Kembali', style: TextStyle(fontSize: 12, color: AppTheme.accentCyan, fontWeight: FontWeight.bold)),
+                    ],
+                  ),
+                ),
               ),
-            ),
+              const SizedBox(width: 8),
+              Container(width: 1, height: 18, color: AppTheme.dividerColor),
+              const SizedBox(width: 8),
+            ],
+            const Icon(Icons.computer_rounded, size: 17, color: AppTheme.accentCyan),
             const SizedBox(width: 8),
             InkWell(
-              onTap: () {
+              onTap: subpath.isNotEmpty ? () => prov.scanCustomFolder(baseFolder, subpath: '') : null,
+              borderRadius: BorderRadius.circular(4),
+              child: Text(
+                baseFolderName.isEmpty ? 'Folder PC' : baseFolderName,
+                style: TextStyle(
+                  fontSize: 13,
+                  fontWeight: FontWeight.bold,
+                  color: subpath.isNotEmpty ? AppTheme.accentCyan : Colors.white,
+                  decoration: subpath.isNotEmpty ? TextDecoration.underline : TextDecoration.none,
+                ),
+              ),
+            ),
+            if (subpathParts.isNotEmpty) ...[
+              for (int i = 0; i < subpathParts.length; i++) ...[
+                const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 4),
+                  child: Text('/', style: TextStyle(color: AppTheme.textMuted, fontSize: 13)),
+                ),
+                InkWell(
+                  onTap: (i < subpathParts.length - 1)
+                      ? () => prov.scanCustomFolder(baseFolder, subpath: subpathParts.sublist(0, i + 1).join('/'))
+                      : null,
+                  child: Text(
+                    subpathParts[i],
+                    style: TextStyle(
+                      fontSize: 13,
+                      fontWeight: (i == subpathParts.length - 1) ? FontWeight.bold : FontWeight.w500,
+                      color: (i == subpathParts.length - 1) ? Colors.white : AppTheme.accentCyan,
+                      decoration: (i < subpathParts.length - 1) ? TextDecoration.underline : TextDecoration.none,
+                    ),
+                  ),
+                ),
+              ],
+            ],
+            const Spacer(),
+            TextButton.icon(
+              icon: const Icon(Icons.folder_open_rounded, size: 15, color: AppTheme.accentCyan),
+              label: const Text('Ganti Folder', style: TextStyle(fontSize: 12, color: AppTheme.accentCyan)),
+              style: TextButton.styleFrom(
+                padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                visualDensity: VisualDensity.compact,
+              ),
+              onPressed: () => _openCustomFolderChooser(prov),
+            ),
+            const SizedBox(width: 6),
+            ElevatedButton.icon(
+              icon: const Icon(Icons.close_rounded, size: 14),
+              label: const Text('Tutup (Ke Root)', style: TextStyle(fontSize: 12)),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: AppTheme.error.withOpacity(0.2),
+                foregroundColor: AppTheme.error,
+                side: const BorderSide(color: AppTheme.error, width: 1),
+                padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                visualDensity: VisualDensity.compact,
+                elevation: 0,
+              ),
+              onPressed: () {
                 _clearSelection();
                 prov.clearCustomMode();
               },
-              child: Container(
-                padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
-                decoration: BoxDecoration(
-                  color: AppTheme.backgroundDark,
-                  borderRadius: BorderRadius.circular(8),
-                  border: Border.all(color: AppTheme.dividerColor),
-                ),
-                child: const Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Icon(Icons.arrow_back_rounded, size: 14, color: AppTheme.accentCyan),
-                    SizedBox(width: 4),
-                    Text('Kembali ke audio/', style: TextStyle(fontSize: 12, color: AppTheme.accentCyan)),
-                  ],
-                ),
-              ),
             ),
           ],
         ),
       );
     }
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
       decoration: BoxDecoration(
         color: AppTheme.cardDark,
         borderRadius: BorderRadius.circular(12),
@@ -2077,7 +2183,21 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
                 overflow: TextOverflow.ellipsis,
               ),
             ),
-          ],
+          ] else
+            const Spacer(),
+          ElevatedButton.icon(
+            icon: const Icon(Icons.folder_open_rounded, size: 15),
+            label: const Text('Buka Folder PC', style: TextStyle(fontSize: 12, fontWeight: FontWeight.bold)),
+            style: ElevatedButton.styleFrom(
+              backgroundColor: AppTheme.accentCyan.withOpacity(0.15),
+              foregroundColor: AppTheme.accentCyan,
+              side: const BorderSide(color: AppTheme.accentCyan, width: 1),
+              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+              visualDensity: VisualDensity.compact,
+              elevation: 0,
+            ),
+            onPressed: () => _openCustomFolderChooser(prov),
+          ),
         ],
       ),
     );
