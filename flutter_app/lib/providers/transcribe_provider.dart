@@ -286,7 +286,7 @@ class TranscribeProvider extends ChangeNotifier {
     required String language,
     required bool doTranslate,
     required String targetLang,
-    int beamSize = 2,
+    int beamSize = 5,
   }) async {
     _transcribing = true;
     _progress = 0;

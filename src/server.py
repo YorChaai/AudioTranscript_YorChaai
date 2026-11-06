@@ -990,7 +990,7 @@ def start_transcribe():
     language = data.get("language", "auto")
     do_translate = data.get("translate", False)
     target_lang = data.get("target_lang", "id")
-    beam_size = int(data.get("beam_size", 2))
+    beam_size = int(data.get("beam_size", 5))
 
     job_ids = []
     valid_files = []
@@ -1068,7 +1068,7 @@ def _update_job_status(job_id, status, progress=None, error=None, output_file=No
     db.update_job(job_id, **update_data)
 
 
-def _run_transcribe(job_id, audio_path, language, do_translate, target_lang, beam_size=2):
+def _run_transcribe(job_id, audio_path, language, do_translate, target_lang, beam_size=5):
     """background task untuk transcribe — real-time progress via callback + in-memory cache"""
     try:
         _update_job_status(job_id, "loading_model", progress=1)

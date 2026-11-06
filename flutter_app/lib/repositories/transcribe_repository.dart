@@ -47,7 +47,7 @@ class TranscribeRepository {
     required String language,
     required bool doTranslate,
     required String targetLang,
-    int beamSize = 2,
+    int beamSize = 5,
   }) async {
     return await ApiService.startTranscribe(
       audioFiles: files,

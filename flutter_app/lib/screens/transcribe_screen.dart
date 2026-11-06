@@ -32,7 +32,7 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
   String _language = 'auto';
   bool _doTranslate = false;
   String _targetLang = 'id';
-  int _beamSize = 2;
+  int _beamSize = 5;
   
   final TextEditingController _searchController = TextEditingController();
   String _searchQuery = '';
@@ -794,7 +794,7 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
                           const SizedBox(width: 8),
                           Expanded(
                             child: ChoiceChip(
-                              label: const Text('Akurat (5)'),
+                              label: const Text('Akurat (5) - Rekomendasi'),
                               selected: tempBeamSize == 5,
                               selectedColor: AppTheme.transcribeColor,
                               backgroundColor: AppTheme.backgroundDark,

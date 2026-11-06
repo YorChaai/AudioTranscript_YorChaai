@@ -190,7 +190,7 @@ class ApiService {
     String language = 'auto',
     bool translate = false,
     String targetLang = 'id',
-    int beamSize = 2,
+    int beamSize = 5,
   }) async {
     final List<String> files = audioFiles ?? (audioFile != null ? [audioFile] : []);
     final body = <String, dynamic>{

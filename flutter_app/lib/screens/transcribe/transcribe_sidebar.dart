@@ -47,7 +47,7 @@ class TranscribeSidebar extends StatelessWidget {
     required this.language,
     required this.doTranslate,
     required this.targetLang,
-    this.beamSize = 2,
+    this.beamSize = 5,
     required this.displayProgress,
     required this.listController,
     required this.onLanguageChanged,
@@ -364,7 +364,7 @@ class TranscribeSidebar extends StatelessWidget {
             ),
             DropdownMenuItem(
               value: '2',
-              child: Text('🚀 Beam 2 (Cepat & Seimbang - Rekomendasi)', style: TextStyle(fontSize: 13)),
+              child: Text('🚀 Beam 2 (Cepat)', style: TextStyle(fontSize: 13)),
             ),
             DropdownMenuItem(
               value: '3',
@@ -376,10 +376,10 @@ class TranscribeSidebar extends StatelessWidget {
             ),
             DropdownMenuItem(
               value: '5',
-              child: Text('🎯 Beam 5 (Sangat Teliti)', style: TextStyle(fontSize: 13)),
+              child: Text('🎯 Beam 5 (Sangat Teliti - Rekomendasi)', style: TextStyle(fontSize: 13)),
             ),
           ],
-          onChanged: prov.transcribing ? null : (v) => onBeamSizeChanged(int.tryParse(v ?? '2') ?? 2),
+          onChanged: prov.transcribing ? null : (v) => onBeamSizeChanged(int.tryParse(v ?? '5') ?? 5),
         ),
         const SizedBox(height: 4),
         CheckboxListTile(
