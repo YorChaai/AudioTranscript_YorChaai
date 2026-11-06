@@ -225,6 +225,8 @@ def health_check():
     return jsonify(
         {
             "status": "ok",
+            "app": "AudioTranscript_YorChaai",
+            "version": "2.0.0",
             "timestamp": datetime.now().isoformat(),
             "model_loaded": getattr(MLEngine, "_model", None) is not None,
         }

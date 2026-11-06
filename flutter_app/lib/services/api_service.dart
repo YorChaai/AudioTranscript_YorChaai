@@ -6,6 +6,7 @@ import 'package:http/http.dart' as http;
 import 'api_client.dart';
 import 'package:http_parser/http_parser.dart';
 import '../config/api_config.dart';
+import '../models/api_exception.dart';
 
 class MultipartRequestWithProgress extends http.MultipartRequest {
   final void Function(int bytes, int totalBytes)? onProgress;
@@ -61,8 +62,16 @@ class ApiService {
       final res = await _client
           .get(Uri.parse('$_base/health'))
           .timeout(const Duration(seconds: 5));
-      return await _processResponse(res);
+      final data = await _processResponse(res);
+      if (data['status'] == 'ok' && data['app'] != null && data['app'] != 'AudioTranscript_YorChaai') {
+        throw ApiException(
+          'Port 5000 sedang dipakai aplikasi lain (${data['app']}). Tutup aplikasi tersebut terlebih dahulu!',
+          statusCode: 409,
+        );
+      }
+      return data;
     } catch (e) {
+      if (e is ApiException) rethrow;
       throw Exception('Tidak bisa terhubung ke server: $e');
     }
   }
