@@ -67,7 +67,27 @@ class ApiService {
     }
   }
 
+  static Future<Map<String, dynamic>> systemHealthDetails() async {
+    try {
+      final res = await _client
+          .get(Uri.parse('$_base/system/health-details'))
+          .timeout(const Duration(seconds: 8));
+      return await _processResponse(res);
+    } catch (e) {
+      throw Exception('Gagal memuat status kesehatan sistem: $e');
+    }
+  }
+
   // ===== AUDIO =====
+
+  static Future<Map<String, dynamic>> scanCustomPath(String folderPath) async {
+    final res = await _client.post(
+      Uri.parse('$_base/audio/scan-custom-path'),
+      headers: {'Content-Type': 'application/json'},
+      body: json.encode({'folder_path': folderPath}),
+    ).timeout(const Duration(seconds: 30));
+    return await _processResponse(res);
+  }
 
   static Future<Map<String, dynamic>> listAudio({String path = ''}) async {
     final query = path.isNotEmpty ? "?path=${Uri.encodeQueryComponent(path)}" : "";

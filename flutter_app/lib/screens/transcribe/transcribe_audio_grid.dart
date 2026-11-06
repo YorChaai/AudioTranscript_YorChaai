@@ -43,7 +43,7 @@ class TranscribeAudioGrid extends StatelessWidget {
   });
 
   List<Map<String, dynamic>> _getFilteredFiles(TranscribeProvider prov, SortProvider sortProv) {
-    var filteredFiles = prov.audioFiles.where((file) {
+    var filteredFiles = prov.displayFiles.where((file) {
       final name = (file['name'] ?? '').toString().toLowerCase();
       return name.contains(searchQuery.toLowerCase());
     }).toList();
@@ -84,7 +84,7 @@ class TranscribeAudioGrid extends StatelessWidget {
     final sortProv = context.watch<SortProvider>();
 
     if (prov.isLoading) return const Center(child: CircularProgressIndicator());
-    if (prov.audioFiles.isEmpty && prov.folders.isEmpty) return _buildEmptyState();
+    if (prov.displayFiles.isEmpty && prov.folders.isEmpty) return _buildEmptyState();
 
     final filteredFiles = _getFilteredFiles(prov, sortProv);
 
@@ -246,6 +246,18 @@ class TranscribeAudioGrid extends StatelessWidget {
     final fileName = file['name'] as String? ?? 'Unknown';
     final isSelected = selectedFiles.contains(filePath);
     final sizeStr = UiUtils.formatSize(file['size'] ?? 0);
+    final isVideo = file['is_video'] == true;
+    final durationSec = file['duration'] as num?;
+    String durationStr = '';
+    if (durationSec != null && durationSec > 0) {
+      final d = durationSec.toInt();
+      final h = d ~/ 3600;
+      final m = (d % 3600) ~/ 60;
+      final s = d % 60;
+      durationStr = h > 0
+          ? ' • ${h.toString().padLeft(2, '0')}:${m.toString().padLeft(2, '0')}:${s.toString().padLeft(2, '0')}'
+          : ' • ${m.toString().padLeft(2, '0')}:${s.toString().padLeft(2, '0')}';
+    }
 
     return InkWell(
       onTap: prov.transcribing ? null : () => onToggleFileSelection(filePath),
@@ -272,8 +284,12 @@ class TranscribeAudioGrid extends StatelessWidget {
               const SizedBox(width: 8),
             ],
             Icon(
-              isSelected ? Icons.check_circle_rounded : Icons.audio_file_outlined,
-              color: isSelected ? AppTheme.accentBlue : AppTheme.textSecondary,
+              isSelected
+                  ? Icons.check_circle_rounded
+                  : (isVideo ? Icons.video_file_rounded : Icons.audio_file_outlined),
+              color: isSelected
+                  ? AppTheme.accentBlue
+                  : (isVideo ? AppTheme.accentCyan : AppTheme.textSecondary),
               size: 28,
             ),
             const SizedBox(width: 10),
@@ -291,7 +307,7 @@ class TranscribeAudioGrid extends StatelessWidget {
                   ),
                   const SizedBox(height: 2),
                   Text(
-                    sizeStr,
+                    '$sizeStr$durationStr',
                     style: const TextStyle(color: AppTheme.textSecondary, fontSize: 11),
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,

@@ -142,6 +142,18 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
                 _pickFiles(isVideo, mode: 3);
               },
             ),
+            const SizedBox(height: 8),
+            ListTile(
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+              tileColor: AppTheme.backgroundDark,
+              leading: const Icon(Icons.computer_rounded, color: AppTheme.accentCyan),
+              title: const Text('4. 📂 Input Path Folder Server (Direct / Tanpa Upload)', style: TextStyle(color: Colors.white, fontSize: 14, fontWeight: FontWeight.w600)),
+              subtitle: const Text('Langsung memproses folder di PC server tanpa upload Wi-Fi (Persis Opsi 4 run.bat)', style: TextStyle(color: AppTheme.textMuted, fontSize: 11)),
+              onTap: () {
+                Navigator.pop(context);
+                _showCustomServerFolderDialog(context.read<TranscribeProvider>());
+              },
+            ),
           ],
         ),
       ),
@@ -596,6 +608,10 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
       UiUtils.showSnackBar(context, 'Pilih minimal satu file atau folder audio terlebih dahulu');
       return;
     }
+    await _showTranscribeWizardDialog();
+  }
+
+  Future<void> _executeTranscribe() async {
     await context.read<TranscribeProvider>().startTranscription(
       files: _selectedFiles.toList(),
       folderPaths: _selectedFolders.toList(),
@@ -609,6 +625,220 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
     final prov = context.read<TranscribeProvider>();
     if (prov.errorMessage != null && !prov.transcribing) {
       UiUtils.showSnackBar(context, prov.errorMessage!, isError: true);
+    }
+  }
+
+  Future<void> _showTranscribeWizardDialog() async {
+    String tempLanguage = _language;
+    bool tempTranslate = _doTranslate;
+    String tempTargetLang = _targetLang;
+    int tempBeamSize = _beamSize;
+
+    final result = await showDialog<bool>(
+      context: context,
+      builder: (ctx) {
+        return StatefulBuilder(
+          builder: (context, setWizardState) {
+            final totalFiles = _selectedFiles.length;
+            final totalFolders = _selectedFolders.length;
+
+            return AlertDialog(
+              backgroundColor: AppTheme.cardDark,
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+              title: Row(
+                children: [
+                  Container(
+                    padding: const EdgeInsets.all(8),
+                    decoration: BoxDecoration(
+                      color: AppTheme.transcribeColor.withOpacity(0.2),
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: const Icon(Icons.auto_awesome_rounded, color: AppTheme.transcribeColor, size: 22),
+                  ),
+                  const SizedBox(width: 12),
+                  const Text('Konfirmasi & Mulai Transkripsi', style: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold)),
+                ],
+              ),
+              content: SizedBox(
+                width: 480,
+                child: SingleChildScrollView(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Container(
+                        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                        decoration: BoxDecoration(
+                          color: AppTheme.backgroundDark,
+                          borderRadius: BorderRadius.circular(10),
+                          border: Border.all(color: AppTheme.dividerColor),
+                        ),
+                        child: Row(
+                          children: [
+                            const Icon(Icons.playlist_play_rounded, color: AppTheme.accentCyan, size: 20),
+                            const SizedBox(width: 8),
+                            Expanded(
+                              child: Text(
+                                'Akan memproses $totalFiles file ${totalFolders > 0 ? "dan $totalFolders folder" : ""}',
+                                style: const TextStyle(color: Colors.white70, fontSize: 13, fontWeight: FontWeight.w600),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      const SizedBox(height: 16),
+                      const Text('1. Bahasa Asli Audio:', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600, fontSize: 13)),
+                      const SizedBox(height: 6),
+                      Container(
+                        padding: const EdgeInsets.symmetric(horizontal: 12),
+                        decoration: BoxDecoration(
+                          color: AppTheme.backgroundDark,
+                          borderRadius: BorderRadius.circular(10),
+                          border: Border.all(color: AppTheme.dividerColor),
+                        ),
+                        child: DropdownButtonHideUnderline(
+                          child: DropdownButton<String>(
+                            value: tempLanguage,
+                            isExpanded: true,
+                            dropdownColor: AppTheme.cardDark,
+                            style: const TextStyle(color: Colors.white, fontSize: 13),
+                            items: const [
+                              DropdownMenuItem(value: 'auto', child: Text('🌐 Auto-Detect (Otomatis)')),
+                              DropdownMenuItem(value: 'id', child: Text('🇮🇩 Bahasa Indonesia (id)')),
+                              DropdownMenuItem(value: 'en', child: Text('🇬🇧 English (en)')),
+                              DropdownMenuItem(value: 'ja', child: Text('🇯🇵 Japanese (ja)')),
+                              DropdownMenuItem(value: 'zh', child: Text('🇨🇳 Chinese (zh)')),
+                              DropdownMenuItem(value: 'de', child: Text('🇩🇪 German (de)')),
+                              DropdownMenuItem(value: 'es', child: Text('🇪🇸 Spanish (es)')),
+                              DropdownMenuItem(value: 'fr', child: Text('🇫🇷 French (fr)')),
+                              DropdownMenuItem(value: 'ko', child: Text('🇰🇷 Korean (ko)')),
+                              DropdownMenuItem(value: 'ar', child: Text('🇸🇦 Arabic (ar)')),
+                            ],
+                            onChanged: (val) {
+                              if (val != null) setWizardState(() => tempLanguage = val);
+                            },
+                          ),
+                        ),
+                      ),
+                      const SizedBox(height: 16),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          const Text('2. Terjemahkan Hasil Transkripsi?', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600, fontSize: 13)),
+                          Switch(
+                            value: tempTranslate,
+                            activeColor: AppTheme.accentCyan,
+                            onChanged: (val) => setWizardState(() => tempTranslate = val),
+                          ),
+                        ],
+                      ),
+                      if (tempTranslate) ...[
+                        const SizedBox(height: 6),
+                        Container(
+                          padding: const EdgeInsets.symmetric(horizontal: 12),
+                          decoration: BoxDecoration(
+                            color: AppTheme.backgroundDark,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(color: AppTheme.dividerColor),
+                          ),
+                          child: DropdownButtonHideUnderline(
+                            child: DropdownButton<String>(
+                              value: tempTargetLang,
+                              isExpanded: true,
+                              dropdownColor: AppTheme.cardDark,
+                              style: const TextStyle(color: Colors.white, fontSize: 13),
+                              items: const [
+                                DropdownMenuItem(value: 'id', child: Text('🇮🇩 Bahasa Indonesia (id)')),
+                                DropdownMenuItem(value: 'en', child: Text('🇬🇧 English (en)')),
+                                DropdownMenuItem(value: 'ja', child: Text('🇯🇵 Japanese (ja)')),
+                                DropdownMenuItem(value: 'zh-CN', child: Text('🇨🇳 Chinese (zh-CN)')),
+                                DropdownMenuItem(value: 'de', child: Text('🇩🇪 German (de)')),
+                                DropdownMenuItem(value: 'ko', child: Text('🇰🇷 Korean (ko)')),
+                                DropdownMenuItem(value: 'ar', child: Text('🇸🇦 Arabic (ar)')),
+                              ],
+                              onChanged: (val) {
+                                if (val != null) setWizardState(() => tempTargetLang = val);
+                              },
+                            ),
+                          ),
+                        ),
+                      ],
+                      const SizedBox(height: 16),
+                      const Text('3. Kualitas & Akurasi (Beam Size):', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600, fontSize: 13)),
+                      const SizedBox(height: 6),
+                      Row(
+                        children: [
+                          Expanded(
+                            child: ChoiceChip(
+                              label: const Text('Cepat (1)'),
+                              selected: tempBeamSize == 1,
+                              selectedColor: AppTheme.transcribeColor,
+                              backgroundColor: AppTheme.backgroundDark,
+                              labelStyle: TextStyle(color: tempBeamSize == 1 ? Colors.white : AppTheme.textMuted, fontSize: 12),
+                              onSelected: (s) => setWizardState(() => tempBeamSize = 1),
+                            ),
+                          ),
+                          const SizedBox(width: 8),
+                          Expanded(
+                            child: ChoiceChip(
+                              label: const Text('Standar (2)'),
+                              selected: tempBeamSize == 2,
+                              selectedColor: AppTheme.transcribeColor,
+                              backgroundColor: AppTheme.backgroundDark,
+                              labelStyle: TextStyle(color: tempBeamSize == 2 ? Colors.white : AppTheme.textMuted, fontSize: 12),
+                              onSelected: (s) => setWizardState(() => tempBeamSize = 2),
+                            ),
+                          ),
+                          const SizedBox(width: 8),
+                          Expanded(
+                            child: ChoiceChip(
+                              label: const Text('Akurat (5)'),
+                              selected: tempBeamSize == 5,
+                              selectedColor: AppTheme.transcribeColor,
+                              backgroundColor: AppTheme.backgroundDark,
+                              labelStyle: TextStyle(color: tempBeamSize == 5 ? Colors.white : AppTheme.textMuted, fontSize: 12),
+                              onSelected: (s) => setWizardState(() => tempBeamSize = 5),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              actions: [
+                TextButton(
+                  onPressed: () => Navigator.pop(ctx, false),
+                  child: const Text('Batal', style: TextStyle(color: AppTheme.textMuted)),
+                ),
+                ElevatedButton.icon(
+                  icon: const Icon(Icons.play_arrow_rounded, size: 20),
+                  label: const Text('Mulai Transkripsi 🚀', style: TextStyle(fontWeight: FontWeight.bold)),
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: AppTheme.transcribeColor,
+                    foregroundColor: Colors.white,
+                    padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                  ),
+                  onPressed: () {
+                    setState(() {
+                      _language = tempLanguage;
+                      _doTranslate = tempTranslate;
+                      _targetLang = tempTargetLang;
+                      _beamSize = tempBeamSize;
+                    });
+                    Navigator.pop(ctx, true);
+                  },
+                ),
+              ],
+            );
+          },
+        );
+      },
+    );
+
+    if (result == true) {
+      await _executeTranscribe();
     }
   }
 
@@ -828,6 +1058,396 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
     }
   }
 
+  void _showRangeSelectionDialog(TranscribeProvider prov) {
+    final allFiles = prov.displayFiles;
+    if (allFiles.isEmpty) {
+      UiUtils.showSnackBar(context, 'Tidak ada file audio dalam daftar saat ini');
+      return;
+    }
+
+    final controller = TextEditingController();
+    bool isExcludeMode = false;
+
+    showDialog(
+      context: context,
+      builder: (ctx) => StatefulBuilder(
+        builder: (context, setDialogState) {
+          return AlertDialog(
+            backgroundColor: AppTheme.cardDark,
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+            title: Row(
+              children: [
+                Icon(
+                  isExcludeMode ? Icons.remove_circle_outline_rounded : Icons.filter_list_rounded,
+                  color: isExcludeMode ? AppTheme.error : AppTheme.accentCyan,
+                ),
+                const SizedBox(width: 10),
+                Text(
+                  isExcludeMode ? '🚫 Mode Pengecualian' : '🔢 Pilih Rentang File',
+                  style: const TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold),
+                ),
+              ],
+            ),
+            content: SizedBox(
+              width: 440,
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    'Tersedia ${allFiles.length} file (No. 1 - ${allFiles.length}):',
+                    style: const TextStyle(color: AppTheme.textSecondary, fontSize: 13),
+                  ),
+                  const SizedBox(height: 12),
+                  Row(
+                    children: [
+                      Expanded(
+                        child: ChoiceChip(
+                          label: const Text('✅ Pilih File'),
+                          selected: !isExcludeMode,
+                          selectedColor: AppTheme.accentBlue,
+                          backgroundColor: AppTheme.backgroundDark,
+                          labelStyle: TextStyle(color: !isExcludeMode ? Colors.white : AppTheme.textMuted, fontSize: 12),
+                          onSelected: (s) => setDialogState(() => isExcludeMode = false),
+                        ),
+                      ),
+                      const SizedBox(width: 8),
+                      Expanded(
+                        child: ChoiceChip(
+                          label: const Text('🚫 Lewati (Exclude)'),
+                          selected: isExcludeMode,
+                          selectedColor: AppTheme.error,
+                          backgroundColor: AppTheme.backgroundDark,
+                          labelStyle: TextStyle(color: isExcludeMode ? Colors.white : AppTheme.textMuted, fontSize: 12),
+                          onSelected: (s) => setDialogState(() => isExcludeMode = true),
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 16),
+                  TextField(
+                    controller: controller,
+                    autofocus: true,
+                    style: const TextStyle(color: Colors.white),
+                    decoration: InputDecoration(
+                      labelText: isExcludeMode ? 'Nomor file yang di-skip' : 'Nomor / Rentang file',
+                      hintText: 'Contoh: 1-5, 8, 10-12 atau all',
+                      hintStyle: const TextStyle(color: AppTheme.textMuted),
+                      labelStyle: const TextStyle(color: AppTheme.accentCyan),
+                      filled: true,
+                      fillColor: AppTheme.backgroundDark,
+                      border: OutlineInputBorder(borderRadius: BorderRadius.circular(10)),
+                    ),
+                  ),
+                  const SizedBox(height: 10),
+                  const Text(
+                    '💡 Persis seperti run.bat: ketik rentang (2-6), pisah koma (1,3,5), atau "all".',
+                    style: TextStyle(color: AppTheme.textMuted, fontSize: 11),
+                  ),
+                ],
+              ),
+            ),
+            actions: [
+              TextButton(
+                onPressed: () => Navigator.pop(ctx),
+                child: const Text('Batal', style: TextStyle(color: AppTheme.textMuted)),
+              ),
+              ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: isExcludeMode ? AppTheme.error : AppTheme.accentCyan,
+                  foregroundColor: Colors.white,
+                ),
+                onPressed: () {
+                  final text = controller.text.trim();
+                  if (text.isEmpty) return;
+
+                  try {
+                    final indices = _parseSelectionNumbers(text, allFiles.length);
+                    setState(() {
+                      _isSelectionMode = true;
+                      if (isExcludeMode) {
+                        _selectedFiles.clear();
+                        for (int i = 0; i < allFiles.length; i++) {
+                          final oneBased = i + 1;
+                          if (!indices.contains(oneBased)) {
+                            final path = allFiles[i]['path'] as String? ?? allFiles[i]['name'] as String;
+                            _selectedFiles.add(path);
+                          }
+                        }
+                      } else {
+                        for (final num in indices) {
+                          final idx = num - 1;
+                          if (idx >= 0 && idx < allFiles.length) {
+                            final path = allFiles[idx]['path'] as String? ?? allFiles[idx]['name'] as String;
+                            _selectedFiles.add(path);
+                          }
+                        }
+                      }
+                      if (_selectedFiles.isEmpty && _selectedFolders.isEmpty) {
+                        _isSelectionMode = false;
+                      }
+                    });
+                    Navigator.pop(ctx);
+                    UiUtils.showSnackBar(
+                      context,
+                      isExcludeMode
+                          ? 'Dikecualikan ${indices.length} file. Total terpilih: ${_selectedFiles.length} file.'
+                          : 'Berhasil memilih ${_selectedFiles.length} file.',
+                    );
+                  } catch (e) {
+                    UiUtils.showSnackBar(context, 'Input tidak valid: $e', isError: true);
+                  }
+                },
+                child: Text(isExcludeMode ? 'Terapkan Exclude' : 'Pilih File'),
+              ),
+            ],
+          );
+        },
+      ),
+    );
+  }
+
+  Set<int> _parseSelectionNumbers(String text, int maxNumber) {
+    final cleaned = text.trim().toLowerCase();
+    if (cleaned == 'all') {
+      return List.generate(maxNumber, (i) => i + 1).toSet();
+    }
+
+    final Set<int> result = {};
+    for (var chunk in cleaned.split(',')) {
+      chunk = chunk.trim();
+      if (chunk.isEmpty) continue;
+      if (chunk.contains('-')) {
+        final parts = chunk.split('-');
+        if (parts.length != 2) throw Exception('Format rentang salah: $chunk');
+        int start = int.parse(parts[0].trim());
+        int end = int.parse(parts[1].trim());
+        if (start > end) {
+          final t = start;
+          start = end;
+          end = t;
+        }
+        for (int v = start; v <= end; v++) {
+          if (v >= 1 && v <= maxNumber) {
+            result.add(v);
+          }
+        }
+      } else {
+        final val = int.parse(chunk);
+        if (val >= 1 && val <= maxNumber) {
+          result.add(val);
+        }
+      }
+    }
+    return result;
+  }
+
+  void _showCustomServerFolderDialog(TranscribeProvider prov) {
+    final controller = TextEditingController(text: prov.customServerFolder ?? '');
+
+    showDialog(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        backgroundColor: AppTheme.cardDark,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+        title: const Row(
+          children: [
+            Icon(Icons.computer_rounded, color: AppTheme.accentCyan),
+            SizedBox(width: 10),
+            Text('Folder Server (Direct Local)', style: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold)),
+          ],
+        ),
+        content: SizedBox(
+          width: 460,
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const Text(
+                'Masukkan path folder di server/PC. Server akan langsung membaca file tanpa proses upload Wi-Fi (Nol Delay / Persis Opsi 4 run.bat).',
+                style: TextStyle(color: AppTheme.textSecondary, fontSize: 13),
+              ),
+              const SizedBox(height: 14),
+              TextField(
+                controller: controller,
+                autofocus: true,
+                style: const TextStyle(color: Colors.white),
+                decoration: InputDecoration(
+                  labelText: 'Path Folder Server',
+                  hintText: r'Contoh: D:\Rekaman\Audio atau D:\Videos',
+                  hintStyle: const TextStyle(color: AppTheme.textMuted),
+                  labelStyle: const TextStyle(color: AppTheme.accentCyan),
+                  filled: true,
+                  fillColor: AppTheme.backgroundDark,
+                  border: OutlineInputBorder(borderRadius: BorderRadius.circular(10)),
+                ),
+              ),
+              const SizedBox(height: 10),
+              const Text(
+                '💡 Tips: Anda bisa menyalin path dari Windows Explorer (Shift + Klik Kanan > Copy as path).',
+                style: TextStyle(color: AppTheme.textMuted, fontSize: 11),
+              ),
+            ],
+          ),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(ctx),
+            child: const Text('Batal', style: TextStyle(color: AppTheme.textMuted)),
+          ),
+          ElevatedButton.icon(
+            icon: const Icon(Icons.search_rounded, size: 18),
+            label: const Text('Scan Folder Server'),
+            style: ElevatedButton.styleFrom(
+              backgroundColor: AppTheme.accentCyan,
+              foregroundColor: Colors.white,
+            ),
+            onPressed: () async {
+              final path = controller.text.trim();
+              if (path.isEmpty) return;
+              Navigator.pop(ctx);
+
+              final success = await prov.scanCustomFolder(path);
+              if (!mounted) return;
+              if (success) {
+                _clearSelection();
+                UiUtils.showSnackBar(
+                  context,
+                  '✅ Ditemukan ${prov.customServerFiles.length} file di ${prov.customServerFolder}',
+                );
+              } else {
+                UiUtils.showSnackBar(
+                  context,
+                  prov.errorMessage ?? 'Gagal memindai folder server',
+                  isError: true,
+                );
+              }
+            },
+          ),
+        ],
+      ),
+    );
+  }
+
+  Future<void> _showSystemHealthDialog() async {
+    showDialog(
+      context: context,
+      barrierDismissible: true,
+      builder: (ctx) {
+        return FutureBuilder<Map<String, dynamic>>(
+          future: ApiService.systemHealthDetails(),
+          builder: (context, snapshot) {
+            return AlertDialog(
+              backgroundColor: AppTheme.cardDark,
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+              title: const Row(
+                children: [
+                  Icon(Icons.monitor_heart_rounded, color: AppTheme.transcribeColor, size: 24),
+                  SizedBox(width: 10),
+                  Text('Kesehatan Sistem & GPU', style: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold)),
+                ],
+              ),
+              content: SizedBox(
+                width: 440,
+                child: snapshot.connectionState == ConnectionState.waiting
+                    ? const Padding(
+                        padding: EdgeInsets.all(32),
+                        child: Center(child: CircularProgressIndicator(color: AppTheme.transcribeColor)),
+                      )
+                    : snapshot.hasError
+                        ? Padding(
+                            padding: const EdgeInsets.all(16),
+                            child: Text('❌ Gagal memeriksa: ${snapshot.error}', style: const TextStyle(color: AppTheme.error)),
+                          )
+                        : _buildHealthDetails(snapshot.data ?? {}),
+              ),
+              actions: [
+                TextButton(
+                  onPressed: () => Navigator.pop(ctx),
+                  child: const Text('Tutup', style: TextStyle(color: AppTheme.accentCyan)),
+                ),
+              ],
+            );
+          },
+        );
+      },
+    );
+  }
+
+  Widget _buildHealthDetails(Map<String, dynamic> data) {
+    final cuda = data['cuda_available'] == true;
+    final gpuName = data['gpu_name'] ?? 'CPU';
+    final vramTotal = data['vram_total_gb'] ?? 0.0;
+    final vramFree = data['vram_free_gb'] ?? 0.0;
+    final whisperExists = data['whisper_model_exists'] == true;
+    final whisperPath = data['whisper_model_path'] ?? '-';
+    final ffmpegOk = data['ffmpeg_ok'] == true;
+    final pyVer = data['python_version'] ?? '-';
+
+    return SingleChildScrollView(
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          _buildHealthTile(
+            icon: Icons.memory_rounded,
+            title: 'GPU Akselerasi (CUDA)',
+            subtitle: cuda ? '$gpuName\nVRAM Bebas: $vramFree GB / Total: $vramTotal GB' : 'CPU Mode (Tanpa Akselerasi CUDA)',
+            isOk: cuda,
+          ),
+          const SizedBox(height: 8),
+          _buildHealthTile(
+            icon: Icons.psychology_rounded,
+            title: 'Model Whisper (Offline)',
+            subtitle: whisperExists ? 'Tersedia: $whisperPath' : 'Model belum diunduh / Tidak ditemukan',
+            isOk: whisperExists,
+          ),
+          const SizedBox(height: 8),
+          _buildHealthTile(
+            icon: Icons.movie_creation_rounded,
+            title: 'FFmpeg Audio Converter',
+            subtitle: ffmpegOk ? 'Siap digunakan' : 'FFmpeg tidak ditemukan di server',
+            isOk: ffmpegOk,
+          ),
+          const SizedBox(height: 8),
+          _buildHealthTile(
+            icon: Icons.terminal_rounded,
+            title: 'Python Server',
+            subtitle: 'Python $pyVer | Server Port 5000',
+            isOk: true,
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildHealthTile({required IconData icon, required String title, required String subtitle, required bool isOk}) {
+    return Container(
+      padding: const EdgeInsets.all(12),
+      decoration: BoxDecoration(
+        color: AppTheme.backgroundDark,
+        borderRadius: BorderRadius.circular(10),
+        border: Border.all(color: isOk ? Colors.green.withOpacity(0.3) : AppTheme.error.withOpacity(0.3)),
+      ),
+      child: Row(
+        children: [
+          Icon(icon, color: isOk ? Colors.greenAccent : AppTheme.error, size: 22),
+          const SizedBox(width: 12),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(title, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 13)),
+                const SizedBox(height: 2),
+                Text(subtitle, style: const TextStyle(color: AppTheme.textSecondary, fontSize: 11)),
+              ],
+            ),
+          ),
+          Icon(isOk ? Icons.check_circle_rounded : Icons.cancel_rounded, color: isOk ? Colors.greenAccent : AppTheme.error, size: 18),
+        ],
+      ),
+    );
+  }
+
   Widget _buildSidebar({required bool isMobile}) {
     return TranscribeSidebar(
       isMobile: isMobile,
@@ -909,7 +1529,7 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
   void _selectAll(TranscribeProvider prov) {
     setState(() {
       _isSelectionMode = true;
-      for (final f in prov.audioFiles) {
+      for (final f in prov.displayFiles) {
         final path = f['path'] as String? ?? f['name'] as String;
         _selectedFiles.add(path);
       }
@@ -1202,6 +1822,17 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
               child: const Text('Pilih Semua', style: TextStyle(color: AppTheme.accentCyan, fontSize: 12)),
             ),
             const SizedBox(width: 4),
+            TextButton.icon(
+              icon: const Icon(Icons.tune_rounded, size: 14, color: AppTheme.accentCyan),
+              label: const Text('Rentang / Exclude', style: TextStyle(color: AppTheme.accentCyan, fontSize: 12)),
+              style: TextButton.styleFrom(
+                padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 4),
+                minimumSize: Size.zero,
+                tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+              ),
+              onPressed: () => _showRangeSelectionDialog(prov),
+            ),
+            const SizedBox(width: 4),
             TextButton(
               onPressed: _clearSelection,
               style: TextButton.styleFrom(
@@ -1240,7 +1871,19 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
                 onSortByChanged: (value) => sortProv.setSortBy(value),
                 onSortOrderChanged: (value) => sortProv.setSortOrder(value),
               ),
-              const SizedBox(width: 8),
+              const SizedBox(width: 4),
+              IconButton(
+                icon: const Icon(Icons.tune_rounded, color: AppTheme.accentCyan, size: 20),
+                onPressed: () => _showRangeSelectionDialog(context.read<TranscribeProvider>()),
+                tooltip: 'Pilih Rentang / Exclude (1-5, all, dll)',
+              ),
+              const SizedBox(width: 4),
+              IconButton(
+                icon: const Icon(Icons.monitor_heart_rounded, color: AppTheme.transcribeColor, size: 20),
+                onPressed: _showSystemHealthDialog,
+                tooltip: 'Kesehatan Sistem & GPU',
+              ),
+              const SizedBox(width: 4),
               IconButton(
                 icon: const Icon(Icons.refresh, color: AppTheme.accentBlue),
                 onPressed: () {
@@ -1316,7 +1959,19 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
               onSortByChanged: (value) => sortProv.setSortBy(value),
               onSortOrderChanged: (value) => sortProv.setSortOrder(value),
             ),
-            const SizedBox(width: 8),
+            const SizedBox(width: 4),
+            IconButton(
+              icon: const Icon(Icons.tune_rounded, color: AppTheme.accentCyan, size: 20),
+              onPressed: () => _showRangeSelectionDialog(context.read<TranscribeProvider>()),
+              tooltip: 'Pilih Rentang / Exclude (1-5, all, dll)',
+            ),
+            const SizedBox(width: 4),
+            IconButton(
+              icon: const Icon(Icons.monitor_heart_rounded, color: AppTheme.transcribeColor, size: 20),
+              onPressed: _showSystemHealthDialog,
+              tooltip: 'Kesehatan Sistem & GPU',
+            ),
+            const SizedBox(width: 4),
             IconButton(
               icon: const Icon(Icons.refresh, color: AppTheme.accentBlue),
               onPressed: () {
@@ -1333,6 +1988,53 @@ class _TranscribeScreenState extends State<TranscribeScreen> with SingleTickerPr
   }
 
   Widget _buildBreadcrumb(TranscribeProvider prov) {
+    if (prov.isCustomMode) {
+      return Container(
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+        decoration: BoxDecoration(
+          color: AppTheme.accentCyan.withOpacity(0.12),
+          borderRadius: BorderRadius.circular(12),
+          border: Border.all(color: AppTheme.accentCyan.withOpacity(0.4)),
+        ),
+        child: Row(
+          children: [
+            const Icon(Icons.computer_rounded, size: 18, color: AppTheme.accentCyan),
+            const SizedBox(width: 8),
+            Expanded(
+              child: Text(
+                'Folder Server: ${prov.customServerFolder} (${prov.displayFiles.length} file)',
+                style: const TextStyle(fontSize: 13, color: Colors.white, fontWeight: FontWeight.w600),
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+              ),
+            ),
+            const SizedBox(width: 8),
+            InkWell(
+              onTap: () {
+                _clearSelection();
+                prov.clearCustomMode();
+              },
+              child: Container(
+                padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                decoration: BoxDecoration(
+                  color: AppTheme.backgroundDark,
+                  borderRadius: BorderRadius.circular(8),
+                  border: Border.all(color: AppTheme.dividerColor),
+                ),
+                child: const Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Icon(Icons.arrow_back_rounded, size: 14, color: AppTheme.accentCyan),
+                    SizedBox(width: 4),
+                    Text('Kembali ke audio/', style: TextStyle(fontSize: 12, color: AppTheme.accentCyan)),
+                  ],
+                ),
+              ),
+            ),
+          ],
+        ),
+      );
+    }
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
       decoration: BoxDecoration(

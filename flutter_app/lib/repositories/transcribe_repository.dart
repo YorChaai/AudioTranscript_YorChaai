@@ -9,6 +9,14 @@ class TranscribeRepository {
     return await ApiService.listAudio(path: path);
   }
 
+  Future<Map<String, dynamic>> scanCustomPath(String folderPath) async {
+    return await ApiService.scanCustomPath(folderPath);
+  }
+
+  Future<Map<String, dynamic>> getSystemHealth() async {
+    return await ApiService.systemHealthDetails();
+  }
+
   Future<Map<String, dynamic>> uploadAudio(File file, {String path = '', void Function(int bytes, int totalBytes)? onProgress}) async {
     return await ApiService.uploadAudio(file, path: path, onProgress: onProgress);
   }

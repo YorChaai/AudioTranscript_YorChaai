@@ -63,7 +63,7 @@ class TranscribeSidebar extends StatelessWidget {
     final prov = context.watch<TranscribeProvider>();
     final langProv = context.watch<LanguageProvider>();
 
-    final selectedDetails = prov.audioFiles.where((f) {
+    final selectedDetails = prov.displayFiles.where((f) {
       final path = f['path'] as String? ?? f['name'] as String;
       return selectedFiles.contains(path);
     }).toList();

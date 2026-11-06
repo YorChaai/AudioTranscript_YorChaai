@@ -31,6 +31,18 @@ class TranscribeProvider extends ChangeNotifier {
   List<Map<String, dynamic>> _audioFiles = [];
   List<Map<String, dynamic>> get audioFiles => _audioFiles;
 
+  // Custom Server Folder (Direct Local Mode matching run.bat option 4)
+  String? _customServerFolder;
+  String? get customServerFolder => _customServerFolder;
+
+  List<Map<String, dynamic>> _customServerFiles = [];
+  List<Map<String, dynamic>> get customServerFiles => _customServerFiles;
+
+  bool _isCustomMode = false;
+  bool get isCustomMode => _isCustomMode;
+
+  List<Map<String, dynamic>> get displayFiles => _isCustomMode ? _customServerFiles : _audioFiles;
+
   List<Map<String, dynamic>> _folders = [];
   List<Map<String, dynamic>> get folders => _folders;
 
@@ -92,6 +104,41 @@ class TranscribeProvider extends ChangeNotifier {
       _isLoading = false;
       notifyListeners();
     }
+  }
+
+  Future<bool> scanCustomFolder(String folderPath) async {
+    _isLoading = true;
+    _errorMessage = null;
+    notifyListeners();
+
+    try {
+      final res = await _repository.scanCustomPath(folderPath);
+      if (res['status'] == 'ok') {
+        _customServerFolder = res['folder']?.toString() ?? folderPath;
+        _customServerFiles = List<Map<String, dynamic>>.from(res['files'] ?? []);
+        _isCustomMode = true;
+        _isLoading = false;
+        notifyListeners();
+        return true;
+      } else {
+        _errorMessage = res['error']?.toString() ?? 'Gagal memindai folder server';
+        _isLoading = false;
+        notifyListeners();
+        return false;
+      }
+    } catch (e) {
+      _errorMessage = e.toString();
+      _isLoading = false;
+      notifyListeners();
+      return false;
+    }
+  }
+
+  void clearCustomMode() {
+    _isCustomMode = false;
+    _customServerFolder = null;
+    _customServerFiles = [];
+    loadAudioFiles();
   }
 
   Future<bool> uploadMedia(File file, {bool isVideo = false}) async {

@@ -212,6 +212,63 @@ def health_check():
     )
 
 
+@app.route("/api/system/health-details", methods=["GET"])
+@rate_limited_endpoint
+def system_health_details():
+    """Cek kesehatan sistem lengkap (GPU, VRAM, Whisper Model, FFmpeg, Ollama) - sesuai menu [6] run.bat"""
+    python_ver = sys.version.split()[0]
+
+    cuda_available = False
+    gpu_name = "None (CPU Mode)"
+    vram_total_gb = 0.0
+    vram_free_gb = 0.0
+    try:
+        import torch
+        if torch.cuda.is_available():
+            cuda_available = True
+            gpu_name = torch.cuda.get_device_name(0)
+            total = torch.cuda.get_device_properties(0).total_memory
+            vram_total_gb = round(total / (1024**3), 2)
+            try:
+                free, _ = torch.cuda.mem_get_info()
+                vram_free_gb = round(free / (1024**3), 2)
+            except Exception:
+                vram_free_gb = vram_total_gb
+    except Exception as e:
+        gpu_name = f"Error: {e}"
+
+    model_path = os.environ.get("WHISPER_MODEL_PATH", "D:\\model\\large-v3")
+    model_exists = Path(model_path).exists()
+
+    ffmpeg_bin = _find_ffmpeg()
+    ffmpeg_ok = bool(ffmpeg_bin and Path(ffmpeg_bin).exists())
+
+    ollama_models = []
+    try:
+        from summarytext import get_installed_ollama_models
+        ollama_models = get_installed_ollama_models()
+    except Exception:
+        pass
+
+    return jsonify({
+        "status": "ok",
+        "python_version": python_ver,
+        "project_root": str(BASE_DIR),
+        "cuda_available": cuda_available,
+        "gpu_name": gpu_name,
+        "vram_total_gb": vram_total_gb,
+        "vram_free_gb": vram_free_gb,
+        "whisper_model_path": model_path,
+        "whisper_model_exists": model_exists,
+        "model_loaded": getattr(MLEngine, "_model", None) is not None,
+        "ffmpeg_ok": ffmpeg_ok,
+        "ffmpeg_path": ffmpeg_bin if ffmpeg_ok else None,
+        "ollama_ok": len(ollama_models) > 0,
+        "ollama_models_count": len(ollama_models),
+        "ollama_models": [m.get("name") for m in ollama_models]
+    })
+
+
 # ============================================================
 # AUDIO FILES
 # ============================================================
@@ -278,6 +335,83 @@ def list_audio():
             )
 
     return jsonify({"files": files, "folders": folders, "current_path": target_path})
+
+
+@app.route("/api/audio/scan-custom-path", methods=["POST"])
+@require_api_key
+def scan_custom_path():
+    """
+    Scan folder apapun di server untuk file audio/video (seperti Opsi 4 pada run.bat).
+    Otomatis menyaring media duplikat (mengutamakan audio daripada video).
+    Mengembalikan daftar file lengkap dengan durasi dan ukuran MB tanpa perlu upload!
+    """
+    from tinytag import TinyTag
+    from main import filter_duplicate_media
+
+    data = request.get_json() or {}
+    folder_str = data.get("folder_path") or data.get("path") or ""
+    folder_str = folder_str.strip().strip('"').strip("'")
+
+    if not folder_str:
+        return jsonify({"error": "Path folder tidak boleh kosong."}), 400
+
+    folder_path = Path(folder_str)
+    if not folder_path.exists():
+        return jsonify({"error": f"Folder tidak ditemukan di server: {folder_str}"}), 404
+    if not folder_path.is_dir():
+        return jsonify({"error": f"Path bukan sebuah folder: {folder_str}"}), 400
+
+    raw_files = []
+    for item in folder_path.rglob("*"):
+        if item.is_file() and item.suffix.lower() in MEDIA_EXTENSIONS:
+            raw_files.append(item)
+
+    filtered = filter_duplicate_media(raw_files)
+
+    files = []
+    audio_count = 0
+    video_count = 0
+
+    for f in filtered:
+        is_vid = f.suffix.lower() in VIDEO_EXTENSIONS
+        if is_vid:
+            video_count += 1
+        else:
+            audio_count += 1
+
+        rel_str = f.name
+        try:
+            rel_str = str(f.relative_to(folder_path))
+        except ValueError:
+            pass
+
+        file_info = {
+            "name": f.name,
+            "path": str(f.resolve()),
+            "relative_path": rel_str,
+            "is_video": is_vid,
+            "size": f.stat().st_size,
+            "size_mb": round(f.stat().st_size / (1024 * 1024), 2),
+            "modified": datetime.fromtimestamp(f.stat().st_mtime).isoformat(),
+        }
+
+        try:
+            tag = TinyTag.get(str(f))
+            if tag.duration is not None:
+                file_info["duration"] = round(tag.duration, 1)
+        except Exception:
+            pass
+
+        files.append(file_info)
+
+    return jsonify({
+        "status": "ok",
+        "folder": str(folder_path),
+        "total": len(files),
+        "audio_count": audio_count,
+        "video_count": video_count,
+        "files": files,
+    })
 
 
 @app.route("/api/folder/create", methods=["POST"])
@@ -789,12 +923,21 @@ def start_transcribe():
     valid_files = []
 
     for f in audio_files:
-        audio_path = BASE_DIR / f
+        f_p = Path(f)
+        audio_path = f_p if f_p.is_absolute() else (BASE_DIR / f)
         if not audio_path.exists():
             return jsonify({"error": f"File tidak ditemukan: {f}"}), 404
 
+        # Otomatis convert video ke MP3 sebelum transkripsi (seperti di run.bat)
+        if audio_path.suffix.lower() in VIDEO_EXTENSIONS:
+            try:
+                mp3_path, _ = _convert_video_to_mp3(audio_path)
+                audio_path = mp3_path
+            except Exception as e:
+                return jsonify({"error": f"Gagal konversi video {audio_path.name} ke MP3: {e}"}), 500
+
         job_id = str(uuid.uuid4())[:8]
-        db.create_job(job_id, "transcribe", f, language, do_translate, target_lang)
+        db.create_job(job_id, "transcribe", str(audio_path), language, do_translate, target_lang)
         job_ids.append(job_id)
         valid_files.append((job_id, audio_path))
 
